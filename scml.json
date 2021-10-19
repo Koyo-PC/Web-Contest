@@ -1,0 +1,12 @@
+{
+  "plugins": [
+    {
+      "name": "compile_md_in_pages",
+      "srcExtension": "md",
+      "targetExtension": "html",
+      "template": "assets/templates/md.html",
+      "parseText": "<!-- mdContent -->",
+      "targetText": "<Markdown src=\"#{PATH}\" prefix=\"\" suffix=\"\" />"
+    }
+  ]
+}
