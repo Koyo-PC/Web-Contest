@@ -1,0 +1,53 @@
+<!--suppress ALL -->
+<div class="atom_chara" style="width: {{ width }}; margin: 50px calc((100% - {{ width }}) / 2);">
+    <img class="atom_chara_img" src="{{ src }}" alt="元素キャラクターのアイコン" /> <!-- TODO 元素名を入れる JSON? -->
+    <div class="atom_chara_content">
+        {{ text }}
+    </div>
+</div>
+<style>
+    .atom_chara {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .atom_chara * {
+        box-sizing: border-box;
+    }
+
+    .atom_chara_img {
+        padding: 20px;
+        width: 128px;
+        height: 128px;
+        border-radius: 64px;
+        object-fit: cover;
+    }
+
+    .atom_chara_content {
+        --color: #e6f0f5;
+        position: relative;
+        margin-left: 20px;
+        padding: 20px;
+        border-radius: 30px;
+        flex-grow: 1;
+        background-color: var(--color);
+    }
+
+    .atom_chara_content:before {
+        --size: 40px;
+        content: "";
+        position: absolute;
+        top: 64px;
+        left: calc(-1 * var(--size));
+        margin-top: calc(-1 * var(--size) / 2);
+        border: calc(var(--size) / 2) solid transparent;
+        border-right: calc(var(--size) / 2) solid var(--color);
+    }
+</style>
+<!--suppress HtmlUnknownAttribute -->
+<script scml>
+    // noinspection BadExpressionStatementJS
+    (buildInfo, options) => {
+        console.log(options)
+        return {};
+    }
+</script>

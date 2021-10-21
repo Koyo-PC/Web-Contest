@@ -1,12 +1,6 @@
 {
   "name": "web-contest",
-  "description": "",
-  "version": "1.0.0",
-  "main": "index.js",
   "dependencies": {
-    "@zoi-dayo/scml": "1.1.1"
-  },
-  "devDependencies": {},
-  "author": "",
-  "license": "ISC"
+    "@zoi-dayo/scml": "1.1.3"
+  }
 }

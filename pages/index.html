@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!--suppress ALL -->
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -7,140 +8,155 @@
   <title>都市鉱山</title>
 </head>
 <body>
-  <!-- <MyComponent />
-  <Markdown src="@/test.md" />
-  <div class="nav">
-    <a href="#">Home</a>
-    <a href="#">資源の現状</a>
-    <a href="#">都市鉱山</a>
-    <a href="#">課題</a>
-    <a href="#">現在の取り組み</a>
-    <a href="#">解決策</a>
-    <a href="#">その他</a>
-  </div> -->
-  <Nav />
+<Nav />
+<AtomCharacter src="img/pic_03_m.jpg" text="テスト文章" width="75%"/>
+<AtomCharacter src="img/pic_03_m.jpg"
+               text="テスト文章ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ"
+               width="75%"/>
+○○○○だなあ
+<Markdown src="@/test.md"/>
+<!-- <MyComponent />
+<Markdown src="@/test.md" />
+<div class="nav">
+  <a href="#">Home</a>
+  <a href="#">資源の現状</a>
+  <a href="#">都市鉱山</a>
+  <a href="#">課題</a>
+  <a href="#">現在の取り組み</a>
+  <a href="#">解決策</a>
+  <a href="#">その他</a>
+</div> -->
+<Nav/>
 
-  <div class="main_image">
-    <span>右ポケットの中の資源</span>
+<div class="main_image">
+  <span>右ポケットの中の資源</span>
+</div>
+
+<div class="title_text">
+  私たちが普段使っているスマホ。<br>
+  それが2050年までに作れなくなっているかもしれません。<br>
+  それは「鉱物資源の枯渇」という問題にあります。<br>
+  需要の急増とともに、その消費が激しくなってきました。<br>
+  このままだと2050年までにスマホや家電などの電子機器の素材がなくなる恐れがあるのです。<br>
+  そこで、使われなくなったスマホなどの電子機器から金属を取り出して再利用する「都市鉱山」という考え方が生まれました。<br>
+  これには現在様々な課題がありますが、より活用されるようになると資源問題解決の１つの手がかりになるはずです。
+</div>
+
+<h2 class="site_map">サイトマップ</h2>
+
+<div class="text">
+  <div class="text_title">A.資源の現状</div>
+  <div class="textContent">
+    様々な科学技術分野で世界を牽引している日本。<br>
+    これは大量のレアメタルなどの鉱物資源によって支えられています。<br>
+    しかし、それらを手に入れることは決して容易なことではありません。
   </div>
+</div>
 
-  <div class="title_text">
-    私たちが普段使っているスマホ。<br>
-    それが2050年までに作れなくなっているかもしれません。<br>
-    それは「鉱物資源の枯渇」という問題にあります。<br>
-    需要の急増とともに、その消費が激しくなってきました。<br>
-    このままだと2050年までにスマホや家電などの電子機器の素材がなくなる恐れがあるのです。<br>
-    そこで、使われなくなったスマホなどの電子機器から金属を取り出して再利用する「都市鉱山」という考え方が生まれました。<br>
-    これには現在様々な課題がありますが、より活用されるようになると資源問題解決の１つの手がかりになるはずです。
+<div class="text">
+  <div class="text_title">A.資源の現状</div>
+  <div class="textContent">
+    様々な科学技術分野で世界を牽引している日本。<br>
+    これは大量のレアメタルなどの鉱物資源によって支えられています。<br>
+    しかし、それらを手に入れることは決して容易なことではありません。
   </div>
-
-  <h2 class="site_map">サイトマップ</h2>
-
-  <div class="text">
-    <div class="text_title">A.資源の現状</div>
-    <div class="textContent">
-      様々な科学技術分野で世界を牽引している日本。<br>
-      これは大量のレアメタルなどの鉱物資源によって支えられています。<br>
-      しかし、それらを手に入れることは決して容易なことではありません。
-    </div>
-  </div>
-
-  <div class="text">
-    <div class="text_title">A.資源の現状</div>
-    <div class="textContent">
-      様々な科学技術分野で世界を牽引している日本。<br>
-      これは大量のレアメタルなどの鉱物資源によって支えられています。<br>
-      しかし、それらを手に入れることは決して容易なことではありません。
-    </div>
-  </div>
+</div>
 
 </body>
 <style type="text/css">
-  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&dispaly=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&dispaly=swap');
 
-  html, body {
-    height: 100%;
-    width: 100%;
-    margin: unset;
-    font-family: serif;
-  }
-  .nav {
-    align-items: center;
-    background-color: #003b54;
-    height: 70px;
-    display: flex;
-  }
-  .nav > a {
-    color: #fbf8f8;
-    flex: none;
-    font-family: Lato;
-    font-size: 20px;
-    font-weight: 400;
-    height: auto;
-    line-height: 1.4;
-    margin: 0px 20px 0px;
-    text-align: center;
-    width: calc(100% / 7 - 40px);
-    max-width: calc(100% / 7 - 40px);
-    justify-content: center;
-    text-decoration: none;
-  }
-  .main_image {
-    text-align: center;
-    height: 500px;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    background-image: url(img/pic_03_m.jpg);
-    display: grid;
-    place-items: center;
-    font-family: Lato;
-    font-size: 72px;
-    color: #003b54;
-    opacity: 0.7;
-  }
-  .title_text {
-    width: 100%;
-    padding: 0 60px 0 60px;
-    box-sizing: border-box;
-    font-size: 20px;
-    letter-spacing: 0.2em;
-    line-height: 1.97;
-    font-family: Lato;
-    margin: 120px 0 200px 0;
-  }
-  .site_map {
-    display: block;
-    border-bottom: 3px solid #457834;
-    color: #457834;
-    font-family: 'Noto Sans JP';
-    font-size: 64px;
-    font-weight: 400;
-    height: 102px;
-    letter-spacing: 0.2em;
-    line-height: 1.4em;
-    margin: 0 auto 100px;
-    width: 70%;
-    text-align: center;
-  }
-  .text {
-    width: 90%;
-    margin: 0 auto 50px;
-  }
-  .text_title {
-    color: #003b54;
-    font-family: Lato;
-    font-size: 32px;
-    font-weight: 400;
-    height: 86px;
-    line-height: 1.4;
-  }
-  .textContent {
-    color: #003b54;
-    font-family: Lato;
-    font-size: 20px;
-    line-height: 1.4;
-    padding: 0px 0px 0px 40px;
-  }
+    html, body {
+        height: 100%;
+        width: 100%;
+        margin: unset;
+        font-family: serif;
+    }
+
+    .nav {
+        align-items: center;
+        background-color: #003b54;
+        height: 70px;
+        display: flex;
+    }
+
+    .nav > a {
+        color: #fbf8f8;
+        flex: none;
+        font-family: Lato;
+        font-size: 20px;
+        font-weight: 400;
+        height: auto;
+        line-height: 1.4;
+        margin: 0px 20px 0px;
+        text-align: center;
+        width: calc(100% / 7 - 40px);
+        max-width: calc(100% / 7 - 40px);
+        justify-content: center;
+        text-decoration: none;
+    }
+
+    .main_image {
+        text-align: center;
+        height: 500px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-image: url(img/pic_03_m.jpg);
+        display: grid;
+        place-items: center;
+        font-family: Lato;
+        font-size: 72px;
+        color: #003b54;
+        opacity: 0.7;
+    }
+
+    .title_text {
+        width: 100%;
+        padding: 0 60px 0 60px;
+        box-sizing: border-box;
+        font-size: 20px;
+        letter-spacing: 0.2em;
+        line-height: 1.97;
+        font-family: Lato;
+        margin: 120px 0 200px 0;
+    }
+
+    .site_map {
+        display: block;
+        border-bottom: 3px solid #457834;
+        color: #457834;
+        font-family: 'Noto Sans JP';
+        font-size: 64px;
+        font-weight: 400;
+        height: 102px;
+        letter-spacing: 0.2em;
+        line-height: 1.4em;
+        margin: 0 auto 100px;
+        width: 70%;
+        text-align: center;
+    }
+
+    .text {
+        width: 90%;
+        margin: 0 auto 50px;
+    }
+
+    .text_title {
+        color: #003b54;
+        font-family: Lato;
+        font-size: 32px;
+        font-weight: 400;
+        height: 86px;
+        line-height: 1.4;
+    }
+
+    .textContent {
+        color: #003b54;
+        font-family: Lato;
+        font-size: 20px;
+        line-height: 1.4;
+        padding: 0px 0px 0px 40px;
+    }
 </style>
 </html>
