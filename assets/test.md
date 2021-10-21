@@ -27,3 +27,5 @@ you can break line"
 
 ---
 
+<div style="background-color: red;width: 100px;height: 100px;"></div>
+<MyComponent />
