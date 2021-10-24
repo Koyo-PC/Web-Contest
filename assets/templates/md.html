@@ -7,14 +7,14 @@
   <title>都市鉱山</title>
 </head>
 <body>
-<Nav />
+<Nav/>
 <main>
   <!-- mdContent -->
 </main>
 </body>
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&dispaly=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&dispaly=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&dispaly=swap');
 
     * {
         font-family: 'Lato', 'Noto Sans JP', sans-serif;
@@ -53,7 +53,9 @@
         /*width: 80%;*/
         width: 100%;
         /*margin: 10vw auto 0;*/
+        margin: 10vh 0 0;
     }
+
     h2:before {
         counter-increment: h2_counter;
         content: counter(h2_counter) ". ";
@@ -88,9 +90,11 @@
         font-size: 17px;
         text-align: justify;
     }
+
     dl.Q_A > dt {
         margin-top: 50px;
     }
+
     dl.Q_A > dt:before {
         counter-increment: qa_counter;
         content: "Q" counter(qa_counter) ". ";
@@ -100,8 +104,14 @@
         margin: 0;
         margin-top: 20px;
     }
+
     dl.Q_A > dd:before {
         content: "A" counter(qa_counter) ". ";
+    }
+
+    span.weak {
+        color: dimgray;
+        font-weight: 400;
     }
 
     .sorry {
@@ -110,11 +120,24 @@
     }
 
     table {
-        border:1px solid black;
+        border: 1px solid black;
+        border-collapse: collapse;
+        margin: 0 auto;
     }
+
     tr, th, td {
-        border:1px solid black;
+        border: 1px solid black;
         padding: 5px 20px;
+    }
+
+    th {
+        background-color: #eee;
+        font-weight: 700;
+    }
+
+    .image_container {
+        display: flex;
+        justify-content: center;
     }
 </style>
 </html>
