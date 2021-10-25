@@ -1,10 +1,12 @@
 <figure class="image_box">
   <img class="image" src="{{ src }}" alt="{{ alt }}"/>
-  <figcaption class="image_caption">{{ caption }}</figcaption>
+  <div class="note">{{ note }}<a class="href" href="{{ href }}"></a></div>
+  <figcaption class="image_caption"> {{ caption }} </figcaption>
 </figure>
 <style>
     .image_box {
         display: inline-block;
+        position: relative;
         /*width: 100%;*/
     }
 
@@ -12,9 +14,32 @@
         max-width: 100%;
     }
 
+    .note {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        text-align: right;
+        font-size: 14px;
+        /*width:100%;*/
+    }
+    .note:not(:empty):before {
+        content: "(";
+    }
+    .note:not(:empty):after {
+        content: ")";
+    }
+
+    .href:not([href=""]):before {
+        content: "出典";
+        margin-left: .5em;
+    }
+
     .image_caption {
         display: block;
         width: 100%;
+        height: 1.5em;
         text-align: center;
+        vertical-align: bottom;
+        /*float: contour;*/
     }
 </style>

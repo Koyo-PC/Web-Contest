@@ -11,6 +11,7 @@
 <main>
   <!-- mdContent -->
 </main>
+<Footer/>
 </body>
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&dispaly=swap');
@@ -30,7 +31,7 @@
 
     main {
         /*border: 0.1px solid transparent;*/
-        padding: 50px 10%;
+        padding: 50px 10% 100px;
     }
 
     h1 {
@@ -88,8 +89,13 @@
 
     dl.Q_A {
         counter-reset: qa_counter;
-        font-size: 17px;
+        /*font-size: 17px;*/
         text-align: justify;
+
+
+        text-indent: 1em;
+        font-size: 20px;
+        line-height: 1.5;
     }
 
     dl.Q_A > dt {
@@ -99,6 +105,12 @@
     dl.Q_A > dt:before {
         counter-increment: qa_counter;
         content: "Q" counter(qa_counter) ". ";
+        display: block;
+        height: 100%;
+        font-weight: 700;
+        font-size: 20px;
+        margin-bottom: 5px;
+        margin-left: -20px;
     }
 
     dl.Q_A > dd {
@@ -108,6 +120,12 @@
 
     dl.Q_A > dd:before {
         content: "A" counter(qa_counter) ". ";
+        display: block;
+        height: 100%;
+        font-weight: 700;
+        font-size: 20px;
+        margin-bottom: 5px;
+        margin-left: -20px;
     }
 
     span.weak {

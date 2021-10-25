@@ -5,6 +5,7 @@
 	<a href="#">課題</a>
 	<a href="#">現在の取り組み</a>
 	<a href="#">解決策</a>
+	<a href="#">アクティビティ</a>
 	<a href="#">その他</a>
 </nav>
 <style>
@@ -15,17 +16,18 @@ nav {
   display: flex;
 }
 nav > a {
+	--count: 8;
 	color: #fbf8f8;
   flex: none;
-  font-family: Lato;
-  font-size: 20px;
+  font-family: Lato, sans-serif;
+  font-size: 18px;
   font-weight: 400;
   height: auto;
   line-height: 1.4;
-  margin: 0px 20px 0px;
+  margin: 0 20px 0;
   text-align: center;
-  width: calc(100% / 7 - 40px);
-  max-width: calc(100% / 7 - 40px);
+  width: calc(100% / var(--count) - 40px);
+  max-width: calc(100% / var(--count) - 40px);
   justify-content: center;
   text-decoration: none;
 }

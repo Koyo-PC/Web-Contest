@@ -1,0 +1,106 @@
+<footer>
+  <div class="footer_main">
+    <div class="footer_title">
+      右ポケットの中の資源を求めて
+    </div>
+    <div class="footer_copyright">
+      ©︎ 2021 甲陽学院高校 PC同好会
+    </div>
+    <div class="footer_license">
+      <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <img alt="クリエイティブ・コモンズ・ライセンス"
+             style="border-width:0"
+             src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png"/>
+      </a>
+      <br/>
+      この作品は
+      <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+        クリエイティブ・コモンズ 表示 - 非営利 - 改変禁止 4.0 国際ライセンス
+      </a>
+      の下に提供されています。
+    </div>
+  </div>
+  <div class="footer_sitemap">
+    <a href="index.html">Home</a>
+    <a href="resource.html">資源の現状</a>
+    <a href="#">都市鉱山</a>
+    <a href="#">課題</a>
+    <a href="#">現在の取り組み</a>
+    <a href="#">解決策</a>
+    <a href="#">アクティビティ</a>
+    <a href="#">その他</a>
+  </div>
+  <!--  ©︎甲陽学院PC部-->
+</footer>
+<style>
+    footer {
+        position: relative;
+        width: 100%;
+        height: 300px;
+        background-color: #003b54;
+
+        display: flex;
+
+        color: #fbf8f8;
+    }
+
+    .footer_main {
+        position: relative;
+        width: 50%;
+        height: 100%;
+        margin-left: 10%;
+    }
+
+    .footer_title {
+        margin: 60px 10% 0;
+        font-size: 25px;
+    }
+
+    .footer_copyright {
+        position: absolute;
+        bottom: 30%;
+        left: 10%;
+        color: darkgray;
+    }
+
+    .footer_license {
+        position: absolute;
+        bottom: 12%;
+        left: 10%;
+        color: darkgray;
+        font-size: 12px;
+    }
+    .footer_license a {
+        text-decoration: none;
+        color: #fbf8f8;
+    }
+    .footer_license a:hover {
+        color: lightgray;
+    }
+
+    .footer_sitemap {
+        position: absolute;
+        top: 10%;
+        /*display: flex;*/
+        width: 200px;
+        height: 80%;
+        right: 10%;
+    }
+
+    .footer_sitemap > a {
+        --category-count: 8;
+        display: grid;
+        /*place-items: center;*/
+        justify-content: start;
+        align-items: center;
+        text-decoration: none;
+        width: 100%;
+        height: calc(100% / var(--category-count));
+        color: #fbf8f8;
+        font-size: 14px;
+    }
+
+    .footer_sitemap > a:hover {
+        color: lightgray;
+    }
+</style>
