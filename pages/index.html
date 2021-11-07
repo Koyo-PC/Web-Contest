@@ -8,92 +8,70 @@
   <title>都市鉱山</title>
 </head>
 <body>
-<Nav />
-<AtomCharacter src="img/pic_03_m.jpg" text="テスト文章" width="75%"/>
-<AtomCharacter src="img/pic_03_m.jpg"
-               text="テスト文章ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ"
-               width="75%"/>
-○○○○だなあ
-<Markdown src="@/test.md"/>
-<!-- <MyComponent />
-<Markdown src="@/test.md" />
-<div class="nav">
-  <a href="#">Home</a>
-  <a href="#">資源の現状</a>
-  <a href="#">都市鉱山</a>
-  <a href="#">課題</a>
-  <a href="#">現在の取り組み</a>
-  <a href="#">解決策</a>
-  <a href="#">その他</a>
-</div> -->
 <Nav/>
-
 <div class="main_image">
   <span>右ポケットの中の資源</span>
 </div>
+<main>
 
-<div class="title_text">
-  私たちが普段使っているスマホ。<br>
-  それが2050年までに作れなくなっているかもしれません。<br>
-  それは「鉱物資源の枯渇」という問題にあります。<br>
-  需要の急増とともに、その消費が激しくなってきました。<br>
-  このままだと2050年までにスマホや家電などの電子機器の素材がなくなる恐れがあるのです。<br>
-  そこで、使われなくなったスマホなどの電子機器から金属を取り出して再利用する「都市鉱山」という考え方が生まれました。<br>
-  これには現在様々な課題がありますが、より活用されるようになると資源問題解決の１つの手がかりになるはずです。
-</div>
-
-<h2 class="site_map">サイトマップ</h2>
-
-<div class="text">
-  <div class="text_title">A.資源の現状</div>
-  <div class="textContent">
-    様々な科学技術分野で世界を牽引している日本。<br>
-    これは大量のレアメタルなどの鉱物資源によって支えられています。<br>
-    しかし、それらを手に入れることは決して容易なことではありません。
+  <div class="title_text">
+    私たちが普段使っているスマホ。<br>
+    それが2050年までに作れなくなっているかもしれません。<br>
+    それは「鉱物資源の枯渇」という問題にあります。<br>
+    需要の急増とともに、その消費が激しくなってきました。<br>
+    このままだと2050年までにスマホや家電などの電子機器の素材がなくなる恐れがあるのです。<br>
+    そこで、使われなくなったスマホなどの電子機器から金属を取り出して再利用する「都市鉱山」という考え方が生まれました。<br>
+    これには現在様々な課題がありますが、より活用されるようになると資源問題解決の１つの手がかりになるはずです。
   </div>
-</div>
 
-<div class="text">
-  <div class="text_title">A.資源の現状</div>
-  <div class="textContent">
-    様々な科学技術分野で世界を牽引している日本。<br>
-    これは大量のレアメタルなどの鉱物資源によって支えられています。<br>
-    しかし、それらを手に入れることは決して容易なことではありません。
+  <h2 class="site_map">サイトマップ</h2>
+
+  <div class="text">
+    <h3 class="text_title">A. 資源の現状</h3>
+    <div class="textContent">
+      様々な科学技術分野で世界を牽引している日本。<br>
+      これは大量のレアメタルなどの鉱物資源によって支えられています。<br>
+      しかし、それらを手に入れることは決して容易なことではありません。
+    </div>
+    <a href="">
+      <div class="link_button">
+        詳しく見る
+        <div class="img">
+          <img src="/svg/arrow.svg" />
+        </div>
+      </div>
+    </a>
   </div>
-</div>
+  <div class="text">
+    <h3 class="text_title">A. 資源の現状</h3>
+    <div class="textContent">
+      様々な科学技術分野で世界を牽引している日本。<br>
+      これは大量のレアメタルなどの鉱物資源によって支えられています。<br>
+      しかし、それらを手に入れることは決して容易なことではありません。
+    </div>
+    <a href="">
+      <div class="link_button">
+        詳しく見る
+        <div class="img">
+          <img src="/svg/arrow.svg" />
+        </div>
+      </div>
+    </a>
+  </div>
+</main>
+<Footer/>
 
 </body>
-<style type="text/css">
-    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&dispaly=swap');
+<style>
+    /*@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&dispaly=swap');*/
+    /*@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&dispaly=swap');*/
+    @import url("/css/base.css");
 
     html, body {
         height: 100%;
         width: 100%;
         margin: unset;
-        font-family: serif;
-    }
-
-    .nav {
-        align-items: center;
-        background-color: #003b54;
-        height: 70px;
-        display: flex;
-    }
-
-    .nav > a {
-        color: #fbf8f8;
-        flex: none;
-        font-family: Lato;
-        font-size: 20px;
-        font-weight: 400;
-        height: auto;
-        line-height: 1.4;
-        margin: 0px 20px 0px;
-        text-align: center;
-        width: calc(100% / 7 - 40px);
-        max-width: calc(100% / 7 - 40px);
-        justify-content: center;
-        text-decoration: none;
+        font-family: "Lato", "Noto Sans JP", serif;
     }
 
     .main_image {
@@ -105,28 +83,31 @@
         background-image: url(img/pic_03_m.jpg);
         display: grid;
         place-items: center;
-        font-family: Lato;
         font-size: 72px;
-        color: #003b54;
+        /*color: #003b54;*/
+        font-weight: 700;
+        color: #fff;
         opacity: 0.7;
+        text-shadow: 0 0 5px black;
+    }
+
+    main {
+        padding: 200px 10vw 100px;
     }
 
     .title_text {
         width: 100%;
-        padding: 0 60px 0 60px;
         box-sizing: border-box;
         font-size: 20px;
-        letter-spacing: 0.2em;
+        letter-spacing: 0.05em;
         line-height: 1.97;
-        font-family: Lato;
-        margin: 120px 0 200px 0;
+        margin-bottom: 200px;
     }
 
     .site_map {
         display: block;
         border-bottom: 3px solid #457834;
         color: #457834;
-        font-family: 'Noto Sans JP';
         font-size: 64px;
         font-weight: 400;
         height: 102px;
@@ -139,24 +120,60 @@
 
     .text {
         width: 90%;
-        margin: 0 auto 50px;
+        margin-bottom: 100px;
+        /*padding: 0 10vw 50px;*/
     }
 
     .text_title {
         color: #003b54;
-        font-family: Lato;
         font-size: 32px;
         font-weight: 400;
-        height: 86px;
-        line-height: 1.4;
+        height: 40px;
+        /*line-height: 1.4;*/
     }
 
     .textContent {
         color: #003b54;
-        font-family: Lato;
         font-size: 20px;
         line-height: 1.4;
         padding: 0px 0px 0px 40px;
+    }
+
+    .text > a {
+        text-decoration: none;
+        color: #003b54;
+        display: inline-block;
+        margin: 30px 0 0 40px;
+    }
+
+    .link_button {
+        position: relative;
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        width: 200px;
+        height: 50px;
+        border: 2px solid #003b54;
+        border-radius: 0;
+        background: #fff;
+        color: #003b54;
+        margin: 0;
+    }
+
+    .link_button > .img {
+        position: absolute;
+        top: 0;
+        right: 20px;
+        height: 100%;
+        display: grid;
+        align-items: center;
+        justify-items: end;
+    }
+    .link_button > .img > img {
+        display: block;
+        /*height: 50%;*/
+        width: 40%;
+        aspect-ratio: 1;
     }
 </style>
 </html>
