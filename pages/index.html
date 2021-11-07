@@ -26,38 +26,29 @@
 
   <h2 class="site_map">サイトマップ</h2>
 
-  <div class="text">
-    <h3 class="text_title">A. 資源の現状</h3>
-    <div class="textContent">
+  <PageDescriptionLink title="資源の現状" path="/present/" content="
       様々な科学技術分野で世界を牽引している日本。<br>
-      これは大量のレアメタルなどの鉱物資源によって支えられています。<br>
+      これは大量のレアメタルなどの金属資源によって支えられています。<br>
       しかし、それらを手に入れることは決して容易なことではありません。
-    </div>
-    <a href="">
-      <div class="link_button">
-        詳しく見る
-        <div class="img">
-          <img src="/svg/arrow.svg" />
-        </div>
-      </div>
-    </a>
-  </div>
-  <div class="text">
-    <h3 class="text_title">A. 資源の現状</h3>
-    <div class="textContent">
-      様々な科学技術分野で世界を牽引している日本。<br>
-      これは大量のレアメタルなどの鉱物資源によって支えられています。<br>
-      しかし、それらを手に入れることは決して容易なことではありません。
-    </div>
-    <a href="">
-      <div class="link_button">
-        詳しく見る
-        <div class="img">
-          <img src="/svg/arrow.svg" />
-        </div>
-      </div>
-    </a>
-  </div>
+  "/>
+  <PageDescriptionLink title="都市鉱山の意義" path="" content="
+      資源問題解決の1つの手がかりとなる都市鉱山。<br>
+      それは一体どのようなものなのでしょうか。
+  "/>
+  <PageDescriptionLink title="課題" path="" content="
+      都市鉱山にはメリットがたくさんある一方で、多くの課題を抱えています。
+  "/>
+  <PageDescriptionLink title="現在の取り組み" path="" content="
+      現在都市鉱山をもっと広めよう、活用しようとする人々が様々な取り組みを行っています。<br>
+      世界は資源問題解決に向けて歩み出しているのです。
+  "/>
+  <PageDescriptionLink title="アクティビティ" path="/activity/" content="
+      私たちの行った活動について紹介します。
+  "/>
+  <PageDescriptionLink title="解決策" path="/solve/" content="
+      都市鉱山について様々な取り組みが行われていますが、まだまだたくさん問題が残っているのは事実です。<br>
+      都市鉱山をもっと広めよう、活用しようという意識を全員が共有できることを願って、私たちの考える解決策をこのページに書いてみました。（これでいいんかな？）
+  "/>
 </main>
 <Footer/>
 
@@ -93,6 +84,7 @@
 
     main {
         padding: 200px 10vw 100px;
+        counter-reset: text_title_counter;
     }
 
     .title_text {
@@ -116,64 +108,6 @@
         margin: 0 auto 100px;
         width: 70%;
         text-align: center;
-    }
-
-    .text {
-        width: 90%;
-        margin-bottom: 100px;
-        /*padding: 0 10vw 50px;*/
-    }
-
-    .text_title {
-        color: #003b54;
-        font-size: 32px;
-        font-weight: 400;
-        height: 40px;
-        /*line-height: 1.4;*/
-    }
-
-    .textContent {
-        color: #003b54;
-        font-size: 20px;
-        line-height: 1.4;
-        padding: 0px 0px 0px 40px;
-    }
-
-    .text > a {
-        text-decoration: none;
-        color: #003b54;
-        display: inline-block;
-        margin: 30px 0 0 40px;
-    }
-
-    .link_button {
-        position: relative;
-        display: grid;
-        align-items: center;
-        justify-items: center;
-        width: 200px;
-        height: 50px;
-        border: 2px solid #003b54;
-        border-radius: 0;
-        background: #fff;
-        color: #003b54;
-        margin: 0;
-    }
-
-    .link_button > .img {
-        position: absolute;
-        top: 0;
-        right: 20px;
-        height: 100%;
-        display: grid;
-        align-items: center;
-        justify-items: end;
-    }
-    .link_button > .img > img {
-        display: block;
-        /*height: 50%;*/
-        width: 40%;
-        aspect-ratio: 1;
     }
 </style>
 </html>

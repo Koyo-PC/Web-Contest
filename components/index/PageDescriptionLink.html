@@ -1,0 +1,85 @@
+<div class="text">
+  <h3 class="text_title">{{ title }}</h3>
+  <div class="textContent">
+    {{ content }}
+  </div>
+  <a href="{{ path }}">
+    <div class="link_button">
+      詳しく見る
+      <div class="img">
+        <img src="/svg/arrow.svg"/>
+      </div>
+    </div>
+  </a>
+</div>
+<style>
+    .text {
+        width: 90%;
+        margin-bottom: 100px;
+        /*padding: 0 10vw 50px;*/
+    }
+
+    .text_title {
+        color: #003b54;
+        font-size: 32px;
+        font-weight: 400;
+        height: 40px;
+        /*line-height: 1.4;*/
+    }
+
+    .text_title:before {
+        counter-increment: text_title_counter;
+        content: counter(text_title_counter, upper-alpha) ". ";
+        color: #457834;
+    }
+
+    .textContent {
+        color: #003b54;
+        font-size: 20px;
+        line-height: 1.4;
+        padding: 0px 0px 0px 40px;
+    }
+
+    .text > a {
+        text-decoration: none;
+        color: #003b54;
+        display: inline-block;
+        margin: 30px 0 0 40px;
+    }
+
+    .link_button {
+        position: relative;
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        width: 200px;
+        height: 50px;
+        border: 2px solid #003b54;
+        border-radius: 0;
+        background-color: #fff;
+        color: #003b54;
+        margin: 0;
+        transition-duration: 0.2s;
+    }
+
+    .link_button:hover {
+        background-color: #ccc;
+    }
+
+    .link_button > .img {
+        position: absolute;
+        top: 0;
+        right: 20px;
+        height: 100%;
+        display: grid;
+        align-items: center;
+        justify-items: end;
+    }
+
+    .link_button > .img > img {
+        display: block;
+        /*height: 50%;*/
+        width: 40%;
+        aspect-ratio: 1;
+    }
+</style>
