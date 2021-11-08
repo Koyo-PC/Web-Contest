@@ -6,7 +6,7 @@
       "targetExtension": "html",
       "template": "assets/templates/md.html",
       "parseText": "<!-- mdContent -->",
-      "targetText": "<Markdown src=\"#{PATH}\" prefix=\"\" suffix=\"\" />"
+      "targetText": "<Markdown src=\"#{PATH}\" prefix=\"\" suffix=\"\"></Markdown>"
     }
   ]
 }

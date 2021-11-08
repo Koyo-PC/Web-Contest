@@ -1,11 +1,27 @@
 <aside class="column">
   <div class="column_title">{{ title }}</div>
-  <span>{{ content }}</span>
+  <div class="column_content">{{ content }}</div>
 </aside>
 <style>
-  .column {
-      background-color: #c4edb7;
-      border: 2px solid #c4edb7;
-      border-radius: 5px;
-  }
+    .column {
+        /*background-color: #c4edb7;*/
+        border: 3px solid #c4edb7;
+        border-radius: 5px;
+        padding: 15px;
+    }
+
+    .column_title {
+        margin: 10px 20px;
+        font-size: 20px;
+    }
+    .column_title:before {
+        content: "＜";
+    }
+    .column_title:after {
+        content: "＞";
+    }
+
+    .column_content {
+        margin: 10px 20px;
+    }
 </style>

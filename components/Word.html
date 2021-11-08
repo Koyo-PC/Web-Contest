@@ -1,8 +1,34 @@
 <span class="word"><a href="/words/#{{ content }}">{{ content }}</a></span>
 <style>
     .word, .word * {
+        position: relative;
         color: #000;
         font-weight: bold;
+        /*text-decoration: underline;*/
         text-decoration: none;
+        /*text-decoration-color: #fff0;*/
+        /*background: linear-gradient(transparent 80%, #0000 80%);*/
+        /*transition-delay: 5s;*/
+        transition-duration: .25s;
+        transition-property: border-bottom;
+        /*background-color: #c4edb7;*/
+        border-bottom: 0 solid #0000;
+        /*border-bottom: -5px;*/
+    }
+    /*.word *:before {*/
+    /*    content: "";*/
+    /*    display: inline-block;*/
+    /*    position: absolute;*/
+    /*    !*top: 0;*!*/
+    /*    !*left: 0;*!*/
+    /*    width: 100%;*/
+    /*    height: 100%;*/
+    /*    background-color: #c4edb7;*/
+    /*    !*text-decoration-color: #000;*!*/
+    /*    !*background: linear-gradient(transparent 80%, #c4edb7 80%);*!*/
+    /*}*/
+    .word *:hover {
+        border-bottom: 5px solid #c4edb7;
+        /*background: linear-gradient(transparent 80%, #c4edb7 80%);*/
     }
 </style>
