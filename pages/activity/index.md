@@ -36,7 +36,7 @@ PETECは、家電リサイクル法で指定されている4品目（テレビ�
 
 基本的にその台数は安定しているのですが、時には大幅に増えることもあるそうです。
 
-<AtomCharacter src="/img/atom_chara/Li.png" name="リチウムくん" text="
+<AtomCharacter src="../img/atom_chara/Li.png" name="リチウムくん" text="
 PETECの累計処理台数はなんと1650万台以上！！（10/14当時）一つ一つ手で行ってるってすごいね。
 "></AtomCharacter>
 
