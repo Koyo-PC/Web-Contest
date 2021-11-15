@@ -1,7 +1,6 @@
-<!-- Google spreadSheet 10/24の22:50分まで修正済 -->
-# E1. 工場見学
+# 工場見学
 
-10/14に兵庫県加東市にあるパナソニックエコテクノロジーセンター（PETEC）に見学に行きました。
+2021年10月14日に兵庫県加東市にあるパナソニックエコテクノロジーセンター（PETEC）に見学に行きました。
 <div class="image_container">
     <Image src="./img/petec_building.jpg" alt="パナソニック外から写真" note="メンバーが撮影"></Image>
     <Image src="./img/petec_pc_club.jpg" alt="甲陽PC部写真" note="メンバーが撮影"></Image>
