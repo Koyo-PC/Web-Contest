@@ -1,12 +1,16 @@
 <!--suppress ALL -->
 <div class="atom_chara" style="width: {{ width }}; margin: 50px calc((100% - {{ width }}) / 2);">
-    <img class="atom_chara_img" src="{{ src }}" alt="元素キャラクターのアイコン" /> <!-- TODO 元素名を入れる JSON? -->
+    <div class="atom_chara_icon">
+        <img class="atom_chara_img" src="[[ src ]]" alt="[[ name ]]のアイコン" />
+        <div class="atom_chara_name">[[ name ]]</div>
+    </div>
     <div class="atom_chara_content">
-        <span>{{ text }}</span>
+        <span>{{ content }}</span>
     </div>
 </div>
 <style>
     .atom_chara {
+        position: relative;
         --atom_chara_size: 150px;
         /*display: flex;*/
         /*flex-wrap: nowrap;*/
@@ -19,12 +23,32 @@
         box-sizing: border-box;
     }
 
-    .atom_chara_img {
+    .atom_chara_icon {
+        position: relative;
         margin: 0 20px;
+        width: var(--atom_chara_size);
+        height: calc(var(--atom_chara_size) + 50px);
+    }
+
+    .atom_chara_img {
+        /*margin: 0 20px 50px 20px;*/
         width: var(--atom_chara_size);
         height: var(--atom_chara_size);
         border-radius: calc(var(--atom_chara_size) / 2);
         object-fit: cover;
+    }
+
+    .atom_chara_name {
+        /*position: absolute;*/
+        display: grid;
+        place-items: center;
+        /*bottom: 0;*/
+        /*left: 0;*/
+        /*margin: 0 20px;*/
+        height: 50px;
+        width: var(--atom_chara_size);
+        text-align: center;
+        /*height: var(--atom_chara_size);*/
     }
 
     .atom_chara_content {
@@ -33,8 +57,10 @@
         display: grid;
         align-items: center;
         margin-left: 20px;
+        margin-bottom: 50px;
+        min-height: calc(30px + 20px * 2);
         padding: 20px;
-        border-radius: 30px;
+        border-radius: 20px;
         flex-grow: 1;
         background-color: var(--color);
         font-size: 18px;
@@ -55,7 +81,15 @@
 <script scml>
     // noinspection BadExpressionStatementJS
     (buildInfo, options) => {
-        console.log(options)
-        return {};
+        const imagePath = "/img/atom_chara/" + options["atom"] + ".png";
+        const nameDictionary = {
+            "Li": "リチウムくん",
+            "Sc": "スカンジウムおじさん",
+            "Y": "イットリウム博士",
+        }
+        return {
+            "src" : imagePath,
+            "name" : nameDictionary[options["atom"]],
+        };
     }
 </script>
