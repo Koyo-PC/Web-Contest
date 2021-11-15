@@ -1,34 +1,103 @@
-<span class="word"><a href="/words/#{{ content }}">{{ content }}</a></span>
+<span class="word"><span class="word_text">{{ content }}</span>
+  <span class="word_description_container">
+    <span class="word_description">
+      <span class="word_description_title">{{ content }}</span>
+      <span>[[ description ]]</span>
+    </span>
+  </span>
+</span>
 <style>
-    .word, .word * {
+    .word {
+        position: relative;
+    }
+    .word_text {
         position: relative;
         color: #000;
         font-weight: bold;
-        /*text-decoration: underline;*/
-        text-decoration: none;
-        /*text-decoration-color: #fff0;*/
-        /*background: linear-gradient(transparent 80%, #0000 80%);*/
-        /*transition-delay: 5s;*/
-        transition-duration: .25s;
-        transition-property: border-bottom;
-        /*background-color: #c4edb7;*/
-        border-bottom: 0 solid #0000;
-        /*border-bottom: -5px;*/
     }
-    /*.word *:before {*/
-    /*    content: "";*/
-    /*    display: inline-block;*/
-    /*    position: absolute;*/
-    /*    !*top: 0;*!*/
-    /*    !*left: 0;*!*/
-    /*    width: 100%;*/
-    /*    height: 100%;*/
-    /*    background-color: #c4edb7;*/
-    /*    !*text-decoration-color: #000;*!*/
-    /*    !*background: linear-gradient(transparent 80%, #c4edb7 80%);*!*/
-    /*}*/
-    .word *:hover {
-        border-bottom: 5px solid #c4edb7;
-        /*background: linear-gradient(transparent 80%, #c4edb7 80%);*/
+
+    .word_description_container {
+        position: absolute;
+
+        display: block;
+        /*display: none;*/
+        /*height: 200px;*/
+        height: 0;
+        width: 200px;
+        /*height: 0;*/
+        left: 0;
+        top: calc(100%);
+        opacity: 0;
+        filter: drop-shadow(0 0 4px #000);
+
+
+        /*background-color: #457834;*/
+
+        /*background-color: #0000;*/
+
+        /*transition-duration: .25s;*/
+        /*transition-property: height;*/
+
+        transition-duration: .25s;
+        transition-property: height, opacity;
+
+        overflow: hidden;
+    }
+    .word_description_container:before {
+        box-sizing: border-box;
+        content: "";
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        /*margin: 0 calc((100% - 20px) / 2);*/
+        top: -10px;
+        left: 10px;
+        border: solid 10px transparent;
+        border-bottom: solid 10px #eee;
+        /*background-color: #457834;*/
+    }
+    .word:hover .word_description_container, .word_description_container:hover {
+        /*display: block;*/
+        opacity: 100%;
+
+        height: 200px;
+
+        /*transition-duration: .25s;*/
+        /*transition-property: height;*/
+    }
+
+    .word_description {
+        box-sizing: border-box;
+        display: block;
+        margin-top: 10px;
+        background-color: #eee;
+        /*border: 1px solid #000;*/
+        height: calc(100% - 10px);
+        width: 100%;
+        text-align: left;
+        padding: 10px;
+    }
+    .word_description_title {
+        display: block;
+        font-size: 1.2em;
+        font-weight: 700;
+        text-indent: 0;
     }
 </style>
+<!--suppress HtmlUnknownAttribute -->
+<script scml>
+    // noinspection BadExpressionStatementJS
+    (buildInfo, options) => {
+        const wordDictionary = {
+            "レアメタル": "レアメタル",
+            "金属資源": "",
+            "ナノ磁石": "",
+            "超伝導転移温度": "",
+            "超伝導磁石": "",
+            "オイルショック": "",
+        }
+        return {
+            "description": wordDictionary[options.content],
+        };
+    }
+</script>
