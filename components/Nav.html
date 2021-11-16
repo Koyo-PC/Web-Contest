@@ -1,34 +1,80 @@
 <nav>
-	<a href="/">Home</a>
-	<a href="/present/">資源の現状</a>
-	<a href="/mean/">都市鉱山の意義</a>
-	<a href="/task/">課題</a>
-	<a href="/current_activity/">現在の取り組み</a>
-	<a href="#">解決策</a>
-	<a href="/activity/">アクティビティ</a>
-	<a href="#">その他</a>
+	<img src="/svg/ham.svg" alt="" id="ham" onclick="A()">
+	<div class="nav_link">
+		<a href="/">Home</a>
+		<a href="/present/">資源の現状</a>
+		<a href="/mean/">都市鉱山の意義</a>
+		<a href="/task/">課題</a>
+		<a href="/current_activity/">現在の取り組み</a>
+		<a href="#">解決策</a>
+		<a href="/activity/">アクティビティ</a>
+		<a href="#">その他</a>
+	</div>
 </nav>
 <style>
 nav {
 	align-items: center;
 	background-color: #003b54;
-  height: 70px;
-  display: flex;
+  	height: 70px;
+  	display: flex;
 }
-nav > a {
+nav > div > a {
 	--count: 8;
 	color: #fbf8f8;
-  flex: none;
-  font-family: Lato, sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-  height: auto;
-  line-height: 1.4;
-  margin: 0 20px 0;
-  text-align: center;
-  width: calc(100% / var(--count) - 40px);
-  max-width: calc(100% / var(--count) - 40px);
-  justify-content: center;
-  text-decoration: none;
+  	flex: none;
+  	font-family: Lato, sans-serif;
+  	font-size: 18px;
+  	font-weight: 400;
+  	height: auto;
+  	text-decoration: none;
+  	justify-content: center;
+}
+@media(orientation: landscape) {
+	nav > img {
+		display: none;
+	}
+	nav > div > a {
+		text-align: center;
+		line-height: 1.4;
+		width: calc(100% / var(--count) - 40px);
+		max-width: calc(100% / var(--count) - 40px);
+  		margin: 0 20px 0;
+	}
+}
+@media(orientation: portrait) {
+	nav > img {
+		position: absolute;
+		display: block;
+		height: 20px;
+		left: 40px;
+	}
+	nav > div {
+		position: absolute;
+		width: 100%;
+		top: 70px;
+		background-color: #003b54;
+		z-index: 100;
+		height: calc(100vh - 70px);
+		box-sizing: border-box;
+		padding: 5vh 0 0 0;
+	}
+	nav > div > a {
+		line-height: 60px;
+		display: block;
+		width: 80%;
+		margin: 0 auto 0;
+		height: 60px;
+		box-sizing: border-box;
+		padding: 0 0 0 60px;
+		border-top: 1px solid white;
+	}
 }
 </style>
+<script>
+	// window.onload = () => {
+		// document.getElementById('ham').onclick = () => {console.log('A')};
+	// }
+	function A() {
+		console.log('A');
+	}
+</script>
