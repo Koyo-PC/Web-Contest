@@ -12,6 +12,7 @@
         color: #000;
         font-weight: bold;
         white-space: nowrap;
+        z-index: 1;
     }
 
     .word_description_container {
@@ -34,6 +35,7 @@
         transition-property: height, opacity;
 
         overflow: hidden;
+        z-index: 50;
     }
     
     .word:hover .word_description_container, .word_description_container:hover {
@@ -89,13 +91,9 @@
         }
     }
     @media(orientation: portrait) {
-        .word_text {
-            z-index: 1;
-        }
         .word_description_container {
             left: 15%;
             right: 15%;
-            z-index: 50;
         }
 
         .word_description {
