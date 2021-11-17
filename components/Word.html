@@ -11,6 +11,7 @@
         position: relative;
         color: #000;
         font-weight: bold;
+        white-space: nowrap;
     }
 
     .word_description_container {
@@ -83,6 +84,9 @@
             border: solid 10px transparent;
             border-bottom: solid 10px #eee;
         }
+        .word_description {
+            margin-top: 10px;
+        }
     }
     @media(orientation: portrait) {
         .word_text {
@@ -92,6 +96,10 @@
             left: 15%;
             right: 15%;
             z-index: 50;
+        }
+
+        .word_description {
+            margin-top: 0;
         }
     }
 </style>
