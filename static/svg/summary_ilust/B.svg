@@ -1,28 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1500" height="600" viewBox="0, 0, 1500, 600">
+<svg xmlns="http://www.w3.org/2000/svg" id="main" xmlns:xlink="http://www.w3.org/1999/xlink" width="1500" height="600" viewBox="0, 0, 1500, 600">
 	<g transform="translate(-500 -400)">
 		<path d="M1480 469c0-2.76 2.24-5 5-5h310c2.76 0 5 2.24 5 5v110c0 2.76-2.24 5-5 5h-310c-2.76 0-5-2.24-5-5z" stroke="#000" stroke-width="2" fill-opacity="0"/>
 
 		<!-- 都市鉱山 -->
-		<a href="#">
+		<a href="#s_0">
 			<path d="M933.44 618.5c0-2.76 2.24-5 5-5h150c2.76 0 5 2.24 5 5v86c0 2.76-2.24 5-5 5h-150c-2.76 0-5-2.24-5-5z" stroke="#000" stroke-width="2" fill="#e3f7ff"/>
 			<text transform="matrix(1,0,0,1,980,665)">都市鉱山</text>
 		</a>
 
 		<!-- 資源の偏在による格差を解消 -->
-		<a href="#">
+		<a href="#s_1">
 			<path d="M560 618.5c0-2.76 2.24-5 5-5h150c2.76 0 5 2.24 5 5v86c0 2.76-2.24 5-5 5H565c-2.76 0-5-2.24-5-5z" stroke="#000" stroke-width="2" fill="#ffe3e9"/>
 			<text transform="matrix(1,0,0,1,575,655)">資源の偏在による</text>
 			<text transform="matrix(1,0,0,1,600,675)">格差を解消</text>
 		</a>
 
 		<!-- 日本の地位向上 -->
-		<a href="#">
+		<a href="#s_2">
 			<path d="M560 826.44c0-2.76 2.24-5 5-5h150c2.76 0 5 2.24 5 5v86c0 2.76-2.24 5-5 5H565c-2.76 0-5-2.24-5-5z" stroke="#000" stroke-width="2" fill="#ffe3e9"/>
 			<text transform="matrix(1,0,0,1,585,875)">日本の地位向上</text>
 		</a>
 
 		<!-- 廃電子機器にはレアメタル・メジャーメタルが含まれている -->
-		<a href="#">
+		<a href="#s_3">
 			<path d="M933.44 826.44c0-2.76 2.24-5 5-5h150c2.76 0 5 2.24 5 5v86c0 2.76-2.24 5-5 5h-150c-2.76 0-5-2.24-5-5z" stroke="#000" stroke-width="2" fill="#ebffe3"/>
 			<text transform="matrix(1,0,0,1,958,845)">廃電子機器には</text>
 			<text transform="matrix(1,0,0,1,970,865)">レアメタル・</text>
@@ -31,28 +31,28 @@
 		</a>
 
 		<!-- 先進国のゴミの自己管理促進 -->
-		<a href="#">
+		<a href="#s_4">
 			<path d="M1306.88 618.5c0-2.76 2.24-5 5-5h150c2.76 0 5 2.24 5 5v86c0 2.76-2.24 5-5 5h-150c-2.76 0-5-2.24-5-5z" stroke="#000" stroke-width="2" fill="#fff7e3"/>
 			<text transform="matrix(1,0,0,1,1330,655)">先進国のゴミの</text>
 			<text transform="matrix(1,0,0,1,1340,675)">自己管理促進</text>
 		</a>
 
 		<!-- 途上国での不法投棄問題の解決 -->
-		<a href="#">
+		<a href="#s_5">
 			<path d="M1680.32 618.5c0-2.76 2.24-5 5-5h150c2.76 0 5 2.24 5 5v86c0 2.76-2.24 5-5 5h-150c-2.76 0-5-2.24-5-5z" stroke="#000" stroke-width="2" fill="#fff7e3"/>
 			<text transform="matrix(1,0,0,1,1705,655)">途上国での不法</text>
 			<text transform="matrix(1,0,0,1,1705,675)">投棄問題の解決</text>
 		</a>
 
 		<!-- 住民の健康被害が減る -->
-		<a href="#">
+		<a href="#s_6">
 			<path d="M1680.32 826.44c0-2.76 2.24-5 5-5h150c2.76 0 5 2.24 5 5v86c0 2.76-2.24 5-5 5h-150c-2.76 0-5-2.24-5-5z" stroke="#000" stroke-width="2" fill="#fff7e3"/>
 			<text transform="matrix(1,0,0,1,1705,865)">住民の健康被害</text>
 			<text transform="matrix(1,0,0,1,1740,885)">が減る</text>
 		</a>
 
 		<!-- 途上国のより良い発展 -->
-		<a href="#">
+		<a href="#s_7">
 			<path d="M1306.88 826.44c0-2.76 2.24-5 5-5h150c2.76 0 5 2.24 5 5v86c0 2.76-2.24 5-5 5h-150c-2.76 0-5-2.24-5-5z" stroke="#000" stroke-width="2" fill="#fff7e3"/>
 			<text transform="matrix(1,0,0,1,1355,865)">途上国の</text>
 			<text transform="matrix(1,0,0,1,1340,885)">より良い発展</text>
@@ -76,7 +76,7 @@
 		<path d="M640 817.2l-4.64-14.26h9.28z" stroke="#000" stroke-width="2"/>
 
 		<!-- バーゼル条約 -->
-		<a href="#">
+		<a href="#s_8">
 			<path d="M1136 469c0-2.76 2.24-5 5-5h198c2.76 0 5 2.24 5 5v86c0 2.76-2.24 5-5 5h-50 l20 40 l-50 -40 h-118c-2.76 0-5-2.24-5-5z" stroke="#000" stroke-width="2" fill="#fff7e3"/>
 			<text transform="matrix(1,0,0,1,1190,515)">バーゼル条約</text>
 		</a>
