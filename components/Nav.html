@@ -1,16 +1,16 @@
 <nav>
 	<div class="button">
-		<img src="/svg/ham.svg" alt="" id="ham">
+		<img src="../svg/ham.svg" alt="" id="ham">
 	</div>
 	<div class="nav_link" id="navLink">
-		<a href="/">Home</a>
-		<a href="/present/">資源の現状</a>
-		<a href="/mean/">都市鉱山の意義</a>
-		<a href="/task/">課題</a>
-		<a href="/current_activity/">現在の取り組み</a>
+		<a href="../">Home</a>
+		<a href="../present/">資源の現状</a>
+		<a href="../mean/">都市鉱山の意義</a>
+		<a href="../task/">課題</a>
+		<a href="../current_activity/">現在の取り組み</a>
 		<a href="#">解決策</a>
-		<a href="/activity/">アクティビティ</a>
-		<a href="#">その他</a>
+		<a href="../activity/">アクティビティ</a>
+		<a href="../#">その他</a>
 	</div>
 </nav>
 <style>
@@ -42,7 +42,7 @@ nav {
 		height: 100%;
 		display: grid;
 		align-items: center;
-		font-size: 1.2vw;
+		font-size: min(1.2vw, 17px);
 	}
 	.button > img {
 		display: none;
@@ -81,7 +81,7 @@ nav {
 		height: calc(100vh - 70px);
 		box-sizing: border-box;
 		padding: 5vh 0 0 0;
-		transition: 1s ease;
+		transition:  .5s ease;
 	}
 	.nav_title {
 		position: absolute;
