@@ -1,0 +1,30 @@
+<iframe class="Gmap" src="[[ src ]]" allowfullscreen loading="lazy">
+</iframe>
+<script scml>
+    // noinspection BadExpressionStatementJS
+    (buildInfo, options) => {
+        return {
+            "src" : options["content"],
+        };
+    }
+</script>
+<style>
+	.Gmap {
+		border: 0;
+		display: block;
+	}
+	@media(orientation: landscape) {
+		.Gmap {
+			width: 600px;
+			height: 450px;
+			margin: 5vh auto;
+		}
+	}
+	@media(orientation: portrait) {
+		.Gmap {
+			width: 60vw;
+			height: 45vw;
+			margin: 5vh auto;
+		}
+	}
+</style>

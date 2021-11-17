@@ -81,7 +81,10 @@
 この船のうちの1つがカリンB号という名前だったことからココ事件はカリンB号事件とも呼ばれます。
 これに対してアフリカ統一機構（OAU）は、「1988年5月、アフリカにおいて核及び産業廃棄物を処分することがアフリカ人に対する犯罪である」とし、アフリカ大陸での有害物質投棄を全面的に禁止しました。
 <!-- (セベソとかココ、フランスの小さな村の場所を示す地図が欲しいかもby平川) -->
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8186223.336336996!2d1.2456114507078508!3d47.556733334363244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478696283ee17e55%3A0xc4b4a85a4124c95c!2z44Kk44K_44Oq44KiIOOAkjIwODIyIOODouODs-ODhOOCoeODu-OCqOODu-ODluODquOCouODs-ODhOOCoeecjCDjgrvjg7zjg7Tjgqfjgr4!5e0!3m2!1sja!2sjp!4v1636443227892!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+<GoogleMap>
+https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8186223.336336996!2d1.2456114507078508!3d47.556733334363244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478696283ee17e55%3A0xc4b4a85a4124c95c!2z44Kk44K_44Oq44KiIOOAkjIwODIyIOODouODs-ODhOOCoeODu-OCqOODu-ODluODquOCouODs-ODhOOCoeecjCDjgrvjg7zjg7Tjgqfjgr4!5e0!3m2!1sja!2sjp!4v1636443227892!5m2!1sja!2sjp
+</GoogleMap>
+
 <h1>日本編</h1>
 <h2>～豊島事件～</h2>
 不法投棄が原因の有害物質が問題になった場所は日本にも存在します。

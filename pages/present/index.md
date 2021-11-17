@@ -145,7 +145,7 @@
 ## まとめ図解
 
 <div class="image_container">
-  <svg  width="1000" height="750">
+  <svg viewBox="0, 0, 1000, 750" style="width:80vw; height:60vw; margin: 5vh 0 5vh;">
     <use xlink:href="../svg/summary_ilust/A.svg#main"></use>
   </svg>
 </div>

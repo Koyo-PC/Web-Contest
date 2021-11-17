@@ -75,7 +75,6 @@
         display: grid;
         place-items: center;
         font-size: 72px;
-        /*color: #003b54;*/
         font-weight: 700;
         color: #fff;
         opacity: 0.7;
@@ -93,21 +92,38 @@
         font-size: 20px;
         letter-spacing: 0.05em;
         line-height: 1.97;
-        margin-bottom: 200px;
     }
 
     .site_map {
         display: block;
         border-bottom: 3px solid #457834;
         color: #457834;
-        font-size: 64px;
         font-weight: 400;
-        height: 102px;
         letter-spacing: 0.1em;
         line-height: 1.4em;
+        text-align: center;
+    }
+
+    @media(orientation: landscape) {
+      .site_map {
+        font-size: 64px;
+        height: 102px;
         margin: 0 auto 100px;
         width: 70%;
-        text-align: center;
+      }
+      .title_text {
+        margin-bottom: 200px;
+      }
+    }
+    @media(orientation: portrait) {
+      .site_map {
+        font-size: 40px;
+        height: 60px;
+        margin: 0 auto 100px;
+      }
+      .title_text {
+        margin-bottom: 100px;
+      }
     }
 </style>
 </html>

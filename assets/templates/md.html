@@ -27,6 +27,7 @@
         height: 100%;
         width: 100%;
         margin: unset;
+        overflow-x: hidden;
     }
 
     main {
@@ -178,6 +179,12 @@
         font-style: italic;
     }
 
+    .table_figure {
+        max-width: 80vw;
+        overflow-x: auto;
+        margin: 0 0 5vh 0;
+    }
+
     table {
         border: 1px solid black;
         border-collapse: collapse;
@@ -187,6 +194,7 @@
     tr, th, td {
         border: 1px solid black;
         padding: 5px 20px;
+        white-space: nowrap;
     }
 
     th {
