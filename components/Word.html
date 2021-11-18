@@ -11,7 +11,7 @@
         position: relative;
         color: #000;
         font-weight: bold;
-        white-space: nowrap;
+        /*white-space: nowrap;*/
         z-index: 1;
     }
 
@@ -22,14 +22,6 @@
         height: 0;
         opacity: 0;
         filter: drop-shadow(0 0 4px #000);
-
-
-        /*background-color: #457834;*/
-
-        /*background-color: #0000;*/
-
-        /*transition-duration: .25s;*/
-        /*transition-property: height;*/
 
         transition-duration: .25s;
         transition-property: height, opacity;
@@ -91,11 +83,12 @@
         }
     }
     @media(orientation: portrait) {
-        .word_description_container {
-            left: 15%;
-            right: 15%;
+        .word {
+            position: relative;
         }
-
+        .word_description_container {
+            width: 70vw;
+        }
         .word_description {
             margin-top: 0;
         }
