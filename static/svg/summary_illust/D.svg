@@ -1,74 +1,74 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1300" height="600" viewBox="0, 0, 1300, 600">
+<svg xmlns="http://www.w3.org/2000/svg" id="main" xmlns:xlink="http://www.w3.org/1999/xlink" width="1300" height="600" viewBox="0, 0, 1300, 600">
 	<g transform="translate(-100 -400)">
 		<path d="M105 428.56c0-2.76 2.24-5 5-5h310c2.76 0 5 2.24 5 5v50c0 2.76-2.24 5-5 5H110c-2.76 0-5-2.24-5-5z" stroke="#000" stroke-width="2" fill-opacity="0"/>
 		<text transform="matrix(1,0,0,1,260,460)" font-size="20">因果関係</text>
 
 		<!-- リサイクルの促進 -->
-		<a href="#">
+		<a href="#s_5">
 			<path d="M855 618.5c0-2.76 2.24-5 5-5h150c2.76 0 5 2.24 5 5v86c0 2.76-2.24 5-5 5H860c-2.76 0-5-2.24-5-5z" stroke="#000" stroke-width="2" fill="#e3f7ff"/>
 			<text x="-5" y="55" transform="matrix(1,0,0,1,875,613.5)">リサイクルの促進</text>
 		</a>
 
 		<!-- 配達によるリサイクルサービス -->
-		<a href="#">
+		<a href="#s_9">
 			<path d="M855 826.44c0-2.76 2.24-5 5-5h150c2.76 0 5 2.24 5 5v86c0 2.76-2.24 5-5 5H860c-2.76 0-5-2.24-5-5z" stroke="#000" stroke-width="2" fill="#f4e3ff"/>
 			<text transform="matrix(1,0,0,1,895,865)">配達による</text>
 			<text transform="matrix(1,0,0,1,865,885)">リサイクルサービス</text>
 		</a>
 
 		<!-- シングルストリーム方式 -->
-		<a href="#">
+		<a href="#s_6">
 			<path d="M1230 618.5c0-2.76 2.24-5 5-5h150c2.76 0 5 2.24 5 5v86c0 2.76-2.24 5-5 5h-150c-2.76 0-5-2.24-5-5z" stroke="#000" stroke-width="2" fill="#fff7e3"/>
 			<text transform="matrix(1,0,0,1,1275,660)">シングル</text>
 			<text transform="matrix(1,0,0,1,1255,680)">ストリーム方式</text>
 		</a>
 
 		<!-- スケールメリット -->
-		<a href="#">
+		<a href="#s_8">
 			<path d="M480 826.44c0-2.76 2.24-5 5-5h150c2.76 0 5 2.24 5 5v86c0 2.76-2.24 5-5 5H485c-2.76 0-5-2.24-5-5z" stroke="#000" stroke-width="2" fill="#e3e5ff"/>
 			<text transform="matrix(1,0,0,1,497,875)">スケールメリット</text>
 		</a>
 
 		<!-- 前払い制度の導入 -->
-		<a href="#">
+		<a href="#s_0">
 			<path d="M480 410.56c0-2.76 2.24-5 5-5h150c2.76 0 5 2.24 5 5v86c0 2.76-2.24 5-5 5H485c-2.76 0-5-2.24-5-5z" stroke="#000" stroke-width="2" fill="#ffd4fa"/>
 			<text transform="matrix(1,0,0,1,500,460)">前払い制度の導入</text>
 		</a>
 
 		<!-- ORDEEの制定 -->
-		<a href="#">
+		<a href="#s_1">
 			<path d="M855 410.56c0-2.76 2.24-5 5-5h150c2.76 0 5 2.24 5 5v86c0 2.76-2.24 5-5 5H860c-2.76 0-5-2.24-5-5z" stroke="#000" stroke-width="2" fill="#ebffe3"/>
 			<text transform="matrix(1,0,0,1,885,460)">ORDEEの制定</text>
 		</a>
 
 		<!-- 回収ボックスの設置 -->
-		<a href="#">
+		<a href="#s_2">
 			<path d="M1230 410.56c0-2.76 2.24-5 5-5h150c2.76 0 5 2.24 5 5v86c0 2.76-2.24 5-5 5h-150c-2.76 0-5-2.24-5-5z" stroke="#000" stroke-width="2" fill="#e3e5ff"/>
 			<text transform="matrix(1,0,0,1,1240,460)">回収ボックスの設置</text>
 		</a>
 
 		<!-- みんなのメダルプロジェクト -->
-		<a href="#">
+		<a href="#s_10">
 			<path d="M1230 826.44c0-2.76 2.24-5 5-5h150c2.76 0 5 2.24 5 5v86c0 2.76-2.24 5-5 5h-150c-2.76 0-5-2.24-5-5z" stroke="#000" stroke-width="2" fill="#ffd4fa"/>
 			<text transform="matrix(1,0,0,1,1255,865)">みんなのメダル</text>
 			<text transform="matrix(1,0,0,1,1265,885)">プロジェクト</text>
 		</a>
 
 		<!-- 電子廃棄物の削減 -->
-		<a href="#">
+		<a href="#s_4">
 			<path d="M480 618.5c0-2.76 2.24-5 5-5h150c2.76 0 5 2.24 5 5v86c0 2.76-2.24 5-5 5H485c-2.76 0-5-2.24-5-5z" stroke="#000" stroke-width="2" fill="#ffe3e9"/>
 			<text transform="matrix(1,0,0,1,510,660)">電子廃棄物の</text>
 			<text transform="matrix(1,0,0,1,540,680)">削減</text>
 		</a>
 
 		<!-- リユースの促進 -->
-		<a href="#">
+		<a href="#s_3">
 			<path d="M105 618.5c0-2.76 2.24-5 5-5h150c2.76 0 5 2.24 5 5v86c0 2.76-2.24 5-5 5H110c-2.76 0-5-2.24-5-5z" stroke="#000" stroke-width="2" fill="#ffe3e9"/>
 			<text transform="matrix(1,0,0,1,130,665)">リユースの促進</text>
 		</a>
 
 		<!-- オンラインの修理サービス -->
-		<a href="#">
+		<a href="#s_7">
 			<path d="M105 826.44c0-2.76 2.24-5 5-5h150c2.76 0 5 2.24 5 5v86c0 2.76-2.24 5-5 5H110c-2.76 0-5-2.24-5-5z" stroke="#000" stroke-width="2" fill="#ffe3e9"/>
 			<text transform="matrix(1,0,0,1,135,865)">オンラインの</text>
 			<text transform="matrix(1,0,0,1,135,885)">修理サービス</text>
