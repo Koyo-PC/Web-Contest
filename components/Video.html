@@ -1,0 +1,18 @@
+<video class="video" src="{{ content }}" controls preload="metadata"></video>
+<style>
+    .video {
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+        margin: 0 auto;
+        box-shadow: black 0 0 5px;
+    }
+</style>
+<script scml>
+    // noinspection BadExpressionStatementJS
+    (buildInfo, options) => {
+        return {
+            "style" : options["height"] === undefined ? "" : "style=\"height: " + options["height"] + "\"",
+        };
+    }
+</script>
