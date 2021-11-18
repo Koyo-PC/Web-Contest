@@ -1,0 +1,26 @@
+<a href="./{{ content }}.html" class="activity_thumbnail" style="background-image: url(../img/activity/{{ content }}.jpg);">アンケート</a>
+<style>
+    .activity_thumbnail {
+        aspect-ratio: 1;
+        background-color: yellowgreen;
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        text-decoration: none;
+        color: black;
+    }
+
+    @media(orientation: landscape) {
+        .activity_thumbnail {
+            width: 45%;
+            margin: 2vh 2.5%;
+            font-size: 5vw;
+        }
+    }
+    @media(orientation: portrait) {
+        .activity_thumbnail {
+            width: 100%;
+            margin: 2vh 0;
+        }
+    }
+</style>

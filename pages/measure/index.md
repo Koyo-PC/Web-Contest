@@ -188,7 +188,13 @@ Appleには、<ForceText>新しい端末を購入するときに使い終わっ�
 東京2020オリンピック・パラリンピックの聖火リレートーチの素材の一部は、古くなった仮説住宅のアルミ廃材がリサイクルされたものなんだよ。みんな知ってた？
 </AtomCharacter>
 
-## まとめ図解
+## まとめ図解(リンクまだ)
+
+<div class="image_container">
+  <svg viewBox="0, 0, 1200, 700" style="width:80vw; height:40vw; margin: 5vh 0 5vh;">
+    <use xlink:href="../svg/summary_illust/D.svg#main"></use>
+  </svg>
+</div>
 
 世界各国の取り組みを見てみると、その国の特色というものがなんとなく表れているように感じませんか？
 がんばれニッポン！がんばれセカイ！！
