@@ -1,7 +1,7 @@
-# 携帯解体ショー
+# 携帯分解
 
 <NoIndent>
-ガラケーとスマホで比較
+ガラケーとスマホで比較<br>
 10/22（金）にメンバー1人の家にあったスマートフォンとガラケーを1台づつ分解しました。
 </NoIndent>
 
@@ -14,12 +14,18 @@
 ## スマートフォン
 
 今回分解するスマホは003SHといって、株式会社SHARPが2010年に製造したものです。
+
+<div class="image_container">
+    <Image src="../img/activity/disassembly/S_1.jpg" height="20vw"></Image>
+    <Image src="../img/activity/disassembly/S_2.jpg" height="20vw"></Image>
+</div>
+
 このような古い機器は現在のものよりも部品が外しやすく、分解しやすい傾向があります。
 このスマホも同様に、非常に分解しやすい構造になっていました。
 まず電源端子のあたりから爪を入れ、裏の板を外します。
 
 <div class="image_container">
-    <Image src="../img/activity/disassembly/1.00.23.jpg"></Image>
+    <Image src="../img/activity/disassembly/1.00.23.jpg" height="40vw"></Image>
 </div>
 
 ここからSIMカードやSDカードを入れたり、電池を入れ替えたりすることができるので、ここは開けたことのある人もいるかも知れません。
@@ -28,14 +34,14 @@
 すると基板が見えます。
 
 <div class="image_container">
-    <Image src="../img/activity/disassembly/1.05.56.jpg"></Image>
+    <Image src="../img/activity/disassembly/1.05.56.jpg" height="40vw"></Image>
 </div>
 
 取り外した裏のパネルの方にもスピーカーや振動モーターなどいくつか部品があるので、外しておきます。
 基板の縁を止めているプラスチックの小さな爪を潰して外せば、基板を外すことができます。
 
 <div class="image_container">
-    <Image src="../img/activity/disassembly/0.00.00.jpg"></Image>
+    <Image src="../img/activity/disassembly/1.12.48.jpg" height="40vw"></Image>
 </div>
 
 ディスプレイと繋げているフレキシブルケーブルは、端のコネクタから外せます。
@@ -43,7 +49,8 @@
 基板についている銀色の部品は放熱板なので、下に爪を入れて剥がすことができます。
 
 <div class="image_container">
-    <Image src="../img/activity/disassembly/0.00.00.jpg"></Image>
+    <Image src="../img/activity/disassembly/1.14.32.jpg" height="20vw"></Image>
+    <Image src="../img/activity/disassembly/1.17.06.jpg" height="20vw"></Image>
 </div>
 
 放熱版の下にはよく熱を出すICチップが配置されています。
@@ -55,20 +62,26 @@
 結果、光を複雑に反射させるようなフィルムが何枚かと、液晶の本体が取り出せました。
 
 <div class="image_container">
-    <Image src="../img/activity/disassembly/0.00.00.jpg"></Image>
+    <Image src="../img/activity/disassembly/2.09.46.jpg" height="40vw"></Image>
 </div>
 
 これでスマホの分解は終了です。
 最終的に下の写真のような部品に分解することができました。
 
 <div class="image_container">
-    <Image src="../img/activity/disassembly/0.00.00.jpg"></Image>
+    <Image src="../img/activity/disassembly/S.jpg" height="40vw"></Image>
 </div>
 
 ## ガラケー
 
 ガラケーの分解もスマホの分解と似ています（どちらも作られた年代が随分昔であるというのもありますが）。
 今回分解するガラケーはV603SHといって、株式会社SHARPが2005年に作ったガラケーです。
+
+<div class="image_container">
+    <Image src="../img/activity/disassembly/G_1.jpg" height="30vw"></Image>
+    <Image src="../img/activity/disassembly/G_2.jpg" height="30vw"></Image>
+</div>
+
 ガラケーはスマホとは違い、多くの隠しネジが使用されています。
 隠しネジはシールの裏に隠れているので、見えているネジ以外にも、ネジが隠れていそうなシールを見つけ、剥がさなければいけません。
 またガラケーは可動部品としてヒンジが使われているのですが、部品がネジでそのヒンジにつながっていて、外すのが難しい場合があります。
@@ -76,7 +89,7 @@
 まず電池やSIMカードを外しておきます。
 
 <div class="image_container">
-    <Image src="../img/activity/disassembly/0.00.00.jpg"></Image>
+    <Image src="../img/activity/disassembly/5.00.08.jpg" height="40vw"></Image>
 </div>
 
 そして次に隠しネジを外さないといけません。
@@ -85,29 +98,29 @@
 画面の横にある銀色の部品も外れました。
 
 <div class="image_container">
-    <Image src="../img/activity/disassembly/0.00.00.jpg"></Image>
+    <Image src="../img/activity/disassembly/5.04.32.jpg" height="40vw"></Image>
 </div>
 
 画面上部にもネジがあったので外すと、画面の本体を外すことができます。
 ここで基盤についているネジを外すことで、本体が上半分と下半分の2つに分かれます。
-※この時点で上半分は画面が外されているのでただの基盤に見えます。
+※この時点で上半分は画面が外されているのでただの基板に見えます。
 
 <div class="image_container">
-    <Image src="../img/activity/disassembly/0.00.00.jpg"></Image>
+    <Image src="../img/activity/disassembly/5.09.04_L.jpg" height="40vw"></Image>
 </div>
 
 画面の基板にも多くのフレキシブルケーブルが使われているので、一つ一つ外すと、基盤が取り外せます。
 基板の裏には、スマホの時と同じような液晶ユニットがあり、同じようにフィルムや液晶に分解できました。
 
 <div class="image_container">
-    <Image src="../img/activity/disassembly/0.00.00.jpg"></Image>
+    <Image src="../img/activity/disassembly/5.12.18_L.jpg" height="40vw"></Image>
 </div>
 
 続いて、下半分の分解に移ります。
 ネジを外すことで、キーボードの部分が半分に割れます。
 
 <div class="image_container">
-    <Image src="../img/activity/disassembly/0.00.00.jpg"></Image>
+    <Image src="../img/activity/disassembly/5.09.04_R.jpg" height="40vw"></Image>
 </div>
 
 ここにも基板があり、基盤とプラスチックの間からキーボードに使われていたゴムのフィルムが取り出せます。
@@ -116,22 +129,24 @@
 これもフレキシブルケーブルを外していくことで、基盤とヒンジを分離できます。
 
 <div class="image_container">
-    <Image src="../img/activity/disassembly/0.00.00.jpg"></Image>
+    <Image src="../img/activity/disassembly/5.19.23_R.jpg" height="40vw"></Image>
 </div>
 
 ここにもやっぱりネジが隠されているので、それを外してプラスチック部分を取り外します。
 これで金属の塊のようなヒンジを取り外すことができます。
 
 <div class="image_container">
-    <Image src="../img/activity/disassembly/0.00.00.jpg"></Image>
+    <Image src="../img/activity/disassembly/5.26.13_R.jpg" height="40vw"></Image>
 </div>
 
 これでガラケーの分解が終了です。
 最終的に下の写真のような部品が取り出せました。
 
 <div class="image_container">
-    <Image src="../img/activity/disassembly/0.00.00.jpg"></Image>
+    <Image src="../img/activity/disassembly/G.jpg" height="40vw"></Image>
 </div>
+
+## 動画
 
 スマートフォン解体の動画です。
 文章読むのがめんどくさい！という方におススメです。
