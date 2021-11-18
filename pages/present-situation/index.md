@@ -10,9 +10,8 @@
 
 みなさんは金や銀などの金属資源にどのようなイメージを持っていますか？
 
-<!-- イラスト(丸がいっぱいあるやつ) -->
 <div class="image_container">
-    <Image src="./illust/_.png" alt="イラストの説明" caption="説明"></Image>
+    <Image src="../svg/description/A8.svg" alt="金・銀へのイメージ"></Image>
 </div>
 
 上の図のように様々なイメージがあると思いますが、金属資源にあまり馴染みがないという方が多いのではないでしょうか。<br>
@@ -39,7 +38,7 @@
 下のグラフは世界の主要な金属の生産量の推移を表すものです。
 
 <div class="image_container">
-    <Image src="." alt="主要な金属の生産量の推移" caption="上:メジャーメタル 下:レアメタル"></Image>
+    <Image src="../assets/book/book_p7.jpg" alt="主要な金属の生産量の推移" caption="上:メジャーメタル 下:レアメタル" height="40vw"></Image>
 </div>
 
 <!--（メモ：上がメジャーメタルで、下がレアメタルという説明をグラフ周辺に） -->
@@ -61,13 +60,23 @@
 
 下のグラフを見てください。
 
+<!--
 <div class="image_container">
-    <Image src="." alt="金
-属生産のシェア上位3か国が占める比率"></Image>
+    <Image src="../assets/book/book_p17.jpg" alt="金属生産のシェア上位3か国が占める比率" height="40vw"></Image>
+</div><SummaryLink>1</SummaryLink>
+-->
+
+<div class="image_container">
+    <Image src="http://susdi.org/wp/data/wp-content/uploads/sites/8/2017/09/7d2a8a5d380f463388d1c8d4512bef57.jpg"
+        alt="金属生産のシェア上位3か国が占める比率"
+        note="<InlineImage>http://susdi.org/wp/data/wp-content/uploads/sites/8/2017/08/46e68cc8af75454ff9cc3fd767a83b0e-300x109.png</InlineImage>より引用"
+        href="http://susdi.org/wp/data/post-61/"
+        height="40vw"
+    ></Image>
 </div><SummaryLink>1</SummaryLink>
 
 これは金属生産のシェア上位3か国が占める比率を表したものです。
-なんと全てにおいて上位3か国が生産シェア80%以上を占めていますね。
+なんとほとんどの元素において上位3か国が生産シェア70%以上を占めていますね。
 しかしこれはほんの一部に過ぎず、<Word>レアメタル</Word>の大半が全埋蔵量の半分以上を上位3か国によって占められているのです。<SummaryLink>8</SummaryLink>
 必要な<Word>金属資源</Word>のほぼすべてを海外から輸入している日本は、この金属資源の偏在のために1か国に依存する割合が大きいため、その国の都合によって大きな影響を受けるというのが現状です。
 ただ金を払えば金属資源が得られるという世界ではありません。
@@ -82,11 +91,13 @@
 
 ## 経済発展の裏側
 
+<p>
 <Word>金属資源</Word>は自動車やパソコン、スマホなどの最新技術に欠かせません。
 そのため、政治面はともかく技術面が発展している国が増えている今、入手困難な資源や需要が急増した資源を求める営みによって生態系が乱されたり、村々が破壊されたりすることがあります。
 よく中東で石油を求めて紛争が勃発し、犠牲者が多数出た...というニュースは耳にしますよね。
 実は<ForceText>金属資源をめぐる戦争</ForceText>というものもあり、それによって多数の人が命を落としました。
 この章ではそうした戦地の代表例であるコンゴ民主共和国について少し紹介したいと思います。
+</p>
 
 アフリカ大陸中央部に位置するコンゴ民主共和国は金属資源が豊富で、収入源の多くを資源の輸出に頼ってきました。
 そんなコンゴ民主共和国では２回大きな紛争がありました。
