@@ -6,7 +6,12 @@
 
 「資源の現状」「都市鉱山の意義」を読まれた方は都市鉱山の重要性がお分かりになったかと思います。
 <SummaryLink>0</SummaryLink>しかし日本では<ForceText>都市鉱山の考え方に基づく小型家電の回収はなかなか進んでいません。</ForceText>
-実際日本は「2018年までに小型家電回収量を14万トンにする」という目標を掲げましたが、達成できませんでした。（グラフ）<!-- グラフ貼る -->
+実際日本は「2018年までに小型家電回収量を14万トンにする」という目標を掲げましたが、達成できませんでした。
+
+<div class="image_container">
+    <Image src="../assets/meti/20200807_01.png" height="40vw"></Image>
+</div>
+
 その理由の一つに<ForceText>知名度の低さ</ForceText>が挙げられます。
 私たちが実施した校内アンケートでは、都市鉱山について「詳しく知っている」または「少し知っている」と回答した人は35.2%でした。
 都市鉱山がまだまだ広まっていないことを実感しました。
@@ -48,7 +53,16 @@
 都市鉱山は廃電子機器に含まれる<Word>レアメタル</Word>や<Word>ベースメタル</Word>を資源として捉えるものです。
 しかし、廃電子機器はレアメタルやベースメタルだけで出来ているわけではありません。
 <SummaryLink>3</SummaryLink>実は<ForceText>廃電子機器の構成成分の大部分がプラスチックで占められているのです。</ForceText>
-<!-- （平面円グラフ） -->
+
+<div class="image_container">
+    <Image src="http://susdi.org/wp/data/wp-content/uploads/sites/8/2017/09/40dcbe9d88c96297b642179a653642d8.jpg"
+        alt="携帯の成分構成"
+        note="<InlineImage>http://susdi.org/wp/data/wp-content/uploads/sites/8/2017/08/46e68cc8af75454ff9cc3fd767a83b0e-300x109.png</InlineImage>より引用"
+        href="http://susdi.org/wp/data/post-38/"
+        height="40vw"
+    ></Image>
+</div>
+
 このプラスチックがリサイクルにおける大きな問題となっています。
 プラスチックのリサイクル率は世界平均で9%と低く、ほとんどが廃棄物として処理されるか、または<Word>サーマルリサイクル</Word>に回されています。
 廃棄物として処理するにはそれなりのコストがかかる上、サーマルリサイクルに関しても排ガスや発がん性物質などの発生への懸念からあまり推奨されていません。
