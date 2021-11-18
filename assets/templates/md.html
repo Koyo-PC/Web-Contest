@@ -212,5 +212,37 @@
         width: 100%;
         text-align: center;
     }
+
+    .image_links {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 10vh 0 0 0;
+    }
+    .img_link {
+        display: block;
+        aspect-ratio: 1;
+        background-color: yellowgreen;
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        text-decoration: none;
+        color: black;
+    }
+
+    @media(orientation: landscape) {
+        .img_link {
+            width: 45%;
+            margin: 2vh 2.5%;
+            font-size: 5vw;
+        }
+    }
+    @media(orientation: portrait) {
+        .img_link {
+            width: 100%;
+            margin: 2vh 0;
+        }
+    }
 </style>
 </html>
