@@ -9,5 +9,5 @@
     <ActivityThumbnail id="recycle-box">回収ボックス</ActivityThumbnail>
     <ActivityThumbnail id="interview">インタビュー</ActivityThumbnail>
     <ActivityThumbnail id="petec">工場見学</ActivityThumbnail>
-    <ActivityThumbnail id="disassembly">スマホ解体</ActivityThumbnail>
+    <ActivityThumbnail id="disassembly">携帯解体</ActivityThumbnail>
 </div>
