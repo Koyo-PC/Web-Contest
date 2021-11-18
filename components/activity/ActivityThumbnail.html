@@ -1,4 +1,4 @@
-<a href="./{{ content }}.html" class="activity_thumbnail" style="background-image: url(../img/activity/{{ content }}.jpg);">アンケート</a>
+<a href="./{{ id }}.html" class="activity_thumbnail" style="background-image: url(../img/activity/{{ id }}.jpg);">{{ content }}</a>
 <style>
     .activity_thumbnail {
         aspect-ratio: 1;
@@ -7,7 +7,10 @@
         align-items: center;
         justify-items: center;
         text-decoration: none;
-        color: black;
+        color: white;
+        text-shadow: black 0 0 10px;
+        font-weight: 700;
+        background-size: cover;
     }
 
     @media(orientation: landscape) {
@@ -21,6 +24,7 @@
         .activity_thumbnail {
             width: 100%;
             margin: 2vh 0;
+            font-size: 10vw;
         }
     }
 </style>
