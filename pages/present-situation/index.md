@@ -161,3 +161,14 @@
 
 こうして見ると、あらゆる事柄が何らかの関係で結びついていることがわかりますね。
 今ある問題をどうすれば解決できるのか、今解決すべき問題から因果関係を辿って考えてみてください。
+
+## 参考文献
+
+<NoIndent>
+『図解よくわかる「都市鉱山」開発』（原田幸明・醍醐市朗、日刊工業新聞社・2011年8月1日）<br>
+『資源論　メタル・石油埋蔵量の成長と枯渇』（西山孝、丸善出版・2016年4月12日）<br>
+『レア RARE 希少金属の知っておきたい16話』（キース ベロニース　著・渡辺正　翻訳、化学同人・2016年3月10日）<br>
+<a href="https://www.huffingtonpost.jp/kanta-hara/540_media_b_10214318.html" alt="">現代アフリカにおける資源収奪と紛争解決 ―紛争資源を対象とするターゲット制裁は紛争解決をもたらすか―</a><br>
+<a href="https://www.huffingtonpost.jp/kanta-hara/540_media_b_10214318.html" alt="">HUFFPOST「死者540万人以上－日本のメディアは報じない、コンゴ紛争とハイテク産業の繋がり」</a><br><a href="http://jsmcwm.or.jp/edit/kurashi/05/080hani.pdf" alt="">ケータイゴリラ「ケータイゴリラ ゴリラを守れ！携帯電話回収キャンペーン」</a><br>
+<a href="https://www.jsps.go.jp/j-jisedai/data/05bunyahyo.pdf" alt="">別表 専門分野等一覧表</a>
+</NoIndent>
