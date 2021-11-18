@@ -12,7 +12,7 @@
 
 <!-- イラスト(丸がいっぱいあるやつ) -->
 <div class="image_container">
-    <Image src="./illust/_.png" alt="イラストの説明" caption="説明"></Image>
+    <Image src="../../svg/description/A8.svg" alt="イラストの説明" caption="説明"></Image>
 </div>
 
 上の図のように様々なイメージがあると思いますが、金属資源にあまり馴染みがないという方が多いのではないでしょうか。<br>
@@ -39,7 +39,7 @@
 下のグラフは世界の主要な金属の生産量の推移を表すものです。
 
 <div class="image_container">
-    <Image src="." alt="主要な金属の生産量の推移" caption="上:メジャーメタル 下:レアメタル"></Image>
+    <Image src="../../assets/book/sigenron7.jpg" alt="主要な金属の生産量の推移" height="50vw"></Image>
 </div>
 
 <!--（メモ：上がメジャーメタルで、下がレアメタルという説明をグラフ周辺に） -->
@@ -48,7 +48,7 @@
 この理由はそれぞれ、1950\~1970年は戦後復興を進めるヨーロッパと先進国へ移行しつつある日本、韓国、台湾による金属の大量消費、2000年以降は中国とインドの急速な近代化によるものと考えられます。
 このように見ると、アフリカ諸国の近代化がどんどん進む今、金属生産量がますます増加していくのは予測できます。<SummaryLink>3</SummaryLink>
 となれば、金属資源が枯渇し、今のような生活が送れなくなる日はそう遠くないかもしれません。
-実際、醍醐市朗先生とのインタビューの中で私たちはこのようなお話を聞きました。<!-- （リンクはるんご） -->
+実際、<a href="../activity/#q8">醍醐市朗先生とのインタビュー</a>の中で私たちはこのようなお話を聞きました。<!-- （リンクはるんご） -->
 
 > 「つい10年くらい前までは、銅鉱石中の銅の濃度はまだ1%くらいありました。でも、今ではそれを使いつくしてしまって、日本だと0.6%くらいが最上級です。ちょうどこの間聞いた話では、もう0.3%くらいももう使わないといけなくなっているそうです。なので、みんな枯渇に近づいているというのは薄々感じています。」
 
@@ -59,14 +59,19 @@
 
 ## 資源の偏在
 
-右のグラフを見てください。
+下のグラフを見てください。
+これは金属生産のシェア上位3か国が占める比率を表したものです。
 
 <div class="image_container">
-    <Image src="." alt="金
-属生産のシェア上位3か国が占める比率"></Image>
-</div><SummaryLink>1</SummaryLink>
+    <Image src="http://susdi.org/wp/data/wp-content/uploads/sites/8/2017/09/7d2a8a5d380f463388d1c8d4512bef57.jpg"
+        alt="金属生産のシェア上位3か国が占める比率"
+        note="<InlineImage>http://susdi.org/wp/data/wp-content/uploads/sites/8/2017/08/46e68cc8af75454ff9cc3fd767a83b0e-300x109.png</InlineImage>より引用"
+        href="http://susdi.org/wp/data/post-61/"
+        height="40vw"
+    ></Image>
+</div>
+<SummaryLink>1</SummaryLink>
 
-これは金属生産のシェア上位3か国が占める比率を表したものです。
 なんと全てにおいて上位3か国が生産シェア80%以上を占めていますね。
 しかしこれはほんの一部に過ぎず、<Word>レアメタル（後述）</Word>の大半が全埋蔵量の半分以上を上位3か国によって占められているのです。<SummaryLink>8</SummaryLink>
 必要な<Word>金属資源</Word>のほぼすべてを海外から輸入している日本は、この金属資源の偏在のために1か国に依存する割合が大きいため、その国の都合によって大きな影響を受けるというのが現状です。
@@ -147,7 +152,7 @@
 
 <div class="image_container">
   <svg viewBox="0, 0, 1000, 750" style="width:80vw; height:60vw; margin: 5vh 0 5vh;">
-    <use xlink:href="../svg/summary_ilust/A.svg#main"></use>
+    <use xlink:href="../svg/summary_illust/A.svg#main"></use>
   </svg>
 </div>
 

@@ -1,33 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="700" viewBox="0, 0, 1200, 700">
+<svg xmlns="http://www.w3.org/2000/svg" id="main" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="700" viewBox="0, 0, 1200, 700">
 	<g transform="translate(-450 -400)">
 		<path d="M1312 421c0-2.76 2.24-5 5-5h310c2.76 0 5 2.24 5 5v110c0 2.76-2.24 5-5 5h-310c-2.76 0-5-2.24-5-5z" stroke="#000" stroke-width="2" fill-opacity="0"/>
 
 		<!-- 都市鉱山の課題 -->
-		<a href="#">
+		<a href="#s_0">
 			<path d="M855 629.06c0-2.76 2.24-5 5-5h150c2.76 0 5 2.24 5 5v86c0 2.76-2.24 5-5 5H860c-2.76 0-5-2.24-5-5z" stroke="#000" stroke-width="2" fill="#e3f7ff"/>
 			<text transform="matrix(1,0,0,1,880,675)">都市鉱山の課題</text>
 		</a>
 
 		<!-- 回収率の低さ -->
-		<a href="#">
+		<a href="#s_1">
 			<path d="M480 629.06c0-2.76 2.24-5 5-5h150c2.76 0 5 2.24 5 5v86c0 2.76-2.24 5-5 5H485c-2.76 0-5-2.24-5-5z" stroke="#000" stroke-width="2" fill="#ffe3e9"/>
 			<text transform="matrix(1,0,0,1,510,675)">回収率の低さ</text>
 		</a>
 
 		<!-- 品位の低さ -->
-		<a href="#">
+		<a href="#s_2">
 			<path d="M855 837.12c0-2.76 2.24-5 5-5h150c2.76 0 5 2.24 5 5v86c0 2.76-2.24 5-5 5H860c-2.76 0-5-2.24-5-5z" stroke="#000" stroke-width="2" fill="#f4e3ff"/>
 			<text transform="matrix(1,0,0,1,895,885)">品位の低さ</text>
 		</a>
 
 		<!-- 廃棄物の発生 -->
-		<a href="#">
+		<a href="#s_3">
 			<path d="M1230 629.06c0-2.76 2.24-5 5-5h150c2.76 0 5 2.24 5 5v86c0 2.76-2.24 5-5 5h-150c-2.76 0-5-2.24-5-5z" stroke="#000" stroke-width="2" fill="#fff7e3"/>
 			<text transform="matrix(1,0,0,1,1262,675)">廃棄物の発生</text>
 		</a>
 
 		<!-- コスト問題 -->
-		<a href="#">
+		<a href="#s_4">
 			<path d="M855 421c0-2.76 2.24-5 5-5h150c2.76 0 5 2.24 5 5v86c0 2.76-2.24 5-5 5H860c-2.76 0-5-2.24-5-5z" stroke="#000" stroke-width="2" fill="#ebffe3"/>
 			<text transform="matrix(1,0,0,1,895,468)">コスト問題</text>
 		</a>
@@ -48,7 +48,7 @@
 		<path d="M1017.03 673.06H1016v-2h1.03M1229 673.06h-1.03v-2h1.03"/>
 
 		<!-- 有害物質の発生 -->
-		<a href="#">
+		<a href="#s_5">
 			<path d="M1230 837.12c0-2.76 2.24-5 5-5h150c2.76 0 5 2.24 5 5v86c0 2.76-2.24 5-5 5h-150c-2.76 0-5-2.24-5-5z" stroke="#000" stroke-width="2" fill="#fff7e3"/>
 			<text transform="matrix(1,0,0,1,1255,885)">有害物質の発生</text>
 		</a>
@@ -57,19 +57,19 @@
 		<path d="M1311 831.12h-2v-1.03h2M1311 722.1h-2v-1.04h2"/>
 
 		<!-- セベソ事件 -->
-		<a href="#">
+		<a href="#s_6">
 			<path d="M1481 687.56c0-2.76 2.24-5 5-5h150c2.76 0 5 2.24 5 5v86c0 2.76-2.24 5-5 5h-150c-2.76 0-5-2.24-5-5 v-10 l-50 60 l50 -100 z" stroke="#000" stroke-width="2" fill="#fff7e3"/>
 			<text transform="matrix(1,0,0,1,1520,735)">セベソ事件</text>
 		</a>
 
 		<!-- ココ事件 -->
-		<a href="#">
+		<a href="#s_7">
 			<path d="M1481 837.12c0-2.76 2.24-5 5-5h150c2.76 0 5 2.24 5 5v86c0 2.76-2.24 5-5 5h-150c-2.76 0-5-2.24-5-5 v-28 l-50 -15 l50 -15 z" stroke="#000" stroke-width="2" fill="#fff7e3"/>
 			<text transform="matrix(1,0,0,1,1530,885)">ココ事件</text>
 		</a>
 
 		<!-- 豊島事件 -->
-		<a href="#">
+		<a href="#s_8">
 			<path d="M1481 986.68c0-2.76 2.24-5 5-5h150c2.76 0 5 2.24 5 5v86c0 2.76-2.24 5-5 5h-150c-2.76 0-5-2.24-5-5 v-36 l-50 -100 l50 60 z" stroke="#000" stroke-width="2" fill="#fff7e3"/>
 			<text transform="matrix(1,0,0,1,1530,1035)">豊島事件</text>
 		</a>
