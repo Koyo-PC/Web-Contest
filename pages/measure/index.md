@@ -190,11 +190,6 @@ Appleには、<ForceText>新しい端末を購入するときに使い終わっ�
 
 ## まとめ図解
 
-<div class="image_container">
-  <svg viewBox="0, 0, 1200, 700" style="width:80vw; height:40vw; margin: 5vh 0 5vh;">
-    <use xlink:href="../svg/summary_illust/D.svg#main"></use>
-  </svg>
-</div>
 
 <div class="image_container">
   <svg viewBox="0, 0, 1300, 600" style="width:80vw; height: calc(80vw * 6 / 13); margin: 5vh 0 5vh;">
