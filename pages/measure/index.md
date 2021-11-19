@@ -51,7 +51,7 @@
 実に2018年時点で<ForceText>電子廃棄物のリサイクル率は95%</ForceText>に達しています。
 どのようにしてこれほどまでに大きな成功をおさめることができているのでしょうか。
 <SummaryLink>1</SummaryLink>
-まず、スイスでは1998年初頭に「<Word>電気・電子機器の返却、回収、廃棄に関する法律</Word>（legislation on the Return, Take-Back and Disposal of Electrical and Electronic Equipment, ORDEE）」が制定されました。
+まず、スイスでは1998年初頭に「<Word>電気・電子機器の返却・引き取り・処分に関する政令</Word>（legislation on the Return, Take-Back and Disposal of Electrical and Electronic Equipment, ORDEE）」が制定されました。
 これにより、スイス国内の小売業者、メーカー、輸入業者は、通常、取り扱っている電化製品を無料で引き取ることが義務付けられています。
 一方、<ForceText>消費者にも使用済みの家電製品を返却する義務</ForceText>があり、他のゴミと一緒に出すことはできません。
 <SummaryLink>0</SummaryLink>
@@ -152,7 +152,6 @@
 これはヤマトホームコンビニエンス株式会社が他のサービスで家に訪問したときに一緒に不要な小型家電製品を収集し、最寄りの拠点まで運搬、集約拠点での商品確認、資源化施設への引渡しまでを行うというものです。
 このようにリサイクルに直接的には関係のない企業でも都市鉱山活用に役立っている企業は多くあります。
 海外においてもそのような企業は存在します。
-中でも有名なのはAppleです。
 Appleは電子機器を売るだけでなく、それを回収し再利用する取り組みもしているのです。
 Appleには、<ForceText>新しい端末を購入するときに使い終わった端末を返すとその機種や状態に応じて新しい端末の値段が下がる</ForceText>というサービスがあります。
 これならば企業側は自社製品を続けて消費者に買ってもらえる可能性が高まり、消費者側は進んで都市鉱山の利用に参加できそうですね。
@@ -192,6 +191,12 @@ Appleには、<ForceText>新しい端末を購入するときに使い終わっ�
 ## まとめ図解
 
 <div class="image_container">
+  <svg viewBox="0, 0, 1200, 700" style="width:80vw; height:40vw; margin: 5vh 0 5vh;">
+    <use xlink:href="../svg/summary_illust/D.svg#main"></use>
+  </svg>
+</div>
+
+<div class="image_container">
   <svg viewBox="0, 0, 1300, 600" style="width:80vw; height: calc(80vw * 6 / 13); margin: 5vh 0 5vh;">
     <use xlink:href="../svg/summary_illust/D.svg#main"></use>
   </svg>
@@ -203,30 +208,30 @@ Appleには、<ForceText>新しい端末を購入するときに使い終わっ�
 ## 参考文献
 
 <NoIndent>
-『図解よくわかる「都市鉱山」開発』（原田幸明・醍醐市朗、日刊工業新聞社・2011年8月1日）<br>
-<a href="https://www.meti.go.jp/shingikai/sankoshin/sangyo_gijutsu/haikibutsu_recycle/pdf/027_01_01.pdf">経済産業省「小型家電リサイクル法の概要について」</a><br>
-<a href="https://www-cycle.nies.go.jp/magazine/kisokouza/201307.html">資源循環・廃棄物研究センター オンラインマガジン環境「環境・廃棄物の基礎講座」</a><br>
-<a href="http://kogatakaden.env.go.jp/overview.html">小型家電リサイクル回収ポータルサイト「小型家電リサイクルの概要」</a><br>
-<a href="http://www.sweee.jp/index.html">一般社団法人　小型家電リサイクル協会HP</a><br>
-<a href="https://www.meti.go.jp/policy/recycle/main/data/research/pdf/22_07.pdf">Vf W訪問</a><br>
-<a href="https://giswatch.org/country-report/2010-icts-and-environmental-sustainability/switzerland">Global Information Society Watch「SWITZERLAND」</a><br>
-<a href="https://news.itu.int/how-switzerland-is-winning-the-battle-against-e-waste/">ITUNews「How Switzerland is winning the battle against e-waste」</a><br>
-<a href="https://www3.nhk.or.jp/news/html/20210608/k10013073321000.html">NHK「その家電、修理できますか？」</a><br>
-<a href="https://ideasforgood.jp/2021/01/16/france-repair/">IDEAS FOR GOOD「フランス、製品の「修理のしやすさ」10段階表示が必須に。サーキュラーエコノミー促進へ」</a><br>
-<a href="https://newsroom.unsw.edu.au/news/science-tech/does-not-compute-australia-lags-behind-recycling-electronic-products">UNSW SYDNEY「OPINION Does not compute: Australia lags behind in recycling electronic products」</a><br>
-<a href="http://www.clair.or.jp/j/mailmagazine/backnumber/2020/08/vol256.html">一般財団法人 <br>自治体国際化協会「オーストラリアにおけるごみ処理・リサイクルの現状と日本のごみ処理行政の強み」</a><br>
-<a href="https://www.jetro.go.jp/biz/areareports/2019/a024ee05cbb6223a.html">JETRO「オーストラリア政府、リサイクルごみの輸出禁止へ」</a><br>
-<a href="https://blog.goo.ne.jp/ebisu7163/e/339e486564d9f7eb9d4daba27896b7fd">エ・ビ・ス Eco Business Study</a><br>
-<a href="https://fivethirtyeight.com/features/the-era-of-easy-recycling-may-be-coming-to-an-end/">Five Thirty Eight「The Era Of Easy Recycling May Be Coming To An End」</a><br>
-<a href="https://www.meti.go.jp/press/2018/06/20180607003/20180607003-2.pdf">経済産業省「海外展開展開（リサイクル）」</a><br>
-<a href="https://www.re-ver.co.jp/hidakasuzutoku/">日高スズトクタイランドHP</a><br>
-<a href="https://www.umicore.com/en/investors/financial-results/full-year-results-2020/">umicore「Full year results 2020」</a><br>
-<a href="https://www.veolia.com/en/newsroom/press-releases/annual-results-2020">veoria「ANNUAL RESULTS 2020」</a><br>
-<a href="https://investors.wm.com/news-releases/news-release-details/waste-management-announces-fourth-quarter-and-full-year-2020">WM「Waste Management Announces Fourth Quarter and Full-Year 2020 Earnings」</a><br>
-<a href="https://smm-corporate.s3.amazonaws.com/2021/Sims+Annual+Report+2020.pdf">SIMS LIMITED「Create a world without a waste to preserve our planet」</a><br>
-<a href="https://www.dinsgr.co.jp/businessfield/waste/appliances/">大栄環境グループ「小型家電リサイクル」</a><br>
-<a href="https://www.dinsgr.co.jp/businessfield/waste/appliances/">NEWS RELEASE「引越しやおかたづけなどのついでに、使用済み小型家電を回収できる「クロネコ小型家電リサイクルサービス」の提供を開始」</a><br>
-<a href="https://www.apple.com/jp/newsroom/2019/04/apple-expands-global-recycling-programs/">Ｎewsroom「Apple、リサイクルプログラムを全世界で拡大」</a><br>
-<a href="https://www.fairphone.com/en/">FairphoneHP</a><br>
-<a href="http://www.toshi-kouzan.jp/">都市鉱山からつくる！みんなのメダルプロジェクトHP</a>
+・『図解よくわかる「都市鉱山」開発』（原田幸明・醍醐市朗、日刊工業新聞社・2011年8月1日）<br>
+<a href="https://www.meti.go.jp/shingikai/sankoshin/sangyo_gijutsu/haikibutsu_recycle/pdf/027_01_01.pdf">・経済産業省「小型家電リサイクル法の概要について」</a><br>
+<a href="https://www-cycle.nies.go.jp/magazine/kisokouza/201307.html">・資源循環・廃棄物研究センター オンラインマガジン環境「環境・廃棄物の基礎講座」</a><br>
+<a href="http://kogatakaden.env.go.jp/overview.html">・小型家電リサイクル回収ポータルサイト「小型家電リサイクルの概要」</a><br>
+<a href="http://www.sweee.jp/index.html">・一般社団法人　小型家電リサイクル協会HP</a><br>
+<a href="https://www.meti.go.jp/policy/recycle/main/data/research/pdf/22_07.pdf">・Vf W訪問</a><br>
+<a href="https://giswatch.org/country-report/2010-icts-and-environmental-sustainability/switzerland">・Global Information Society Watch「SWITZERLAND」</a><br>
+<a href="https://news.itu.int/how-switzerland-is-winning-the-battle-against-e-waste/">・ITUNews「How Switzerland is winning the battle against e-waste」</a><br>
+<a href="https://www3.nhk.or.jp/news/html/20210608/k10013073321000.html">・NHK「その家電、修理できますか？」</a><br>
+<a href="https://ideasforgood.jp/2021/01/16/france-repair/">・IDEAS FOR GOOD「フランス、製品の「修理のしやすさ」10段階表示が必須に。サーキュラーエコノミー促進へ」</a><br>
+<a href="https://newsroom.unsw.edu.au/news/science-tech/does-not-compute-australia-lags-behind-recycling-electronic-products">・UNSW SYDNEY「OPINION Does not compute: Australia lags behind in recycling electronic products」</a><br>
+<a href="http://www.clair.or.jp/j/mailmagazine/backnumber/2020/08/vol256.html">・一般財団法人 <br>自治体国際化協会「オーストラリアにおけるごみ処理・リサイクルの現状と日本のごみ処理行政の強み」</a><br>
+<a href="https://www.jetro.go.jp/biz/areareports/2019/a024ee05cbb6223a.html">・JETRO「オーストラリア政府、リサイクルごみの輸出禁止へ」</a><br>
+<a href="https://blog.goo.ne.jp/ebisu7163/e/339e486564d9f7eb9d4daba27896b7fd">・エ・ビ・ス Eco Business Study</a><br>
+<a href="https://fivethirtyeight.com/features/the-era-of-easy-recycling-may-be-coming-to-an-end/">・Five Thirty Eight「The Era Of Easy Recycling May Be Coming To An End」</a><br>
+<a href="https://www.meti.go.jp/press/2018/06/20180607003/20180607003-2.pdf">・経済産業省「海外展開展開（リサイクル）」</a><br>
+<a href="https://www.re-ver.co.jp/hidakasuzutoku/">・日高スズトクタイランドHP</a><br>
+<a href="https://www.umicore.com/en/investors/financial-results/full-year-results-2020/">・umicore「Full year results 2020」</a><br>
+<a href="https://www.veolia.com/en/newsroom/press-releases/annual-results-2020">・veoria「ANNUAL RESULTS 2020」</a><br>
+<a href="https://investors.wm.com/news-releases/news-release-details/waste-management-announces-fourth-quarter-and-full-year-2020">・WM「Waste Management Announces Fourth Quarter and Full-Year 2020 Earnings」</a><br>
+<a href="https://smm-corporate.s3.amazonaws.com/2021/Sims+Annual+Report+2020.pdf">・SIMS LIMITED「Create a world without a waste to preserve our planet」</a><br>
+<a href="https://www.dinsgr.co.jp/businessfield/waste/appliances/">・大栄環境グループ「小型家電リサイクル」</a><br>
+<a href="https://www.dinsgr.co.jp/businessfield/waste/appliances/">・NEWS RELEASE「引越しやおかたづけなどのついでに、使用済み小型家電を回収できる「クロネコ小型家電リサイクルサービス」の提供を開始」</a><br>
+<a href="https://www.apple.com/jp/newsroom/2019/04/apple-expands-global-recycling-programs/">・Ｎewsroom「Apple、リサイクルプログラムを全世界で拡大」</a><br>
+<a href="https://www.fairphone.com/en/">・FairphoneHP</a><br>
+<a href="http://www.toshi-kouzan.jp/">・都市鉱山からつくる！みんなのメダルプロジェクトHP</a>
 </NoIndent>

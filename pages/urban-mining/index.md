@@ -27,8 +27,7 @@
 </div>
 
 メジャーメタルは電線や各種ケーブル、メッキ、などに利用される一方で、レアメタルは、超伝導材料や形状記憶合金、水素吸蔵合金としてIT関連分野や環境保全などハイテク分野に使われており、携帯電話、パソコン、自動車、テレビ、腕時計、ドライヤーなどの身近なものに欠かせないものとなっています。（図１）
-このことからレアメタルは<ForceText>「産業のビタミン」</ForceText>と呼ばれることがあります。 携帯電話については実際に解体しました。実験の様子はこちらから。
-<!-- （各機器に含まれるレアメタル量をまとめた表をはる） -->
+このことからレアメタルは<ForceText>「産業のビタミン」</ForceText>と呼ばれることがあります。 携帯電話については実際に解体しました。実験の様子は<a href="../activity/disassembly.html">こちら</a>から
 
 <figure class="table_figure">
   <table>
@@ -79,7 +78,7 @@
 ## 都市鉱山とは
 
 前述のような資源問題に対して南條道夫教授（当時東北大学選鉱製錬研究所教授）が1988年に提唱された考えが都市鉱山と呼ばれるものであり、このサイトのメインテーマです。<SummaryLink>0</SummaryLink>
-まず、この都市鉱山の定義は、 ”都市鉱山（としこうざん、英語: urban mining, e-waste）とは、都市でゴミとして大量に廃棄される家電製品などの中に存在する有用な資源（<Word>レアメタル</Word>など）を鉱山に見立てたものである。” とされています。（Wikipediaより）
+まず、この都市鉱山の定義は、 ”都市鉱山（としこうざん、英語: urban mining, e-waste）とは、都市でゴミとして大量に廃棄される家電製品などの中に存在する有用な資源（<Word>レアメタル</Word>など）を鉱山に見立てたものである。” とされています。（<a href="https://ja.wikipedia.org/wiki/%E9%83%BD%E5%B8%82%E9%89%B1%E5%B1%B1" style="text-decoration: none;">Wikipediaより</a>）
 この都市鉱山について、データを交えながら詳しく見ていきましょう。<SummaryLink>3</SummaryLink>
 下のグラフは主な金属資源の一次資源と二次資源の量を示したものです。
 
@@ -87,7 +86,7 @@
     <Image src="../assets/jim/151.jpg" height="40vw" note="日本金属学会より引用" href="https://www.jim.or.jp/journal/j/pdf3/73/03/151.pdf"></Image>
 </div>
 
-これを見ればわかるように全体の資源のうち<ForceText>半分以上がすでに掘り出された<Word>二次資源</Word>
+これを見れば全体の資源のうち<ForceText>半分以上がすでに掘り出された<Word>二次資源</Word>
 である</ForceText>ことがわかります。 したがって、資源確保が重要な今、携帯電話のような小型家電などに含まれている<Word>二次資源</Word>を回収するのがカギとなっています。
 ここまで読むと、そのような小型家電がただのゴミではなく<ForceText>有益な資源</ForceText>に思えてきたのではないでしょうか。 2021年に新たにゴミとなる小型家電の量は5740万トンにも上り、それは今後も増えていくと予想されています。
 
@@ -115,12 +114,16 @@ note="書籍『資源論』をスキャン" height="40vw"></Image>
 
 そして今、日本での現在稼働中の主な鉱山は鹿児島県にある菱刈鉱山のみになってしまいました。 しかし、実は<ForceText>日本は世界に引けを取らない資源大国</ForceText>なのです！
 日本は戦後多くの金属資源を海外から輸入し、その金属資源から製造した製品のうち約半分を世界中に輸出するという形で、急激な経済発展を遂げました。 そして、残りの輸出しなかった分の金属資源は<ForceText>製品として国内に残っています。</ForceText>
-これが日本での都市鉱山の主な材料となり、それが日本の資源における潜在的なアドバンテージとなっているのです。 例えば、金の埋蔵量を見てみると右のグラフ(教科書p4,5)の通り、埋蔵量世界一は日本で、実に日本だけで世界全体の16%を占めます。
+これが日本での都市鉱山の主な材料となり、それが日本の資源における潜在的なアドバンテージとなっているのです。 例えば、金の埋蔵量を見てみると下のグラフの通り、埋蔵量世界一は日本で、実に日本だけで世界全体の16%を占めます。
 銀についても世界一の埋蔵量を誇り、世界の23%が日本に眠っています。 メジャーメタルだけでなくレアメタルの国内埋蔵量も驚くべき数字です。
 スマホやテレビの液晶に必要不可欠なインジウムでは世界２位ですが、それでも世界全体の埋蔵量のうちの16%は日本が占めている状況です。 他にも多くの金属で日本は世界トップレベルの埋蔵量を誇ります。
 このようなデータを見ると<ForceText>日本での都市鉱山の開発が一層効果的</ForceText>であることがわかります。<SummaryLink>1</SummaryLink>
 また、都市鉱山を活用することで海外からの輸入量が減り、前述のような<ForceText>資源の偏在から生まれる立場の格差問題の解消</ForceText>にもつながります。<SummaryLink>2</SummaryLink>
 さらに日本に関しては、<ForceText>輸入に頼らなくても大丈夫だということを海外にアピールできる</ForceText>保険のような役割も担うことができます。 これらの利点を考えると、<ForceText>日本はまさに都市鉱山を最も活用すべき国の1つ</ForceText>なのです。
+
+<div class="image_container">
+    <Image src="http://www.highschooltimes.jp/sp/files/img/contents/report/198_img/201702_p0406_04.jpg" height="40vw"></Image>
+</div>
 
 <AtomCharacter atom="Y">
 都市鉱山はCO2削減にも効果があり、<Word>SDGs</Word>ゴール12『つくる責任 つかう責任』にも大きく関連しているのじゃ。
@@ -175,13 +178,14 @@ note="書籍『資源論』をスキャン" height="40vw"></Image>
 ## 参考文献
 
 <NoIndent>
-『図解よくわかる「都市鉱山」開発』（原田幸明・醍醐市朗、日刊工業新聞社・2011年8月1日）<br>
-『資源論　メタル・石油埋蔵量の成長と枯渇』（西山孝、丸善出版・2016年4月12日）<br>
-『レア RARE 希少金属の知っておきたい16話』（キース ベロニース　著・渡辺正　翻訳、化学同人・2016年3月10日）<br>
-『「金属」のキホン (イチバンやさしい理工系)』（田中和明、SBクリエイティブ・2010年10月22日）<br>
-<a href="https://asahi.gakujo.ne.jp/research/industry_topics/detail/id=253">あさがくナビ「レアアースとレアメタルの違い」</a><br>
-<a href="https://www.nims.go.jp/research/elements/rare-metal/study/index.html">NIMS「レアメタルの基礎知識」</a><br>
-<a href="http://mric.jogmec.go.jp/public/report/2006-08/chapter2.pdf">我が国の銅の需給状況の歴史と変遷</a><br>
-<a href="https://www.afpbb.com/articles/-/3030185">AFPBB News「中国「リサイクル産業の都」が払う電子ごみ処理の代償」</a><br>
-<a href="https://eleminist.com/article/688">ELEMINIST「2021年注目のバーゼル条約　脱プラスチックへ向けた改正内容を解説」</a>
+・『図解よくわかる「都市鉱山」開発』（原田幸明・醍醐市朗、日刊工業新聞社・2011年8月1日）<br>
+・『資源論　メタル・石油埋蔵量の成長と枯渇』（西山孝、丸善出版・2016年4月12日）<br>
+・『レア RARE 希少金属の知っておきたい16話』（キース ベロニース　著・渡辺正　翻訳、化学同人・2016年3月10日）<br>
+・『「金属」のキホン (イチバンやさしい理工系)』（田中和明、SBクリエイティブ・2010年10月22日）<br>
+<a href="https://asahi.gakujo.ne.jp/research/industry_topics/detail/id=253">・あさがくナビ「レアアースとレアメタルの違い」</a><br>
+<a href="https://www.nims.go.jp/research/elements/rare-metal/study/index.html">・NIMS「レアメタルの基礎知識」</a><br>
+<a href="http://mric.jogmec.go.jp/public/report/2006-08/chapter2.pdf">・我が国の銅の需給状況の歴史と変遷</a><br>
+<a href="https://www.afpbb.com/articles/-/3030185">・AFPBB News「中国「リサイクル産業の都」が払う電子ごみ処理の代償」</a><br>
+<a href="https://eleminist.com/article/688">・ELEMINIST「2021年注目のバーゼル条約　脱プラスチックへ向けた改正内容を解説」</a><br>
+<a href="https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_3/Chapter_2">・Wikisource</a>
 </NoIndent>

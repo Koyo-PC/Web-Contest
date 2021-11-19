@@ -48,7 +48,7 @@
 しかし、この制度の難点としてメーカー側が売る時に将来のリサイクルコストを見積もるのが難しい、すでに消費者のもとにわたっている製品はどうするのかなどの問題があり、結局家電リサイクル法では採用されていません。
 たしかに、製品を売る時にリサイクル費用として上乗せした分より数年後のリサイクルにかかる費用の方が高い場合、メーカーは損してしまいます。
 
-<AtomCharacter atom="Li">
+<AtomCharacter atom="Pt">
 メーカーが将来かかるリサイクル料金を予測することが難しいのであれば、その時にメーカーがリサイクルに必要な費用にはその時に消費者が払ったリサイクル代を当てればいい気がするが。
 </AtomCharacter>
 
@@ -235,9 +235,11 @@ RoHSの基準を満たしていることを示すこのCEマーキングに見�
 
 ## 参考文献
 
-<a href="https://www.meti.go.jp/shingikai/sankoshin/sangyo_gijutsu/haikibutsu_recycle/denki_wg/pdf/028_07_02.pdf">家電リサイクル法における費用回収方式について</a><br>
-<a href="https://www-cycle.nies.go.jp/magazine/mame/201805.html#:~:text=%E6%97%A5%E6%9C%AC%E3%81%A7%E3%82%82%E4%BC%BC%E3%81%9F%E3%82%88%E3%81%86,%E3%81%A8%E7%95%B0%E3%81%AA%E3%82%8B%E5%A4%A7%E3%81%8D%E3%81%AA%E7%89%B9%E5%BE%B4%E3%81%A7%E3%81%99%E3%80%82">資源循環・廃棄物研究センター オンラインマガジン環境「循環・廃棄物の豆知識」</a><br>
-<a href="https://www.toshiba-clip.com/detail/p=621">TOSHIBA「水素エネルギーについて知っておきたい5つのこと」</a><br>
-<a href="https://eleminist.com/article/817">ELEMINIST「有害物質を制限するローズ指令（RoHS指令）とは　遅れが目立つ日本での取り組み」</a><br>
-<a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32019L0904&from=EN#d1e32-17-1">Official Journal of the European Union「DIRECTIVE (EU) 2019/904 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 5 June 2019 on the reduction of the impact of certain plastic products on the environment」</a><br>
-<a href="https://www.jetro.go.jp/biznews/2021/06/88299a30b5475ed7.html">JETRO「欧州委、使い捨てプラスチック製品の流通禁止を前に指針発表」</a>
+<NoIndent>
+<a href="https://www.meti.go.jp/shingikai/sankoshin/sangyo_gijutsu/haikibutsu_recycle/denki_wg/pdf/028_07_02.pdf">・家電リサイクル法における費用回収方式について</a><br>
+<a href="https://www-cycle.nies.go.jp/magazine/mame/201805.html#:~:text=%E6%97%A5%E6%9C%AC%E3%81%A7%E3%82%82%E4%BC%BC%E3%81%9F%E3%82%88%E3%81%86,%E3%81%A8%E7%95%B0%E3%81%AA%E3%82%8B%E5%A4%A7%E3%81%8D%E3%81%AA%E7%89%B9%E5%BE%B4%E3%81%A7%E3%81%99%E3%80%82">・資源循環・廃棄物研究センター オンラインマガジン環境「循環・廃棄物の豆知識」</a><br>
+<a href="https://www.toshiba-clip.com/detail/p=621">・TOSHIBA「水素エネルギーについて知っておきたい5つのこと」</a><br>
+<a href="https://eleminist.com/article/817">・ELEMINIST「有害物質を制限するローズ指令（RoHS指令）とは　遅れが目立つ日本での取り組み」</a><br>
+<a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32019L0904&from=EN#d1e32-17-1">・Official Journal of the European Union「DIRECTIVE (EU) 2019/904 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 5 June 2019 on the reduction of the impact of certain plastic products on the environment」</a><br>
+<a href="https://www.jetro.go.jp/biznews/2021/06/88299a30b5475ed7.html">・JETRO「欧州委、使い捨てプラスチック製品の流通禁止を前に指針発表」</a>
+</NoIndent>
