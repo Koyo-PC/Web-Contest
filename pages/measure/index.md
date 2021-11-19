@@ -12,7 +12,9 @@
 
 この章で紹介する6ヶ国です！
 
-[comment]: <> (国旗6ヵ国)
+<div class="image_container">
+    <Image src="../svg/description/D19.svg" height="20vw"></Image>
+</div>
 
 ### 日本
 
@@ -25,8 +27,9 @@
 いわゆる<ForceText>「廃電子機器」用のゴミ出し場が回収ボックス</ForceText>なのです。
 そこに廃電子機器を入れると無事にリサイクルされることになります。
 
-[comment]: <> (（回収ボックスからリサイクルまでの流れ）)
-
+<div class="image_container">
+    <Image src="../svg/description/D30.svg"></Image>
+</div>
 
 回収ボックスは全国の公共施設やスーパー、家電量販店、学校などに設置されています。<SummaryLink>2</SummaryLink>
 回収ボックスにあまりなじみがないという方も多いかもしれませんが、一度「近くの回収ボックス」と検索してみてください。
@@ -185,13 +188,7 @@ Appleには、<ForceText>新しい端末を購入するときに使い終わっ�
 東京2020オリンピック・パラリンピックの聖火リレートーチの素材の一部は、古くなった仮説住宅のアルミ廃材がリサイクルされたものなんだよ。みんな知ってた？
 </AtomCharacter>
 
-## まとめ図解(リンクまだ)
-
-<div class="image_container">
-  <svg viewBox="0, 0, 1200, 700" style="width:80vw; height:40vw; margin: 5vh 0 5vh;">
-    <use xlink:href="../svg/summary_illust/D.svg#main"></use>
-  </svg>
-</div>
+## まとめ図解
 
 <div class="image_container">
   <svg viewBox="0, 0, 1300, 600" style="width:80vw; height: calc(80vw * 6 / 13); margin: 5vh 0 5vh;">
