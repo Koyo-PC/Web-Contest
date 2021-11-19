@@ -105,7 +105,8 @@
 戦後に対外貿易の自由度が増し、海外から鉱物がたくさん日本に入ってきたため海外への依存度が高まり、<Word>自給率</Word>が急激に下がってしまいました。
 
 <div class="image_container">
-    <Image src="../../assets/book/book_p17.jpg" height="40vw"></Image>
+    <Image src="../../assets/book/book_p17.png"
+note="書籍『資源論』をスキャン" height="40vw"></Image>
 </div>
 
 そして今、日本での現在稼働中の主な鉱山は鹿児島県にある菱刈鉱山のみになってしまいました。 しかし、実は<ForceText>日本は世界に引けを取らない資源大国</ForceText>なのです！

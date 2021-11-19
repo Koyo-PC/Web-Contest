@@ -38,10 +38,9 @@
 下のグラフは世界の主要な金属の生産量の推移を表すものです。
 
 <div class="image_container">
-    <Image src="../assets/book/book_p7.jpg" alt="主要な金属の生産量の推移" caption="上:メジャーメタル 下:レアメタル" height="40vw"></Image>
+    <Image src="../assets/book/book_p7.png" alt="主要な金属の生産量の推移" note="書籍『資源論』をスキャン" height="40vw"></Image>
 </div>
 
-<!--（メモ：上がメジャーメタルで、下がレアメタルという説明をグラフ周辺に） -->
 このグラフを見ればわかるように<Word>オイルショック</Word>などの影響で一時的に減少に転じることはあるものの、<ForceText>全体的には指数関数的な増加が続いています。</ForceText>
 特に1950\~1970年と2000年以降で特に増加が激しくなっています。
 この理由はそれぞれ、1950\~1970年は戦後復興を進めるヨーロッパと先進国へ移行しつつある日本、韓国、台湾による金属の大量消費、2000年以降は中国とインドの急速な近代化によるものと考えられます。
@@ -59,12 +58,6 @@
 ## 資源の偏在
 
 下のグラフを見てください。
-
-<!--
-<div class="image_container">
-    <Image src="../assets/book/book_p17.jpg" alt="金属生産のシェア上位3か国が占める比率" height="40vw"></Image>
-</div><SummaryLink>1</SummaryLink>
--->
 
 <div class="image_container">
     <Image src="http://susdi.org/wp/data/wp-content/uploads/sites/8/2017/09/7d2a8a5d380f463388d1c8d4512bef57.jpg"
