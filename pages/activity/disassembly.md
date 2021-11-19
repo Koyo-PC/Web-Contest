@@ -151,7 +151,7 @@
 文章読むのがめんどくさい！という方におススメです。
 
 <div class="image_container">
-    <Video>../video/activity/disassembly/WebCom21_1_product_21.11.17.3.30_h264.mp4</Video>
+    <Video>../video/activity/disassembly/WebCom21_1_product_21.11.19.15.45.mp4</Video>
 </div>
 
 ## 解体を通して感じたこと
