@@ -60,9 +60,9 @@
 下のグラフを見てください。
 
 <div class="image_container">
-    <Image src="http://susdi.org/wp/data/wp-content/uploads/sites/8/2017/09/7d2a8a5d380f463388d1c8d4512bef57.jpg"
+    <Image src="../assets/susdi/7d2a8a5d380f463388d1c8d4512bef57.jpg"
         alt="金属生産のシェア上位3か国が占める比率"
-        note="<InlineImage>http://susdi.org/wp/data/wp-content/uploads/sites/8/2017/08/46e68cc8af75454ff9cc3fd767a83b0e-300x109.png</InlineImage>より引用"
+        note="<InlineImage>../assets/susdi/46e68cc8af75454ff9cc3fd767a83b0e-300x109.png</InlineImage>より引用"
         href="http://susdi.org/wp/data/post-61/"
         height="40vw"
     ></Image>

@@ -55,9 +55,9 @@
 <SummaryLink>3</SummaryLink>実は<ForceText>廃電子機器の構成成分の大部分がプラスチックで占められているのです。</ForceText>
 
 <div class="image_container">
-    <Image src="..img/plasticPercent.jpg"
+    <Image src="../assets/susdi/40dcbe9d88c96297b642179a653642d8.jpg"
         alt="携帯の成分構成"
-        note="<InlineImage>http://susdi.org/wp/data/wp-content/uploads/sites/8/2017/08/46e68cc8af75454ff9cc3fd767a83b0e-300x109.png</InlineImage>より引用"
+        note="<InlineImage>../assets/susdi/46e68cc8af75454ff9cc3fd767a83b0e-300x109.png</InlineImage>より引用"
         href="http://susdi.org/wp/data/post-38/"
         height="40vw"
     ></Image>

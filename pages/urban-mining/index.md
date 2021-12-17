@@ -95,7 +95,7 @@
 ここまで読むと、そのような小型家電がただのゴミではなく<ForceText>有益な資源</ForceText>に思えてきたのではないでしょうか。 2021年に新たにゴミとなる小型家電の量は5740万トンにも上り、それは今後も増えていくと予想されています。
 
 <div class="image_container">
-    <Image src="../../assets/statista/1067081.png" height="40vw" note="Statistaより引用" href="https://www.statista.com/statistics/1067081/generation-electronic-waste-globally-forecast/"></Image>
+    <Image src="../assets/statista/1067081.png" height="40vw" note="Statistaより引用" href="https://www.statista.com/statistics/1067081/generation-electronic-waste-globally-forecast/"></Image>
 </div>
 
 この大量の有益な資源を鉱山に見立てたのが都市鉱山なのです！
@@ -112,7 +112,7 @@
 戦後に対外貿易の自由度が増し、海外から鉱物がたくさん日本に入ってきたため海外への依存度が高まり、<Word>自給率</Word>が急激に下がってしまいました。
 
 <div class="image_container">
-    <Image src="../../assets/book/book_p17.png"
+    <Image src="../assets/book/book_p17.png"
 note="書籍『資源論』をスキャン" height="40vw"></Image>
 </div>
 
@@ -126,7 +126,7 @@ note="書籍『資源論』をスキャン" height="40vw"></Image>
 さらに日本に関しては、<ForceText>輸入に頼らなくても大丈夫だということを海外にアピールできる</ForceText>保険のような役割も担うことができます。 これらの利点を考えると、<ForceText>日本はまさに都市鉱山を最も活用すべき国の1つ</ForceText>なのです。
 
 <div class="image_container">
-    <Image src="http://www.highschooltimes.jp/sp/files/img/contents/report/198_img/201702_p0406_04.jpg" height="40vw"></Image>
+    <Image src="../assets/highschooltimes/201702_p0406_04.jpg" height="40vw"></Image>
 </div>
 
 <AtomCharacter atom="Y">
