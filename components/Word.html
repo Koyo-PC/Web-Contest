@@ -2,7 +2,7 @@
   <span class="word_description_container">
     <span class="word_description">
       <span class="word_description_title">{{ content }}</span>
-      <span class="word_description_text">[[ description ]]</span>
+      <span class="word_description_text" style="line-height: 0.5;">[[ description ]]</span>
     </span>
   </span>
 </span>
@@ -17,11 +17,10 @@
 
     .word_description_container {
         position: absolute;
-
         display: block;
         height: 0;
         opacity: 0;
-        filter: drop-shadow(0 0 4px #000);
+        filter: drop-shadow(8px 8px 20px #999);
 
         transition-duration: .25s;
         transition-property: height, opacity;
@@ -30,10 +29,8 @@
         z-index: 50;
     }
     .word:hover .word_description_container, .word_description_container:hover {
-        /*display: block;*/
         opacity: 100%;
 
-        /*min-height: 200px;*/
         height: auto;
         overflow: hidden;
 
@@ -43,12 +40,13 @@
         box-sizing: border-box;
         display: block;
         margin-top: 10px;
-        background-color: #eee;
-        /*border: 1px solid #000;*/
+        /*background-color: #eee;*/
+        background-color: ghostwhite;
         height: calc(100% - 10px);
         width: 100%;
         text-align: left;
         padding: 10px;
+        border-radius: 5px;
     }
     .word_description_title {
         display: block;
@@ -74,7 +72,7 @@
             top: -10px;
             left: 10px;
             border: solid 10px transparent;
-            border-bottom: solid 10px #eee;
+            border-bottom: solid 10px ghostwhite;
         }
         .word_description {
             margin-top: 10px;
@@ -84,7 +82,7 @@
         }
         .word_description_text {
             font-size: 15px;
-            line-height: 18px;
+            line-height: 5px;
         }
     }
     @media(orientation: portrait) {
