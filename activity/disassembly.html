@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--  <link rel="shortcut icon" href="svg/logo.svg" type="image/svg+xml">-->
+    <title>| 右ポケットの中の資源を求めて</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&dispaly=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&dispaly=swap");
+
+      * {
+        font-family: "Lato", "Noto Sans JP", sans-serif;
+        box-sizing: border-box;
+        font-weight: 400;
+      }
+
+      html,
+      body {
+        height: 100%;
+        width: 100%;
+        margin: unset;
+        overflow-x: hidden;
+      }
+
+      main {
+        padding: 50px 10% 100px;
+      }
+
+      h1 {
+        counter-reset: h2_counter;
+        width: 100%;
+        display: grid;
+        place-items: center;
+        color: #003b54;
+        font-weight: 700;
+      }
+
+      @media (orientation: landscape) {
+        h1 {
+          margin: 100px 0 0 0;
+          height: 200px;
+          font-size: min(10vw, 100px);
+        }
+      }
+      @media (orientation: portrait) {
+        h1 {
+          margin: 100px 0 100px 0;
+          /*height: 200px;*/
+          font-size: 10vw;
+        }
+      }
+
+      h2 {
+        display: block;
+        color: #003b54;
+        width: 100%;
+      }
+
+      h2:before {
+        counter-increment: h2_counter;
+        content: counter(h2_counter) ". ";
+        color: #457834;
+      }
+
+      @media (orientation: landscape) {
+        h2 {
+          font-size: 72px;
+          font-weight: 400;
+          margin: 10vh 0 0;
+        }
+      }
+      @media (orientation: portrait) {
+        h2 {
+          font-size: 32px;
+          font-weight: 400;
+          margin: 10vh 0 0;
+        }
+      }
+
+      h3 {
+        display: inline-block;
+        position: relative;
+        color: #003b54;
+        font-weight: 400;
+        background-origin: padding-box;
+        background: linear-gradient(transparent 80%, #c4edb7 80%);
+      }
+
+      @media (orientation: landscape) {
+        h3 {
+          font-size: 50px;
+          margin: 3vw 0 2vw 20px;
+        }
+      }
+      @media (orientation: portrait) {
+        h3 {
+          font-size: 30px;
+          margin: 20px 0 50px 10px;
+        }
+      }
+
+      p {
+        text-indent: 1em;
+        width: 100%;
+        text-align: justify;
+      }
+
+      @media (orientation: landscape) {
+        p {
+          font-size: 20px;
+          line-height: 1.9;
+          margin: 50px 0;
+        }
+        main ol > li {
+          font-size: 20px;
+          line-height: 1.9;
+        }
+      }
+      @media (orientation: portrait) {
+        p {
+          font-size: 16px;
+          line-height: 1.9;
+          margin: 50px 0;
+        }
+        main ol > li {
+          font-size: 16px;
+          line-height: 1.9;
+        }
+      }
+
+      dl.Q_A {
+        counter-reset: qa_counter;
+        /*font-size: 17px;*/
+        text-align: justify;
+
+        text-indent: 1em;
+        font-size: 20px;
+        line-height: 1.5;
+      }
+
+      dl.Q_A > dt {
+        margin-top: 50px;
+      }
+
+      dl.Q_A > dt:before {
+        counter-increment: qa_counter;
+        content: "Q" counter(qa_counter) ". ";
+        display: block;
+        height: 100%;
+        font-weight: 700;
+        font-size: 20px;
+        margin-bottom: 5px;
+        margin-left: -20px;
+      }
+
+      dl.Q_A > dd {
+        margin: 0;
+        margin-top: 20px;
+      }
+
+      dl.Q_A > dd:before {
+        content: "A" counter(qa_counter) ". ";
+        display: block;
+        height: 100%;
+        font-weight: 700;
+        font-size: 20px;
+        margin-bottom: 5px;
+        margin-left: -20px;
+      }
+
+      span.weak {
+        color: dimgray;
+        font-weight: 400;
+      }
+
+      .sorry {
+        color: gray;
+        font-style: italic;
+      }
+
+      .table_figure {
+        max-width: 80vw;
+        overflow-x: auto;
+        margin: 0 0 5vh 0;
+      }
+
+      table {
+        border: 1px solid black;
+        border-collapse: collapse;
+        margin: 0 auto;
+      }
+
+      tr,
+      th,
+      td {
+        border: 1px solid black;
+        padding: 5px 20px;
+        white-space: nowrap;
+      }
+
+      th {
+        background-color: #eee;
+        font-weight: 700;
+      }
+
+      .image_container {
+        display: flex;
+        justify-content: center;
+      }
+
+      figcaption {
+        display: block;
+        width: 100%;
+        text-align: center;
+      }
+
+      .image_links {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 10vh 0 0 0;
+      }
+      .img_link {
+        display: block;
+        aspect-ratio: 1;
+        background-color: yellowgreen;
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        text-decoration: none;
+        color: black;
+      }
+
+      @media (orientation: landscape) {
+        .img_link {
+          width: 45%;
+          margin: 2vh 2.5%;
+          font-size: 5vw;
+        }
+      }
+      @media (orientation: portrait) {
+        .img_link {
+          width: 100%;
+          margin: 2vh 0;
+        }
+      }
+      .image_box {
+        display: inline-block;
+        position: relative;
+        /*width: 100%;*/
+      }
+
+      .image {
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+        margin: 0 auto;
+      }
+
+      .note {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        text-align: right;
+        font-size: 14px;
+      }
+      .note:not(:blank):before {
+        content: "(";
+      }
+      .note:not(:blank):after {
+        content: ")";
+      }
+
+      .href:not([href=""]):before {
+        content: "出典";
+        margin-left: 0.5em;
+      }
+
+      .image_caption {
+        display: block;
+        width: 100%;
+        height: 3em;
+        text-align: center;
+        vertical-align: bottom;
+      }
+      .video {
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+        margin: 0 auto;
+        box-shadow: black 0 0 5px;
+      }
+      .no_indent {
+        text-indent: 0;
+      }
+      footer {
+        position: relative;
+        width: 100%;
+        height: 300px;
+        background-color: #003b54;
+        display: flex;
+        color: #fbf8f8;
+      }
+
+      .footer_main {
+        position: relative;
+      }
+
+      .footer_copyright {
+        position: absolute;
+        color: darkgray;
+      }
+
+      .footer_copyright > a {
+        text-decoration: underline;
+        color: #fbf8f8;
+      }
+
+      .footer_license {
+        position: absolute;
+        color: darkgray;
+      }
+      .footer_license a {
+        text-decoration: none;
+        color: #fbf8f8;
+      }
+      .footer_license a:hover {
+        color: lightgray;
+      }
+
+      .footer_sitemap {
+        position: absolute;
+      }
+
+      .footer_sitemap > a {
+        --category-count: 9;
+        display: grid;
+        justify-content: start;
+        align-items: center;
+        text-decoration: none;
+        color: #fbf8f8;
+      }
+
+      @media (orientation: landscape) {
+        .footer_main {
+          width: 50%;
+          height: 100%;
+          margin-left: 10%;
+        }
+        .footer_title {
+          margin: 75px 10% 0;
+          font-size: 25px;
+        }
+        .footer_license {
+          bottom: 12%;
+          left: 10%;
+          font-size: 12px;
+        }
+        .footer_copyright {
+          bottom: 30%;
+          left: 10%;
+        }
+        .footer_sitemap {
+          top: 10%;
+          width: 200px;
+          height: 80%;
+          right: 10%;
+        }
+        .footer_sitemap > a {
+          width: 100%;
+          height: calc(100% / var(--category-count));
+          font-size: 14px;
+        }
+      }
+      @media (orientation: portrait) {
+        .footer_main {
+          width: 55%;
+          height: 100%;
+          margin-left: 5%;
+        }
+        .footer_title {
+          margin: 30px 0 0 3%;
+          font-size: 25px;
+        }
+        .footer_copyright {
+          bottom: 35%;
+          left: 3%;
+          font-size: 10px;
+        }
+        .footer_license {
+          bottom: 10%;
+          left: 3%;
+          font-size: 10px;
+        }
+        .footer_sitemap {
+          top: 10%;
+          width: 30%;
+          height: 80%;
+          right: 5%;
+        }
+        .footer_sitemap > a {
+          width: 100%;
+          height: calc(100% / var(--category-count));
+          font-size: 12px;
+        }
+      }
+      nav {
+        align-items: center;
+        background-color: #003b54;
+        height: 70px;
+        display: flex;
+        /*z-index: 1000;*/
+        width: 100%;
+      }
+      .nav_link > a {
+        --count: 9;
+        color: #fbf8f8;
+        flex: none;
+        font-family: Lato, sans-serif;
+        font-weight: 400;
+        text-decoration: none;
+        justify-content: center;
+      }
+      @media (orientation: landscape) {
+        .nav_link {
+          width: 100%;
+          height: 100%;
+          /*display: block;*/
+          display: flex;
+        }
+        .nav_link > a {
+          height: 100%;
+          display: grid;
+          align-items: center;
+          font-size: min(1.2vw, 17px);
+        }
+        .button > img {
+          display: none;
+        }
+        .nav_link > a {
+          text-align: center;
+          line-height: 1.4;
+          width: calc(100% / var(--count) - 40px);
+          max-width: calc(100% / var(--count) - 40px);
+          margin: 0 20px 0;
+        }
+      }
+      @media (orientation: portrait) {
+        .button > img {
+          position: absolute;
+          display: block;
+          height: 20px;
+          left: 40px;
+          top: 25px;
+          z-index: 1000;
+        }
+        .button {
+          top: 0;
+          width: 100%;
+          height: 70px;
+          z-index: 1000;
+          background-color: #003b54;
+          position: fixed;
+        }
+        .nav_link {
+          position: fixed;
+          width: 100%;
+          top: calc(-100% + 70px);
+          background-color: #003b54;
+          z-index: 100;
+          height: calc(100vh - 70px);
+          box-sizing: border-box;
+          padding: 5vh 0 0 0;
+          transition: 0.5s ease;
+        }
+        .nav_title {
+          position: absolute;
+        }
+        .nav_link.open {
+          top: 70px;
+        }
+        .nav_link > a {
+          font-size: 18px;
+          line-height: 60px;
+          display: block;
+          width: 80%;
+          margin: 0 auto 0;
+          height: 60px;
+          box-sizing: border-box;
+          padding: 0 0 0 60px;
+          border-top: 1px solid white;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="button">
+        <img src="../svg/ham.svg" alt="" id="ham" />
+      </div>
+      <div class="nav_link" id="navLink">
+        <a href="../">Home</a>
+        <a href="../present-situation/">資源の現状</a>
+        <a href="../urban-mining/">都市鉱山の意義</a>
+        <a href="../problem/">課題</a>
+        <a href="../measure/">現在の取り組み</a>
+        <a href="../activity/">アクティビティ</a>
+        <a href="../solution/">解決策</a>
+        <a href="../finally/">最後に</a>
+        <a href="../others/">その他</a>
+      </div>
+    </nav>
+
+    <script>
+      let open_judge = -1
+
+      window.onload = () => {
+        document.getElementById("ham").onclick = () => {
+          console.log("A")
+          if (open_judge === -1) {
+            document.getElementById("navLink").classList.add("open")
+          } else {
+            document.getElementById("navLink").classList.remove("open")
+          }
+          open_judge *= -1
+        }
+      }
+    </script>
+
+    <main>
+      <h1 id="携帯解体">携帯解体</h1>
+      <p class="no_indent">
+        10/22（金）にメンバー1人の家にあったスマートフォンとガラケーを1台づつ分解しました。
+      </p>
+
+      <h2 id="解体の目的">解体の目的</h2>
+      <ol>
+        <li>携帯電話に金属が含まれていることを体感する</li>
+        <li>携帯電話の構造を確認する</li>
+      </ol>
+
+      <h2 id="スマートフォン">スマートフォン</h2>
+      <p>
+        今回分解するスマホは003SHといって、株式会社SHARPが2010年に製造したものです。
+      </p>
+      <div class="image_container">
+        <figure class="image_box" style="height: 20vw">
+          <img class="image" src="../img/activity/disassembly/S_1.jpg" alt="" />
+          <div class="note"><a class="href" href=""></a></div>
+          <figcaption class="image_caption"></figcaption>
+        </figure>
+
+        <figure class="image_box" style="height: 20vw">
+          <img class="image" src="../img/activity/disassembly/S_2.jpg" alt="" />
+          <div class="note"><a class="href" href=""></a></div>
+          <figcaption class="image_caption"></figcaption>
+        </figure>
+      </div>
+
+      <p>
+        このような古い機器は現在のものよりも部品が外しやすく、分解しやすい傾向があります。
+        このスマホも同様に、非常に分解しやすい構造になっていました。
+        まず電源端子のあたりから爪を入れ、裏の板を外します。
+      </p>
+      <div class="image_container">
+        <figure class="image_box" style="height: 40vw">
+          <img
+            class="image"
+            src="../img/activity/disassembly/1.00.23.jpg"
+            alt=""
+          />
+          <div class="note"><a class="href" href=""></a></div>
+          <figcaption class="image_caption"></figcaption>
+        </figure>
+      </div>
+
+      <p>
+        ここからSIMカードやSDカードを入れたり、電池を入れ替えたりすることができるので、ここは開けたことのある人もいるかも知れません。
+        ロックを外して電池を外し、中に入っているSIMカードやSDカードも外しておきます。
+        ここでいくつかネジが見えているので、特殊なドライバー（今回は五角ドライバー）を使って外します。
+        すると基板が見えます。
+      </p>
+      <div class="image_container">
+        <figure class="image_box" style="height: 40vw">
+          <img
+            class="image"
+            src="../img/activity/disassembly/1.05.56.jpg"
+            alt=""
+          />
+          <div class="note"><a class="href" href=""></a></div>
+          <figcaption class="image_caption"></figcaption>
+        </figure>
+      </div>
+
+      <p>
+        取り外した裏のパネルの方にもスピーカーや振動モーターなどいくつか部品があるので、外しておきます。
+        基板の縁を止めているプラスチックの小さな爪を潰して外せば、基板を外すことができます。
+      </p>
+      <div class="image_container">
+        <figure class="image_box" style="height: 40vw">
+          <img
+            class="image"
+            src="../img/activity/disassembly/1.12.48.jpg"
+            alt=""
+          />
+          <div class="note"><a class="href" href=""></a></div>
+          <figcaption class="image_caption"></figcaption>
+        </figure>
+      </div>
+
+      <p>
+        ディスプレイと繋げているフレキシブルケーブルは、端のコネクタから外せます。
+        ここからは基板にフレキシブルケーブルでくっついているだけのものが多いので、外してしまいます。
+        基板についている銀色の部品は放熱板なので、下に爪を入れて剥がすことができます。
+      </p>
+      <div class="image_container">
+        <figure class="image_box" style="height: 20vw">
+          <img
+            class="image"
+            src="../img/activity/disassembly/1.14.32.jpg"
+            alt=""
+          />
+          <div class="note"><a class="href" href=""></a></div>
+          <figcaption class="image_caption"></figcaption>
+        </figure>
+
+        <figure class="image_box" style="height: 20vw">
+          <img
+            class="image"
+            src="../img/activity/disassembly/1.17.06.jpg"
+            alt=""
+          />
+          <div class="note"><a class="href" href=""></a></div>
+          <figcaption class="image_caption"></figcaption>
+        </figure>
+      </div>
+
+      <p>
+        放熱版の下にはよく熱を出すICチップが配置されています。
+        基板に関してはこれ以上分解するのが難しかったので、基板に関してはこれで終わることにしました。
+        続いては画面です。
+        画面の表側のスピーカー部わからマイナスドライバーなどを差し込むことで、表面のガラスを外せます。
+        ガラスを取った後、裏側から押すことで、液晶モジュールを取り外せます。
+        この液晶モジュールは層状になっており、剥がすことができます。
+        結果、光を複雑に反射させるようなフィルムが何枚かと、液晶の本体が取り出せました。
+      </p>
+      <div class="image_container">
+        <figure class="image_box" style="height: 40vw">
+          <img
+            class="image"
+            src="../img/activity/disassembly/2.09.46.jpg"
+            alt=""
+          />
+          <div class="note"><a class="href" href=""></a></div>
+          <figcaption class="image_caption"></figcaption>
+        </figure>
+      </div>
+
+      <p>
+        これでスマホの分解は終了です。
+        最終的に下の写真のような部品に分解することができました。
+      </p>
+      <div class="image_container">
+        <figure class="image_box" style="height: 40vw">
+          <img class="image" src="../img/activity/disassembly/S.jpg" alt="" />
+          <div class="note"><a class="href" href=""></a></div>
+          <figcaption class="image_caption"></figcaption>
+        </figure>
+      </div>
+
+      <h2 id="ガラケー">ガラケー</h2>
+      <p>
+        ガラケーの分解もスマホの分解と似ています（どちらも作られた年代が随分昔であるというのもありますが）。
+        今回分解するガラケーはV603SHといって、株式会社SHARPが2005年に作ったガラケーです。
+      </p>
+      <div class="image_container">
+        <figure class="image_box" style="height: 30vw">
+          <img class="image" src="../img/activity/disassembly/G_1.jpg" alt="" />
+          <div class="note"><a class="href" href=""></a></div>
+          <figcaption class="image_caption"></figcaption>
+        </figure>
+
+        <figure class="image_box" style="height: 30vw">
+          <img class="image" src="../img/activity/disassembly/G_2.jpg" alt="" />
+          <div class="note"><a class="href" href=""></a></div>
+          <figcaption class="image_caption"></figcaption>
+        </figure>
+      </div>
+
+      <p>
+        ガラケーはスマホとは違い、多くの隠しネジが使用されています。
+        隠しネジはシールの裏に隠れているので、見えているネジ以外にも、ネジが隠れていそうなシールを見つけ、剥がさなければいけません。
+        またガラケーは可動部品としてヒンジが使われているのですが、部品がネジでそのヒンジにつながっていて、外すのが難しい場合があります。
+        それ以外はスマホの分解と似ているので、所々割愛しようと思います。
+        まず電池やSIMカードを外しておきます。
+      </p>
+      <div class="image_container">
+        <figure class="image_box" style="height: 40vw">
+          <img
+            class="image"
+            src="../img/activity/disassembly/5.00.08.jpg"
+            alt=""
+          />
+          <div class="note"><a class="href" href=""></a></div>
+          <figcaption class="image_caption"></figcaption>
+        </figure>
+      </div>
+
+      <p>
+        そして次に隠しネジを外さないといけません。
+        写真の黒い部分がシールになっていて、その下にネジが埋まっています。
+        カッターなどを差し込むと剥がれてネジが露出するのでドライバーで外していきます。
+        画面の横にある銀色の部品も外れました。
+      </p>
+      <div class="image_container">
+        <figure class="image_box" style="height: 40vw">
+          <img
+            class="image"
+            src="../img/activity/disassembly/5.04.32.jpg"
+            alt=""
+          />
+          <div class="note"><a class="href" href=""></a></div>
+          <figcaption class="image_caption"></figcaption>
+        </figure>
+      </div>
+
+      <p>
+        画面上部にもネジがあったので外すと、画面の本体を外すことができます。
+        ここで基盤についているネジを外すことで、本体が上半分と下半分の2つに分かれます。
+        ※この時点で上半分は画面が外されているのでただの基板に見えます。
+      </p>
+      <div class="image_container">
+        <figure class="image_box" style="height: 40vw">
+          <img
+            class="image"
+            src="../img/activity/disassembly/5.09.04_L.jpg"
+            alt=""
+          />
+          <div class="note"><a class="href" href=""></a></div>
+          <figcaption class="image_caption"></figcaption>
+        </figure>
+      </div>
+
+      <p>
+        画面の基板にも多くのフレキシブルケーブルが使われているので、一つ一つ外すと、基盤が取り外せます。
+        基板の裏には、スマホの時と同じような液晶ユニットがあり、同じようにフィルムや液晶に分解できました。
+      </p>
+      <div class="image_container">
+        <figure class="image_box" style="height: 40vw">
+          <img
+            class="image"
+            src="../img/activity/disassembly/5.12.18_L.jpg"
+            alt=""
+          />
+          <div class="note"><a class="href" href=""></a></div>
+          <figcaption class="image_caption"></figcaption>
+        </figure>
+      </div>
+
+      <p>
+        続いて、下半分の分解に移ります。
+        ネジを外すことで、キーボードの部分が半分に割れます。
+      </p>
+      <div class="image_container">
+        <figure class="image_box" style="height: 40vw">
+          <img
+            class="image"
+            src="../img/activity/disassembly/5.09.04_R.jpg"
+            alt=""
+          />
+          <div class="note"><a class="href" href=""></a></div>
+          <figcaption class="image_caption"></figcaption>
+        </figure>
+      </div>
+
+      <p>
+        ここにも基板があり、基盤とプラスチックの間からキーボードに使われていたゴムのフィルムが取り出せます。
+        これが沈み込んで基板に電気が通るようにすることでボタンとして動作しているのです。
+        ガラケーの基板はスマホのものと異なり、横のボタンを実現するために、基板が3次元状に組まれています。
+        これもフレキシブルケーブルを外していくことで、基盤とヒンジを分離できます。
+      </p>
+      <div class="image_container">
+        <figure class="image_box" style="height: 40vw">
+          <img
+            class="image"
+            src="../img/activity/disassembly/5.19.23_R.jpg"
+            alt=""
+          />
+          <div class="note"><a class="href" href=""></a></div>
+          <figcaption class="image_caption"></figcaption>
+        </figure>
+      </div>
+
+      <p>
+        ここにもやっぱりネジが隠されているので、それを外してプラスチック部分を取り外します。
+        これで金属の塊のようなヒンジを取り外すことができます。
+      </p>
+      <div class="image_container">
+        <figure class="image_box" style="height: 40vw">
+          <img
+            class="image"
+            src="../img/activity/disassembly/5.26.13_R.jpg"
+            alt=""
+          />
+          <div class="note"><a class="href" href=""></a></div>
+          <figcaption class="image_caption"></figcaption>
+        </figure>
+      </div>
+
+      <p>
+        これでガラケーの分解が終了です。
+        最終的に下の写真のような部品が取り出せました。
+      </p>
+      <div class="image_container">
+        <figure class="image_box" style="height: 40vw">
+          <img class="image" src="../img/activity/disassembly/G.jpg" alt="" />
+          <div class="note"><a class="href" href=""></a></div>
+          <figcaption class="image_caption"></figcaption>
+        </figure>
+      </div>
+
+      <h2 id="動画">動画</h2>
+      <p>
+        スマートフォン解体の動画です。
+        文章読むのがめんどくさい！という方におススメです。
+      </p>
+      <div class="image_container">
+        <video
+          class="video"
+          src="../video/activity/disassembly/WebCom21_1_product_21.11.19.15.45.mp4"
+          controls
+          preload="metadata"
+        ></video>
+      </div>
+
+      <h2 id="解体を通して感じたこと">解体を通して感じたこと</h2>
+      <p>
+        いつも使っているスマートフォンは（個人的な見解ですが）ただのガラス板のようにしか見えないので、中には基板くらいしかないかなと思っていました。<br />
+        しかし実際に中を開けてみたら、基板以外にも金属部品やフレキシブルケーブルなど、想像していたよりもさまざまな種類の部品が使われていて驚きました。<br />
+        また、携帯を解体するのに特殊な五角形のドライバーが必要であったり、慣れていなかったということもあったと思いますが、解体し終えるのに2時間以上かかったりしたことから、簡単に分解できないようになっていることを実感したうえに、
+        この分解のしにくくさから機械解体が難しくなってしまい、コスト問題につながっているのかとも思い知らされました。<br />
+        それでも普段はできない活動ができて楽しかったです。
+      </p>
+      <p>
+        なお、ここで分解した廃電子機器は資料としてコンテストが終わるまで持っておき、コンテスト終了後に組み立てなおし回収ボックスにチームで出しに行く予定です。
+      </p>
+    </main>
+    <footer>
+      <div class="footer_main">
+        <div class="footer_title">右ポケットの中の資源を求めて</div>
+        <div class="footer_copyright">
+          このサイトは
+          <a href="http://webcon.japias.jp/">第24回全国中学高校Webコンテスト</a>
+          に参加しています。
+        </div>
+        <div class="footer_license">
+          <a
+            rel="license"
+            href="http://creativecommons.org/licenses/by-nc-nd/4.0/"
+          >
+            <img
+              alt="クリエイティブ・コモンズ・ライセンス"
+              style="border-width: 0"
+              src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png"
+            />
+          </a>
+          <br />
+          この作品は
+          <a
+            rel="license"
+            href="http://creativecommons.org/licenses/by-nc-nd/4.0/"
+          >
+            クリエイティブ・コモンズ 表示 - 非営利 - 改変禁止 4.0 国際ライセンス
+          </a>
+          の下に提供されています。
+        </div>
+      </div>
+      <div class="footer_sitemap">
+        <a href="../">Home</a>
+        <a href="../present-situation/">資源の現状</a>
+        <a href="../urban-mining/">都市鉱山の意義</a>
+        <a href="../problem/">課題</a>
+        <a href="../measure/">現在の取り組み</a>
+        <a href="../activity/">アクティビティ</a>
+        <a href="../solution/">解決策</a>
+        <a href="../finally/">最後に</a>
+        <a href="../others/">その他</a>
+      </div>
+      <!--  ©︎甲陽学院PC部-->
+    </footer>
+  </body>
+</html>

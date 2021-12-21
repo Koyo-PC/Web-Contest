@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<!--suppress ALL -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="svg/logo.svg" type="image/svg+xml" />
+    <title>Home | 右ポケットの中の資源を求めて</title>
+    <style>
+      nav {
+        align-items: center;
+        background-color: #003b54;
+        height: 70px;
+        display: flex;
+        /*z-index: 1000;*/
+        width: 100%;
+      }
+      .nav_link > a {
+        --count: 9;
+        color: #fbf8f8;
+        flex: none;
+        font-family: Lato, sans-serif;
+        font-weight: 400;
+        text-decoration: none;
+        justify-content: center;
+      }
+      @media (orientation: landscape) {
+        .nav_link {
+          width: 100%;
+          height: 100%;
+          /*display: block;*/
+          display: flex;
+        }
+        .nav_link > a {
+          height: 100%;
+          display: grid;
+          align-items: center;
+          font-size: min(1.2vw, 17px);
+        }
+        .button > img {
+          display: none;
+        }
+        .nav_link > a {
+          text-align: center;
+          line-height: 1.4;
+          width: calc(100% / var(--count) - 40px);
+          max-width: calc(100% / var(--count) - 40px);
+          margin: 0 20px 0;
+        }
+      }
+      @media (orientation: portrait) {
+        .button > img {
+          position: absolute;
+          display: block;
+          height: 20px;
+          left: 40px;
+          top: 25px;
+          z-index: 1000;
+        }
+        .button {
+          top: 0;
+          width: 100%;
+          height: 70px;
+          z-index: 1000;
+          background-color: #003b54;
+          position: fixed;
+        }
+        .nav_link {
+          position: fixed;
+          width: 100%;
+          top: calc(-100% + 70px);
+          background-color: #003b54;
+          z-index: 100;
+          height: calc(100vh - 70px);
+          box-sizing: border-box;
+          padding: 5vh 0 0 0;
+          transition: 0.5s ease;
+        }
+        .nav_title {
+          position: absolute;
+        }
+        .nav_link.open {
+          top: 70px;
+        }
+        .nav_link > a {
+          font-size: 18px;
+          line-height: 60px;
+          display: block;
+          width: 80%;
+          margin: 0 auto 0;
+          height: 60px;
+          box-sizing: border-box;
+          padding: 0 0 0 60px;
+          border-top: 1px solid white;
+        }
+      } /*@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&dispaly=swap');*/
+      /*@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&dispaly=swap');*/
+      @import url("/css/base.css");
+
+      html,
+      body {
+        height: 100%;
+        width: 100%;
+        margin: unset;
+        font-family: "Lato", "Noto Sans JP", sans-serif;
+      }
+
+      .main_image {
+        text-align: center;
+        height: 500px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-image: url(img/pic_03_m.jpg);
+        display: grid;
+        place-items: center;
+        font-size: 72px;
+        font-weight: 700;
+        color: #fff;
+        opacity: 0.7;
+        text-shadow: 0 0 5px black;
+      }
+
+      main {
+        padding: 200px 10vw 100px;
+        counter-reset: text_title_counter;
+      }
+
+      .title_text {
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 20px;
+        letter-spacing: 0.05em;
+        line-height: 1.97;
+      }
+
+      .main_text {
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 20px;
+      }
+
+      .site_map {
+        display: block;
+        border-bottom: 3px solid #457834;
+        color: #457834;
+        font-weight: 400;
+        letter-spacing: 0.1em;
+        line-height: 1.4em;
+        text-align: center;
+      }
+
+      /*.site_map_list {*/
+      /*    width: 60%;*/
+      /*    margin: 0 20%;*/
+      /*    list-style: none;*/
+      /*    line-height: 50px;*/
+      /*    font-size: 20px;*/
+      /*}*/
+
+      @media (orientation: landscape) {
+        .site_map {
+          font-size: 64px;
+          height: 102px;
+          margin: 50px auto 100px;
+          width: 70%;
+        }
+        .title_text {
+          margin-bottom: 200px;
+        }
+      }
+      @media (orientation: portrait) {
+        .site_map {
+          font-size: 40px;
+          height: 60px;
+          margin: 50px auto 100px;
+        }
+        .title_text {
+          margin-bottom: 100px;
+        }
+      }
+      .atom_chara {
+        position: relative;
+        display: grid;
+        align-items: center;
+        gap: 40px;
+        grid-template-columns: var(--atom_chara_size) 1fr;
+      }
+      @media (orientation: landscape) {
+        .atom_chara {
+          --atom_chara_size: 150px;
+        }
+      }
+      @media (orientation: portrait) {
+        .atom_chara {
+          --atom_chara_size: 50px;
+        }
+      }
+
+      .atom_chara * {
+        box-sizing: border-box;
+      }
+
+      .atom_chara_icon {
+        position: relative;
+        margin: 0 20px;
+        width: var(--atom_chara_size);
+        height: calc(var(--atom_chara_size) + 50px);
+      }
+
+      .atom_chara_img {
+        width: var(--atom_chara_size);
+        height: var(--atom_chara_size);
+        border-radius: calc(var(--atom_chara_size) / 2);
+        object-fit: cover;
+      }
+
+      .atom_chara_name {
+        display: grid;
+        place-items: center;
+        height: 50px;
+        width: var(--atom_chara_size);
+        text-align: center;
+      }
+      @media (orientation: landscape) {
+        .atom_chara_name {
+          font-size: 18px;
+        }
+      }
+      @media (orientation: portrait) {
+        .atom_chara_name {
+          font-size: 15px;
+        }
+      }
+
+      .atom_chara_content {
+        --color: #e6f0f5;
+        position: relative;
+        display: grid;
+        align-items: center;
+        margin-left: 20px;
+        margin-bottom: 50px;
+        min-height: calc(30px + 20px * 2);
+        padding: 20px;
+        border-radius: 20px;
+        flex-grow: 1;
+        background-color: var(--color);
+      }
+      @media (orientation: landscape) {
+        .atom_chara_content {
+          font-size: 18px;
+        }
+      }
+      @media (orientation: portrait) {
+        .atom_chara_content {
+          font-size: 15px;
+        }
+      }
+
+      .atom_chara_content:before {
+        --size: 30px;
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: calc(-1 * var(--size));
+        margin-top: calc(-1 * var(--size) / 2);
+        border: calc(var(--size) / 2) solid transparent;
+        border-right: calc(var(--size) / 2) solid var(--color);
+      }
+      footer {
+        position: relative;
+        width: 100%;
+        height: 300px;
+        background-color: #003b54;
+        display: flex;
+        color: #fbf8f8;
+      }
+
+      .footer_main {
+        position: relative;
+      }
+
+      .footer_copyright {
+        position: absolute;
+        color: darkgray;
+      }
+
+      .footer_copyright > a {
+        text-decoration: underline;
+        color: #fbf8f8;
+      }
+
+      .footer_license {
+        position: absolute;
+        color: darkgray;
+      }
+      .footer_license a {
+        text-decoration: none;
+        color: #fbf8f8;
+      }
+      .footer_license a:hover {
+        color: lightgray;
+      }
+
+      .footer_sitemap {
+        position: absolute;
+      }
+
+      .footer_sitemap > a {
+        --category-count: 9;
+        display: grid;
+        justify-content: start;
+        align-items: center;
+        text-decoration: none;
+        color: #fbf8f8;
+      }
+
+      @media (orientation: landscape) {
+        .footer_main {
+          width: 50%;
+          height: 100%;
+          margin-left: 10%;
+        }
+        .footer_title {
+          margin: 75px 10% 0;
+          font-size: 25px;
+        }
+        .footer_license {
+          bottom: 12%;
+          left: 10%;
+          font-size: 12px;
+        }
+        .footer_copyright {
+          bottom: 30%;
+          left: 10%;
+        }
+        .footer_sitemap {
+          top: 10%;
+          width: 200px;
+          height: 80%;
+          right: 10%;
+        }
+        .footer_sitemap > a {
+          width: 100%;
+          height: calc(100% / var(--category-count));
+          font-size: 14px;
+        }
+      }
+      @media (orientation: portrait) {
+        .footer_main {
+          width: 55%;
+          height: 100%;
+          margin-left: 5%;
+        }
+        .footer_title {
+          margin: 30px 0 0 3%;
+          font-size: 25px;
+        }
+        .footer_copyright {
+          bottom: 35%;
+          left: 3%;
+          font-size: 10px;
+        }
+        .footer_license {
+          bottom: 10%;
+          left: 3%;
+          font-size: 10px;
+        }
+        .footer_sitemap {
+          top: 10%;
+          width: 30%;
+          height: 80%;
+          right: 5%;
+        }
+        .footer_sitemap > a {
+          width: 100%;
+          height: calc(100% / var(--category-count));
+          font-size: 12px;
+        }
+      }
+      .text {
+        width: 90%;
+        margin-bottom: 100px;
+        /*padding: 0 10vw 50px;*/
+      }
+
+      .text_title {
+        color: #457834;
+        font-size: 32px;
+        font-weight: 400;
+        height: 40px;
+        /*line-height: 1.4;*/
+      }
+
+      .textContent {
+        color: #003b54;
+        font-size: 20px;
+        line-height: 1.4;
+        padding: 0px 0px 0px 40px;
+      }
+
+      .text > a {
+        text-decoration: none;
+        color: #003b54;
+        display: inline-block;
+        margin: 30px 0 0 40px;
+      }
+
+      .link_button {
+        position: relative;
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        width: 200px;
+        height: 50px;
+        border: 2px solid #003b54;
+        border-radius: 0;
+        background-color: #fff;
+        color: #003b54;
+        margin: 0;
+        transition-duration: 0.2s;
+      }
+
+      .link_button:hover {
+        background-color: #ccc;
+      }
+
+      .link_button > .img {
+        position: absolute;
+        top: 0;
+        right: 20px;
+        height: 100%;
+        display: grid;
+        align-items: center;
+        justify-items: end;
+      }
+
+      .link_button > .img > img {
+        display: block;
+        /*height: 50%;*/
+        width: 40%;
+        aspect-ratio: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="button">
+        <img src="./svg/ham.svg" alt="" id="ham" />
+      </div>
+      <div class="nav_link" id="navLink">
+        <a href="./">Home</a>
+        <a href="./present-situation/">資源の現状</a>
+        <a href="./urban-mining/">都市鉱山の意義</a>
+        <a href="./problem/">課題</a>
+        <a href="./measure/">現在の取り組み</a>
+        <a href="./activity/">アクティビティ</a>
+        <a href="./solution/">解決策</a>
+        <a href="./finally/">最後に</a>
+        <a href="./others/">その他</a>
+      </div>
+    </nav>
+
+    <script>
+      let open_judge = -1
+
+      window.onload = () => {
+        document.getElementById("ham").onclick = () => {
+          console.log("A")
+          if (open_judge === -1) {
+            document.getElementById("navLink").classList.add("open")
+          } else {
+            document.getElementById("navLink").classList.remove("open")
+          }
+          open_judge *= -1
+        }
+      }
+    </script>
+    <div class="main_image">
+      <span>右ポケットの中の資源を求めて</span>
+    </div>
+    <main>
+      <div class="title_text">
+        私たちが普段使っているスマホ。<br />
+        それが2050年までに作れなくなっているかもしれません。<br />
+        それは「鉱物資源の枯渇」という問題にあります。<br />
+        需要の急増とともに、その消費が激しくなってきました。<br />
+        このままだと2050年までにスマホや家電などの電子機器の素材がなくなる恐れがあるのです。<br />
+        そこで、使われなくなったスマホなどの電子機器から金属を取り出して再利用する「都市鉱山」という考え方が生まれました。<br />
+        これには現在様々な課題がありますが、より活用されるようになると資源問題解決の１つの手がかりになるはずです。
+      </div>
+
+      <h2 class="site_map">キャラクター紹介</h2>
+
+      <!--suppress ALL -->
+      <div class="atom_chara" style="width: 100%; margin: 50px 0">
+        <div class="atom_chara_icon">
+          <img
+            class="atom_chara_img"
+            src="./img/atom_chara/Li.png"
+            alt="リチウムくんのアイコン"
+          />
+          <div class="atom_chara_name">リチウムくん</div>
+        </div>
+        <div class="atom_chara_content">
+          <span
+            >好奇心旺盛で、積極的に発言をする男の子。いつも見上げるような目をしている。モチーフはリチウム電池。原子番号3</span
+          >
+        </div>
+      </div>
+
+      <!--suppress HtmlUnknownAttribute -->
+
+      <!--suppress ALL -->
+      <div class="atom_chara" style="width: 100%; margin: 50px 0">
+        <div class="atom_chara_icon">
+          <img
+            class="atom_chara_img"
+            src="./img/atom_chara/Sc.png"
+            alt="スカンジウムおじさんのアイコン"
+          />
+          <div class="atom_chara_name">スカンジウムおじさん</div>
+        </div>
+        <div class="atom_chara_content">
+          <span
+            >リチウムくんの父親的存在で、周りを明るくしてくれる。モチーフは照明。原子番号21</span
+          >
+        </div>
+      </div>
+
+      <!--suppress HtmlUnknownAttribute -->
+
+      <!--suppress ALL -->
+      <div class="atom_chara" style="width: 100%; margin: 50px 0">
+        <div class="atom_chara_icon">
+          <img
+            class="atom_chara_img"
+            src="./img/atom_chara/Y.png"
+            alt="イットリウム博士のアイコン"
+          />
+          <div class="atom_chara_name">イットリウム博士</div>
+        </div>
+        <div class="atom_chara_content">
+          <span
+            >金属資源についてお詳しい方。モチーフはブラウン管テレビ。原子番号39</span
+          >
+        </div>
+      </div>
+
+      <!--suppress HtmlUnknownAttribute -->
+
+      <!--suppress ALL -->
+      <div class="atom_chara" style="width: 100%; margin: 50px 0">
+        <div class="atom_chara_icon">
+          <img
+            class="atom_chara_img"
+            src="./img/atom_chara/Au.png"
+            alt="マリー・ゴールドのアイコン"
+          />
+          <div class="atom_chara_name">マリー・ゴールド</div>
+        </div>
+        <div class="atom_chara_content">
+          <span
+            >深窓の令嬢で、世間のことをあまり知らない。時々大胆な発言をする。モチーフはお嬢様。原子番号79</span
+          >
+        </div>
+      </div>
+
+      <!--suppress HtmlUnknownAttribute -->
+
+      <!--suppress ALL -->
+      <div class="atom_chara" style="width: 100%; margin: 50px 0">
+        <div class="atom_chara_icon">
+          <img
+            class="atom_chara_img"
+            src="./img/atom_chara/Pt.png"
+            alt="プラチナルシストのアイコン"
+          />
+          <div class="atom_chara_name">プラチナルシスト</div>
+        </div>
+        <div class="atom_chara_content">
+          <span>どこかの科学者。モチーフはナルシスト。原子番号78</span>
+        </div>
+      </div>
+
+      <!--suppress HtmlUnknownAttribute -->
+
+      <!--  <h2 class="site_map">コンテンツ</h2>-->
+      <h2 class="site_map">サイトマップ</h2>
+
+      <div class="text">
+        <h3 class="text_title">資源の現状</h3>
+        <div class="textContent">
+          様々な科学技術分野で世界を牽引している日本。<br />
+          これは大量のレアメタルなどの金属資源によって支えられています。<br />
+          しかし、それらを手に入れることは決して容易なことではありません。
+        </div>
+        <a href="./present-situation/">
+          <div class="link_button">
+            詳しく見る
+            <div class="img">
+              <img src="./svg/arrow.svg" />
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="text">
+        <h3 class="text_title">都市鉱山の意義</h3>
+        <div class="textContent">
+          資源問題解決の1つの手がかりとなる都市鉱山。<br />
+          それは一体どのようなものなのでしょうか。
+        </div>
+        <a href="./urban-mining/">
+          <div class="link_button">
+            詳しく見る
+            <div class="img">
+              <img src="./svg/arrow.svg" />
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="text">
+        <h3 class="text_title">課題</h3>
+        <div class="textContent">
+          都市鉱山にはメリットがたくさんある一方で、多くの課題を抱えています。
+        </div>
+        <a href="./problem/">
+          <div class="link_button">
+            詳しく見る
+            <div class="img">
+              <img src="./svg/arrow.svg" />
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="text">
+        <h3 class="text_title">現在の取り組み</h3>
+        <div class="textContent">
+          現在都市鉱山をもっと広めよう、活用しようとする人々が様々な取り組みを行っています。<br />
+          世界は資源問題解決に向けて歩み出しているのです。
+        </div>
+        <a href="./measure/">
+          <div class="link_button">
+            詳しく見る
+            <div class="img">
+              <img src="./svg/arrow.svg" />
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="text">
+        <h3 class="text_title">アクティビティ</h3>
+        <div class="textContent">私たちの行った活動について紹介します。</div>
+        <a href="./activity/">
+          <div class="link_button">
+            詳しく見る
+            <div class="img">
+              <img src="./svg/arrow.svg" />
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="text">
+        <h3 class="text_title">解決策</h3>
+        <div class="textContent">
+          都市鉱山について様々な取り組みが行われていますが、まだまだたくさん問題が残っているのは事実です。<br />
+          都市鉱山をもっと広めよう、活用しようという意識を全員が共有できることを願って、私たちの考える解決策をこのページに書いてみました。
+        </div>
+        <a href="./solution/">
+          <div class="link_button">
+            詳しく見る
+            <div class="img">
+              <img src="./svg/arrow.svg" />
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="text">
+        <h3 class="text_title">最後に</h3>
+        <div class="textContent">私たちの思いが届きますように…！</div>
+        <a href="./finally/">
+          <div class="link_button">
+            詳しく見る
+            <div class="img">
+              <img src="./svg/arrow.svg" />
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="text">
+        <h3 class="text_title">その他</h3>
+        <div class="textContent">
+          私たちの活動記録やこのサイトの参考文献を紹介しています
+        </div>
+        <a href="./others/">
+          <div class="link_button">
+            詳しく見る
+            <div class="img">
+              <img src="./svg/arrow.svg" />
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <h2 class="site_map">推奨環境</h2>
+      <div class="main_text">
+        Chrome, FireFoxの最新版にて動作確認を行っています。<br />
+        その他のブラウザでは正常に表示されない場合があります。
+      </div>
+
+      <!--  <h2 class="site_map">サイトマップ</h2>-->
+      <!--  <ul class="site_map_list">-->
+      <!--    <li>Home</li>-->
+      <!--    <li>資源の現状</li>-->
+      <!--    <li>都市鉱山の意義</li>-->
+      <!--    <li>課題</li>-->
+      <!--    <li>現在の取り組み</li>-->
+      <!--    <li>アクティビティ</li>-->
+      <!--    <li>解決策</li>-->
+      <!--    <li>最後に</li>-->
+      <!--    <li>その他</li>-->
+      <!--  </ul>-->
+    </main>
+    <footer>
+      <div class="footer_main">
+        <div class="footer_title">右ポケットの中の資源を求めて</div>
+        <div class="footer_copyright">
+          このサイトは
+          <a href="http://webcon.japias.jp/">第24回全国中学高校Webコンテスト</a>
+          に参加しています。
+        </div>
+        <div class="footer_license">
+          <a
+            rel="license"
+            href="http://creativecommons.org/licenses/by-nc-nd/4.0/"
+          >
+            <img
+              alt="クリエイティブ・コモンズ・ライセンス"
+              style="border-width: 0"
+              src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png"
+            />
+          </a>
+          <br />
+          この作品は
+          <a
+            rel="license"
+            href="http://creativecommons.org/licenses/by-nc-nd/4.0/"
+          >
+            クリエイティブ・コモンズ 表示 - 非営利 - 改変禁止 4.0 国際ライセンス
+          </a>
+          の下に提供されています。
+        </div>
+      </div>
+      <div class="footer_sitemap">
+        <a href="../">Home</a>
+        <a href="../present-situation/">資源の現状</a>
+        <a href="../urban-mining/">都市鉱山の意義</a>
+        <a href="../problem/">課題</a>
+        <a href="../measure/">現在の取り組み</a>
+        <a href="../activity/">アクティビティ</a>
+        <a href="../solution/">解決策</a>
+        <a href="../finally/">最後に</a>
+        <a href="../others/">その他</a>
+      </div>
+      <!--  ©︎甲陽学院PC部-->
+    </footer>
+  </body>
+</html>

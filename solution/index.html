@@ -1,0 +1,1601 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--  <link rel="shortcut icon" href="svg/logo.svg" type="image/svg+xml">-->
+    <title>| 右ポケットの中の資源を求めて</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&dispaly=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&dispaly=swap");
+
+      * {
+        font-family: "Lato", "Noto Sans JP", sans-serif;
+        box-sizing: border-box;
+        font-weight: 400;
+      }
+
+      html,
+      body {
+        height: 100%;
+        width: 100%;
+        margin: unset;
+        overflow-x: hidden;
+      }
+
+      main {
+        padding: 50px 10% 100px;
+      }
+
+      h1 {
+        counter-reset: h2_counter;
+        width: 100%;
+        display: grid;
+        place-items: center;
+        color: #003b54;
+        font-weight: 700;
+      }
+
+      @media (orientation: landscape) {
+        h1 {
+          margin: 100px 0 0 0;
+          height: 200px;
+          font-size: min(10vw, 100px);
+        }
+      }
+      @media (orientation: portrait) {
+        h1 {
+          margin: 100px 0 100px 0;
+          /*height: 200px;*/
+          font-size: 10vw;
+        }
+      }
+
+      h2 {
+        display: block;
+        color: #003b54;
+        width: 100%;
+      }
+
+      h2:before {
+        counter-increment: h2_counter;
+        content: counter(h2_counter) ". ";
+        color: #457834;
+      }
+
+      @media (orientation: landscape) {
+        h2 {
+          font-size: 72px;
+          font-weight: 400;
+          margin: 10vh 0 0;
+        }
+      }
+      @media (orientation: portrait) {
+        h2 {
+          font-size: 32px;
+          font-weight: 400;
+          margin: 10vh 0 0;
+        }
+      }
+
+      h3 {
+        display: inline-block;
+        position: relative;
+        color: #003b54;
+        font-weight: 400;
+        background-origin: padding-box;
+        background: linear-gradient(transparent 80%, #c4edb7 80%);
+      }
+
+      @media (orientation: landscape) {
+        h3 {
+          font-size: 50px;
+          margin: 3vw 0 2vw 20px;
+        }
+      }
+      @media (orientation: portrait) {
+        h3 {
+          font-size: 30px;
+          margin: 20px 0 50px 10px;
+        }
+      }
+
+      p {
+        text-indent: 1em;
+        width: 100%;
+        text-align: justify;
+      }
+
+      @media (orientation: landscape) {
+        p {
+          font-size: 20px;
+          line-height: 1.9;
+          margin: 50px 0;
+        }
+        main ol > li {
+          font-size: 20px;
+          line-height: 1.9;
+        }
+      }
+      @media (orientation: portrait) {
+        p {
+          font-size: 16px;
+          line-height: 1.9;
+          margin: 50px 0;
+        }
+        main ol > li {
+          font-size: 16px;
+          line-height: 1.9;
+        }
+      }
+
+      dl.Q_A {
+        counter-reset: qa_counter;
+        /*font-size: 17px;*/
+        text-align: justify;
+
+        text-indent: 1em;
+        font-size: 20px;
+        line-height: 1.5;
+      }
+
+      dl.Q_A > dt {
+        margin-top: 50px;
+      }
+
+      dl.Q_A > dt:before {
+        counter-increment: qa_counter;
+        content: "Q" counter(qa_counter) ". ";
+        display: block;
+        height: 100%;
+        font-weight: 700;
+        font-size: 20px;
+        margin-bottom: 5px;
+        margin-left: -20px;
+      }
+
+      dl.Q_A > dd {
+        margin: 0;
+        margin-top: 20px;
+      }
+
+      dl.Q_A > dd:before {
+        content: "A" counter(qa_counter) ". ";
+        display: block;
+        height: 100%;
+        font-weight: 700;
+        font-size: 20px;
+        margin-bottom: 5px;
+        margin-left: -20px;
+      }
+
+      span.weak {
+        color: dimgray;
+        font-weight: 400;
+      }
+
+      .sorry {
+        color: gray;
+        font-style: italic;
+      }
+
+      .table_figure {
+        max-width: 80vw;
+        overflow-x: auto;
+        margin: 0 0 5vh 0;
+      }
+
+      table {
+        border: 1px solid black;
+        border-collapse: collapse;
+        margin: 0 auto;
+      }
+
+      tr,
+      th,
+      td {
+        border: 1px solid black;
+        padding: 5px 20px;
+        white-space: nowrap;
+      }
+
+      th {
+        background-color: #eee;
+        font-weight: 700;
+      }
+
+      .image_container {
+        display: flex;
+        justify-content: center;
+      }
+
+      figcaption {
+        display: block;
+        width: 100%;
+        text-align: center;
+      }
+
+      .image_links {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 10vh 0 0 0;
+      }
+      .img_link {
+        display: block;
+        aspect-ratio: 1;
+        background-color: yellowgreen;
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        text-decoration: none;
+        color: black;
+      }
+
+      @media (orientation: landscape) {
+        .img_link {
+          width: 45%;
+          margin: 2vh 2.5%;
+          font-size: 5vw;
+        }
+      }
+      @media (orientation: portrait) {
+        .img_link {
+          width: 100%;
+          margin: 2vh 0;
+        }
+      }
+      .atom_chara {
+        position: relative;
+        display: grid;
+        align-items: center;
+        gap: 40px;
+        grid-template-columns: var(--atom_chara_size) 1fr;
+      }
+      @media (orientation: landscape) {
+        .atom_chara {
+          --atom_chara_size: 150px;
+        }
+      }
+      @media (orientation: portrait) {
+        .atom_chara {
+          --atom_chara_size: 50px;
+        }
+      }
+
+      .atom_chara * {
+        box-sizing: border-box;
+      }
+
+      .atom_chara_icon {
+        position: relative;
+        margin: 0 20px;
+        width: var(--atom_chara_size);
+        height: calc(var(--atom_chara_size) + 50px);
+      }
+
+      .atom_chara_img {
+        width: var(--atom_chara_size);
+        height: var(--atom_chara_size);
+        border-radius: calc(var(--atom_chara_size) / 2);
+        object-fit: cover;
+      }
+
+      .atom_chara_name {
+        display: grid;
+        place-items: center;
+        height: 50px;
+        width: var(--atom_chara_size);
+        text-align: center;
+      }
+      @media (orientation: landscape) {
+        .atom_chara_name {
+          font-size: 18px;
+        }
+      }
+      @media (orientation: portrait) {
+        .atom_chara_name {
+          font-size: 15px;
+        }
+      }
+
+      .atom_chara_content {
+        --color: #e6f0f5;
+        position: relative;
+        display: grid;
+        align-items: center;
+        margin-left: 20px;
+        margin-bottom: 50px;
+        min-height: calc(30px + 20px * 2);
+        padding: 20px;
+        border-radius: 20px;
+        flex-grow: 1;
+        background-color: var(--color);
+      }
+      @media (orientation: landscape) {
+        .atom_chara_content {
+          font-size: 18px;
+        }
+      }
+      @media (orientation: portrait) {
+        .atom_chara_content {
+          font-size: 15px;
+        }
+      }
+
+      .atom_chara_content:before {
+        --size: 30px;
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: calc(-1 * var(--size));
+        margin-top: calc(-1 * var(--size) / 2);
+        border: calc(var(--size) / 2) solid transparent;
+        border-right: calc(var(--size) / 2) solid var(--color);
+      }
+      .word_text {
+        position: relative;
+        color: #000;
+        font-weight: bold;
+        white-space: nowrap;
+        z-index: 1;
+      }
+
+      .word_description_container {
+        position: absolute;
+        display: block;
+        height: 0;
+        opacity: 0;
+        filter: drop-shadow(8px 8px 20px #999);
+
+        transition-duration: 0.25s;
+        transition-property: height, opacity;
+
+        overflow: hidden;
+        z-index: 50;
+      }
+      .word:hover .word_description_container,
+      .word_description_container:hover {
+        opacity: 100%;
+
+        height: auto;
+        overflow: hidden;
+      }
+
+      .word_description {
+        box-sizing: border-box;
+        display: block;
+        margin-top: 10px;
+        /*background-color: #eee;*/
+        background-color: ghostwhite;
+        height: calc(100% - 10px);
+        width: 100%;
+        text-align: left;
+        padding: 10px;
+        border-radius: 5px;
+      }
+      .word_description_title {
+        display: block;
+        font-weight: 700;
+        text-indent: 0;
+      }
+
+      @media (orientation: landscape) {
+        .word {
+          position: relative;
+        }
+        .word_description_container {
+          left: 0;
+          width: 300px;
+          top: calc(100%);
+        }
+        .word_description_container:before {
+          box-sizing: border-box;
+          content: "";
+          position: absolute;
+          width: 20px;
+          height: 20px;
+          top: -10px;
+          left: 10px;
+          border: solid 10px transparent;
+          border-bottom: solid 10px ghostwhite;
+        }
+        .word_description {
+          margin-top: 10px;
+        }
+        .word_description_title {
+          font-size: 1.2em;
+        }
+        .word_description_text {
+          font-size: 15px;
+          line-height: 5px;
+        }
+      }
+      @media (orientation: portrait) {
+        .word {
+          position: relative;
+        }
+        .word_description_container {
+          width: 70vw;
+        }
+        .word_description {
+          margin-top: 0;
+        }
+        .word_description_title {
+          font-size: 1.2em;
+        }
+      }
+      .force_text {
+        color: #000;
+        font-weight: bold;
+        /*display: inline-block;*/
+        /*border: 1px solid #457834;*/
+        background-origin: padding-box;
+        background: linear-gradient(transparent 60%, #edc2b7 60%);
+        /*white-space: nowrap;*/
+
+        z-index: 1;
+      }
+      .image_box {
+        display: inline-block;
+        position: relative;
+        /*width: 100%;*/
+      }
+
+      .image {
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+        margin: 0 auto;
+      }
+
+      .note {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        text-align: right;
+        font-size: 14px;
+      }
+      .note:not(:blank):before {
+        content: "(";
+      }
+      .note:not(:blank):after {
+        content: ")";
+      }
+
+      .href:not([href=""]):before {
+        content: "出典";
+        margin-left: 0.5em;
+      }
+
+      .image_caption {
+        display: block;
+        width: 100%;
+        height: 3em;
+        text-align: center;
+        vertical-align: bottom;
+      }
+      .no_indent {
+        text-indent: 0;
+      }
+      footer {
+        position: relative;
+        width: 100%;
+        height: 300px;
+        background-color: #003b54;
+        display: flex;
+        color: #fbf8f8;
+      }
+
+      .footer_main {
+        position: relative;
+      }
+
+      .footer_copyright {
+        position: absolute;
+        color: darkgray;
+      }
+
+      .footer_copyright > a {
+        text-decoration: underline;
+        color: #fbf8f8;
+      }
+
+      .footer_license {
+        position: absolute;
+        color: darkgray;
+      }
+      .footer_license a {
+        text-decoration: none;
+        color: #fbf8f8;
+      }
+      .footer_license a:hover {
+        color: lightgray;
+      }
+
+      .footer_sitemap {
+        position: absolute;
+      }
+
+      .footer_sitemap > a {
+        --category-count: 9;
+        display: grid;
+        justify-content: start;
+        align-items: center;
+        text-decoration: none;
+        color: #fbf8f8;
+      }
+
+      @media (orientation: landscape) {
+        .footer_main {
+          width: 50%;
+          height: 100%;
+          margin-left: 10%;
+        }
+        .footer_title {
+          margin: 75px 10% 0;
+          font-size: 25px;
+        }
+        .footer_license {
+          bottom: 12%;
+          left: 10%;
+          font-size: 12px;
+        }
+        .footer_copyright {
+          bottom: 30%;
+          left: 10%;
+        }
+        .footer_sitemap {
+          top: 10%;
+          width: 200px;
+          height: 80%;
+          right: 10%;
+        }
+        .footer_sitemap > a {
+          width: 100%;
+          height: calc(100% / var(--category-count));
+          font-size: 14px;
+        }
+      }
+      @media (orientation: portrait) {
+        .footer_main {
+          width: 55%;
+          height: 100%;
+          margin-left: 5%;
+        }
+        .footer_title {
+          margin: 30px 0 0 3%;
+          font-size: 25px;
+        }
+        .footer_copyright {
+          bottom: 35%;
+          left: 3%;
+          font-size: 10px;
+        }
+        .footer_license {
+          bottom: 10%;
+          left: 3%;
+          font-size: 10px;
+        }
+        .footer_sitemap {
+          top: 10%;
+          width: 30%;
+          height: 80%;
+          right: 5%;
+        }
+        .footer_sitemap > a {
+          width: 100%;
+          height: calc(100% / var(--category-count));
+          font-size: 12px;
+        }
+      }
+      nav {
+        align-items: center;
+        background-color: #003b54;
+        height: 70px;
+        display: flex;
+        /*z-index: 1000;*/
+        width: 100%;
+      }
+      .nav_link > a {
+        --count: 9;
+        color: #fbf8f8;
+        flex: none;
+        font-family: Lato, sans-serif;
+        font-weight: 400;
+        text-decoration: none;
+        justify-content: center;
+      }
+      @media (orientation: landscape) {
+        .nav_link {
+          width: 100%;
+          height: 100%;
+          /*display: block;*/
+          display: flex;
+        }
+        .nav_link > a {
+          height: 100%;
+          display: grid;
+          align-items: center;
+          font-size: min(1.2vw, 17px);
+        }
+        .button > img {
+          display: none;
+        }
+        .nav_link > a {
+          text-align: center;
+          line-height: 1.4;
+          width: calc(100% / var(--count) - 40px);
+          max-width: calc(100% / var(--count) - 40px);
+          margin: 0 20px 0;
+        }
+      }
+      @media (orientation: portrait) {
+        .button > img {
+          position: absolute;
+          display: block;
+          height: 20px;
+          left: 40px;
+          top: 25px;
+          z-index: 1000;
+        }
+        .button {
+          top: 0;
+          width: 100%;
+          height: 70px;
+          z-index: 1000;
+          background-color: #003b54;
+          position: fixed;
+        }
+        .nav_link {
+          position: fixed;
+          width: 100%;
+          top: calc(-100% + 70px);
+          background-color: #003b54;
+          z-index: 100;
+          height: calc(100vh - 70px);
+          box-sizing: border-box;
+          padding: 5vh 0 0 0;
+          transition: 0.5s ease;
+        }
+        .nav_title {
+          position: absolute;
+        }
+        .nav_link.open {
+          top: 70px;
+        }
+        .nav_link > a {
+          font-size: 18px;
+          line-height: 60px;
+          display: block;
+          width: 80%;
+          margin: 0 auto 0;
+          height: 60px;
+          box-sizing: border-box;
+          padding: 0 0 0 60px;
+          border-top: 1px solid white;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="button">
+        <img src="../svg/ham.svg" alt="" id="ham" />
+      </div>
+      <div class="nav_link" id="navLink">
+        <a href="../">Home</a>
+        <a href="../present-situation/">資源の現状</a>
+        <a href="../urban-mining/">都市鉱山の意義</a>
+        <a href="../problem/">課題</a>
+        <a href="../measure/">現在の取り組み</a>
+        <a href="../activity/">アクティビティ</a>
+        <a href="../solution/">解決策</a>
+        <a href="../finally/">最後に</a>
+        <a href="../others/">その他</a>
+      </div>
+    </nav>
+
+    <script>
+      let open_judge = -1
+
+      window.onload = () => {
+        document.getElementById("ham").onclick = () => {
+          console.log("A")
+          if (open_judge === -1) {
+            document.getElementById("navLink").classList.add("open")
+          } else {
+            document.getElementById("navLink").classList.remove("open")
+          }
+          open_judge *= -1
+        }
+      }
+    </script>
+
+    <main>
+      <h1 id="解決策">解決策</h1>
+      <p class="no_indent">
+        現在さまざまな取り組みが行われていますが、まだまだたくさん問題が残っているのは事実です。<br />
+        都市鉱山をもっと広めよう、活用しようという意識を全員が共有できることを願って、私たちの考える解決策をこのページに書いてみました。
+      </p>
+
+      <h2 id="回収率を上げるには">回収率を上げるには</h2>
+      <p>
+        どれだけリサイクルがうまくいく体制が整っても、そもそもの電子廃棄物の回収量が少なくては意味がありません。
+        ここでは、どうすれば日本でもっと回収率が伸びるかを考えてみます。
+      </p>
+      <h3 id="リサイクルを義務化する">リサイクルを義務化する</h3>
+      <!--suppress ALL -->
+      <div class="atom_chara" style="width: 100%; margin: 50px 0">
+        <div class="atom_chara_icon">
+          <img
+            class="atom_chara_img"
+            src="../img/atom_chara/Li.png"
+            alt="リチウムくんのアイコン"
+          />
+          <div class="atom_chara_name">リチウムくん</div>
+        </div>
+        <div class="atom_chara_content">
+          <span
+            >スイスのように小型家電を購入するときにその時点でリサイクルにかかるコストを消費者が払って、小型家電のリサイクルを義務付けたら？</span
+          >
+        </div>
+      </div>
+
+      <!--suppress HtmlUnknownAttribute -->
+
+      <p>
+        しかし、義務化はそう簡単ではなく課題やデメリットが多く存在します。
+        <a href="../activity/interview.html">醍醐先生とのインタビュー</a
+        >の中でリサイクルの義務化の難しさについて醍醐先生はこのようにおっしゃっています。
+      </p>
+      <blockquote>
+        <p>
+          「義務付けることはたぶんできると思いますけど、それによって義務付けないといけないってことはその方がコストメリットがないということですよね。
+          じゃあその費用はだれが負担するのかでしょ。
+          それに対して義務付けるというムチに対して、その代わりにそれがムチとして効くようなアメを一緒に渡さないと誰もやってくれないわけですけど、それが国の予算から支出できればいいのですが、そこにも多くの問題があってその制度設計が難しいように思います。」
+        </p>
+      </blockquote>
+      <!--suppress ALL -->
+      <div class="atom_chara" style="width: 100%; margin: 50px 0">
+        <div class="atom_chara_icon">
+          <img
+            class="atom_chara_img"
+            src="../img/atom_chara/Sc.png"
+            alt="スカンジウムおじさんのアイコン"
+          />
+          <div class="atom_chara_name">スカンジウムおじさん</div>
+        </div>
+        <div class="atom_chara_content">
+          <span
+            >たしかにこの問題を解決する方法を見つけるのは難しいけれど、自分なりに考えてみましょう。</span
+          >
+        </div>
+      </div>
+
+      <!--suppress HtmlUnknownAttribute -->
+
+      <p>
+        私たちも初めは<span class="force_text"
+          >スマートフォンをリサイクルに出すことを義務付ける</span
+        >ことを考えていました。
+        しかしこれでは醍醐先生のおっしゃるアメがありません。
+        消費者にはリサイクル料金というムチだけを与えてしまうことになります。
+        このデメリットとして、<span class="force_text"
+          >不法投棄が出てきてしまう</span
+        >ということが挙げられます。
+        なぜなら、家電4品目をゴミに出すときに「え、ゴミ出すのにお金いるん?!まじかよ、もう誰にもバレへんように山の中に捨てちゃおーっと。」となる人が出るからです。
+        もしくは、自ら山の中に捨てに行かなかったとしても、無料で回収するという謳い文句で車を走らせている違法業者に渡してしまうというケースもあります。
+        このような違法業者は適切なリサイクルを行わず、利益になるような部分だけを回収した廃家電から取り出しあと、残りの部分は山の中などに不法投棄します。
+        不法投棄された家電は、リサイクルに回すことができないだけでなく、中に含まれている<span
+          class="force_text"
+          >フロンなどの有害物質が適切の処理されず環境の破壊につながります。</span
+        >
+      </p>
+      <!--suppress ALL -->
+      <div class="atom_chara" style="width: 100%; margin: 50px 0">
+        <div class="atom_chara_icon">
+          <img
+            class="atom_chara_img"
+            src="../img/atom_chara/Au.png"
+            alt="マリー・ゴールドのアイコン"
+          />
+          <div class="atom_chara_name">マリー・ゴールド</div>
+        </div>
+        <div class="atom_chara_content">
+          <span
+            >そんなデメリットがあったのね。ならそもそも消費者は捨てるときに料金を払わずに、買うときに払うようにすればいい話じゃないの？「現在の取り組み」で見たみたいにスイスはそれでうまくいってたわ。</span
+          >
+        </div>
+      </div>
+
+      <!--suppress HtmlUnknownAttribute -->
+
+      <p>
+        スイスでは消費者にリサイクルを義務付けています。
+        購入時にすでにリサイクル代は払っているので引き取り時に支払う代金はゼロです。
+        したがって廃棄するときの不法投棄が減り、回収率アップが期待されます。
+        実はこの前払い制度は日本でも<span class="word"
+          ><span class="word_text">家電リサイクル法</span>
+          <span class="word_description_container">
+            <span class="word_description">
+              <span class="word_description_title">家電リサイクル法</span>
+              <span class="word_description_text" style="line-height: 0.5"
+                >エアコン、テレビ(ブラウン管、液晶・プラズマ)、冷蔵庫・冷凍庫、洗濯機・衣類乾燥機の家電4品目を対象とした法律。後払い制度がとられている。これらの家電の回収により、リサイクルの促進だけでなく、廃棄物の減量も目指している。</span
+              >
+            </span>
+          </span>
+        </span>
+
+        <!--suppress HtmlUnknownAttribute -->
+        において検討されてきましたし、<span class="word"
+          ><span class="word_text">資源有効利用促進法</span>
+          <span class="word_description_container">
+            <span class="word_description">
+              <span class="word_description_title">資源有効利用促進法</span>
+              <span class="word_description_text" style="line-height: 0.5"
+                >車やパソコンを対象としたリサイクルの法律。前払い制度を採用している。</span
+              >
+            </span>
+          </span>
+        </span>
+
+        <!--suppress HtmlUnknownAttribute -->
+        （自動車やパソコンなどを対象としています）として日本で実際に実施されています。
+        この前払い制度は<span class="force_text"
+          >「（消費者ではなく）生産者こそがリサイクルを行う責任を負うべきである」</span
+        >という拡大生産者責任（EPR）と呼ばれる考えに基づいています。
+        しかし、この制度の難点としてメーカー側が売る時に将来のリサイクルコストを見積もるのが難しい、すでに消費者のもとにわたっている製品はどうするのかなどの問題があり、結局家電リサイクル法では採用されていません。
+        たしかに、製品を売る時にリサイクル費用として上乗せした分より数年後のリサイクルにかかる費用の方が高い場合、メーカーは損してしまいます。
+      </p>
+      <!--suppress ALL -->
+      <div class="atom_chara" style="width: 100%; margin: 50px 0">
+        <div class="atom_chara_icon">
+          <img
+            class="atom_chara_img"
+            src="../img/atom_chara/Pt.png"
+            alt="プラチナルシストのアイコン"
+          />
+          <div class="atom_chara_name">プラチナルシスト</div>
+        </div>
+        <div class="atom_chara_content">
+          <span
+            >メーカーが将来かかるリサイクル料金を予測することが難しいのであれば、その時にメーカーがリサイクルに必要な費用にはその時に消費者が払ったリサイクル代を当てればいい気がするが。</span
+          >
+        </div>
+      </div>
+
+      <!--suppress HtmlUnknownAttribute -->
+
+      <p>
+        これは年金のような考え方ですね。
+        <span class="force_text">その時必要なお金をその時に回収する。</span>
+        そうすればメーカーには先に述べたようなデメリットはなくなるはずです。
+        しかし、年金と似た制度ということはそれと似たデメリットもあるということです。
+        具体的には、年金でいえば年金を受け取る人と年金を収める人が一致しない、つまり金属リサイクルでいえば、<span
+          class="force_text"
+          >消費者と負担者が一致しない</span
+        >ということです。
+        あなたが小型家電の購入時にリサイクル代として払うお金はあなたの小型家電のリサイクル代ではなく、たまたまその時に小型家電をリサイクルに出す見知らぬ人のための代金です。
+        当然購入時に支払うリサイクル代と数年後にあなたの小型家電がリサイクルされるときの費用が一致しないということは十分にあり得ます。
+      </p>
+      <!--suppress ALL -->
+      <div class="atom_chara" style="width: 100%; margin: 50px 0">
+        <div class="atom_chara_icon">
+          <img
+            class="atom_chara_img"
+            src="../img/atom_chara/Li.png"
+            alt="リチウムくんのアイコン"
+          />
+          <div class="atom_chara_name">リチウムくん</div>
+        </div>
+        <div class="atom_chara_content">
+          <span
+            >『このスマホを買うときにリサイクル代として2000円払ったのに、2年後いざリサイクルとなると技術が発展していて1500円で済むようになっていた。この500円はなんなんやー(怒)。』ということがあり得そうだね。</span
+          >
+        </div>
+      </div>
+
+      <!--suppress HtmlUnknownAttribute -->
+
+      <p>
+        ただし、これにはとても良い面もあります。
+        メーカーはリサイクル料金を上乗せすることになるので、価格競争に勝つために製品自体の値段だけでなくリサイクル代を削減することも必要になります。
+        そうなるとメーカーは将来自分がリサイクルするときにできるだけ費用が掛からないように製品を設計するようになります。
+        つまり、<span class="force_text"
+          >どんどんリサイクルが容易な製品が増えていく</span
+        >のです。
+        これは循環型社会に移行するために必要不可欠な要素の1つであり、この制度の大きなメリットと言えそうです。
+        ここまで見てきたように「リサイクルを義務化する」と一口にいっても<span
+          class="force_text"
+          >その実行方法それぞれに良い面・悪い面があります。</span
+        >
+      </p>
+      <!--suppress ALL -->
+      <div class="atom_chara" style="width: 100%; margin: 50px 0">
+        <div class="atom_chara_icon">
+          <img
+            class="atom_chara_img"
+            src="../img/atom_chara/Sc.png"
+            alt="スカンジウムおじさんのアイコン"
+          />
+          <div class="atom_chara_name">スカンジウムおじさん</div>
+        </div>
+        <div class="atom_chara_content">
+          <span
+            >デメリットも踏まえると、今の方法のまま義務化せず、都市鉱山の利用を呼びかける取り組みを続けるのがベストな気がします。</span
+          >
+        </div>
+      </div>
+
+      <!--suppress HtmlUnknownAttribute -->
+
+      <!--suppress ALL -->
+      <div class="atom_chara" style="width: 100%; margin: 50px 0">
+        <div class="atom_chara_icon">
+          <img
+            class="atom_chara_img"
+            src="../img/atom_chara/Li.png"
+            alt="リチウムくんのアイコン"
+          />
+          <div class="atom_chara_name">リチウムくん</div>
+        </div>
+        <div class="atom_chara_content">
+          <span
+            >やっぱり義務化しないとあまり進まないと思うな。家電リサイクル法みたいに施行すればいいんじゃない？</span
+          >
+        </div>
+      </div>
+
+      <!--suppress HtmlUnknownAttribute -->
+
+      <!--suppress ALL -->
+      <div class="atom_chara" style="width: 100%; margin: 50px 0">
+        <div class="atom_chara_icon">
+          <img
+            class="atom_chara_img"
+            src="../img/atom_chara/Pt.png"
+            alt="プラチナルシストのアイコン"
+          />
+          <div class="atom_chara_name">プラチナルシスト</div>
+        </div>
+        <div class="atom_chara_content">
+          <span
+            >でもスマホとかは小さいからわざわざ捨てなくても家の中で邪魔にならないのであまり意味がないのでは？</span
+          >
+        </div>
+      </div>
+
+      <!--suppress HtmlUnknownAttribute -->
+
+      <!--suppress ALL -->
+      <div class="atom_chara" style="width: 100%; margin: 50px 0">
+        <div class="atom_chara_icon">
+          <img
+            class="atom_chara_img"
+            src="../img/atom_chara/Au.png"
+            alt="マリー・ゴールドのアイコン"
+          />
+          <div class="atom_chara_name">マリー・ゴールド</div>
+        </div>
+        <div class="atom_chara_content">
+          <span>そうなると前払い制度の導入が必要になるわね。</span>
+        </div>
+      </div>
+
+      <!--suppress HtmlUnknownAttribute -->
+
+      <!--suppress ALL -->
+      <div class="atom_chara" style="width: 100%; margin: 50px 0">
+        <div class="atom_chara_icon">
+          <img
+            class="atom_chara_img"
+            src="../img/atom_chara/Li.png"
+            alt="リチウムくんのアイコン"
+          />
+          <div class="atom_chara_name">リチウムくん</div>
+        </div>
+        <div class="atom_chara_content">
+          <span
+            >自分が払ったリサイクル代と実際のリサイクルにかかった費用が一致しないのは仕方がない気もするけど、自分が損する立場になったらいやだもんなあ。</span
+          >
+        </div>
+      </div>
+
+      <!--suppress HtmlUnknownAttribute -->
+
+      <p>
+        ゲンソくんたちはこのように話しています。
+        みなさんはどうお考えでしょうか？ 人によってさまざまと思います。
+        この先、日本のリサイクルがどのような方向に行くかはわかりませんが<span
+          class="force_text"
+          >各個人が意見をそれぞれ持つ</span
+        >ことが重要になるでしょう。
+      </p>
+      <h3 id="リサイクルを促す">リサイクルを促す</h3>
+      <!--suppress ALL -->
+      <div class="atom_chara" style="width: 100%; margin: 50px 0">
+        <div class="atom_chara_icon">
+          <img
+            class="atom_chara_img"
+            src="../img/atom_chara/Y.png"
+            alt="イットリウム博士のアイコン"
+          />
+          <div class="atom_chara_name">イットリウム博士</div>
+        </div>
+        <div class="atom_chara_content">
+          <span
+            >小型家電のリサイクルを義務化するのではなく逆にリサイクルすればメリットがあるという風にするのはどうじゃろ。</span
+          >
+        </div>
+      </div>
+
+      <!--suppress HtmlUnknownAttribute -->
+
+      <p>
+        「やらなければ罰を与える」のではなく、「やれば報酬を与える」というようにする方法です。
+        これならばリサイクルを義務化することなくリサイクルを進められそうです。
+      </p>
+      <!--suppress ALL -->
+      <div class="atom_chara" style="width: 100%; margin: 50px 0">
+        <div class="atom_chara_icon">
+          <img
+            class="atom_chara_img"
+            src="../img/atom_chara/Pt.png"
+            alt="プラチナルシストのアイコン"
+          />
+          <div class="atom_chara_name">プラチナルシスト</div>
+        </div>
+        <div class="atom_chara_content">
+          <span>その報酬として何が考えられるのかい？</span>
+        </div>
+      </div>
+
+      <!--suppress HtmlUnknownAttribute -->
+
+      <!--suppress ALL -->
+      <div class="atom_chara" style="width: 100%; margin: 50px 0">
+        <div class="atom_chara_icon">
+          <img
+            class="atom_chara_img"
+            src="../img/atom_chara/Au.png"
+            alt="マリー・ゴールドのアイコン"
+          />
+          <div class="atom_chara_name">マリー・ゴールド</div>
+        </div>
+        <div class="atom_chara_content">
+          <span>moneyかしら</span>
+        </div>
+      </div>
+
+      <!--suppress HtmlUnknownAttribute -->
+
+      <p>
+        お金が報酬だとリサイクルに協力してくれる人も増えそうですが、コスト問題を抱えているリサイクル業界ではそのお金を負担することは難しそうです。
+      </p>
+      <!--suppress ALL -->
+      <div class="atom_chara" style="width: 100%; margin: 50px 0">
+        <div class="atom_chara_icon">
+          <img
+            class="atom_chara_img"
+            src="../img/atom_chara/Au.png"
+            alt="マリー・ゴールドのアイコン"
+          />
+          <div class="atom_chara_name">マリー・ゴールド</div>
+        </div>
+        <div class="atom_chara_content">
+          <span
+            >...たしかに。リサイクル企業が負担するのもおかしいもの。リサイクルをする責任って誰にあるのよ？</span
+          >
+        </div>
+      </div>
+
+      <!--suppress HtmlUnknownAttribute -->
+
+      <!--suppress ALL -->
+      <div class="atom_chara" style="width: 100%; margin: 50px 0">
+        <div class="atom_chara_icon">
+          <img
+            class="atom_chara_img"
+            src="../img/atom_chara/Li.png"
+            alt="リチウムくんのアイコン"
+          />
+          <div class="atom_chara_name">リチウムくん</div>
+        </div>
+        <div class="atom_chara_content">
+          <span
+            >それはみんなにあるんじゃない？資源問題で困るのはみんななんだから。</span
+          >
+        </div>
+      </div>
+
+      <!--suppress HtmlUnknownAttribute -->
+
+      <!--suppress ALL -->
+      <div class="atom_chara" style="width: 100%; margin: 50px 0">
+        <div class="atom_chara_icon">
+          <img
+            class="atom_chara_img"
+            src="../img/atom_chara/Pt.png"
+            alt="プラチナルシストのアイコン"
+          />
+          <div class="atom_chara_name">プラチナルシスト</div>
+        </div>
+        <div class="atom_chara_content">
+          <span>ではリサイクル費用を税金で賄えばいいのでは？</span>
+        </div>
+      </div>
+
+      <!--suppress HtmlUnknownAttribute -->
+
+      <!--suppress ALL -->
+      <div class="atom_chara" style="width: 100%; margin: 50px 0">
+        <div class="atom_chara_icon">
+          <img
+            class="atom_chara_img"
+            src="../img/atom_chara/Li.png"
+            alt="リチウムくんのアイコン"
+          />
+          <div class="atom_chara_name">リチウムくん</div>
+        </div>
+        <div class="atom_chara_content">
+          <span>税金は増やしたくないなあ...</span>
+        </div>
+      </div>
+
+      <!--suppress HtmlUnknownAttribute -->
+
+      <p>
+        リチウムくんのように、税金を増やす方法を快く思わない人も多く、あまり良い解決策ではないと感じた私たちは、そもそも<span
+          class="force_text"
+          >「どうしてリサイクルをしたがらない人たちがいるのか？」</span
+        >ということに立ち戻って考えてみました。
+        その時に思ったのが、校内アンケートにもあったように、<!--（ここでアンケート押したら身近っていう該当部分に飛べるようにしてほしい）--><span
+          class="force_text"
+          >「都市鉱山が身近に感じづらい」</span
+        >ということでした。
+        さらに都市鉱山が身近に感じにくい理由を考えてみたところ、<span
+          class="force_text"
+          >リサイクルによる効果を実感しにくい</span
+        >ということが思い浮かんできました。
+        これについては、都市鉱山の致し方ない面であるようにも思います。
+        実際私たちも<span class="word"
+          ><span class="word_text">回収ボックス</span>
+          <span class="word_description_container">
+            <span class="word_description">
+              <span class="word_description_title">回収ボックス</span>
+              <span class="word_description_text" style="line-height: 0.5"
+                >使用済み小型家電を集めるため、スーパーや学校などに設置されているボックス。誰でも無料で利用することができる。</span
+              >
+            </span>
+          </span>
+        </span>
+
+        <!--suppress HtmlUnknownAttribute -->
+        を利用したときに、たしかに何かいいようなことをした気分になりましたが、出した使用済み携帯電話が具体的にどの製品の一部になったかまではわからないため、本当に役に立ったのかを身近に感じ取ることができませんでした。
+        つまり、<span class="force_text"
+          >リサイクルをする動機が善意なのであって、ある目的のためにするというわけではない</span
+        >のです。
+      </p>
+      <!--suppress ALL -->
+      <div class="atom_chara" style="width: 100%; margin: 50px 0">
+        <div class="atom_chara_icon">
+          <img
+            class="atom_chara_img"
+            src="../img/atom_chara/Li.png"
+            alt="リチウムくんのアイコン"
+          />
+          <div class="atom_chara_name">リチウムくん</div>
+        </div>
+        <div class="atom_chara_content">
+          <span
+            >『<span class="word"
+              ><span class="word_text">みんなのメダルプロジェクト</span>
+              <span class="word_description_container">
+                <span class="word_description">
+                  <span class="word_description_title"
+                    >みんなのメダルプロジェクト</span
+                  >
+                  <span class="word_description_text" style="line-height: 0.5"
+                    >東京2020オリンピック・パラリンピックにおける金・銀・銅メダルを都市鉱山から作るというプロジェクト。このプロジェクトによって約5000個のメダルが都市鉱山から作られた。</span
+                  >
+                </span>
+              </span>
+            </span>
+
+            <!--suppress HtmlUnknownAttribute -->
+            』のときは協力してくれた人が多かったよね。</span
+          >
+        </div>
+      </div>
+
+      <!--suppress HtmlUnknownAttribute -->
+
+      <!--suppress ALL -->
+      <div class="atom_chara" style="width: 100%; margin: 50px 0">
+        <div class="atom_chara_icon">
+          <img
+            class="atom_chara_img"
+            src="../img/atom_chara/Au.png"
+            alt="マリー・ゴールドのアイコン"
+          />
+          <div class="atom_chara_name">マリー・ゴールド</div>
+        </div>
+        <div class="atom_chara_content">
+          <span
+            >それは自分の出した携帯がメダルになるってことを知ったからだと思うわ。</span
+          >
+        </div>
+      </div>
+
+      <!--suppress HtmlUnknownAttribute -->
+
+      <!--suppress ALL -->
+      <div class="atom_chara" style="width: 100%; margin: 50px 0">
+        <div class="atom_chara_icon">
+          <img
+            class="atom_chara_img"
+            src="../img/atom_chara/Li.png"
+            alt="リチウムくんのアイコン"
+          />
+          <div class="atom_chara_name">リチウムくん</div>
+        </div>
+        <div class="atom_chara_content">
+          <span
+            >使い終わった携帯がメダルになるってなんか夢あることだもんね。</span
+          >
+        </div>
+      </div>
+
+      <!--suppress HtmlUnknownAttribute -->
+
+      <p>
+        たしかに「リサイクルに出すとこんなものになりますよ～」ということがはっきりとわかった場合、「それの一部になるなら協力する！」という人も増えそうです。
+        そこで私たちは、携帯電話の中に含まれる<span class="word"
+          ><span class="word_text">金属資源</span>
+          <span class="word_description_container">
+            <span class="word_description">
+              <span class="word_description_title">金属資源</span>
+              <span class="word_description_text" style="line-height: 0.5"
+                >鉱物資源の一種。さらにレアメタル、マイナーメタルに分けられる。</span
+              >
+            </span>
+          </span>
+        </span>
+
+        <!--suppress HtmlUnknownAttribute -->
+        の一部を提供者に還元させるということを考えました。
+        つまり回収ボックスに出した携帯電話から採り出した<span class="word"
+          ><span class="word_text">レアメタル</span>
+          <span class="word_description_container">
+            <span class="word_description">
+              <span class="word_description_title">レアメタル</span>
+              <span class="word_description_text" style="line-height: 0.5"
+                >1.地殻中の存在量が比較的少ない元素　<br />
+                2.単体として取り出すことが技術的に困難な元素<br />3.資源の産出国が偏在している<br />を満たす元素のことを言い、現代の産業に欠かせない”産業のビタミン”と呼ばれる。別名マイナーメタル。</span
+              >
+            </span>
+          </span>
+        </span>
+
+        <!--suppress HtmlUnknownAttribute -->
+        や<span class="word"
+          ><span class="word_text">メジャーメタル</span>
+          <span class="word_description_container">
+            <span class="word_description">
+              <span class="word_description_title">メジャーメタル</span>
+              <span class="word_description_text" style="line-height: 0.5"
+                >鉄、銅、亜鉛、アルミニウムなどの精錬が容易で大量に存在する金属のこと。別名ベースメタル。</span
+              >
+            </span>
+          </span>
+        </span>
+
+        <!--suppress HtmlUnknownAttribute -->
+        の一部が戻ってくるという仕組みです。
+        この方法ならば、携帯電話がちゃんと別のものになってるいるという実感も沸くはずです。
+        しかしこの方法には携帯電話に含まれる金属資源の少なさ、提供者の情報の徹底管理など、課題はたくさんあります。
+        それでも<span class="force_text"
+          >リサイクルが具体的にどう役に立っているかを明示する</span
+        >ことは大きなメリットになると思います。
+      </p>
+      <h3 id="リサイクルのイメージを上げる">リサイクルのイメージを上げる</h3>
+      <p>
+        「リサイクルのイメージを上げる」というと「逆にリサイクルはイメージが悪いの？」と思われるかもしれません。
+        たしかに日本でリサイクルと聞くとクリーンなイメージがありますが、そのような日本でのリサイクルのイメージは世界全体で共有されているわけではありません。
+        日本では、<span class="force_text"
+          >リサイクルはもともと身分の低い人々が行っていた作業でした。</span
+        >
+        なので、リサイクルには「所詮ゴミ処理に過ぎない」というイメージが残り、現在では「環境を汚さないようにする」というように環境問題への対策としてとらえられています。
+        それに対して、例えば<span class="force_text"
+          >ヨーロッパでは<span class="word"
+            ><span class="word_text">循環型経済</span>
+            <span class="word_description_container">
+              <span class="word_description">
+                <span class="word_description_title">循環型経済</span>
+                <span class="word_description_text" style="line-height: 0.5"
+                  >リサイクルの目的を、環境に負担を与えないことだけでなく、経済の発展の起爆剤にすることにもするという考え方で表した社会のこと。</span
+                >
+              </span>
+            </span>
+          </span>
+
+          <!--suppress HtmlUnknownAttribute -->
+          という考えが行われています。</span
+        >
+        <span class="word"
+          ><span class="word_text">循環型社会</span>
+          <span class="word_description_container">
+            <span class="word_description">
+              <span class="word_description_title">循環型社会</span>
+              <span class="word_description_text" style="line-height: 0.5"
+                >廃棄物を出さないように循環させ、環境への負担を最低限にする考え方に基づいた経済の仕組み。</span
+              >
+            </span>
+          </span>
+        </span>
+
+        <!--suppress HtmlUnknownAttribute -->
+        という言葉は皆さんも聞いたことがあるのではないでしょうか？
+        循環型社会は「できるだけ環境に負担をかけないようにしよう」という考え方ですが、循環型経済は「環境への負担を減らすではなく、経済の発展も同時に目指そう」という考え方です。
+        つまり、<span class="force_text"
+          >リサイクルを経済の中に取り込んでしまい、経済発展の一要素として扱おう</span
+        >としているのです。
+        このようにしてみると、リサイクルに対する見方に違いがあるのがわかります。
+        日本では、環境問題対策というとやはり経済発展の足かせという感じがしますが、このような循環型経済の視点を取り入れることで日本でのリサイクルが（金属に限った話ではありませんが）進むのではないでしょうか。
+      </p>
+      <!--suppress ALL -->
+      <div class="atom_chara" style="width: 100%; margin: 50px 0">
+        <div class="atom_chara_icon">
+          <img
+            class="atom_chara_img"
+            src="../img/atom_chara/Y.png"
+            alt="イットリウム博士のアイコン"
+          />
+          <div class="atom_chara_name">イットリウム博士</div>
+        </div>
+        <div class="atom_chara_content">
+          <span
+            >循環型経済の取り組みとしては、リサイクル以外にも製品の長寿命化などもあるのじゃよ。</span
+          >
+        </div>
+      </div>
+
+      <!--suppress HtmlUnknownAttribute -->
+
+      <h2 id="コスト問題の解決には">コスト問題の解決には</h2>
+      <p>
+        「課題」では、リサイクルをするのに莫大な費用がかかるということを紹介しました。
+      </p>
+      <p>
+        そもそも、コストが高いのは金属リサイクルの際に手解体という作業が入ることが主な原因です。
+        <span class="force_text">この部分を機械化する</span
+        >ことができれば大幅なコスト削減が見込めます。
+      </p>
+      <!--suppress ALL -->
+      <div class="atom_chara" style="width: 100%; margin: 50px 0">
+        <div class="atom_chara_icon">
+          <img
+            class="atom_chara_img"
+            src="../img/atom_chara/Sc.png"
+            alt="スカンジウムおじさんのアイコン"
+          />
+          <div class="atom_chara_name">スカンジウムおじさん</div>
+        </div>
+        <div class="atom_chara_content">
+          <span
+            >そういえば「現在の取り組み」で取り上げたApple社は機械解体をしていましたね。</span
+          >
+        </div>
+      </div>
+
+      <!--suppress HtmlUnknownAttribute -->
+
+      <p>
+        私たちは、「ここに持ち込まれた製品は1時間に200台ものスマホを解体できる機械によって分解され新しい製品の材料となります。」と書きました。
+        Appleはスマホの解体を機械で行っていることからヒントを得るとするならば、私たちがコスト問題の解決法として考えられるのは<span
+          class="force_text"
+          >小型家電を品目ごとに構造を統一する</span
+        >ということです。
+        何か1つ世界的な規格を定めて世界中のメーカーがこれに従った製品を作れば、わざわざ手解体をせずとも機械解体が可能になるはずです。
+      </p>
+      <!--suppress ALL -->
+      <div class="atom_chara" style="width: 100%; margin: 50px 0">
+        <div class="atom_chara_icon">
+          <img
+            class="atom_chara_img"
+            src="../img/atom_chara/Au.png"
+            alt="マリー・ゴールドのアイコン"
+          />
+          <div class="atom_chara_name">マリー・ゴールド</div>
+        </div>
+        <div class="atom_chara_content">
+          <span
+            >でもそんなことをしたらどのメーカーの製品も似たり寄ったりになってしまいそうだわ。</span
+          >
+        </div>
+      </div>
+
+      <!--suppress HtmlUnknownAttribute -->
+
+      <p>
+        それならば、そこまで厳しく縛らなくても、<span class="force_text"
+          >ある一部分にレアメタルを集めておくような構造にしておく</span
+        >など楽に解体できるようにしておくだけでもコスト問題には効果的だと思います。
+        ただしこれは世界中を巻き込む取り組みであるうえ、すでに製造されている製品に対しては効果は皆無です。
+      </p>
+      <p>
+        また、近年注目されている水素エネルギーもリサイクルに使えないかと考えてみました。
+        水素エネルギーとは水素と酸素を組み合わせることで生み出されるエネルギーのことです。
+        このエネルギーについて、CO2が排出しないため脱炭素化などに効果的であるという利点があります。
+        ただ、これは開発途中のエネルギーで、リサイクルのエネルギー源に使うことが100%安全とは言い切れません。
+        しかしこれによって<span class="force_text"
+          >金属リサイクルが環境に配慮している</span
+        >ということをアピールできれば、金属リサイクルの需要も高まってくるのではないでしょうか。
+      </p>
+      <h2 id="リサイクルのリスクを減らすには">
+        リサイクルのリスクを減らすには
+      </h2>
+      <p>
+        リサイクルをすると、有用な金属資源だけではなく、プラスチックなどの廃棄物や、有害物質が出てきてしまいます。
+        このような副産物を減らすためにはどのようにすればよいのでしょうか。
+      </p>
+      <!--suppress ALL -->
+      <div class="atom_chara" style="width: 100%; margin: 50px 0">
+        <div class="atom_chara_icon">
+          <img
+            class="atom_chara_img"
+            src="../img/atom_chara/Li.png"
+            alt="リチウムくんのアイコン"
+          />
+          <div class="atom_chara_name">リチウムくん</div>
+        </div>
+        <div class="atom_chara_content">
+          <span
+            >そもそもリサイクルをしたときに廃棄物や有害物質ができるだけでないように製品設計すればいいんじゃないの？</span
+          >
+        </div>
+      </div>
+
+      <!--suppress HtmlUnknownAttribute -->
+
+      <p>
+        すでにプラスチックや有害物質となる物質を減らすような取り組みはあります。
+        例えば、EUが発表した特定プラスチック製品の環境負荷低減に関わる指令では、ストロー、綿棒、発泡スチロール製の食品容器・飲料容器などのプラスチック製品10種とプラスチック製漁具を規制しています。
+        また、2006年7月1日から施行されている<span class="force_text"
+          >RoHS(ローズ)指令は製品中に含まれる有害物質10種目について制限を設けています。</span
+        >
+        RoHSの基準を満たしていることを示すこのCEマーキングに見覚えがある人は多いのではないでしょうか。
+      </p>
+      <div class="image_container">
+        <figure class="image_box" style="height: 10vw">
+          <img class="image" src="../assets/ec/ce-mark/ce-mark.png" alt="" />
+          <div class="note">
+            ECよりダウンロード<a
+              class="href"
+              href="https://ec.europa.eu/growth/single-market/ce-marking_en"
+            ></a>
+          </div>
+          <figcaption class="image_caption"></figcaption>
+        </figure>
+      </div>
+
+      <p>
+        しかしこれらはEUによるものであり、全世界で適用されているわけではありません。
+        中にはこのRoHS指令を参考にして自国の法律を作っている国もありますが、<span
+          class="force_text"
+          >全ての国で統一されてはいない</span
+        >のです。
+        例えば日本の場合、RoHSでは規制されるような有害物質濃度の製品が規制されていません。(もちろんEU加盟国でそれを販売するとなれば話は別ですが)
+        このような状況だと、ヨーロッパでは規制されているような製品が日本に流入してしまい、有害物質を過剰に含んだ製品を世界規模で減らすのは難しくなってしまっています。
+        各地域によってバラバラでは意味がないのです。
+        以上のことから、私たちはリサイクルのリスクを減らす解決策として、<span
+          class="force_text"
+          >全世界で守られるべきプラスチックなどについての明確な基準を定める</span
+        >ということが挙げられると考えます。
+      </p>
+      <!--suppress ALL -->
+      <div class="atom_chara" style="width: 100%; margin: 50px 0">
+        <div class="atom_chara_icon">
+          <img
+            class="atom_chara_img"
+            src="../img/atom_chara/Au.png"
+            alt="マリー・ゴールドのアイコン"
+          />
+          <div class="atom_chara_name">マリー・ゴールド</div>
+        </div>
+        <div class="atom_chara_content">
+          <span
+            >南極や海底にも金属資源はいぃーっぱいあるのですよ。ただコスト問題や国際問題から現在採掘は行われておりませんわ。</span
+          >
+        </div>
+      </div>
+
+      <!--suppress HtmlUnknownAttribute -->
+
+      <h2 id="まとめ">まとめ</h2>
+      <p>私たちの解決策は以下の６つです。</p>
+      <ol>
+        <li>メリット、デメリットを理解した上でのリサイクルの義務化</li>
+        <li>金属資源の一部還元</li>
+        <li>リサイクルのイメージを上げる</li>
+        <li>製品の規格統一</li>
+        <li>水素エネルギーの利用</li>
+        <li>プラスチックや有害物質についての世界規模の基準の制定</li>
+      </ol>
+
+      <h2 id="参考文献">参考文献</h2>
+      <p class="no_indent">
+        <a
+          href="https://www.meti.go.jp/shingikai/sankoshin/sangyo_gijutsu/haikibutsu_recycle/denki_wg/pdf/028_07_02.pdf"
+          >家電リサイクル法における費用回収方式について</a
+        ><br />
+        <a
+          href="https://www-cycle.nies.go.jp/magazine/mame/201805.html#:~:text=%E6%97%A5%E6%9C%AC%E3%81%A7%E3%82%82%E4%BC%BC%E3%81%9F%E3%82%88%E3%81%86,%E3%81%A8%E7%95%B0%E3%81%AA%E3%82%8B%E5%A4%A7%E3%81%8D%E3%81%AA%E7%89%B9%E5%BE%B4%E3%81%A7%E3%81%99%E3%80%82"
+          >資源循環・廃棄物研究センター
+          オンラインマガジン環境「循環・廃棄物の豆知識」</a
+        ><br />
+        <a href="https://www.toshiba-clip.com/detail/p=621"
+          >TOSHIBA「水素エネルギーについて知っておきたい5つのこと」</a
+        ><br />
+        <a href="https://eleminist.com/article/817"
+          >ELEMINIST「有害物質を制限するローズ指令（RoHS指令）とは　遅れが目立つ日本での取り組み」</a
+        ><br />
+        <a
+          href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32019L0904&from=EN#d1e32-17-1"
+          >Official Journal of the European Union「DIRECTIVE (EU) 2019/904 OF
+          THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 5 June 2019 on the
+          reduction of the impact of certain plastic products on the
+          environment」</a
+        ><br />
+        <a href="https://www.jetro.go.jp/biznews/2021/06/88299a30b5475ed7.html"
+          >JETRO「欧州委、使い捨てプラスチック製品の流通禁止を前に指針発表」</a
+        >
+      </p>
+    </main>
+    <footer>
+      <div class="footer_main">
+        <div class="footer_title">右ポケットの中の資源を求めて</div>
+        <div class="footer_copyright">
+          このサイトは
+          <a href="http://webcon.japias.jp/">第24回全国中学高校Webコンテスト</a>
+          に参加しています。
+        </div>
+        <div class="footer_license">
+          <a
+            rel="license"
+            href="http://creativecommons.org/licenses/by-nc-nd/4.0/"
+          >
+            <img
+              alt="クリエイティブ・コモンズ・ライセンス"
+              style="border-width: 0"
+              src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png"
+            />
+          </a>
+          <br />
+          この作品は
+          <a
+            rel="license"
+            href="http://creativecommons.org/licenses/by-nc-nd/4.0/"
+          >
+            クリエイティブ・コモンズ 表示 - 非営利 - 改変禁止 4.0 国際ライセンス
+          </a>
+          の下に提供されています。
+        </div>
+      </div>
+      <div class="footer_sitemap">
+        <a href="../">Home</a>
+        <a href="../present-situation/">資源の現状</a>
+        <a href="../urban-mining/">都市鉱山の意義</a>
+        <a href="../problem/">課題</a>
+        <a href="../measure/">現在の取り組み</a>
+        <a href="../activity/">アクティビティ</a>
+        <a href="../solution/">解決策</a>
+        <a href="../finally/">最後に</a>
+        <a href="../others/">その他</a>
+      </div>
+      <!--  ©︎甲陽学院PC部-->
+    </footer>
+  </body>
+</html>
