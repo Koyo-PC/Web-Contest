@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--  <link rel="shortcut icon" href="svg/logo.svg" type="image/svg+xml">-->
-    <title>| 右ポケットの中の資源を求めて</title>
+    <title><SCML_ENV_TITLE /> | 右ポケットの中の資源を求めて</title>
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&dispaly=swap");
       @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&dispaly=swap");
@@ -536,6 +536,68 @@
       .inline_image {
         height: 1em;
         vertical-align: bottom;
+      }
+      #next_button {
+        background-color: #4caf50;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        position: relative;
+      }
+
+      #next_button:after {
+        content: "";
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        top: 50%;
+        right: 15px;
+        border: 2px solid;
+        border-color: white white transparent transparent;
+        transform: translateY(-50%) rotate(45deg);
+      }
+      #prev_button {
+        background-color: #d95252;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        position: relative;
+      }
+
+      #prev_button:before {
+        content: "";
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        top: 50%;
+        left: 15px;
+        border: 2px solid;
+        border-color: transparent transparent white white;
+        transform: translateY(-50%) rotate(45deg);
+      }
+      #pn_bar {
+        display: block;
+        width: 100%;
+      }
+      #next_link {
+        float: right;
+      }
+      #prev_link {
+        float: left;
       }
       .no_indent {
         text-indent: 0;
@@ -1205,6 +1267,16 @@
           >別表 専門分野等一覧表</a
         >
       </p>
+
+      <div id="pn_bar">
+        <a href="../" id="prev_link">
+          <button id="prev_button">Prev</button>
+        </a>
+
+        <a href="../urban-mining/" id="next_link">
+          <button id="next_button">Next</button>
+        </a>
+      </div>
     </main>
     <footer>
       <div class="footer_main">
