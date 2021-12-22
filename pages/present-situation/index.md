@@ -166,3 +166,5 @@
 <a href="https://www.huffingtonpost.jp/kanta-hara/540_media_b_10214318.html" alt="">HUFFPOST「死者540万人以上－日本のメディアは報じない、コンゴ紛争とハイテク産業の繋がり」</a><br><a href="http://jsmcwm.or.jp/edit/kurashi/05/080hani.pdf" alt="">ケータイゴリラ「ケータイゴリラ ゴリラを守れ！携帯電話回収キャンペーン」</a><br>
 <a href="https://www.jsps.go.jp/j-jisedai/data/05bunyahyo.pdf" alt="">別表 専門分野等一覧表</a>
 </NoIndent>
+
+<PNBar prev="../" next="../urban-mining/"></PNBar>
