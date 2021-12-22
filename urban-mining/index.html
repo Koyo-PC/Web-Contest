@@ -536,6 +536,68 @@
         font-size: 1.5em;
         font-style: italic;
       }
+      #next_button {
+        background-color: #4caf50;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        position: relative;
+      }
+
+      #next_button:after {
+        content: "";
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        top: 50%;
+        right: 15px;
+        border: 2px solid;
+        border-color: white white transparent transparent;
+        transform: translateY(-50%) rotate(45deg);
+      }
+      #prev_button {
+        background-color: #d95252;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        position: relative;
+      }
+
+      #prev_button:before {
+        content: "";
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        top: 50%;
+        left: 15px;
+        border: 2px solid;
+        border-color: transparent transparent white white;
+        transform: translateY(-50%) rotate(45deg);
+      }
+      #pn_bar {
+        display: block;
+        width: 100%;
+      }
+      #next_link {
+        float: right;
+      }
+      #prev_link {
+        float: left;
+      }
       .no_indent {
         text-indent: 0;
       }
@@ -1318,6 +1380,16 @@
           >Wikisource</a
         >
       </p>
+
+      <div id="pn_bar">
+        <a href="../present-sutiation/" id="prev_link">
+          <button id="prev_button">Prev</button>
+        </a>
+
+        <a href="../problem/" id="next_link">
+          <button id="next_button">Next</button>
+        </a>
+      </div>
     </main>
     <button
       id="scroll_top"
