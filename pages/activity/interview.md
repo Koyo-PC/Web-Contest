@@ -143,3 +143,5 @@
 なお、このサイトを作るにあたって、醍醐先生のお話を参考にさせていただいた箇所が多々あります。<br>
 貴重なお話ありがとうございました。
 </NoIndent>
+
+<PNBar prev="./recycle-box.html" next="./petec.html"></PNBar>

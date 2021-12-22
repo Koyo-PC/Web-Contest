@@ -193,3 +193,5 @@ note="書籍『資源論』をスキャン" height="40vw"></Image>
 <a href="https://eleminist.com/article/688">ELEMINIST「2021年注目のバーゼル条約　脱プラスチックへ向けた改正内容を解説」</a><br>
 <a href="https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_3/Chapter_2">Wikisource</a>
 </NoIndent>
+
+<PNBar prev="../present-sutiation/" next="../problem/"></PNBar>

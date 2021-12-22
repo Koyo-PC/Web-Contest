@@ -230,3 +230,5 @@ Appleには、<ForceText>新しい端末を購入するときに使い終わっ�
 <a href="https://www.fairphone.com/en/">FairphoneHP</a><br>
 <a href="http://www.toshi-kouzan.jp/">都市鉱山からつくる！みんなのメダルプロジェクトHP</a>
 </NoIndent>
+
+<PNBar prev="../problem/" next="../activity/"></PNBar>

@@ -26,3 +26,5 @@
 <a href="https://www.ciaj.or.jp/news/press_releases/pressreleases_past_issue/pressrelease2020/6058.html">一般社団法人 情報通信ネットワーク産業協会</a><br>
 <a href="https://panasonic.co.jp/eco/petec/">パナソニック エコテクノロジーセンターHP</a>
 </NoIndent>
+
+<PNBar prev="../measure/" next="../solution/"></PNBar>

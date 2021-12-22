@@ -178,3 +178,6 @@ https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d230387.94422895205!2d133.9
 <a href="https://www.env-value.co.jp/columns/press57/">E-VALUE「豊島の不法投棄問題を振り返る」</a>
 
 </NoIndent>
+
+
+<PNBar prev="../urban-mining/" next="../measure/"></PNBar>
