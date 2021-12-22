@@ -20,7 +20,6 @@
         height: 100%;
         width: 100%;
         margin: unset;
-        overflow-x: hidden;
       }
 
       main {
@@ -1067,25 +1066,10 @@ PETECの位置する加東市（人口：39848人 <span class="weak">2021年9月
         皆さんも自然豊かな加東市にぜひぜひ来てみてください！
       </p>
     </main>
-    <button id="scroll_top" onclick="scrollTop"></button>
-    <script>
-      function scrollTop() {
-        const duration = 150
-        let currentY = window.scrollY
-        let step = (currentY * 3) / 10
-        let timeStep = (duration / currentY) * step
-        let intervalId = setInterval(scrollUp, timeStep)
-
-        function scrollUp() {
-          currentY = window.scrollY
-          if (currentY < 1) {
-            clearInterval(intervalId)
-          } else {
-            scrollBy(0, -step)
-          }
-        }
-      }
-    </script>
+    <button
+      id="scroll_top"
+      onclick="window.scrollTo({top: 0,left: 0,behavior: 'smooth'})"
+    ></button>
     <footer>
       <div class="footer_main">
         <div class="footer_title">右ポケットの中の資源を求めて</div>
