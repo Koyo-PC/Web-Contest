@@ -1,3 +1,5 @@
+[//SCML_TITLE]: # (アンケート)
+
 # アンケート
 
 <NoIndent>

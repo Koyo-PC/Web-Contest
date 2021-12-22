@@ -1,3 +1,5 @@
+[//SCML_TITLE]: # (資源の現状)
+
 # 資源の現状
 
 <NoIndent>
