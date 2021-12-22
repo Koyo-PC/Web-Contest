@@ -6,13 +6,14 @@
     <!--  <link rel="shortcut icon" href="svg/logo.svg" type="image/svg+xml">-->
     <title>課題 | 右ポケットの中の資源を求めて</title>
     <style>
+      @import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;700&dispaly=swap");
       @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&dispaly=swap");
       @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&dispaly=swap");
 
       * {
-        font-family: "Lato", "Noto Sans JP", sans-serif;
+        font-family: "Noto Serif JP", serif;
         box-sizing: border-box;
-        font-weight: 400;
+        font-weight: 200;
       }
 
       html,
@@ -23,7 +24,16 @@
       }
 
       main {
-        padding: 50px 10% 100px;
+        padding: 50px 20% 100px;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: "Lato", "Noto Sans JP", sans-serif;
       }
 
       h1 {
@@ -42,6 +52,7 @@
           font-size: min(10vw, 100px);
         }
       }
+
       @media (orientation: portrait) {
         h1 {
           margin: 100px 0 100px 0;
@@ -69,6 +80,7 @@
           margin: 10vh 0 0;
         }
       }
+
       @media (orientation: portrait) {
         h2 {
           font-size: 32px;
@@ -92,6 +104,7 @@
           margin: 3vw 0 2vw 20px;
         }
       }
+
       @media (orientation: portrait) {
         h3 {
           font-size: 30px;
@@ -111,17 +124,20 @@
           line-height: 1.9;
           margin: 50px 0;
         }
+
         main ol > li {
           font-size: 20px;
           line-height: 1.9;
         }
       }
+
       @media (orientation: portrait) {
         p {
           font-size: 16px;
           line-height: 1.9;
           margin: 50px 0;
         }
+
         main ol > li {
           font-size: 16px;
           line-height: 1.9;
@@ -221,6 +237,7 @@
         flex-wrap: wrap;
         margin: 10vh 0 0 0;
       }
+
       .img_link {
         display: block;
         aspect-ratio: 1;
@@ -239,6 +256,7 @@
           font-size: 5vw;
         }
       }
+
       @media (orientation: portrait) {
         .img_link {
           width: 100%;
