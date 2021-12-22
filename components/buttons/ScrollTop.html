@@ -1,4 +1,4 @@
-<button id="scroll_top" onclick="scrollTop"></button>
+<button id="scroll_top" onclick="window.scrollTo({top: 0,left: 0,behavior: 'smooth'})"></button>
 <style>
   #scroll_top {
     position: fixed;
@@ -30,21 +30,3 @@
     transform: translateX(-50%) translateY(-50%) rotate(45deg);
   }
 </style>
-<script>
-    function scrollTop() {
-        const duration = 150;
-        let currentY = window.scrollY;
-        let step = currentY * 3 / 10;
-        let timeStep = duration / currentY * step;
-        let intervalId = setInterval(scrollUp, timeStep);
-
-        function scrollUp() {
-            currentY = window.scrollY;
-            if (currentY < 1) {
-                clearInterval(intervalId);
-            } else {
-                scrollBy(0, -step);
-            }
-        }
-    }
-</script>
