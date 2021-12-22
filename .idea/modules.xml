@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Webコンテスト.iml" filepath="$PROJECT_DIR$/.idea/Webコンテスト.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../Docker/onten21_docker_test/docker/onten_nuxt/develop/.idea/develop.iml" filepath="$PROJECT_DIR$/../../Docker/onten21_docker_test/docker/onten_nuxt/develop/.idea/develop.iml" />
     </modules>
   </component>
 </project>
