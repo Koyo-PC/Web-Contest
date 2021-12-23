@@ -390,6 +390,98 @@
         text-align: center;
         vertical-align: bottom;
       }
+      .word_text {
+        position: relative;
+        color: #000;
+        font-weight: bold;
+        white-space: nowrap;
+        z-index: 1;
+      }
+
+      .word_description_container {
+        position: absolute;
+        display: block;
+        height: 0;
+        opacity: 0;
+        filter: drop-shadow(8px 8px 20px #999);
+
+        transition-duration: 0.25s;
+        transition-property: height, opacity;
+
+        overflow: hidden;
+        z-index: 50;
+      }
+      .word:hover .word_description_container,
+      .word_description_container:hover {
+        opacity: 100%;
+
+        height: auto;
+        overflow: hidden;
+      }
+
+      .word_description {
+        box-sizing: border-box;
+        display: block;
+        margin-top: 10px;
+        /*background-color: #eee;*/
+        background-color: ghostwhite;
+        height: calc(100% - 10px);
+        width: 100%;
+        text-align: left;
+        padding: 10px;
+        border-radius: 5px;
+      }
+      .word_description_title {
+        display: block;
+        font-weight: 700;
+        text-indent: 0;
+      }
+
+      @media (orientation: landscape) {
+        .word {
+          position: relative;
+        }
+        .word_description_container {
+          left: 0;
+          width: 300px;
+          top: calc(100%);
+        }
+        .word_description_container:before {
+          box-sizing: border-box;
+          content: "";
+          position: absolute;
+          width: 20px;
+          height: 20px;
+          top: -10px;
+          left: 10px;
+          border: solid 10px transparent;
+          border-bottom: solid 10px ghostwhite;
+        }
+        .word_description {
+          margin-top: 10px;
+        }
+        .word_description_title {
+          font-size: 1.2em;
+        }
+        .word_description_text {
+          font-size: 15px;
+          line-height: 5px;
+        }
+      }
+      @media (orientation: portrait) {
+        .word {
+          position: relative;
+        }
+        .word_description_container {
+          width: 70vw;
+        }
+        .word_description {
+          margin-top: 0;
+        }
+        .word_description_title {
+          font-size: 1.2em;
+        }
+      }
       #next_button {
         background-color: #4caf50;
         border: none;
@@ -761,7 +853,20 @@
 -->
 
       <p>
-        PETECは、家電リサイクル法で指定されている4品目（テレビ、エアコン、冷蔵庫・冷凍庫、洗濯機・衣類乾燥機）を扱っています。
+        PETECは、<span class="word"
+          ><span class="word_text">家電リサイクル法</span>
+          <span class="word_description_container">
+            <span class="word_description">
+              <span class="word_description_title">家電リサイクル法</span>
+              <span class="word_description_text" style="line-height: 0.5"
+                >エアコン、テレビ(ブラウン管、液晶・プラズマ)、冷蔵庫・冷凍庫、洗濯機・衣類乾燥機の家電4品目を対象とした法律。後払い制度がとられている。これらの家電の回収により、リサイクルの促進だけでなく、廃棄物の減量も目指している。</span
+              >
+            </span>
+          </span>
+        </span>
+
+        <!--suppress HtmlUnknownAttribute -->
+        で指定されている4品目（テレビ、エアコン、冷蔵庫・冷凍庫、洗濯機・衣類乾燥機）を扱っています。
         その家電を回収する地域は近畿2府4県にも及びます。
       </p>
       <!-- PETEC図鑑より -->
@@ -804,7 +909,20 @@
       <!--suppress HtmlUnknownAttribute -->
 
       <p>
-        大型家電リサイクルには、各品目についての法定リサイクル率というものが家電リサイクル法で定められています。
+        大型家電リサイクルには、各品目についての<span class="word"
+          ><span class="word_text">法定リサイクル率</span>
+          <span class="word_description_container">
+            <span class="word_description">
+              <span class="word_description_title">法定リサイクル率</span>
+              <span class="word_description_text" style="line-height: 0.5"
+                >国によって定められているリサイクル率。工場でのリサイクル率がこれを下回ってしまうと稼働できなくなってしまう。エアコンでは80%、テレビでは55%というように品目ごとに決まっている。</span
+              >
+            </span>
+          </span>
+        </span>
+
+        <!--suppress HtmlUnknownAttribute -->
+        というものが家電リサイクル法で定められています。
         工場でのリサイクル率がこれを超えなければ、工場は稼働できません。
         PETECでは、いずれの品目においても法定リサイクル率をクリアしています。
       </p>
@@ -841,7 +959,21 @@
       <p>
         テレビはブラウン管テレビ、プラズマテレビ、液晶テレビの3つに分類されます。
         ただし、現在は家庭からのブラウン管テレビの排出量が少ないので、PETECでは扱われていません。
-        液晶テレビには蛍光管タイプのバックライトが使用されているものがあります。その中には、有害物質である水銀ガスが含まれているため、バックライトユニットの蛍光管を回収する必要があります。
+        液晶テレビには蛍光管タイプの<span class="word"
+          ><span class="word_text">バックライト</span>
+          <span class="word_description_container">
+            <span class="word_description">
+              <span class="word_description_title">バックライト</span>
+              <span class="word_description_text" style="line-height: 0.5"
+                >背面から液晶を照明するもの。</span
+              >
+            </span>
+          </span>
+        </span>
+
+        <!--suppress HtmlUnknownAttribute -->
+        が使用されているものがあります。
+        その中には有害物質である水銀ガスが含まれているため、バックライトユニットの蛍光管を回収する必要があります。
         回収した蛍光管は専門の業者で処分されます。
       </p>
       <div class="image_container">
@@ -872,7 +1004,7 @@
           <img
             class="image"
             src="./img/petec_conveyor.jpg"
-            alt="取り出された基板やフレキ"
+            alt="取り出された基板"
           />
           <div class="note">メンバーが撮影<a class="href" href=""></a></div>
           <figcaption class="image_caption">取り出された基板</figcaption>
@@ -881,41 +1013,118 @@
 
       <p>
         また作業効率を上げるために、コンベア式の解体ラインが工場内に張り巡らされています（よく車の製造工場に大規模な生産ラインが続いている写真を見ますよね）。
-        そこで取り出された金属は、精錬所に送られ新たな資源に生まれ変わります。
+        そこで取り出された金属は精錬所に送られ、新たな資源に生まれ変わります。
       </p>
       <h3 id="エアコン">エアコン</h3>
       <p>
         まず、エアコンは室内機と室外機に分けられます。
         室内機は従来、外装、送風ファンの取り外し、内部の解体までの全てを人の手で行っていましたが、PETECでは装置を使ってモーターと電源が集まっているところを切断することで自然とネジが外れるので解体の手間を省いて、作業負担を減らしています。
         一方、室外機には冷媒フロンが存在します。
-        冷媒フロンはオゾン層を破壊する原因ともいわれているので、先に取り除く必要があります。この取り除きはチューブを使って安全に行われ、その後専用の処理工場で無害化されることになっています。
+        冷媒フロンはオゾン層を破壊する原因ともいわれているので、先に取り除く必要があります。
+        この取り除きはチューブを使って安全に行われ、その後専用の処理工場で無害化されることになっています。
         室外機にはホコリや虫の死骸などがついていることがあるので、除去した後、解体します。
       </p>
       <p>
-        室内機・室外機の解体された部分は銅線、筐体、電気部品類、熱交換器、コンプレッサーなどに分別されます。特に、室外機に含まれるコンプレッサーは鉄と銅を多く含む貴重な資源であるそうです。
-        銅線からは、破砕された後に銅が回収され、精錬所に送られます。電気部品類、熱交換器、コンプレッサーも別の工場へ行き高品位・高純度に資源が回収されて新しいものへと生まれ変わります。
+        室内機・室外機の解体された部分は銅線、<span class="word"
+          ><span class="word_text">筐体</span>
+          <span class="word_description_container">
+            <span class="word_description">
+              <span class="word_description_title">筐体</span>
+              <span class="word_description_text" style="line-height: 0.5"
+                >何らかの機能を有する機械や電気機器などを中に収めた箱のこと。</span
+              >
+            </span>
+          </span>
+        </span>
+
+        <!--suppress HtmlUnknownAttribute -->
+        、電気部品類、熱交換器、コンプレッサーなどに分別されます。
+        特に、室外機に含まれるコンプレッサーは鉄と銅を多く含む貴重な資源であるそうです。
+        銅線からは、破砕された後に銅が回収され、精錬所に送られます。
+        電気部品類、熱交換器、コンプレッサーも別の工場へ行き、高品位・高純度に資源が回収されて新しいものへと生まれ変わります。
       </p>
       <p>
-        筐体などの部分からは特殊な分離方法を用いて、鉄、銅、アルミ、プラスチックに分けられます。この分離方法のデモは、見学の時に見ることができました！
+        筐体などの部分からは特殊な分離方法を用いて、鉄、銅、アルミ、プラスチックに分けられます。
+        この分離方法のデモは、見学の時に見ることができました！
       </p>
-      <div class="sorry">
-        ここで磁力選別機、非鉄金属選別機、浮沈選別機、振動比重選別機(磁力選別機など)によるプラスチックや金属の分離の説明を入れるつもりです。
-        イラストなどをたくさん使って説明したいと思っています。
-      </div>
+      <h4 id="～筐体が選別回収される工程～">～筐体が選別回収される工程～</h4>
+      <!-- イラスト① -->
+      <ul>
+        <li>
+          <dl>
+            <dt>＜磁力選別機＞</dt>
+            <!-- イラスト② -->
+            <dd>役割：磁石につくものとそうでないものに分ける</dd>
+            <dd>
+              手順：
+              <ol>
+                <li>①混合物が投入され、回転式ドラムに沿って移動します。</li>
+                <li>
+                  ②鉄以外は磁石につかないためある程度のところで落下します。
+                </li>
+                <li>③鉄は磁石がなくなるところで落下します。</li>
+              </ol>
+            </dd>
+          </dl>
+        </li>
+        <li>
+          <dl>
+            <dt>＜非鉄金属選別機＞</dt>
+            <!-- イラスト③ -->
+            <dd>役割：磁石につかない金属（非鉄金属）と金属以外を分ける</dd>
+            <dd>
+              手順：
+              <ol>
+                <li>①混合物が投入され、コンベヤベルトに沿って進みます。</li>
+                <li>②磁石が高速回転することで、移動磁界が生まれます。</li>
+                <li>③磁石を通過する非鉄金属に渦電流が発生します。</li>
+                <li>
+                  ④非鉄金属は磁力と渦電流との相互作用によって飛び出します。
+                </li>
+                <li>⑤渦電流を発生させないプラスチックは自然に落下します。</li>
+              </ol>
+            </dd>
+          </dl>
+        </li>
+        <li>
+          <dl>
+            <dt>＜比重選別機＞</dt>
+            <!-- イラスト④ -->
+            <dd>役割：重いものと軽いものを分ける</dd>
+            <dd>
+              手順：
+              <ol>
+                <li>①混合物（銅とアルミ）が投入されます。</li>
+                <li>
+                  ②アルミは軽いため、下からの風に吹き上げられ、下の方向に移動していきます。
+                </li>
+                <li>
+                  ③重い銅は風に吹き上げられずに、台の振動によって上の方向に移動していきます。
+                </li>
+              </ol>
+            </dd>
+          </dl>
+        </li>
+      </ul>
 
       <h3 id="冷蔵庫・冷凍庫">冷蔵庫・冷凍庫</h3>
       <p>
-        まず、冷蔵庫内に食べ物が残っていないかどうかを確認し、残っている場合はそれを取り出します。次に、冷媒や断熱材にフロンが使われているかいないかなどの観点から冷蔵庫を種類分けし、ラベルでそれを示します。
+        まず、冷蔵庫内に食べ物が残っていないかどうかを確認し、残っている場合はそれを取り出します。
+        次に、冷媒や断熱材にフロンが使われているかいないかなどの観点から冷蔵庫を種類分けし、ラベルでそれを示します。
         この作業が、後の解体の効率を随分上げているそうです。
       </p>
       <p>
         野菜箱や食品棚などのプラスチック（PP、PS）は破砕され、樹脂加工会社で洗浄、異物除去、出荷検査を行った後に新たな製品の一部として使われます。
-        また、冷蔵庫から取り出されたコンプレッサーからは有害物質であるフロンが抜き取られ、その後に他の会社で無害化されます。残ったコンプレッサーは金属加工会社に送られた後、再資源化されます。
+        また、冷蔵庫から取り出されたコンプレッサーからは有害物質であるフロンが抜き取られ、その後に他の会社で無害化されます。
+        残ったコンプレッサーは金属加工会社に送られた後、再資源化されます。
       </p>
       <p>
-        続いて、冷蔵庫本体については断熱材にフロンガスが使われている物と使われていない物とで別々に破砕されることになっています。フロンタイプのものは破砕の際にフロンが抜き取られ、冷媒フロン同様、他の会社で無害化されます。
+        続いて、冷蔵庫本体については断熱材にフロンガスが使われている物と使われていない物とで別々に破砕されることになっています。
+        フロンタイプのものは破砕の際にフロンが抜き取られ、冷媒フロン同様、他の会社で無害化されます。
         フロンガスが取り出された後の本体は、専用の破砕機で金属やプラスチックの混ざった破片群になり、そこから個々の資源が取り出されていきます。
       </p>
+      <!-- 樹形図 -->
+
       <div class="image_container">
         <figure class="image_box">
           <img
@@ -933,17 +1142,107 @@
         </figure>
       </div>
 
-      <p>
-        まず、風力選別によって、ウレタンが取り除かれ、このウレタンは固形燃料として再利用されます。次に、磁力選別機を使用して鉄を回収。更に、残ったものを非鉄金属選別機に通すことで、プラスチックとそれ以外のもの（銅、アルミ）に分けられます。
-        ここで取り出されたプラスチックは高精度樹脂選別システムによってABS, PP,
-        PSの三種類に分けられ、樹脂加工会社に送られます。
-      </p>
+      <div class="sorry">
+        まだ出来ていませんが、ここでも風力選別機や非鉄金属選別機によるプラスチックや金属の分離は、イラストなどを使うつもりです。
+      </div>
+
+      <h4 id="～粉々の冷蔵庫が選別回収される工程～">
+        ～粉々の冷蔵庫が選別回収される工程～
+      </h4>
+      <!-- イラスト⑤ -->
+      <ul>
+        <li>
+          <dl>
+            <dt>＜風力選別機＞</dt>
+            <!-- イラスト⑥ -->
+            <dd>役割：重いものと軽いものを分ける</dd>
+            <dd>
+              手順：
+              <ol>
+                <li>①混合物が投入されます。</li>
+                <li>
+                  ②ウレタンは軽いため、下からの風で吹き上げられ、そのまま吸引口へと吸い込まれます。
+                </li>
+                <li>
+                  ③ウレタン以外は風に吹き上げられることなく下へと落ちます。
+                </li>
+              </ol>
+            </dd>
+          </dl>
+        </li>
+        <li>
+          <dl>
+            <dt>＜磁力選別機＞</dt>
+            <dd>エアコンの磁力選別機と同じです。</dd>
+            <!-- リンクにする? -->
+          </dl>
+        </li>
+        <li>
+          <dl>
+            <dt>＜非鉄金属選別機＞</dt>
+            <dd>エアコンの非鉄金属選別機と同じです。</dd>
+            <!-- リンクにする? -->
+          </dl>
+        </li>
+        <li>
+          <dl>
+            <dt>＜高精度樹脂選別システム＞</dt>
+            <!-- イラスト⑦ -->
+            <dd>役割：プラスチックをABS、PP、PSに分ける</dd>
+            <dd>
+              手順：
+              <ol>
+                <li>
+                  ①ABS、PP、PSの混ざったプラスチックがコンベヤから飛び出します。
+                </li>
+                <li>
+                  ②エアノズルが即座に種類を判別し、適当なタイミングで空気を噴射します。
+                </li>
+              </ol>
+            </dd>
+          </dl>
+        </li>
+      </ul>
+
+      <!--suppress ALL -->
+      <div class="atom_chara" style="width: 100%; margin: 50px 0">
+        <div class="atom_chara_icon">
+          <img
+            class="atom_chara_img"
+            src="../img/atom_chara/Au.png"
+            alt="マリー・ゴールドのアイコン"
+          />
+          <div class="atom_chara_name">マリー・ゴールド</div>
+        </div>
+        <div class="atom_chara_content">
+          <span
+            >このシステムがあるからプラスチックを廃棄物やサーマルリサイクルに回さずに再利用できるのね。</span
+          >
+        </div>
+      </div>
+
+      <!--suppress HtmlUnknownAttribute -->
+
       <p>
         このように冷蔵庫は多くの工程を踏まなければいけないことから、4品目の中で最もリサイクルが難しいと言われているそうです。
       </p>
       <h3 id="洗濯機・衣類乾燥機">洗濯機・衣類乾燥機</h3>
       <p>
-        乾燥機付き洗濯機もエアコンと同じように、コンプレッサーや熱交換器が取り出され、フロンも回収されます。また、洗濯機からはハーネスやモーター、操作パネルや電源コードを手作業で取り出します。
+        乾燥機付き洗濯機もエアコンと同じように、コンプレッサーや熱交換器が取り出され、フロンも回収されます。
+        また、洗濯機からは<span class="word"
+          ><span class="word_text">ハーネス</span>
+          <span class="word_description_container">
+            <span class="word_description">
+              <span class="word_description_title">ハーネス</span>
+              <span class="word_description_text" style="line-height: 0.5"
+                >洗濯機、冷蔵庫等の家電や自動車等の内部配線に使用されるもので、電源供給や信号通信を目的に複数の電線を束状にし配線し易い長さ形状にしたもの。</span
+              >
+            </span>
+          </span>
+        </span>
+
+        <!--suppress HtmlUnknownAttribute -->
+        やモーター、操作パネルや電源コードを手作業で取り出します。
         洗濯機が他の製品と異なるところは、塩水を抜き取らなければいけないということです。塩水は洗濯をするときに回転する洗濯槽を安定させるためにバランサー代わりに2&#x2113;ほど入っているのですが、それを取り除くことで大切なリサイクル資源である鉄がさびてしまうのを防ぐことができるのです。
         また、取り除かれた塩水は他の工場へと送られ、再利用されます。
       </p>
@@ -956,30 +1255,22 @@
           />
           <div class="note">メンバーが撮影<a class="href" href=""></a></div>
           <figcaption class="image_caption">
-            よく見ると、真ん中の洗濯機から塩水が流れているのを確認できます。
+            よく見ると、真ん中の洗濯機から塩水が流れているのが確認できます。
           </figcaption>
         </figure>
       </div>
 
       <p>
-        その後、洗濯機は破砕機へと向かいます。破砕機で細かくされた後は、2度に及ぶ磁力選別、そして非鉄選別と浮沈選別を経て、鉄やアルミ、銅、プラスチックに分別され、回収されます。
+        その後、洗濯機は破砕機へと向かいます。
+        破砕機で細かくされた後は、磁力選別、非鉄選別などを経て、鉄やアルミ、銅、プラスチックに分離され、回収されます。
         （ここでの磁力選別や非鉄選別は、エアコンや冷蔵庫で紹介したものと同じです。）
       </p>
-      <!--
-<div class="image_container">
-    <figure class="image_box" >  <img class="image" src="浮沈選別イラスト" alt="浮沈選別イラスト"/>
-  <div class="note"><a class="href" href=""></a></div>
-  <figcaption class="image_caption"> 浮沈選別イラスト </figcaption>
-</figure>
-
-
-</div>
--->
-
       <h2 id="リサイクル料金について">リサイクル料金について</h2>
       <p>
-        しかしこれらの製品をリサイクルしてもらうにはどうしてもリサイクル料金を払わなければなりません。これは家電リサイクル法で私たち消費者側に課せられた役割であり、それと同時にリサイクルを促進させる潤滑油でもあるのです。
-        「リサイクルするのにお金を払わなければならないの？」そう思われている方もいるかもしれません。実は、技術の発達や商品のリサイクルのしやすさの向上などから、リサイクル料金は減ってきているのです。
+        しかしこれらの製品をリサイクルしてもらうにはどうしてもリサイクル料金を払わなければなりません。
+        これは家電リサイクル法で私たち消費者側に課せられた役割であり、それと同時にリサイクルを促進させる潤滑油でもあるのです。
+        「リサイクルするのにお金を払わなければならないの？」
+        そう思われている方もいるかもしれません。実は、技術の発達や商品のリサイクルのしやすさの向上などから、リサイクル料金は減ってきているのです。
       </p>
       <figure>
         <table>
