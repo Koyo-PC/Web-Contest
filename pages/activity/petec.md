@@ -115,12 +115,15 @@ PETECで行われているリサイクルの工程を製品別に紹介しよう
 この分離方法のデモは、見学の時に見ることができました！
 
 #### ～筐体が選別回収される工程～
-<!-- イラスト① -->
+
+<Image width="80vw" src="../svg/petec/1.svg"></Image>
 <ul>
     <li>
         <dl>
             <dt>＜磁力選別機＞</dt>
-            <!-- イラスト② -->
+            <div class="image_container">
+                <Image src="../svg/petec/2.svg"></Image>
+            </div>
             <dd>役割：磁石につくものとそうでないものに分ける</dd>
             <dd>手順：
                 <ol>
@@ -134,7 +137,9 @@ PETECで行われているリサイクルの工程を製品別に紹介しよう
     <li>
         <dl>
             <dt>＜非鉄金属選別機＞</dt>
-            <!-- イラスト③ -->
+            <div class="image_container">
+                <Image src="../svg/petec/3.svg"></Image>
+            </div>
             <dd>役割：磁石につかない金属（非鉄金属）と金属以外を分ける</dd>
             <dd>手順：
                 <ol>
@@ -150,7 +155,9 @@ PETECで行われているリサイクルの工程を製品別に紹介しよう
     <li>
         <dl>
             <dt>＜比重選別機＞</dt>
-            <!-- イラスト④ -->
+            <div class="image_container">
+                <Image src="../svg/petec/4.svg"></Image>
+            </div>
             <dd>役割：重いものと軽いものを分ける</dd>
             <dd>手順：
                 <ol>
@@ -189,12 +196,16 @@ PETECで行われているリサイクルの工程を製品別に紹介しよう
 
 #### ～粉々の冷蔵庫が選別回収される工程～
 
-<!-- イラスト⑤ -->
+<div class="image_container">
+    <Image src="../svg/petec/5.svg"></Image>
+</div>
 <ul>
     <li>
         <dl>
             <dt>＜風力選別機＞</dt>
-            <!-- イラスト⑥ -->
+            <div class="image_container">
+                <Image src="../svg/petec/6.svg"></Image>
+            </div>
             <dd>役割：重いものと軽いものを分ける</dd>
             <dd>手順：
                 <ol>
@@ -222,7 +233,9 @@ PETECで行われているリサイクルの工程を製品別に紹介しよう
     <li>
         <dl>
             <dt>＜高精度樹脂選別システム＞</dt>
-            <!-- イラスト⑦ -->
+            <div class="image_container">
+                <Image src="../svg/petec/7.svg"></Image>
+            </div>
             <dd>役割：プラスチックをABS、PP、PSに分ける</dd>
             <dd>手順：
                 <ol>
