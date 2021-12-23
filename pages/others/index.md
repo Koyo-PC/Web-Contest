@@ -39,7 +39,7 @@
 
 <NoIndent>
 ホームページの見た目をなんとかするのを手伝った。<br>
-機械が作った絶対に人間が読むものではない大変親切なコードを整理して機能を追加する羽目に...<br>
+機械が作った<s>絶対に人間が読むものではない</s>大変親切なコードを整理して機能を追加する羽目に...<br>
 ページ制作、スマホ対応担当<br>
 </NoIndent>
 
@@ -55,7 +55,7 @@ JavaScriptやC++をよく書いているらしい。<br>
 ### K.H.
 
 <NoIndent>
-いつもパソコンを触っているオタクパソコンに詳しい人。<br>
+いつもパソコンを触っている<s>オタク</s>パソコンに詳しい人。<br>
 Web系の資格を持っているのに得意な言語はJavaらしい。<br>
 このページを作るためにNode.jsでアプリを一つ作ったとか。<br>
 文章構成、ページ制作、校正担当
@@ -123,6 +123,7 @@ Web系の資格を持っているのに得意な言語はJavaらしい。<br>
 <a href="https://743c8380-22c6-4457-9895-11872f2a708a.filesusr.com/ugd/0af79c_8e5a3e6ece1d4b6a9db69465a1007eb0.pdf">bio by Deloitte「Increased EU Plastics Recycling Targets: Environmental, Economic and Social Impact Assessment Final Report」</a><br>
 <a href="http://susdi.org/wp/data/post-38/">susdi「携帯に含まれる成分％」</a><br>
 <a href="https://www.ciaj.or.jp/news/press_releases/pressreleases_past_issue/pressrelease2020/6058.html">一般社団法人 情報通信ネットワーク産業協会</a><br>
+<a href="https://www.env.go.jp/press/106879.html">環境省「平成30年度における家電リサイクル実績について」</a><br>
 <a href="https://panasonic.co.jp/eco/petec/">パナソニック エコテクノロジーセンターHP</a><br>
 <a href="https://www.meti.go.jp/shingikai/sankoshin/sangyo_gijutsu/haikibutsu_recycle/denki_wg/pdf/028_07_02.pdf">家電リサイクル法における費用回収方式について</a><br>
 <a href="https://www-cycle.nies.go.jp/magazine/mame/201805.html#:~:text=%E6%97%A5%E6%9C%AC%E3%81%A7%E3%82%82%E4%BC%BC%E3%81%9F%E3%82%88%E3%81%86,%E3%81%A8%E7%95%B0%E3%81%AA%E3%82%8B%E5%A4%A7%E3%81%8D%E3%81%AA%E7%89%B9%E5%BE%B4%E3%81%A7%E3%81%99%E3%80%82">資源循環・廃棄物研究センター オンラインマガジン環境「循環・廃棄物の豆知識」</a><br>

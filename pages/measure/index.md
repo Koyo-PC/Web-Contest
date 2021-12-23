@@ -40,7 +40,7 @@
 （※回収ボックスを利用される方は、自治体ごとに対象品目が異なることがありますのでご注意ください）
 上のイラスト～回収ボックスからリサイクルまでの流れ～のように、市町村で回収された小型家電はリサイクル事業者で分解・粉砕・選別が行われた後に、金属精錬事業者で金属の取り出しが行われ、これが新たな資源としてメーカーに運ばれます。
 このリサイクル事業者の中には国に認められている<Word>認定事業者</Word>としてマークを付けているものもあります。
-現在、認定事業者は、58社あり（2021年8/6時点）、環境省のページですべて公開されています。
+現在、認定事業者は、58社あり（2021年8/6時点）、<a href="https://www.env.go.jp/recycle/recycling/raremetals/trader.html">環境省</a>のページですべて公開されています。
 
 ただ、毎年着実に回収量は増えていますが、いまだに目標量の14万トンは達成できていません。
 2017年のデータで少し古いですが、廃電子機器回収率は15%でとても高いとは言えない数字です。
@@ -116,7 +116,7 @@
 その上、近年中国が廃棄物の輸入規制を行ったためアメリカの埋立地行きのゴミがさらに増えることになりました。
 そのためアメリカは現在資源ゴミの最先端の選別機械の開発を進めています。
 
-一方、「資源の現状」で述べたように廃電子機器リサイクルがうまくいっていない国も多くあるのが現状です。
+一方、「<a href="../present-situation/">資源の現状</a>」で述べたように廃電子機器リサイクルがうまくいっていない国も多くあるのが現状です。
 そのため、リサイクルシステムが軌道に乗っている都市鉱山開発先進国が、そのような都市鉱山開発後進国を支援することも世界規模での都市鉱山開発につながります。
 実際スイスは、電子廃棄物の埋め立て地となっているガーナなどの国と協力してリサイクルシステムを構築しています。
 
@@ -183,7 +183,7 @@ Appleには、<ForceText>新しい端末を購入するときに使い終わっ�
 まさに都市鉱山！という感じですね。
 さらに「みんなのメダルプロジェクト」に乗じてさまざまなイベントや催しも開催され、都市鉱山が広く知られるようになりました。
 その結果、<ForceText>使用済み家電からおおよそ金32kg, 銀3500kg, 銅2200kgが確保され、東京2020オリンピック・パラリンピックに必要な約5000個のメダル全てが完成しました。</ForceText>
-こうして廃電子機器は表彰台で選手の胸に輝くこととなったのです！
+こうしてかつての廃電子機器は表彰台で選手の胸に輝くこととなったのです！
 この「みんなのメダルプロジェクト」は「<Word>アフターメダルプロジェクト</Word>」に引き継がれ、現在も実施されています。
 
 <AtomCharacter atom="Li">
@@ -220,7 +220,7 @@ Appleには、<ForceText>新しい端末を購入するときに使い終わっ�
 <a href="https://www.jetro.go.jp/biz/areareports/2019/a024ee05cbb6223a.html">JETRO「オーストラリア政府、リサイクルごみの輸出禁止へ」</a><br>
 <a href="https://blog.goo.ne.jp/ebisu7163/e/339e486564d9f7eb9d4daba27896b7fd">エ・ビ・ス Eco Business Study</a><br>
 <a href="https://fivethirtyeight.com/features/the-era-of-easy-recycling-may-be-coming-to-an-end/">Five Thirty Eight「The Era Of Easy Recycling May Be Coming To An End」</a><br>
-<a href="https://www.meti.go.jp/press/2018/06/20180607003/20180607003-2.pdf">経済産業省「海外展開展開（リサイクル）」</a><br>
+<a href="https://www.meti.go.jp/press/2018/06/20180607003/20180607003-2.pdf">経済産業省「海外展開戦略（リサイクル）」</a><br>
 <a href="https://www.re-ver.co.jp/hidakasuzutoku/">日高スズトクタイランドHP</a><br>
 <a href="https://www.umicore.com/en/investors/financial-results/full-year-results-2020/">umicore「Full year results 2020」</a><br>
 <a href="https://www.veolia.com/en/newsroom/press-releases/annual-results-2020">veoria「ANNUAL RESULTS 2020」</a><br>
