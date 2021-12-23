@@ -2,7 +2,7 @@
   <span class="word_description_container">
     <span class="word_description">
       <span class="word_description_title">{{ content }}</span>
-      <span class="word_description_text" style="line-height: 0.5;">[[ description ]]</span>
+      <span class="word_description_text" style="line-height: 1.5rem;">[[ description ]]</span>
     </span>
   </span>
 </span>
@@ -45,13 +45,16 @@
         height: calc(100% - 10px);
         width: 100%;
         text-align: left;
-        padding: 10px;
+        padding: 20px;
         border-radius: 5px;
     }
     .word_description_title {
         display: block;
         font-weight: 700;
         text-indent: 0;
+    }
+    .word_description_text {
+      display: block;
     }
 
     @media(orientation: landscape) {
