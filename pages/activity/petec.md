@@ -69,7 +69,7 @@ PETECでは、いずれの品目においても法定リサイクル率をクリ
     </tr>
   </table>
     <figcaption style="white-space: nowrap;">法定リサイクル率の表<br>
-        出典: <a href="https://panasonic.co.jp/eco/petec/">https://panasonic.co.jp/eco/petec/</a>, <a href="https://www.env.go.jp/press/106879.html">https://www.env.go.jp/press/106879.html</a>
+        出典: <a href="https://panasonic.co.jp/eco/petec/">https://panasonic.co.jp/eco/petec/</a>, <a href="https://www.env.go.jp/press/106879.html">https://www.env.go.jp/press/106879.html</a>より作成
     </figcaption>
 </figure>
 
