@@ -190,10 +190,6 @@ PETECで行われているリサイクルの工程を製品別に紹介しよう
     <Image src="./img/petec_nonfron_box.jpg" alt="ノンフロン用破砕機写真" caption="ノンフロン用破砕機写真" note="ホームページより引用" href="https://panasonic.co.jp/eco/petec/technology/"></Image>
 </div>
 
-<div class="sorry">
-まだ出来ていませんが、ここでも風力選別機や非鉄金属選別機によるプラスチックや金属の分離は、イラストなどを使うつもりです。
-</div>
-
 #### ～粉々の冷蔵庫が選別回収される工程～
 
 <div class="image_container">
