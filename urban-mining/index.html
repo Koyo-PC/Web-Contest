@@ -554,6 +554,12 @@
         font-size: 1.5em;
         font-style: italic;
       }
+      #next_link {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
       #next_button {
         background-color: #4caf50;
         border: none;
@@ -566,6 +572,7 @@
         margin: 4px 2px;
         cursor: pointer;
         position: relative;
+        width: 110px;
       }
 
       #next_button:after {
@@ -580,6 +587,18 @@
         border-color: white white transparent transparent;
         transform: translateY(-50%) rotate(45deg);
       }
+
+      #next_text {
+        width: 100%;
+        text-align: center;
+        font-size: 14px;
+      }
+      #prev_link {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
       #prev_button {
         background-color: #d95252;
         border: none;
@@ -592,6 +611,7 @@
         margin: 4px 2px;
         cursor: pointer;
         position: relative;
+        width: 110px;
       }
 
       #prev_button:before {
@@ -606,13 +626,21 @@
         border-color: transparent transparent white white;
         transform: translateY(-50%) rotate(45deg);
       }
+
+      #prev_text {
+        width: 100%;
+        text-align: center;
+        font-size: 14px;
+      }
       #pn_bar {
         display: block;
         width: 100%;
       }
+
       #next_link {
         float: right;
       }
+
       #prev_link {
         float: left;
       }
@@ -1401,10 +1429,12 @@
 
       <div id="pn_bar">
         <a href="../present-sutiation/" id="prev_link">
+          <div id="prev_text"></div>
           <button id="prev_button">Prev</button>
         </a>
 
         <a href="../problem/" id="next_link">
+          <div id="next_text"></div>
           <button id="next_button">Next</button>
         </a>
       </div>
