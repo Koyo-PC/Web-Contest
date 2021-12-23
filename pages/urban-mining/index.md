@@ -90,13 +90,13 @@
 前述のような資源問題に対して南條道夫教授（当時東北大学選鉱製錬研究所教授）が1988年に提唱された考えが都市鉱山と呼ばれるものであり、このサイトのメインテーマです。<SummaryLink>0</SummaryLink>
 まず、この都市鉱山の定義は、 ”都市鉱山（としこうざん、英語: urban mining, e-waste）とは、都市でゴミとして大量に廃棄される家電製品などの中に存在する有用な資源（<Word>レアメタル</Word>など）を鉱山に見立てたものである。” とされています。（<a href="https://ja.wikipedia.org/wiki/%E9%83%BD%E5%B8%82%E9%89%B1%E5%B1%B1" style="text-decoration: none;">Wikipediaより</a>）
 この都市鉱山について、データを交えながら詳しく見ていきましょう。<SummaryLink>3</SummaryLink>
-下のグラフは主な金属資源の一次資源と二次資源の量を示したものです。
+下のグラフは主な金属資源の<Word>一次資源</Word>と<Word>二次資源</Word>の量を示したものです。
 
 <div class="image_container">
     <Image src="../assets/jim/151.jpg" height="40vw" note="日本金属学会より引用" href="https://www.jim.or.jp/journal/j/pdf3/73/03/151.pdf"></Image>
 </div>
 
-これを見れば全体の資源のうち<ForceText>半分以上がすでに掘り出された<Word>二次資源</Word>
+これを見れば全体の資源のうち<ForceText>半分以上がすでに掘り出された二次資源
 である</ForceText>ことがわかります。 したがって、資源確保が重要な今、携帯電話のような小型家電などに含まれている<Word>二次資源</Word>を回収するのがカギとなっています。
 ここまで読むと、そのような小型家電がただのゴミではなく<ForceText>有益な資源</ForceText>に思えてきたのではないでしょうか。 2021年に新たにゴミとなる小型家電の量は5740万トンにも上り、それは今後も増えていくと予想されています。
 
