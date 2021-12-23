@@ -1,17 +1,19 @@
 <div id="pn_bar">
-  <PrevButton href="{{ prev }}"></PrevButton>
-  <NextButton href="{{ next }}"></NextButton>
+  <PrevButton href="{{ prev }}" text="{{ prev_text }}"></PrevButton>
+  <NextButton href="{{ next }}" text="{{ next_text }}"></NextButton>
 </div>
 
 <style>
-    #pn_bar {
-        display: block;
-        width: 100%;
-    }
-    #next_link {
-        float: right;
-    }
-    #prev_link {
-        float: left;
-    }
+  #pn_bar {
+    display: block;
+    width: 100%;
+  }
+
+  #next_link {
+    float: right;
+  }
+
+  #prev_link {
+    float: left;
+  }
 </style>
