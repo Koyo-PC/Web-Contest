@@ -28,7 +28,7 @@
 の３つを満たす元素のことを指し、リチウムやクロムなど47種類の元素で構成されています。
 
 <div class="image_container">
-    <Image src="../img/urban-mining/periodic_table.png" height="40vw"></Image>
+    <Image src="../img/urban-mining/periodic_table.png"></Image>
 </div>
 
 メジャーメタルは電線や各種ケーブル、メッキ、などに利用される一方で、レアメタルは、超伝導材料や形状記憶合金、水素吸蔵合金としてIT関連分野や環境保全などハイテク分野に使われており、携帯電話、パソコン、自動車、テレビ、腕時計、ドライヤーなどの身近なものに欠かせないものとなっています。（図１）
