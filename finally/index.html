@@ -47,7 +47,7 @@
 
       @media (orientation: landscape) {
         h1 {
-          margin: 100px 0 0 0;
+          padding: 100px 0 0 0;
           height: 200px;
           font-size: min(10vw, 100px);
         }
@@ -55,7 +55,7 @@
 
       @media (orientation: portrait) {
         h1 {
-          margin: 100px 0 100px 0;
+          padding: 100px 0 100px 0;
           /*height: 200px;*/
           font-size: 10vw;
         }
@@ -77,7 +77,7 @@
         h2 {
           font-size: 72px;
           font-weight: 400;
-          margin: 10vh 0 0;
+          padding: 10vh 0 0;
         }
       }
 
@@ -85,7 +85,7 @@
         h2 {
           font-size: 32px;
           font-weight: 400;
-          margin: 10vh 0 0;
+          padding: 10vh 0 0;
         }
       }
 
@@ -101,14 +101,14 @@
       @media (orientation: landscape) {
         h3 {
           font-size: 50px;
-          margin: 3vw 0 2vw 20px;
+          padding: 3vw 0 2vw 20px;
         }
       }
 
       @media (orientation: portrait) {
         h3 {
           font-size: 30px;
-          margin: 20px 0 50px 10px;
+          padding: 20px 0 50px 10px;
         }
       }
 
@@ -263,6 +263,14 @@
           margin: 2vh 0;
         }
       }
+
+      /*#lang_en {*/
+      /*  display: none;*/
+      /*}*/
+
+      /*#lang_jp {*/
+      /*  width: 100%;*/
+      /*}*/
       .force_text {
         color: #000;
         font-weight: bold;
@@ -363,6 +371,54 @@
 
       #prev_link {
         float: left;
+      }
+      #lang_button {
+        background-color: whitesmoke;
+        border: none;
+        color: black;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        position: relative;
+        width: 100%;
+      }
+      #toc {
+        padding: 10px;
+      }
+      #toc_title {
+        width: 100%;
+        text-align: center;
+      }
+      [class^="toc_link_"] {
+        display: block;
+        text-decoration: none;
+        color: black;
+        scroll-behavior: smooth;
+      }
+      [class^="toc_link_"]:hover {
+        color: gray;
+      }
+      .toc_link_h1 {
+        margin-left: 0;
+      }
+      .toc_link_h2 {
+        margin-left: 10px;
+      }
+      .toc_link_h3 {
+        margin-left: 20px;
+      }
+      #floating_menu {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        z-index: 100;
+        width: 200px;
+        display: block;
+        background-color: #0004;
       }
       .no_indent {
         text-indent: 0;
@@ -631,40 +687,175 @@
     </script>
 
     <main>
-      <h1 id="最後に">最後に</h1>
-      <p class="no_indent">私たちの思いが届きますように…！</p>
+      <div id="lang_jp">
+        <h1 id="最後に">最後に</h1>
+        <p class="no_indent">私たちの思いが届きますように…！</p>
 
-      <p>
-        このサイト名である「右ポケットの中の資源を求めて」。
-        へんな名前ですよね。
-        実は右ポケットの中というのはスマートフォンのことを指しています。
-        スマートフォンはいつも右ポケットに入れている人が多いのかな、と思って付けました。
-        私たちはこのサイトでさまざまなことを紹介しましたが、<span
-          class="force_text"
-          >一番伝えたかったことは資源問題の解決に意欲的になってほしい</span
-        >ということです。
-        たしかに資源問題を地球温暖化と同じように身近に感じることは難しいかもしれません。
-        それでも、その解決のためにほんの少しのことでもしてくれたらいいのです。
-        買い物のついでに回収ボックスを利用するでもいいですし、友達にこのサイトを紹介するのでももちろんよいでしょう。
-        また、SNSなどを使って広めてみるのも効果的かもしれません。
-        こういった少しのことも誰も実行しなければ、問題は解決どころか悪化してしまいます。
-      </p>
-      <p>
-        みなさんも「右ポケットの中の資源」を見つめ直して限りある地球の資源を守っていきませんか？
-      </p>
-      <p>
-        「右ポケットの中の資源を求めて」Webサイトをご覧いただきありがとうございました。
-      </p>
-      <div id="pn_bar">
-        <a href="../solution/" id="prev_link">
-          <div id="prev_text"></div>
-          <button id="prev_button">Prev</button>
-        </a>
+        <p>
+          このサイト名である「右ポケットの中の資源を求めて」。
+          へんな名前ですよね。
+          実は右ポケットの中というのはスマートフォンのことを指しています。
+          スマートフォンはいつも右ポケットに入れている人が多いのかな、と思って付けました。
+          私たちはこのサイトでさまざまなことを紹介しましたが、<span
+            class="force_text"
+            >一番伝えたかったことは資源問題の解決に意欲的になってほしい</span
+          >ということです。
+          たしかに資源問題を地球温暖化と同じように身近に感じることは難しいかもしれません。
+          それでも、その解決のためにほんの少しのことでもしてくれたらいいのです。
+          買い物のついでに回収ボックスを利用するでもいいですし、友達にこのサイトを紹介するのでももちろんよいでしょう。
+          また、SNSなどを使って広めてみるのも効果的かもしれません。
+          こういった少しのことも誰も実行しなければ、問題は解決どころか悪化してしまいます。
+        </p>
+        <p>
+          みなさんも「右ポケットの中の資源」を見つめ直して限りある地球の資源を守っていきませんか？
+        </p>
+        <p>
+          「右ポケットの中の資源を求めて」Webサイトをご覧いただきありがとうございました。
+        </p>
+        <div id="pn_bar">
+          <a href="../solution/" id="prev_link">
+            <div id="prev_text"></div>
+            <button id="prev_button">Prev</button>
+          </a>
 
-        <a href="../others/" id="next_link">
-          <div id="next_text"></div>
-          <button id="next_button">Next</button>
-        </a>
+          <a href="../others/" id="next_link">
+            <div id="next_text"></div>
+            <button id="next_button">Next</button>
+          </a>
+        </div>
+
+        <div id="floating_menu">
+          <!--suppress BadExpressionStatementJS -->
+          <div id="toc">
+            <div id="toc_title">目次</div>
+            <a class="toc_link_h1" href="#最後に">最後に</a>
+          </div>
+
+          <!--suppress BadExpressionStatementJS --><button
+            id="lang_button"
+            onclick="changeLang()"
+          >
+            <span id="lang_text"></span>
+            <script>
+              function setLang(lang) {
+                sessionStorage.setItem("lang", lang)
+                switch (lang) {
+                  case "ja":
+                    document.getElementById("lang_en").style.display = "none"
+                    document.getElementById("lang_jp").style.display = "block"
+                    break
+                  case "en":
+                    document.getElementById("lang_en").style.display = "block"
+                    document.getElementById("lang_jp").style.display = "none"
+                }
+                updateButton()
+              }
+
+              function changeLang() {
+                switch (sessionStorage.getItem("lang")) {
+                  case "en":
+                    setLang("ja")
+                    break
+                  case "ja":
+                  default:
+                    setLang("en")
+                    break
+                }
+                updateButton()
+              }
+
+              function updateButton() {
+                switch (sessionStorage.getItem("lang")) {
+                  case "ja":
+                    document
+                      .querySelectorAll("#lang_text")
+                      .forEach((el) => (el.innerHTML = "English"))
+                    break
+                  case "en":
+                    document
+                      .querySelectorAll("#lang_text")
+                      .forEach((el) => (el.innerHTML = "日本語"))
+                    break
+                }
+              }
+              window.onload = () => setLang(sessionStorage.getItem("lang"))
+            </script>
+          </button>
+        </div>
+      </div>
+      <div id="lang_en">
+        <p>ああああA</p>
+        <h1 id="aaaa">aaaa</h1>
+        <div id="pn_bar">
+          <a href="../solution/" id="prev_link">
+            <div id="prev_text"></div>
+            <button id="prev_button">Prev</button>
+          </a>
+
+          <a href="../others/" id="next_link">
+            <div id="next_text"></div>
+            <button id="next_button">Next</button>
+          </a>
+        </div>
+
+        <div id="floating_menu">
+          <!--suppress BadExpressionStatementJS -->
+          <div id="toc">
+            <div id="toc_title">目次</div>
+            <a class="toc_link_h1" href="#最後に">最後に</a>
+          </div>
+
+          <!--suppress BadExpressionStatementJS --><button
+            id="lang_button"
+            onclick="changeLang()"
+          >
+            <span id="lang_text"></span>
+            <script>
+              function setLang(lang) {
+                sessionStorage.setItem("lang", lang)
+                switch (lang) {
+                  case "ja":
+                    document.getElementById("lang_en").style.display = "none"
+                    document.getElementById("lang_jp").style.display = "block"
+                    break
+                  case "en":
+                    document.getElementById("lang_en").style.display = "block"
+                    document.getElementById("lang_jp").style.display = "none"
+                }
+                updateButton()
+              }
+
+              function changeLang() {
+                switch (sessionStorage.getItem("lang")) {
+                  case "en":
+                    setLang("ja")
+                    break
+                  case "ja":
+                  default:
+                    setLang("en")
+                    break
+                }
+                updateButton()
+              }
+
+              function updateButton() {
+                switch (sessionStorage.getItem("lang")) {
+                  case "ja":
+                    document
+                      .querySelectorAll("#lang_text")
+                      .forEach((el) => (el.innerHTML = "English"))
+                    break
+                  case "en":
+                    document
+                      .querySelectorAll("#lang_text")
+                      .forEach((el) => (el.innerHTML = "日本語"))
+                    break
+                }
+              }
+              window.onload = () => setLang(sessionStorage.getItem("lang"))
+            </script>
+          </button>
+        </div>
       </div>
     </main>
     <button
