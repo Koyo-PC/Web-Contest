@@ -172,7 +172,18 @@
 </NoIndent>
 
 <PNBar prev="../" next="../urban-mining/"></PNBar>
+<FloatingMenu>
+h1 資源の現状
+h2 金属資源について
+h2 生産量の増加
+h2 資源の偏在
+h2 経済発展の裏側
+h2 まとめ図解
+h2 参考文献
+</FloatingMenu>
 
 </div>
 <div id="lang_en">
+<FloatingMenu>
+</FloatingMenu>
 </div>

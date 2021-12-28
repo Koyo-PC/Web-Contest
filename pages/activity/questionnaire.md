@@ -98,8 +98,15 @@
 - 都市鉱山という言葉だけでなく、内容まで知ってもらうことが課題である。
 
 <PNBar prev="../" next="./recycle-box.html"></PNBar>
-
+<FloatingMenu>
+h1 アンケート
+h2 アンケート結果&考察
+h3 都市鉱山に対するイメージ
+h2 わかったことのまとめ
+</FloatingMenu>
 
 </div>
 <div id="lang_en">
+<FloatingMenu>
+</FloatingMenu>
 </div>

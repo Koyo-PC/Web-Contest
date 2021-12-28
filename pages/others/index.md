@@ -135,7 +135,20 @@ Web系の資格を持っているのに得意な言語はJavaらしい。<br>
 <a href="https://www.jetro.go.jp/biznews/2021/06/88299a30b5475ed7.html">JETRO「欧州委、使い捨てプラスチック製品の流通禁止を前に指針発表」</a>
 
 </NoIndent>
+<FloatingMenu>
+h1 その他
+h2 活動記録
+h2 製作者紹介
+h3 K.Z.
+h3 H.K.
+h3 M.T.
+h3 I.D.
+h3 K.H.
+h2 参考文献
+</FloatingMenu>
 
 </div>
 <div id="lang_en">
+<FloatingMenu>
+</FloatingMenu>
 </div>

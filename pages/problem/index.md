@@ -185,7 +185,18 @@ https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d230387.94422895205!2d133.9
 
 
 <PNBar prev="../urban-mining/" next="../measure/"></PNBar>
+<FloatingMenu>
+h1 課題
+h2 回収率の低さ
+h2 コスト問題
+h2 リサイクルのリスク
+h2 品位の低さ
+h2 まとめ図解
+h2 参考文献
+</FloatingMenu>
 
 </div>
 <div id="lang_en">
+<FloatingMenu>
+</FloatingMenu>
 </div>

@@ -37,7 +37,7 @@ h1 最後に
 
 <PNBar prev="../solution/" next="../others/"></PNBar>
 <FloatingMenu>
-h1 最後に
+h1 aaaa
 </FloatingMenu>
 
 </div>

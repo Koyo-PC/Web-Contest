@@ -426,7 +426,23 @@ PETECの位置する加東市は酒米・山田錦が有名だとか。
 皆さんも自然豊かな加東市にぜひぜひ来てみてください！
 
 <PNBar prev="./interview.html" prev_text="インタビュー" next="./disassembly.html" next_text="スマホ解体"></PNBar>
+<FloatingMenu>
+h1 工場見学
+h2 PETECってどんなところ?
+h2 どのようにリサイクルされるの?
+h3 テレビ
+h3 エアコン
+h4 〜筐体が選別回収される工程〜
+h3 冷蔵庫・冷凍庫
+h4 〜粉々の冷蔵庫が選別回収される工程〜
+h3 洗濯機・衣類乾燥機
+h2 リサイクル料金について
+h2 PETECの見学を通じて感じたこと
+h2 PETECの周りの風景
+</FloatingMenu>
 
 </div>
 <div id="lang_en">
+<FloatingMenu>
+</FloatingMenu>
 </div>

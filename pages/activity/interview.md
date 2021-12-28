@@ -150,7 +150,15 @@
 </NoIndent>
 
 <PNBar prev="./recycle-box.html" next="./petec.html"></PNBar>
+<FloatingMenu>
+h1 インタビュー
+h2 プロフィール
+h2 インタビュー
+h2 わかったことのまとめ
+</FloatingMenu>
 
 </div>
 <div id="lang_en">
+<FloatingMenu>
+</FloatingMenu>
 </div>

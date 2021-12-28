@@ -205,7 +205,18 @@ note="書籍『資源論』をスキャン" height="40vw"></Image>
 </NoIndent>
 
 <PNBar prev="../present-sutiation/" next="../problem/"></PNBar>
+<FloatingMenu>
+h1 都市鉱山の意義
+h2 レアメタルとメジャーメタル
+h2 都市鉱山とは
+h2 日本における都市鉱山
+h2 違法な都市鉱山
+h2 まとめ図解
+h2 参考文献
+</FloatingMenu>
 
 </div>
 <div id="lang_en">
+<FloatingMenu>
+</FloatingMenu>
 </div>

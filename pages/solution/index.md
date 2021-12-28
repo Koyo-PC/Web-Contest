@@ -249,7 +249,20 @@ RoHSの基準を満たしていることを示すこのCEマーキングに見�
 </NoIndent>
 
 <PNBar prev="../activity/" next="../finally/"></PNBar>
+<FloatingMenu>
+h1 解決策
+h2 回収率を上げるには
+h3 リサイクルを義務化する
+h3 リサイクルを促す
+h3 リサイクルのイメージを上げる
+h2 コスト問題の解決には
+h2 リサイクルのリスクを減らすには
+h2 まとめ
+h2 参考文献
+</FloatingMenu>
 
 </div>
 <div id="lang_en">
+<FloatingMenu>
+</FloatingMenu>
 </div>

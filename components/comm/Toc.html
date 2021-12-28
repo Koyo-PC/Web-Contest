@@ -26,7 +26,7 @@
             // const toc_data = tocs[hash];
             const toc_data = tocs[title];
             // toc_html += `<a class="toc_link_${toc_data['type']}" href="#${toc_data['hash']}">${toc_data['title']}</a>`;
-            toc_html += `<a class="toc_link_${toc_data['type']}" href="#${toc_data['title']}">${toc_data['title']}</a>`;
+            toc_html += `<a class="toc_link_${toc_data['type']}" href="#${toc_data['title']?.replace(/\./g, '').toLowerCase()}">${toc_data['title']}</a>`;
         }
         return {
             "toc": toc_html
@@ -58,5 +58,8 @@
   }
   .toc_link_h3 {
     margin-left: 20px;
+  }
+  .toc_link_h4 {
+    margin-left: 30px;
   }
 </style>

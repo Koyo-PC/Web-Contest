@@ -243,7 +243,24 @@ Appleには、<ForceText>新しい端末を購入するときに使い終わっ�
 </NoIndent>
 
 <PNBar prev="../problem/" next="../activity/"></PNBar>
+<FloatingMenu>
+h1 現在の取り組み
+h2 いろいろな国の取り組み
+h3 日本
+h3 〜回収ボックスからリサイクルまでの流れ〜
+h3 スイス
+h3 中国
+h3 フランス
+h3 オーストラリア
+h3 アメリカ
+h2 企業の取り組み
+h2 みんなのメダルプロジェクト
+h2 まとめ図解
+h2 参考文献
+</FloatingMenu>
 
 </div>
 <div id="lang_en">
+<FloatingMenu>
+</FloatingMenu>
 </div>

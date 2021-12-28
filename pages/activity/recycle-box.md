@@ -31,7 +31,11 @@
 みなさんも近くのスーパーに買い物に行くついでに回収ボックスを利用してみてはいかがですか？
 
 <PNBar prev="./questionnaire.html" next="./interview.html"></PNBar>
-
+<FloatingMenu>
+h1 回収ボックス
+</FloatingMenu>
 </div>
 <div id="lang_en">
+<FloatingMenu>
+</FloatingMenu>
 </div>
