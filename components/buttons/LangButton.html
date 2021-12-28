@@ -1,0 +1,60 @@
+<!--suppress BadExpressionStatementJS -->
+<button id="lang_button" onclick="changeLang()">
+  <span id="lang_text"></span>
+  <script>
+      function setLang(lang) {
+          sessionStorage.setItem('lang', lang);
+          switch (lang) {
+              case "ja":
+                  document.getElementById("lang_en").style.display = "none";
+                  document.getElementById("lang_jp").style.display = "block";
+                  break;
+              case "en":
+                  document.getElementById("lang_en").style.display = "block";
+                  document.getElementById("lang_jp").style.display = "none";
+          }
+          updateButton();
+      }
+
+      function changeLang() {
+          switch (sessionStorage.getItem('lang')) {
+              case "en":
+                  setLang('ja');
+                  break;
+              case "ja":
+              default:
+                  setLang('en');
+                  break;
+          }
+          updateButton();
+      }
+
+      function updateButton() {
+          switch (sessionStorage.getItem('lang')) {
+              case "ja":
+                  document.querySelectorAll("#lang_text").forEach(el => el.innerHTML = "English");
+                  break;
+              case "en":
+                  document.querySelectorAll("#lang_text").forEach(el => el.innerHTML = "日本語");
+                  break;
+          }
+      }
+      window.onload = () => setLang(sessionStorage.getItem('lang'));
+  </script>
+</button>
+<style>
+  #lang_button {
+    background-color: whitesmoke;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: relative;
+    width: 100%;
+  }
+</style>

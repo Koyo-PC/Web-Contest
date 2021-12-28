@@ -1,5 +1,7 @@
 [//SCML_TITLE]: # (最後に)
 
+<div id="lang_jp">
+
 # 最後に
 
 <NoIndent>
@@ -22,3 +24,20 @@
 「右ポケットの中の資源を求めて」Webサイトをご覧いただきありがとうございました。
 
 <PNBar prev="../solution/" next="../others/"></PNBar>
+<FloatingMenu>
+h1 最後に
+</FloatingMenu>
+
+</div>
+<div id="lang_en">
+
+ああああA
+
+# aaaa
+
+<PNBar prev="../solution/" next="../others/"></PNBar>
+<FloatingMenu>
+h1 最後に
+</FloatingMenu>
+
+</div>

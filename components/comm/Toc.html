@@ -1,0 +1,62 @@
+<!--suppress BadExpressionStatementJS -->
+<div id="toc">
+  <div id="toc_title">目次</div>
+  [[ toc ]]
+</div>
+<script scml>
+    (buildInfo, options) => {
+        const crypto = require('crypto');
+
+        const tocs = {};
+        options["content"].split("\n").forEach((s) => {
+            const kv = s.split(" ", 2);
+            const type = kv[0];
+            const title = kv[1];
+            // const hash = crypto.createHash('md5').update(title).digest('hex', title.toString());
+            // tocs[hash] = {
+            tocs[title] = {
+                "title": title,
+                "type": type//,
+                // "hash": hash.substr(0, 5)
+            };
+        });
+        let toc_html = "";
+        // for (const hash in tocs) {
+        for (const title in tocs) {
+            // const toc_data = tocs[hash];
+            const toc_data = tocs[title];
+            // toc_html += `<a class="toc_link_${toc_data['type']}" href="#${toc_data['hash']}">${toc_data['title']}</a>`;
+            toc_html += `<a class="toc_link_${toc_data['type']}" href="#${toc_data['title']}">${toc_data['title']}</a>`;
+        }
+        return {
+            "toc": toc_html
+        };
+    }
+</script>
+<style>
+  #toc {
+    padding: 10px;
+  }
+  #toc_title {
+    width: 100%;
+    text-align: center;
+  }
+  [class^="toc_link_"] {
+    display: block;
+    text-decoration: none;
+    color: black;
+    scroll-behavior: smooth;
+  }
+  [class^="toc_link_"]:hover {
+    color: gray;
+  }
+  .toc_link_h1 {
+    margin-left: 0;
+  }
+  .toc_link_h2 {
+    margin-left: 10px;
+  }
+  .toc_link_h3 {
+    margin-left: 20px;
+  }
+</style>
