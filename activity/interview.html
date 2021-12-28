@@ -552,6 +552,57 @@
       #prev_link {
         float: left;
       }
+      #lang_button {
+        background-color: whitesmoke;
+        border: none;
+        color: black;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        position: relative;
+        width: 100%;
+      }
+      #toc {
+        padding: 10px;
+      }
+      #toc_title {
+        width: 100%;
+        text-align: center;
+      }
+      [class^="toc_link_"] {
+        display: block;
+        text-decoration: none;
+        color: black;
+        scroll-behavior: smooth;
+      }
+      [class^="toc_link_"]:hover {
+        color: gray;
+      }
+      .toc_link_h1 {
+        margin-left: 0;
+      }
+      .toc_link_h2 {
+        margin-left: 10px;
+      }
+      .toc_link_h3 {
+        margin-left: 20px;
+      }
+      .toc_link_h4 {
+        margin-left: 30px;
+      }
+      #floating_menu {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        z-index: 100;
+        width: 200px;
+        display: block;
+        background-color: #0004;
+      }
       .no_indent {
         text-indent: 0;
       }
@@ -819,310 +870,457 @@
     </script>
 
     <main>
-      <h1 id="インタビュー">インタビュー</h1>
-      <p class="no_indent">
-        9/12（日）に東京大学先端科学技術研究センター准教授・醍醐市朗先生にZoomでお話を伺いました。
-      </p>
+      <div id="lang_jp">
+        <h1 id="インタビュー">インタビュー</h1>
+        <p class="no_indent">
+          9/12（日）に東京大学先端科学技術研究センター准教授・醍醐市朗先生にZoomでお話を伺いました。
+        </p>
 
-      <div class="image_container">
-        <figure class="image_box">
-          <img
-            class="image"
-            src="../img/activity/interview/thumbnail.jpg"
-            alt=""
-          />
-          <div class="note"><a class="href" href=""></a></div>
-          <figcaption class="image_caption"></figcaption>
-        </figure>
+        <div class="image_container">
+          <figure class="image_box">
+            <img
+              class="image"
+              src="../img/activity/interview/thumbnail.jpg"
+              alt=""
+            />
+            <div class="note"><a class="href" href=""></a></div>
+            <figcaption class="image_caption"></figcaption>
+          </figure>
+        </div>
+
+        <p>
+          なおインタビューはGoogleスライドを使いながら行いました。
+          使用したGoogleスライドは<a
+            href="https://docs.google.com/presentation/d/1scF1wNfPfZGIbLZwAJ-I-G7dXXsWGbSxU4k5iHcPYrU/view"
+            >こちら</a
+          >から閲覧できます。
+        </p>
+        <h2 id="プロフィール">プロフィール</h2>
+        <p>
+          醍醐市朗先生は2021年4月より東京大学先端科学技術研究センターの准教授を務められています。
+          材料の物質フロー・ストックについての研究をされており、都市鉱山に関する第一人者でもあります。
+        </p>
+        <h2 id="インタビュー-1">インタビュー</h2>
+        <dl class="Q_A">
+          <dt id="q1">
+            携帯電話が<span class="word"
+              ><span class="word_text">貴金属</span>
+              <span class="word_description_container">
+                <span class="word_description">
+                  <span class="word_description_title">貴金属</span>
+                  <span
+                    class="word_description_text"
+                    style="line-height: 1.5rem"
+                    >金 (Au)、銀 (Ag)、白金 (Pt)、パラジウム (Pd)、ロジウム
+                    (Rh)、イリジウム (Ir)、ルテニウム (Ru)、オスミウム (Os)
+                    、レニウム(Re)を総称して言う。</span
+                  >
+                </span>
+              </span>
+            </span>
+
+            <!--suppress HtmlUnknownAttribute -->
+            や<span class="word"
+              ><span class="word_text">レアメタル</span>
+              <span class="word_description_container">
+                <span class="word_description">
+                  <span class="word_description_title">レアメタル</span>
+                  <span
+                    class="word_description_text"
+                    style="line-height: 1.5rem"
+                    >1.地殻中の存在量が比較的少ない元素　<br />
+                    2.単体として取り出すことが技術的に困難な元素<br />3.資源の産出国が偏在している<br />を満たす元素のことを言い、現代の産業に欠かせない”産業のビタミン”と呼ばれる。別名マイナーメタル。</span
+                  >
+                </span>
+              </span>
+            </span>
+
+            <!--suppress HtmlUnknownAttribute -->
+            を含んでいるといっても、銅まで合わせて全体の重量の約１割しかなく、残りの大部分はプラスチックなどの廃棄物になるそうなのですが、小型家電のリサイクルにおいてプラスチックは資源としてリサイクルすることはできないのでしょうか？
+          </dt>
+
+          <dd>
+            プラスチックをリサイクルするのは難しいと思います。
+            その大きな理由として、プラスチック単体のコストがプラスチックのリサイクルにかかるコストに見合っていないということが挙げられます。
+            携帯電話に含まれる金属類は基本的に銅の<span class="word"
+              ><span class="word_text">精錬</span>
+              <span class="word_description_container">
+                <span class="word_description">
+                  <span class="word_description_title">精錬</span>
+                  <span
+                    class="word_description_text"
+                    style="line-height: 1.5rem"
+                    >粗金属から不純物を取り除いて純度を上げること。</span
+                  >
+                </span>
+              </span>
+            </span>
+
+            <!--suppress HtmlUnknownAttribute -->
+            に入れれば全て回収できる一方で、プラスチックは単体分離するにどうしても人の手が必要になってきます。
+            しかし、そうして取り出されたプラスチックの価値は高いとは言えません。
+            そのため、銅精錬ではプラスチックは蒸し焼きにされ、炭化されることになっています。
+            以上のことから、プラスチックはリサイクルできないわけではありませんが、経済的な理由でリサイクルされていないという状況です。
+
+            <aside class="column">
+              <div class="column_title">補足</div>
+              <div class="column_content">
+                ここで、私たち自身でガラケー1台の中からとれるプラスチックの値段とプラスチックリサイクルにかかる費用を比較してみました。
+                プラスチック1tのリサイクルに約800ユーロ（105,000円）ほどかかるので1gあたり0.105円ほどコストがかかる計算になります。
+                一方、プラスチックの流通価格は大体1tあたり900ユーロ(98,000円)ほどかかるので1gあたり0.098円ほどの価格なります。
+                ガラケーの重量を110gとするとケータイ一台あたりに含まれるプラスチックは90%なので、99gです。
+                したがって、ガラケ一台分のプラスチックリサイクルでは、99(0.105-0.098)=0.693円損が発生します。
+                これだけではあまり損が出ていないように見えますが、これがどんどん積もるととんでもない金額になります。
+                一年間に処理される携帯台数は4,951,000台なので、一年間では0.693×4,951,000=3,431,043円の損が出てしまうことになります。
+                単純計算で正しい値が出てるかどうかは分かりませんが、プラスチックも一緒にリサイクルするのはコスト的に厳しいという醍醐先生の話が分かった気がします。
+              </div>
+            </aside>
+          </dd>
+
+          <dt id="q2">
+            <!-- 日本において、大きなもの（自動車、冷蔵庫、テレビなど）のリサイクル率は高いのに対し、小さいもの（携帯電話など）はリサイクル率が低いのはどうしてでしょうか？私たちは「家電リサイクル法」と「小型家電リサイクル法」の施行年数と強制力の強さの違いが関係していると思っていますがどうでしょうか。 -->
+            日本において、大きな製品（自動車、冷蔵庫、テレビなど）のリサイクル率は高いのに対し、小さい製品（携帯電話など）はリサイクル率が低いのはなぜですか？
+            私たちは「<span class="word"
+              ><span class="word_text">家電リサイクル法</span>
+              <span class="word_description_container">
+                <span class="word_description">
+                  <span class="word_description_title">家電リサイクル法</span>
+                  <span
+                    class="word_description_text"
+                    style="line-height: 1.5rem"
+                    >エアコン、テレビ(ブラウン管、液晶・プラズマ)、冷蔵庫・冷凍庫、洗濯機・衣類乾燥機の家電4品目を対象とした法律。後払い制度がとられている。これらの家電の回収により、リサイクルの促進だけでなく、廃棄物の減量も目指している。</span
+                  >
+                </span>
+              </span>
+            </span>
+
+            <!--suppress HtmlUnknownAttribute -->
+            」と「<span class="word"
+              ><span class="word_text">小型家電リサイクル法</span>
+              <span class="word_description_container">
+                <span class="word_description">
+                  <span class="word_description_title"
+                    >小型家電リサイクル法</span
+                  >
+                  <span
+                    class="word_description_text"
+                    style="line-height: 1.5rem"
+                    >日本で小型家電を対象として施工されているリサイクルに関する法律。家電リサイクル法などとは違い、法律に強制力はない。2021年8月10日に公布され、2013年4月1日から施工されている。</span
+                  >
+                </span>
+              </span>
+            </span>
+
+            <!--suppress HtmlUnknownAttribute -->
+            」の施行年数と強制力の強さの違いが関係していると思っているのですがどうでしょうか。
+          </dt>
+          <dd>
+            それも理由の一つだと思います。
+            大型家電そして自動車に関しては「家電リサイクル法」、「<span
+              class="word"
+              ><span class="word_text">自動車リサイクル法</span>
+              <span class="word_description_container">
+                <span class="word_description">
+                  <span class="word_description_title">自動車リサイクル法</span>
+                  <span
+                    class="word_description_text"
+                    style="line-height: 1.5rem"
+                    >車を対象とした法律。購入時にリサイクル代金を支払いリサイクル券を発行する前払い制度が取られている。2002年7月12日に公布され、2005年1月1日から施工されている。</span
+                  >
+                </span>
+              </span>
+            </span>
+
+            <!--suppress HtmlUnknownAttribute -->
+            」があるので、その法に則って処理しなければなりません。
+            特に「家電リサイクル法」は「小型家電リサイクル法」に比べて歴史も古く、リサイクルすることが義務付けられています。
+            その一方で、「小型家電リサイクル法」ではリサイクルが強制されていません。
+            この違いは、金属リサイクルの促進にあたっての2つの流れの差から生まれたものです。
+            1つは、リサイクルを強制することで、単一ルートで集中的に回収を進めるということであり、もう1つは、リサイクルの自由度を上げることで、幅広く効率的にリサイクルを行うということです。
+            家電リサイクル法が施行されるようになった背景には、昔から不法投棄や不法処理が目立っていたということがあります。
+            これらの不法投棄・不法処理を抑え、適正処理を推進するために大型製品には強制力の強い措置が適用されました。
+            一方で、携帯電話などの小型製品においては、リサイクルの自由度を優先し、「みんなのメダルプロジェクト」をはじめとして幅広くリサイクルが行われています。
+            そのため、リサイクル率にリサイクル法の施行年数と強制力の差は関係していると言えます。
+            ただ、携帯電話に関してはまだいくつか要因があります。
+            というのは、目覚まし機能や写真の保存などの理由で使い終わった携帯電話を残しているということが多くあるということです。
+            そこは携帯電話の特殊性なのではないでしょうか。
+            また、小型家電は自動車や冷蔵庫に比べて家の中に残していても邪魔にならないということもリサイクル率が低いことの一因としてあると思います。
+          </dd>
+
+          <dt id="q3">
+            日本において消費者や企業にリサイクルを義務付ける法律を作ることはできないのでしょうか？
+          </dt>
+
+          <dd>
+            義務付けることはできますが、難しいと思います。
+            リサイクルを義務付けなければならないということは、コストメリットがないこととも言えます。
+            なぜなら、利益の出るものは義務付けなくても誰もがするからです。
+            つまり義務付けるというムチと一緒にアメも用意しなくてはならないのです。
+            では一体誰がそのアメ、つまりお金を負担するのでしょうか？
+            それが国の予算から支出できればいいのですが、支出するにしても本当にそれがかかっている費用の元に提供できるかはわかりません。
+            かかっている費用以上に請求されて払っていたとすると国は損する一方です。
+            そのため、そのような部分の制度設計というのが簡単ではないように思います。
+          </dd>
+
+          <dt id="q4">
+            東京オリンピック・パラリンピック2020では「<span class="word"
+              ><span class="word_text">みんなのメダルプロジェクト</span>
+              <span class="word_description_container">
+                <span class="word_description">
+                  <span class="word_description_title"
+                    >みんなのメダルプロジェクト</span
+                  >
+                  <span
+                    class="word_description_text"
+                    style="line-height: 1.5rem"
+                    >東京2020オリンピック・パラリンピックにおける金・銀・銅メダルを都市鉱山から作るというプロジェクト。このプロジェクトによって約5000個のメダルが都市鉱山から作られた。</span
+                  >
+                </span>
+              </span>
+            </span>
+
+            <!--suppress HtmlUnknownAttribute -->
+            」が無事成功に終わりましたが、その成功の理由とは何なのでしょうか？
+          </dt>
+
+          <dd>
+            「みんなのメダルプロジェクト」には、単にリサイクルを呼びかける場合と比べて大きな利点があります。
+            それは、使用済み携帯電話をリサイクルに出す人が、その携帯電話がオリンピック選手のメダルになることをはっきりと知っていたということです。
+            一方で、従来のリサイクルでは、回収ボックスに入れたものがリサイクルされることは知っていても、何にリサイクルされるかまではわかりません。
+            その点が、「みんなのメダルプロジェクト」が成功した理由のように思います。
+          </dd>
+
+          <dt id="q5">
+            金属リサイクルにおける日本の特徴について教えていただきたいです。
+          </dt>
+          <dd>
+            日本では、銅・鉛・亜鉛・鉄精錬を行うことができます。
+            このようにたくさんの種類の精錬を行うことができる国は多くありません。
+            そのうち銅・鉛・亜鉛精錬はそれぞれの精錬で出てきた飛灰などを含む残渣（ざんさ）から有価金属を回収するという関係にあります。
+            これを行うことによって、製品に含まれるほぼ全ての有価金属を回収することができますし、たとえ銅精錬しかできない国では有害物質として管理しなければならない物質も、日本では有価金属として回収することができます。
+            これが金属リサイクルにおける日本の大きなアドバンテージとなっています。
+          </dd>
+          <dt id="q6">
+            都市鉱山が地球温暖化などと比べてあまり話題にならないのはなぜですか？
+          </dt>
+
+          <!-- Googleスライドで使った検索ボリューム（最新版）が欲しい（Answerの後でもいいけど） -->
+          <dd>
+            都市鉱山という言葉が初めて出たのは1980年代ですが、実際に使われるようになったのは2008年頃で、使われ始めて十数年しか経っていないということが大きな要因としてあると思います。
+            また、都市鉱山やリサイクルと聞くとなにかキレイでいいことをしているようなイメージがあるような気がしますが、実際は廃棄物処理の一部でしかないという面もあります。
+            今となっては違いますが、昔は廃棄物処理は階級の低い人<!--（醍醐の言う穢多非人）-->によって行われていました。
+            その点では、廃棄物処理は社会の表舞台からは隠された部分の活動であったとも言えます。
+            現在は、リサイクルの進化によって廃棄物処理とリサイクルが繋がってきていますが、まだまだ金属を製品から<span
+              class="word"
+              ><span class="word_text">一次資源</span>
+              <span class="word_description_container">
+                <span class="word_description">
+                  <span class="word_description_title">一次資源</span>
+                  <span
+                    class="word_description_text"
+                    style="line-height: 1.5rem"
+                    >まだ地中から掘り出されていない地下資源。</span
+                  >
+                </span>
+              </span>
+            </span>
+
+            <!--suppress HtmlUnknownAttribute -->
+            に戻す工程と<span class="word"
+              ><span class="word_text">二次資源</span>
+              <span class="word_description_container">
+                <span class="word_description">
+                  <span class="word_description_title">二次資源</span>
+                  <span
+                    class="word_description_text"
+                    style="line-height: 1.5rem"
+                    >地中から既に掘り出された地上資源。</span
+                  >
+                </span>
+              </span>
+            </span>
+
+            <!--suppress HtmlUnknownAttribute -->
+            を活用する工程が組み合っていないように感じます。
+            さらに、地球温暖化はエネルギーの消費によるCO2の発生で起きているため、意識的に省エネルギーに切り替えることで防ぐことができますが、資源枯渇の場合、意識的に防ぐことはできません。
+            例えば、パソコンを買うときに、資源節約のために金や銀があまり使われていないパソコンが欲しいと思っても選べませんよね。
+            そのため、資源枯渇ないし都市鉱山は、地球温暖化と比べて身近に感じにくいのだと思います。
+          </dd>
+
+          <dt id="q7">
+            資源枯渇についていつまでたっても耐用年数が伸び続けているので、結局資源がなくならないのでは？という考え方をする人もいますが、それについてどう思われますか？
+            資源枯渇について、<span class="word"
+              ><span class="word_text">耐用年数</span>
+              <span class="word_description_container">
+                <span class="word_description">
+                  <span class="word_description_title">耐用年数</span>
+                  <span
+                    class="word_description_text"
+                    style="line-height: 1.5rem"
+                    >資源が枯渇するまでの年数。埋蔵量を生産量で割った値。</span
+                  >
+                </span>
+              </span>
+            </span>
+
+            <!--suppress HtmlUnknownAttribute -->
+            が伸び続けているところもあり、「結局資源がなくならないのでは？」という考え方をする人もいると思うのですが、それについてどう思われますか？
+          </dt>
+          <dd>
+            例として銅の話を取り上げてみたいと思います。
+            昔は銅濃度が1.0％の鉱物が使われていましたが、今では銅濃度1.0％の鉱物は採り尽くされており、日本で出回っている鉱物のうち最も濃度が高いものでも0.6％となっています。
+            先日聞いた話によると、銅濃度0.3％の鉱物も使わなければいけなくなったというところもあるそうです。
+            このことから、資源が枯渇に近付いていそうだということを薄々感じているという人はいると思います。
+            また、枯渇は経済性が見合わなくなった結果採れなくなったという状況も指し、それは銅を含め、いくつかの元素が示しているので、10年前や20年前と比べると「結局資源はなくならない」と言う声はあまり聞かなくなったようにも感じます。
+          </dd>
+        </dl>
+
+        <h2 id="わかったことのまとめ">わかったことのまとめ</h2>
+        <ul>
+          <li>リサイクル法は不法投棄・不法処理を抑えるために存在する</li>
+          <li>携帯電話の回収率は携帯電話特有の特徴が関係している</li>
+          <li>資源枯渇は着実に近づいてきている</li>
+        </ul>
+
+        <p class="no_indent">
+          なお、このサイトを作るにあたって、醍醐先生のお話を参考にさせていただいた箇所が多々あります。<br />
+          貴重なお話ありがとうございました。
+        </p>
+
+        <div id="pn_bar">
+          <a href="./recycle-box.html" id="prev_link">
+            <div id="prev_text"></div>
+            <button id="prev_button">Prev</button>
+          </a>
+
+          <a href="./petec.html" id="next_link">
+            <div id="next_text"></div>
+            <button id="next_button">Next</button>
+          </a>
+        </div>
+
+        <div id="floating_menu">
+          <!--suppress BadExpressionStatementJS -->
+          <div id="toc">
+            <div id="toc_title">目次</div>
+            <a class="toc_link_h2" href="#インタビュー">インタビュー</a
+            ><a class="toc_link_h2" href="#プロフィール">プロフィール</a
+            ><a class="toc_link_h2" href="#わかったことのまとめ"
+              >わかったことのまとめ</a
+            >
+          </div>
+
+          <!--suppress BadExpressionStatementJS --><button
+            id="lang_button"
+            onclick="changeLang()"
+          >
+            <span id="lang_text"></span>
+            <script>
+              function setLang(lang) {
+                sessionStorage.setItem("lang", lang)
+                switch (lang) {
+                  case "ja":
+                    document.getElementById("lang_en").style.display = "none"
+                    document.getElementById("lang_jp").style.display = "block"
+                    break
+                  case "en":
+                    document.getElementById("lang_en").style.display = "block"
+                    document.getElementById("lang_jp").style.display = "none"
+                }
+                updateButton()
+              }
+
+              function changeLang() {
+                switch (sessionStorage.getItem("lang")) {
+                  case "en":
+                    setLang("ja")
+                    break
+                  case "ja":
+                  default:
+                    setLang("en")
+                    break
+                }
+                updateButton()
+              }
+
+              function updateButton() {
+                switch (sessionStorage.getItem("lang")) {
+                  case "ja":
+                    document
+                      .querySelectorAll("#lang_text")
+                      .forEach((el) => (el.innerHTML = "English"))
+                    break
+                  case "en":
+                    document
+                      .querySelectorAll("#lang_text")
+                      .forEach((el) => (el.innerHTML = "日本語"))
+                    break
+                }
+              }
+              window.onload = () => setLang(sessionStorage.getItem("lang"))
+            </script>
+          </button>
+        </div>
       </div>
+      <div id="lang_en">
+        <div id="floating_menu">
+          <!--suppress BadExpressionStatementJS -->
+          <div id="toc">
+            <div id="toc_title">目次</div>
+            <a class="toc_link_" href="#undefined">undefined</a>
+          </div>
 
-      <p>
-        なおインタビューはGoogleスライドを使いながら行いました。
-        使用したGoogleスライドは<a
-          href="https://docs.google.com/presentation/d/1scF1wNfPfZGIbLZwAJ-I-G7dXXsWGbSxU4k5iHcPYrU/view"
-          >こちら</a
-        >から閲覧できます。
-      </p>
-      <h2 id="プロフィール">プロフィール</h2>
-      <p>
-        醍醐市朗先生は2021年4月より東京大学先端科学技術研究センターの准教授を務められています。
-        材料の物質フロー・ストックについての研究をされており、都市鉱山に関する第一人者でもあります。
-      </p>
-      <h2 id="インタビュー-1">インタビュー</h2>
-      <dl class="Q_A">
-        <dt id="q1">
-          携帯電話が<span class="word"
-            ><span class="word_text">貴金属</span>
-            <span class="word_description_container">
-              <span class="word_description">
-                <span class="word_description_title">貴金属</span>
-                <span class="word_description_text" style="line-height: 1.5rem"
-                  >金 (Au)、銀 (Ag)、白金 (Pt)、パラジウム (Pd)、ロジウム
-                  (Rh)、イリジウム (Ir)、ルテニウム (Ru)、オスミウム (Os)
-                  、レニウム(Re)を総称して言う。</span
-                >
-              </span>
-            </span>
-          </span>
+          <!--suppress BadExpressionStatementJS --><button
+            id="lang_button"
+            onclick="changeLang()"
+          >
+            <span id="lang_text"></span>
+            <script>
+              function setLang(lang) {
+                sessionStorage.setItem("lang", lang)
+                switch (lang) {
+                  case "ja":
+                    document.getElementById("lang_en").style.display = "none"
+                    document.getElementById("lang_jp").style.display = "block"
+                    break
+                  case "en":
+                    document.getElementById("lang_en").style.display = "block"
+                    document.getElementById("lang_jp").style.display = "none"
+                }
+                updateButton()
+              }
 
-          <!--suppress HtmlUnknownAttribute -->
-          や<span class="word"
-            ><span class="word_text">レアメタル</span>
-            <span class="word_description_container">
-              <span class="word_description">
-                <span class="word_description_title">レアメタル</span>
-                <span class="word_description_text" style="line-height: 1.5rem"
-                  >1.地殻中の存在量が比較的少ない元素　<br />
-                  2.単体として取り出すことが技術的に困難な元素<br />3.資源の産出国が偏在している<br />を満たす元素のことを言い、現代の産業に欠かせない”産業のビタミン”と呼ばれる。別名マイナーメタル。</span
-                >
-              </span>
-            </span>
-          </span>
+              function changeLang() {
+                switch (sessionStorage.getItem("lang")) {
+                  case "en":
+                    setLang("ja")
+                    break
+                  case "ja":
+                  default:
+                    setLang("en")
+                    break
+                }
+                updateButton()
+              }
 
-          <!--suppress HtmlUnknownAttribute -->
-          を含んでいるといっても、銅まで合わせて全体の重量の約１割しかなく、残りの大部分はプラスチックなどの廃棄物になるそうなのですが、小型家電のリサイクルにおいてプラスチックは資源としてリサイクルすることはできないのでしょうか？
-        </dt>
-
-        <dd>
-          プラスチックをリサイクルするのは難しいと思います。
-          その大きな理由として、プラスチック単体のコストがプラスチックのリサイクルにかかるコストに見合っていないということが挙げられます。
-          携帯電話に含まれる金属類は基本的に銅の<span class="word"
-            ><span class="word_text">精錬</span>
-            <span class="word_description_container">
-              <span class="word_description">
-                <span class="word_description_title">精錬</span>
-                <span class="word_description_text" style="line-height: 1.5rem"
-                  >粗金属から不純物を取り除いて純度を上げること。</span
-                >
-              </span>
-            </span>
-          </span>
-
-          <!--suppress HtmlUnknownAttribute -->
-          に入れれば全て回収できる一方で、プラスチックは単体分離するにどうしても人の手が必要になってきます。
-          しかし、そうして取り出されたプラスチックの価値は高いとは言えません。
-          そのため、銅精錬ではプラスチックは蒸し焼きにされ、炭化されることになっています。
-          以上のことから、プラスチックはリサイクルできないわけではありませんが、経済的な理由でリサイクルされていないという状況です。
-
-          <aside class="column">
-            <div class="column_title">補足</div>
-            <div class="column_content">
-              ここで、私たち自身でガラケー1台の中からとれるプラスチックの値段とプラスチックリサイクルにかかる費用を比較してみました。
-              プラスチック1tのリサイクルに約800ユーロ（105,000円）ほどかかるので1gあたり0.105円ほどコストがかかる計算になります。
-              一方、プラスチックの流通価格は大体1tあたり900ユーロ(98,000円)ほどかかるので1gあたり0.098円ほどの価格なります。
-              ガラケーの重量を110gとするとケータイ一台あたりに含まれるプラスチックは90%なので、99gです。
-              したがって、ガラケ一台分のプラスチックリサイクルでは、99(0.105-0.098)=0.693円損が発生します。
-              これだけではあまり損が出ていないように見えますが、これがどんどん積もるととんでもない金額になります。
-              一年間に処理される携帯台数は4,951,000台なので、一年間では0.693×4,951,000=3,431,043円の損が出てしまうことになります。
-              単純計算で正しい値が出てるかどうかは分かりませんが、プラスチックも一緒にリサイクルするのはコスト的に厳しいという醍醐先生の話が分かった気がします。
-            </div>
-          </aside>
-        </dd>
-
-        <dt id="q2">
-          <!-- 日本において、大きなもの（自動車、冷蔵庫、テレビなど）のリサイクル率は高いのに対し、小さいもの（携帯電話など）はリサイクル率が低いのはどうしてでしょうか？私たちは「家電リサイクル法」と「小型家電リサイクル法」の施行年数と強制力の強さの違いが関係していると思っていますがどうでしょうか。 -->
-          日本において、大きな製品（自動車、冷蔵庫、テレビなど）のリサイクル率は高いのに対し、小さい製品（携帯電話など）はリサイクル率が低いのはなぜですか？
-          私たちは「<span class="word"
-            ><span class="word_text">家電リサイクル法</span>
-            <span class="word_description_container">
-              <span class="word_description">
-                <span class="word_description_title">家電リサイクル法</span>
-                <span class="word_description_text" style="line-height: 1.5rem"
-                  >エアコン、テレビ(ブラウン管、液晶・プラズマ)、冷蔵庫・冷凍庫、洗濯機・衣類乾燥機の家電4品目を対象とした法律。後払い制度がとられている。これらの家電の回収により、リサイクルの促進だけでなく、廃棄物の減量も目指している。</span
-                >
-              </span>
-            </span>
-          </span>
-
-          <!--suppress HtmlUnknownAttribute -->
-          」と「<span class="word"
-            ><span class="word_text">小型家電リサイクル法</span>
-            <span class="word_description_container">
-              <span class="word_description">
-                <span class="word_description_title">小型家電リサイクル法</span>
-                <span class="word_description_text" style="line-height: 1.5rem"
-                  >日本で小型家電を対象として施工されているリサイクルに関する法律。家電リサイクル法などとは違い、法律に強制力はない。2021年8月10日に公布され、2013年4月1日から施工されている。</span
-                >
-              </span>
-            </span>
-          </span>
-
-          <!--suppress HtmlUnknownAttribute -->
-          」の施行年数と強制力の強さの違いが関係していると思っているのですがどうでしょうか。
-        </dt>
-        <dd>
-          それも理由の一つだと思います。
-          大型家電そして自動車に関しては「家電リサイクル法」、「<span
-            class="word"
-            ><span class="word_text">自動車リサイクル法</span>
-            <span class="word_description_container">
-              <span class="word_description">
-                <span class="word_description_title">自動車リサイクル法</span>
-                <span class="word_description_text" style="line-height: 1.5rem"
-                  >車を対象とした法律。購入時にリサイクル代金を支払いリサイクル券を発行する前払い制度が取られている。2002年7月12日に公布され、2005年1月1日から施工されている。</span
-                >
-              </span>
-            </span>
-          </span>
-
-          <!--suppress HtmlUnknownAttribute -->
-          」があるので、その法に則って処理しなければなりません。
-          特に「家電リサイクル法」は「小型家電リサイクル法」に比べて歴史も古く、リサイクルすることが義務付けられています。
-          その一方で、「小型家電リサイクル法」ではリサイクルが強制されていません。
-          この違いは、金属リサイクルの促進にあたっての2つの流れの差から生まれたものです。
-          1つは、リサイクルを強制することで、単一ルートで集中的に回収を進めるということであり、もう1つは、リサイクルの自由度を上げることで、幅広く効率的にリサイクルを行うということです。
-          家電リサイクル法が施行されるようになった背景には、昔から不法投棄や不法処理が目立っていたということがあります。
-          これらの不法投棄・不法処理を抑え、適正処理を推進するために大型製品には強制力の強い措置が適用されました。
-          一方で、携帯電話などの小型製品においては、リサイクルの自由度を優先し、「みんなのメダルプロジェクト」をはじめとして幅広くリサイクルが行われています。
-          そのため、リサイクル率にリサイクル法の施行年数と強制力の差は関係していると言えます。
-          ただ、携帯電話に関してはまだいくつか要因があります。
-          というのは、目覚まし機能や写真の保存などの理由で使い終わった携帯電話を残しているということが多くあるということです。
-          そこは携帯電話の特殊性なのではないでしょうか。
-          また、小型家電は自動車や冷蔵庫に比べて家の中に残していても邪魔にならないということもリサイクル率が低いことの一因としてあると思います。
-        </dd>
-
-        <dt id="q3">
-          日本において消費者や企業にリサイクルを義務付ける法律を作ることはできないのでしょうか？
-        </dt>
-
-        <dd>
-          義務付けることはできますが、難しいと思います。
-          リサイクルを義務付けなければならないということは、コストメリットがないこととも言えます。
-          なぜなら、利益の出るものは義務付けなくても誰もがするからです。
-          つまり義務付けるというムチと一緒にアメも用意しなくてはならないのです。
-          では一体誰がそのアメ、つまりお金を負担するのでしょうか？
-          それが国の予算から支出できればいいのですが、支出するにしても本当にそれがかかっている費用の元に提供できるかはわかりません。
-          かかっている費用以上に請求されて払っていたとすると国は損する一方です。
-          そのため、そのような部分の制度設計というのが簡単ではないように思います。
-        </dd>
-
-        <dt id="q4">
-          東京オリンピック・パラリンピック2020では「<span class="word"
-            ><span class="word_text">みんなのメダルプロジェクト</span>
-            <span class="word_description_container">
-              <span class="word_description">
-                <span class="word_description_title"
-                  >みんなのメダルプロジェクト</span
-                >
-                <span class="word_description_text" style="line-height: 1.5rem"
-                  >東京2020オリンピック・パラリンピックにおける金・銀・銅メダルを都市鉱山から作るというプロジェクト。このプロジェクトによって約5000個のメダルが都市鉱山から作られた。</span
-                >
-              </span>
-            </span>
-          </span>
-
-          <!--suppress HtmlUnknownAttribute -->
-          」が無事成功に終わりましたが、その成功の理由とは何なのでしょうか？
-        </dt>
-
-        <dd>
-          「みんなのメダルプロジェクト」には、単にリサイクルを呼びかける場合と比べて大きな利点があります。
-          それは、使用済み携帯電話をリサイクルに出す人が、その携帯電話がオリンピック選手のメダルになることをはっきりと知っていたということです。
-          一方で、従来のリサイクルでは、回収ボックスに入れたものがリサイクルされることは知っていても、何にリサイクルされるかまではわかりません。
-          その点が、「みんなのメダルプロジェクト」が成功した理由のように思います。
-        </dd>
-
-        <dt id="q5">
-          金属リサイクルにおける日本の特徴について教えていただきたいです。
-        </dt>
-        <dd>
-          日本では、銅・鉛・亜鉛・鉄精錬を行うことができます。
-          このようにたくさんの種類の精錬を行うことができる国は多くありません。
-          そのうち銅・鉛・亜鉛精錬はそれぞれの精錬で出てきた飛灰などを含む残渣（ざんさ）から有価金属を回収するという関係にあります。
-          これを行うことによって、製品に含まれるほぼ全ての有価金属を回収することができますし、たとえ銅精錬しかできない国では有害物質として管理しなければならない物質も、日本では有価金属として回収することができます。
-          これが金属リサイクルにおける日本の大きなアドバンテージとなっています。
-        </dd>
-        <dt id="q6">
-          都市鉱山が地球温暖化などと比べてあまり話題にならないのはなぜですか？
-        </dt>
-
-        <!-- Googleスライドで使った検索ボリューム（最新版）が欲しい（Answerの後でもいいけど） -->
-        <dd>
-          都市鉱山という言葉が初めて出たのは1980年代ですが、実際に使われるようになったのは2008年頃で、使われ始めて十数年しか経っていないということが大きな要因としてあると思います。
-          また、都市鉱山やリサイクルと聞くとなにかキレイでいいことをしているようなイメージがあるような気がしますが、実際は廃棄物処理の一部でしかないという面もあります。
-          今となっては違いますが、昔は廃棄物処理は階級の低い人<!--（醍醐の言う穢多非人）-->によって行われていました。
-          その点では、廃棄物処理は社会の表舞台からは隠された部分の活動であったとも言えます。
-          現在は、リサイクルの進化によって廃棄物処理とリサイクルが繋がってきていますが、まだまだ金属を製品から<span
-            class="word"
-            ><span class="word_text">一次資源</span>
-            <span class="word_description_container">
-              <span class="word_description">
-                <span class="word_description_title">一次資源</span>
-                <span class="word_description_text" style="line-height: 1.5rem"
-                  >まだ地中から掘り出されていない地下資源。</span
-                >
-              </span>
-            </span>
-          </span>
-
-          <!--suppress HtmlUnknownAttribute -->
-          に戻す工程と<span class="word"
-            ><span class="word_text">二次資源</span>
-            <span class="word_description_container">
-              <span class="word_description">
-                <span class="word_description_title">二次資源</span>
-                <span class="word_description_text" style="line-height: 1.5rem"
-                  >地中から既に掘り出された地上資源。</span
-                >
-              </span>
-            </span>
-          </span>
-
-          <!--suppress HtmlUnknownAttribute -->
-          を活用する工程が組み合っていないように感じます。
-          さらに、地球温暖化はエネルギーの消費によるCO2の発生で起きているため、意識的に省エネルギーに切り替えることで防ぐことができますが、資源枯渇の場合、意識的に防ぐことはできません。
-          例えば、パソコンを買うときに、資源節約のために金や銀があまり使われていないパソコンが欲しいと思っても選べませんよね。
-          そのため、資源枯渇ないし都市鉱山は、地球温暖化と比べて身近に感じにくいのだと思います。
-        </dd>
-
-        <dt id="q7">
-          資源枯渇についていつまでたっても耐用年数が伸び続けているので、結局資源がなくならないのでは？という考え方をする人もいますが、それについてどう思われますか？
-          資源枯渇について、<span class="word"
-            ><span class="word_text">耐用年数</span>
-            <span class="word_description_container">
-              <span class="word_description">
-                <span class="word_description_title">耐用年数</span>
-                <span class="word_description_text" style="line-height: 1.5rem"
-                  >資源が枯渇するまでの年数。埋蔵量を生産量で割った値。</span
-                >
-              </span>
-            </span>
-          </span>
-
-          <!--suppress HtmlUnknownAttribute -->
-          が伸び続けているところもあり、「結局資源がなくならないのでは？」という考え方をする人もいると思うのですが、それについてどう思われますか？
-        </dt>
-        <dd>
-          例として銅の話を取り上げてみたいと思います。
-          昔は銅濃度が1.0％の鉱物が使われていましたが、今では銅濃度1.0％の鉱物は採り尽くされており、日本で出回っている鉱物のうち最も濃度が高いものでも0.6％となっています。
-          先日聞いた話によると、銅濃度0.3％の鉱物も使わなければいけなくなったというところもあるそうです。
-          このことから、資源が枯渇に近付いていそうだということを薄々感じているという人はいると思います。
-          また、枯渇は経済性が見合わなくなった結果採れなくなったという状況も指し、それは銅を含め、いくつかの元素が示しているので、10年前や20年前と比べると「結局資源はなくならない」と言う声はあまり聞かなくなったようにも感じます。
-        </dd>
-      </dl>
-
-      <h2 id="わかったことのまとめ">わかったことのまとめ</h2>
-      <ul>
-        <li>リサイクル法は不法投棄・不法処理を抑えるために存在する</li>
-        <li>携帯電話の回収率は携帯電話特有の特徴が関係している</li>
-        <li>資源枯渇は着実に近づいてきている</li>
-      </ul>
-
-      <p class="no_indent">
-        なお、このサイトを作るにあたって、醍醐先生のお話を参考にさせていただいた箇所が多々あります。<br />
-        貴重なお話ありがとうございました。
-      </p>
-
-      <div id="pn_bar">
-        <a href="./recycle-box.html" id="prev_link">
-          <div id="prev_text"></div>
-          <button id="prev_button">Prev</button>
-        </a>
-
-        <a href="./petec.html" id="next_link">
-          <div id="next_text"></div>
-          <button id="next_button">Next</button>
-        </a>
+              function updateButton() {
+                switch (sessionStorage.getItem("lang")) {
+                  case "ja":
+                    document
+                      .querySelectorAll("#lang_text")
+                      .forEach((el) => (el.innerHTML = "English"))
+                    break
+                  case "en":
+                    document
+                      .querySelectorAll("#lang_text")
+                      .forEach((el) => (el.innerHTML = "日本語"))
+                    break
+                }
+              }
+              window.onload = () => setLang(sessionStorage.getItem("lang"))
+            </script>
+          </button>
+        </div>
       </div>
     </main>
     <button

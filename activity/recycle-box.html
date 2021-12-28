@@ -400,6 +400,57 @@
       #prev_link {
         float: left;
       }
+      #lang_button {
+        background-color: whitesmoke;
+        border: none;
+        color: black;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        position: relative;
+        width: 100%;
+      }
+      #toc {
+        padding: 10px;
+      }
+      #toc_title {
+        width: 100%;
+        text-align: center;
+      }
+      [class^="toc_link_"] {
+        display: block;
+        text-decoration: none;
+        color: black;
+        scroll-behavior: smooth;
+      }
+      [class^="toc_link_"]:hover {
+        color: gray;
+      }
+      .toc_link_h1 {
+        margin-left: 0;
+      }
+      .toc_link_h2 {
+        margin-left: 10px;
+      }
+      .toc_link_h3 {
+        margin-left: 20px;
+      }
+      .toc_link_h4 {
+        margin-left: 30px;
+      }
+      #floating_menu {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        z-index: 100;
+        width: 200px;
+        display: block;
+        background-color: #0004;
+      }
       footer {
         position: relative;
         width: 100%;
@@ -664,58 +715,179 @@
     </script>
 
     <main>
-      <h1 id="回収ボックス">回収ボックス</h1>
-      <p>
-        私たちは回収ボックスが学校の近くにあることを知って、7/14(水)に回収ボックスを利用しました。
-      </p>
-      <div class="image_container">
-        <figure class="image_box">
-          <img class="image" src="../img/activity/recycle-box/1.jpg" alt="" />
-          <div class="note"><a class="href" href=""></a></div>
-          <figcaption class="image_caption"></figcaption>
-        </figure>
+      <div id="lang_jp">
+        <h1 id="回収ボックス">回収ボックス</h1>
+        <p>
+          私たちは回収ボックスが学校の近くにあることを知って、7/14(水)に回収ボックスを利用しました。
+        </p>
+        <div class="image_container">
+          <figure class="image_box">
+            <img class="image" src="../img/activity/recycle-box/1.jpg" alt="" />
+            <div class="note"><a class="href" href=""></a></div>
+            <figcaption class="image_caption"></figcaption>
+          </figure>
+        </div>
+
+        <p>回収ボックスがある関西スーパー苦楽園口店です。</p>
+        <div class="image_container">
+          <figure class="image_box">
+            <img class="image" src="../img/activity/recycle-box/2.jpg" alt="" />
+            <div class="note"><a class="href" href=""></a></div>
+            <figcaption class="image_caption"></figcaption>
+          </figure>
+        </div>
+
+        <p>
+          スーパーの出入り口に回収ボックスがありました。<br />
+          人がよく通るところに設置されているのは工夫されているなと感じました。
+        </p>
+        <div class="image_container">
+          <figure class="image_box" style="height: 50vw">
+            <img class="image" src="../img/activity/recycle-box/3.jpg" alt="" />
+            <div class="note"><a class="href" href=""></a></div>
+            <figcaption class="image_caption"></figcaption>
+          </figure>
+        </div>
+
+        <p>
+          回収ボックスの明るいグリーンが環境に配慮されているように感じました。<br />
+          私たちはメンバーの1人の家にあった古いガラケーを回収ボックスに出しました。<br />
+          よい資源になりますように。
+        </p>
+        <p>
+          使わなくなった携帯を出しただけなのになんだか良いことをしたような気分になりました。<br />
+          みなさんも近くのスーパーに買い物に行くついでに回収ボックスを利用してみてはいかがですか？
+        </p>
+        <div id="pn_bar">
+          <a href="./questionnaire.html" id="prev_link">
+            <div id="prev_text"></div>
+            <button id="prev_button">Prev</button>
+          </a>
+
+          <a href="./interview.html" id="next_link">
+            <div id="next_text"></div>
+            <button id="next_button">Next</button>
+          </a>
+        </div>
+
+        <div id="floating_menu">
+          <!--suppress BadExpressionStatementJS -->
+          <div id="toc">
+            <div id="toc_title">目次</div>
+            <a class="toc_link_h1" href="#回収ボックス">回収ボックス</a>
+          </div>
+
+          <!--suppress BadExpressionStatementJS --><button
+            id="lang_button"
+            onclick="changeLang()"
+          >
+            <span id="lang_text"></span>
+            <script>
+              function setLang(lang) {
+                sessionStorage.setItem("lang", lang)
+                switch (lang) {
+                  case "ja":
+                    document.getElementById("lang_en").style.display = "none"
+                    document.getElementById("lang_jp").style.display = "block"
+                    break
+                  case "en":
+                    document.getElementById("lang_en").style.display = "block"
+                    document.getElementById("lang_jp").style.display = "none"
+                }
+                updateButton()
+              }
+
+              function changeLang() {
+                switch (sessionStorage.getItem("lang")) {
+                  case "en":
+                    setLang("ja")
+                    break
+                  case "ja":
+                  default:
+                    setLang("en")
+                    break
+                }
+                updateButton()
+              }
+
+              function updateButton() {
+                switch (sessionStorage.getItem("lang")) {
+                  case "ja":
+                    document
+                      .querySelectorAll("#lang_text")
+                      .forEach((el) => (el.innerHTML = "English"))
+                    break
+                  case "en":
+                    document
+                      .querySelectorAll("#lang_text")
+                      .forEach((el) => (el.innerHTML = "日本語"))
+                    break
+                }
+              }
+              window.onload = () => setLang(sessionStorage.getItem("lang"))
+            </script>
+          </button>
+        </div>
       </div>
+      <div id="lang_en">
+        <div id="floating_menu">
+          <!--suppress BadExpressionStatementJS -->
+          <div id="toc">
+            <div id="toc_title">目次</div>
+            <a class="toc_link_" href="#undefined">undefined</a>
+          </div>
 
-      <p>回収ボックスがある関西スーパー苦楽園口店です。</p>
-      <div class="image_container">
-        <figure class="image_box">
-          <img class="image" src="../img/activity/recycle-box/2.jpg" alt="" />
-          <div class="note"><a class="href" href=""></a></div>
-          <figcaption class="image_caption"></figcaption>
-        </figure>
-      </div>
+          <!--suppress BadExpressionStatementJS --><button
+            id="lang_button"
+            onclick="changeLang()"
+          >
+            <span id="lang_text"></span>
+            <script>
+              function setLang(lang) {
+                sessionStorage.setItem("lang", lang)
+                switch (lang) {
+                  case "ja":
+                    document.getElementById("lang_en").style.display = "none"
+                    document.getElementById("lang_jp").style.display = "block"
+                    break
+                  case "en":
+                    document.getElementById("lang_en").style.display = "block"
+                    document.getElementById("lang_jp").style.display = "none"
+                }
+                updateButton()
+              }
 
-      <p>
-        スーパーの出入り口に回収ボックスがありました。<br />
-        人がよく通るところに設置されているのは工夫されているなと感じました。
-      </p>
-      <div class="image_container">
-        <figure class="image_box" style="height: 50vw">
-          <img class="image" src="../img/activity/recycle-box/3.jpg" alt="" />
-          <div class="note"><a class="href" href=""></a></div>
-          <figcaption class="image_caption"></figcaption>
-        </figure>
-      </div>
+              function changeLang() {
+                switch (sessionStorage.getItem("lang")) {
+                  case "en":
+                    setLang("ja")
+                    break
+                  case "ja":
+                  default:
+                    setLang("en")
+                    break
+                }
+                updateButton()
+              }
 
-      <p>
-        回収ボックスの明るいグリーンが環境に配慮されているように感じました。<br />
-        私たちはメンバーの1人の家にあった古いガラケーを回収ボックスに出しました。<br />
-        よい資源になりますように。
-      </p>
-      <p>
-        使わなくなった携帯を出しただけなのになんだか良いことをしたような気分になりました。<br />
-        みなさんも近くのスーパーに買い物に行くついでに回収ボックスを利用してみてはいかがですか？
-      </p>
-      <div id="pn_bar">
-        <a href="./questionnaire.html" id="prev_link">
-          <div id="prev_text"></div>
-          <button id="prev_button">Prev</button>
-        </a>
-
-        <a href="./interview.html" id="next_link">
-          <div id="next_text"></div>
-          <button id="next_button">Next</button>
-        </a>
+              function updateButton() {
+                switch (sessionStorage.getItem("lang")) {
+                  case "ja":
+                    document
+                      .querySelectorAll("#lang_text")
+                      .forEach((el) => (el.innerHTML = "English"))
+                    break
+                  case "en":
+                    document
+                      .querySelectorAll("#lang_text")
+                      .forEach((el) => (el.innerHTML = "日本語"))
+                    break
+                }
+              }
+              window.onload = () => setLang(sessionStorage.getItem("lang"))
+            </script>
+          </button>
+        </div>
       </div>
     </main>
     <button

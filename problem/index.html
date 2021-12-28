@@ -674,6 +674,57 @@
       #prev_link {
         float: left;
       }
+      #lang_button {
+        background-color: whitesmoke;
+        border: none;
+        color: black;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        position: relative;
+        width: 100%;
+      }
+      #toc {
+        padding: 10px;
+      }
+      #toc_title {
+        width: 100%;
+        text-align: center;
+      }
+      [class^="toc_link_"] {
+        display: block;
+        text-decoration: none;
+        color: black;
+        scroll-behavior: smooth;
+      }
+      [class^="toc_link_"]:hover {
+        color: gray;
+      }
+      .toc_link_h1 {
+        margin-left: 0;
+      }
+      .toc_link_h2 {
+        margin-left: 10px;
+      }
+      .toc_link_h3 {
+        margin-left: 20px;
+      }
+      .toc_link_h4 {
+        margin-left: 30px;
+      }
+      #floating_menu {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        z-index: 100;
+        width: 200px;
+        display: block;
+        background-color: #0004;
+      }
       .no_indent {
         text-indent: 0;
       }
@@ -941,490 +992,632 @@
     </script>
 
     <main>
-      <h1 id="課題">課題</h1>
-      <p>
-        都市鉱山にはメリットがたくさんある一方で、多くの課題を抱えています。
-      </p>
-      <h2 id="回収率の低さ">回収率の低さ</h2>
-      <a href="../present-situation/">「資源の現状」</a
-      ><a href="../urban-mining/">「都市鉱山の意義」</a
-      >を読まれた方は都市鉱山の重要性がお分かりになったかと思います。
-      <span class="summary_link" id="s_0"></span>しかし日本では<span
-        class="force_text"
-        >都市鉱山の考え方に基づく小型家電の回収はなかなか進んでいません。</span
-      >
-      実際日本は「2018年までに小型家電回収量を14万トンにする」という目標を掲げましたが、達成できませんでした。
-      <div class="image_container">
-        <figure class="image_box" style="height: 40vw">
-          <img class="image" src="../assets/meti/20200807_01.png" alt="" />
-          <div class="note">
-            <a
-              class="href"
-              href="https://www.meti.go.jp/shingikai/sankoshin/sangyo_gijutsu/haikibutsu_recycle/kogata_wg/pdf/20200807_01.pdf"
-            ></a>
-          </div>
-          <figcaption class="image_caption"></figcaption>
-        </figure>
-      </div>
-
-      <p>
-        その理由の一つに<span class="force_text">知名度の低さ</span
-        >が挙げられます。 私たちが実施した<a href="../problem/index.html"
-          >校内アンケート</a
-        >では、都市鉱山について「詳しく知っている」または「少し知っている」と回答した人は35.2%でした。
-        都市鉱山がまだまだ広まっていないことを実感しました。
-        これは政府や自治体の宣伝不足にあるということは否めません。
-        さまざまな媒体やイベントを通して都市鉱山を広める必要があります。
-        中には<span class="force_text">個人情報が漏れる</span
-        >ことを気にしたり、<span class="force_text"
-          >写真を思い出として保存しておきたい</span
-        >と思ったりして古い携帯をリサイクルに出さないという人もいます。
-        しかし個人情報漏洩については回収において厳重な対策がなされており、心配する必要はありません。
-        また、今使っているパソコンなどにデータを移したり、クラウドに保存したりすることで、思い出を残しておくことができます。
-        これらのことから、家に残っている廃電子機器は積極的にリサイクルに出すべきなのです。
-      </p>
-      <!--suppress ALL -->
-      <div class="atom_chara" style="width: 100%; margin: 50px 0">
-        <div class="atom_chara_icon">
-          <img
-            class="atom_chara_img"
-            src="../img/atom_chara/Pt.png"
-            alt="プラチナルシストのアイコン"
-          />
-          <div class="atom_chara_name">プラチナルシスト</div>
-        </div>
-        <div class="atom_chara_content">
-          <span>思い出は心に残っていれば決して消えることはないのさ。</span>
-        </div>
-      </div>
-
-      <!--suppress HtmlUnknownAttribute -->
-
-      <p>
-        多くの金属を海外から輸入してきた日本には、現在豊富な<span class="word"
-          ><span class="word_text">金属資源</span>
-          <span class="word_description_container">
-            <span class="word_description">
-              <span class="word_description_title">金属資源</span>
-              <span class="word_description_text" style="line-height: 1.5rem"
-                >鉱物資源の一種。さらにレアメタル、マイナーメタルに分けられる。</span
-              >
-            </span>
-          </span>
-        </span>
-
-        <!--suppress HtmlUnknownAttribute -->
-        が残っています。
-        特にアンチモンは世界埋蔵量の約二割、金も一割以上と資源の可能性として無視できないほどの量になっています。
-        しかし、<span class="force_text"
-          >これらの資源の全てがリサイクルできるわけではありません。</span
-        >
-        これらの資源のうち管理者がいてきちんと保管されているものはリサイクルできますが、そうでないもの、例えば埋め立て地に埋められてしまったものなどはリサイクルすることが困難で、なかなかリサイクルされることがありません。
-        そしてこのリサイクルが困難な資源が国内の資源の多くを占めているのです。
-        つまり今の状態では日本はどれだけ頑張っても<span class="force_text"
-          >国内の資源の一部しか回収できない</span
-        >のです。
-        管理者のいない、リサイクルが困難な資源をいかに減らせるかということが今後の課題になっていきそうです。
-      </p>
-      <!-- (原田幸明Q&A p.5,24より) -->
-
-      <h2 id="コスト問題">コスト問題</h2>
-      <p>
-        「回収率の低さ」問題を無事にクリアして、たくさんの使用済み家電が手に入ったとしましょう。
-        さあ早速リサイクルだ！と言いたいところなのですが、実はそのリサイクル自体にも課題があるのです。
-        <span class="summary_link" id="s_?"></span
-        >使用済み家電をリサイクルして資源にするのに<span class="force_text"
-          >手解体や粉砕、選別などさまざまな工程を踏まなければなりません。</span
-        >
-        特に手解体には基盤を取り出す作業があり、また、リサイクルに運ばれてくる携帯電話の種類はバラバラなので<span
+      <div id="lang_jp">
+        <h1 id="課題">課題</h1>
+        <p>
+          都市鉱山にはメリットがたくさんある一方で、多くの課題を抱えています。
+        </p>
+        <h2 id="回収率の低さ">回収率の低さ</h2>
+        <a href="../present-situation/">「資源の現状」</a
+        ><a href="../urban-mining/">「都市鉱山の意義」</a
+        >を読まれた方は都市鉱山の重要性がお分かりになったかと思います。
+        <span class="summary_link" id="s_0"></span>しかし日本では<span
           class="force_text"
-          >多くの人手を要します。</span
+          >都市鉱山の考え方に基づく小型家電の回収はなかなか進んでいません。</span
         >
-        手解体の工程に機械を導入するという話もありますが、携帯電話はいろいろな種類がある上、情報保護のため分解しづらく設計されていることが多いのでどうしても人の手が必要なのです。
-        また、手解体をせずにそのまま精錬工場に送られる場合もありますが、それだと処理にかかる費用が増えてしまいます。
-        さらに粉砕や選別にも多くのエネルギーが消費されるので、リサイクルには莫大な費用がかかることになります。
-        一方で、使用済み家電には多くの種類の金属が含まれていますが、<span
-          class="force_text"
-          >そのひとつひとつは極少量です。</span
-        >
-        そのため、使用済み家電から採れる金属の価格とリサイクルにかかるコストを考えるとリサイクルで利益を上げることは難しく、都市鉱山に関わる企業がなかなか増えないという事態になっています。<!-- （イラスト） -->
-        都市鉱山を広めるためには、この「コスト問題」を解決しなければならないのです。
-      </p>
-      <h2 id="リサイクルのリスク">リサイクルのリスク</h2>
-      <p>
-        都市鉱山は廃電子機器に含まれる<span class="word"
-          ><span class="word_text">レアメタル</span>
-          <span class="word_description_container">
-            <span class="word_description">
-              <span class="word_description_title">レアメタル</span>
-              <span class="word_description_text" style="line-height: 1.5rem"
-                >1.地殻中の存在量が比較的少ない元素　<br />
-                2.単体として取り出すことが技術的に困難な元素<br />3.資源の産出国が偏在している<br />を満たす元素のことを言い、現代の産業に欠かせない”産業のビタミン”と呼ばれる。別名マイナーメタル。</span
-              >
-            </span>
-          </span>
-        </span>
+        実際日本は「2018年までに小型家電回収量を14万トンにする」という目標を掲げましたが、達成できませんでした。
+        <div class="image_container">
+          <figure class="image_box" style="height: 40vw">
+            <img class="image" src="../assets/meti/20200807_01.png" alt="" />
+            <div class="note">
+              <a
+                class="href"
+                href="https://www.meti.go.jp/shingikai/sankoshin/sangyo_gijutsu/haikibutsu_recycle/kogata_wg/pdf/20200807_01.pdf"
+              ></a>
+            </div>
+            <figcaption class="image_caption"></figcaption>
+          </figure>
+        </div>
 
-        <!--suppress HtmlUnknownAttribute -->
-        や<span class="word"
-          ><span class="word_text">ベースメタル</span>
-          <span class="word_description_container">
-            <span class="word_description">
-              <span class="word_description_title">ベースメタル</span>
-              <span class="word_description_text" style="line-height: 1.5rem"
-                >鉄、銅、亜鉛、アルミニウムなどの精錬が容易で大量に存在する金属のこと。別名メジャーメタル</span
-              >
-            </span>
-          </span>
-        </span>
-
-        <!--suppress HtmlUnknownAttribute -->
-        を資源として捉えるものです。
-        しかし、廃電子機器はレアメタルやベースメタルだけで出来ているわけではありません。
-        <span class="summary_link" id="s_3"></span>実は<span class="force_text"
-          >廃電子機器の構成成分の大部分がプラスチックで占められているのです。</span
-        >
-      </p>
-      <div class="image_container">
-        <figure class="image_box" style="height: 40vw">
-          <img
-            class="image"
-            src="../assets/susdi/40dcbe9d88c96297b642179a653642d8.jpg"
-            alt="携帯の成分構成"
-          />
-          <div class="note">
+        <p>
+          その理由の一つに<span class="force_text">知名度の低さ</span
+          >が挙げられます。 私たちが実施した<a href="../problem/index.html"
+            >校内アンケート</a
+          >では、都市鉱山について「詳しく知っている」または「少し知っている」と回答した人は35.2%でした。
+          都市鉱山がまだまだ広まっていないことを実感しました。
+          これは政府や自治体の宣伝不足にあるということは否めません。
+          さまざまな媒体やイベントを通して都市鉱山を広める必要があります。
+          中には<span class="force_text">個人情報が漏れる</span
+          >ことを気にしたり、<span class="force_text"
+            >写真を思い出として保存しておきたい</span
+          >と思ったりして古い携帯をリサイクルに出さないという人もいます。
+          しかし個人情報漏洩については回収において厳重な対策がなされており、心配する必要はありません。
+          また、今使っているパソコンなどにデータを移したり、クラウドに保存したりすることで、思い出を残しておくことができます。
+          これらのことから、家に残っている廃電子機器は積極的にリサイクルに出すべきなのです。
+        </p>
+        <!--suppress ALL -->
+        <div class="atom_chara" style="width: 100%; margin: 50px 0">
+          <div class="atom_chara_icon">
             <img
-              class="inline_image"
-              src="../assets/susdi/46e68cc8af75454ff9cc3fd767a83b0e-300x109.png"
-            />より引用<a
-              class="href"
-              href="http://susdi.org/wp/data/post-38/"
-            ></a>
+              class="atom_chara_img"
+              src="../img/atom_chara/Pt.png"
+              alt="プラチナルシストのアイコン"
+            />
+            <div class="atom_chara_name">プラチナルシスト</div>
           </div>
-          <figcaption class="image_caption"></figcaption>
-        </figure>
-      </div>
-
-      <p>
-        このプラスチックがリサイクルにおける大きな問題となっています。
-        プラスチックのリサイクル率は世界平均で9%と低く、ほとんどが廃棄物として処理されるか、または<span
-          class="word"
-          ><span class="word_text">サーマルリサイクル</span>
-          <span class="word_description_container">
-            <span class="word_description">
-              <span class="word_description_title">サーマルリサイクル</span>
-              <span class="word_description_text" style="line-height: 1.5rem"
-                >廃プラスチックを燃焼させることで発生した燃料をエネルギーとして回収する方法。ただしマテリアルリサイクルには含まれない。</span
-              >
-            </span>
-          </span>
-        </span>
-
-        <!--suppress HtmlUnknownAttribute -->
-        に回されています。
-        廃棄物として処理するにはそれなりのコストがかかる上、サーマルリサイクルに関しても排ガスや発がん性物質などの発生への懸念からあまり推奨されていません。
-        つまり、<span class="force_text"
-          >リサイクルは有用な金属よりもはるかに多くの廃棄物を排出し、さらにそれを適切に活用できていない</span
-        >のです。
-        <span class="summary_link" id="s_5"></span>また、リサイクルによって<span
-          class="force_text"
-          >有害物質が出る</span
-        >ことがあります。
-        これは廃電子機器の中に有害物質が含まれているものがあることから起こります（例えば初期のパソコンのＣＰＵの冷却板接合には人体に有害な水銀ペーストが使われています）。
-        この有害物質が途上国の処分場と同じように環境を汚染しているのです。
-        私たちは有害物質を安定化させる処理技術を開発しなければなりません。
-      </p>
-      <aside class="column">
-        <div class="column_title">有害物質の恐ろしさ</div>
-        <div class="column_content">
-          <h1>海外編</h1>
-          有害物質が国境を越えて移動すると話は国際問題にまで発展します。
-          ここでは、その国際問題の中でも有名な「<span class="word"
-            ><span class="word_text">セベソ事件</span>
-            <span class="word_description_container">
-              <span class="word_description">
-                <span class="word_description_title">セベソ事件</span>
-                <span class="word_description_text" style="line-height: 1.5rem"
-                  >イタリア・セベソで起こったで起こった農薬工場の爆発事故。これにより多くの有害物質が放出されその後その一部が北フランスに運ばれていたことが問題になった。</span
-                >
-              </span>
-            </span>
-          </span>
-
-          <!--suppress HtmlUnknownAttribute -->
-          」と「<span class="word"
-            ><span class="word_text">ココ事件</span>
-            <span class="word_description_container">
-              <span class="word_description">
-                <span class="word_description_title">ココ事件</span>
-                <span class="word_description_text" style="line-height: 1.5rem"
-                  >イタリアの有害物質がナイジェリアのココ港に不法投棄されていた事件。イタリアは自主回収したがその船を受け入れてくれる港が見つからず、1ヶ月以上の間海を彷徨い続けた。別名カリンB号事件。</span
-                >
-              </span>
-            </span>
-          </span>
-
-          <!--suppress HtmlUnknownAttribute -->
-          」を取り上げたいと思います。
-          この2つの事件は金属リサイクルと直接関係があるわけではありませんが、金属リサイクルにおいても同じようなことが起きないとは言い切れません。
-          実は「都市鉱山の意義」で紹介した<span class="word"
-            ><span class="word_text">バーゼル条約</span>
-            <span class="word_description_container">
-              <span class="word_description">
-                <span class="word_description_title">バーゼル条約</span>
-                <span class="word_description_text" style="line-height: 1.5rem"
-                  >正式名称は、「有害廃棄物の国境を越える移動及びその処分の規制に関するバーゼル条約」。その名の通り国境を越える有害廃棄物の移動を規制する条約。セベソ事件やココ事件などの事件を受けて締結された。</span
-                >
-              </span>
-            </span>
-          </span>
-
-          <!--suppress HtmlUnknownAttribute -->
-          は主にこの2つの事件がきっかけで適用されました。
-          <h2><span class="summary_link" id="s_6"></span>～セベソ事件～</h2>
-          セベソ事件は、名前の通りイタリアのセベソという場所で起きた、農薬工場での事故が原因でした。
-          この事件では、有害物質の1つであるテトラクロロジベンゾパラダイオキシン(TCDD)が広大な範囲に降り注ぎ地上に落下したまま放置されました。
-          その結果、1800ヘクタールの土地が汚染され、癌、慢性皮膚炎、神経障害、奇形児発生などの被害者は22万人、殺処分された家畜の数は8万頭にも上りました。
-          このような甚大な被害が出ただけで、セベソ事件は終わりません。
-          その後、とあるスイスのテレビ番組により、ドラム缶に封入・保管されているはずの汚染土壌の一部が行方不明になっていることが明かされたのです。
-          そしてその翌年5月<span class="force_text"
-            >この汚染土壌が発見された場所は、なんとフランス北部に位置するAnguilcourt-le-Sartという小さな村でした。</span
-          >
-          この事件によって国境を越えた有害物質の移動が問題として話題に上がるようになり、EC（EUの前身）によって有害物質の汚染を抑え、人々の安全を守るための規制を求めるセベソ指令が発行されました。
-          <h2><span class="summary_link" id="s_7"></span>～ココ事件～</h2>
-          このセベソ事件の12年後に起こったのがココ事件です。
-          これは、イタリアの企業2社がナイジェリアにあるココ港にポリ塩化ビフェニール(PCB)を含む有害廃棄物を搬入し<span
-            class="word"
-            ><span class="word_text">不法投棄</span>
-            <span class="word_description_container">
-              <span class="word_description">
-                <span class="word_description_title">不法投棄</span>
-                <span
-                  class="word_description_text"
-                  style="line-height: 1.5rem"
-                ></span>
-              </span>
-            </span>
-          </span>
-
-          <!--suppress HtmlUnknownAttribute -->
-          を行っていたことが判明し、これが外交問題にまで発展したものです。
-          この問題はたちまち環境保護団体の抗議の的となり、搬入者数十人が逮捕され、1988年7月30日イタリアは自らこの廃棄物を回収し船に積みヨーロッパに向けて運ぼうとしました。
-          しかし、住民の反対が強くイタリアで受け入れてもらえず、ほかの欧米諸国（フランス、イギリス、スペイン、西ドイツ、オランダなど）にも、次々に入国拒否され、33日間、公海をさまよい続けることになりました。
-          この船のうちの1つがカリンB号という名前だったことからココ事件はカリンB号事件とも呼ばれます。
-          これに対してアフリカ統一機構（OAU）は、「1988年5月、アフリカにおいて核及び産業廃棄物を処分することがアフリカ人に対する犯罪である」とし、アフリカ大陸での有害物質投棄を全面的に禁止しました。
-          <!-- (セベソとかココ、フランスの小さな村の場所を示す地図が欲しいかもby平川) -->
-          <iframe
-            class="Gmap"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8186223.336336996!2d1.2456114507078508!3d47.556733334363244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478696283ee17e55%3A0xc4b4a85a4124c95c!2z44Kk44K_44Oq44KiIOOAkjIwODIyIOODouODs-ODhOOCoeODu-OCqOODu-ODluODquOCouODs-ODhOOCoeecjCDjgrvjg7zjg7Tjgqfjgr4!5e0!3m2!1sja!2sjp!4v1636443227892!5m2!1sja!2sjp"
-            allowfullscreen
-            loading="lazy"
-          ></iframe>
-
-          <iframe
-            class="Gmap"
-            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6856498.339931489!2d7.280335446482338!3d7.426473210716168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sja!2sjp!4v1637262793815!5m2!1sja!2sjp"
-            allowfullscreen
-            loading="lazy"
-          ></iframe>
-
-          <h1>日本編</h1>
-          <h2><span class="summary_link" id="s_8"></span>～豊島事件～</h2>
-          不法投棄が原因の有害物質が問題になった場所は日本にも存在します。
-          その一つが香川県の豊島（てしま）です。 豊島で起こった事件「<span
-            class="word"
-            ><span class="word_text">豊島事件</span>
-            <span class="word_description_container">
-              <span class="word_description">
-                <span class="word_description_title">豊島事件</span>
-                <span class="word_description_text" style="line-height: 1.5rem"
-                  >香川県の豊島で起きた産業廃棄物不法投棄事件。1978年から事件は始まり、完全に撤去が完了したのは2019年。</span
-                >
-              </span>
-            </span>
-          </span>
-
-          <!--suppress HtmlUnknownAttribute -->
-          」は日本最大級の廃棄物不法投棄問題として有名で、<span class="word"
-            ><span class="word_text">自動車リサイクル法</span>
-            <span class="word_description_container">
-              <span class="word_description">
-                <span class="word_description_title">自動車リサイクル法</span>
-                <span class="word_description_text" style="line-height: 1.5rem"
-                  >車を対象とした法律。購入時にリサイクル代金を支払いリサイクル券を発行する前払い制度が取られている。2002年7月12日に公布され、2005年1月1日から施工されている。</span
-                >
-              </span>
-            </span>
-          </span>
-
-          <!--suppress HtmlUnknownAttribute -->
-          が成立された1つの大きな要因でもあります。
-          <!-- （豊島の場所を示す地図） -->
-          不法投棄物が運ばれてきた場所は豊島の「水ヶ浦」というところです。
-          この水ヶ浦には廃油、汚泥、<span class="word"
-            ><span class="word_text">シュレッダーダスト</span>
-            <span class="word_description_container">
-              <span class="word_description">
-                <span class="word_description_title">シュレッダーダスト</span>
-                <span class="word_description_text" style="line-height: 1.5rem"
-                  >工業用シュレッダーで廃家電や廃自動車を破砕し、金属などを回収した後に、産廃として捨てられるプラスチック・ガラス・ゴムなど破片の混合物。</span
-                >
-              </span>
-            </span>
-          </span>
-
-          <!--suppress HtmlUnknownAttribute -->
-          などの産業廃棄物を含むさまざまなものが違法に運ばれ、処理されていました。
-          これによって廃棄物を焼く際に生じる黒煙が毎日のように立ち上り、土地は汚染され、住民の健康被害も出てくるようになりました。
-          具体的には、子供の喘息の発生率が全国平均の約10倍にもなりました。
-          1978年から始まったこの不法投棄は、兵庫県姫路海上保安署によって豊島観光の経営者らが1991年に逮捕、起訴されたことで収まりました。
-          <br />
-          実はこの豊島事件が発覚する前から、香川県は処理業者に対して100回以上立ち回り調査を行っていました。
-          つまり行政は事件を認識していたにもかかわらず、止められなかったわけです。
-          どうして行政は10年以上も違法業者による不法投棄を止められなかったのでしょうか？
-          その理由は<span class="force_text">産業廃棄物に対する認識の差</span
-          >というところにあります。
-          住民は産業廃棄物を廃棄物だとみなした一方で、処理業者は有用な金属が含まれる有価物だと主張しました。
-          そして当時適用されていた<span class="word"
-            ><span class="word_text">廃棄物処理法</span>
-            <span class="word_description_container">
-              <span class="word_description">
-                <span class="word_description_title">廃棄物処理法</span>
-                <span class="word_description_text" style="line-height: 1.5rem"
-                  >正式名称は「廃棄物の処理及び清掃に関する法律」。廃棄物の排出の抑制、廃棄物の適正処理により生活環境の保全・公衆衛生の向上を目的としている。1970年12月25日に公布され、1971年9月24日に施行された。</span
-                >
-              </span>
-            </span>
-          </span>
-
-          <!--suppress HtmlUnknownAttribute -->
-          では、廃棄物と有価物の境目の定義が曖昧であったために、処理業者の言う有価物を廃棄物と決めるのはかなり困難だったのです。
-          <br />
-          豊島に不法に運ばれてきた廃棄物が完全に撤去されたのは2019年。
-          なんと<span class="force_text">40年以上</span
-          >もこの事件による影響は続きました。
-          住民が多大な犠牲を払わされてようやくこの事件は終結したのです。
-          <iframe
-            class="Gmap"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d230387.94422895205!2d133.9926142404176!3d34.40397150235785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3553f365af080a75%3A0x8bf88590a33161b1!2z6LGK5bO2!5e0!3m2!1sja!2sjp!4v1637262967813!5m2!1sja!2sjp"
-            allowfullscreen
-            loading="lazy"
-          ></iframe>
+          <div class="atom_chara_content">
+            <span>思い出は心に残っていれば決して消えることはないのさ。</span>
+          </div>
         </div>
-      </aside>
-
-      <p>
-        有害物質の恐ろしさがわかって頂けたでしょうか？
-        <span class="force_text"
-          >このような有害物質は金属リサイクルでも発生します。</span
-        >
-        そのため、リサイクルで生じる有害物質の適正処理は非常に重要な問題です。
-      </p>
-      <h2 id="品位の低さ">品位の低さ</h2>
-      <p>
-        「そもそも<span class="word"
-          ><span class="word_text">品位</span>
-          <span class="word_description_container">
-            <span class="word_description">
-              <span class="word_description_title">品位</span>
-              <span class="word_description_text" style="line-height: 1.5rem"
-                >鉱石中に含まれる目的の鉱物・金属の含有率を示す値。</span
-              >
-            </span>
-          </span>
-        </span>
 
         <!--suppress HtmlUnknownAttribute -->
-        って何？」と思った人もいるかもしれません。
-        品位とは鉱石の中に含まれている有用な元素の量を指します。
-        「濃度」という言葉と同じ意味だと考えてもいいでしょう。
-        品位が高いほど、同じ量の鉱石からより多くの有用な金属が取り出せるということです。
-        そして、この品位こそが都市鉱山がリサイクルするときに直面する大きな問題なのです。
-        <span class="summary_link" id="s_2"></span>それは<span
-          class="force_text"
-          >天然鉱山と比べて品位が低いので天然鉱山との競争で負けてしまう</span
-        >ためです。
-        「スマホとかパソコンの中にはいろんな金属がぎゅうぎゅう詰めになっていてむしろ品位が高いのでは？」と思う人もいるかも知れません。
-        その考えは正しいです。 たしかに<span class="force_text"
-          >1つ1つの製品を見れば品位は天然鉱山よりも高い</span
-        >です。
-        しかし、都市鉱山の天然鉱山との大きな違いとして天然鉱山は一つの場所に集まっているのに対して都市鉱山は各家庭に製品が分散してしまっているという点が挙げられます。
-        したがって都市鉱山をリサイクルする際にはまず<span class="force_text"
-          >散らばってしまっている製品を集めないといけません。</span
-        >
-        このために、1つ1つの製品で言えば品位は高いが、<span class="force_text"
-          >全体としてみると品位は低い</span
-        >ということが起こるのです。
-        ただリサイクルに扱う量を増やすためというだけでなく、天然鉱山と市場で競争できるようにするためにも、回収率を上げることは解決しなければならない問題です。
-        この品位の低さの解決にはいかに分散を緩和するかが鍵になります。
-      </p>
-      <h2 id="まとめ図解">まとめ図解</h2>
-      <div class="image_container">
-        <svg
-          viewBox="0, 0, 1200, 700"
-          style="width: 80vw; height: 40vw; margin: 5vh 0 5vh"
-        >
-          <use xlink:href="../svg/summary_illust/C.svg#main"></use>
-        </svg>
+
+        <p>
+          多くの金属を海外から輸入してきた日本には、現在豊富な<span class="word"
+            ><span class="word_text">金属資源</span>
+            <span class="word_description_container">
+              <span class="word_description">
+                <span class="word_description_title">金属資源</span>
+                <span class="word_description_text" style="line-height: 1.5rem"
+                  >鉱物資源の一種。さらにレアメタル、マイナーメタルに分けられる。</span
+                >
+              </span>
+            </span>
+          </span>
+
+          <!--suppress HtmlUnknownAttribute -->
+          が残っています。
+          特にアンチモンは世界埋蔵量の約二割、金も一割以上と資源の可能性として無視できないほどの量になっています。
+          しかし、<span class="force_text"
+            >これらの資源の全てがリサイクルできるわけではありません。</span
+          >
+          これらの資源のうち管理者がいてきちんと保管されているものはリサイクルできますが、そうでないもの、例えば埋め立て地に埋められてしまったものなどはリサイクルすることが困難で、なかなかリサイクルされることがありません。
+          そしてこのリサイクルが困難な資源が国内の資源の多くを占めているのです。
+          つまり今の状態では日本はどれだけ頑張っても<span class="force_text"
+            >国内の資源の一部しか回収できない</span
+          >のです。
+          管理者のいない、リサイクルが困難な資源をいかに減らせるかということが今後の課題になっていきそうです。
+        </p>
+        <!-- (原田幸明Q&A p.5,24より) -->
+
+        <h2 id="コスト問題">コスト問題</h2>
+        <p>
+          「回収率の低さ」問題を無事にクリアして、たくさんの使用済み家電が手に入ったとしましょう。
+          さあ早速リサイクルだ！と言いたいところなのですが、実はそのリサイクル自体にも課題があるのです。
+          <span class="summary_link" id="s_?"></span
+          >使用済み家電をリサイクルして資源にするのに<span class="force_text"
+            >手解体や粉砕、選別などさまざまな工程を踏まなければなりません。</span
+          >
+          特に手解体には基盤を取り出す作業があり、また、リサイクルに運ばれてくる携帯電話の種類はバラバラなので<span
+            class="force_text"
+            >多くの人手を要します。</span
+          >
+          手解体の工程に機械を導入するという話もありますが、携帯電話はいろいろな種類がある上、情報保護のため分解しづらく設計されていることが多いのでどうしても人の手が必要なのです。
+          また、手解体をせずにそのまま精錬工場に送られる場合もありますが、それだと処理にかかる費用が増えてしまいます。
+          さらに粉砕や選別にも多くのエネルギーが消費されるので、リサイクルには莫大な費用がかかることになります。
+          一方で、使用済み家電には多くの種類の金属が含まれていますが、<span
+            class="force_text"
+            >そのひとつひとつは極少量です。</span
+          >
+          そのため、使用済み家電から採れる金属の価格とリサイクルにかかるコストを考えるとリサイクルで利益を上げることは難しく、都市鉱山に関わる企業がなかなか増えないという事態になっています。<!-- （イラスト） -->
+          都市鉱山を広めるためには、この「コスト問題」を解決しなければならないのです。
+        </p>
+        <h2 id="リサイクルのリスク">リサイクルのリスク</h2>
+        <p>
+          都市鉱山は廃電子機器に含まれる<span class="word"
+            ><span class="word_text">レアメタル</span>
+            <span class="word_description_container">
+              <span class="word_description">
+                <span class="word_description_title">レアメタル</span>
+                <span class="word_description_text" style="line-height: 1.5rem"
+                  >1.地殻中の存在量が比較的少ない元素　<br />
+                  2.単体として取り出すことが技術的に困難な元素<br />3.資源の産出国が偏在している<br />を満たす元素のことを言い、現代の産業に欠かせない”産業のビタミン”と呼ばれる。別名マイナーメタル。</span
+                >
+              </span>
+            </span>
+          </span>
+
+          <!--suppress HtmlUnknownAttribute -->
+          や<span class="word"
+            ><span class="word_text">ベースメタル</span>
+            <span class="word_description_container">
+              <span class="word_description">
+                <span class="word_description_title">ベースメタル</span>
+                <span class="word_description_text" style="line-height: 1.5rem"
+                  >鉄、銅、亜鉛、アルミニウムなどの精錬が容易で大量に存在する金属のこと。別名メジャーメタル</span
+                >
+              </span>
+            </span>
+          </span>
+
+          <!--suppress HtmlUnknownAttribute -->
+          を資源として捉えるものです。
+          しかし、廃電子機器はレアメタルやベースメタルだけで出来ているわけではありません。
+          <span class="summary_link" id="s_3"></span>実は<span
+            class="force_text"
+            >廃電子機器の構成成分の大部分がプラスチックで占められているのです。</span
+          >
+        </p>
+        <div class="image_container">
+          <figure class="image_box" style="height: 40vw">
+            <img
+              class="image"
+              src="../assets/susdi/40dcbe9d88c96297b642179a653642d8.jpg"
+              alt="携帯の成分構成"
+            />
+            <div class="note">
+              <img
+                class="inline_image"
+                src="../assets/susdi/46e68cc8af75454ff9cc3fd767a83b0e-300x109.png"
+              />より引用<a
+                class="href"
+                href="http://susdi.org/wp/data/post-38/"
+              ></a>
+            </div>
+            <figcaption class="image_caption"></figcaption>
+          </figure>
+        </div>
+
+        <p>
+          このプラスチックがリサイクルにおける大きな問題となっています。
+          プラスチックのリサイクル率は世界平均で9%と低く、ほとんどが廃棄物として処理されるか、または<span
+            class="word"
+            ><span class="word_text">サーマルリサイクル</span>
+            <span class="word_description_container">
+              <span class="word_description">
+                <span class="word_description_title">サーマルリサイクル</span>
+                <span class="word_description_text" style="line-height: 1.5rem"
+                  >廃プラスチックを燃焼させることで発生した燃料をエネルギーとして回収する方法。ただしマテリアルリサイクルには含まれない。</span
+                >
+              </span>
+            </span>
+          </span>
+
+          <!--suppress HtmlUnknownAttribute -->
+          に回されています。
+          廃棄物として処理するにはそれなりのコストがかかる上、サーマルリサイクルに関しても排ガスや発がん性物質などの発生への懸念からあまり推奨されていません。
+          つまり、<span class="force_text"
+            >リサイクルは有用な金属よりもはるかに多くの廃棄物を排出し、さらにそれを適切に活用できていない</span
+          >のです。
+          <span class="summary_link" id="s_5"></span
+          >また、リサイクルによって<span class="force_text">有害物質が出る</span
+          >ことがあります。
+          これは廃電子機器の中に有害物質が含まれているものがあることから起こります（例えば初期のパソコンのＣＰＵの冷却板接合には人体に有害な水銀ペーストが使われています）。
+          この有害物質が途上国の処分場と同じように環境を汚染しているのです。
+          私たちは有害物質を安定化させる処理技術を開発しなければなりません。
+        </p>
+        <aside class="column">
+          <div class="column_title">有害物質の恐ろしさ</div>
+          <div class="column_content">
+            <h1>海外編</h1>
+            有害物質が国境を越えて移動すると話は国際問題にまで発展します。
+            ここでは、その国際問題の中でも有名な「<span class="word"
+              ><span class="word_text">セベソ事件</span>
+              <span class="word_description_container">
+                <span class="word_description">
+                  <span class="word_description_title">セベソ事件</span>
+                  <span
+                    class="word_description_text"
+                    style="line-height: 1.5rem"
+                    >イタリア・セベソで起こったで起こった農薬工場の爆発事故。これにより多くの有害物質が放出されその後その一部が北フランスに運ばれていたことが問題になった。</span
+                  >
+                </span>
+              </span>
+            </span>
+
+            <!--suppress HtmlUnknownAttribute -->
+            」と「<span class="word"
+              ><span class="word_text">ココ事件</span>
+              <span class="word_description_container">
+                <span class="word_description">
+                  <span class="word_description_title">ココ事件</span>
+                  <span
+                    class="word_description_text"
+                    style="line-height: 1.5rem"
+                    >イタリアの有害物質がナイジェリアのココ港に不法投棄されていた事件。イタリアは自主回収したがその船を受け入れてくれる港が見つからず、1ヶ月以上の間海を彷徨い続けた。別名カリンB号事件。</span
+                  >
+                </span>
+              </span>
+            </span>
+
+            <!--suppress HtmlUnknownAttribute -->
+            」を取り上げたいと思います。
+            この2つの事件は金属リサイクルと直接関係があるわけではありませんが、金属リサイクルにおいても同じようなことが起きないとは言い切れません。
+            実は「都市鉱山の意義」で紹介した<span class="word"
+              ><span class="word_text">バーゼル条約</span>
+              <span class="word_description_container">
+                <span class="word_description">
+                  <span class="word_description_title">バーゼル条約</span>
+                  <span
+                    class="word_description_text"
+                    style="line-height: 1.5rem"
+                    >正式名称は、「有害廃棄物の国境を越える移動及びその処分の規制に関するバーゼル条約」。その名の通り国境を越える有害廃棄物の移動を規制する条約。セベソ事件やココ事件などの事件を受けて締結された。</span
+                  >
+                </span>
+              </span>
+            </span>
+
+            <!--suppress HtmlUnknownAttribute -->
+            は主にこの2つの事件がきっかけで適用されました。
+            <h2><span class="summary_link" id="s_6"></span>～セベソ事件～</h2>
+            セベソ事件は、名前の通りイタリアのセベソという場所で起きた、農薬工場での事故が原因でした。
+            この事件では、有害物質の1つであるテトラクロロジベンゾパラダイオキシン(TCDD)が広大な範囲に降り注ぎ地上に落下したまま放置されました。
+            その結果、1800ヘクタールの土地が汚染され、癌、慢性皮膚炎、神経障害、奇形児発生などの被害者は22万人、殺処分された家畜の数は8万頭にも上りました。
+            このような甚大な被害が出ただけで、セベソ事件は終わりません。
+            その後、とあるスイスのテレビ番組により、ドラム缶に封入・保管されているはずの汚染土壌の一部が行方不明になっていることが明かされたのです。
+            そしてその翌年5月<span class="force_text"
+              >この汚染土壌が発見された場所は、なんとフランス北部に位置するAnguilcourt-le-Sartという小さな村でした。</span
+            >
+            この事件によって国境を越えた有害物質の移動が問題として話題に上がるようになり、EC（EUの前身）によって有害物質の汚染を抑え、人々の安全を守るための規制を求めるセベソ指令が発行されました。
+            <h2><span class="summary_link" id="s_7"></span>～ココ事件～</h2>
+            このセベソ事件の12年後に起こったのがココ事件です。
+            これは、イタリアの企業2社がナイジェリアにあるココ港にポリ塩化ビフェニール(PCB)を含む有害廃棄物を搬入し<span
+              class="word"
+              ><span class="word_text">不法投棄</span>
+              <span class="word_description_container">
+                <span class="word_description">
+                  <span class="word_description_title">不法投棄</span>
+                  <span
+                    class="word_description_text"
+                    style="line-height: 1.5rem"
+                  ></span>
+                </span>
+              </span>
+            </span>
+
+            <!--suppress HtmlUnknownAttribute -->
+            を行っていたことが判明し、これが外交問題にまで発展したものです。
+            この問題はたちまち環境保護団体の抗議の的となり、搬入者数十人が逮捕され、1988年7月30日イタリアは自らこの廃棄物を回収し船に積みヨーロッパに向けて運ぼうとしました。
+            しかし、住民の反対が強くイタリアで受け入れてもらえず、ほかの欧米諸国（フランス、イギリス、スペイン、西ドイツ、オランダなど）にも、次々に入国拒否され、33日間、公海をさまよい続けることになりました。
+            この船のうちの1つがカリンB号という名前だったことからココ事件はカリンB号事件とも呼ばれます。
+            これに対してアフリカ統一機構（OAU）は、「1988年5月、アフリカにおいて核及び産業廃棄物を処分することがアフリカ人に対する犯罪である」とし、アフリカ大陸での有害物質投棄を全面的に禁止しました。
+            <!-- (セベソとかココ、フランスの小さな村の場所を示す地図が欲しいかもby平川) -->
+            <iframe
+              class="Gmap"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8186223.336336996!2d1.2456114507078508!3d47.556733334363244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478696283ee17e55%3A0xc4b4a85a4124c95c!2z44Kk44K_44Oq44KiIOOAkjIwODIyIOODouODs-ODhOOCoeODu-OCqOODu-ODluODquOCouODs-ODhOOCoeecjCDjgrvjg7zjg7Tjgqfjgr4!5e0!3m2!1sja!2sjp!4v1636443227892!5m2!1sja!2sjp"
+              allowfullscreen
+              loading="lazy"
+            ></iframe>
+
+            <iframe
+              class="Gmap"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6856498.339931489!2d7.280335446482338!3d7.426473210716168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sja!2sjp!4v1637262793815!5m2!1sja!2sjp"
+              allowfullscreen
+              loading="lazy"
+            ></iframe>
+
+            <h1>日本編</h1>
+            <h2><span class="summary_link" id="s_8"></span>～豊島事件～</h2>
+            不法投棄が原因の有害物質が問題になった場所は日本にも存在します。
+            その一つが香川県の豊島（てしま）です。 豊島で起こった事件「<span
+              class="word"
+              ><span class="word_text">豊島事件</span>
+              <span class="word_description_container">
+                <span class="word_description">
+                  <span class="word_description_title">豊島事件</span>
+                  <span
+                    class="word_description_text"
+                    style="line-height: 1.5rem"
+                    >香川県の豊島で起きた産業廃棄物不法投棄事件。1978年から事件は始まり、完全に撤去が完了したのは2019年。</span
+                  >
+                </span>
+              </span>
+            </span>
+
+            <!--suppress HtmlUnknownAttribute -->
+            」は日本最大級の廃棄物不法投棄問題として有名で、<span class="word"
+              ><span class="word_text">自動車リサイクル法</span>
+              <span class="word_description_container">
+                <span class="word_description">
+                  <span class="word_description_title">自動車リサイクル法</span>
+                  <span
+                    class="word_description_text"
+                    style="line-height: 1.5rem"
+                    >車を対象とした法律。購入時にリサイクル代金を支払いリサイクル券を発行する前払い制度が取られている。2002年7月12日に公布され、2005年1月1日から施工されている。</span
+                  >
+                </span>
+              </span>
+            </span>
+
+            <!--suppress HtmlUnknownAttribute -->
+            が成立された1つの大きな要因でもあります。
+            <!-- （豊島の場所を示す地図） -->
+            不法投棄物が運ばれてきた場所は豊島の「水ヶ浦」というところです。
+            この水ヶ浦には廃油、汚泥、<span class="word"
+              ><span class="word_text">シュレッダーダスト</span>
+              <span class="word_description_container">
+                <span class="word_description">
+                  <span class="word_description_title">シュレッダーダスト</span>
+                  <span
+                    class="word_description_text"
+                    style="line-height: 1.5rem"
+                    >工業用シュレッダーで廃家電や廃自動車を破砕し、金属などを回収した後に、産廃として捨てられるプラスチック・ガラス・ゴムなど破片の混合物。</span
+                  >
+                </span>
+              </span>
+            </span>
+
+            <!--suppress HtmlUnknownAttribute -->
+            などの産業廃棄物を含むさまざまなものが違法に運ばれ、処理されていました。
+            これによって廃棄物を焼く際に生じる黒煙が毎日のように立ち上り、土地は汚染され、住民の健康被害も出てくるようになりました。
+            具体的には、子供の喘息の発生率が全国平均の約10倍にもなりました。
+            1978年から始まったこの不法投棄は、兵庫県姫路海上保安署によって豊島観光の経営者らが1991年に逮捕、起訴されたことで収まりました。
+            <br />
+            実はこの豊島事件が発覚する前から、香川県は処理業者に対して100回以上立ち回り調査を行っていました。
+            つまり行政は事件を認識していたにもかかわらず、止められなかったわけです。
+            どうして行政は10年以上も違法業者による不法投棄を止められなかったのでしょうか？
+            その理由は<span class="force_text">産業廃棄物に対する認識の差</span
+            >というところにあります。
+            住民は産業廃棄物を廃棄物だとみなした一方で、処理業者は有用な金属が含まれる有価物だと主張しました。
+            そして当時適用されていた<span class="word"
+              ><span class="word_text">廃棄物処理法</span>
+              <span class="word_description_container">
+                <span class="word_description">
+                  <span class="word_description_title">廃棄物処理法</span>
+                  <span
+                    class="word_description_text"
+                    style="line-height: 1.5rem"
+                    >正式名称は「廃棄物の処理及び清掃に関する法律」。廃棄物の排出の抑制、廃棄物の適正処理により生活環境の保全・公衆衛生の向上を目的としている。1970年12月25日に公布され、1971年9月24日に施行された。</span
+                  >
+                </span>
+              </span>
+            </span>
+
+            <!--suppress HtmlUnknownAttribute -->
+            では、廃棄物と有価物の境目の定義が曖昧であったために、処理業者の言う有価物を廃棄物と決めるのはかなり困難だったのです。
+            <br />
+            豊島に不法に運ばれてきた廃棄物が完全に撤去されたのは2019年。
+            なんと<span class="force_text">40年以上</span
+            >もこの事件による影響は続きました。
+            住民が多大な犠牲を払わされてようやくこの事件は終結したのです。
+            <iframe
+              class="Gmap"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d230387.94422895205!2d133.9926142404176!3d34.40397150235785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3553f365af080a75%3A0x8bf88590a33161b1!2z6LGK5bO2!5e0!3m2!1sja!2sjp!4v1637262967813!5m2!1sja!2sjp"
+              allowfullscreen
+              loading="lazy"
+            ></iframe>
+          </div>
+        </aside>
+
+        <p>
+          有害物質の恐ろしさがわかって頂けたでしょうか？
+          <span class="force_text"
+            >このような有害物質は金属リサイクルでも発生します。</span
+          >
+          そのため、リサイクルで生じる有害物質の適正処理は非常に重要な問題です。
+        </p>
+        <h2 id="品位の低さ">品位の低さ</h2>
+        <p>
+          「そもそも<span class="word"
+            ><span class="word_text">品位</span>
+            <span class="word_description_container">
+              <span class="word_description">
+                <span class="word_description_title">品位</span>
+                <span class="word_description_text" style="line-height: 1.5rem"
+                  >鉱石中に含まれる目的の鉱物・金属の含有率を示す値。</span
+                >
+              </span>
+            </span>
+          </span>
+
+          <!--suppress HtmlUnknownAttribute -->
+          って何？」と思った人もいるかもしれません。
+          品位とは鉱石の中に含まれている有用な元素の量を指します。
+          「濃度」という言葉と同じ意味だと考えてもいいでしょう。
+          品位が高いほど、同じ量の鉱石からより多くの有用な金属が取り出せるということです。
+          そして、この品位こそが都市鉱山がリサイクルするときに直面する大きな問題なのです。
+          <span class="summary_link" id="s_2"></span>それは<span
+            class="force_text"
+            >天然鉱山と比べて品位が低いので天然鉱山との競争で負けてしまう</span
+          >ためです。
+          「スマホとかパソコンの中にはいろんな金属がぎゅうぎゅう詰めになっていてむしろ品位が高いのでは？」と思う人もいるかも知れません。
+          その考えは正しいです。 たしかに<span class="force_text"
+            >1つ1つの製品を見れば品位は天然鉱山よりも高い</span
+          >です。
+          しかし、都市鉱山の天然鉱山との大きな違いとして天然鉱山は一つの場所に集まっているのに対して都市鉱山は各家庭に製品が分散してしまっているという点が挙げられます。
+          したがって都市鉱山をリサイクルする際にはまず<span class="force_text"
+            >散らばってしまっている製品を集めないといけません。</span
+          >
+          このために、1つ1つの製品で言えば品位は高いが、<span class="force_text"
+            >全体としてみると品位は低い</span
+          >ということが起こるのです。
+          ただリサイクルに扱う量を増やすためというだけでなく、天然鉱山と市場で競争できるようにするためにも、回収率を上げることは解決しなければならない問題です。
+          この品位の低さの解決にはいかに分散を緩和するかが鍵になります。
+        </p>
+        <h2 id="まとめ図解">まとめ図解</h2>
+        <div class="image_container">
+          <svg
+            viewBox="0, 0, 1200, 700"
+            style="width: 80vw; height: 40vw; margin: 5vh 0 5vh"
+          >
+            <use xlink:href="../svg/summary_illust/C.svg#main"></use>
+          </svg>
+        </div>
+
+        <p>
+          都市鉱山にはさまざまな課題が絡んでいますね...
+          なかなか進まないこともナットクできます。
+        </p>
+        <h2 id="参考文献">参考文献</h2>
+        <p class="no_indent">
+          『図解よくわかる「都市鉱山」開発』（原田幸明・醍醐市朗、日刊工業新聞社・2011年8月1日）<br />
+          <a href="https://prtimes.jp/main/html/rd/p/000000006.000070388.html"
+            >PRTIMES「スマホのリサイクル回収率は17％。都市鉱山スマホを再資源化へ」</a
+          ><br />
+          <a
+            href="https://www.smfg.co.jp/sustainability/report/topics/detail084.html"
+            >三井住友フィナンシャルグループ「「都市鉱山」に眠るレアメタルの資源化に向けて」</a
+          ><br />
+          <a href="https://www.nims.go.jp/genso/data/urban_mine.html"
+            >NIMS「都市鉱山関係データ」</a
+          ><br />
+          <a
+            href="https://www.nims.go.jp/research/elements/rare-metal/urban-mine/0ej0070000002ym4-att/urban-mine_qa.pdf"
+            >「都市鉱山の蓄積量推定」に関する Q&A</a
+          ><br />
+          <a href="https://petpedia.co/recycling-statistics/"
+            >petpedia「41 Eye-Opening Recycling Statistics for 2021」</a
+          ><br />
+          <a href="http://www.shippai.org/fkd/hf/HC0300002.pdf"
+            >イタリア・セベソの化学工場での爆発</a
+          ><br />
+          <a href="https://www.eic.or.jp/ecoterm/index.php?act=view&serial=1543"
+            >環境用語「セベソ事件」</a
+          ><br />
+          <a
+            href="https://www.nytimes.com/1988/09/03/world/toxic-waste-boomerang-ciao-italy.html"
+            >The New York Times「Toxic Waste Boomerang: Ciao Italy!」</a
+          ><br />
+          <a
+            href="https://www.washingtonpost.com/archive/politics/1988/09/04/after-dumping-on-nigeria-italy-takes-it-all-back/349505f5-f0ca-4364-9563-3d1f9d48125f/"
+            >The Washington Post「AFTER DUMPING ON NIGERIA, ITALY TAKES IT ALL
+            BACK」</a
+          ><br />
+          <a href="https://www.re-ver.co.jp/magazine/pdf/ecooVOL25.pdf"
+            >ecoo「豊島事件が残した課題」</a
+          ><br />
+          <a href="https://www.env-value.co.jp/columns/press57/"
+            >E-VALUE「豊島の不法投棄問題を振り返る」</a
+          >
+        </p>
+
+        <div id="pn_bar">
+          <a href="../urban-mining/" id="prev_link">
+            <div id="prev_text"></div>
+            <button id="prev_button">Prev</button>
+          </a>
+
+          <a href="../measure/" id="next_link">
+            <div id="next_text"></div>
+            <button id="next_button">Next</button>
+          </a>
+        </div>
+
+        <div id="floating_menu">
+          <!--suppress BadExpressionStatementJS -->
+          <div id="toc">
+            <div id="toc_title">目次</div>
+            <a class="toc_link_h1" href="#課題">課題</a
+            ><a class="toc_link_h2" href="#回収率の低さ">回収率の低さ</a
+            ><a class="toc_link_h2" href="#コスト問題">コスト問題</a
+            ><a class="toc_link_h2" href="#リサイクルのリスク"
+              >リサイクルのリスク</a
+            ><a class="toc_link_h2" href="#品位の低さ">品位の低さ</a
+            ><a class="toc_link_h2" href="#まとめ図解">まとめ図解</a
+            ><a class="toc_link_h2" href="#参考文献">参考文献</a>
+          </div>
+
+          <!--suppress BadExpressionStatementJS --><button
+            id="lang_button"
+            onclick="changeLang()"
+          >
+            <span id="lang_text"></span>
+            <script>
+              function setLang(lang) {
+                sessionStorage.setItem("lang", lang)
+                switch (lang) {
+                  case "ja":
+                    document.getElementById("lang_en").style.display = "none"
+                    document.getElementById("lang_jp").style.display = "block"
+                    break
+                  case "en":
+                    document.getElementById("lang_en").style.display = "block"
+                    document.getElementById("lang_jp").style.display = "none"
+                }
+                updateButton()
+              }
+
+              function changeLang() {
+                switch (sessionStorage.getItem("lang")) {
+                  case "en":
+                    setLang("ja")
+                    break
+                  case "ja":
+                  default:
+                    setLang("en")
+                    break
+                }
+                updateButton()
+              }
+
+              function updateButton() {
+                switch (sessionStorage.getItem("lang")) {
+                  case "ja":
+                    document
+                      .querySelectorAll("#lang_text")
+                      .forEach((el) => (el.innerHTML = "English"))
+                    break
+                  case "en":
+                    document
+                      .querySelectorAll("#lang_text")
+                      .forEach((el) => (el.innerHTML = "日本語"))
+                    break
+                }
+              }
+              window.onload = () => setLang(sessionStorage.getItem("lang"))
+            </script>
+          </button>
+        </div>
       </div>
+      <div id="lang_en">
+        <div id="floating_menu">
+          <!--suppress BadExpressionStatementJS -->
+          <div id="toc">
+            <div id="toc_title">目次</div>
+            <a class="toc_link_" href="#undefined">undefined</a>
+          </div>
 
-      <p>
-        都市鉱山にはさまざまな課題が絡んでいますね...
-        なかなか進まないこともナットクできます。
-      </p>
-      <h2 id="参考文献">参考文献</h2>
-      <p class="no_indent">
-        『図解よくわかる「都市鉱山」開発』（原田幸明・醍醐市朗、日刊工業新聞社・2011年8月1日）<br />
-        <a href="https://prtimes.jp/main/html/rd/p/000000006.000070388.html"
-          >PRTIMES「スマホのリサイクル回収率は17％。都市鉱山スマホを再資源化へ」</a
-        ><br />
-        <a
-          href="https://www.smfg.co.jp/sustainability/report/topics/detail084.html"
-          >三井住友フィナンシャルグループ「「都市鉱山」に眠るレアメタルの資源化に向けて」</a
-        ><br />
-        <a href="https://www.nims.go.jp/genso/data/urban_mine.html"
-          >NIMS「都市鉱山関係データ」</a
-        ><br />
-        <a
-          href="https://www.nims.go.jp/research/elements/rare-metal/urban-mine/0ej0070000002ym4-att/urban-mine_qa.pdf"
-          >「都市鉱山の蓄積量推定」に関する Q&A</a
-        ><br />
-        <a href="https://petpedia.co/recycling-statistics/"
-          >petpedia「41 Eye-Opening Recycling Statistics for 2021」</a
-        ><br />
-        <a href="http://www.shippai.org/fkd/hf/HC0300002.pdf"
-          >イタリア・セベソの化学工場での爆発</a
-        ><br />
-        <a href="https://www.eic.or.jp/ecoterm/index.php?act=view&serial=1543"
-          >環境用語「セベソ事件」</a
-        ><br />
-        <a
-          href="https://www.nytimes.com/1988/09/03/world/toxic-waste-boomerang-ciao-italy.html"
-          >The New York Times「Toxic Waste Boomerang: Ciao Italy!」</a
-        ><br />
-        <a
-          href="https://www.washingtonpost.com/archive/politics/1988/09/04/after-dumping-on-nigeria-italy-takes-it-all-back/349505f5-f0ca-4364-9563-3d1f9d48125f/"
-          >The Washington Post「AFTER DUMPING ON NIGERIA, ITALY TAKES IT ALL
-          BACK」</a
-        ><br />
-        <a href="https://www.re-ver.co.jp/magazine/pdf/ecooVOL25.pdf"
-          >ecoo「豊島事件が残した課題」</a
-        ><br />
-        <a href="https://www.env-value.co.jp/columns/press57/"
-          >E-VALUE「豊島の不法投棄問題を振り返る」</a
-        >
-      </p>
+          <!--suppress BadExpressionStatementJS --><button
+            id="lang_button"
+            onclick="changeLang()"
+          >
+            <span id="lang_text"></span>
+            <script>
+              function setLang(lang) {
+                sessionStorage.setItem("lang", lang)
+                switch (lang) {
+                  case "ja":
+                    document.getElementById("lang_en").style.display = "none"
+                    document.getElementById("lang_jp").style.display = "block"
+                    break
+                  case "en":
+                    document.getElementById("lang_en").style.display = "block"
+                    document.getElementById("lang_jp").style.display = "none"
+                }
+                updateButton()
+              }
 
-      <div id="pn_bar">
-        <a href="../urban-mining/" id="prev_link">
-          <div id="prev_text"></div>
-          <button id="prev_button">Prev</button>
-        </a>
+              function changeLang() {
+                switch (sessionStorage.getItem("lang")) {
+                  case "en":
+                    setLang("ja")
+                    break
+                  case "ja":
+                  default:
+                    setLang("en")
+                    break
+                }
+                updateButton()
+              }
 
-        <a href="../measure/" id="next_link">
-          <div id="next_text"></div>
-          <button id="next_button">Next</button>
-        </a>
+              function updateButton() {
+                switch (sessionStorage.getItem("lang")) {
+                  case "ja":
+                    document
+                      .querySelectorAll("#lang_text")
+                      .forEach((el) => (el.innerHTML = "English"))
+                    break
+                  case "en":
+                    document
+                      .querySelectorAll("#lang_text")
+                      .forEach((el) => (el.innerHTML = "日本語"))
+                    break
+                }
+              }
+              window.onload = () => setLang(sessionStorage.getItem("lang"))
+            </script>
+          </button>
+        </div>
       </div>
     </main>
     <button

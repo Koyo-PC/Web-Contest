@@ -655,6 +655,57 @@
       #prev_link {
         float: left;
       }
+      #lang_button {
+        background-color: whitesmoke;
+        border: none;
+        color: black;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        position: relative;
+        width: 100%;
+      }
+      #toc {
+        padding: 10px;
+      }
+      #toc_title {
+        width: 100%;
+        text-align: center;
+      }
+      [class^="toc_link_"] {
+        display: block;
+        text-decoration: none;
+        color: black;
+        scroll-behavior: smooth;
+      }
+      [class^="toc_link_"]:hover {
+        color: gray;
+      }
+      .toc_link_h1 {
+        margin-left: 0;
+      }
+      .toc_link_h2 {
+        margin-left: 10px;
+      }
+      .toc_link_h3 {
+        margin-left: 20px;
+      }
+      .toc_link_h4 {
+        margin-left: 30px;
+      }
+      #floating_menu {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        z-index: 100;
+        width: 200px;
+        display: block;
+        background-color: #0004;
+      }
       .no_indent {
         text-indent: 0;
       }
@@ -922,448 +973,586 @@
     </script>
 
     <main>
-      <h1 id="資源の現状">資源の現状</h1>
-      <p class="no_indent">
-        様々な科学技術分野で世界を牽引している日本。<br />
-        これは大量の<span class="word"
-          ><span class="word_text">レアメタル</span>
-          <span class="word_description_container">
-            <span class="word_description">
-              <span class="word_description_title">レアメタル</span>
-              <span class="word_description_text" style="line-height: 1.5rem"
-                >1.地殻中の存在量が比較的少ない元素　<br />
-                2.単体として取り出すことが技術的に困難な元素<br />3.資源の産出国が偏在している<br />を満たす元素のことを言い、現代の産業に欠かせない”産業のビタミン”と呼ばれる。別名マイナーメタル。</span
-              >
-            </span>
-          </span>
-        </span>
-
-        <!--suppress HtmlUnknownAttribute -->
-        などの<span class="word"
-          ><span class="word_text">金属資源</span>
-          <span class="word_description_container">
-            <span class="word_description">
-              <span class="word_description_title">金属資源</span>
-              <span class="word_description_text" style="line-height: 1.5rem"
-                >鉱物資源の一種。さらにレアメタル、マイナーメタルに分けられる。</span
-              >
-            </span>
-          </span>
-        </span>
-
-        <!--suppress HtmlUnknownAttribute -->
-        によって支えられています。<br />
-        しかし、それらを手に入れることは決して容易なことではありません。
-      </p>
-
-      <h2 id="金属資源について">金属資源について</h2>
-      <p>
-        みなさんは金や銀などの金属資源にどのようなイメージを持っていますか？
-      </p>
-      <div class="image_container">
-        <figure class="image_box">
-          <img
-            class="image"
-            src="../svg/description/A8.svg"
-            alt="金・銀へのイメージ"
-          />
-          <div class="note"><a class="href" href=""></a></div>
-          <figcaption class="image_caption"></figcaption>
-        </figure>
-      </div>
-
-      <p>
-        上の図のように様々なイメージがあると思いますが、金属資源にあまり馴染みがないという方が多いのではないでしょうか。<br />
-        私たちもこのサイトを作る前まではあまり考えたことがありませんでした。
-        しかし私たちの今の便利な生活は金属抜きでは語ることはありえません。
-        <span class="summary_link" id="s_0"></span>
-        <span class="force_text"
-          >実は、私たちの身の回りはその金属資源であふれているのです！</span
-        >
-        テレビやエアコン、冷蔵庫、洗濯機、車、時計、LED照明、スマートフォン...
-        金属が使われている製品を挙げるときりがありません。
-      </p>
-      <p>
-        このように、私たちの生活は金属資源によって支えられているのです。<span
-          class="summary_link"
-          id="s_2"
-        ></span>
-      </p>
-      <aside class="column">
-        <div class="column_title">
-          金属資源は最新技術にも欠かせない ～ネオジムとニオブ～
-        </div>
-        <div class="column_content">
-          ネオジムを含むネオジム磁石は最も強力な磁石として有名です。
-          この特徴を利用して、細胞に「<span class="word"
-            ><span class="word_text">ナノ磁石</span>
+      <div id="lang_jp">
+        <h1 id="資源の現状">資源の現状</h1>
+        <p class="no_indent">
+          様々な科学技術分野で世界を牽引している日本。<br />
+          これは大量の<span class="word"
+            ><span class="word_text">レアメタル</span>
             <span class="word_description_container">
               <span class="word_description">
-                <span class="word_description_title">ナノ磁石</span>
+                <span class="word_description_title">レアメタル</span>
                 <span class="word_description_text" style="line-height: 1.5rem"
-                  >非常に小さな磁石。S極・N極を持たず、磁力線が外に出ないという特徴がある。</span
+                  >1.地殻中の存在量が比較的少ない元素　<br />
+                  2.単体として取り出すことが技術的に困難な元素<br />3.資源の産出国が偏在している<br />を満たす元素のことを言い、現代の産業に欠かせない”産業のビタミン”と呼ばれる。別名マイナーメタル。</span
                 >
               </span>
             </span>
           </span>
 
           <!--suppress HtmlUnknownAttribute -->
-          」をくっつけて細胞を三次元空間で調べるという試みが始まりました。
-          この三次元培養技術は、ワクチンや医薬の効き目を臨床試験に先立って正しく捉えるのに役立っています。<br />
-          ニオブは単体の金属において<span class="word"
-            ><span class="word_text">超伝導転移温度</span>
+          などの<span class="word"
+            ><span class="word_text">金属資源</span>
             <span class="word_description_container">
               <span class="word_description">
-                <span class="word_description_title">超伝導転移温度</span>
+                <span class="word_description_title">金属資源</span>
                 <span class="word_description_text" style="line-height: 1.5rem"
-                  >物質の電気抵抗がゼロになるという現象が現れるときの温度。</span
+                  >鉱物資源の一種。さらにレアメタル、マイナーメタルに分けられる。</span
                 >
               </span>
             </span>
           </span>
 
           <!--suppress HtmlUnknownAttribute -->
-          が-263.95℃と最も高いため、<span class="word"
-            ><span class="word_text">超伝導磁石</span>
-            <span class="word_description_container">
-              <span class="word_description">
-                <span class="word_description_title">超伝導磁石</span>
-                <span class="word_description_text" style="line-height: 1.5rem"
-                  >超伝導状態の磁石。電気抵抗がないため、大電流を流してもエネルギーロスがなく、とてつもなく強力である。</span
-                >
-              </span>
-            </span>
-          </span>
-
-          <!--suppress HtmlUnknownAttribute -->
-          として広く使われ、リニアモーターカーやロケットの磁場打ち上げなどの技術開発を支えています。<br />
-          また、ニオブは化学分野や医療分野にも使われています。
-        </div>
-      </aside>
-
-      <h2 id="生産量の増加">生産量の増加</h2>
-      <p>
-        世界全体で一体どれくらいの金属が掘られているのでしょうか？<br />
-        下のグラフは世界の主要な金属の生産量の推移を表すものです。
-      </p>
-      <div class="image_container">
-        <figure class="image_box" style="height: 40vw">
-          <img
-            class="image"
-            src="../assets/book/book_p7.png"
-            alt="主要な金属の生産量の推移"
-          />
-          <div class="note">
-            書籍『資源論』をスキャン<a class="href" href=""></a>
-          </div>
-          <figcaption class="image_caption"></figcaption>
-        </figure>
-      </div>
-
-      <p>
-        このグラフを見ればわかるように<span class="word"
-          ><span class="word_text">オイルショック</span>
-          <span class="word_description_container">
-            <span class="word_description">
-              <span class="word_description_title">オイルショック</span>
-              <span class="word_description_text" style="line-height: 1.5rem"
-                >1970年代に2度発生した、原油の供給逼迫および原油価格の高騰に伴い、世界経済全体がきたした大きな混乱の総称である。
-                石油危機または石油ショックとも称される。</span
-              >
-            </span>
-          </span>
-        </span>
-
-        <!--suppress HtmlUnknownAttribute -->
-        などの影響で一時的に減少に転じることはあるものの、<span
-          class="force_text"
-          >全体的には指数関数的な増加が続いています。</span
-        >
-        特に1950~1970年と2000年以降で特に増加が激しくなっています。
-        この理由はそれぞれ、1950~1970年は戦後復興を進めるヨーロッパと先進国へ移行しつつある日本、韓国、台湾による金属の大量消費、2000年以降は中国とインドの急速な近代化によるものと考えられます。
-        このように見ると、アフリカ諸国の近代化がどんどん進む今、金属生産量がますます増加していくのは予測できます。<span
-          class="summary_link"
-          id="s_3"
-        ></span>
-        となれば、金属資源が枯渇し、今のような生活が送れなくなる日はそう遠くないかもしれません。
-        実際、東京大学先端科学技術研究センター准教授・醍醐市朗先生とのインタビューの中で私たちは<a
-          href="../activity/interview.html#q7"
-          >このようなお話</a
-        >を聞きました。
-      </p>
-      <blockquote>
-        <p>
-          「つい10年くらい前までは、銅鉱石中の銅の濃度はまだ1%くらいありました。でも、今ではそれを使いつくしてしまって、日本だと0.6%くらいが最上級です。ちょうどこの間聞いた話では、もう0.3%くらいももう使わないといけなくなっているそうです。なので、みんな枯渇に近づいているというのは薄々感じています。」
+          によって支えられています。<br />
+          しかし、それらを手に入れることは決して容易なことではありません。
         </p>
-      </blockquote>
-      <p><span class="force_text">資源枯渇は着実に迫っています。</span></p>
 
-      <p>
-        しかしながら、生産量の増加を緩めることができずにいるのが苦しい現状です。
-        そのため、このままでは2050年までにスマートフォンが作れなくなってしまうという事態が起こりうるのです。
-      </p>
-      <h2 id="資源の偏在">資源の偏在</h2>
-      <p>下のグラフを見てください。</p>
-      <div class="image_container">
-        <figure class="image_box" style="height: 40vw">
-          <img
-            class="image"
-            src="../assets/susdi/7d2a8a5d380f463388d1c8d4512bef57.jpg"
-            alt="金属生産のシェア上位3か国が占める比率"
-          />
-          <div class="note">
+        <h2 id="金属資源について">金属資源について</h2>
+        <p>
+          みなさんは金や銀などの金属資源にどのようなイメージを持っていますか？
+        </p>
+        <div class="image_container">
+          <figure class="image_box">
             <img
-              class="inline_image"
-              src="../assets/susdi/46e68cc8af75454ff9cc3fd767a83b0e-300x109.png"
-            />より引用<a
-              class="href"
-              href="http://susdi.org/wp/data/post-61/"
-            ></a>
-          </div>
-          <figcaption class="image_caption"></figcaption>
-        </figure>
-      </div>
-      <span class="summary_link" id="s_1"></span>
-
-      <p>
-        各金属元素について生産量シェア上位３か国が全生産量に占める比率を表したものです。
-        なんとほとんどの元素において上位3か国が生産シェア70%以上を占めていますね。
-        しかしこれはほんの一部に過ぎず、<span class="word"
-          ><span class="word_text">レアメタル</span>
-          <span class="word_description_container">
-            <span class="word_description">
-              <span class="word_description_title">レアメタル</span>
-              <span class="word_description_text" style="line-height: 1.5rem"
-                >1.地殻中の存在量が比較的少ない元素　<br />
-                2.単体として取り出すことが技術的に困難な元素<br />3.資源の産出国が偏在している<br />を満たす元素のことを言い、現代の産業に欠かせない”産業のビタミン”と呼ばれる。別名マイナーメタル。</span
-              >
-            </span>
-          </span>
-        </span>
-
-        <!--suppress HtmlUnknownAttribute -->
-        の大半が全埋蔵量の半分以上を上位3か国によって占められているのです。<span
-          class="summary_link"
-          id="s_8"
-        ></span>
-        必要な<span class="word"
-          ><span class="word_text">金属資源</span>
-          <span class="word_description_container">
-            <span class="word_description">
-              <span class="word_description_title">金属資源</span>
-              <span class="word_description_text" style="line-height: 1.5rem"
-                >鉱物資源の一種。さらにレアメタル、マイナーメタルに分けられる。</span
-              >
-            </span>
-          </span>
-        </span>
-
-        <!--suppress HtmlUnknownAttribute -->
-        のほぼすべてを海外から輸入している日本は、この金属資源の偏在のために1か国に依存する割合が大きいため、その国の都合によって大きな影響を受けるというのが現状です。
-        ただ金を払えば金属資源が得られるという世界ではありません。
-        例えば、もし中国が自国の都合で禁輸政策を実施すれば、日本はおろか世界の経済発展は間違いなくストップしてしまうでしょう。
-        つまり中国が世界の経済状況のカギを握っているといっても過言ではありません。
-      </p>
-      <p>
-        このように資源の偏在は<span class="force_text"
-          >各国の立場における格差</span
-        >を生む要因になりうるのです。<span class="summary_link" id="s_9"></span>
-      </p>
-      <!--suppress ALL -->
-      <div class="atom_chara" style="width: 100%; margin: 50px 0">
-        <div class="atom_chara_icon">
-          <img
-            class="atom_chara_img"
-            src="../img/atom_chara/Y.png"
-            alt="イットリウム博士のアイコン"
-          />
-          <div class="atom_chara_name">イットリウム博士</div>
+              class="image"
+              src="../svg/description/A8.svg"
+              alt="金・銀へのイメージ"
+            />
+            <div class="note"><a class="href" href=""></a></div>
+            <figcaption class="image_caption"></figcaption>
+          </figure>
         </div>
-        <div class="atom_chara_content">
-          <span
-            >実際2010年9月に発生した尖閣諸島沖の中国漁船衝突事件において、中国が対抗措置として日本に対して<span
-              class="word"
-              ><span class="word_text">レアアース</span>
+
+        <p>
+          上の図のように様々なイメージがあると思いますが、金属資源にあまり馴染みがないという方が多いのではないでしょうか。<br />
+          私たちもこのサイトを作る前まではあまり考えたことがありませんでした。
+          しかし私たちの今の便利な生活は金属抜きでは語ることはありえません。
+          <span class="summary_link" id="s_0"></span>
+          <span class="force_text"
+            >実は、私たちの身の回りはその金属資源であふれているのです！</span
+          >
+          テレビやエアコン、冷蔵庫、洗濯機、車、時計、LED照明、スマートフォン...
+          金属が使われている製品を挙げるときりがありません。
+        </p>
+        <p>
+          このように、私たちの生活は金属資源によって支えられているのです。<span
+            class="summary_link"
+            id="s_2"
+          ></span>
+        </p>
+        <aside class="column">
+          <div class="column_title">
+            金属資源は最新技術にも欠かせない ～ネオジムとニオブ～
+          </div>
+          <div class="column_content">
+            ネオジムを含むネオジム磁石は最も強力な磁石として有名です。
+            この特徴を利用して、細胞に「<span class="word"
+              ><span class="word_text">ナノ磁石</span>
               <span class="word_description_container">
                 <span class="word_description">
-                  <span class="word_description_title">レアアース</span>
+                  <span class="word_description_title">ナノ磁石</span>
                   <span
                     class="word_description_text"
                     style="line-height: 1.5rem"
-                    >レアメタルの一種。最新技術に欠かせない元素であり、全部で17種類存在する。</span
+                    >非常に小さな磁石。S極・N極を持たず、磁力線が外に出ないという特徴がある。</span
                   >
                 </span>
               </span>
             </span>
 
             <!--suppress HtmlUnknownAttribute -->
-            の輸出制限を行ったのじゃ。これで日本は大ダメージを受けたのじゃよ。</span
-          >
+            」をくっつけて細胞を三次元空間で調べるという試みが始まりました。
+            この三次元培養技術は、ワクチンや医薬の効き目を臨床試験に先立って正しく捉えるのに役立っています。<br />
+            ニオブは単体の金属において<span class="word"
+              ><span class="word_text">超伝導転移温度</span>
+              <span class="word_description_container">
+                <span class="word_description">
+                  <span class="word_description_title">超伝導転移温度</span>
+                  <span
+                    class="word_description_text"
+                    style="line-height: 1.5rem"
+                    >物質の電気抵抗がゼロになるという現象が現れるときの温度。</span
+                  >
+                </span>
+              </span>
+            </span>
+
+            <!--suppress HtmlUnknownAttribute -->
+            が-263.95℃と最も高いため、<span class="word"
+              ><span class="word_text">超伝導磁石</span>
+              <span class="word_description_container">
+                <span class="word_description">
+                  <span class="word_description_title">超伝導磁石</span>
+                  <span
+                    class="word_description_text"
+                    style="line-height: 1.5rem"
+                    >超伝導状態の磁石。電気抵抗がないため、大電流を流してもエネルギーロスがなく、とてつもなく強力である。</span
+                  >
+                </span>
+              </span>
+            </span>
+
+            <!--suppress HtmlUnknownAttribute -->
+            として広く使われ、リニアモーターカーやロケットの磁場打ち上げなどの技術開発を支えています。<br />
+            また、ニオブは化学分野や医療分野にも使われています。
+          </div>
+        </aside>
+
+        <h2 id="生産量の増加">生産量の増加</h2>
+        <p>
+          世界全体で一体どれくらいの金属が掘られているのでしょうか？<br />
+          下のグラフは世界の主要な金属の生産量の推移を表すものです。
+        </p>
+        <div class="image_container">
+          <figure class="image_box" style="height: 40vw">
+            <img
+              class="image"
+              src="../assets/book/book_p7.png"
+              alt="主要な金属の生産量の推移"
+            />
+            <div class="note">
+              書籍『資源論』をスキャン<a class="href" href=""></a>
+            </div>
+            <figcaption class="image_caption"></figcaption>
+          </figure>
         </div>
-      </div>
 
-      <!--suppress HtmlUnknownAttribute -->
-
-      <h2 id="経済発展の裏側">経済発展の裏側</h2>
-      <p>
-        <span class="word"
-          ><span class="word_text">金属資源</span>
-          <span class="word_description_container">
-            <span class="word_description">
-              <span class="word_description_title">金属資源</span>
-              <span class="word_description_text" style="line-height: 1.5rem"
-                >鉱物資源の一種。さらにレアメタル、マイナーメタルに分けられる。</span
-              >
+        <p>
+          このグラフを見ればわかるように<span class="word"
+            ><span class="word_text">オイルショック</span>
+            <span class="word_description_container">
+              <span class="word_description">
+                <span class="word_description_title">オイルショック</span>
+                <span class="word_description_text" style="line-height: 1.5rem"
+                  >1970年代に2度発生した、原油の供給逼迫および原油価格の高騰に伴い、世界経済全体がきたした大きな混乱の総称である。
+                  石油危機または石油ショックとも称される。</span
+                >
+              </span>
             </span>
           </span>
-        </span>
+
+          <!--suppress HtmlUnknownAttribute -->
+          などの影響で一時的に減少に転じることはあるものの、<span
+            class="force_text"
+            >全体的には指数関数的な増加が続いています。</span
+          >
+          特に1950~1970年と2000年以降で特に増加が激しくなっています。
+          この理由はそれぞれ、1950~1970年は戦後復興を進めるヨーロッパと先進国へ移行しつつある日本、韓国、台湾による金属の大量消費、2000年以降は中国とインドの急速な近代化によるものと考えられます。
+          このように見ると、アフリカ諸国の近代化がどんどん進む今、金属生産量がますます増加していくのは予測できます。<span
+            class="summary_link"
+            id="s_3"
+          ></span>
+          となれば、金属資源が枯渇し、今のような生活が送れなくなる日はそう遠くないかもしれません。
+          実際、東京大学先端科学技術研究センター准教授・醍醐市朗先生とのインタビューの中で私たちは<a
+            href="../activity/interview.html#q7"
+            >このようなお話</a
+          >を聞きました。
+        </p>
+        <blockquote>
+          <p>
+            「つい10年くらい前までは、銅鉱石中の銅の濃度はまだ1%くらいありました。でも、今ではそれを使いつくしてしまって、日本だと0.6%くらいが最上級です。ちょうどこの間聞いた話では、もう0.3%くらいももう使わないといけなくなっているそうです。なので、みんな枯渇に近づいているというのは薄々感じています。」
+          </p>
+        </blockquote>
+        <p><span class="force_text">資源枯渇は着実に迫っています。</span></p>
+
+        <p>
+          しかしながら、生産量の増加を緩めることができずにいるのが苦しい現状です。
+          そのため、このままでは2050年までにスマートフォンが作れなくなってしまうという事態が起こりうるのです。
+        </p>
+        <h2 id="資源の偏在">資源の偏在</h2>
+        <p>下のグラフを見てください。</p>
+        <div class="image_container">
+          <figure class="image_box" style="height: 40vw">
+            <img
+              class="image"
+              src="../assets/susdi/7d2a8a5d380f463388d1c8d4512bef57.jpg"
+              alt="金属生産のシェア上位3か国が占める比率"
+            />
+            <div class="note">
+              <img
+                class="inline_image"
+                src="../assets/susdi/46e68cc8af75454ff9cc3fd767a83b0e-300x109.png"
+              />より引用<a
+                class="href"
+                href="http://susdi.org/wp/data/post-61/"
+              ></a>
+            </div>
+            <figcaption class="image_caption"></figcaption>
+          </figure>
+        </div>
+        <span class="summary_link" id="s_1"></span>
+
+        <p>
+          各金属元素について生産量シェア上位３か国が全生産量に占める比率を表したものです。
+          なんとほとんどの元素において上位3か国が生産シェア70%以上を占めていますね。
+          しかしこれはほんの一部に過ぎず、<span class="word"
+            ><span class="word_text">レアメタル</span>
+            <span class="word_description_container">
+              <span class="word_description">
+                <span class="word_description_title">レアメタル</span>
+                <span class="word_description_text" style="line-height: 1.5rem"
+                  >1.地殻中の存在量が比較的少ない元素　<br />
+                  2.単体として取り出すことが技術的に困難な元素<br />3.資源の産出国が偏在している<br />を満たす元素のことを言い、現代の産業に欠かせない”産業のビタミン”と呼ばれる。別名マイナーメタル。</span
+                >
+              </span>
+            </span>
+          </span>
+
+          <!--suppress HtmlUnknownAttribute -->
+          の大半が全埋蔵量の半分以上を上位3か国によって占められているのです。<span
+            class="summary_link"
+            id="s_8"
+          ></span>
+          必要な<span class="word"
+            ><span class="word_text">金属資源</span>
+            <span class="word_description_container">
+              <span class="word_description">
+                <span class="word_description_title">金属資源</span>
+                <span class="word_description_text" style="line-height: 1.5rem"
+                  >鉱物資源の一種。さらにレアメタル、マイナーメタルに分けられる。</span
+                >
+              </span>
+            </span>
+          </span>
+
+          <!--suppress HtmlUnknownAttribute -->
+          のほぼすべてを海外から輸入している日本は、この金属資源の偏在のために1か国に依存する割合が大きいため、その国の都合によって大きな影響を受けるというのが現状です。
+          ただ金を払えば金属資源が得られるという世界ではありません。
+          例えば、もし中国が自国の都合で禁輸政策を実施すれば、日本はおろか世界の経済発展は間違いなくストップしてしまうでしょう。
+          つまり中国が世界の経済状況のカギを握っているといっても過言ではありません。
+        </p>
+        <p>
+          このように資源の偏在は<span class="force_text"
+            >各国の立場における格差</span
+          >を生む要因になりうるのです。<span
+            class="summary_link"
+            id="s_9"
+          ></span>
+        </p>
+        <!--suppress ALL -->
+        <div class="atom_chara" style="width: 100%; margin: 50px 0">
+          <div class="atom_chara_icon">
+            <img
+              class="atom_chara_img"
+              src="../img/atom_chara/Y.png"
+              alt="イットリウム博士のアイコン"
+            />
+            <div class="atom_chara_name">イットリウム博士</div>
+          </div>
+          <div class="atom_chara_content">
+            <span
+              >実際2010年9月に発生した尖閣諸島沖の中国漁船衝突事件において、中国が対抗措置として日本に対して<span
+                class="word"
+                ><span class="word_text">レアアース</span>
+                <span class="word_description_container">
+                  <span class="word_description">
+                    <span class="word_description_title">レアアース</span>
+                    <span
+                      class="word_description_text"
+                      style="line-height: 1.5rem"
+                      >レアメタルの一種。最新技術に欠かせない元素であり、全部で17種類存在する。</span
+                    >
+                  </span>
+                </span>
+              </span>
+
+              <!--suppress HtmlUnknownAttribute -->
+              の輸出制限を行ったのじゃ。これで日本は大ダメージを受けたのじゃよ。</span
+            >
+          </div>
+        </div>
 
         <!--suppress HtmlUnknownAttribute -->
-        は自動車やパソコン、スマホなどの最新技術に欠かせません。
-        そのため、政治面はともかく技術面が発展している国が増えている今、入手困難な資源や需要が急増した資源を求める営みによって生態系が乱されたり、村々が破壊されたりすることがあります。
-        よく中東で石油を求めて紛争が勃発し、犠牲者が多数出た...というニュースは耳にしますよね。
-        実は<span class="force_text">金属資源をめぐる戦争</span
-        >というものもあり、それによって多数の人が命を落としました。
-        この章ではそうした戦地の代表例であるコンゴ民主共和国について少し紹介したいと思います。
-      </p>
 
-      <p>
-        アフリカ大陸中央部に位置するコンゴ民主共和国は金属資源が豊富で、収入源の多くを資源の輸出に頼ってきました。
-        そんなコンゴ民主共和国では２回大きな紛争がありました。
-        それは第一次コンゴ戦争、第二次コンゴ戦争と呼ばれます。
-        紛争のきっかけはコンゴ民主共和国の隣国、ルワンダでの民族間問題でした。
-        この紛争にコンゴ民主共和国周辺のな国が介入し、紛争規模が拡大していった結果、540万人以上の人々が命を落としました。
-        紛争が終わったとされる現在でも多くの難民が祖国に戻れないまま避難生活を続けています。
-      </p>
-      <p>
-        一見資源と関わりがないように思えますが、実はコンゴ紛争に周りの国が介入した目的の１つに<span
-          class="force_text"
-          >資源の確保</span
-        >がありました。<span class="summary_link" id="s_6"></span>
-        コンゴ民主共和国の豊富な資源を得ようとするがために軍事協力をしたのです。
-        さらに、現地の資源を強制的に奪おうとする集団も現れました。
-        つまり、周辺諸国は<span class="force_text"
-          >資源を確保するためにコンゴ民主共和国の人々を都合よく利用し、それによって非常に多くの人の命が奪われた</span
-        >のです。
-      </p>
-      <p>
-        この話は日本ではあまり知られていないのかもしれません。
-        遠く離れた国のことなのでそれは仕方のないことだと思います。
-        しかし、こうした国から日本が恩恵を受けてきたのは紛れもない事実です。
-        この話は私たちが知らなければいけないことの１つなのかもしれません。
-      </p>
-      <p class="no_indent">
-        <small
-          >※なお、この話は国連の人道支援活動をメディアが報じたために広く知られるようになりました。
-          私たちが知らない悲劇はまだたくさんあるはずです。
-          このような犠牲者がなくなることを心から願います。
-        </small>
-      </p>
+        <h2 id="経済発展の裏側">経済発展の裏側</h2>
+        <p>
+          <span class="word"
+            ><span class="word_text">金属資源</span>
+            <span class="word_description_container">
+              <span class="word_description">
+                <span class="word_description_title">金属資源</span>
+                <span class="word_description_text" style="line-height: 1.5rem"
+                  >鉱物資源の一種。さらにレアメタル、マイナーメタルに分けられる。</span
+                >
+              </span>
+            </span>
+          </span>
 
-      <p>
-        また、資源が採れる場所に住む人々への対応にも問題があるのは確かです。<span
-          class="summary_link"
-          id="s_7"
-        ></span>
-        中国のバヤンオボー鉱山は豊富な金属資源を含んでおり、中国の主な鉱床となっています。
-        そんなバヤンオボーがある包頭市は採掘が進められるにつれてたくさんの工場が建てられ、町が整備されていきました。
-        そんな中バヤンオボーの現地の人々は多大な犠牲を払わされました。
-        というのは、<span class="force_text"
-          >かつての農地を奪われたうえで、採掘業に雇われるか、バヤンオボーを出ていくかという選択を迫られた</span
-        >のです。
-        また資源開発によって大気が汚染されたり地下水が変色したりして、現地の人々への<span
-          class="force_text"
-          >健康被害</span
-        >も懸念されるようになりました。
-        私たちは、普段使っているスマホや家電がこうした犠牲の上に成り立っているということを自覚しなければなりません。
-      </p>
-      <aside class="column">
-        <div class="column_title">ケータイゴリラ</div>
-        <div class="column_content">
-          皆さんは「ケータイゴリラ」という言葉を聞いたことがありますか。
-          これは、<span class="force_text"
-            >私たちが使っている携帯電話が間接的にゴリラの絶滅につながっているかもしれない</span
-          >ということを表す言葉です。
-          携帯電話とゴリラが関係しているとは意外ですよね。
-          その具体的な過程を説明をすると、<span
-            class="summary_link"
-            id="s_5"
-          ></span>
-          <ol>
-            <li>私たちが携帯電話を使います。</li>
-            <li>
-              その携帯電話には様々なレアメタルが使われています。ここではそのレアメタルの一例としてタンタルを取り上げてみます。
-            </li>
-            <li>
-              そのタンタルはコンゴ周辺に偏在しており、ここで多く採掘されています。
-            </li>
-            <li>
-              ところが、採掘者たちは採掘途中でゴリラに出会うと自らの身を守るためにそのゴリラたちを殺します。もしくは、前に説明したように現地では資源をめぐる紛争が起こっており、それに巻き込まれたり生息地のジャングルを荒らされたりして死んでしまうゴリラもいます。
-            </li>
-          </ol>
-          このようにして<span class="force_text"
-            >ゴリラの生息数が減ってしまう</span
-          >というわけです。
-          資源問題と動物の絶滅問題は一見無関係に思われますが、実は密接につながっているのです。
-          この問題をなくすにはどうすればよいのでしょうか？
-          その答の1つとして<span class="force_text"
-            >採掘する金属資源の量を抑える</span
-          >ということが挙げられます。 そしてこの実現には、次の章で紹介する<span
+          <!--suppress HtmlUnknownAttribute -->
+          は自動車やパソコン、スマホなどの最新技術に欠かせません。
+          そのため、政治面はともかく技術面が発展している国が増えている今、入手困難な資源や需要が急増した資源を求める営みによって生態系が乱されたり、村々が破壊されたりすることがあります。
+          よく中東で石油を求めて紛争が勃発し、犠牲者が多数出た...というニュースは耳にしますよね。
+          実は<span class="force_text">金属資源をめぐる戦争</span
+          >というものもあり、それによって多数の人が命を落としました。
+          この章ではそうした戦地の代表例であるコンゴ民主共和国について少し紹介したいと思います。
+        </p>
+
+        <p>
+          アフリカ大陸中央部に位置するコンゴ民主共和国は金属資源が豊富で、収入源の多くを資源の輸出に頼ってきました。
+          そんなコンゴ民主共和国では２回大きな紛争がありました。
+          それは第一次コンゴ戦争、第二次コンゴ戦争と呼ばれます。
+          紛争のきっかけはコンゴ民主共和国の隣国、ルワンダでの民族間問題でした。
+          この紛争にコンゴ民主共和国周辺のな国が介入し、紛争規模が拡大していった結果、540万人以上の人々が命を落としました。
+          紛争が終わったとされる現在でも多くの難民が祖国に戻れないまま避難生活を続けています。
+        </p>
+        <p>
+          一見資源と関わりがないように思えますが、実はコンゴ紛争に周りの国が介入した目的の１つに<span
             class="force_text"
-            >「都市鉱山」</span
-          >というものが重要なキーとなっているのです！
+            >資源の確保</span
+          >がありました。<span class="summary_link" id="s_6"></span>
+          コンゴ民主共和国の豊富な資源を得ようとするがために軍事協力をしたのです。
+          さらに、現地の資源を強制的に奪おうとする集団も現れました。
+          つまり、周辺諸国は<span class="force_text"
+            >資源を確保するためにコンゴ民主共和国の人々を都合よく利用し、それによって非常に多くの人の命が奪われた</span
+          >のです。
+        </p>
+        <p>
+          この話は日本ではあまり知られていないのかもしれません。
+          遠く離れた国のことなのでそれは仕方のないことだと思います。
+          しかし、こうした国から日本が恩恵を受けてきたのは紛れもない事実です。
+          この話は私たちが知らなければいけないことの１つなのかもしれません。
+        </p>
+        <p class="no_indent">
+          <small
+            >※なお、この話は国連の人道支援活動をメディアが報じたために広く知られるようになりました。
+            私たちが知らない悲劇はまだたくさんあるはずです。
+            このような犠牲者がなくなることを心から願います。
+          </small>
+        </p>
+
+        <p>
+          また、資源が採れる場所に住む人々への対応にも問題があるのは確かです。<span
+            class="summary_link"
+            id="s_7"
+          ></span>
+          中国のバヤンオボー鉱山は豊富な金属資源を含んでおり、中国の主な鉱床となっています。
+          そんなバヤンオボーがある包頭市は採掘が進められるにつれてたくさんの工場が建てられ、町が整備されていきました。
+          そんな中バヤンオボーの現地の人々は多大な犠牲を払わされました。
+          というのは、<span class="force_text"
+            >かつての農地を奪われたうえで、採掘業に雇われるか、バヤンオボーを出ていくかという選択を迫られた</span
+          >のです。
+          また資源開発によって大気が汚染されたり地下水が変色したりして、現地の人々への<span
+            class="force_text"
+            >健康被害</span
+          >も懸念されるようになりました。
+          私たちは、普段使っているスマホや家電がこうした犠牲の上に成り立っているということを自覚しなければなりません。
+        </p>
+        <aside class="column">
+          <div class="column_title">ケータイゴリラ</div>
+          <div class="column_content">
+            皆さんは「ケータイゴリラ」という言葉を聞いたことがありますか。
+            これは、<span class="force_text"
+              >私たちが使っている携帯電話が間接的にゴリラの絶滅につながっているかもしれない</span
+            >ということを表す言葉です。
+            携帯電話とゴリラが関係しているとは意外ですよね。
+            その具体的な過程を説明をすると、<span
+              class="summary_link"
+              id="s_5"
+            ></span>
+            <ol>
+              <li>私たちが携帯電話を使います。</li>
+              <li>
+                その携帯電話には様々なレアメタルが使われています。ここではそのレアメタルの一例としてタンタルを取り上げてみます。
+              </li>
+              <li>
+                そのタンタルはコンゴ周辺に偏在しており、ここで多く採掘されています。
+              </li>
+              <li>
+                ところが、採掘者たちは採掘途中でゴリラに出会うと自らの身を守るためにそのゴリラたちを殺します。もしくは、前に説明したように現地では資源をめぐる紛争が起こっており、それに巻き込まれたり生息地のジャングルを荒らされたりして死んでしまうゴリラもいます。
+              </li>
+            </ol>
+            このようにして<span class="force_text"
+              >ゴリラの生息数が減ってしまう</span
+            >というわけです。
+            資源問題と動物の絶滅問題は一見無関係に思われますが、実は密接につながっているのです。
+            この問題をなくすにはどうすればよいのでしょうか？
+            その答の1つとして<span class="force_text"
+              >採掘する金属資源の量を抑える</span
+            >ということが挙げられます。
+            そしてこの実現には、次の章で紹介する<span class="force_text"
+              >「都市鉱山」</span
+            >というものが重要なキーとなっているのです！
+          </div>
+        </aside>
+
+        <h2 id="まとめ図解">まとめ図解</h2>
+        <div class="image_container">
+          <svg
+            viewBox="0, 0, 1000, 750"
+            style="width: 80vw; height: 60vw; margin: 5vh 0 5vh"
+          >
+            <use xlink:href="../svg/summary_illust/A.svg#main"></use>
+          </svg>
         </div>
-      </aside>
 
-      <h2 id="まとめ図解">まとめ図解</h2>
-      <div class="image_container">
-        <svg
-          viewBox="0, 0, 1000, 750"
-          style="width: 80vw; height: 60vw; margin: 5vh 0 5vh"
-        >
-          <use xlink:href="../svg/summary_illust/A.svg#main"></use>
-        </svg>
+        <p>
+          こうして見ると、あらゆる事柄が何らかの関係で結びついていることがわかりますね。
+          今ある問題をどうすれば解決できるのか、今解決すべき問題から因果関係を辿って考えてみてください。
+        </p>
+        <h2 id="参考文献">参考文献</h2>
+        <p class="no_indent">
+          『図解よくわかる「都市鉱山」開発』（原田幸明・醍醐市朗、日刊工業新聞社・2011年8月1日）<br />
+          『資源論　メタル・石油埋蔵量の成長と枯渇』（西山孝、丸善出版・2016年4月12日）<br />
+          『レア RARE 希少金属の知っておきたい16話』（キース
+          ベロニース　著・渡辺正　翻訳、化学同人・2016年3月10日）<br />
+          <a
+            href="http://www.pp.u-tokyo.ac.jp/graspp-old/courses/2010/documents/graspp2010-5150010-4.pdf"
+            alt=""
+            >現代アフリカにおける資源収奪と紛争解決
+            ―紛争資源を対象とするターゲット制裁は紛争解決をもたらすか―</a
+          ><br />
+          <a
+            href="https://www.huffingtonpost.jp/kanta-hara/540_media_b_10214318.html"
+            alt=""
+            >HUFFPOST「死者540万人以上－日本のメディアは報じない、コンゴ紛争とハイテク産業の繋がり」</a
+          ><br /><a
+            href="http://jsmcwm.or.jp/edit/kurashi/05/080hani.pdf"
+            alt=""
+            >ケータイゴリラ「ケータイゴリラ
+            ゴリラを守れ！携帯電話回収キャンペーン」</a
+          ><br />
+          <a href="https://www.jsps.go.jp/j-jisedai/data/05bunyahyo.pdf" alt=""
+            >別表 専門分野等一覧表</a
+          >
+        </p>
+
+        <div id="pn_bar">
+          <a href="../" id="prev_link">
+            <div id="prev_text"></div>
+            <button id="prev_button">Prev</button>
+          </a>
+
+          <a href="../urban-mining/" id="next_link">
+            <div id="next_text"></div>
+            <button id="next_button">Next</button>
+          </a>
+        </div>
+
+        <div id="floating_menu">
+          <!--suppress BadExpressionStatementJS -->
+          <div id="toc">
+            <div id="toc_title">目次</div>
+            <a class="toc_link_h1" href="#資源の現状">資源の現状</a
+            ><a class="toc_link_h2" href="#金属資源について">金属資源について</a
+            ><a class="toc_link_h2" href="#生産量の増加">生産量の増加</a
+            ><a class="toc_link_h2" href="#資源の偏在">資源の偏在</a
+            ><a class="toc_link_h2" href="#経済発展の裏側">経済発展の裏側</a
+            ><a class="toc_link_h2" href="#まとめ図解">まとめ図解</a
+            ><a class="toc_link_h2" href="#参考文献">参考文献</a>
+          </div>
+
+          <!--suppress BadExpressionStatementJS --><button
+            id="lang_button"
+            onclick="changeLang()"
+          >
+            <span id="lang_text"></span>
+            <script>
+              function setLang(lang) {
+                sessionStorage.setItem("lang", lang)
+                switch (lang) {
+                  case "ja":
+                    document.getElementById("lang_en").style.display = "none"
+                    document.getElementById("lang_jp").style.display = "block"
+                    break
+                  case "en":
+                    document.getElementById("lang_en").style.display = "block"
+                    document.getElementById("lang_jp").style.display = "none"
+                }
+                updateButton()
+              }
+
+              function changeLang() {
+                switch (sessionStorage.getItem("lang")) {
+                  case "en":
+                    setLang("ja")
+                    break
+                  case "ja":
+                  default:
+                    setLang("en")
+                    break
+                }
+                updateButton()
+              }
+
+              function updateButton() {
+                switch (sessionStorage.getItem("lang")) {
+                  case "ja":
+                    document
+                      .querySelectorAll("#lang_text")
+                      .forEach((el) => (el.innerHTML = "English"))
+                    break
+                  case "en":
+                    document
+                      .querySelectorAll("#lang_text")
+                      .forEach((el) => (el.innerHTML = "日本語"))
+                    break
+                }
+              }
+              window.onload = () => setLang(sessionStorage.getItem("lang"))
+            </script>
+          </button>
+        </div>
       </div>
+      <div id="lang_en">
+        <div id="floating_menu">
+          <!--suppress BadExpressionStatementJS -->
+          <div id="toc">
+            <div id="toc_title">目次</div>
+            <a class="toc_link_" href="#undefined">undefined</a>
+          </div>
 
-      <p>
-        こうして見ると、あらゆる事柄が何らかの関係で結びついていることがわかりますね。
-        今ある問題をどうすれば解決できるのか、今解決すべき問題から因果関係を辿って考えてみてください。
-      </p>
-      <h2 id="参考文献">参考文献</h2>
-      <p class="no_indent">
-        『図解よくわかる「都市鉱山」開発』（原田幸明・醍醐市朗、日刊工業新聞社・2011年8月1日）<br />
-        『資源論　メタル・石油埋蔵量の成長と枯渇』（西山孝、丸善出版・2016年4月12日）<br />
-        『レア RARE 希少金属の知っておきたい16話』（キース
-        ベロニース　著・渡辺正　翻訳、化学同人・2016年3月10日）<br />
-        <a
-          href="http://www.pp.u-tokyo.ac.jp/graspp-old/courses/2010/documents/graspp2010-5150010-4.pdf"
-          alt=""
-          >現代アフリカにおける資源収奪と紛争解決
-          ―紛争資源を対象とするターゲット制裁は紛争解決をもたらすか―</a
-        ><br />
-        <a
-          href="https://www.huffingtonpost.jp/kanta-hara/540_media_b_10214318.html"
-          alt=""
-          >HUFFPOST「死者540万人以上－日本のメディアは報じない、コンゴ紛争とハイテク産業の繋がり」</a
-        ><br /><a href="http://jsmcwm.or.jp/edit/kurashi/05/080hani.pdf" alt=""
-          >ケータイゴリラ「ケータイゴリラ
-          ゴリラを守れ！携帯電話回収キャンペーン」</a
-        ><br />
-        <a href="https://www.jsps.go.jp/j-jisedai/data/05bunyahyo.pdf" alt=""
-          >別表 専門分野等一覧表</a
-        >
-      </p>
+          <!--suppress BadExpressionStatementJS --><button
+            id="lang_button"
+            onclick="changeLang()"
+          >
+            <span id="lang_text"></span>
+            <script>
+              function setLang(lang) {
+                sessionStorage.setItem("lang", lang)
+                switch (lang) {
+                  case "ja":
+                    document.getElementById("lang_en").style.display = "none"
+                    document.getElementById("lang_jp").style.display = "block"
+                    break
+                  case "en":
+                    document.getElementById("lang_en").style.display = "block"
+                    document.getElementById("lang_jp").style.display = "none"
+                }
+                updateButton()
+              }
 
-      <div id="pn_bar">
-        <a href="../" id="prev_link">
-          <div id="prev_text"></div>
-          <button id="prev_button">Prev</button>
-        </a>
+              function changeLang() {
+                switch (sessionStorage.getItem("lang")) {
+                  case "en":
+                    setLang("ja")
+                    break
+                  case "ja":
+                  default:
+                    setLang("en")
+                    break
+                }
+                updateButton()
+              }
 
-        <a href="../urban-mining/" id="next_link">
-          <div id="next_text"></div>
-          <button id="next_button">Next</button>
-        </a>
+              function updateButton() {
+                switch (sessionStorage.getItem("lang")) {
+                  case "ja":
+                    document
+                      .querySelectorAll("#lang_text")
+                      .forEach((el) => (el.innerHTML = "English"))
+                    break
+                  case "en":
+                    document
+                      .querySelectorAll("#lang_text")
+                      .forEach((el) => (el.innerHTML = "日本語"))
+                    break
+                }
+              }
+              window.onload = () => setLang(sessionStorage.getItem("lang"))
+            </script>
+          </button>
+        </div>
       </div>
     </main>
     <button

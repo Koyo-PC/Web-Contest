@@ -406,6 +406,57 @@
       #prev_link {
         float: left;
       }
+      #lang_button {
+        background-color: whitesmoke;
+        border: none;
+        color: black;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        position: relative;
+        width: 100%;
+      }
+      #toc {
+        padding: 10px;
+      }
+      #toc_title {
+        width: 100%;
+        text-align: center;
+      }
+      [class^="toc_link_"] {
+        display: block;
+        text-decoration: none;
+        color: black;
+        scroll-behavior: smooth;
+      }
+      [class^="toc_link_"]:hover {
+        color: gray;
+      }
+      .toc_link_h1 {
+        margin-left: 0;
+      }
+      .toc_link_h2 {
+        margin-left: 10px;
+      }
+      .toc_link_h3 {
+        margin-left: 20px;
+      }
+      .toc_link_h4 {
+        margin-left: 30px;
+      }
+      #floating_menu {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        z-index: 100;
+        width: 200px;
+        display: block;
+        background-color: #0004;
+      }
       .no_indent {
         text-indent: 0;
       }
@@ -673,87 +724,150 @@
     </script>
 
     <main>
-      <h1 id="アクティビティ">アクティビティ</h1>
-      <p class="no_indent">私たちの行った活動について紹介します。</p>
+      <div id="lang_jp">
+        <h1 id="アクティビティ">アクティビティ</h1>
+        <p class="no_indent">私たちの行った活動について紹介します。</p>
 
-      <div class="image_links">
-        <a href="./questionnaire.html" class="activity_thumbnail_link">
-          <img
-            class="activity_thumbnail_image"
-            src="../img/activity/questionnaire.jpg"
-          />
-          <span style="z-index: 10">アンケート</span>
-        </a>
+        <div class="image_links">
+          <a href="./questionnaire.html" class="activity_thumbnail_link">
+            <img
+              class="activity_thumbnail_image"
+              src="../img/activity/questionnaire.jpg"
+            />
+            <span style="z-index: 10">アンケート</span>
+          </a>
 
-        <a href="./recycle-box.html" class="activity_thumbnail_link">
-          <img
-            class="activity_thumbnail_image"
-            src="../img/activity/recycle-box.jpg"
-          />
-          <span style="z-index: 10">回収ボックス</span>
-        </a>
+          <a href="./recycle-box.html" class="activity_thumbnail_link">
+            <img
+              class="activity_thumbnail_image"
+              src="../img/activity/recycle-box.jpg"
+            />
+            <span style="z-index: 10">回収ボックス</span>
+          </a>
 
-        <a href="./interview.html" class="activity_thumbnail_link">
-          <img
-            class="activity_thumbnail_image"
-            src="../img/activity/interview.jpg"
-          />
-          <span style="z-index: 10">インタビュー</span>
-        </a>
+          <a href="./interview.html" class="activity_thumbnail_link">
+            <img
+              class="activity_thumbnail_image"
+              src="../img/activity/interview.jpg"
+            />
+            <span style="z-index: 10">インタビュー</span>
+          </a>
 
-        <a href="./petec.html" class="activity_thumbnail_link">
-          <img
-            class="activity_thumbnail_image"
-            src="../img/activity/petec.jpg"
-          />
-          <span style="z-index: 10">工場見学</span>
-        </a>
+          <a href="./petec.html" class="activity_thumbnail_link">
+            <img
+              class="activity_thumbnail_image"
+              src="../img/activity/petec.jpg"
+            />
+            <span style="z-index: 10">工場見学</span>
+          </a>
 
-        <a href="./disassembly.html" class="activity_thumbnail_link">
-          <img
-            class="activity_thumbnail_image"
-            src="../img/activity/disassembly.jpg"
-          />
-          <span style="z-index: 10">携帯解体</span>
-        </a>
+          <a href="./disassembly.html" class="activity_thumbnail_link">
+            <img
+              class="activity_thumbnail_image"
+              src="../img/activity/disassembly.jpg"
+            />
+            <span style="z-index: 10">携帯解体</span>
+          </a>
+        </div>
+
+        <h2 id="謝辞">謝辞</h2>
+        <p>
+          東京大学先端科学技術研究センター准教授・醍醐市朗先生にはZoomインタビューにご協力いただきました。PETEC様には見学にご協力いただきました。また本校生徒にはアンケートにご協力いただきました。ここに記して感謝致します。ありがとうございました。
+        </p>
+        <h2 id="参考文献">参考文献</h2>
+        <p class="no_indent">
+          <a
+            href="https://743c8380-22c6-4457-9895-11872f2a708a.filesusr.com/ugd/0af79c_8e5a3e6ece1d4b6a9db69465a1007eb0.pdf"
+            >bio by Deloitte「Increased EU Plastics Recycling Targets:
+            Environmental, Economic and Social Impact Assessment Final
+            Report」</a
+          ><br />
+          <a href="http://susdi.org/wp/data/post-38/"
+            >susdi「携帯に含まれる成分％」</a
+          ><br />
+          <a
+            href="https://www.ciaj.or.jp/news/press_releases/pressreleases_past_issue/pressrelease2020/6058.html"
+            >一般社団法人 情報通信ネットワーク産業協会</a
+          ><br />
+          <a href="https://www.env.go.jp/press/106879.html"
+            >環境省「平成30年度における家電リサイクル実績について」</a
+          ><br />
+          <a href="https://panasonic.co.jp/eco/petec/"
+            >パナソニック エコテクノロジーセンターHP</a
+          >
+        </p>
+
+        <div id="pn_bar">
+          <a href="../measure/" id="prev_link">
+            <div id="prev_text"></div>
+            <button id="prev_button">Prev</button>
+          </a>
+
+          <a href="../solution/" id="next_link">
+            <div id="next_text"></div>
+            <button id="next_button">Next</button>
+          </a>
+        </div>
       </div>
+      <div id="lang_en">
+        <div id="floating_menu">
+          <!--suppress BadExpressionStatementJS -->
+          <div id="toc">
+            <div id="toc_title">目次</div>
+            <a class="toc_link_" href="#undefined">undefined</a>
+          </div>
 
-      <h2 id="謝辞">謝辞</h2>
-      <p>
-        東京大学先端科学技術研究センター准教授・醍醐市朗先生にはZoomインタビューにご協力いただきました。PETEC様には見学にご協力いただきました。また本校生徒にはアンケートにご協力いただきました。ここに記して感謝致します。ありがとうございました。
-      </p>
-      <h2 id="参考文献">参考文献</h2>
-      <p class="no_indent">
-        <a
-          href="https://743c8380-22c6-4457-9895-11872f2a708a.filesusr.com/ugd/0af79c_8e5a3e6ece1d4b6a9db69465a1007eb0.pdf"
-          >bio by Deloitte「Increased EU Plastics Recycling Targets:
-          Environmental, Economic and Social Impact Assessment Final Report」</a
-        ><br />
-        <a href="http://susdi.org/wp/data/post-38/"
-          >susdi「携帯に含まれる成分％」</a
-        ><br />
-        <a
-          href="https://www.ciaj.or.jp/news/press_releases/pressreleases_past_issue/pressrelease2020/6058.html"
-          >一般社団法人 情報通信ネットワーク産業協会</a
-        ><br />
-        <a href="https://www.env.go.jp/press/106879.html"
-          >環境省「平成30年度における家電リサイクル実績について」</a
-        ><br />
-        <a href="https://panasonic.co.jp/eco/petec/"
-          >パナソニック エコテクノロジーセンターHP</a
-        >
-      </p>
+          <!--suppress BadExpressionStatementJS --><button
+            id="lang_button"
+            onclick="changeLang()"
+          >
+            <span id="lang_text"></span>
+            <script>
+              function setLang(lang) {
+                sessionStorage.setItem("lang", lang)
+                switch (lang) {
+                  case "ja":
+                    document.getElementById("lang_en").style.display = "none"
+                    document.getElementById("lang_jp").style.display = "block"
+                    break
+                  case "en":
+                    document.getElementById("lang_en").style.display = "block"
+                    document.getElementById("lang_jp").style.display = "none"
+                }
+                updateButton()
+              }
 
-      <div id="pn_bar">
-        <a href="../measure/" id="prev_link">
-          <div id="prev_text"></div>
-          <button id="prev_button">Prev</button>
-        </a>
+              function changeLang() {
+                switch (sessionStorage.getItem("lang")) {
+                  case "en":
+                    setLang("ja")
+                    break
+                  case "ja":
+                  default:
+                    setLang("en")
+                    break
+                }
+                updateButton()
+              }
 
-        <a href="../solution/" id="next_link">
-          <div id="next_text"></div>
-          <button id="next_button">Next</button>
-        </a>
+              function updateButton() {
+                switch (sessionStorage.getItem("lang")) {
+                  case "ja":
+                    document
+                      .querySelectorAll("#lang_text")
+                      .forEach((el) => (el.innerHTML = "English"))
+                    break
+                  case "en":
+                    document
+                      .querySelectorAll("#lang_text")
+                      .forEach((el) => (el.innerHTML = "日本語"))
+                    break
+                }
+              }
+              window.onload = () => setLang(sessionStorage.getItem("lang"))
+            </script>
+          </button>
+        </div>
       </div>
     </main>
     <button

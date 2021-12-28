@@ -655,6 +655,57 @@
       #prev_link {
         float: left;
       }
+      #lang_button {
+        background-color: whitesmoke;
+        border: none;
+        color: black;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        position: relative;
+        width: 100%;
+      }
+      #toc {
+        padding: 10px;
+      }
+      #toc_title {
+        width: 100%;
+        text-align: center;
+      }
+      [class^="toc_link_"] {
+        display: block;
+        text-decoration: none;
+        color: black;
+        scroll-behavior: smooth;
+      }
+      [class^="toc_link_"]:hover {
+        color: gray;
+      }
+      .toc_link_h1 {
+        margin-left: 0;
+      }
+      .toc_link_h2 {
+        margin-left: 10px;
+      }
+      .toc_link_h3 {
+        margin-left: 20px;
+      }
+      .toc_link_h4 {
+        margin-left: 30px;
+      }
+      #floating_menu {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        z-index: 100;
+        width: 200px;
+        display: block;
+        background-color: #0004;
+      }
       .no_indent {
         text-indent: 0;
       }
@@ -922,567 +973,700 @@
     </script>
 
     <main>
-      <h1 id="都市鉱山の意義">都市鉱山の意義</h1>
-      <p>
-        資源問題解決の1つの手がかりとなる都市鉱山。
-        それは一体どのようなものなのでしょうか。
-      </p>
-      <h2 id="レアメタルとメジャーメタル">レアメタルとメジャーメタル</h2>
-      <p>
-        なぜ人はそこまで<span class="word"
-          ><span class="word_text">金属資源</span>
-          <span class="word_description_container">
-            <span class="word_description">
-              <span class="word_description_title">金属資源</span>
-              <span class="word_description_text" style="line-height: 1.5rem"
-                >鉱物資源の一種。さらにレアメタル、マイナーメタルに分けられる。</span
-              >
-            </span>
-          </span>
-        </span>
-
-        <!--suppress HtmlUnknownAttribute -->
-        を求めるのでしょうか。それは金属資源が家電や最新技術に欠かせないものだからです。ここではそんな金属資源についてもっと詳しく解説していこうと思います。
-        今までは金属資源という言葉を使ってきましたが、実はそれには二種類あります。その二種類とは<span
-          class="word"
-          ><span class="word_text">マイナーメタル</span>
-          <span class="word_description_container">
-            <span class="word_description">
-              <span class="word_description_title">マイナーメタル</span>
-              <span class="word_description_text" style="line-height: 1.5rem"
-                >1.地殻中の存在量が比較的少ない元素<br />2.単体として取り出すことが技術的に困難な元素<br />3.資源の産出国が偏在している<br />を満たす元素のことを言い、現代の産業に欠かせない”産業のビタミン”と呼ばれる。別名レアメタル。</span
-              >
-            </span>
-          </span>
-        </span>
-
-        <!--suppress HtmlUnknownAttribute -->
-        と<span class="word"
-          ><span class="word_text">メジャーメタル</span>
-          <span class="word_description_container">
-            <span class="word_description">
-              <span class="word_description_title">メジャーメタル</span>
-              <span class="word_description_text" style="line-height: 1.5rem"
-                >鉄、銅、亜鉛、アルミニウムなどの精錬が容易で大量に存在する金属のこと。別名ベースメタル。</span
-              >
-            </span>
-          </span>
-        </span>
-
-        <!--suppress HtmlUnknownAttribute -->
-        です。
-        メジャーメタルとは鉄、銅、亜鉛、アルミニウムなどの精錬が容易で大量に存在する金属のことであり、それ以外の金属のことをマイナーメタルと呼びます。
-        ただし、存在量は少なくてもメジャーメタルに分類される元素（金、銀など6種類）もあります。
-      </p>
-      <p class="no_indent">
-        <small>
-          ※
-          なお、日本ではマイナーメタルをレアメタルと呼ぶことが多いため、当サイトでも以降、レアメタルと呼ぶことにします。
-        </small>
-      </p>
-
-      <p>
-        レアメタルという言葉は皆さんも聞いたことがあるのではないでしょうか？
-        レアメタルは、
-      </p>
-      <ol>
-        <li>地殻中の存在量が比較的少ない元素</li>
-        <li>単体として取り出すことが技術的に困難な元素</li>
-        <li>資源の産出国が偏在している元素</li>
-      </ol>
-
-      <p>
-        の３つを満たす元素のことを指し、リチウムやクロムなど47種類の元素で構成されています。
-      </p>
-      <div class="image_container">
-        <figure class="image_box">
-          <img
-            class="image"
-            src="../img/urban-mining/periodic_table.png"
-            alt=""
-          />
-          <div class="note"><a class="href" href=""></a></div>
-          <figcaption class="image_caption"></figcaption>
-        </figure>
-      </div>
-
-      <p>
-        メジャーメタルは電線や各種ケーブル、メッキ、などに利用される一方で、レアメタルは、超伝導材料や形状記憶合金、水素吸蔵合金としてIT関連分野や環境保全などハイテク分野に使われており、携帯電話、パソコン、自動車、テレビ、腕時計、ドライヤーなどの身近なものに欠かせないものとなっています。（図１）
-        このことからレアメタルは<span class="force_text"
-          >「産業のビタミン」</span
-        >と呼ばれることがあります。
-        携帯電話については実際に解体しました。実験の様子は<a
-          href="../activity/disassembly.html"
-          >こちら</a
-        >から
-      </p>
-      <figure class="table_figure">
-        <table>
-          <tr>
-            <th></th>
-            <th>金</th>
-            <th>銀</th>
-            <th>銅</th>
-            <th>鉄</th>
-            <th>アルミニウム</th>
-          </tr>
-          <tr>
-            <td>携帯電話</td>
-            <td>0.04</td>
-            <td>0.23</td>
-            <td>10.82</td>
-            <td>1.17</td>
-            <td>0.64</td>
-          </tr>
-          <tr>
-            <td>ノートパソコン</td>
-            <td>0.27</td>
-            <td>0.31</td>
-            <td>59.25</td>
-            <td>13.26</td>
-            <td>7.34</td>
-          </tr>
-          <tr>
-            <td>デスクトップパソコン</td>
-            <td>0.36</td>
-            <td>0.93</td>
-            <td>344.43</td>
-            <td>22.96</td>
-            <td>82.01</td>
-          </tr>
-        </table>
-        <figcaption style="white-space: nowrap">
-          1台あたりのレアメタル含有量を示したものです。※単位はg
-          <a
-            href="https://www.env.go.jp/council/former2013/03haiki/y0324-04/mat02a.pdf"
-            >出典</a
-          ><br />
-          数値の算出方法：（年間の含有量）/（年間排出台数）の値を少数第3位で四捨五入
-        </figcaption>
-      </figure>
-
-      <!--suppress ALL -->
-      <div class="atom_chara" style="width: 100%; margin: 50px 0">
-        <div class="atom_chara_icon">
-          <img
-            class="atom_chara_img"
-            src="../img/atom_chara/Li.png"
-            alt="リチウムくんのアイコン"
-          />
-          <div class="atom_chara_name">リチウムくん</div>
-        </div>
-        <div class="atom_chara_content">
-          <span
-            >レアメタルの「レア」は「少ない」という意味じゃなくて、「単離や加工がしにくく、需要が多くて品薄になりやすい」という意味なんだね。</span
-          >
-        </div>
-      </div>
-
-      <!--suppress HtmlUnknownAttribute -->
-
-      <p class="no_indent">
-        <small>
-          ※金属資源はレアメタル、メジャーメタル、<span class="word"
-            ><span class="word_text">貴金属</span>
+      <div id="lang_jp">
+        <h1 id="都市鉱山の意義">都市鉱山の意義</h1>
+        <p>
+          資源問題解決の1つの手がかりとなる都市鉱山。
+          それは一体どのようなものなのでしょうか。
+        </p>
+        <h2 id="レアメタルとメジャーメタル">レアメタルとメジャーメタル</h2>
+        <p>
+          なぜ人はそこまで<span class="word"
+            ><span class="word_text">金属資源</span>
             <span class="word_description_container">
               <span class="word_description">
-                <span class="word_description_title">貴金属</span>
+                <span class="word_description_title">金属資源</span>
                 <span class="word_description_text" style="line-height: 1.5rem"
-                  >金 (Au)、銀 (Ag)、白金 (Pt)、パラジウム (Pd)、ロジウム
-                  (Rh)、イリジウム (Ir)、ルテニウム (Ru)、オスミウム (Os)
-                  、レニウム(Re)を総称して言う。</span
+                  >鉱物資源の一種。さらにレアメタル、マイナーメタルに分けられる。</span
                 >
               </span>
             </span>
           </span>
 
           <!--suppress HtmlUnknownAttribute -->
-          の3種類に分類されることもあります。その場合、金や銀などを含めた9種類の元素が貴金属に属します。
-        </small>
-      </p>
-
-      <h2 id="都市鉱山とは">都市鉱山とは</h2>
-      <p>
-        前述のような資源問題に対して南條道夫教授（当時東北大学選鉱製錬研究所教授）が1988年に提唱された考えが都市鉱山と呼ばれるものであり、このサイトのメインテーマです。<span
-          class="summary_link"
-          id="s_0"
-        ></span>
-        まず、この都市鉱山の定義は、 ”都市鉱山（としこうざん、英語: urban
-        mining,
-        e-waste）とは、都市でゴミとして大量に廃棄される家電製品などの中に存在する有用な資源（<span
-          class="word"
-          ><span class="word_text">レアメタル</span>
-          <span class="word_description_container">
-            <span class="word_description">
-              <span class="word_description_title">レアメタル</span>
-              <span class="word_description_text" style="line-height: 1.5rem"
-                >1.地殻中の存在量が比較的少ない元素　<br />
-                2.単体として取り出すことが技術的に困難な元素<br />3.資源の産出国が偏在している<br />を満たす元素のことを言い、現代の産業に欠かせない”産業のビタミン”と呼ばれる。別名マイナーメタル。</span
-              >
+          を求めるのでしょうか。それは金属資源が家電や最新技術に欠かせないものだからです。ここではそんな金属資源についてもっと詳しく解説していこうと思います。
+          今までは金属資源という言葉を使ってきましたが、実はそれには二種類あります。その二種類とは<span
+            class="word"
+            ><span class="word_text">マイナーメタル</span>
+            <span class="word_description_container">
+              <span class="word_description">
+                <span class="word_description_title">マイナーメタル</span>
+                <span class="word_description_text" style="line-height: 1.5rem"
+                  >1.地殻中の存在量が比較的少ない元素<br />2.単体として取り出すことが技術的に困難な元素<br />3.資源の産出国が偏在している<br />を満たす元素のことを言い、現代の産業に欠かせない”産業のビタミン”と呼ばれる。別名レアメタル。</span
+                >
+              </span>
             </span>
           </span>
-        </span>
 
-        <!--suppress HtmlUnknownAttribute -->
-        など）を鉱山に見立てたものである。” とされています。（<a
-          href="https://ja.wikipedia.org/wiki/%E9%83%BD%E5%B8%82%E9%89%B1%E5%B1%B1"
-          style="text-decoration: none"
-          >Wikipediaより</a
-        >）
-        この都市鉱山について、データを交えながら詳しく見ていきましょう。<span
-          class="summary_link"
-          id="s_3"
-        ></span>
-        下のグラフは主な金属資源の<span class="word"
-          ><span class="word_text">一次資源</span>
-          <span class="word_description_container">
-            <span class="word_description">
-              <span class="word_description_title">一次資源</span>
-              <span class="word_description_text" style="line-height: 1.5rem"
-                >まだ地中から掘り出されていない地下資源。</span
-              >
+          <!--suppress HtmlUnknownAttribute -->
+          と<span class="word"
+            ><span class="word_text">メジャーメタル</span>
+            <span class="word_description_container">
+              <span class="word_description">
+                <span class="word_description_title">メジャーメタル</span>
+                <span class="word_description_text" style="line-height: 1.5rem"
+                  >鉄、銅、亜鉛、アルミニウムなどの精錬が容易で大量に存在する金属のこと。別名ベースメタル。</span
+                >
+              </span>
             </span>
           </span>
-        </span>
 
-        <!--suppress HtmlUnknownAttribute -->
-        と<span class="word"
-          ><span class="word_text">二次資源</span>
-          <span class="word_description_container">
-            <span class="word_description">
-              <span class="word_description_title">二次資源</span>
-              <span class="word_description_text" style="line-height: 1.5rem"
-                >地中から既に掘り出された地上資源。</span
-              >
-            </span>
-          </span>
-        </span>
-
-        <!--suppress HtmlUnknownAttribute -->
-        の量を示したものです。
-      </p>
-      <div class="image_container">
-        <figure class="image_box" style="height: 40vw">
-          <img class="image" src="../assets/jim/151.jpg" alt="" />
-          <div class="note">
-            日本金属学会より引用<a
-              class="href"
-              href="https://www.jim.or.jp/journal/j/pdf3/73/03/151.pdf"
-            ></a>
-          </div>
-          <figcaption class="image_caption"></figcaption>
-        </figure>
-      </div>
-
-      <p>
-        これを見れば全体の資源のうち<span class="force_text"
-          >半分以上がすでに掘り出された二次資源 である</span
-        >ことがわかります。
-        したがって、資源確保が重要な今、携帯電話のような小型家電などに含まれている<span
-          class="word"
-          ><span class="word_text">二次資源</span>
-          <span class="word_description_container">
-            <span class="word_description">
-              <span class="word_description_title">二次資源</span>
-              <span class="word_description_text" style="line-height: 1.5rem"
-                >地中から既に掘り出された地上資源。</span
-              >
-            </span>
-          </span>
-        </span>
-
-        <!--suppress HtmlUnknownAttribute -->
-        を回収するのがカギとなっています。
-        ここまで読むと、そのような小型家電がただのゴミではなく<span
-          class="force_text"
-          >有益な資源</span
-        >に思えてきたのではないでしょうか。
-        2021年に新たにゴミとなる小型家電の量は5740万トンにも上り、それは今後も増えていくと予想されています。
-      </p>
-      <div class="image_container">
-        <figure class="image_box" style="height: 40vw">
-          <img class="image" src="../assets/statista/1067081.png" alt="" />
-          <div class="note">
-            Statistaより引用<a
-              class="href"
-              href="https://www.statista.com/statistics/1067081/generation-electronic-waste-globally-forecast/"
-            ></a>
-          </div>
-          <figcaption class="image_caption"></figcaption>
-        </figure>
-      </div>
-
-      <p>この大量の有益な資源を鉱山に見立てたのが都市鉱山なのです！</p>
-      <h2 id="日本における都市鉱山">日本における都市鉱山</h2>
-      <blockquote class="quote">
-        <p>
-          ジパングは大陸から1500マイル離れた東方の島でとても素晴らしい。（中略）その島を治める者の宮殿は、我々の教会が鉛でふかれているのと同じように、その屋根は純金でふかれており、その価値はほとんど推測できない。さらに、宮殿の道、部屋の床は指2本文の厚みの純金の板でできている。そしてその窓も金でできており、総じてこの宮殿の豪華さは全ての限界と信用を超えている。<br />
-          — マルコポーロ『東方見聞録』
+          <!--suppress HtmlUnknownAttribute -->
+          です。
+          メジャーメタルとは鉄、銅、亜鉛、アルミニウムなどの精錬が容易で大量に存在する金属のことであり、それ以外の金属のことをマイナーメタルと呼びます。
+          ただし、存在量は少なくてもメジャーメタルに分類される元素（金、銀など6種類）もあります。
         </p>
-      </blockquote>
+        <p class="no_indent">
+          <small>
+            ※
+            なお、日本ではマイナーメタルをレアメタルと呼ぶことが多いため、当サイトでも以降、レアメタルと呼ぶことにします。
+          </small>
+        </p>
 
-      <p>
-        今の私たちからすると信じがたいような話ですが、日本はかつてこのように言われていました。
-        それほど日本に金があったかどうか真偽のほどは定かではありませんが、昔から日本は金銀銅等を海外に輸出できるほど金属資源に恵まれていました。
-        特に銅に関しては17世紀後半から18世紀前半までは、日本が世界一位の生産国でした。
-        それでは現在の日本の金属資源の状況はどのようなものなのでしょうか？
-        戦後に対外貿易の自由度が増し、海外から鉱物がたくさん日本に入ってきたため海外への依存度が高まり、<span
-          class="word"
-          ><span class="word_text">自給率</span>
-          <span class="word_description_container">
-            <span class="word_description">
-              <span class="word_description_title">自給率</span>
-              <span class="word_description_text" style="line-height: 1.5rem"
-                >国や地域など一定の範囲内で消費される材料などの物品や、製品の材料や素材となる物品をその範囲内で自ら生産や産出し供給して、それらの全需要量を満たしているかを示す割合。</span
-              >
-            </span>
-          </span>
-        </span>
+        <p>
+          レアメタルという言葉は皆さんも聞いたことがあるのではないでしょうか？
+          レアメタルは、
+        </p>
+        <ol>
+          <li>地殻中の存在量が比較的少ない元素</li>
+          <li>単体として取り出すことが技術的に困難な元素</li>
+          <li>資源の産出国が偏在している元素</li>
+        </ol>
+
+        <p>
+          の３つを満たす元素のことを指し、リチウムやクロムなど47種類の元素で構成されています。
+        </p>
+        <div class="image_container">
+          <figure class="image_box">
+            <img
+              class="image"
+              src="../img/urban-mining/periodic_table.png"
+              alt=""
+            />
+            <div class="note"><a class="href" href=""></a></div>
+            <figcaption class="image_caption"></figcaption>
+          </figure>
+        </div>
+
+        <p>
+          メジャーメタルは電線や各種ケーブル、メッキ、などに利用される一方で、レアメタルは、超伝導材料や形状記憶合金、水素吸蔵合金としてIT関連分野や環境保全などハイテク分野に使われており、携帯電話、パソコン、自動車、テレビ、腕時計、ドライヤーなどの身近なものに欠かせないものとなっています。（図１）
+          このことからレアメタルは<span class="force_text"
+            >「産業のビタミン」</span
+          >と呼ばれることがあります。
+          携帯電話については実際に解体しました。実験の様子は<a
+            href="../activity/disassembly.html"
+            >こちら</a
+          >から
+        </p>
+        <figure class="table_figure">
+          <table>
+            <tr>
+              <th></th>
+              <th>金</th>
+              <th>銀</th>
+              <th>銅</th>
+              <th>鉄</th>
+              <th>アルミニウム</th>
+            </tr>
+            <tr>
+              <td>携帯電話</td>
+              <td>0.04</td>
+              <td>0.23</td>
+              <td>10.82</td>
+              <td>1.17</td>
+              <td>0.64</td>
+            </tr>
+            <tr>
+              <td>ノートパソコン</td>
+              <td>0.27</td>
+              <td>0.31</td>
+              <td>59.25</td>
+              <td>13.26</td>
+              <td>7.34</td>
+            </tr>
+            <tr>
+              <td>デスクトップパソコン</td>
+              <td>0.36</td>
+              <td>0.93</td>
+              <td>344.43</td>
+              <td>22.96</td>
+              <td>82.01</td>
+            </tr>
+          </table>
+          <figcaption style="white-space: nowrap">
+            1台あたりのレアメタル含有量を示したものです。※単位はg
+            <a
+              href="https://www.env.go.jp/council/former2013/03haiki/y0324-04/mat02a.pdf"
+              >出典</a
+            ><br />
+            数値の算出方法：（年間の含有量）/（年間排出台数）の値を少数第3位で四捨五入
+          </figcaption>
+        </figure>
+
+        <!--suppress ALL -->
+        <div class="atom_chara" style="width: 100%; margin: 50px 0">
+          <div class="atom_chara_icon">
+            <img
+              class="atom_chara_img"
+              src="../img/atom_chara/Li.png"
+              alt="リチウムくんのアイコン"
+            />
+            <div class="atom_chara_name">リチウムくん</div>
+          </div>
+          <div class="atom_chara_content">
+            <span
+              >レアメタルの「レア」は「少ない」という意味じゃなくて、「単離や加工がしにくく、需要が多くて品薄になりやすい」という意味なんだね。</span
+            >
+          </div>
+        </div>
 
         <!--suppress HtmlUnknownAttribute -->
-        が急激に下がってしまいました。
-      </p>
-      <div class="image_container">
-        <figure class="image_box" style="height: 40vw">
-          <img class="image" src="../assets/book/book_p17.png" alt="" />
-          <div class="note">
-            書籍『資源論』をスキャン<a class="href" href=""></a>
-          </div>
-          <figcaption class="image_caption"></figcaption>
-        </figure>
-      </div>
 
-      <p>
-        そして今、日本での現在稼働中の主な鉱山は鹿児島県にある菱刈（ひしかり）鉱山のみになってしまいました。
-        しかし、実は<span class="force_text"
-          >日本は世界に引けを取らない資源大国</span
-        >なのです！
-        日本は戦後多くの金属資源を海外から輸入し、その金属資源から製造した製品のうち約半分を世界中に輸出するという形で、急激な経済発展を遂げました。
-        そして、残りの輸出しなかった分の金属資源は<span class="force_text"
-          >製品として国内に残っています。</span
-        >
-        これが日本での都市鉱山の主な材料となり、それが日本の資源における潜在的なアドバンテージとなっているのです。
-        例えば、金の埋蔵量を見てみると下のグラフの通り、実に日本だけで世界全体の10%を占めます。
-        銀についても、世界の11%が日本に眠っています。
-        メジャーメタルだけでなくレアメタルの国内埋蔵量も驚くべき数字です。
-        クーラーや冷蔵庫の冷媒材料に使われるアンチモンでは、世界全体の埋蔵量のうちの22%は日本が占めている状況です。
-        このようなデータを見ると<span class="force_text"
-          >日本での都市鉱山の開発が一層効果的</span
-        >であることがわかります。<span class="summary_link" id="s_1"></span>
-        また、都市鉱山を活用することで海外からの輸入量が減り、前述のような<span
-          class="force_text"
-          >資源の偏在から生まれる立場の格差問題の解消</span
-        >にもつながります。<span class="summary_link" id="s_2"></span>
-        さらに日本に関しては、<span class="force_text"
-          >輸入に頼らなくても大丈夫だということを海外にアピールできる</span
-        >保険のような役割も担うことができます。 これらの利点を考えると、<span
-          class="force_text"
-          >日本はまさに都市鉱山を最も活用すべき国の1つ</span
-        >なのです。
-      </p>
-      <div class="image_container">
-        <figure class="image_box" style="height: 40vw">
-          <img
-            class="image"
-            src="../assets/highschooltimes/201702_p0406_04.jpg"
-            alt=""
-          />
-          <div class="note"><a class="href" href=""></a></div>
-          <figcaption class="image_caption"></figcaption>
-        </figure>
-      </div>
-
-      <!--suppress ALL -->
-      <div class="atom_chara" style="width: 100%; margin: 50px 0">
-        <div class="atom_chara_icon">
-          <img
-            class="atom_chara_img"
-            src="../img/atom_chara/Y.png"
-            alt="イットリウム博士のアイコン"
-          />
-          <div class="atom_chara_name">イットリウム博士</div>
-        </div>
-        <div class="atom_chara_content">
-          <span
-            >都市鉱山はCO<sub>2</sub>削減にも効果があり、<span class="word"
-              ><span class="word_text">SDGs</span>
+        <p class="no_indent">
+          <small>
+            ※金属資源はレアメタル、メジャーメタル、<span class="word"
+              ><span class="word_text">貴金属</span>
               <span class="word_description_container">
                 <span class="word_description">
-                  <span class="word_description_title">SDGs</span>
+                  <span class="word_description_title">貴金属</span>
                   <span
                     class="word_description_text"
                     style="line-height: 1.5rem"
-                    >持続可能な開発目標(Sustainable Development
-                    Goals)の略。2030年までに持続可能なよい社会を目指す17のゴールと169のターゲットが定められた国際目標。</span
+                    >金 (Au)、銀 (Ag)、白金 (Pt)、パラジウム (Pd)、ロジウム
+                    (Rh)、イリジウム (Ir)、ルテニウム (Ru)、オスミウム (Os)
+                    、レニウム(Re)を総称して言う。</span
                   >
                 </span>
               </span>
             </span>
 
             <!--suppress HtmlUnknownAttribute -->
-            ゴール12『つくる責任
-            つかう責任』にも大きく関連しているのじゃ。</span
-          >
-        </div>
-      </div>
+            の3種類に分類されることもあります。その場合、金や銀などを含めた9種類の元素が貴金属に属します。
+          </small>
+        </p>
 
-      <!--suppress HtmlUnknownAttribute -->
-
-      <h2 id="違法な都市鉱山5">
-        違法な都市鉱山<span class="summary_link" id="s_5"></span>
-      </h2>
-      <p>
-        都市鉱山の考えに則り、使用済みの電子機器などをリサイクルするのはかなりの費用がかかるため、先進国から出た廃電子機器が<span
-          class="force_text"
-          >途上国の処分場に放置される</span
-        >ということが起こるようになりました。
-        当然途上国にはそれらをリサイクルするほどの余裕がありませんから、燃やして灰にならなかったものは近くの川や海に捨てられます。
-        この事態は<span class="force_text">さまざまな問題を生み出している</span
-        >のです。
-        まず、廃棄物を燃やした時に大気中に出る硫黄酸化物や炭化水素類は、呼吸器系の慢性障害を生む可能性が高いほか、ときには失明につながることがあります。
-        また、残骸が川や海に捨てられたり、雨水によって鉛や水銀などが流されたりすることで土壌や水源が汚染され、その水を飲み水として利用した人に健康被害が及ぶようになりました。
-        例を挙げると、処分場がある中国・汕頭市の貴嶼の子どもたちは鉛の血中濃度が高く、おそらくそのためか発育阻害になりやすく、また現地の流産率も6倍に増えています。
-        現地の人への影響はそれだけにとどまりません。
-        廃電子機器には多くの鉄や銅、アルミニウムが含まれています。 これらの<span
-          class="word"
-          ><span class="word_text">メジャーメタル</span>
-          <span class="word_description_container">
-            <span class="word_description">
-              <span class="word_description_title">メジャーメタル</span>
-              <span class="word_description_text" style="line-height: 1.5rem"
-                >鉄、銅、亜鉛、アルミニウムなどの精錬が容易で大量に存在する金属のこと。別名ベースメタル。</span
-              >
+        <h2 id="都市鉱山とは">都市鉱山とは</h2>
+        <p>
+          前述のような資源問題に対して南條道夫教授（当時東北大学選鉱製錬研究所教授）が1988年に提唱された考えが都市鉱山と呼ばれるものであり、このサイトのメインテーマです。<span
+            class="summary_link"
+            id="s_0"
+          ></span>
+          まず、この都市鉱山の定義は、 ”都市鉱山（としこうざん、英語: urban
+          mining,
+          e-waste）とは、都市でゴミとして大量に廃棄される家電製品などの中に存在する有用な資源（<span
+            class="word"
+            ><span class="word_text">レアメタル</span>
+            <span class="word_description_container">
+              <span class="word_description">
+                <span class="word_description_title">レアメタル</span>
+                <span class="word_description_text" style="line-height: 1.5rem"
+                  >1.地殻中の存在量が比較的少ない元素　<br />
+                  2.単体として取り出すことが技術的に困難な元素<br />3.資源の産出国が偏在している<br />を満たす元素のことを言い、現代の産業に欠かせない”産業のビタミン”と呼ばれる。別名マイナーメタル。</span
+                >
+              </span>
             </span>
           </span>
-        </span>
-
-        <!--suppress HtmlUnknownAttribute -->
-        は先進国では価値が高くありませんが、途上国ではそれなりの価値を持ちます。
-        そのため、それらを求めて廃品をあさり、利益を得ようとする人が処分場には群がっているのです。<span
-          class="summary_link"
-          id="s_6"
-        ></span>
-        しかし<span class="force_text"
-          >こうした行為は決して安全なものではありません。
-          廃棄物を破壊することで有害物質が出る上、当人も有害な蒸気や物質に触れます。
-          そうした過酷な環境で手に入れたメジャーメタルを売っても一日当たり数ドルというのが関の山です。<span
-            class="summary_link"
-            id="s_7"
-          ></span>
-          そしてこういった人の多くが将来を担う十代以下の若者</span
-        >なのです。 こうした状況下では途上国の発展は望めません。
-        ここで振り返ってみてください。<span
-          class="summary_link"
-          id="s_4"
-        ></span>
-        このようになったそもそもの原因は私たち日本を含め<span class="force_text"
-          >先進国が国内のゴミの管理をきちんとせず、途上国に任せている</span
-        >ところにあるのです！
-        その背景にはコスト問題等さまざまな課題がありますが、その壁を乗り越えた上で都市鉱山がより活用されるようになると、未来はより明るくなるでしょう。
-      </p>
-      <aside class="column">
-        <div class="column_title">バーゼル条約</div>
-        <div class="column_content">
-          <p>
-            先ほどは廃電子機器の流出による途上国の問題について紹介しました。
-            このような事態は世界中で数多く発生し、これを受けて経済協力開発機構（OECD）および国連環境計画（UNEP）が議論し、スイスのバーゼルで締結されたのがバーゼル条約です。<span
-              class="summary_link"
-              id="s_8"
-            ></span>
-            バーゼル条約は1989年に採択され、1992年に発効されました。<br />
-            バーゼル条約の内容は以下の3つです。
-          </p>
-          <ol>
-            <li>
-              バーゼル条約の締約国から非締約国への有害廃棄物の輸出入の禁止
-            </li>
-            <li>
-              有害廃棄物の輸出が許されるケースでは、有害廃棄物の輸入国だけでなく経由国に対し、事前通告などの措置を義務付ける
-            </li>
-            <li>
-              有害廃棄物が不法に持ち込まれた場合は、輸出側によって有害廃棄物を再輸入するなど、現状を回復する
-            </li>
-          </ol>
-
-          <p>
-            日本も1992年に参加しており、現在189の国が参加しています。
-            しかし、いまだに「先進国が発展途上国に電子廃棄物を輸出し、発展途上国がその処理が適切にできず有害物質を垂れ流している...」ということがなくならないのが現状です。
-          </p>
-          <!--suppress ALL -->
-          <div class="atom_chara" style="width: 100%; margin: 50px 0">
-            <div class="atom_chara_icon">
-              <img
-                class="atom_chara_img"
-                src="../img/atom_chara/Sc.png"
-                alt="スカンジウムおじさんのアイコン"
-              />
-              <div class="atom_chara_name">スカンジウムおじさん</div>
-            </div>
-            <div class="atom_chara_content">
-              <span
-                >最近では、バーゼル条約が改正され、有害廃棄物だけでなく汚れたプラスチックごみも対象になったことで注目されていますね。</span
-              >
-            </div>
-          </div>
 
           <!--suppress HtmlUnknownAttribute -->
+          など）を鉱山に見立てたものである。” とされています。（<a
+            href="https://ja.wikipedia.org/wiki/%E9%83%BD%E5%B8%82%E9%89%B1%E5%B1%B1"
+            style="text-decoration: none"
+            >Wikipediaより</a
+          >）
+          この都市鉱山について、データを交えながら詳しく見ていきましょう。<span
+            class="summary_link"
+            id="s_3"
+          ></span>
+          下のグラフは主な金属資源の<span class="word"
+            ><span class="word_text">一次資源</span>
+            <span class="word_description_container">
+              <span class="word_description">
+                <span class="word_description_title">一次資源</span>
+                <span class="word_description_text" style="line-height: 1.5rem"
+                  >まだ地中から掘り出されていない地下資源。</span
+                >
+              </span>
+            </span>
+          </span>
+
+          <!--suppress HtmlUnknownAttribute -->
+          と<span class="word"
+            ><span class="word_text">二次資源</span>
+            <span class="word_description_container">
+              <span class="word_description">
+                <span class="word_description_title">二次資源</span>
+                <span class="word_description_text" style="line-height: 1.5rem"
+                  >地中から既に掘り出された地上資源。</span
+                >
+              </span>
+            </span>
+          </span>
+
+          <!--suppress HtmlUnknownAttribute -->
+          の量を示したものです。
+        </p>
+        <div class="image_container">
+          <figure class="image_box" style="height: 40vw">
+            <img class="image" src="../assets/jim/151.jpg" alt="" />
+            <div class="note">
+              日本金属学会より引用<a
+                class="href"
+                href="https://www.jim.or.jp/journal/j/pdf3/73/03/151.pdf"
+              ></a>
+            </div>
+            <figcaption class="image_caption"></figcaption>
+          </figure>
         </div>
-      </aside>
 
-      <h2 id="まとめ図解">まとめ図解</h2>
-      <div class="image_container">
-        <svg
-          viewBox="0, 0, 1500, 600"
-          style="width: 80vw; height: 30vw; margin: 5vh 0 5vh"
-        >
-          <use xlink:href="../svg/summary_illust/B.svg#main"></use>
-        </svg>
+        <p>
+          これを見れば全体の資源のうち<span class="force_text"
+            >半分以上がすでに掘り出された二次資源 である</span
+          >ことがわかります。
+          したがって、資源確保が重要な今、携帯電話のような小型家電などに含まれている<span
+            class="word"
+            ><span class="word_text">二次資源</span>
+            <span class="word_description_container">
+              <span class="word_description">
+                <span class="word_description_title">二次資源</span>
+                <span class="word_description_text" style="line-height: 1.5rem"
+                  >地中から既に掘り出された地上資源。</span
+                >
+              </span>
+            </span>
+          </span>
+
+          <!--suppress HtmlUnknownAttribute -->
+          を回収するのがカギとなっています。
+          ここまで読むと、そのような小型家電がただのゴミではなく<span
+            class="force_text"
+            >有益な資源</span
+          >に思えてきたのではないでしょうか。
+          2021年に新たにゴミとなる小型家電の量は5740万トンにも上り、それは今後も増えていくと予想されています。
+        </p>
+        <div class="image_container">
+          <figure class="image_box" style="height: 40vw">
+            <img class="image" src="../assets/statista/1067081.png" alt="" />
+            <div class="note">
+              Statistaより引用<a
+                class="href"
+                href="https://www.statista.com/statistics/1067081/generation-electronic-waste-globally-forecast/"
+              ></a>
+            </div>
+            <figcaption class="image_caption"></figcaption>
+          </figure>
+        </div>
+
+        <p>この大量の有益な資源を鉱山に見立てたのが都市鉱山なのです！</p>
+        <h2 id="日本における都市鉱山">日本における都市鉱山</h2>
+        <blockquote class="quote">
+          <p>
+            ジパングは大陸から1500マイル離れた東方の島でとても素晴らしい。（中略）その島を治める者の宮殿は、我々の教会が鉛でふかれているのと同じように、その屋根は純金でふかれており、その価値はほとんど推測できない。さらに、宮殿の道、部屋の床は指2本文の厚みの純金の板でできている。そしてその窓も金でできており、総じてこの宮殿の豪華さは全ての限界と信用を超えている。<br />
+            — マルコポーロ『東方見聞録』
+          </p>
+        </blockquote>
+
+        <p>
+          今の私たちからすると信じがたいような話ですが、日本はかつてこのように言われていました。
+          それほど日本に金があったかどうか真偽のほどは定かではありませんが、昔から日本は金銀銅等を海外に輸出できるほど金属資源に恵まれていました。
+          特に銅に関しては17世紀後半から18世紀前半までは、日本が世界一位の生産国でした。
+          それでは現在の日本の金属資源の状況はどのようなものなのでしょうか？
+          戦後に対外貿易の自由度が増し、海外から鉱物がたくさん日本に入ってきたため海外への依存度が高まり、<span
+            class="word"
+            ><span class="word_text">自給率</span>
+            <span class="word_description_container">
+              <span class="word_description">
+                <span class="word_description_title">自給率</span>
+                <span class="word_description_text" style="line-height: 1.5rem"
+                  >国や地域など一定の範囲内で消費される材料などの物品や、製品の材料や素材となる物品をその範囲内で自ら生産や産出し供給して、それらの全需要量を満たしているかを示す割合。</span
+                >
+              </span>
+            </span>
+          </span>
+
+          <!--suppress HtmlUnknownAttribute -->
+          が急激に下がってしまいました。
+        </p>
+        <div class="image_container">
+          <figure class="image_box" style="height: 40vw">
+            <img class="image" src="../assets/book/book_p17.png" alt="" />
+            <div class="note">
+              書籍『資源論』をスキャン<a class="href" href=""></a>
+            </div>
+            <figcaption class="image_caption"></figcaption>
+          </figure>
+        </div>
+
+        <p>
+          そして今、日本での現在稼働中の主な鉱山は鹿児島県にある菱刈（ひしかり）鉱山のみになってしまいました。
+          しかし、実は<span class="force_text"
+            >日本は世界に引けを取らない資源大国</span
+          >なのです！
+          日本は戦後多くの金属資源を海外から輸入し、その金属資源から製造した製品のうち約半分を世界中に輸出するという形で、急激な経済発展を遂げました。
+          そして、残りの輸出しなかった分の金属資源は<span class="force_text"
+            >製品として国内に残っています。</span
+          >
+          これが日本での都市鉱山の主な材料となり、それが日本の資源における潜在的なアドバンテージとなっているのです。
+          例えば、金の埋蔵量を見てみると下のグラフの通り、実に日本だけで世界全体の10%を占めます。
+          銀についても、世界の11%が日本に眠っています。
+          メジャーメタルだけでなくレアメタルの国内埋蔵量も驚くべき数字です。
+          クーラーや冷蔵庫の冷媒材料に使われるアンチモンでは、世界全体の埋蔵量のうちの22%は日本が占めている状況です。
+          このようなデータを見ると<span class="force_text"
+            >日本での都市鉱山の開発が一層効果的</span
+          >であることがわかります。<span class="summary_link" id="s_1"></span>
+          また、都市鉱山を活用することで海外からの輸入量が減り、前述のような<span
+            class="force_text"
+            >資源の偏在から生まれる立場の格差問題の解消</span
+          >にもつながります。<span class="summary_link" id="s_2"></span>
+          さらに日本に関しては、<span class="force_text"
+            >輸入に頼らなくても大丈夫だということを海外にアピールできる</span
+          >保険のような役割も担うことができます。 これらの利点を考えると、<span
+            class="force_text"
+            >日本はまさに都市鉱山を最も活用すべき国の1つ</span
+          >なのです。
+        </p>
+        <div class="image_container">
+          <figure class="image_box" style="height: 40vw">
+            <img
+              class="image"
+              src="../assets/highschooltimes/201702_p0406_04.jpg"
+              alt=""
+            />
+            <div class="note"><a class="href" href=""></a></div>
+            <figcaption class="image_caption"></figcaption>
+          </figure>
+        </div>
+
+        <!--suppress ALL -->
+        <div class="atom_chara" style="width: 100%; margin: 50px 0">
+          <div class="atom_chara_icon">
+            <img
+              class="atom_chara_img"
+              src="../img/atom_chara/Y.png"
+              alt="イットリウム博士のアイコン"
+            />
+            <div class="atom_chara_name">イットリウム博士</div>
+          </div>
+          <div class="atom_chara_content">
+            <span
+              >都市鉱山はCO<sub>2</sub>削減にも効果があり、<span class="word"
+                ><span class="word_text">SDGs</span>
+                <span class="word_description_container">
+                  <span class="word_description">
+                    <span class="word_description_title">SDGs</span>
+                    <span
+                      class="word_description_text"
+                      style="line-height: 1.5rem"
+                      >持続可能な開発目標(Sustainable Development
+                      Goals)の略。2030年までに持続可能なよい社会を目指す17のゴールと169のターゲットが定められた国際目標。</span
+                    >
+                  </span>
+                </span>
+              </span>
+
+              <!--suppress HtmlUnknownAttribute -->
+              ゴール12『つくる責任
+              つかう責任』にも大きく関連しているのじゃ。</span
+            >
+          </div>
+        </div>
+
+        <!--suppress HtmlUnknownAttribute -->
+
+        <h2 id="違法な都市鉱山5">
+          違法な都市鉱山<span class="summary_link" id="s_5"></span>
+        </h2>
+        <p>
+          都市鉱山の考えに則り、使用済みの電子機器などをリサイクルするのはかなりの費用がかかるため、先進国から出た廃電子機器が<span
+            class="force_text"
+            >途上国の処分場に放置される</span
+          >ということが起こるようになりました。
+          当然途上国にはそれらをリサイクルするほどの余裕がありませんから、燃やして灰にならなかったものは近くの川や海に捨てられます。
+          この事態は<span class="force_text"
+            >さまざまな問題を生み出している</span
+          >のです。
+          まず、廃棄物を燃やした時に大気中に出る硫黄酸化物や炭化水素類は、呼吸器系の慢性障害を生む可能性が高いほか、ときには失明につながることがあります。
+          また、残骸が川や海に捨てられたり、雨水によって鉛や水銀などが流されたりすることで土壌や水源が汚染され、その水を飲み水として利用した人に健康被害が及ぶようになりました。
+          例を挙げると、処分場がある中国・汕頭市の貴嶼の子どもたちは鉛の血中濃度が高く、おそらくそのためか発育阻害になりやすく、また現地の流産率も6倍に増えています。
+          現地の人への影響はそれだけにとどまりません。
+          廃電子機器には多くの鉄や銅、アルミニウムが含まれています。
+          これらの<span class="word"
+            ><span class="word_text">メジャーメタル</span>
+            <span class="word_description_container">
+              <span class="word_description">
+                <span class="word_description_title">メジャーメタル</span>
+                <span class="word_description_text" style="line-height: 1.5rem"
+                  >鉄、銅、亜鉛、アルミニウムなどの精錬が容易で大量に存在する金属のこと。別名ベースメタル。</span
+                >
+              </span>
+            </span>
+          </span>
+
+          <!--suppress HtmlUnknownAttribute -->
+          は先進国では価値が高くありませんが、途上国ではそれなりの価値を持ちます。
+          そのため、それらを求めて廃品をあさり、利益を得ようとする人が処分場には群がっているのです。<span
+            class="summary_link"
+            id="s_6"
+          ></span>
+          しかし<span class="force_text"
+            >こうした行為は決して安全なものではありません。
+            廃棄物を破壊することで有害物質が出る上、当人も有害な蒸気や物質に触れます。
+            そうした過酷な環境で手に入れたメジャーメタルを売っても一日当たり数ドルというのが関の山です。<span
+              class="summary_link"
+              id="s_7"
+            ></span>
+            そしてこういった人の多くが将来を担う十代以下の若者</span
+          >なのです。 こうした状況下では途上国の発展は望めません。
+          ここで振り返ってみてください。<span
+            class="summary_link"
+            id="s_4"
+          ></span>
+          このようになったそもそもの原因は私たち日本を含め<span
+            class="force_text"
+            >先進国が国内のゴミの管理をきちんとせず、途上国に任せている</span
+          >ところにあるのです！
+          その背景にはコスト問題等さまざまな課題がありますが、その壁を乗り越えた上で都市鉱山がより活用されるようになると、未来はより明るくなるでしょう。
+        </p>
+        <aside class="column">
+          <div class="column_title">バーゼル条約</div>
+          <div class="column_content">
+            <p>
+              先ほどは廃電子機器の流出による途上国の問題について紹介しました。
+              このような事態は世界中で数多く発生し、これを受けて経済協力開発機構（OECD）および国連環境計画（UNEP）が議論し、スイスのバーゼルで締結されたのがバーゼル条約です。<span
+                class="summary_link"
+                id="s_8"
+              ></span>
+              バーゼル条約は1989年に採択され、1992年に発効されました。<br />
+              バーゼル条約の内容は以下の3つです。
+            </p>
+            <ol>
+              <li>
+                バーゼル条約の締約国から非締約国への有害廃棄物の輸出入の禁止
+              </li>
+              <li>
+                有害廃棄物の輸出が許されるケースでは、有害廃棄物の輸入国だけでなく経由国に対し、事前通告などの措置を義務付ける
+              </li>
+              <li>
+                有害廃棄物が不法に持ち込まれた場合は、輸出側によって有害廃棄物を再輸入するなど、現状を回復する
+              </li>
+            </ol>
+
+            <p>
+              日本も1992年に参加しており、現在189の国が参加しています。
+              しかし、いまだに「先進国が発展途上国に電子廃棄物を輸出し、発展途上国がその処理が適切にできず有害物質を垂れ流している...」ということがなくならないのが現状です。
+            </p>
+            <!--suppress ALL -->
+            <div class="atom_chara" style="width: 100%; margin: 50px 0">
+              <div class="atom_chara_icon">
+                <img
+                  class="atom_chara_img"
+                  src="../img/atom_chara/Sc.png"
+                  alt="スカンジウムおじさんのアイコン"
+                />
+                <div class="atom_chara_name">スカンジウムおじさん</div>
+              </div>
+              <div class="atom_chara_content">
+                <span
+                  >最近では、バーゼル条約が改正され、有害廃棄物だけでなく汚れたプラスチックごみも対象になったことで注目されていますね。</span
+                >
+              </div>
+            </div>
+
+            <!--suppress HtmlUnknownAttribute -->
+          </div>
+        </aside>
+
+        <h2 id="まとめ図解">まとめ図解</h2>
+        <div class="image_container">
+          <svg
+            viewBox="0, 0, 1500, 600"
+            style="width: 80vw; height: 30vw; margin: 5vh 0 5vh"
+          >
+            <use xlink:href="../svg/summary_illust/B.svg#main"></use>
+          </svg>
+        </div>
+
+        <p>
+          都市鉱山の活用が、あらゆる問題を解決する重要なキーであることが確認できましたか？
+        </p>
+        <h2 id="参考文献">参考文献</h2>
+        <p class="no_indent">
+          『図解よくわかる「都市鉱山」開発』（原田幸明・醍醐市朗、日刊工業新聞社・2011年8月1日）<br />
+          『資源論　メタル・石油埋蔵量の成長と枯渇』（西山孝、丸善出版・2016年4月12日）<br />
+          『レア RARE 希少金属の知っておきたい16話』（キース
+          ベロニース　著・渡辺正　翻訳、化学同人・2016年3月10日）<br />
+          『「金属」のキホン
+          (イチバンやさしい理工系)』（田中和明、SBクリエイティブ・2010年10月22日）<br />
+          <a
+            href="https://asahi.gakujo.ne.jp/research/industry_topics/detail/id=253"
+            >あさがくナビ「レアアースとレアメタルの違い」</a
+          ><br />
+          <a
+            href="https://www.nims.go.jp/research/elements/rare-metal/study/index.html"
+            >NIMS「レアメタルの基礎知識」</a
+          ><br />
+          <a href="http://mric.jogmec.go.jp/public/report/2006-08/chapter2.pdf"
+            >我が国の銅の需給状況の歴史と変遷</a
+          ><br />
+          <a href="https://www.afpbb.com/articles/-/3030185"
+            >AFPBB News「中国「リサイクル産業の都」が払う電子ごみ処理の代償」</a
+          ><br />
+          <a href="https://eleminist.com/article/688"
+            >ELEMINIST「2021年注目のバーゼル条約　脱プラスチックへ向けた改正内容を解説」</a
+          ><br />
+          <a
+            href="https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_3/Chapter_2"
+            >Wikisource</a
+          >
+        </p>
+
+        <div id="pn_bar">
+          <a href="../present-sutiation/" id="prev_link">
+            <div id="prev_text"></div>
+            <button id="prev_button">Prev</button>
+          </a>
+
+          <a href="../problem/" id="next_link">
+            <div id="next_text"></div>
+            <button id="next_button">Next</button>
+          </a>
+        </div>
+
+        <div id="floating_menu">
+          <!--suppress BadExpressionStatementJS -->
+          <div id="toc">
+            <div id="toc_title">目次</div>
+            <a class="toc_link_h1" href="#都市鉱山の意義">都市鉱山の意義</a
+            ><a class="toc_link_h2" href="#レアメタルとメジャーメタル"
+              >レアメタルとメジャーメタル</a
+            ><a class="toc_link_h2" href="#都市鉱山とは">都市鉱山とは</a
+            ><a class="toc_link_h2" href="#日本における都市鉱山"
+              >日本における都市鉱山</a
+            ><a class="toc_link_h2" href="#違法な都市鉱山">違法な都市鉱山</a
+            ><a class="toc_link_h2" href="#まとめ図解">まとめ図解</a
+            ><a class="toc_link_h2" href="#参考文献">参考文献</a>
+          </div>
+
+          <!--suppress BadExpressionStatementJS --><button
+            id="lang_button"
+            onclick="changeLang()"
+          >
+            <span id="lang_text"></span>
+            <script>
+              function setLang(lang) {
+                sessionStorage.setItem("lang", lang)
+                switch (lang) {
+                  case "ja":
+                    document.getElementById("lang_en").style.display = "none"
+                    document.getElementById("lang_jp").style.display = "block"
+                    break
+                  case "en":
+                    document.getElementById("lang_en").style.display = "block"
+                    document.getElementById("lang_jp").style.display = "none"
+                }
+                updateButton()
+              }
+
+              function changeLang() {
+                switch (sessionStorage.getItem("lang")) {
+                  case "en":
+                    setLang("ja")
+                    break
+                  case "ja":
+                  default:
+                    setLang("en")
+                    break
+                }
+                updateButton()
+              }
+
+              function updateButton() {
+                switch (sessionStorage.getItem("lang")) {
+                  case "ja":
+                    document
+                      .querySelectorAll("#lang_text")
+                      .forEach((el) => (el.innerHTML = "English"))
+                    break
+                  case "en":
+                    document
+                      .querySelectorAll("#lang_text")
+                      .forEach((el) => (el.innerHTML = "日本語"))
+                    break
+                }
+              }
+              window.onload = () => setLang(sessionStorage.getItem("lang"))
+            </script>
+          </button>
+        </div>
       </div>
+      <div id="lang_en">
+        <div id="floating_menu">
+          <!--suppress BadExpressionStatementJS -->
+          <div id="toc">
+            <div id="toc_title">目次</div>
+            <a class="toc_link_" href="#undefined">undefined</a>
+          </div>
 
-      <p>
-        都市鉱山の活用が、あらゆる問題を解決する重要なキーであることが確認できましたか？
-      </p>
-      <h2 id="参考文献">参考文献</h2>
-      <p class="no_indent">
-        『図解よくわかる「都市鉱山」開発』（原田幸明・醍醐市朗、日刊工業新聞社・2011年8月1日）<br />
-        『資源論　メタル・石油埋蔵量の成長と枯渇』（西山孝、丸善出版・2016年4月12日）<br />
-        『レア RARE 希少金属の知っておきたい16話』（キース
-        ベロニース　著・渡辺正　翻訳、化学同人・2016年3月10日）<br />
-        『「金属」のキホン
-        (イチバンやさしい理工系)』（田中和明、SBクリエイティブ・2010年10月22日）<br />
-        <a
-          href="https://asahi.gakujo.ne.jp/research/industry_topics/detail/id=253"
-          >あさがくナビ「レアアースとレアメタルの違い」</a
-        ><br />
-        <a
-          href="https://www.nims.go.jp/research/elements/rare-metal/study/index.html"
-          >NIMS「レアメタルの基礎知識」</a
-        ><br />
-        <a href="http://mric.jogmec.go.jp/public/report/2006-08/chapter2.pdf"
-          >我が国の銅の需給状況の歴史と変遷</a
-        ><br />
-        <a href="https://www.afpbb.com/articles/-/3030185"
-          >AFPBB News「中国「リサイクル産業の都」が払う電子ごみ処理の代償」</a
-        ><br />
-        <a href="https://eleminist.com/article/688"
-          >ELEMINIST「2021年注目のバーゼル条約　脱プラスチックへ向けた改正内容を解説」</a
-        ><br />
-        <a
-          href="https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_3/Chapter_2"
-          >Wikisource</a
-        >
-      </p>
+          <!--suppress BadExpressionStatementJS --><button
+            id="lang_button"
+            onclick="changeLang()"
+          >
+            <span id="lang_text"></span>
+            <script>
+              function setLang(lang) {
+                sessionStorage.setItem("lang", lang)
+                switch (lang) {
+                  case "ja":
+                    document.getElementById("lang_en").style.display = "none"
+                    document.getElementById("lang_jp").style.display = "block"
+                    break
+                  case "en":
+                    document.getElementById("lang_en").style.display = "block"
+                    document.getElementById("lang_jp").style.display = "none"
+                }
+                updateButton()
+              }
 
-      <div id="pn_bar">
-        <a href="../present-sutiation/" id="prev_link">
-          <div id="prev_text"></div>
-          <button id="prev_button">Prev</button>
-        </a>
+              function changeLang() {
+                switch (sessionStorage.getItem("lang")) {
+                  case "en":
+                    setLang("ja")
+                    break
+                  case "ja":
+                  default:
+                    setLang("en")
+                    break
+                }
+                updateButton()
+              }
 
-        <a href="../problem/" id="next_link">
-          <div id="next_text"></div>
-          <button id="next_button">Next</button>
-        </a>
+              function updateButton() {
+                switch (sessionStorage.getItem("lang")) {
+                  case "ja":
+                    document
+                      .querySelectorAll("#lang_text")
+                      .forEach((el) => (el.innerHTML = "English"))
+                    break
+                  case "en":
+                    document
+                      .querySelectorAll("#lang_text")
+                      .forEach((el) => (el.innerHTML = "日本語"))
+                    break
+                }
+              }
+              window.onload = () => setLang(sessionStorage.getItem("lang"))
+            </script>
+          </button>
+        </div>
       </div>
     </main>
     <button

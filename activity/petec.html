@@ -583,6 +583,57 @@
       #prev_link {
         float: left;
       }
+      #lang_button {
+        background-color: whitesmoke;
+        border: none;
+        color: black;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        position: relative;
+        width: 100%;
+      }
+      #toc {
+        padding: 10px;
+      }
+      #toc_title {
+        width: 100%;
+        text-align: center;
+      }
+      [class^="toc_link_"] {
+        display: block;
+        text-decoration: none;
+        color: black;
+        scroll-behavior: smooth;
+      }
+      [class^="toc_link_"]:hover {
+        color: gray;
+      }
+      .toc_link_h1 {
+        margin-left: 0;
+      }
+      .toc_link_h2 {
+        margin-left: 10px;
+      }
+      .toc_link_h3 {
+        margin-left: 20px;
+      }
+      .toc_link_h4 {
+        margin-left: 30px;
+      }
+      #floating_menu {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        z-index: 100;
+        width: 200px;
+        display: block;
+        background-color: #0004;
+      }
       footer {
         position: relative;
         width: 100%;
@@ -847,40 +898,45 @@
     </script>
 
     <main>
-      <h1 id="工場見学">工場見学</h1>
-      <p>
-        2021年10月14日に兵庫県加東市にあるパナソニックエコテクノロジーセンター（PETEC）に見学に行きました。
-      </p>
-      <div class="image_container">
-        <figure class="image_box">
-          <img
-            class="image"
-            src="./img/petec_building.jpg"
-            alt="パナソニック外から写真"
-          />
-          <div class="note">メンバーが撮影<a class="href" href=""></a></div>
-          <figcaption class="image_caption"></figcaption>
-        </figure>
+      <div id="lang_jp">
+        <h1 id="工場見学">工場見学</h1>
+        <p>
+          2021年10月14日に兵庫県加東市にあるパナソニックエコテクノロジーセンター（PETEC）に見学に行きました。
+        </p>
+        <div class="image_container">
+          <figure class="image_box">
+            <img
+              class="image"
+              src="./img/petec_building.jpg"
+              alt="パナソニック外から写真"
+            />
+            <div class="note">メンバーが撮影<a class="href" href=""></a></div>
+            <figcaption class="image_caption"></figcaption>
+          </figure>
 
-        <figure class="image_box">
-          <img class="image" src="./img/petec_pc_club.jpg" alt="甲陽PC部写真" />
-          <div class="note">メンバーが撮影<a class="href" href=""></a></div>
-          <figcaption class="image_caption"></figcaption>
-        </figure>
-      </div>
+          <figure class="image_box">
+            <img
+              class="image"
+              src="./img/petec_pc_club.jpg"
+              alt="甲陽PC部写真"
+            />
+            <div class="note">メンバーが撮影<a class="href" href=""></a></div>
+            <figcaption class="image_caption"></figcaption>
+          </figure>
+        </div>
 
-      <h2 id="petecってどんなところ">PETECってどんなところ?</h2>
-      <p>
-        ここまで読んでくださった皆さんは、小型家電のリサイクルがとても重要だということがお分かりになったかと思います。
-        同様に、テレビや冷蔵庫などの大型家電のリサイクルもとても重要です。
-        その大型家電のリサイクルを担っている会社の一つがPETECです。
-        PETECは、「トレジャーハンティング（宝探し）」を合言葉にリサイクルを行い、周囲の環境にも配慮して循環型社会の実現を目指しています。
-      </p>
-      <div class="sorry">
-        ここに消費者とPETEC間の製品のやりとりのイラストを載せたいと思っています。
-        パンフレットにあったイラストを元に作る予定です。
-      </div>
-      <!--
+        <h2 id="petecってどんなところ">PETECってどんなところ?</h2>
+        <p>
+          ここまで読んでくださった皆さんは、小型家電のリサイクルがとても重要だということがお分かりになったかと思います。
+          同様に、テレビや冷蔵庫などの大型家電のリサイクルもとても重要です。
+          その大型家電のリサイクルを担っている会社の一つがPETECです。
+          PETECは、「トレジャーハンティング（宝探し）」を合言葉にリサイクルを行い、周囲の環境にも配慮して循環型社会の実現を目指しています。
+        </p>
+        <div class="sorry">
+          ここに消費者とPETEC間の製品のやりとりのイラストを載せたいと思っています。
+          パンフレットにあったイラストを元に作る予定です。
+        </div>
+        <!--
 <div class="image_container">
     <figure class="image_box" >  <img class="image" src="イラスト" alt="イラスト"/>
   <div class="note"><a class="href" href=""></a></div>
@@ -891,532 +947,534 @@
 </div>
 -->
 
-      <p>
-        PETECは、<span class="word"
-          ><span class="word_text">家電リサイクル法</span>
-          <span class="word_description_container">
-            <span class="word_description">
-              <span class="word_description_title">家電リサイクル法</span>
-              <span class="word_description_text" style="line-height: 1.5rem"
-                >エアコン、テレビ(ブラウン管、液晶・プラズマ)、冷蔵庫・冷凍庫、洗濯機・衣類乾燥機の家電4品目を対象とした法律。後払い制度がとられている。これらの家電の回収により、リサイクルの促進だけでなく、廃棄物の減量も目指している。</span
-              >
+        <p>
+          PETECは、<span class="word"
+            ><span class="word_text">家電リサイクル法</span>
+            <span class="word_description_container">
+              <span class="word_description">
+                <span class="word_description_title">家電リサイクル法</span>
+                <span class="word_description_text" style="line-height: 1.5rem"
+                  >エアコン、テレビ(ブラウン管、液晶・プラズマ)、冷蔵庫・冷凍庫、洗濯機・衣類乾燥機の家電4品目を対象とした法律。後払い制度がとられている。これらの家電の回収により、リサイクルの促進だけでなく、廃棄物の減量も目指している。</span
+                >
+              </span>
             </span>
           </span>
-        </span>
 
-        <!--suppress HtmlUnknownAttribute -->
-        で指定されている4品目（テレビ、エアコン、冷蔵庫・冷凍庫、洗濯機・衣類乾燥機）を扱っています。
-        その家電を回収する地域は近畿2府4県にも及びます。
-      </p>
-      <!-- PETEC図鑑より -->
+          <!--suppress HtmlUnknownAttribute -->
+          で指定されている4品目（テレビ、エアコン、冷蔵庫・冷凍庫、洗濯機・衣類乾燥機）を扱っています。
+          その家電を回収する地域は近畿2府4県にも及びます。
+        </p>
+        <!-- PETEC図鑑より -->
 
-      <p>
-        大型家電の処理数は年間で約90万台で、稼働日ごとに明確な目標処理台数を決めて作業しています。
-      </p>
-      <div class="image_container">
-        <figure class="image_box">
-          <img
-            class="image"
-            src="./img/petec_counter.jpg"
-            alt="処理台数のカウンタ"
-          />
-          <div class="note">メンバーが撮影<a class="href" href=""></a></div>
-          <figcaption class="image_caption">10月14日 午後2時ごろ</figcaption>
-        </figure>
-      </div>
-
-      <p>
-        基本的にその台数は安定しているのですが、時には大幅に増えることもあるそうです。
-      </p>
-      <!--suppress ALL -->
-      <div class="atom_chara" style="width: 100%; margin: 50px 0">
-        <div class="atom_chara_icon">
-          <img
-            class="atom_chara_img"
-            src="../img/atom_chara/Li.png"
-            alt="リチウムくんのアイコン"
-          />
-          <div class="atom_chara_name">リチウムくん</div>
+        <p>
+          大型家電の処理数は年間で約90万台で、稼働日ごとに明確な目標処理台数を決めて作業しています。
+        </p>
+        <div class="image_container">
+          <figure class="image_box">
+            <img
+              class="image"
+              src="./img/petec_counter.jpg"
+              alt="処理台数のカウンタ"
+            />
+            <div class="note">メンバーが撮影<a class="href" href=""></a></div>
+            <figcaption class="image_caption">10月14日 午後2時ごろ</figcaption>
+          </figure>
         </div>
-        <div class="atom_chara_content">
-          <span
-            >PETECの累計処理台数はなんと1650万台以上！！（10/14当時）一つ一つ手で行ってるってすごいね。</span
-          >
-        </div>
-      </div>
 
-      <!--suppress HtmlUnknownAttribute -->
-
-      <p>
-        大型家電リサイクルには、各品目についての<span class="word"
-          ><span class="word_text">法定リサイクル率</span>
-          <span class="word_description_container">
-            <span class="word_description">
-              <span class="word_description_title">法定リサイクル率</span>
-              <span class="word_description_text" style="line-height: 1.5rem"
-                >国によって定められているリサイクル率。工場でのリサイクル率がこれを下回ってしまうと稼働できなくなってしまう。エアコンでは80%、テレビでは55%というように品目ごとに決まっている。</span
-              >
-            </span>
-          </span>
-        </span>
-
-        <!--suppress HtmlUnknownAttribute -->
-        というものが家電リサイクル法で定められています。
-        工場でのリサイクル率がこれを超えなければ、工場は稼働できません。
-        PETECでは、いずれの品目においても法定リサイクル率をクリアしています。
-      </p>
-      <figure>
-        <table>
-          <tr>
-            <th></th>
-            <th>テレビ</th>
-            <th>エアコン</th>
-            <th>冷蔵庫・冷凍庫</th>
-            <th>洗濯機・衣類乾燥機</th>
-          </tr>
-          <tr>
-            <td>法定リサイクル率</td>
-            <td>74%</td>
-            <td>80%</td>
-            <td>70%</td>
-            <td>82%</td>
-          </tr>
-          <tr>
-            <td>PETECでのリサイクル率<br />(2020年度)</td>
-            <td>89%</td>
-            <td>95%</td>
-            <td>82%</td>
-            <td>95%</td>
-          </tr>
-        </table>
-        <figcaption style="white-space: nowrap">
-          法定リサイクル率の表<br />
-          出典:
-          <a href="https://panasonic.co.jp/eco/petec/"
-            >https://panasonic.co.jp/eco/petec/</a
-          >,
-          <a href="https://www.env.go.jp/press/106879.html"
-            >https://www.env.go.jp/press/106879.html</a
-          >より作成
-        </figcaption>
-      </figure>
-
-      <h2 id="どのようにリサイクルされるの">どのようにリサイクルされるの?</h2>
-      <p>PETECで行われているリサイクルの工程を製品別に紹介しようと思います。</p>
-      <h3 id="テレビ">テレビ</h3>
-      <p>
-        テレビはブラウン管テレビ、プラズマテレビ、液晶テレビの3つに分類されます。
-        ただし、現在は家庭からのブラウン管テレビの排出量が少ないので、PETECでは扱われていません。
-        液晶テレビには蛍光管タイプの<span class="word"
-          ><span class="word_text">バックライト</span>
-          <span class="word_description_container">
-            <span class="word_description">
-              <span class="word_description_title">バックライト</span>
-              <span class="word_description_text" style="line-height: 1.5rem"
-                >背面から液晶を照明するもの。</span
-              >
-            </span>
-          </span>
-        </span>
-
-        <!--suppress HtmlUnknownAttribute -->
-        が使用されているものがあります。
-        その中には有害物質である水銀ガスが含まれているため、バックライトユニットの蛍光管を回収する必要があります。
-        回収した蛍光管は専門の業者で処分されます。
-      </p>
-      <div class="image_container">
-        <figure class="image_box">
-          <img
-            class="image"
-            src="./img/petec_backlight.jpg"
-            alt="専用ブースでのバックライト取り外し"
-          />
-          <div class="note">
-            ホームページより引用<a
-              class="href"
-              href="https://panasonic.co.jp/eco/petec/process/"
-            ></a>
+        <p>
+          基本的にその台数は安定しているのですが、時には大幅に増えることもあるそうです。
+        </p>
+        <!--suppress ALL -->
+        <div class="atom_chara" style="width: 100%; margin: 50px 0">
+          <div class="atom_chara_icon">
+            <img
+              class="atom_chara_img"
+              src="../img/atom_chara/Li.png"
+              alt="リチウムくんのアイコン"
+            />
+            <div class="atom_chara_name">リチウムくん</div>
           </div>
-          <figcaption class="image_caption">
-            専用ブースでのバックライト取り外し
+          <div class="atom_chara_content">
+            <span
+              >PETECの累計処理台数はなんと1650万台以上！！（10/14当時）一つ一つ手で行ってるってすごいね。</span
+            >
+          </div>
+        </div>
+
+        <!--suppress HtmlUnknownAttribute -->
+
+        <p>
+          大型家電リサイクルには、各品目についての<span class="word"
+            ><span class="word_text">法定リサイクル率</span>
+            <span class="word_description_container">
+              <span class="word_description">
+                <span class="word_description_title">法定リサイクル率</span>
+                <span class="word_description_text" style="line-height: 1.5rem"
+                  >国によって定められているリサイクル率。工場でのリサイクル率がこれを下回ってしまうと稼働できなくなってしまう。エアコンでは80%、テレビでは55%というように品目ごとに決まっている。</span
+                >
+              </span>
+            </span>
+          </span>
+
+          <!--suppress HtmlUnknownAttribute -->
+          というものが家電リサイクル法で定められています。
+          工場でのリサイクル率がこれを超えなければ、工場は稼働できません。
+          PETECでは、いずれの品目においても法定リサイクル率をクリアしています。
+        </p>
+        <figure>
+          <table>
+            <tr>
+              <th></th>
+              <th>テレビ</th>
+              <th>エアコン</th>
+              <th>冷蔵庫・冷凍庫</th>
+              <th>洗濯機・衣類乾燥機</th>
+            </tr>
+            <tr>
+              <td>法定リサイクル率</td>
+              <td>74%</td>
+              <td>80%</td>
+              <td>70%</td>
+              <td>82%</td>
+            </tr>
+            <tr>
+              <td>PETECでのリサイクル率<br />(2020年度)</td>
+              <td>89%</td>
+              <td>95%</td>
+              <td>82%</td>
+              <td>95%</td>
+            </tr>
+          </table>
+          <figcaption style="white-space: nowrap">
+            法定リサイクル率の表<br />
+            出典:
+            <a href="https://panasonic.co.jp/eco/petec/"
+              >https://panasonic.co.jp/eco/petec/</a
+            >,
+            <a href="https://www.env.go.jp/press/106879.html"
+              >https://www.env.go.jp/press/106879.html</a
+            >より作成
           </figcaption>
         </figure>
-      </div>
 
-      <p>
-        次は、分別と回収という作業に入ります。
-        そこでは主に金属素材が含まれる基板などが取り出されます。
-      </p>
-      <div class="image_container">
-        <figure class="image_box">
-          <img
-            class="image"
-            src="./img/petec_conveyor.jpg"
-            alt="取り出された基板"
-          />
-          <div class="note">メンバーが撮影<a class="href" href=""></a></div>
-          <figcaption class="image_caption">取り出された基板</figcaption>
-        </figure>
-      </div>
-
-      <p>
-        また作業効率を上げるために、コンベア式の解体ラインが工場内に張り巡らされています（よく車の製造工場に大規模な生産ラインが続いている写真を見ますよね）。
-        そこで取り出された金属は精錬所に送られ、新たな資源に生まれ変わります。
-      </p>
-      <h3 id="エアコン">エアコン</h3>
-      <p>
-        まず、エアコンは室内機と室外機に分けられます。
-        室内機は従来、外装、送風ファンの取り外し、内部の解体までの全てを人の手で行っていましたが、PETECでは装置を使ってモーターと電源が集まっているところを切断することで自然とネジが外れるので解体の手間を省いて、作業負担を減らしています。
-        一方、室外機には冷媒フロンが存在します。
-        冷媒フロンはオゾン層を破壊する原因ともいわれているので、先に取り除く必要があります。
-        この取り除きはチューブを使って安全に行われ、その後専用の処理工場で無害化されることになっています。
-        室外機にはホコリや虫の死骸などがついていることがあるので、除去した後、解体します。
-      </p>
-      <p>
-        室内機・室外機の解体された部分は銅線、<span class="word"
-          ><span class="word_text">筐体</span>
-          <span class="word_description_container">
-            <span class="word_description">
-              <span class="word_description_title">筐体</span>
-              <span class="word_description_text" style="line-height: 1.5rem"
-                >何らかの機能を有する機械や電気機器などを中に収めた箱のこと。</span
-              >
+        <h2 id="どのようにリサイクルされるの">どのようにリサイクルされるの?</h2>
+        <p>
+          PETECで行われているリサイクルの工程を製品別に紹介しようと思います。
+        </p>
+        <h3 id="テレビ">テレビ</h3>
+        <p>
+          テレビはブラウン管テレビ、プラズマテレビ、液晶テレビの3つに分類されます。
+          ただし、現在は家庭からのブラウン管テレビの排出量が少ないので、PETECでは扱われていません。
+          液晶テレビには蛍光管タイプの<span class="word"
+            ><span class="word_text">バックライト</span>
+            <span class="word_description_container">
+              <span class="word_description">
+                <span class="word_description_title">バックライト</span>
+                <span class="word_description_text" style="line-height: 1.5rem"
+                  >背面から液晶を照明するもの。</span
+                >
+              </span>
             </span>
           </span>
-        </span>
 
-        <!--suppress HtmlUnknownAttribute -->
-        、電気部品類、熱交換器、コンプレッサーなどに分別されます。
-        特に、室外機に含まれるコンプレッサーは鉄と銅を多く含む貴重な資源であるそうです。
-        銅線からは、破砕された後に銅が回収され、精錬所に送られます。
-        電気部品類、熱交換器、コンプレッサーも別の工場へ行き、高品位・高純度に資源が回収されて新しいものへと生まれ変わります。
-      </p>
-      <p>
-        筐体などの部分からは特殊な分離方法を用いて、鉄、銅、アルミ、プラスチックに分けられます。
-        この分離方法のデモは、見学の時に見ることができました！
-      </p>
-      <h4 id="～筐体が選別回収される工程～">～筐体が選別回収される工程～</h4>
-      <figure class="image_box">
-        <img class="image" src="../svg/petec/1.svg" alt="" />
-        <div class="note"><a class="href" href=""></a></div>
-        <figcaption class="image_caption"></figcaption>
-      </figure>
-
-      <ul>
-        <li>
-          <dl>
-            <dt>＜磁力選別機＞</dt>
-            <div class="image_container">
-              <figure class="image_box">
-                <img class="image" src="../svg/petec/2.svg" alt="" />
-                <div class="note"><a class="href" href=""></a></div>
-                <figcaption class="image_caption"></figcaption>
-              </figure>
+          <!--suppress HtmlUnknownAttribute -->
+          が使用されているものがあります。
+          その中には有害物質である水銀ガスが含まれているため、バックライトユニットの蛍光管を回収する必要があります。
+          回収した蛍光管は専門の業者で処分されます。
+        </p>
+        <div class="image_container">
+          <figure class="image_box">
+            <img
+              class="image"
+              src="./img/petec_backlight.jpg"
+              alt="専用ブースでのバックライト取り外し"
+            />
+            <div class="note">
+              ホームページより引用<a
+                class="href"
+                href="https://panasonic.co.jp/eco/petec/process/"
+              ></a>
             </div>
-            <dd>役割：磁石につくものとそうでないものに分ける</dd>
-            <dd>
-              手順：
-              <ol>
-                <li>①混合物が投入され、回転式ドラムに沿って移動します。</li>
-                <li>
-                  ②鉄以外は磁石につかないためある程度のところで落下します。
-                </li>
-                <li>③鉄は磁石がなくなるところで落下します。</li>
-              </ol>
-            </dd>
-          </dl>
-        </li>
-        <li>
-          <dl>
-            <dt>＜非鉄金属選別機＞</dt>
-            <div class="image_container">
-              <figure class="image_box">
-                <img class="image" src="../svg/petec/3.svg" alt="" />
-                <div class="note"><a class="href" href=""></a></div>
-                <figcaption class="image_caption"></figcaption>
-              </figure>
-            </div>
-            <dd>役割：磁石につかない金属（非鉄金属）と金属以外を分ける</dd>
-            <dd>
-              手順：
-              <ol>
-                <li>①混合物が投入され、コンベヤベルトに沿って進みます。</li>
-                <li>②磁石が高速回転することで、移動磁界が生まれます。</li>
-                <li>③磁石を通過する非鉄金属に渦電流が発生します。</li>
-                <li>
-                  ④非鉄金属は磁力と渦電流との相互作用によって飛び出します。
-                </li>
-                <li>⑤渦電流を発生させないプラスチックは自然に落下します。</li>
-              </ol>
-            </dd>
-          </dl>
-        </li>
-        <li>
-          <dl>
-            <dt>＜比重選別機＞</dt>
-            <div class="image_container">
-              <figure class="image_box">
-                <img class="image" src="../svg/petec/4.svg" alt="" />
-                <div class="note"><a class="href" href=""></a></div>
-                <figcaption class="image_caption"></figcaption>
-              </figure>
-            </div>
-            <dd>役割：重いものと軽いものを分ける</dd>
-            <dd>
-              手順：
-              <ol>
-                <li>①混合物（銅とアルミ）が投入されます。</li>
-                <li>
-                  ②アルミは軽いため、下からの風に吹き上げられ、下の方向に移動していきます。
-                </li>
-                <li>
-                  ③重い銅は風に吹き上げられずに、台の振動によって上の方向に移動していきます。
-                </li>
-              </ol>
-            </dd>
-          </dl>
-        </li>
-      </ul>
+            <figcaption class="image_caption">
+              専用ブースでのバックライト取り外し
+            </figcaption>
+          </figure>
+        </div>
 
-      <h3 id="冷蔵庫・冷凍庫">冷蔵庫・冷凍庫</h3>
-      <p>
-        まず、冷蔵庫内に食べ物が残っていないかどうかを確認し、残っている場合はそれを取り出します。
-        次に、冷媒や断熱材にフロンが使われているかいないかなどの観点から冷蔵庫を種類分けし、ラベルでそれを示します。
-        この作業が、後の解体の効率を随分上げているそうです。
-      </p>
-      <p>
-        野菜箱や食品棚などのプラスチック（PP、PS）は破砕され、樹脂加工会社で洗浄、異物除去、出荷検査を行った後に新たな製品の一部として使われます。
-        また、冷蔵庫から取り出されたコンプレッサーからは有害物質であるフロンが抜き取られ、その後に他の会社で無害化されます。
-        残ったコンプレッサーは金属加工会社に送られた後、再資源化されます。
-      </p>
-      <p>
-        続いて、冷蔵庫本体については断熱材にフロンガスが使われている物と使われていない物とで別々に破砕されることになっています。
-        フロンタイプのものは破砕の際にフロンが抜き取られ、冷媒フロン同様、他の会社で無害化されます。
-        フロンガスが取り出された後の本体は、専用の破砕機で金属やプラスチックの混ざった破片群になり、そこから個々の資源が取り出されていきます。
-      </p>
-      <!-- 樹形図 -->
+        <p>
+          次は、分別と回収という作業に入ります。
+          そこでは主に金属素材が含まれる基板などが取り出されます。
+        </p>
+        <div class="image_container">
+          <figure class="image_box">
+            <img
+              class="image"
+              src="./img/petec_conveyor.jpg"
+              alt="取り出された基板"
+            />
+            <div class="note">メンバーが撮影<a class="href" href=""></a></div>
+            <figcaption class="image_caption">取り出された基板</figcaption>
+          </figure>
+        </div>
 
-      <div class="image_container">
+        <p>
+          また作業効率を上げるために、コンベア式の解体ラインが工場内に張り巡らされています（よく車の製造工場に大規模な生産ラインが続いている写真を見ますよね）。
+          そこで取り出された金属は精錬所に送られ、新たな資源に生まれ変わります。
+        </p>
+        <h3 id="エアコン">エアコン</h3>
+        <p>
+          まず、エアコンは室内機と室外機に分けられます。
+          室内機は従来、外装、送風ファンの取り外し、内部の解体までの全てを人の手で行っていましたが、PETECでは装置を使ってモーターと電源が集まっているところを切断することで自然とネジが外れるので解体の手間を省いて、作業負担を減らしています。
+          一方、室外機には冷媒フロンが存在します。
+          冷媒フロンはオゾン層を破壊する原因ともいわれているので、先に取り除く必要があります。
+          この取り除きはチューブを使って安全に行われ、その後専用の処理工場で無害化されることになっています。
+          室外機にはホコリや虫の死骸などがついていることがあるので、除去した後、解体します。
+        </p>
+        <p>
+          室内機・室外機の解体された部分は銅線、<span class="word"
+            ><span class="word_text">筐体</span>
+            <span class="word_description_container">
+              <span class="word_description">
+                <span class="word_description_title">筐体</span>
+                <span class="word_description_text" style="line-height: 1.5rem"
+                  >何らかの機能を有する機械や電気機器などを中に収めた箱のこと。</span
+                >
+              </span>
+            </span>
+          </span>
+
+          <!--suppress HtmlUnknownAttribute -->
+          、電気部品類、熱交換器、コンプレッサーなどに分別されます。
+          特に、室外機に含まれるコンプレッサーは鉄と銅を多く含む貴重な資源であるそうです。
+          銅線からは、破砕された後に銅が回収され、精錬所に送られます。
+          電気部品類、熱交換器、コンプレッサーも別の工場へ行き、高品位・高純度に資源が回収されて新しいものへと生まれ変わります。
+        </p>
+        <p>
+          筐体などの部分からは特殊な分離方法を用いて、鉄、銅、アルミ、プラスチックに分けられます。
+          この分離方法のデモは、見学の時に見ることができました！
+        </p>
+        <h4 id="～筐体が選別回収される工程～">～筐体が選別回収される工程～</h4>
         <figure class="image_box">
-          <img
-            class="image"
-            src="./img/petec_nonfron_box.jpg"
-            alt="ノンフロン用破砕機写真"
-          />
-          <div class="note">
-            ホームページより引用<a
-              class="href"
-              href="https://panasonic.co.jp/eco/petec/technology/"
-            ></a>
-          </div>
-          <figcaption class="image_caption"></figcaption>
-        </figure>
-      </div>
-
-      <h4 id="～粉々の冷蔵庫が選別回収される工程～">
-        ～粉々の冷蔵庫が選別回収される工程～
-      </h4>
-      <div class="image_container">
-        <figure class="image_box">
-          <img class="image" src="../svg/petec/5.svg" alt="" />
+          <img class="image" src="../svg/petec/1.svg" alt="" />
           <div class="note"><a class="href" href=""></a></div>
           <figcaption class="image_caption"></figcaption>
         </figure>
-      </div>
-      <ul>
-        <li>
-          <dl>
-            <dt>＜風力選別機＞</dt>
-            <div class="image_container">
-              <figure class="image_box">
-                <img class="image" src="../svg/petec/6.svg" alt="" />
-                <div class="note"><a class="href" href=""></a></div>
-                <figcaption class="image_caption"></figcaption>
-              </figure>
+
+        <ul>
+          <li>
+            <dl>
+              <dt>＜磁力選別機＞</dt>
+              <div class="image_container">
+                <figure class="image_box">
+                  <img class="image" src="../svg/petec/2.svg" alt="" />
+                  <div class="note"><a class="href" href=""></a></div>
+                  <figcaption class="image_caption"></figcaption>
+                </figure>
+              </div>
+              <dd>役割：磁石につくものとそうでないものに分ける</dd>
+              <dd>
+                手順：
+                <ol>
+                  <li>①混合物が投入され、回転式ドラムに沿って移動します。</li>
+                  <li>
+                    ②鉄以外は磁石につかないためある程度のところで落下します。
+                  </li>
+                  <li>③鉄は磁石がなくなるところで落下します。</li>
+                </ol>
+              </dd>
+            </dl>
+          </li>
+          <li>
+            <dl>
+              <dt>＜非鉄金属選別機＞</dt>
+              <div class="image_container">
+                <figure class="image_box">
+                  <img class="image" src="../svg/petec/3.svg" alt="" />
+                  <div class="note"><a class="href" href=""></a></div>
+                  <figcaption class="image_caption"></figcaption>
+                </figure>
+              </div>
+              <dd>役割：磁石につかない金属（非鉄金属）と金属以外を分ける</dd>
+              <dd>
+                手順：
+                <ol>
+                  <li>①混合物が投入され、コンベヤベルトに沿って進みます。</li>
+                  <li>②磁石が高速回転することで、移動磁界が生まれます。</li>
+                  <li>③磁石を通過する非鉄金属に渦電流が発生します。</li>
+                  <li>
+                    ④非鉄金属は磁力と渦電流との相互作用によって飛び出します。
+                  </li>
+                  <li>⑤渦電流を発生させないプラスチックは自然に落下します。</li>
+                </ol>
+              </dd>
+            </dl>
+          </li>
+          <li>
+            <dl>
+              <dt>＜比重選別機＞</dt>
+              <div class="image_container">
+                <figure class="image_box">
+                  <img class="image" src="../svg/petec/4.svg" alt="" />
+                  <div class="note"><a class="href" href=""></a></div>
+                  <figcaption class="image_caption"></figcaption>
+                </figure>
+              </div>
+              <dd>役割：重いものと軽いものを分ける</dd>
+              <dd>
+                手順：
+                <ol>
+                  <li>①混合物（銅とアルミ）が投入されます。</li>
+                  <li>
+                    ②アルミは軽いため、下からの風に吹き上げられ、下の方向に移動していきます。
+                  </li>
+                  <li>
+                    ③重い銅は風に吹き上げられずに、台の振動によって上の方向に移動していきます。
+                  </li>
+                </ol>
+              </dd>
+            </dl>
+          </li>
+        </ul>
+
+        <h3 id="冷蔵庫・冷凍庫">冷蔵庫・冷凍庫</h3>
+        <p>
+          まず、冷蔵庫内に食べ物が残っていないかどうかを確認し、残っている場合はそれを取り出します。
+          次に、冷媒や断熱材にフロンが使われているかいないかなどの観点から冷蔵庫を種類分けし、ラベルでそれを示します。
+          この作業が、後の解体の効率を随分上げているそうです。
+        </p>
+        <p>
+          野菜箱や食品棚などのプラスチック（PP、PS）は破砕され、樹脂加工会社で洗浄、異物除去、出荷検査を行った後に新たな製品の一部として使われます。
+          また、冷蔵庫から取り出されたコンプレッサーからは有害物質であるフロンが抜き取られ、その後に他の会社で無害化されます。
+          残ったコンプレッサーは金属加工会社に送られた後、再資源化されます。
+        </p>
+        <p>
+          続いて、冷蔵庫本体については断熱材にフロンガスが使われている物と使われていない物とで別々に破砕されることになっています。
+          フロンタイプのものは破砕の際にフロンが抜き取られ、冷媒フロン同様、他の会社で無害化されます。
+          フロンガスが取り出された後の本体は、専用の破砕機で金属やプラスチックの混ざった破片群になり、そこから個々の資源が取り出されていきます。
+        </p>
+        <!-- 樹形図 -->
+
+        <div class="image_container">
+          <figure class="image_box">
+            <img
+              class="image"
+              src="./img/petec_nonfron_box.jpg"
+              alt="ノンフロン用破砕機写真"
+            />
+            <div class="note">
+              ホームページより引用<a
+                class="href"
+                href="https://panasonic.co.jp/eco/petec/technology/"
+              ></a>
             </div>
-            <dd>役割：重いものと軽いものを分ける</dd>
-            <dd>
-              手順：
-              <ol>
-                <li>①混合物が投入されます。</li>
-                <li>
-                  ②ウレタンは軽いため、下からの風で吹き上げられ、そのまま吸引口へと吸い込まれます。
-                </li>
-                <li>
-                  ③ウレタン以外は風に吹き上げられることなく下へと落ちます。
-                </li>
-              </ol>
-            </dd>
-          </dl>
-        </li>
-        <li>
-          <dl>
-            <dt>＜磁力選別機＞</dt>
-            <dd>エアコンの磁力選別機と同じです。</dd>
-            <!-- リンクにする? -->
-          </dl>
-        </li>
-        <li>
-          <dl>
-            <dt>＜非鉄金属選別機＞</dt>
-            <dd>エアコンの非鉄金属選別機と同じです。</dd>
-            <!-- リンクにする? -->
-          </dl>
-        </li>
-        <li>
-          <dl>
-            <dt>＜高精度樹脂選別システム＞</dt>
-            <div class="image_container">
-              <figure class="image_box">
-                <img class="image" src="../svg/petec/7.svg" alt="" />
-                <div class="note"><a class="href" href=""></a></div>
-                <figcaption class="image_caption"></figcaption>
-              </figure>
-            </div>
-            <dd>役割：プラスチックをABS、PP、PSに分ける</dd>
-            <dd>
-              手順：
-              <ol>
-                <li>
-                  ①ABS、PP、PSの混ざったプラスチックがコンベヤから飛び出します。
-                </li>
-                <li>
-                  ②エアノズルが即座に種類を判別し、適当なタイミングで空気を噴射します。
-                </li>
-              </ol>
-            </dd>
-          </dl>
-        </li>
-      </ul>
-
-      <!--suppress ALL -->
-      <div class="atom_chara" style="width: 100%; margin: 50px 0">
-        <div class="atom_chara_icon">
-          <img
-            class="atom_chara_img"
-            src="../img/atom_chara/Au.png"
-            alt="マリー・ゴールドのアイコン"
-          />
-          <div class="atom_chara_name">マリー・ゴールド</div>
+            <figcaption class="image_caption"></figcaption>
+          </figure>
         </div>
-        <div class="atom_chara_content">
-          <span
-            >このシステムがあるからプラスチックを廃棄物やサーマルリサイクルに回さずに再利用できるのね。</span
-          >
+
+        <h4 id="～粉々の冷蔵庫が選別回収される工程～">
+          ～粉々の冷蔵庫が選別回収される工程～
+        </h4>
+        <div class="image_container">
+          <figure class="image_box">
+            <img class="image" src="../svg/petec/5.svg" alt="" />
+            <div class="note"><a class="href" href=""></a></div>
+            <figcaption class="image_caption"></figcaption>
+          </figure>
         </div>
-      </div>
+        <ul>
+          <li>
+            <dl>
+              <dt>＜風力選別機＞</dt>
+              <div class="image_container">
+                <figure class="image_box">
+                  <img class="image" src="../svg/petec/6.svg" alt="" />
+                  <div class="note"><a class="href" href=""></a></div>
+                  <figcaption class="image_caption"></figcaption>
+                </figure>
+              </div>
+              <dd>役割：重いものと軽いものを分ける</dd>
+              <dd>
+                手順：
+                <ol>
+                  <li>①混合物が投入されます。</li>
+                  <li>
+                    ②ウレタンは軽いため、下からの風で吹き上げられ、そのまま吸引口へと吸い込まれます。
+                  </li>
+                  <li>
+                    ③ウレタン以外は風に吹き上げられることなく下へと落ちます。
+                  </li>
+                </ol>
+              </dd>
+            </dl>
+          </li>
+          <li>
+            <dl>
+              <dt>＜磁力選別機＞</dt>
+              <dd>エアコンの磁力選別機と同じです。</dd>
+              <!-- リンクにする? -->
+            </dl>
+          </li>
+          <li>
+            <dl>
+              <dt>＜非鉄金属選別機＞</dt>
+              <dd>エアコンの非鉄金属選別機と同じです。</dd>
+              <!-- リンクにする? -->
+            </dl>
+          </li>
+          <li>
+            <dl>
+              <dt>＜高精度樹脂選別システム＞</dt>
+              <div class="image_container">
+                <figure class="image_box">
+                  <img class="image" src="../svg/petec/7.svg" alt="" />
+                  <div class="note"><a class="href" href=""></a></div>
+                  <figcaption class="image_caption"></figcaption>
+                </figure>
+              </div>
+              <dd>役割：プラスチックをABS、PP、PSに分ける</dd>
+              <dd>
+                手順：
+                <ol>
+                  <li>
+                    ①ABS、PP、PSの混ざったプラスチックがコンベヤから飛び出します。
+                  </li>
+                  <li>
+                    ②エアノズルが即座に種類を判別し、適当なタイミングで空気を噴射します。
+                  </li>
+                </ol>
+              </dd>
+            </dl>
+          </li>
+        </ul>
 
-      <!--suppress HtmlUnknownAttribute -->
-
-      <p>
-        このように冷蔵庫は多くの工程を踏まなければいけないことから、4品目の中で最もリサイクルが難しいと言われているそうです。
-      </p>
-      <h3 id="洗濯機・衣類乾燥機">洗濯機・衣類乾燥機</h3>
-      <p>
-        乾燥機付き洗濯機もエアコンと同じように、コンプレッサーや熱交換器が取り出され、フロンも回収されます。
-        また、洗濯機からは<span class="word"
-          ><span class="word_text">ハーネス</span>
-          <span class="word_description_container">
-            <span class="word_description">
-              <span class="word_description_title">ハーネス</span>
-              <span class="word_description_text" style="line-height: 1.5rem"
-                >洗濯機、冷蔵庫等の家電や自動車等の内部配線に使用されるもので、電源供給や信号通信を目的に複数の電線を束状にし配線し易い長さ形状にしたもの。</span
-              >
-            </span>
-          </span>
-        </span>
+        <!--suppress ALL -->
+        <div class="atom_chara" style="width: 100%; margin: 50px 0">
+          <div class="atom_chara_icon">
+            <img
+              class="atom_chara_img"
+              src="../img/atom_chara/Au.png"
+              alt="マリー・ゴールドのアイコン"
+            />
+            <div class="atom_chara_name">マリー・ゴールド</div>
+          </div>
+          <div class="atom_chara_content">
+            <span
+              >このシステムがあるからプラスチックを廃棄物やサーマルリサイクルに回さずに再利用できるのね。</span
+            >
+          </div>
+        </div>
 
         <!--suppress HtmlUnknownAttribute -->
-        やモーター、操作パネルや電源コードを手作業で取り出します。
-        洗濯機が他の製品と異なるところは、塩水を抜き取らなければいけないということです。塩水は洗濯をするときに回転する洗濯槽を安定させるためにバランサー代わりに2Lほど入っているのですが、それを取り除くことで大切なリサイクル資源である鉄がさびてしまうのを防ぐことができるのです。
-        また、取り除かれた塩水は他の工場へと送られ、再利用されます。
-      </p>
-      <div class="image_container">
-        <figure class="image_box">
-          <img
-            class="image"
-            src="./img/petec_solt_water.jpg"
-            alt="塩水抜き取り写真"
-          />
-          <div class="note">メンバーが撮影<a class="href" href=""></a></div>
-          <figcaption class="image_caption"></figcaption>
+
+        <p>
+          このように冷蔵庫は多くの工程を踏まなければいけないことから、4品目の中で最もリサイクルが難しいと言われているそうです。
+        </p>
+        <h3 id="洗濯機・衣類乾燥機">洗濯機・衣類乾燥機</h3>
+        <p>
+          乾燥機付き洗濯機もエアコンと同じように、コンプレッサーや熱交換器が取り出され、フロンも回収されます。
+          また、洗濯機からは<span class="word"
+            ><span class="word_text">ハーネス</span>
+            <span class="word_description_container">
+              <span class="word_description">
+                <span class="word_description_title">ハーネス</span>
+                <span class="word_description_text" style="line-height: 1.5rem"
+                  >洗濯機、冷蔵庫等の家電や自動車等の内部配線に使用されるもので、電源供給や信号通信を目的に複数の電線を束状にし配線し易い長さ形状にしたもの。</span
+                >
+              </span>
+            </span>
+          </span>
+
+          <!--suppress HtmlUnknownAttribute -->
+          やモーター、操作パネルや電源コードを手作業で取り出します。
+          洗濯機が他の製品と異なるところは、塩水を抜き取らなければいけないということです。塩水は洗濯をするときに回転する洗濯槽を安定させるためにバランサー代わりに2Lほど入っているのですが、それを取り除くことで大切なリサイクル資源である鉄がさびてしまうのを防ぐことができるのです。
+          また、取り除かれた塩水は他の工場へと送られ、再利用されます。
+        </p>
+        <div class="image_container">
+          <figure class="image_box">
+            <img
+              class="image"
+              src="./img/petec_solt_water.jpg"
+              alt="塩水抜き取り写真"
+            />
+            <div class="note">メンバーが撮影<a class="href" href=""></a></div>
+            <figcaption class="image_caption"></figcaption>
+          </figure>
+        </div>
+
+        <p>
+          その後、洗濯機は破砕機へと向かいます。
+          破砕機で細かくされた後は、磁力選別、非鉄選別などを経て、鉄やアルミ、銅、プラスチックに分離され、回収されます。
+          （ここでの磁力選別や非鉄選別は、エアコンや冷蔵庫で紹介したものと同じです。）
+        </p>
+        <h2 id="リサイクル料金について">リサイクル料金について</h2>
+        <p>
+          しかしこれらの製品をリサイクルしてもらうにはどうしてもリサイクル料金を払わなければなりません。
+          これは家電リサイクル法で私たち消費者側に課せられた役割であり、それと同時にリサイクルを促進させる潤滑油でもあるのです。
+          「リサイクルするのにお金を払わなければならないの？」
+          そう思われている方もいるかもしれません。実は、技術の発達や商品のリサイクルのしやすさの向上などから、リサイクル料金は減ってきているのです。
+        </p>
+        <figure>
+          <table>
+            <tr>
+              <th colspan="2">4品目</th>
+              <th>区分</th>
+              <th>2001年(税抜)</th>
+              <th>2021年(税抜)</th>
+            </tr>
+            <tr>
+              <td rowspan="4">テレビ</td>
+              <td rowspan="2">ブラウン管式</td>
+              <td>16型以上</td>
+              <td rowspan="2">2700円</td>
+              <td>2200円</td>
+            </tr>
+            <tr>
+              <td>15型以下</td>
+              <td>1200円</td>
+            </tr>
+            <tr>
+              <td rowspan="2">薄型</td>
+              <td>16V型以上</td>
+              <td rowspan="2"><span class="weak">(2009年〜)</span></td>
+              <td>2700円</td>
+            </tr>
+            <tr>
+              <td>15V型以下</td>
+              <td>1700円</td>
+            </tr>
+            <tr>
+              <td colspan="2" rowspan="2">冷蔵庫・冷凍庫</td>
+              <td>171L以上</td>
+              <td rowspan="2">4600円</td>
+              <td>4300円</td>
+            </tr>
+            <tr>
+              <td>170L以下</td>
+              <td>3400円</td>
+            </tr>
+            <tr>
+              <td colspan="2">洗濯機・衣類乾燥機</td>
+              <td></td>
+              <td>2400円</td>
+              <td>2300円</td>
+            </tr>
+            <tr>
+              <td colspan="2">エアコン</td>
+              <td></td>
+              <td>3500円</td>
+              <td>900円</td>
+            </tr>
+          </table>
+          <figcaption>リサイクル料金の表<br />見学時の説明より作成</figcaption>
         </figure>
-      </div>
 
-      <p>
-        その後、洗濯機は破砕機へと向かいます。
-        破砕機で細かくされた後は、磁力選別、非鉄選別などを経て、鉄やアルミ、銅、プラスチックに分離され、回収されます。
-        （ここでの磁力選別や非鉄選別は、エアコンや冷蔵庫で紹介したものと同じです。）
-      </p>
-      <h2 id="リサイクル料金について">リサイクル料金について</h2>
-      <p>
-        しかしこれらの製品をリサイクルしてもらうにはどうしてもリサイクル料金を払わなければなりません。
-        これは家電リサイクル法で私たち消費者側に課せられた役割であり、それと同時にリサイクルを促進させる潤滑油でもあるのです。
-        「リサイクルするのにお金を払わなければならないの？」
-        そう思われている方もいるかもしれません。実は、技術の発達や商品のリサイクルのしやすさの向上などから、リサイクル料金は減ってきているのです。
-      </p>
-      <figure>
-        <table>
-          <tr>
-            <th colspan="2">4品目</th>
-            <th>区分</th>
-            <th>2001年(税抜)</th>
-            <th>2021年(税抜)</th>
-          </tr>
-          <tr>
-            <td rowspan="4">テレビ</td>
-            <td rowspan="2">ブラウン管式</td>
-            <td>16型以上</td>
-            <td rowspan="2">2700円</td>
-            <td>2200円</td>
-          </tr>
-          <tr>
-            <td>15型以下</td>
-            <td>1200円</td>
-          </tr>
-          <tr>
-            <td rowspan="2">薄型</td>
-            <td>16V型以上</td>
-            <td rowspan="2"><span class="weak">(2009年〜)</span></td>
-            <td>2700円</td>
-          </tr>
-          <tr>
-            <td>15V型以下</td>
-            <td>1700円</td>
-          </tr>
-          <tr>
-            <td colspan="2" rowspan="2">冷蔵庫・冷凍庫</td>
-            <td>171L以上</td>
-            <td rowspan="2">4600円</td>
-            <td>4300円</td>
-          </tr>
-          <tr>
-            <td>170L以下</td>
-            <td>3400円</td>
-          </tr>
-          <tr>
-            <td colspan="2">洗濯機・衣類乾燥機</td>
-            <td></td>
-            <td>2400円</td>
-            <td>2300円</td>
-          </tr>
-          <tr>
-            <td colspan="2">エアコン</td>
-            <td></td>
-            <td>3500円</td>
-            <td>900円</td>
-          </tr>
-        </table>
-        <figcaption>リサイクル料金の表<br />見学時の説明より作成</figcaption>
-      </figure>
-
-      <p>
-        それでもリサイクル料金を決して安いという風に思えない方もいると思います。
-        しかし、誰もが「リサイクル料金は高いから」と使用済み家電をリサイクルしない、あるいは違法事業者に出すならば地球の資源はすぐに底をついてしまいますよね。
-        「地球の資源を守る。」そのためには私たち一人一人が責任ある行動をとらなければなりません。
-        リサイクル料金を支払ってリサイクルをすることはリサイクル料金と比べ物にならないくらい価値のあることなのではないでしょうか。
-      </p>
-      <!--
+        <p>
+          それでもリサイクル料金を決して安いという風に思えない方もいると思います。
+          しかし、誰もが「リサイクル料金は高いから」と使用済み家電をリサイクルしない、あるいは違法事業者に出すならば地球の資源はすぐに底をついてしまいますよね。
+          「地球の資源を守る。」そのためには私たち一人一人が責任ある行動をとらなければなりません。
+          リサイクル料金を支払ってリサイクルをすることはリサイクル料金と比べ物にならないくらい価値のあることなのではないでしょうか。
+        </p>
+        <!--
 ## Q&A
 
 PETECの藤原さんが質問に応じてくださいました。
@@ -1490,45 +1548,187 @@ PETECの位置する加東市（人口：39848人 <span class="weak">2021年9月
 
 -->
 
-      <h2 id="petecの見学を通じて感じたこと">PETECの見学を通じて感じたこと</h2>
-      <p>
-        工場見学を通じて一番印象に残っていることが、オフィスにしても解体レーンにしてもとてもきれいに整えられていて、私たち見学者にとても配慮されていると感じたことです。
-        特に解体レーンは製品ごとにはっきりと色分けされており、解体の説明を受ける際にもとてもわかりやすく感じました。
-        この色分けは見学者に対する配慮のためだけでなく、従業者さんの安全のためでもあるそうです。
-        工場見学を行うことが会社の内部を公開し、信頼に繋がっているというお話を聞いて、なるほどなと思いました。
-      </p>
-      <p>
-        また、工場の倉庫にたくさんのテレビやエアコンが並んでいるのを見て、これらの製品が適切にリサイクルされずに不法に処理される場面を想像するとゾッとしました。
-        PETECの役割がいかに大切か分かった気がします。
-      </p>
-      <h2 id="petecの周りの風景">PETECの周りの風景</h2>
-      <div class="image_container">
-        <figure class="image_box">
-          <img
-            class="image"
-            src="./img/petec_around.jpg"
-            alt="PETECの周りの風景"
-          />
-          <div class="note">メンバーが撮影<a class="href" href=""></a></div>
-          <figcaption class="image_caption"></figcaption>
-        </figure>
+        <h2 id="petecの見学を通じて感じたこと">
+          PETECの見学を通じて感じたこと
+        </h2>
+        <p>
+          工場見学を通じて一番印象に残っていることが、オフィスにしても解体レーンにしてもとてもきれいに整えられていて、私たち見学者にとても配慮されていると感じたことです。
+          特に解体レーンは製品ごとにはっきりと色分けされており、解体の説明を受ける際にもとてもわかりやすく感じました。
+          この色分けは見学者に対する配慮のためだけでなく、従業者さんの安全のためでもあるそうです。
+          工場見学を行うことが会社の内部を公開し、信頼に繋がっているというお話を聞いて、なるほどなと思いました。
+        </p>
+        <p>
+          また、工場の倉庫にたくさんのテレビやエアコンが並んでいるのを見て、これらの製品が適切にリサイクルされずに不法に処理される場面を想像するとゾッとしました。
+          PETECの役割がいかに大切か分かった気がします。
+        </p>
+        <h2 id="petecの周りの風景">PETECの周りの風景</h2>
+        <div class="image_container">
+          <figure class="image_box">
+            <img
+              class="image"
+              src="./img/petec_around.jpg"
+              alt="PETECの周りの風景"
+            />
+            <div class="note">メンバーが撮影<a class="href" href=""></a></div>
+            <figcaption class="image_caption"></figcaption>
+          </figure>
+        </div>
+
+        <p>
+          田んぼを一面に見渡すことができ、非常に静かでのどかな印象を受けました。
+          PETECの位置する加東市は酒米・山田錦が有名だとか。
+          皆さんも自然豊かな加東市にぜひぜひ来てみてください！
+        </p>
+        <div id="pn_bar">
+          <a href="./interview.html" id="prev_link">
+            <div id="prev_text">インタビュー</div>
+            <button id="prev_button">Prev</button>
+          </a>
+
+          <a href="./disassembly.html" id="next_link">
+            <div id="next_text">スマホ解体</div>
+            <button id="next_button">Next</button>
+          </a>
+        </div>
+
+        <div id="floating_menu">
+          <!--suppress BadExpressionStatementJS -->
+          <div id="toc">
+            <div id="toc_title">目次</div>
+            <a class="toc_link_h1" href="#工場見学">工場見学</a
+            ><a class="toc_link_h2" href="#petecってどんなところ?"
+              >PETECってどんなところ?</a
+            ><a class="toc_link_h2" href="#どのようにリサイクルされるの?"
+              >どのようにリサイクルされるの?</a
+            ><a class="toc_link_h3" href="#テレビ">テレビ</a
+            ><a class="toc_link_h3" href="#エアコン">エアコン</a
+            ><a class="toc_link_h4" href="#〜筐体が選別回収される工程〜"
+              >〜筐体が選別回収される工程〜</a
+            ><a class="toc_link_h3" href="#冷蔵庫・冷凍庫">冷蔵庫・冷凍庫</a
+            ><a class="toc_link_h4" href="#〜粉々の冷蔵庫が選別回収される工程〜"
+              >〜粉々の冷蔵庫が選別回収される工程〜</a
+            ><a class="toc_link_h3" href="#洗濯機・衣類乾燥機"
+              >洗濯機・衣類乾燥機</a
+            ><a class="toc_link_h2" href="#リサイクル料金について"
+              >リサイクル料金について</a
+            ><a class="toc_link_h2" href="#petecの見学を通じて感じたこと"
+              >PETECの見学を通じて感じたこと</a
+            ><a class="toc_link_h2" href="#petecの周りの風景"
+              >PETECの周りの風景</a
+            >
+          </div>
+
+          <!--suppress BadExpressionStatementJS --><button
+            id="lang_button"
+            onclick="changeLang()"
+          >
+            <span id="lang_text"></span>
+            <script>
+              function setLang(lang) {
+                sessionStorage.setItem("lang", lang)
+                switch (lang) {
+                  case "ja":
+                    document.getElementById("lang_en").style.display = "none"
+                    document.getElementById("lang_jp").style.display = "block"
+                    break
+                  case "en":
+                    document.getElementById("lang_en").style.display = "block"
+                    document.getElementById("lang_jp").style.display = "none"
+                }
+                updateButton()
+              }
+
+              function changeLang() {
+                switch (sessionStorage.getItem("lang")) {
+                  case "en":
+                    setLang("ja")
+                    break
+                  case "ja":
+                  default:
+                    setLang("en")
+                    break
+                }
+                updateButton()
+              }
+
+              function updateButton() {
+                switch (sessionStorage.getItem("lang")) {
+                  case "ja":
+                    document
+                      .querySelectorAll("#lang_text")
+                      .forEach((el) => (el.innerHTML = "English"))
+                    break
+                  case "en":
+                    document
+                      .querySelectorAll("#lang_text")
+                      .forEach((el) => (el.innerHTML = "日本語"))
+                    break
+                }
+              }
+              window.onload = () => setLang(sessionStorage.getItem("lang"))
+            </script>
+          </button>
+        </div>
       </div>
+      <div id="lang_en">
+        <div id="floating_menu">
+          <!--suppress BadExpressionStatementJS -->
+          <div id="toc">
+            <div id="toc_title">目次</div>
+            <a class="toc_link_" href="#undefined">undefined</a>
+          </div>
 
-      <p>
-        田んぼを一面に見渡すことができ、非常に静かでのどかな印象を受けました。
-        PETECの位置する加東市は酒米・山田錦が有名だとか。
-        皆さんも自然豊かな加東市にぜひぜひ来てみてください！
-      </p>
-      <div id="pn_bar">
-        <a href="./interview.html" id="prev_link">
-          <div id="prev_text">インタビュー</div>
-          <button id="prev_button">Prev</button>
-        </a>
+          <!--suppress BadExpressionStatementJS --><button
+            id="lang_button"
+            onclick="changeLang()"
+          >
+            <span id="lang_text"></span>
+            <script>
+              function setLang(lang) {
+                sessionStorage.setItem("lang", lang)
+                switch (lang) {
+                  case "ja":
+                    document.getElementById("lang_en").style.display = "none"
+                    document.getElementById("lang_jp").style.display = "block"
+                    break
+                  case "en":
+                    document.getElementById("lang_en").style.display = "block"
+                    document.getElementById("lang_jp").style.display = "none"
+                }
+                updateButton()
+              }
 
-        <a href="./disassembly.html" id="next_link">
-          <div id="next_text">スマホ解体</div>
-          <button id="next_button">Next</button>
-        </a>
+              function changeLang() {
+                switch (sessionStorage.getItem("lang")) {
+                  case "en":
+                    setLang("ja")
+                    break
+                  case "ja":
+                  default:
+                    setLang("en")
+                    break
+                }
+                updateButton()
+              }
+
+              function updateButton() {
+                switch (sessionStorage.getItem("lang")) {
+                  case "ja":
+                    document
+                      .querySelectorAll("#lang_text")
+                      .forEach((el) => (el.innerHTML = "English"))
+                    break
+                  case "en":
+                    document
+                      .querySelectorAll("#lang_text")
+                      .forEach((el) => (el.innerHTML = "日本語"))
+                    break
+                }
+              }
+              window.onload = () => setLang(sessionStorage.getItem("lang"))
+            </script>
+          </button>
+        </div>
       </div>
     </main>
     <button
