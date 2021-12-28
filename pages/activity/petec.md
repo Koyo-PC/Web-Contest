@@ -1,5 +1,7 @@
 [//SCML_TITLE]: # (工場見学)
 
+<div id="lang_jp">
+
 # 工場見学
 
 2021年10月14日に兵庫県加東市にあるパナソニックエコテクノロジーセンター（PETEC）に見学に行きました。
@@ -424,3 +426,7 @@ PETECの位置する加東市は酒米・山田錦が有名だとか。
 皆さんも自然豊かな加東市にぜひぜひ来てみてください！
 
 <PNBar prev="./interview.html" prev_text="インタビュー" next="./disassembly.html" next_text="スマホ解体"></PNBar>
+
+</div>
+<div id="lang_en">
+</div>

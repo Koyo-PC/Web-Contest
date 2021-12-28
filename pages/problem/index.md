@@ -1,5 +1,7 @@
 [//SCML_TITLE]: # (課題)
 
+<div id="lang_jp">
+
 # 課題
 
 都市鉱山にはメリットがたくさんある一方で、多くの課題を抱えています。
@@ -183,3 +185,7 @@ https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d230387.94422895205!2d133.9
 
 
 <PNBar prev="../urban-mining/" next="../measure/"></PNBar>
+
+</div>
+<div id="lang_en">
+</div>

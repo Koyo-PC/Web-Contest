@@ -1,5 +1,7 @@
 [//SCML_TITLE]: # (都市鉱山の意義)
 
+<div id="lang_jp">
+
 # 都市鉱山の意義
 
 資源問題解決の1つの手がかりとなる都市鉱山。 それは一体どのようなものなのでしょうか。
@@ -203,3 +205,7 @@ note="書籍『資源論』をスキャン" height="40vw"></Image>
 </NoIndent>
 
 <PNBar prev="../present-sutiation/" next="../problem/"></PNBar>
+
+</div>
+<div id="lang_en">
+</div>

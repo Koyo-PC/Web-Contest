@@ -1,5 +1,7 @@
 [//SCML_TITLE]: # (回収ボックス)
 
+<div id="lang_jp">
+
 # 回収ボックス
 
 私たちは回収ボックスが学校の近くにあることを知って、7/14(水)に回収ボックスを利用しました。
@@ -29,3 +31,7 @@
 みなさんも近くのスーパーに買い物に行くついでに回収ボックスを利用してみてはいかがですか？
 
 <PNBar prev="./questionnaire.html" next="./interview.html"></PNBar>
+
+</div>
+<div id="lang_en">
+</div>

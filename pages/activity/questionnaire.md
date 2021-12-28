@@ -1,5 +1,7 @@
 [//SCML_TITLE]: # (アンケート)
 
+<div id="lang_jp">
+
 # アンケート
 
 <NoIndent>
@@ -96,3 +98,8 @@
 - 都市鉱山という言葉だけでなく、内容まで知ってもらうことが課題である。
 
 <PNBar prev="../" next="./recycle-box.html"></PNBar>
+
+
+</div>
+<div id="lang_en">
+</div>

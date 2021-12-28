@@ -1,5 +1,7 @@
 [//SCML_TITLE]: # (解決策)
 
+<div id="lang_jp">
+
 # 解決策
 
 <NoIndent>
@@ -247,3 +249,7 @@ RoHSの基準を満たしていることを示すこのCEマーキングに見�
 </NoIndent>
 
 <PNBar prev="../activity/" next="../finally/"></PNBar>
+
+</div>
+<div id="lang_en">
+</div>

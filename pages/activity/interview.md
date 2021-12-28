@@ -1,5 +1,7 @@
 [//SCML_TITLE]: # (インタビュー)
 
+<div id="lang_jp">
+
 # インタビュー
 
 <NoIndent>
@@ -148,3 +150,7 @@
 </NoIndent>
 
 <PNBar prev="./recycle-box.html" next="./petec.html"></PNBar>
+
+</div>
+<div id="lang_en">
+</div>

@@ -1,5 +1,7 @@
 [//SCML_TITLE]: # (その他)
 
+<div id="lang_jp">
+
 # その他
 
 ## 活動記録
@@ -133,3 +135,7 @@ Web系の資格を持っているのに得意な言語はJavaらしい。<br>
 <a href="https://www.jetro.go.jp/biznews/2021/06/88299a30b5475ed7.html">JETRO「欧州委、使い捨てプラスチック製品の流通禁止を前に指針発表」</a>
 
 </NoIndent>
+
+</div>
+<div id="lang_en">
+</div>

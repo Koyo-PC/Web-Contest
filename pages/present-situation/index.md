@@ -1,5 +1,7 @@
 [//SCML_TITLE]: # (資源の現状)
 
+<div id="lang_jp">
+
 # 資源の現状
 
 <NoIndent>
@@ -170,3 +172,7 @@
 </NoIndent>
 
 <PNBar prev="../" next="../urban-mining/"></PNBar>
+
+</div>
+<div id="lang_en">
+</div>

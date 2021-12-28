@@ -1,5 +1,7 @@
 [//SCML_TITLE]: # (アクティビティ)
 
+<div id="lang_jp">
+
 # アクティビティ
 
 <NoIndent>
@@ -29,3 +31,7 @@
 </NoIndent>
 
 <PNBar prev="../measure/" next="../solution/"></PNBar>
+
+</div>
+<div id="lang_en">
+</div>

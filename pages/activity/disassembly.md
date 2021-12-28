@@ -1,5 +1,7 @@
 [//SCML_TITLE]: # (携帯解体)
 
+<div id="lang_jp">
+
 # 携帯解体
 
 <NoIndent>
@@ -164,3 +166,7 @@
 なお、ここで分解した廃電子機器は資料としてコンテストが終わるまで持っておき、コンテスト終了後に組み立てなおし回収ボックスにチームで出しに行く予定です。
 
 <PNBar prev="./petec.html" next="../solution/"></PNBar>
+
+</div>
+<div id="lang_en">
+</div>

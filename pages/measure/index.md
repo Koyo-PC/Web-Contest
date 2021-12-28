@@ -1,5 +1,7 @@
 [//SCML_TITLE]: # (現在の取り組み)
 
+<div id="lang_jp">
+
 # 現在の取り組み
 
 現在資源問題を解決するためにさまざまな取り組みが行われています。
@@ -241,3 +243,7 @@ Appleには、<ForceText>新しい端末を購入するときに使い終わっ�
 </NoIndent>
 
 <PNBar prev="../problem/" next="../activity/"></PNBar>
+
+</div>
+<div id="lang_en">
+</div>
