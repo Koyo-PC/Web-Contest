@@ -14,6 +14,21 @@
         font-family: "Noto Serif JP", serif;
         box-sizing: border-box;
         font-weight: 200;
+        line-height: 1.9;
+      }
+      @media (orientation: landscape) {
+        * {
+          font-size: 20px;
+        }
+      }
+
+      @media (orientation: portrait) {
+        * {
+          font-size: 16px;
+        }
+      }
+      svg * {
+        font-size: initial;
       }
 
       html,
@@ -117,32 +132,7 @@
         text-indent: 1em;
         width: 100%;
         text-align: justify;
-      }
-
-      @media (orientation: landscape) {
-        p {
-          font-size: 20px;
-          line-height: 1.9;
-          margin: 50px 0;
-        }
-
-        main ol > li {
-          font-size: 20px;
-          line-height: 1.9;
-        }
-      }
-
-      @media (orientation: portrait) {
-        p {
-          font-size: 16px;
-          line-height: 1.9;
-          margin: 50px 0;
-        }
-
-        main ol > li {
-          font-size: 16px;
-          line-height: 1.9;
-        }
+        margin: 50px 0;
       }
 
       dl.Q_A {
@@ -289,9 +279,14 @@
       #toc {
         padding: 10px;
       }
+      #toc * {
+        font-size: 0.6rem;
+        line-height: 1rem;
+      }
       #toc_title {
         width: 100%;
         text-align: center;
+        font-size: 0.8rem;
       }
       [class^="toc_link_"] {
         display: block;
