@@ -1,3 +1,4 @@
+<!--suppress BadExpressionStatementJS -->
 <nav>
   <div class="button">
     <img src="../svg/ham.svg" alt="" id="ham">
@@ -14,6 +15,35 @@
     <a href="../others/">その他</a>
   </div>
 </nav>
+
+
+<script>
+    let open_judge = -1;
+
+    window.onload = () => {
+        document.getElementById('ham').onclick = () => {
+            console.log('A');
+            if (open_judge === -1) {
+                document.getElementById('navLink').classList.add('open');
+            } else {
+                document.getElementById('navLink').classList.remove('open');
+            }
+            open_judge *= -1;
+        };
+    }
+</script>
+
+<script scml>
+    (buildInfo, options) => {
+        const titles = [
+            "","資源の現状", "都市鉱山の意義", "課題", "現在の取り組み", "アクティビティ", "解決策", "最後に", "その他"
+        ];
+        return {
+            "index": titles.indexOf(buildInfo.fileEnv["TITLE"] ?? "") + 1
+        };
+    }
+</script>
+
 <style>
   nav {
 		position: fixed;
@@ -35,6 +65,11 @@
     font-weight: 400;
     text-decoration: none;
     justify-content: center;
+    box-sizing: border-box;
+  }
+
+  .nav_link :nth-child([[index]]) {
+    border-bottom: 5px solid white;
   }
 
   @media (orientation: landscape) {
@@ -118,18 +153,3 @@
     }
   }
 </style>
-<script>
-    let open_judge = -1;
-
-    window.onload = () => {
-        document.getElementById('ham').onclick = () => {
-            console.log('A');
-            if (open_judge === -1) {
-                document.getElementById('navLink').classList.add('open');
-            } else {
-                document.getElementById('navLink').classList.remove('open');
-            }
-            open_judge *= -1;
-        };
-    }
-</script>
