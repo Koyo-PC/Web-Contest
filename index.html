@@ -125,10 +125,12 @@
         background-image: url(img/pic_03_m.jpg);
         display: grid;
         place-items: center;
+        opacity: 0.7;
+      }
+      .main_image > h1 {
         font-size: 72px;
         font-weight: 700;
         color: #fff;
-        opacity: 0.7;
         text-shadow: 0 0 5px black;
       }
 
@@ -392,6 +394,151 @@
           font-size: 12px;
         }
       }
+      .word_text {
+        position: relative;
+        color: #000;
+        font-weight: bold;
+        white-space: nowrap;
+        z-index: 1;
+      }
+
+      .word_description_container {
+        position: absolute;
+        display: block;
+        height: 0;
+        opacity: 0;
+        filter: drop-shadow(8px 8px 20px #999);
+
+        transition-duration: 0.25s;
+        transition-property: height, opacity;
+
+        overflow: hidden;
+        z-index: 50;
+      }
+      .word:hover .word_description_container,
+      .word_description_container:hover {
+        opacity: 100%;
+
+        height: auto;
+        overflow: hidden;
+      }
+
+      .word_description {
+        box-sizing: border-box;
+        display: block;
+        margin-top: 10px;
+        /*background-color: #eee;*/
+        background-color: ghostwhite;
+        height: calc(100% - 10px);
+        width: 100%;
+        text-align: left;
+        padding: 20px;
+        border-radius: 5px;
+      }
+      .word_description_title {
+        display: block;
+        font-weight: 700;
+        text-indent: 0;
+      }
+      .word_description_text {
+        display: block;
+      }
+
+      @media (orientation: landscape) {
+        .word {
+          position: relative;
+        }
+        .word_description_container {
+          left: 0;
+          width: 300px;
+          top: calc(100%);
+        }
+        .word_description_container:before {
+          box-sizing: border-box;
+          content: "";
+          position: absolute;
+          width: 20px;
+          height: 20px;
+          top: -10px;
+          left: 10px;
+          border: solid 10px transparent;
+          border-bottom: solid 10px ghostwhite;
+        }
+        .word_description {
+          margin-top: 10px;
+        }
+        .word_description_title {
+          font-size: 1.2em;
+        }
+        .word_description_text {
+          font-size: 15px;
+          line-height: 5px;
+        }
+      }
+      @media (orientation: portrait) {
+        .word {
+          position: relative;
+        }
+        .word_description_container {
+          width: 70vw;
+        }
+        .word_description {
+          margin-top: 0;
+        }
+        .word_description_title {
+          font-size: 1.2em;
+        }
+      }
+      #lang_button {
+        background-color: whitesmoke;
+        border: none;
+        color: black;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        position: relative;
+        width: 100%;
+      }
+      #toc {
+        padding: 10px;
+      }
+      #toc_title {
+        width: 100%;
+        text-align: center;
+      }
+      [class^="toc_link_"] {
+        display: block;
+        text-decoration: none;
+        color: black;
+      }
+      [class^="toc_link_"]:hover {
+        color: gray;
+      }
+      .toc_link_h1 {
+        margin-left: 0;
+      }
+      .toc_link_h2 {
+        margin-left: 10px;
+      }
+      .toc_link_h3 {
+        margin-left: 20px;
+      }
+      .toc_link_h4 {
+        margin-left: 30px;
+      }
+      #floating_menu {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        z-index: 100;
+        width: 200px;
+        display: block;
+        background-color: #0004;
+      }
       .text {
         width: 90%;
         margin-bottom: 100px;
@@ -493,7 +640,7 @@
 
     <div id="lang_jp">
       <div class="main_image">
-        <span>右ポケットの中の資源を求めて</span>
+        <h1 id="右ポケットの中の資源を求めて">右ポケットの中の資源を求めて</h1>
       </div>
       <main>
         <div class="title_text">
@@ -506,7 +653,7 @@
           これには現在様々な課題がありますが、より活用されるようになると資源問題解決の１つの手がかりになるはずです。
         </div>
 
-        <h2 class="site_map">サイトマップ</h2>
+        <h2 class="site_map" id="サイトマップ">サイトマップ</h2>
 
         <div class="text">
           <h3 class="text_title">資源の現状</h3>
@@ -629,11 +776,53 @@
           </a>
         </div>
 
-        <h2 class="site_map">ページの見方</h2>
+        <h2 id="ページの見方" class="site_map">ページの見方</h2>
 
-        TODO: 作る!
+        <ul>
+          <li>
+            <h3 id="メニュー">メニュー</h3>
+            <p>
+              ページ右下のメニューです。<br />
+              ページの目次を表示するほか、「English」ボタンで英語で表示できます。
+            </p>
+          </li>
+          <li>
+            <h3 id="吹き出し辞書">吹き出し辞書</h3>
+            <p>
+              このサイトの中には、下のように太字になっている単語があります。<br />
+              　
+              <span class="word"
+                ><span class="word_text">レアメタル</span>
+                <span class="word_description_container">
+                  <span class="word_description">
+                    <span class="word_description_title">レアメタル</span>
+                    <span
+                      class="word_description_text"
+                      style="line-height: 1.5rem"
+                      >1.地殻中の存在量が比較的少ない元素　<br />
+                      2.単体として取り出すことが技術的に困難な元素<br />3.資源の産出国が偏在している<br />を満たす元素のことを言い、現代の産業に欠かせない”産業のビタミン”と呼ばれる。別名マイナーメタル。</span
+                    >
+                  </span>
+                </span>
+              </span>
 
-        <h2 class="site_map">キャラクター紹介</h2>
+              <!--suppress HtmlUnknownAttribute -->
+
+              <br />
+              カーソルを乗せることで単語の説明を見ることができます。<br />
+              (ページ内に複数回出現する単語については、初めに出てきたもののみ辞書をつけています。)
+            </p>
+          </li>
+          <li>
+            <h3 id="まとめ図解">まとめ図解</h3>
+            <p>
+              ページの最後にまとめ図解を設置していることがあります。<br />
+              そのページの内容を視覚的に把握できるのに加え、項目をクリックすることでその内容が書かれた場所にスクロールします。
+            </p>
+          </li>
+        </ul>
+
+        <h2 id="キャラクター紹介" class="site_map">キャラクター紹介</h2>
 
         当サイトに出てくるキャラクター「ゲンソくん」です。
         おまけ情報を時々挟んだり、解決策で話し合ったりしています。
@@ -731,7 +920,7 @@
 
         <!--suppress HtmlUnknownAttribute -->
 
-        <h2 class="site_map">推奨環境</h2>
+        <h2 id="推奨環境" class="site_map">推奨環境</h2>
         <div class="main_text">
           Chrome, FireFoxの最新版にて動作確認を行っています。<br />
           その他のブラウザでは正常に表示されない場合があります。
@@ -750,6 +939,119 @@
         <!--    <li>その他</li>-->
         <!--  </ul>-->
       </main>
+      <div id="floating_menu">
+        <!--suppress BadExpressionStatementJS -->
+        <div id="toc">
+          <div id="toc_title">目次</div>
+          <a class="toc_link_h1" href="#右ポケットの中の資源を求めて"
+            >右ポケットの中の資源を求めて</a
+          ><a class="toc_link_h2" href="#サイトマップ">サイトマップ</a
+          ><a class="toc_link_h2" href="#ページの見方">ページの見方</a
+          ><a class="toc_link_h3" href="#メニュー">メニュー</a
+          ><a class="toc_link_h3" href="#吹き出し辞書">吹き出し辞書</a
+          ><a class="toc_link_h3" href="#まとめ図解">まとめ図解</a
+          ><a class="toc_link_h2" href="#キャラクター紹介">キャラクター紹介</a
+          ><a class="toc_link_h2" href="#推奨環境">推奨環境</a>
+        </div>
+
+        <!--suppress BadExpressionStatementJS --><button
+          id="lang_button"
+          onclick="changeLang()"
+        >
+          <span id="lang_text"></span>
+          <script>
+            function setLang(lang) {
+              sessionStorage.setItem("lang", lang)
+              switch (lang) {
+                case "ja":
+                  document.getElementById("lang_en").style.display = "none"
+                  document.getElementById("lang_jp").style.display = "block"
+                  break
+                case "en":
+                  document.getElementById("lang_en").style.display = "block"
+                  document.getElementById("lang_jp").style.display = "none"
+              }
+              updateButton()
+            }
+
+            function changeLang() {
+              switch (sessionStorage.getItem("lang")) {
+                case "en":
+                  setLang("ja")
+                  break
+                case "ja":
+                default:
+                  setLang("en")
+                  break
+              }
+              updateButton()
+            }
+
+            function updateButton() {
+              switch (sessionStorage.getItem("lang")) {
+                case "ja":
+                  document
+                    .querySelectorAll("#lang_text")
+                    .forEach((el) => (el.innerHTML = "English"))
+                  break
+                case "en":
+                  document
+                    .querySelectorAll("#lang_text")
+                    .forEach((el) => (el.innerHTML = "日本語"))
+                  break
+              }
+            }
+            window.onload = () => setLang(sessionStorage.getItem("lang"))
+          </script>
+        </button>
+      </div>
+
+      <footer>
+        <div class="footer_main">
+          <div class="footer_title">右ポケットの中の資源を求めて</div>
+          <div class="footer_copyright">
+            このサイトは
+            <a href="http://webcon.japias.jp/"
+              >第24回全国中学高校Webコンテスト</a
+            >
+            に参加しています。
+          </div>
+          <div class="footer_license">
+            <a
+              rel="license"
+              href="http://creativecommons.org/licenses/by-nc-nd/4.0/"
+            >
+              <img
+                alt="クリエイティブ・コモンズ・ライセンス"
+                style="border-width: 0"
+                src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png"
+              />
+            </a>
+            <br />
+            この作品は
+            <a
+              rel="license"
+              href="http://creativecommons.org/licenses/by-nc-nd/4.0/"
+            >
+              クリエイティブ・コモンズ 表示 - 非営利 - 改変禁止 4.0
+              国際ライセンス
+            </a>
+            の下に提供されています。
+          </div>
+        </div>
+        <div class="footer_sitemap">
+          <a href="../">Home</a>
+          <a href="../present-situation/">資源の現状</a>
+          <a href="../urban-mining/">都市鉱山の意義</a>
+          <a href="../problem/">課題</a>
+          <a href="../measure/">現在の取り組み</a>
+          <a href="../activity/">アクティビティ</a>
+          <a href="../solution/">解決策</a>
+          <a href="../finally/">最後に</a>
+          <a href="../others/">その他</a>
+        </div>
+        <!--  ©︎甲陽学院PC部-->
+      </footer>
     </div>
     <div id="lang_en">
       <footer>
