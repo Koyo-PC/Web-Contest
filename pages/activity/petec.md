@@ -6,8 +6,8 @@
 
 2021年10月14日に兵庫県加東市にあるパナソニックエコテクノロジーセンター（PETEC）に見学に行きました。
 <div class="image_container">
-    <Image src="./img/petec_building.jpg" alt="パナソニック外から写真" note="メンバーが撮影"></Image>
-    <Image src="./img/petec_pc_club.jpg" alt="甲陽PC部写真" note="メンバーが撮影"></Image>
+    <Image src="./img/petec_building.jpg" alt="パナソニック外から写真"></Image>
+    <Image src="./img/petec_pc_club.jpg" alt="甲陽PC部写真"></Image>
 </div>
 
 ## PETECってどんなところ?
@@ -34,7 +34,7 @@ PETECは、<Word>家電リサイクル法</Word>で指定されている4品目�
 大型家電の処理数は年間で約90万台で、稼働日ごとに明確な目標処理台数を決めて作業しています。
 
 <div class="image_container">
-    <Image src="./img/petec_counter.jpg" alt="処理台数のカウンタ" caption="10月14日 午後2時ごろ" note="メンバーが撮影"></Image>
+    <Image src="./img/petec_counter.jpg" alt="処理台数のカウンタ" caption="10月14日 午後2時ごろ"></Image>
 </div>
 
 基本的にその台数は安定しているのですが、時には大幅に増えることもあるそうです。
@@ -93,7 +93,7 @@ PETECで行われているリサイクルの工程を製品別に紹介しよう
 次は、分別と回収という作業に入ります。
 そこでは主に金属素材が含まれる基板などが取り出されます。
 <div class="image_container">
-    <Image src="./img/petec_conveyor.jpg" alt="取り出された基板" caption="取り出された基板" note="メンバーが撮影"></Image>
+    <Image src="./img/petec_conveyor.jpg" alt="取り出された基板" caption="取り出された基板"></Image>
 </div>
 
 また作業効率を上げるために、コンベア式の解体ラインが工場内に張り巡らされています（よく車の製造工場に大規模な生産ラインが続いている写真を見ますよね）。
@@ -258,7 +258,7 @@ PETECで行われているリサイクルの工程を製品別に紹介しよう
 洗濯機が他の製品と異なるところは、塩水を抜き取らなければいけないということです。塩水は洗濯をするときに回転する洗濯槽を安定させるためにバランサー代わりに2Lほど入っているのですが、それを取り除くことで大切なリサイクル資源である鉄がさびてしまうのを防ぐことができるのです。
 また、取り除かれた塩水は他の工場へと送られ、再利用されます。
 <div class="image_container">
-    <Image src="./img/petec_solt_water.jpg" alt="塩水抜き取り写真" note="メンバーが撮影">よく見ると、真ん中の洗濯機から塩水が流れているのが確認できます。</Image>
+    <Image src="./img/petec_solt_water.jpg" alt="塩水抜き取り写真">よく見ると、真ん中の洗濯機から塩水が流れているのが確認できます。</Image>
 </div>
 
 その後、洗濯機は破砕機へと向かいます。
@@ -418,7 +418,7 @@ PETECの役割がいかに大切か分かった気がします。
 ## PETECの周りの風景
 
 <div class="image_container">
-    <Image src="./img/petec_around.jpg" alt="PETECの周りの風景" note="メンバーが撮影"></Image>
+    <Image src="./img/petec_around.jpg" alt="PETECの周りの風景"></Image>
 </div>
 
 田んぼを一面に見渡すことができ、非常に静かでのどかな印象を受けました。

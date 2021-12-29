@@ -133,6 +133,56 @@ Web系の資格を持っているのに得意な言語はJavaらしい。<br>
 - [Official Journal of the European Union「DIRECTIVE (EU) 2019/904 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 5 June 2019 on the reduction of the impact of certain plastic products on the environment」](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32019L0904&from=EN#d1e32-17-1)
 - [JETRO「欧州委、使い捨てプラスチック製品の流通禁止を前に指針発表」](https://www.jetro.go.jp/biznews/2021/06/88299a30b5475ed7.html)
 
+## 利用したツール
+
+- Adobe Illustrator
+- ibisPaint
+- Mediapaint
+- Vectr
+
+## 引用利用情報
+
+### イラスト
+
+- [イラストAC](https://www.ac-illust.com/)
+  - 承諾方法
+    - [利用規約](https://www.ac-illust.com/main/terms.php)
+  - 利用しているページ
+    - [工場見学](../activity/petec.html)
+- [BOOTH](https://booth.pm/ja/items/2548309)
+  - 承諾方法
+    - 概要欄の利用規約
+  - 利用しているページ
+    - [都市鉱山の意義](../urban-mining/)
+- [パナソニックエコテクノロジーセンター](https://panasonic.co.jp/eco/petec/download/)
+  - 承諾方法
+    - 見学時に使用の許可を取得
+  - 利用しているページ
+    - [ホーム](../)
+
+### テキスト
+
+- [Wikisource](https://en.m.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_3/Chapter_2)
+  - 承諾方法
+    - [ヘルプ:ウィキソースを二次利用する](https://ja.m.wikisource.org/wiki/%E3%83%98%E3%83%AB%E3%83%97:%E3%82%A6%E3%82%A3%E3%82%AD%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%92%E4%BA%8C%E6%AC%A1%E5%88%A9%E7%94%A8%E3%81%99%E3%82%8B)
+  - 利用しているページ
+    - [工場見学](../urban-mining/)
+- Google Formsでのアンケート
+  - 承諾方法
+    - アンケート実施時に匿名で引用することを報告
+  - 利用しているページ
+    - [アンケート](../activity/questionnaire.html)
+
+### 写真
+
+写真に記載のないものは全てメンバーが撮影した。
+- 利用しているページ
+  - [アクティビティ](../activity/)
+  - [回収ボックス](../activity/recycle-box.html)
+  - [インタビュー](../activity/interview.html)
+  - [工場見学](../activity/petec.html)
+  - [携帯解体](../activity/disassembly.html)
+
 <FloatingMenu>
 h1 その他
 h2 活動記録
@@ -143,6 +193,11 @@ h3 M.T.
 h3 I.D.
 h3 K.H.
 h2 参考文献
+h2 利用したツール
+h2 引用利用情報
+h3 イラスト
+h3 テキスト
+h3 写真
 </FloatingMenu>
 
 </div>
