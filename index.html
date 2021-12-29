@@ -489,6 +489,35 @@
           font-size: 1.2em;
         }
       }
+      #scroll_top {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 9999;
+        background-color: #fff;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+      }
+
+      #scroll_top:hover {
+        background-color: #f5f5f5;
+      }
+
+      #scroll_top:after {
+        content: "";
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        border: 2px solid;
+        border-color: black transparent transparent black;
+        transform: translateX(-50%) translateY(-50%) rotate(45deg);
+      }
       #lang_button {
         background-color: whitesmoke;
         border: none;
@@ -939,6 +968,7 @@
         <!--    <li>その他</li>-->
         <!--  </ul>-->
       </main>
+      <a href="#"><button id="scroll_top"></button></a>
       <div id="floating_menu">
         <!--suppress BadExpressionStatementJS -->
         <div id="toc">
