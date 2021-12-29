@@ -8,7 +8,7 @@
 
 ## 回収率の低さ
 
-<a href="../present-situation/">「資源の現状」</a><a href="../urban-mining/">「都市鉱山の意義」</a>を読まれた方は都市鉱山の重要性がお分かりになったかと思います。
+<a href="../present-situation/">「資源の現状」</a>、<a href="../urban-mining/">「都市鉱山の意義」</a>を読まれた方は都市鉱山の重要性がお分かりになったかと思います。
 <SummaryLink>0</SummaryLink>しかし日本では<ForceText>都市鉱山の考え方に基づく小型家電の回収はなかなか進んでいません。</ForceText>
 実際日本は「2018年までに小型家電回収量を14万トンにする」という目標を掲げましたが、達成できませんでした。
 
