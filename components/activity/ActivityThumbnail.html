@@ -1,51 +1,60 @@
 <a href="./{{ id }}.html" class="activity_thumbnail_link">
-  <img class="activity_thumbnail_image" src="../img/activity/{{ id }}.jpg" />
+  <img class="activity_thumbnail_image" src="../img/activity/{{ id }}.jpg"/>
   <span style="z-index: 10">{{ content }}</span>
 </a>
 <style>
+  .activity_thumbnail_link {
+    position: relative;
+    aspect-ratio: 1;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    text-decoration: none;
+    color: white;
+    text-shadow: black 0 0 10px;
+    font-weight: 700;
+  }
+
+  .activity_thumbnail_link span {
+    text-decoration: none;
+    color: white;
+    text-shadow: black 0 0 10px;
+    font-weight: 700;
+    font-family: 'Lato', 'Noto Sans JP', sans-serif;
+  }
+
+  .activity_thumbnail_image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: blur(2px);
+    z-index: 5;
+    /*padding: 2px;*/
+  }
+
+  @media (orientation: landscape) {
     .activity_thumbnail_link {
-        position: relative;
-        aspect-ratio: 1;
-        display: grid;
-        align-items: center;
-        justify-items: center;
-        text-decoration: none;
-        color: white;
-        text-shadow: black 0 0 10px;
-        font-weight: 700;
+      width: 45%;
+      margin: 2vh 2.5%;
+      font-size: 5vw;
     }
 
     .activity_thumbnail_link span {
-        text-decoration: none;
-        color: white;
-        text-shadow: black 0 0 10px;
-        font-weight: 700;
+      font-size: 4vw;
+    }
+  }
+
+  @media (orientation: portrait) {
+    .activity_thumbnail_link {
+      width: 100%;
+      margin: 2vh 0;
     }
 
-    .activity_thumbnail_image {
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-        filter: blur(2px);
-        z-index: 5;
-        /*padding: 2px;*/
+    .activity_thumbnail_link span {
+      font-size: 9vw;
     }
-
-    @media(orientation: landscape) {
-        .activity_thumbnail_link {
-            width: 45%;
-            margin: 2vh 2.5%;
-            font-size: 5vw;
-        }
-    }
-    @media(orientation: portrait) {
-        .activity_thumbnail_link {
-            width: 100%;
-            margin: 2vh 0;
-            font-size: 10vw;
-        }
-    }
+  }
 </style>

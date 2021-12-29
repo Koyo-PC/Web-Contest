@@ -205,7 +205,7 @@ note="書籍『資源論』をスキャン" height="40vw"></Image>
 - [ELEMINIST「2021年注目のバーゼル条約　脱プラスチックへ向けた改正内容を解説」](https://eleminist.com/article/688)
 - [Wikisource](https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_3/Chapter_2)
 
-<PNBar prev="../present-sutiation/" next="../problem/"></PNBar>
+<PNBar prev="../present-situation/" next="../problem/"></PNBar>
 <FloatingMenu>
 h1 都市鉱山の意義
 h2 レアメタルとメジャーメタル

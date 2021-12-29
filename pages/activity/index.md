@@ -31,7 +31,11 @@
 </NoIndent>
 
 <PNBar prev="../measure/" next="../solution/"></PNBar>
-
+<FloatingMenu>
+h1 アクティビティ
+h2 謝辞
+h2 参考文献
+</FloatingMenu>
 </div>
 <div id="lang_en">
 <FloatingMenu>
