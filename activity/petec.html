@@ -64,7 +64,6 @@
       @media (orientation: landscape) {
         h1 {
           padding: 100px 0 0 0;
-          height: 200px;
           font-size: min(10vw, 100px);
         }
       }
@@ -72,7 +71,6 @@
       @media (orientation: portrait) {
         h1 {
           padding: 100px 0 100px 0;
-          /*height: 200px;*/
           font-size: 10vw;
         }
       }
@@ -93,7 +91,6 @@
         h2 {
           font-size: 72px;
           font-weight: 400;
-          padding: 10vh 0 0;
         }
       }
 
@@ -101,7 +98,6 @@
         h2 {
           font-size: 32px;
           font-weight: 400;
-          padding: 10vh 0 0;
         }
       }
 
@@ -762,6 +758,11 @@
         font-weight: 400;
         text-decoration: none;
         justify-content: center;
+        box-sizing: border-box;
+      }
+
+      .nav_link :nth-child(0) {
+        border-bottom: 5px solid white;
       }
 
       @media (orientation: landscape) {
@@ -875,6 +876,7 @@
     </style>
   </head>
   <body>
+    <!--suppress BadExpressionStatementJS -->
     <nav>
       <div class="button">
         <img src="../svg/ham.svg" alt="" id="ham" />

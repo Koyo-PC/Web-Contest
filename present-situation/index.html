@@ -64,7 +64,6 @@
       @media (orientation: landscape) {
         h1 {
           padding: 100px 0 0 0;
-          height: 200px;
           font-size: min(10vw, 100px);
         }
       }
@@ -72,7 +71,6 @@
       @media (orientation: portrait) {
         h1 {
           padding: 100px 0 100px 0;
-          /*height: 200px;*/
           font-size: 10vw;
         }
       }
@@ -93,7 +91,6 @@
         h2 {
           font-size: 72px;
           font-weight: 400;
-          padding: 10vh 0 0;
         }
       }
 
@@ -101,7 +98,6 @@
         h2 {
           font-size: 32px;
           font-weight: 400;
-          padding: 10vh 0 0;
         }
       }
 
@@ -506,12 +502,13 @@
       }
       .force_text {
         color: #000;
-        font-weight: bold;
+        /*font-weight: bold;*/
         /*display: inline-block;*/
         /*border: 1px solid #457834;*/
         background-origin: padding-box;
         background: linear-gradient(transparent 60%, #edc2b7 60%);
         /*white-space: nowrap;*/
+        font-family: "Lato", "Noto Sans JP", sans-serif;
 
         z-index: 1;
       }
@@ -557,6 +554,10 @@
       .inline_image {
         height: 1em;
         vertical-align: bottom;
+      }
+      .quote {
+        font-size: 1.5em;
+        font-style: italic;
       }
       #next_link {
         color: black;
@@ -837,6 +838,11 @@
         font-weight: 400;
         text-decoration: none;
         justify-content: center;
+        box-sizing: border-box;
+      }
+
+      .nav_link :nth-child(2) {
+        border-bottom: 5px solid white;
       }
 
       @media (orientation: landscape) {
@@ -950,6 +956,7 @@
     </style>
   </head>
   <body>
+    <!--suppress BadExpressionStatementJS -->
     <nav>
       <div class="button">
         <img src="../svg/ham.svg" alt="" id="ham" />
@@ -1161,11 +1168,12 @@
             >このようなお話</a
           >を聞きました。
         </p>
-        <blockquote>
+        <blockquote class="quote">
           <p>
             「つい10年くらい前までは、銅鉱石中の銅の濃度はまだ1%くらいありました。でも、今ではそれを使いつくしてしまって、日本だと0.6%くらいが最上級です。ちょうどこの間聞いた話では、もう0.3%くらいももう使わないといけなくなっているそうです。なので、みんな枯渇に近づいているというのは薄々感じています。」
           </p>
         </blockquote>
+
         <p><span class="force_text">資源枯渇は着実に迫っています。</span></p>
 
         <p>
