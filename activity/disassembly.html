@@ -573,13 +573,17 @@
         }
       }
       nav {
+        position: fixed;
+        top: 0;
         align-items: center;
         background-color: #003b54;
         height: 70px;
         display: flex;
         /*z-index: 1000;*/
         width: 100%;
+        z-index: 10000;
       }
+
       .nav_link > a {
         --count: 9;
         color: #fbf8f8;
@@ -589,6 +593,7 @@
         text-decoration: none;
         justify-content: center;
       }
+
       @media (orientation: landscape) {
         .nav_link {
           width: 100%;
@@ -596,15 +601,18 @@
           /*display: block;*/
           display: flex;
         }
+
         .nav_link > a {
           height: 100%;
           display: grid;
           align-items: center;
           font-size: min(1.2vw, 17px);
         }
+
         .button > img {
           display: none;
         }
+
         .nav_link > a {
           text-align: center;
           line-height: 1.4;
@@ -613,6 +621,7 @@
           margin: 0 20px 0;
         }
       }
+
       @media (orientation: portrait) {
         .button > img {
           position: absolute;
@@ -622,6 +631,7 @@
           top: 25px;
           z-index: 1000;
         }
+
         .button {
           top: 0;
           width: 100%;
@@ -630,6 +640,7 @@
           background-color: #003b54;
           position: fixed;
         }
+
         .nav_link {
           position: fixed;
           width: 100%;
@@ -641,12 +652,15 @@
           padding: 5vh 0 0 0;
           transition: 0.5s ease;
         }
+
         .nav_title {
           position: absolute;
         }
+
         .nav_link.open {
           top: 70px;
         }
+
         .nav_link > a {
           font-size: 18px;
           line-height: 60px;
@@ -1054,6 +1068,8 @@
           いつも使っているスマートフォンは（個人的な見解ですが）ただのガラス板のようにしか見えないので、中には基板くらいしかないかなと思っていたのですが、実際に中を開けてみたら、基板以外にも金属部品やフレキシブルケーブルなど、想像していたよりもさまざまな種類の部品が使われていることが確認でき、とても驚きました。<br />
           また、携帯を解体するのに特殊な五角形のドライバーが必要であったり、慣れていなかったということもあったと思いますが、解体し終えるのに2時間以上かかったりしたことから、簡単に分解できないようになっていることを実感したうえに、
           この分解のしにくくさから機械解体が難しくなってしまい、コスト問題につながっているのかとも思い知らされました。<br />
+        </p>
+        <p>
           なお、ここで分解した廃電子機器は資料としてコンテストが終わるまで持っておき、コンテスト終了後に組み立てなおし回収ボックスにチームで出しに行く予定です。
         </p>
         <div id="pn_bar">
@@ -1077,8 +1093,8 @@
             ><a class="toc_link_h2" href="#スマートフォン">スマートフォン</a
             ><a class="toc_link_h2" href="#ガラケー">ガラケー</a
             ><a class="toc_link_h2" href="#動画">動画</a
-            ><a class="toc_link_h2" href="#解体を通じて感じたこと"
-              >解体を通じて感じたこと</a
+            ><a class="toc_link_h2" href="#解体を通して感じたこと"
+              >解体を通して感じたこと</a
             >
           </div>
 
