@@ -1035,6 +1035,135 @@
             >
           </li>
         </ul>
+        <h2 id="利用したツール">利用したツール</h2>
+        <ul>
+          <li>Adobe Illustrator</li>
+          <li>ibisPaint</li>
+          <li>Mediapaint</li>
+          <li>Vectr</li>
+        </ul>
+        <h2 id="引用利用情報">引用利用情報</h2>
+        <h3 id="イラスト">イラスト</h3>
+        <ul>
+          <li>
+            <a href="https://www.ac-illust.com/">イラストAC</a>
+            <ul>
+              <li>
+                承諾方法
+                <ul>
+                  <li>
+                    <a href="https://www.ac-illust.com/main/terms.php"
+                      >利用規約</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li>
+                利用しているページ
+                <ul>
+                  <li><a href="../activity/petec.html">工場見学</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="https://booth.pm/ja/items/2548309">BOOTH</a>
+            <ul>
+              <li>
+                承諾方法
+                <ul>
+                  <li>概要欄の利用規約</li>
+                </ul>
+              </li>
+              <li>
+                利用しているページ
+                <ul>
+                  <li><a href="../urban-mining/">都市鉱山の意義</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="https://panasonic.co.jp/eco/petec/download/"
+              >パナソニックエコテクノロジーセンター</a
+            >
+            <ul>
+              <li>
+                承諾方法
+                <ul>
+                  <li>見学時に使用の許可を取得</li>
+                </ul>
+              </li>
+              <li>
+                利用しているページ
+                <ul>
+                  <li><a href="../">ホーム</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <h3 id="テキスト">テキスト</h3>
+        <ul>
+          <li>
+            <a
+              href="https://en.m.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_3/Chapter_2"
+              >Wikisource</a
+            >
+            <ul>
+              <li>
+                承諾方法
+                <ul>
+                  <li>
+                    <a
+                      href="https://ja.m.wikisource.org/wiki/%E3%83%98%E3%83%AB%E3%83%97:%E3%82%A6%E3%82%A3%E3%82%AD%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%92%E4%BA%8C%E6%AC%A1%E5%88%A9%E7%94%A8%E3%81%99%E3%82%8B"
+                      >ヘルプ:ウィキソースを二次利用する</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li>
+                利用しているページ
+                <ul>
+                  <li><a href="../urban-mining/">工場見学</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            Google Formsでのアンケート
+            <ul>
+              <li>
+                承諾方法
+                <ul>
+                  <li>アンケート実施時に匿名で引用することを報告</li>
+                </ul>
+              </li>
+              <li>
+                利用しているページ
+                <ul>
+                  <li>
+                    <a href="../activity/questionnaire.html">アンケート</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <h3 id="写真">写真</h3>
+        <p>写真に記載のないものは全てメンバーが撮影した。</p>
+        <ul>
+          <li>
+            利用しているページ
+            <ul>
+              <li><a href="../activity/">アクティビティ</a></li>
+              <li><a href="../activity/recycle-box.html">回収ボックス</a></li>
+              <li><a href="../activity/interview.html">インタビュー</a></li>
+              <li><a href="../activity/petec.html">工場見学</a></li>
+              <li><a href="../activity/disassembly.html">携帯解体</a></li>
+            </ul>
+          </li>
+        </ul>
         <div id="floating_menu">
           <!--suppress BadExpressionStatementJS -->
           <div id="toc">
@@ -1047,7 +1176,12 @@
             ><a class="toc_link_h3" href="#mt">M.T.</a
             ><a class="toc_link_h3" href="#id">I.D.</a
             ><a class="toc_link_h3" href="#kh">K.H.</a
-            ><a class="toc_link_h2" href="#参考文献">参考文献</a>
+            ><a class="toc_link_h2" href="#参考文献">参考文献</a
+            ><a class="toc_link_h2" href="#利用したツール">利用したツール</a
+            ><a class="toc_link_h2" href="#引用利用情報">引用利用情報</a
+            ><a class="toc_link_h3" href="#イラスト">イラスト</a
+            ><a class="toc_link_h3" href="#テキスト">テキスト</a
+            ><a class="toc_link_h3" href="#写真">写真</a>
           </div>
 
           <!--suppress BadExpressionStatementJS --><button
@@ -1057,15 +1191,18 @@
             <span id="lang_text"></span>
             <script>
               function setLang(lang) {
-                sessionStorage.setItem("lang", lang)
                 switch (lang) {
-                  case "ja":
-                    document.getElementById("lang_en").style.display = "none"
-                    document.getElementById("lang_jp").style.display = "block"
-                    break
                   case "en":
                     document.getElementById("lang_en").style.display = "block"
                     document.getElementById("lang_jp").style.display = "none"
+                    sessionStorage.setItem("lang", "en")
+                    break
+                  case "ja":
+                  default:
+                    document.getElementById("lang_en").style.display = "none"
+                    document.getElementById("lang_jp").style.display = "block"
+                    sessionStorage.setItem("lang", "ja")
+                    break
                 }
                 updateButton()
               }
@@ -1117,15 +1254,18 @@
             <span id="lang_text"></span>
             <script>
               function setLang(lang) {
-                sessionStorage.setItem("lang", lang)
                 switch (lang) {
-                  case "ja":
-                    document.getElementById("lang_en").style.display = "none"
-                    document.getElementById("lang_jp").style.display = "block"
-                    break
                   case "en":
                     document.getElementById("lang_en").style.display = "block"
                     document.getElementById("lang_jp").style.display = "none"
+                    sessionStorage.setItem("lang", "en")
+                    break
+                  case "ja":
+                  default:
+                    document.getElementById("lang_en").style.display = "none"
+                    document.getElementById("lang_jp").style.display = "block"
+                    sessionStorage.setItem("lang", "ja")
+                    break
                 }
                 updateButton()
               }

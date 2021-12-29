@@ -1218,15 +1218,18 @@
             <span id="lang_text"></span>
             <script>
               function setLang(lang) {
-                sessionStorage.setItem("lang", lang)
                 switch (lang) {
-                  case "ja":
-                    document.getElementById("lang_en").style.display = "none"
-                    document.getElementById("lang_jp").style.display = "block"
-                    break
                   case "en":
                     document.getElementById("lang_en").style.display = "block"
                     document.getElementById("lang_jp").style.display = "none"
+                    sessionStorage.setItem("lang", "en")
+                    break
+                  case "ja":
+                  default:
+                    document.getElementById("lang_en").style.display = "none"
+                    document.getElementById("lang_jp").style.display = "block"
+                    sessionStorage.setItem("lang", "ja")
+                    break
                 }
                 updateButton()
               }
@@ -1278,15 +1281,18 @@
             <span id="lang_text"></span>
             <script>
               function setLang(lang) {
-                sessionStorage.setItem("lang", lang)
                 switch (lang) {
-                  case "ja":
-                    document.getElementById("lang_en").style.display = "none"
-                    document.getElementById("lang_jp").style.display = "block"
-                    break
                   case "en":
                     document.getElementById("lang_en").style.display = "block"
                     document.getElementById("lang_jp").style.display = "none"
+                    sessionStorage.setItem("lang", "en")
+                    break
+                  case "ja":
+                  default:
+                    document.getElementById("lang_en").style.display = "none"
+                    document.getElementById("lang_jp").style.display = "block"
+                    sessionStorage.setItem("lang", "ja")
+                    break
                 }
                 updateButton()
               }
