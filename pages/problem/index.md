@@ -167,22 +167,18 @@ https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d230387.94422895205!2d133.9
 
 ## 参考文献
 
-<NoIndent>
-『図解よくわかる「都市鉱山」開発』（原田幸明・醍醐市朗、日刊工業新聞社・2011年8月1日）<br>
-<a href="https://prtimes.jp/main/html/rd/p/000000006.000070388.html">PRTIMES「スマホのリサイクル回収率は17％。都市鉱山スマホを再資源化へ」</a><br>
-<a href="https://www.smfg.co.jp/sustainability/report/topics/detail084.html">三井住友フィナンシャルグループ「「都市鉱山」に眠るレアメタルの資源化に向けて」</a><br>
-<a href="https://www.nims.go.jp/genso/data/urban_mine.html">NIMS「都市鉱山関係データ」</a><br>
-<a href="https://www.nims.go.jp/research/elements/rare-metal/urban-mine/0ej0070000002ym4-att/urban-mine_qa.pdf">「都市鉱山の蓄積量推定」に関する Q&A</a><br>
-<a href="https://petpedia.co/recycling-statistics/">petpedia「41 Eye-Opening Recycling Statistics for 2021」</a><br>
-<a href="http://www.shippai.org/fkd/hf/HC0300002.pdf">イタリア・セベソの化学工場での爆発</a><br>
-<a href="https://www.eic.or.jp/ecoterm/index.php?act=view&serial=1543">環境用語「セベソ事件」</a><br>
-<a href="https://www.nytimes.com/1988/09/03/world/toxic-waste-boomerang-ciao-italy.html">The New York Times「Toxic Waste Boomerang: Ciao Italy!」</a><br>
-<a href="https://www.washingtonpost.com/archive/politics/1988/09/04/after-dumping-on-nigeria-italy-takes-it-all-back/349505f5-f0ca-4364-9563-3d1f9d48125f/">The Washington Post「AFTER DUMPING ON NIGERIA, ITALY TAKES IT ALL BACK」</a><br>
-<a href="https://www.re-ver.co.jp/magazine/pdf/ecooVOL25.pdf">ecoo「豊島事件が残した課題」</a><br>
-<a href="https://www.env-value.co.jp/columns/press57/">E-VALUE「豊島の不法投棄問題を振り返る」</a>
-
-</NoIndent>
-
+- 『図解よくわかる「都市鉱山」開発』（原田幸明・醍醐市朗、日刊工業新聞社・2011年8月1日）
+- [PRTIMES「スマホのリサイクル回収率は17％。都市鉱山スマホを再資源化へ」](https://prtimes.jp/main/html/rd/p/000000006.000070388.html)
+- [三井住友フィナンシャルグループ「「都市鉱山」に眠るレアメタルの資源化に向けて」](https://www.smfg.co.jp/sustainability/report/topics/detail084.html)
+- [NIMS「都市鉱山関係データ」](https://www.nims.go.jp/genso/data/urban_mine.html)
+- [「都市鉱山の蓄積量推定」に関する Q&A](https://www.nims.go.jp/research/elements/rare-metal/urban-mine/0ej0070000002ym4-att/urban-mine_qa.pdf)
+- [petpedia「41 Eye-Opening Recycling Statistics for 2021」](https://petpedia.co/recycling-statistics/)
+- [イタリア・セベソの化学工場での爆発](http://www.shippai.org/fkd/hf/HC0300002.pdf)
+- [環境用語「セベソ事件」](https://www.eic.or.jp/ecoterm/index.php?act=view&serial=1543)
+- [The New York Times「Toxic Waste Boomerang: Ciao Italy!」](https://www.nytimes.com/1988/09/03/world/toxic-waste-boomerang-ciao-italy.html)
+- [The Washington Post「AFTER DUMPING ON NIGERIA, ITALY TAKES IT ALL BACK」](https://www.washingtonpost.com/archive/politics/1988/09/04/after-dumping-on-nigeria-italy-takes-it-all-back/349505f5-f0ca-4364-9563-3d1f9d48125f/)
+- [ecoo「豊島事件が残した課題」](https://www.re-ver.co.jp/magazine/pdf/ecooVOL25.pdf)
+- [E-VALUE「豊島の不法投棄問題を振り返る」](https://www.env-value.co.jp/columns/press57/)
 
 <PNBar prev="../urban-mining/" next="../measure/"></PNBar>
 <FloatingMenu>

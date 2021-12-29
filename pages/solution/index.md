@@ -228,25 +228,21 @@ RoHSの基準を満たしていることを示すこのCEマーキングに見�
 
 私たちの提案する解決策は以下の６つです。
 
-<ol>
-<li>メリット、デメリットを理解した上でのリサイクルの義務化</li>
-<li>金属資源の一部還元</li>
-<li>リサイクルのイメージを上げる</li>
-<li>製品の規格統一</li>
-<li>水素エネルギーの利用</li>
-<li>プラスチックや有害物質についての世界規模の基準の制定</li>
-</ol>
+1. メリット、デメリットを理解した上でのリサイクルの義務化
+2. 金属資源の一部還元
+3. リサイクルのイメージを上げる
+4. 製品の規格統一
+5. 水素エネルギーの利用
+6. プラスチックや有害物質についての世界規模の基準の制定
 
 ## 参考文献
 
-<NoIndent>
-<a href="https://www.meti.go.jp/shingikai/sankoshin/sangyo_gijutsu/haikibutsu_recycle/denki_wg/pdf/028_07_02.pdf">家電リサイクル法における費用回収方式について</a><br>
-<a href="https://www-cycle.nies.go.jp/magazine/mame/201805.html#:~:text=%E6%97%A5%E6%9C%AC%E3%81%A7%E3%82%82%E4%BC%BC%E3%81%9F%E3%82%88%E3%81%86,%E3%81%A8%E7%95%B0%E3%81%AA%E3%82%8B%E5%A4%A7%E3%81%8D%E3%81%AA%E7%89%B9%E5%BE%B4%E3%81%A7%E3%81%99%E3%80%82">資源循環・廃棄物研究センター オンラインマガジン環境「循環・廃棄物の豆知識」</a><br>
-<a href="https://www.toshiba-clip.com/detail/p=621">TOSHIBA「水素エネルギーについて知っておきたい5つのこと」</a><br>
-<a href="https://eleminist.com/article/817">ELEMINIST「有害物質を制限するローズ指令（RoHS指令）とは　遅れが目立つ日本での取り組み」</a><br>
-<a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32019L0904&from=EN#d1e32-17-1">Official Journal of the European Union「DIRECTIVE (EU) 2019/904 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 5 June 2019 on the reduction of the impact of certain plastic products on the environment」</a><br>
-<a href="https://www.jetro.go.jp/biznews/2021/06/88299a30b5475ed7.html">JETRO「欧州委、使い捨てプラスチック製品の流通禁止を前に指針発表」</a>
-</NoIndent>
+- [家電リサイクル法における費用回収方式について](https://www.meti.go.jp/shingikai/sankoshin/sangyo_gijutsu/haikibutsu_recycle/denki_wg/pdf/028_07_02.pdf)
+- [資源循環・廃棄物研究センター オンラインマガジン環境「循環・廃棄物の豆知識」](https://www-cycle.nies.go.jp/magazine/mame/201805.html#:~:text=%E6%97%A5%E6%9C%AC%E3%81%A7%E3%82%82%E4%BC%BC%E3%81%9F%E3%82%88%E3%81%86,%E3%81%A8%E7%95%B0%E3%81%AA%E3%82%8B%E5%A4%A7%E3%81%8D%E3%81%AA%E7%89%B9%E5%BE%B4%E3%81%A7%E3%81%99%E3%80%82)
+- [TOSHIBA「水素エネルギーについて知っておきたい5つのこと」](https://www.toshiba-clip.com/detail/p=621)
+- [ELEMINIST「有害物質を制限するローズ指令（RoHS指令）とは　遅れが目立つ日本での取り組み」](https://eleminist.com/article/817)
+- [Official Journal of the European Union「DIRECTIVE (EU) 2019/904 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 5 June 2019 on the reduction of the impact of certain plastic products on the environment」](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32019L0904&from=EN#d1e32-17-1)
+- [JETRO「欧州委、使い捨てプラスチック製品の流通禁止を前に指針発表」](https://www.jetro.go.jp/biznews/2021/06/88299a30b5475ed7.html)
 
 <PNBar prev="../activity/" next="../finally/"></PNBar>
 <FloatingMenu>

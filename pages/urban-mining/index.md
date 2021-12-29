@@ -191,18 +191,16 @@ note="書籍『資源論』をスキャン" height="40vw"></Image>
 
 ## 参考文献
 
-<NoIndent>
-『図解よくわかる「都市鉱山」開発』（原田幸明・醍醐市朗、日刊工業新聞社・2011年8月1日）<br>
-『資源論　メタル・石油埋蔵量の成長と枯渇』（西山孝、丸善出版・2016年4月12日）<br>
-『レア RARE 希少金属の知っておきたい16話』（キース ベロニース　著・渡辺正　翻訳、化学同人・2016年3月10日）<br>
-『「金属」のキホン (イチバンやさしい理工系)』（田中和明、SBクリエイティブ・2010年10月22日）<br>
-<a href="https://asahi.gakujo.ne.jp/research/industry_topics/detail/id=253">あさがくナビ「レアアースとレアメタルの違い」</a><br>
-<a href="https://www.nims.go.jp/research/elements/rare-metal/study/index.html">NIMS「レアメタルの基礎知識」</a><br>
-<a href="http://mric.jogmec.go.jp/public/report/2006-08/chapter2.pdf">我が国の銅の需給状況の歴史と変遷</a><br>
-<a href="https://www.afpbb.com/articles/-/3030185">AFPBB News「中国「リサイクル産業の都」が払う電子ごみ処理の代償」</a><br>
-<a href="https://eleminist.com/article/688">ELEMINIST「2021年注目のバーゼル条約　脱プラスチックへ向けた改正内容を解説」</a><br>
-<a href="https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_3/Chapter_2">Wikisource</a>
-</NoIndent>
+- 『図解よくわかる「都市鉱山」開発』（原田幸明・醍醐市朗、日刊工業新聞社・2011年8月1日）
+- 『資源論　メタル・石油埋蔵量の成長と枯渇』（西山孝、丸善出版・2016年4月12日）
+- 『レア RARE 希少金属の知っておきたい16話』（キース ベロニース　著・渡辺正　翻訳、化学同人・2016年3月10日）
+- 『「金属」のキホン (イチバンやさしい理工系)』（田中和明、SBクリエイティブ・2010年10月22日）
+- [あさがくナビ「レアアースとレアメタルの違い」](https://asahi.gakujo.ne.jp/research/industry_topics/detail/id=253)
+- [NIMS「レアメタルの基礎知識」](https://www.nims.go.jp/research/elements/rare-metal/study/index.html)
+- [我が国の銅の需給状況の歴史と変遷](http://mric.jogmec.go.jp/public/report/2006-08/chapter2.pdf)
+- [AFPBB News「中国「リサイクル産業の都」が払う電子ごみ処理の代償」](https://www.afpbb.com/articles/-/3030185)
+- [ELEMINIST「2021年注目のバーゼル条約　脱プラスチックへ向けた改正内容を解説」](https://eleminist.com/article/688)
+- [Wikisource](https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_3/Chapter_2)
 
 <PNBar prev="../present-sutiation/" next="../problem/"></PNBar>
 <FloatingMenu>

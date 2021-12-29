@@ -1,4 +1,5 @@
 [//SCML_TITLE]: # (資源の現状)
+[//SCML_LOG]: # (true)
 
 <div id="lang_jp">
 
@@ -162,14 +163,13 @@
 
 ## 参考文献
 
-<NoIndent>
-『図解よくわかる「都市鉱山」開発』（原田幸明・醍醐市朗、日刊工業新聞社・2011年8月1日）<br>
-『資源論　メタル・石油埋蔵量の成長と枯渇』（西山孝、丸善出版・2016年4月12日）<br>
-『レア RARE 希少金属の知っておきたい16話』（キース ベロニース　著・渡辺正　翻訳、化学同人・2016年3月10日）<br>
-<a href="http://www.pp.u-tokyo.ac.jp/graspp-old/courses/2010/documents/graspp2010-5150010-4.pdf" alt="">現代アフリカにおける資源収奪と紛争解決 ―紛争資源を対象とするターゲット制裁は紛争解決をもたらすか―</a><br>
-<a href="https://www.huffingtonpost.jp/kanta-hara/540_media_b_10214318.html" alt="">HUFFPOST「死者540万人以上－日本のメディアは報じない、コンゴ紛争とハイテク産業の繋がり」</a><br><a href="http://jsmcwm.or.jp/edit/kurashi/05/080hani.pdf" alt="">ケータイゴリラ「ケータイゴリラ ゴリラを守れ！携帯電話回収キャンペーン」</a><br>
-<a href="https://www.jsps.go.jp/j-jisedai/data/05bunyahyo.pdf" alt="">別表 専門分野等一覧表</a>
-</NoIndent>
+- 『図解よくわかる「都市鉱山」開発』（原田幸明・醍醐市朗、日刊工業新聞社・2011年8月1日）
+- 『資源論　メタル・石油埋蔵量の成長と枯渇』（西山孝、丸善出版・2016年4月12日）
+- 『レア RARE 希少金属の知っておきたい16話』（キース ベロニース　著・渡辺正　翻訳、化学同人・2016年3月10日）
+- [現代アフリカにおける資源収奪と紛争解決 ―紛争資源を対象とするターゲット制裁は紛争解決をもたらすか―](http://www.pp.u-tokyo.ac.jp/graspp-old/courses/2010/documents/graspp2010-5150010-4.pdf)
+- [HUFFPOST「死者540万人以上－日本のメディアは報じない、コンゴ紛争とハイテク産業の繋がり」](https://www.huffingtonpost.jp/kanta-hara/540_media_b_10214318.html)
+- [ケータイゴリラ「ケータイゴリラ ゴリラを守れ！携帯電話回収キャンペーン」](http://jsmcwm.or.jp/edit/kurashi/05/080hani.pdf)
+- [別表 専門分野等一覧表](https://www.jsps.go.jp/j-jisedai/data/05bunyahyo.pdf)
 
 <PNBar prev="../" next="../urban-mining/"></PNBar>
 <FloatingMenu>
