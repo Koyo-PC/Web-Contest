@@ -50,6 +50,8 @@
       h5,
       h6 {
         font-family: "Lato", "Noto Sans JP", sans-serif;
+        margin: 0;
+        padding-top: 70px;
       }
 
       h1 {
@@ -107,20 +109,22 @@
         color: #003b54;
         font-weight: 400;
         background-origin: padding-box;
-        background: linear-gradient(transparent 80%, #c4edb7 80%);
+        background: linear-gradient(transparent 85%, #c4edb7 85%);
+        padding-bottom: 0;
+        line-height: 1.2em;
       }
 
       @media (orientation: landscape) {
         h3 {
           font-size: 50px;
-          padding: 3vw 0 2vw 20px;
+          margin-bottom: 2vw;
         }
       }
 
       @media (orientation: portrait) {
         h3 {
           font-size: 30px;
-          padding: 20px 0 50px 10px;
+          margin-bottom: 50px;
         }
       }
 
@@ -785,7 +789,8 @@
           <!--suppress BadExpressionStatementJS -->
           <div id="toc">
             <div id="toc_title">目次</div>
-            <a class="toc_link_h1" href="#回収ボックス">回収ボックス</a>
+
+            <a class="toc_link_h1" href="#回収ボックス"> 回収ボックス </a>
           </div>
 
           <!--suppress BadExpressionStatementJS --><button
@@ -848,7 +853,8 @@
           <!--suppress BadExpressionStatementJS -->
           <div id="toc">
             <div id="toc_title">目次</div>
-            <a class="toc_link_" href="#undefined">undefined</a>
+
+            <a class="toc_link_" href="#undefined"> undefined </a>
           </div>
 
           <!--suppress BadExpressionStatementJS --><button
@@ -908,6 +914,7 @@
       </div>
     </main>
     <a href="#"><button id="scroll_top"></button></a>
+    <!--suppress BadExpressionStatementJS -->
     <footer>
       <div class="footer_main">
         <div class="footer_title">右ポケットの中の資源を求めて</div>

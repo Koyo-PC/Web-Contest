@@ -1,205 +1,267 @@
 <!DOCTYPE html>
-<!--suppress ALL -->
-<html lang="en">
+<html lang="ja">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="svg/logo.svg" type="image/svg+xml" />
+    <!--  <link rel="shortcut icon" href="svg/logo.svg" type="image/svg+xml">-->
     <title>Home | 右ポケットの中の資源を求めて</title>
     <style>
-      nav {
-        align-items: center;
-        background-color: #003b54;
-        height: 70px;
-        display: flex;
-        /*z-index: 1000;*/
-        width: 100%;
-      }
+      @import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;700&dispaly=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&dispaly=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&dispaly=swap");
 
-      .nav_link > a {
-        --count: 9;
-        color: #fbf8f8;
-        flex: none;
-        font-family: Lato, sans-serif;
-        font-weight: 400;
-        text-decoration: none;
-        justify-content: center;
+      * {
+        font-family: "Noto Serif JP", serif;
         box-sizing: border-box;
+        font-weight: 200;
+        line-height: 1.9;
       }
-
-      .nav_link :nth-child(1) {
-        border-bottom: 5px solid white;
-      }
-
       @media (orientation: landscape) {
-        .nav_link {
-          width: 100%;
-          height: 100%;
-          /*display: block;*/
-          display: flex;
-        }
-
-        .nav_link > a {
-          height: 100%;
-          display: grid;
-          align-items: center;
-          font-size: min(1.2vw, 17px);
-        }
-
-        .button > img {
-          display: none;
-        }
-
-        .nav_link > a {
-          text-align: center;
-          line-height: 1.4;
-          width: calc(100% / var(--count) - 40px);
-          max-width: calc(100% / var(--count) - 40px);
-          margin: 0 20px 0;
+        * {
+          font-size: 20px;
         }
       }
 
       @media (orientation: portrait) {
-        .button > img {
-          position: absolute;
-          display: block;
-          height: 20px;
-          left: 40px;
-          top: 25px;
-          z-index: 1000;
+        * {
+          font-size: 16px;
         }
-
-        .button {
-          top: 0;
-          width: 100%;
-          height: 70px;
-          z-index: 1000;
-          background-color: #003b54;
-          position: fixed;
-        }
-
-        .nav_link {
-          position: fixed;
-          width: 100%;
-          top: calc(-100% + 70px);
-          background-color: #003b54;
-          z-index: 100;
-          height: calc(100vh - 70px);
-          box-sizing: border-box;
-          padding: 5vh 0 0 0;
-          transition: 0.5s ease;
-        }
-
-        .nav_title {
-          position: absolute;
-        }
-
-        .nav_link.open {
-          top: 70px;
-        }
-
-        .nav_link > a {
-          font-size: 18px;
-          line-height: 60px;
-          display: block;
-          width: 80%;
-          margin: 0 auto 0;
-          height: 60px;
-          box-sizing: border-box;
-          padding: 0 0 0 60px;
-          border-top: 1px solid white;
-        }
-      } /*@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&dispaly=swap');*/
-      /*@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&dispaly=swap');*/
-      @import url("/css/base.css");
+      }
+      svg * {
+        font-size: initial;
+      }
 
       html,
       body {
         height: 100%;
         width: 100%;
         margin: unset;
-        font-family: "Lato", "Noto Sans JP", sans-serif;
-      }
-
-      .main_image {
-        text-align: center;
-        height: 500px;
-        width: 100%;
-        background-size: cover;
-        background-position: center;
-        background-image: url(img/pic_03_m.jpg);
-        display: grid;
-        place-items: center;
-        opacity: 0.7;
-      }
-      .main_image > h1 {
-        font-size: 72px;
-        font-weight: 700;
-        color: #fff;
-        text-shadow: 0 0 5px black;
+        scroll-behavior: smooth;
       }
 
       main {
-        padding: 200px 10vw 100px;
-        counter-reset: text_title_counter;
+        padding: 50px 20% 100px;
       }
 
-      .title_text {
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: "Lato", "Noto Sans JP", sans-serif;
+        margin: 0;
+        padding-top: 70px;
+      }
+
+      h1 {
+        counter-reset: h2_counter;
         width: 100%;
-        box-sizing: border-box;
-        font-size: 20px;
-        letter-spacing: 0.05em;
-        line-height: 1.97;
+        display: grid;
+        place-items: center;
+        color: #003b54;
+        font-weight: 700;
       }
-
-      .main_text {
-        width: 100%;
-        box-sizing: border-box;
-        font-size: 20px;
-      }
-
-      .site_map {
-        display: block;
-        border-bottom: 3px solid #457834;
-        color: #457834;
-        font-weight: 400;
-        letter-spacing: 0.1em;
-        line-height: 1.4em;
-        text-align: center;
-      }
-
-      /*.site_map_list {*/
-      /*    width: 60%;*/
-      /*    margin: 0 20%;*/
-      /*    list-style: none;*/
-      /*    line-height: 50px;*/
-      /*    font-size: 20px;*/
-      /*}*/
 
       @media (orientation: landscape) {
-        .site_map {
-          font-size: 64px;
-          height: 102px;
-          margin: 50px auto 100px;
-          width: 70%;
-        }
-
-        .title_text {
-          margin-bottom: 200px;
+        h1 {
+          padding: 100px 0 0 0;
+          font-size: min(10vw, 100px);
         }
       }
 
       @media (orientation: portrait) {
-        .site_map {
-          font-size: 40px;
-          height: 60px;
-          margin: 50px auto 100px;
-        }
-
-        .title_text {
-          margin-bottom: 100px;
+        h1 {
+          padding: 100px 0 100px 0;
+          font-size: 10vw;
         }
       }
+
+      h2 {
+        display: block;
+        color: #003b54;
+        width: 100%;
+      }
+
+      h2:before {
+        counter-increment: h2_counter;
+        content: counter(h2_counter) ". ";
+        color: #457834;
+      }
+
+      @media (orientation: landscape) {
+        h2 {
+          font-size: 72px;
+          font-weight: 400;
+        }
+      }
+
+      @media (orientation: portrait) {
+        h2 {
+          font-size: 32px;
+          font-weight: 400;
+        }
+      }
+
+      h3 {
+        display: inline-block;
+        position: relative;
+        color: #003b54;
+        font-weight: 400;
+        background-origin: padding-box;
+        background: linear-gradient(transparent 85%, #c4edb7 85%);
+        padding-bottom: 0;
+        line-height: 1.2em;
+      }
+
+      @media (orientation: landscape) {
+        h3 {
+          font-size: 50px;
+          margin-bottom: 2vw;
+        }
+      }
+
+      @media (orientation: portrait) {
+        h3 {
+          font-size: 30px;
+          margin-bottom: 50px;
+        }
+      }
+
+      p {
+        text-indent: 1em;
+        width: 100%;
+        text-align: justify;
+        margin: 50px 0;
+      }
+
+      dl.Q_A {
+        counter-reset: qa_counter;
+        /*font-size: 17px;*/
+        text-align: justify;
+
+        text-indent: 1em;
+        font-size: 20px;
+        line-height: 1.5;
+      }
+
+      dl.Q_A > dt {
+        margin-top: 50px;
+      }
+
+      dl.Q_A > dt:before {
+        counter-increment: qa_counter;
+        content: "Q" counter(qa_counter) ". ";
+        display: block;
+        height: 100%;
+        font-weight: 700;
+        font-size: 20px;
+        margin-bottom: 5px;
+        margin-left: -20px;
+      }
+
+      dl.Q_A > dd {
+        margin: 0;
+        margin-top: 20px;
+      }
+
+      dl.Q_A > dd:before {
+        content: "A" counter(qa_counter) ". ";
+        display: block;
+        height: 100%;
+        font-weight: 700;
+        font-size: 20px;
+        margin-bottom: 5px;
+        margin-left: -20px;
+      }
+
+      span.weak {
+        color: dimgray;
+        font-weight: 400;
+      }
+
+      .sorry {
+        color: gray;
+        font-style: italic;
+      }
+
+      .table_figure {
+        max-width: 80vw;
+        overflow-x: auto;
+        margin: 0 0 5vh 0;
+      }
+
+      table {
+        border: 1px solid black;
+        border-collapse: collapse;
+        margin: 0 auto;
+      }
+
+      tr,
+      th,
+      td {
+        border: 1px solid black;
+        padding: 5px 20px;
+        white-space: nowrap;
+      }
+
+      th {
+        background-color: #eee;
+        font-weight: 700;
+      }
+
+      .image_container {
+        display: flex;
+        justify-content: center;
+      }
+
+      figcaption {
+        display: block;
+        width: 100%;
+        text-align: center;
+      }
+
+      .image_links {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 10vh 0 0 0;
+      }
+
+      .img_link {
+        display: block;
+        aspect-ratio: 1;
+        background-color: yellowgreen;
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        text-decoration: none;
+        color: black;
+      }
+
+      @media (orientation: landscape) {
+        .img_link {
+          width: 45%;
+          margin: 2vh 2.5%;
+          font-size: 5vw;
+        }
+      }
+
+      @media (orientation: portrait) {
+        .img_link {
+          width: 100%;
+          margin: 2vh 0;
+        }
+      }
+
+      /*#lang_en {*/
+      /*  display: none;*/
+      /*}*/
+
+      /*#lang_jp {*/
+      /*  width: 100%;*/
+      /*}*/
       .atom_chara {
         position: relative;
         display: grid;
@@ -287,117 +349,6 @@
         margin-top: calc(-1 * var(--size) / 2);
         border: calc(var(--size) / 2) solid transparent;
         border-right: calc(var(--size) / 2) solid var(--color);
-      }
-      footer {
-        position: relative;
-        width: 100%;
-        height: 300px;
-        background-color: #003b54;
-        display: flex;
-        color: #fbf8f8;
-      }
-
-      .footer_main {
-        position: relative;
-      }
-
-      .footer_copyright {
-        position: absolute;
-        color: darkgray;
-      }
-
-      .footer_copyright > a {
-        text-decoration: underline;
-        color: #fbf8f8;
-      }
-
-      .footer_license {
-        position: absolute;
-        color: darkgray;
-      }
-      .footer_license a {
-        text-decoration: none;
-        color: #fbf8f8;
-      }
-      .footer_license a:hover {
-        color: lightgray;
-      }
-
-      .footer_sitemap {
-        position: absolute;
-      }
-
-      .footer_sitemap > a {
-        --category-count: 9;
-        display: grid;
-        justify-content: start;
-        align-items: center;
-        text-decoration: none;
-        color: #fbf8f8;
-      }
-
-      @media (orientation: landscape) {
-        .footer_main {
-          width: 50%;
-          height: 100%;
-          margin-left: 10%;
-        }
-        .footer_title {
-          margin: 75px 10% 0;
-          font-size: 25px;
-        }
-        .footer_license {
-          bottom: 12%;
-          left: 10%;
-          font-size: 12px;
-        }
-        .footer_copyright {
-          bottom: 30%;
-          left: 10%;
-        }
-        .footer_sitemap {
-          top: 10%;
-          width: 200px;
-          height: 80%;
-          right: 10%;
-        }
-        .footer_sitemap > a {
-          width: 100%;
-          height: calc(100% / var(--category-count));
-          font-size: 14px;
-        }
-      }
-      @media (orientation: portrait) {
-        .footer_main {
-          width: 55%;
-          height: 100%;
-          margin-left: 5%;
-        }
-        .footer_title {
-          margin: 30px 0 0 3%;
-          font-size: 25px;
-        }
-        .footer_copyright {
-          bottom: 35%;
-          left: 3%;
-          font-size: 10px;
-        }
-        .footer_license {
-          bottom: 10%;
-          left: 3%;
-          font-size: 10px;
-        }
-        .footer_sitemap {
-          top: 10%;
-          width: 30%;
-          height: 80%;
-          right: 5%;
-        }
-        .footer_sitemap > a {
-          width: 100%;
-          height: calc(100% / var(--category-count));
-          font-size: 12px;
-        }
       }
       .word_text {
         position: relative;
@@ -590,7 +541,7 @@
         color: #457834;
         font-size: 32px;
         font-weight: 400;
-        height: 40px;
+        /*height: 40px;*/
         /*line-height: 1.4;*/
       }
 
@@ -643,9 +594,286 @@
         width: 40%;
         aspect-ratio: 1;
       }
+      .main_image {
+        text-align: center;
+        height: 500px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-image: url(img/pic_03_m.jpg);
+        display: grid;
+        place-items: center;
+        opacity: 0.7;
+        position: absolute;
+        left: 0;
+      }
+      .main_image > h1 {
+        font-size: 72px;
+        font-weight: 700;
+        color: #fff;
+        text-shadow: 0 0 5px black;
+      }
+      .main_image_spacer {
+        height: 550px;
+      }
+      .title_text {
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 20px;
+        letter-spacing: 0.05em;
+        line-height: 1.97;
+        margin-bottom: 100px;
+      }
+      .main_text {
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 20px;
+      }
+      h2 {
+        display: block;
+        border-bottom: 3px solid #457834;
+        color: #457834;
+        font-weight: 400;
+        letter-spacing: 0.1em;
+        line-height: 1.4em;
+        text-align: center;
+        margin: 0 auto 100px;
+        width: 70%;
+      }
+      h2:before {
+        display: none;
+      }
+      @media (orientation: landscape) {
+        h2 {
+          font-size: 64px;
+        }
+      }
+      @media (orientation: portrait) {
+        .site_map {
+          font-size: 40px;
+        }
+      }
+      footer {
+        position: relative;
+        width: 100%;
+        height: 300px;
+        background-color: #003b54;
+        display: flex;
+        color: #fbf8f8;
+      }
+
+      .footer_main {
+        position: relative;
+      }
+
+      .footer_copyright {
+        position: absolute;
+        color: darkgray;
+      }
+
+      .footer_copyright > a {
+        text-decoration: underline;
+        color: #fbf8f8;
+      }
+
+      .footer_license {
+        position: absolute;
+        color: darkgray;
+      }
+      .footer_license a {
+        text-decoration: none;
+        color: #fbf8f8;
+      }
+      .footer_license a:hover {
+        color: lightgray;
+      }
+
+      .footer_sitemap {
+        position: absolute;
+      }
+
+      .footer_sitemap > a {
+        --category-count: 9;
+        display: grid;
+        justify-content: start;
+        align-items: center;
+        text-decoration: none;
+        color: #fbf8f8;
+      }
+
+      @media (orientation: landscape) {
+        .footer_main {
+          width: 50%;
+          height: 100%;
+          margin-left: 10%;
+        }
+        .footer_title {
+          margin: 75px 10% 0;
+          font-size: 25px;
+        }
+        .footer_license {
+          bottom: 12%;
+          left: 10%;
+          font-size: 12px;
+        }
+        .footer_copyright {
+          bottom: 30%;
+          left: 10%;
+        }
+        .footer_sitemap {
+          top: 10%;
+          width: 200px;
+          height: 80%;
+          right: 10%;
+        }
+        .footer_sitemap > a {
+          width: 100%;
+          height: calc(100% / var(--category-count));
+          font-size: 14px;
+        }
+      }
+      @media (orientation: portrait) {
+        .footer_main {
+          width: 55%;
+          height: 100%;
+          margin-left: 5%;
+        }
+        .footer_title {
+          margin: 30px 0 0 3%;
+          font-size: 25px;
+        }
+        .footer_copyright {
+          bottom: 35%;
+          left: 3%;
+          font-size: 10px;
+        }
+        .footer_license {
+          bottom: 10%;
+          left: 3%;
+          font-size: 10px;
+        }
+        .footer_sitemap {
+          top: 10%;
+          width: 30%;
+          height: 80%;
+          right: 5%;
+        }
+        .footer_sitemap > a {
+          width: 100%;
+          height: calc(100% / var(--category-count));
+          font-size: 12px;
+        }
+      }
+      nav {
+        position: fixed;
+        top: 0;
+        align-items: center;
+        background-color: #003b54;
+        height: 70px;
+        display: flex;
+        /*z-index: 1000;*/
+        width: 100%;
+        z-index: 10000;
+      }
+
+      .nav_link > a {
+        --count: 9;
+        color: #fbf8f8;
+        flex: none;
+        font-family: Lato, sans-serif;
+        font-weight: 400;
+        text-decoration: none;
+        justify-content: center;
+        box-sizing: border-box;
+      }
+
+      .nav_link :nth-child(1) {
+        border-bottom: 5px solid white;
+      }
+
+      @media (orientation: landscape) {
+        .nav_link {
+          width: 100%;
+          height: 100%;
+          /*display: block;*/
+          display: flex;
+        }
+
+        .nav_link > a {
+          height: 100%;
+          display: grid;
+          align-items: center;
+          font-size: min(1.2vw, 17px);
+        }
+
+        .button > img {
+          display: none;
+        }
+
+        .nav_link > a {
+          text-align: center;
+          line-height: 1.4;
+          width: calc(100% / var(--count) - 40px);
+          max-width: calc(100% / var(--count) - 40px);
+          margin: 0 20px 0;
+        }
+      }
+
+      @media (orientation: portrait) {
+        .button > img {
+          position: absolute;
+          display: block;
+          height: 20px;
+          left: 40px;
+          top: 25px;
+          z-index: 1000;
+        }
+
+        .button {
+          top: 0;
+          width: 100%;
+          height: 70px;
+          z-index: 1000;
+          background-color: #003b54;
+          position: fixed;
+        }
+
+        .nav_link {
+          position: fixed;
+          width: 100%;
+          top: calc(-100% + 70px);
+          background-color: #003b54;
+          z-index: 100;
+          height: calc(100vh - 70px);
+          box-sizing: border-box;
+          padding: 5vh 0 0 0;
+          transition: 0.5s ease;
+        }
+
+        .nav_title {
+          position: absolute;
+        }
+
+        .nav_link.open {
+          top: 70px;
+        }
+
+        .nav_link > a {
+          font-size: 18px;
+          line-height: 60px;
+          display: block;
+          width: 80%;
+          margin: 0 auto 0;
+          height: 60px;
+          box-sizing: border-box;
+          padding: 0 0 0 60px;
+          border-top: 1px solid white;
+        }
+      }
     </style>
   </head>
   <body>
+    <!--suppress BadExpressionStatementJS -->
     <nav>
       <div class="button">
         <img src="./svg/ham.svg" alt="" id="ham" />
@@ -679,474 +907,425 @@
       }
     </script>
 
-    <div id="lang_jp">
-      <div class="main_image">
-        <h1 id="右ポケットの中の資源を求めて">右ポケットの中の資源を求めて</h1>
-      </div>
-      <main>
-        <div class="title_text">
-          私たちが普段使っているスマホ。<br />
-          それが2050年までに作れなくなっているかもしれません。<br />
-          それは「鉱物資源の枯渇」という問題にあります。<br />
-          需要の急増とともに、その消費が激しくなってきました。<br />
-          このままだと2050年までにスマホや家電などの電子機器の素材がなくなる恐れがあるのです。<br />
-          そこで、使われなくなったスマホなどの電子機器から金属を取り出して再利用する「都市鉱山」という考え方が生まれました。<br />
-          これには現在様々な課題がありますが、より活用されるようになると資源問題解決の１つの手がかりになるはずです。
+    <main>
+      <div id="lang_jp">
+        <div class="main_image">
+          <h1 id="右ポケットの中の資源を求めて">
+            右ポケットの中の資源を求めて
+          </h1>
         </div>
-
-        <h2 class="site_map" id="サイトマップ">サイトマップ</h2>
-
-        <div class="text">
-          <h3 class="text_title">資源の現状</h3>
-          <div class="textContent">
-            様々な科学技術分野で世界を牽引している日本。<br />
-            これは大量のレアメタルなどの金属資源によって支えられています。<br />
-            しかし、それらを手に入れることは決して容易なことではありません。
+        <div class="main_image_spacer"></div>
+        <div id="main">
+          <div class="title_text">
+            私たちが普段使っているスマホ。<br />
+            それが2050年までに作れなくなっているかもしれません。<br />
+            それは「鉱物資源の枯渇」という問題にあります。<br />
+            需要の急増とともに、その消費が激しくなってきました。<br />
+            このままだと2050年までにスマホや家電などの電子機器の素材がなくなる恐れがあるのです。<br />
+            そこで、使われなくなったスマホなどの電子機器から金属を取り出して再利用する「都市鉱山」という考え方が生まれました。<br />
+            これには現在様々な課題がありますが、より活用されるようになると資源問題解決の１つの手がかりになるはずです。
           </div>
-          <a href="./present-situation/">
-            <div class="link_button">
-              詳しく見る
-              <div class="img">
-                <img src="./svg/arrow.svg" />
-              </div>
-            </div>
-          </a>
-        </div>
 
-        <div class="text">
-          <h3 class="text_title">都市鉱山の意義</h3>
-          <div class="textContent">
-            資源問題解決の1つの手がかりとなる都市鉱山。<br />
-            それは一体どのようなものなのでしょうか。
+          <h2 id="サイトマップ">サイトマップ</h2>
+          <div class="text">
+            <h3 class="text_title">資源の現状</h3>
+            <div class="textContent">
+              様々な科学技術分野で世界を牽引している日本。<br />
+              これは大量のレアメタルなどの金属資源によって支えられています。<br />
+              しかし、それらを手に入れることは決して容易なことではありません。
+            </div>
+            <a href="./present-situation/">
+              <div class="link_button">
+                詳しく見る
+                <div class="img">
+                  <img src="./svg/arrow.svg" />
+                </div>
+              </div>
+            </a>
           </div>
-          <a href="./urban-mining/">
-            <div class="link_button">
-              詳しく見る
-              <div class="img">
-                <img src="./svg/arrow.svg" />
-              </div>
-            </div>
-          </a>
-        </div>
 
-        <div class="text">
-          <h3 class="text_title">課題</h3>
-          <div class="textContent">
-            都市鉱山にはメリットがたくさんある一方で、多くの課題を抱えています。
+          <div class="text">
+            <h3 class="text_title">都市鉱山の意義</h3>
+            <div class="textContent">
+              資源問題解決の1つの手がかりとなる都市鉱山。<br />
+              それは一体どのようなものなのでしょうか。
+            </div>
+            <a href="./urban-mining/">
+              <div class="link_button">
+                詳しく見る
+                <div class="img">
+                  <img src="./svg/arrow.svg" />
+                </div>
+              </div>
+            </a>
           </div>
-          <a href="./problem/">
-            <div class="link_button">
-              詳しく見る
-              <div class="img">
-                <img src="./svg/arrow.svg" />
-              </div>
-            </div>
-          </a>
-        </div>
 
-        <div class="text">
-          <h3 class="text_title">現在の取り組み</h3>
-          <div class="textContent">
-            現在都市鉱山をもっと広めよう、活用しようとする人々が様々な取り組みを行っています。<br />
-            世界は資源問題解決に向けて歩み出しているのです。
+          <div class="text">
+            <h3 class="text_title">課題</h3>
+            <div class="textContent">
+              都市鉱山にはメリットがたくさんある一方で、多くの課題を抱えています。
+            </div>
+            <a href="./problem/">
+              <div class="link_button">
+                詳しく見る
+                <div class="img">
+                  <img src="./svg/arrow.svg" />
+                </div>
+              </div>
+            </a>
           </div>
-          <a href="./measure/">
-            <div class="link_button">
-              詳しく見る
-              <div class="img">
-                <img src="./svg/arrow.svg" />
-              </div>
-            </div>
-          </a>
-        </div>
 
-        <div class="text">
-          <h3 class="text_title">アクティビティ</h3>
-          <div class="textContent">私たちの行った活動について紹介します。</div>
-          <a href="./activity/">
-            <div class="link_button">
-              詳しく見る
-              <div class="img">
-                <img src="./svg/arrow.svg" />
-              </div>
+          <div class="text">
+            <h3 class="text_title">現在の取り組み</h3>
+            <div class="textContent">
+              現在都市鉱山をもっと広めよう、活用しようとする人々が様々な取り組みを行っています。<br />
+              世界は資源問題解決に向けて歩み出しているのです。
             </div>
-          </a>
-        </div>
-
-        <div class="text">
-          <h3 class="text_title">解決策</h3>
-          <div class="textContent">
-            都市鉱山について様々な取り組みが行われていますが、まだまだたくさん問題が残っているのは事実です。<br />
-            都市鉱山をもっと広めよう、活用しようという意識を全員が共有できることを願って、私たちの考える解決策をこのページに書いてみました。
+            <a href="./measure/">
+              <div class="link_button">
+                詳しく見る
+                <div class="img">
+                  <img src="./svg/arrow.svg" />
+                </div>
+              </div>
+            </a>
           </div>
-          <a href="./solution/">
-            <div class="link_button">
-              詳しく見る
-              <div class="img">
-                <img src="./svg/arrow.svg" />
-              </div>
-            </div>
-          </a>
-        </div>
 
-        <div class="text">
-          <h3 class="text_title">最後に</h3>
-          <div class="textContent">私たちの思いが届きますように…！</div>
-          <a href="./finally/">
-            <div class="link_button">
-              詳しく見る
-              <div class="img">
-                <img src="./svg/arrow.svg" />
-              </div>
+          <div class="text">
+            <h3 class="text_title">アクティビティ</h3>
+            <div class="textContent">
+              私たちの行った活動について紹介します。
             </div>
-          </a>
-        </div>
-
-        <<<<<<< HEAD
-        <div class="text">
-          <h3 class="text_title">その他</h3>
-          <div class="textContent">
-            私たちの活動記録やこのサイトの参考文献を紹介しています。 >>>>>>>
-            61d3341 (スプレッドシート準拠)
+            <a href="./activity/">
+              <div class="link_button">
+                詳しく見る
+                <div class="img">
+                  <img src="./svg/arrow.svg" />
+                </div>
+              </div>
+            </a>
           </div>
-          <a href="./others/">
-            <div class="link_button">
-              詳しく見る
-              <div class="img">
-                <img src="./svg/arrow.svg" />
-              </div>
+
+          <div class="text">
+            <h3 class="text_title">解決策</h3>
+            <div class="textContent">
+              都市鉱山について様々な取り組みが行われていますが、まだまだたくさん問題が残っているのは事実です。<br />
+              都市鉱山をもっと広めよう、活用しようという意識を全員が共有できることを願って、私たちの考える解決策をこのページに書いてみました。
             </div>
-          </a>
-        </div>
+            <a href="./solution/">
+              <div class="link_button">
+                詳しく見る
+                <div class="img">
+                  <img src="./svg/arrow.svg" />
+                </div>
+              </div>
+            </a>
+          </div>
 
-        <h2 id="ページの見方" class="site_map">ページの見方</h2>
+          <div class="text">
+            <h3 class="text_title">最後に</h3>
+            <div class="textContent">私たちの思いが届きますように…！</div>
+            <a href="./finally/">
+              <div class="link_button">
+                詳しく見る
+                <div class="img">
+                  <img src="./svg/arrow.svg" />
+                </div>
+              </div>
+            </a>
+          </div>
 
-        <ul>
-          <li>
-            <h3 id="メニュー">メニュー</h3>
-            <p>
-              ページ左下のメニューです。<br />
-              ページの目次を表示するほか、「English」ボタンで英語で表示できます。
-            </p>
-          </li>
-          <li>
-            <h3 id="吹き出し辞書">吹き出し辞書</h3>
-            <p>
-              このサイトの中には、下のように太字になっている単語があります。<br />
-              　
-              <span class="word"
-                ><span class="word_text">レアメタル</span>
-                <span class="word_description_container">
-                  <span class="word_description">
-                    <span class="word_description_title">レアメタル</span>
-                    <span
-                      class="word_description_text"
-                      style="line-height: 1.5rem"
-                      >1.地殻中の存在量が比較的少ない元素　<br />
-                      2.単体として取り出すことが技術的に困難な元素<br />3.資源の産出国が偏在している<br />を満たす元素のことを言い、現代の産業に欠かせない”産業のビタミン”と呼ばれる。別名マイナーメタル。</span
-                    >
-                  </span>
+          <div class="text">
+            <h3 class="text_title">その他</h3>
+            <div class="textContent">
+              私たちの活動記録やこのサイトの参考文献を紹介しています。
+            </div>
+            <a href="./others/">
+              <div class="link_button">
+                詳しく見る
+                <div class="img">
+                  <img src="./svg/arrow.svg" />
+                </div>
+              </div>
+            </a>
+          </div>
+          <h2 id="ページの見方">ページの見方</h2>
+          <ul>
+            <li><h3 id="メニュー">メニュー</h3></li>
+          </ul>
+          <p>
+            ページ左下のメニューです。<br />
+            ページの目次を表示するほか、「English」ボタンで英語で表示できます。
+          </p>
+          <ul>
+            <li><h3 id="吹き出し辞書">吹き出し辞書</h3></li>
+          </ul>
+          <p>
+            このサイトの中には、下のように太字になっている単語があります。<br />
+            　<span class="word"
+              ><span class="word_text">レアメタル</span>
+              <span class="word_description_container">
+                <span class="word_description">
+                  <span class="word_description_title">レアメタル</span>
+                  <span
+                    class="word_description_text"
+                    style="line-height: 1.5rem"
+                    >1.地殻中の存在量が比較的少ない元素　<br />
+                    2.単体として取り出すことが技術的に困難な元素<br />3.資源の産出国が偏在している<br />を満たす元素のことを言い、現代の産業に欠かせない”産業のビタミン”と呼ばれる。別名マイナーメタル。</span
+                  >
                 </span>
               </span>
+            </span>
 
-              <!--suppress HtmlUnknownAttribute -->
-
-              <br />
-              カーソルを乗せることで単語の説明を見ることができます。<br />
-              (見出し内に複数回出現する単語については、初めに出てきたもののみ辞書をつけています。)
-            </p>
-          </li>
-          <li>
-            <h3 id="まとめ図解">まとめ図解</h3>
-            <p>
-              ページの最後にまとめ図解を設置していることがあります。<br />
-              そのページの内容を視覚的に把握できるのに加え、項目をクリックすることでその内容が書かれた場所にスクロールします。
-            </p>
-          </li>
-        </ul>
-
-        <h2 id="キャラクター紹介" class="site_map">キャラクター紹介</h2>
-
-        当サイトに出てくるキャラクター「ゲンソくん」です。
-        おまけ情報を時々挟んだり、解決策で話し合ったりしています。
-
-        <!--suppress ALL -->
-        <div class="atom_chara" style="width: 100%; margin: 50px 0">
-          <div class="atom_chara_icon">
-            <img
-              class="atom_chara_img"
-              src="./img/atom_chara/Li.png"
-              alt="リチウムくんのアイコン"
-            />
-            <div class="atom_chara_name">リチウムくん</div>
+            <!--suppress HtmlUnknownAttribute -->
+            <br />
+            カーソルを乗せることで単語の説明を見ることができます。<br />
+            (見出し内に複数回出現する単語については、初めに出てきたもののみ辞書をつけています。)
+          </p>
+          <ul>
+            <li><h3 id="まとめ図解">まとめ図解</h3></li>
+          </ul>
+          <p>
+            ページの最後にまとめ図解を設置していることがあります。<br />
+            そのページの内容を視覚的に把握できるのに加え、項目をクリックすることでその内容が書かれた場所にスクロールします。
+          </p>
+          <h2 id="キャラクター紹介">キャラクター紹介</h2>
+          <p>
+            当サイトに出てくるキャラクター「ゲンソくん」です。
+            おまけ情報を時々挟んだり、解決策で話し合ったりしています。
+          </p>
+          <!--suppress ALL -->
+          <div class="atom_chara" style="width: 100%; margin: 50px 0">
+            <div class="atom_chara_icon">
+              <img
+                class="atom_chara_img"
+                src="./img/atom_chara/Li.png"
+                alt="リチウムくんのアイコン"
+              />
+              <div class="atom_chara_name">リチウムくん</div>
+            </div>
+            <div class="atom_chara_content">
+              <span
+                >好奇心旺盛で、積極的に発言をする男の子。いつも見上げるような目をしている。モチーフはリチウム電池。原子番号3</span
+              >
+            </div>
           </div>
-          <div class="atom_chara_content">
-            <span
-              >好奇心旺盛で、積極的に発言をする男の子。いつも見上げるような目をしている。モチーフはリチウム電池。原子番号3</span
-            >
+
+          <!--suppress HtmlUnknownAttribute -->
+
+          <!--suppress ALL -->
+          <div class="atom_chara" style="width: 100%; margin: 50px 0">
+            <div class="atom_chara_icon">
+              <img
+                class="atom_chara_img"
+                src="./img/atom_chara/Sc.png"
+                alt="スカンジウムおじさんのアイコン"
+              />
+              <div class="atom_chara_name">スカンジウムおじさん</div>
+            </div>
+            <div class="atom_chara_content">
+              <span
+                >リチウムくんの父親的存在で、周りを明るくしてくれる。モチーフは照明。原子番号21</span
+              >
+            </div>
           </div>
+
+          <!--suppress HtmlUnknownAttribute -->
+
+          <!--suppress ALL -->
+          <div class="atom_chara" style="width: 100%; margin: 50px 0">
+            <div class="atom_chara_icon">
+              <img
+                class="atom_chara_img"
+                src="./img/atom_chara/Y.png"
+                alt="イットリウム博士のアイコン"
+              />
+              <div class="atom_chara_name">イットリウム博士</div>
+            </div>
+            <div class="atom_chara_content">
+              <span
+                >金属資源についてお詳しい方。モチーフはブラウン管テレビ。原子番号39</span
+              >
+            </div>
+          </div>
+
+          <!--suppress HtmlUnknownAttribute -->
+
+          <!--suppress ALL -->
+          <div class="atom_chara" style="width: 100%; margin: 50px 0">
+            <div class="atom_chara_icon">
+              <img
+                class="atom_chara_img"
+                src="./img/atom_chara/Au.png"
+                alt="マリー・ゴールドのアイコン"
+              />
+              <div class="atom_chara_name">マリー・ゴールド</div>
+            </div>
+            <div class="atom_chara_content">
+              <span
+                >深窓の令嬢で、世間のことをあまり知らない。時々大胆な発言をする。モチーフはお嬢様。原子番号79</span
+              >
+            </div>
+          </div>
+
+          <!--suppress HtmlUnknownAttribute -->
+
+          <!--suppress ALL -->
+          <div class="atom_chara" style="width: 100%; margin: 50px 0">
+            <div class="atom_chara_icon">
+              <img
+                class="atom_chara_img"
+                src="./img/atom_chara/Pt.png"
+                alt="プラチナルシストのアイコン"
+              />
+              <div class="atom_chara_name">プラチナルシスト</div>
+            </div>
+            <div class="atom_chara_content">
+              <span>どこかの科学者。モチーフはナルシスト。原子番号78</span>
+            </div>
+          </div>
+
+          <!--suppress HtmlUnknownAttribute -->
+
+          <h2 id="推奨環境" class="site_map">推奨環境</h2>
+          <div class="main_text">
+            Chrome, FireFoxの最新版にて動作確認を行っています。<br />
+            その他のブラウザでは正常に表示されない場合があります。
+          </div>
+          <!--  <h2 class="site_map">サイトマップ</h2>-->
+          <!--  <ul class="site_map_list">-->
+          <!--    <li>ホーム</li>-->
+          <!--    <li>資源の現状</li>-->
+          <!--    <li>都市鉱山の意義</li>-->
+          <!--    <li>課題</li>-->
+          <!--    <li>現在の取り組み</li>-->
+          <!--    <li>アクティビティ</li>-->
+          <!--    <li>解決策</li>-->
+          <!--    <li>最後に</li>-->
+          <!--    <li>その他</li>-->
+          <!--  </ul>-->
         </div>
+        <a href="#"><button id="scroll_top"></button></a>
+        <div id="floating_menu">
+          <!--suppress BadExpressionStatementJS -->
+          <div id="toc">
+            <div id="toc_title">目次</div>
 
-        <!--suppress HtmlUnknownAttribute -->
-
-        <!--suppress ALL -->
-        <div class="atom_chara" style="width: 100%; margin: 50px 0">
-          <div class="atom_chara_icon">
-            <img
-              class="atom_chara_img"
-              src="./img/atom_chara/Sc.png"
-              alt="スカンジウムおじさんのアイコン"
-            />
-            <div class="atom_chara_name">スカンジウムおじさん</div>
+            <a class="toc_link_h1" href="#右ポケットの中の資源を求めて">
+              右ポケットの中の資源を求めて
+            </a>
+            <a class="toc_link_h2" href="#サイトマップ"> サイトマップ </a>
+            <a class="toc_link_h2" href="#ページの見方"> ページの見方 </a>
+            <a class="toc_link_h3" href="#メニュー"> メニュー </a>
+            <a class="toc_link_h3" href="#吹き出し辞書"> 吹き出し辞書 </a>
+            <a class="toc_link_h3" href="#まとめ図解"> まとめ図解 </a>
+            <a class="toc_link_h2" href="#キャラクター紹介">
+              キャラクター紹介
+            </a>
+            <a class="toc_link_h2" href="#推奨環境"> 推奨環境 </a>
           </div>
-          <div class="atom_chara_content">
-            <span
-              >リチウムくんの父親的存在で、周りを明るくしてくれる。モチーフは照明。原子番号21</span
-            >
-          </div>
-        </div>
 
-        <!--suppress HtmlUnknownAttribute -->
-
-        <!--suppress ALL -->
-        <div class="atom_chara" style="width: 100%; margin: 50px 0">
-          <div class="atom_chara_icon">
-            <img
-              class="atom_chara_img"
-              src="./img/atom_chara/Y.png"
-              alt="イットリウム博士のアイコン"
-            />
-            <div class="atom_chara_name">イットリウム博士</div>
-          </div>
-          <div class="atom_chara_content">
-            <span
-              >金属資源についてお詳しい方。モチーフはブラウン管テレビ。原子番号39</span
-            >
-          </div>
-        </div>
-
-        <!--suppress HtmlUnknownAttribute -->
-
-        <!--suppress ALL -->
-        <div class="atom_chara" style="width: 100%; margin: 50px 0">
-          <div class="atom_chara_icon">
-            <img
-              class="atom_chara_img"
-              src="./img/atom_chara/Au.png"
-              alt="マリー・ゴールドのアイコン"
-            />
-            <div class="atom_chara_name">マリー・ゴールド</div>
-          </div>
-          <div class="atom_chara_content">
-            <span
-              >深窓の令嬢で、世間のことをあまり知らない。時々大胆な発言をする。モチーフはお嬢様。原子番号79</span
-            >
-          </div>
-        </div>
-
-        <!--suppress HtmlUnknownAttribute -->
-
-        <!--suppress ALL -->
-        <div class="atom_chara" style="width: 100%; margin: 50px 0">
-          <div class="atom_chara_icon">
-            <img
-              class="atom_chara_img"
-              src="./img/atom_chara/Pt.png"
-              alt="プラチナルシストのアイコン"
-            />
-            <div class="atom_chara_name">プラチナルシスト</div>
-          </div>
-          <div class="atom_chara_content">
-            <span>どこかの科学者。モチーフはナルシスト。原子番号78</span>
-          </div>
-        </div>
-
-        <!--suppress HtmlUnknownAttribute -->
-
-        <h2 id="推奨環境" class="site_map">推奨環境</h2>
-        <div class="main_text">
-          Chrome, FireFoxの最新版にて動作確認を行っています。<br />
-          その他のブラウザでは正常に表示されない場合があります。
-        </div>
-
-        <!--  <h2 class="site_map">サイトマップ</h2>-->
-        <!--  <ul class="site_map_list">-->
-        <!--    <li>ホーム</li>-->
-        <!--    <li>資源の現状</li>-->
-        <!--    <li>都市鉱山の意義</li>-->
-        <!--    <li>課題</li>-->
-        <!--    <li>現在の取り組み</li>-->
-        <!--    <li>アクティビティ</li>-->
-        <!--    <li>解決策</li>-->
-        <!--    <li>最後に</li>-->
-        <!--    <li>その他</li>-->
-        <!--  </ul>-->
-      </main>
-      <a href="#"><button id="scroll_top"></button></a>
-      <div id="floating_menu">
-        <!--suppress BadExpressionStatementJS -->
-        <div id="toc">
-          <div id="toc_title">目次</div>
-          <a class="toc_link_h1" href="#右ポケットの中の資源を求めて"
-            >右ポケットの中の資源を求めて</a
-          ><a class="toc_link_h2" href="#サイトマップ">サイトマップ</a
-          ><a class="toc_link_h2" href="#ページの見方">ページの見方</a
-          ><a class="toc_link_h3" href="#メニュー">メニュー</a
-          ><a class="toc_link_h3" href="#吹き出し辞書">吹き出し辞書</a
-          ><a class="toc_link_h3" href="#まとめ図解">まとめ図解</a
-          ><a class="toc_link_h2" href="#キャラクター紹介">キャラクター紹介</a
-          ><a class="toc_link_h2" href="#推奨環境">推奨環境</a>
-        </div>
-
-        <!--suppress BadExpressionStatementJS --><button
-          id="lang_button"
-          onclick="changeLang()"
-        >
-          <span id="lang_text"></span>
-          <script>
-            function setLang(lang) {
-              switch (lang) {
-                case "en":
-                  document.getElementById("lang_en").style.display = "block"
-                  document.getElementById("lang_jp").style.display = "none"
-                  sessionStorage.setItem("lang", "en")
-                  break
-                case "ja":
-                default:
-                  document.getElementById("lang_en").style.display = "none"
-                  document.getElementById("lang_jp").style.display = "block"
-                  sessionStorage.setItem("lang", "ja")
-                  break
+          <!--suppress BadExpressionStatementJS --><button
+            id="lang_button"
+            onclick="changeLang()"
+          >
+            <span id="lang_text"></span>
+            <script>
+              function setLang(lang) {
+                switch (lang) {
+                  case "en":
+                    document.getElementById("lang_en").style.display = "block"
+                    document.getElementById("lang_jp").style.display = "none"
+                    sessionStorage.setItem("lang", "en")
+                    break
+                  case "ja":
+                  default:
+                    document.getElementById("lang_en").style.display = "none"
+                    document.getElementById("lang_jp").style.display = "block"
+                    sessionStorage.setItem("lang", "ja")
+                    break
+                }
+                updateButton()
               }
-              updateButton()
-            }
 
-            function changeLang() {
-              switch (sessionStorage.getItem("lang")) {
-                case "en":
-                  setLang("ja")
-                  break
-                case "ja":
-                default:
-                  setLang("en")
-                  break
+              function changeLang() {
+                switch (sessionStorage.getItem("lang")) {
+                  case "en":
+                    setLang("ja")
+                    break
+                  case "ja":
+                  default:
+                    setLang("en")
+                    break
+                }
+                updateButton()
               }
-              updateButton()
-            }
 
-            function updateButton() {
-              switch (sessionStorage.getItem("lang")) {
-                case "ja":
-                  document
-                    .querySelectorAll("#lang_text")
-                    .forEach((el) => (el.innerHTML = "English"))
-                  break
-                case "en":
-                  document
-                    .querySelectorAll("#lang_text")
-                    .forEach((el) => (el.innerHTML = "日本語"))
-                  break
+              function updateButton() {
+                switch (sessionStorage.getItem("lang")) {
+                  case "ja":
+                    document
+                      .querySelectorAll("#lang_text")
+                      .forEach((el) => (el.innerHTML = "English"))
+                    break
+                  case "en":
+                    document
+                      .querySelectorAll("#lang_text")
+                      .forEach((el) => (el.innerHTML = "日本語"))
+                    break
+                }
               }
-            }
-            window.onload = () => setLang(sessionStorage.getItem("lang"))
-          </script>
-        </button>
+              window.onload = () => setLang(sessionStorage.getItem("lang"))
+            </script>
+          </button>
+        </div>
       </div>
-
-      <footer>
-        <div class="footer_main">
-          <div class="footer_title">右ポケットの中の資源を求めて</div>
-          <div class="footer_copyright">
-            このサイトは
-            <a href="http://webcon.japias.jp/"
-              >第24回全国中学高校Webコンテスト</a
-            >
-            に参加しています。
-          </div>
-          <div class="footer_license">
-            <a
-              rel="license"
-              href="http://creativecommons.org/licenses/by-nc-nd/4.0/"
-            >
-              <img
-                alt="クリエイティブ・コモンズ・ライセンス"
-                style="border-width: 0"
-                src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png"
-              />
-            </a>
-            <br />
-            この作品は
-            <a
-              rel="license"
-              href="http://creativecommons.org/licenses/by-nc-nd/4.0/"
-            >
-              クリエイティブ・コモンズ 表示 - 非営利 - 改変禁止 4.0
-              国際ライセンス
-            </a>
-            の下に提供されています。
-          </div>
+      <div id="lang_en"></div>
+    </main>
+    <a href="#"><button id="scroll_top"></button></a>
+    <!--suppress BadExpressionStatementJS -->
+    <footer>
+      <div class="footer_main">
+        <div class="footer_title">右ポケットの中の資源を求めて</div>
+        <div class="footer_copyright">
+          このサイトは
+          <a href="http://webcon.japias.jp/">第24回全国中学高校Webコンテスト</a>
+          に参加しています。
         </div>
-        <div class="footer_sitemap">
-          <a href="../">Home</a>
-          <a href="../present-situation/">資源の現状</a>
-          <a href="../urban-mining/">都市鉱山の意義</a>
-          <a href="../problem/">課題</a>
-          <a href="../measure/">現在の取り組み</a>
-          <a href="../activity/">アクティビティ</a>
-          <a href="../solution/">解決策</a>
-          <a href="../finally/">最後に</a>
-          <a href="../others/">その他</a>
+        <div class="footer_license">
+          <a
+            rel="license"
+            href="http://creativecommons.org/licenses/by-nc-nd/4.0/"
+          >
+            <img
+              alt="クリエイティブ・コモンズ・ライセンス"
+              style="border-width: 0"
+              src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png"
+            />
+          </a>
+          <br />
+          この作品は
+          <a
+            rel="license"
+            href="http://creativecommons.org/licenses/by-nc-nd/4.0/"
+          >
+            クリエイティブ・コモンズ 表示 - 非営利 - 改変禁止 4.0 国際ライセンス
+          </a>
+          の下に提供されています。
         </div>
-        <!--  ©︎甲陽学院PC部-->
-      </footer>
-    </div>
-    <div id="lang_en">
-      <footer>
-        <div class="footer_main">
-          <div class="footer_title">右ポケットの中の資源を求めて</div>
-          <div class="footer_copyright">
-            このサイトは
-            <a href="http://webcon.japias.jp/"
-              >第24回全国中学高校Webコンテスト</a
-            >
-            に参加しています。
-          </div>
-          <div class="footer_license">
-            <a
-              rel="license"
-              href="http://creativecommons.org/licenses/by-nc-nd/4.0/"
-            >
-              <img
-                alt="クリエイティブ・コモンズ・ライセンス"
-                style="border-width: 0"
-                src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png"
-              />
-            </a>
-            <br />
-            この作品は
-            <a
-              rel="license"
-              href="http://creativecommons.org/licenses/by-nc-nd/4.0/"
-            >
-              クリエイティブ・コモンズ 表示 - 非営利 - 改変禁止 4.0
-              国際ライセンス
-            </a>
-            の下に提供されています。
-          </div>
-        </div>
-        <div class="footer_sitemap">
-          <a href="../">Home</a>
-          <a href="../present-situation/">資源の現状</a>
-          <a href="../urban-mining/">都市鉱山の意義</a>
-          <a href="../problem/">課題</a>
-          <a href="../measure/">現在の取り組み</a>
-          <a href="../activity/">アクティビティ</a>
-          <a href="../solution/">解決策</a>
-          <a href="../finally/">最後に</a>
-          <a href="../others/">その他</a>
-        </div>
-        <!--  ©︎甲陽学院PC部-->
-      </footer>
-    </div>
+      </div>
+      <div class="footer_sitemap">
+        <a href="./">Home</a>
+        <a href="./present-situation/">資源の現状</a>
+        <a href="./urban-mining/">都市鉱山の意義</a>
+        <a href="./problem/">課題</a>
+        <a href="./measure/">現在の取り組み</a>
+        <a href="./activity/">アクティビティ</a>
+        <a href="./solution/">解決策</a>
+        <a href="./finally/">最後に</a>
+        <a href="./others/">その他</a>
+      </div>
+      <!--  ©︎甲陽学院PC部-->
+    </footer>
   </body>
 </html>
