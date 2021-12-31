@@ -154,11 +154,8 @@ Web系の資格を持っているのに得意な言語はJavaらしい。<br>
     概要欄の利用規約
   - 利用しているページ<br>
     [都市鉱山の意義](../urban-mining/)
-- [パナソニックエコテクノロジーセンター](https://panasonic.co.jp/eco/petec/download/)
-  - 承諾方法<br>
-    見学時に使用の許可を取得
-  - 利用しているページ<br>
-    [ホーム](../)
+
+そのほかのイラストはメンバーによる描画。
 
 ### テキスト
 
@@ -175,13 +172,20 @@ Web系の資格を持っているのに得意な言語はJavaらしい。<br>
 
 ### 写真
 
-写真に記載のないものは全てメンバーが撮影した。
-- 利用しているページ<br>
-  [アクティビティ](../activity/)<br>
-  [回収ボックス](../activity/recycle-box.html)<br>
-  [インタビュー](../activity/interview.html)<br>
-  [工場見学](../activity/petec.html)<br>
-  [携帯解体](../activity/disassembly.html)
+- [パナソニックエコテクノロジーセンター](https://panasonic.co.jp/eco/petec/download/)
+  - 承諾方法<br>
+    見学時に使用の許可を取得。
+  - 利用しているページ<br>
+    [ホーム](../)
+    [工場見学](../activity/petec.html)
+
+- 写真に記載のないものは全てメンバーが撮影した。
+  - 利用しているページ<br>
+    [アクティビティ](../activity/)<br>
+    [回収ボックス](../activity/recycle-box.html)<br>
+    [インタビュー](../activity/interview.html)<br>
+    [工場見学](../activity/petec.html)<br>
+    [携帯解体](../activity/disassembly.html)
 
 <FloatingMenu>
 h1 その他
