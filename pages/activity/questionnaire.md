@@ -47,7 +47,7 @@
 <dd>
 <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSpnvl3CKM30jkBloU__pR-ymYFL7kaOTm1xvV3nXZDzcN5CylZMlYRDEGQcIhxjl6T5i5oMemlwXuu/pubchart?oid=146514648&amp;format=interactive"></iframe>
 
-3年以上買い換えない人が多く、その期間の長さが使用済み携帯電話への関心の低さに関係しているのかもしれません。
+3年以上買い替えない人が57.6％と多かったのですが、その期間の長さが使用済み携帯電話への関心の低さに関係しているのかもしれません。
 </dd>
 
 <dt id="q5">
@@ -57,7 +57,7 @@
 <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSpnvl3CKM30jkBloU__pR-ymYFL7kaOTm1xvV3nXZDzcN5CylZMlYRDEGQcIhxjl6T5i5oMemlwXuu/pubchart?oid=566581681&amp;format=interactive"></iframe>
 
 回収ボックスを「知っているが使ったことはない」または「知らない」という人だけで90.4％と9割以上を占めていました。
-回収ボックスの認知度の低さを痛感したとともに、回収ボックスを知っている人にはもっと利用してほしいと思いました。
+回収ボックスの認知度の低さを痛感しました。
 </dd>
 
 <dt id="q6">
@@ -67,7 +67,7 @@
 <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSpnvl3CKM30jkBloU__pR-ymYFL7kaOTm1xvV3nXZDzcN5CylZMlYRDEGQcIhxjl6T5i5oMemlwXuu/pubchart?oid=5504747&amp;format=interactive"></iframe>
 
 使い終わったスマホや携帯電話を家で保管する人が72.8%いて、回収ボックスを知っている人より多く（Q5より）、回収ボックスを知っていても家で保管するという人がいることがわかりました。
-その理由として、個人情報の漏洩への心配があるのかもしれないと思いました。
+その理由として、個人情報の漏洩への心配があるのかもしれません。
 また、燃えないゴミで出す人もいることがわかり、それがよくないことだということをもっと広めなければならないという課題もあるように伺えます。
 </dd>
 
@@ -78,7 +78,7 @@
 <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSpnvl3CKM30jkBloU__pR-ymYFL7kaOTm1xvV3nXZDzcN5CylZMlYRDEGQcIhxjl6T5i5oMemlwXuu/pubchart?oid=252003103&amp;format=interactive"></iframe>
 
 資源の枯渇に危機感を持っている人と持っていない人はほとんど同数でした。
-資源の枯渇に対する考えが大きく分かれていることがわかります。
+資源の枯渇に対する危機感が大きく分かれていることがわかります。
 </dd>
 
 </dl>
