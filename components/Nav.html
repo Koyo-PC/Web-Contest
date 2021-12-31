@@ -1,18 +1,18 @@
 <!--suppress BadExpressionStatementJS -->
 <nav>
   <div class="button">
-    <img src="../svg/ham.svg" alt="" id="ham">
+    <img src="[[root_path]]svg/ham.svg" alt="" id="ham">
   </div>
   <div class="nav_link" id="navLink">
-    <a href="../">Home</a>
-    <a href="../present-situation/">資源の現状</a>
-    <a href="../urban-mining/">都市鉱山の意義</a>
-    <a href="../problem/">課題</a>
-    <a href="../measure/">現在の取り組み</a>
-    <a href="../activity/">アクティビティ</a>
-    <a href="../solution/">解決策</a>
-    <a href="../finally/">最後に</a>
-    <a href="../others/">その他</a>
+    <a href="[[root_path]]">Home</a>
+    <a href="[[root_path]]present-situation/">資源の現状</a>
+    <a href="[[root_path]]urban-mining/">都市鉱山の意義</a>
+    <a href="[[root_path]]problem/">課題</a>
+    <a href="[[root_path]]measure/">現在の取り組み</a>
+    <a href="[[root_path]]activity/">アクティビティ</a>
+    <a href="[[root_path]]solution/">解決策</a>
+    <a href="[[root_path]]finally/">最後に</a>
+    <a href="[[root_path]]others/">その他</a>
   </div>
 </nav>
 
@@ -36,10 +36,13 @@
 <script scml>
     (buildInfo, options) => {
         const titles = [
-            "","資源の現状", "都市鉱山の意義", "課題", "現在の取り組み", "アクティビティ", "解決策", "最後に", "その他"
+            "Home","資源の現状", "都市鉱山の意義", "課題", "現在の取り組み", "アクティビティ", "解決策", "最後に", "その他"
         ];
+        const index = titles.indexOf(buildInfo.fileEnv["TITLE"] ?? "") + 1;
+        const root_path = buildInfo.fileEnv["ROOT_PATH"] ?? "../";
         return {
-            "index": titles.indexOf(buildInfo.fileEnv["TITLE"] ?? "") + 1
+            "index": index,
+            "root_path": root_path
         };
     }
 </script>
