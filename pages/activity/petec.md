@@ -425,7 +425,7 @@ PETECの役割がいかに大切か分かった気がします。
 PETECの位置する加東市は酒米・山田錦が有名だとか。
 皆さんも自然豊かな加東市にぜひぜひ来てみてください！
 
-<PNBar prev="./interview.html" prev_text="インタビュー" next="./disassembly.html" next_text="スマホ解体"></PNBar>
+<PNBar prev="./interview.html" prev_text="インタビュー" next="./disassembly.html" next_text="携帯解体"></PNBar>
 <FloatingMenu>
 h1 工場見学
 h2 PETECってどんなところ?

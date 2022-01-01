@@ -30,7 +30,7 @@
 使わなくなった携帯を出しただけなのになんだか良いことをしたような気分になりました。<br>
 みなさんも近くのスーパーに買い物に行くついでに回収ボックスを利用してみてはいかがですか？
 
-<PNBar prev="./questionnaire.html" next="./interview.html"></PNBar>
+<PNBar prev="./questionnaire.html" next="./interview.html" prev_text="アンケート" next_text="インタビュー"></PNBar>
 <FloatingMenu>
 h1 回収ボックス
 </FloatingMenu>

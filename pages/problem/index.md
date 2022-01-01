@@ -180,7 +180,7 @@ https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d230387.94422895205!2d133.9
 - [ecoo「豊島事件が残した課題」](https://www.re-ver.co.jp/magazine/pdf/ecooVOL25.pdf)
 - [E-VALUE「豊島の不法投棄問題を振り返る」](https://www.env-value.co.jp/columns/press57/)
 
-<PNBar prev="../urban-mining/" next="../measure/"></PNBar>
+<PNBar prev="../urban-mining/" next="../measure/" prev_text="都市鉱山の意義" next_text="現在の取り組み"></PNBar>
 <FloatingMenu>
 h1 課題
 h2 回収率の低さ

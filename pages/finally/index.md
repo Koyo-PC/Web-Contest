@@ -23,7 +23,7 @@
 
 「右ポケットの中の資源を求めて」Webサイトをご覧いただきありがとうございました。
 
-<PNBar prev="../solution/" next="../others/"></PNBar>
+<PNBar prev="../solution/" next="../others/" prev_text="解決策" next_text="その他"></PNBar>
 <FloatingMenu>
 h1 最後に
 </FloatingMenu>

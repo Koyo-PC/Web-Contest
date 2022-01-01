@@ -244,7 +244,7 @@ Appleには、<ForceText>新しい端末を購入するときに使い終わっ�
 - [FairphoneHP](https://www.fairphone.com/en/)
 - [都市鉱山からつくる！みんなのメダルプロジェクトHP](http://www.toshi-kouzan.jp/)
 
-<PNBar prev="../problem/" next="../activity/"></PNBar>
+<PNBar prev="../problem/" next="../activity/" prev_text="課題" next_text="アクティビティ"></PNBar>
 <FloatingMenu>
 h1 現在の取り組み
 h2 いろいろな国の取り組み

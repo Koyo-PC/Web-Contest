@@ -244,7 +244,7 @@ RoHSの基準を満たしていることを示すこのCEマーキングに見�
 - [Official Journal of the European Union「DIRECTIVE (EU) 2019/904 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 5 June 2019 on the reduction of the impact of certain plastic products on the environment」](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32019L0904&from=EN#d1e32-17-1)
 - [JETRO「欧州委、使い捨てプラスチック製品の流通禁止を前に指針発表」](https://www.jetro.go.jp/biznews/2021/06/88299a30b5475ed7.html)
 
-<PNBar prev="../activity/" next="../finally/"></PNBar>
+<PNBar prev="../activity/" next="../finally/" prev_text="アクティビティ" next_text="最後に"></PNBar>
 <FloatingMenu>
 h1 解決策
 h2 回収率を上げるには

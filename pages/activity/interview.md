@@ -146,7 +146,7 @@
 貴重なお話ありがとうございました。
 </NoIndent>
 
-<PNBar prev="./recycle-box.html" next="./petec.html"></PNBar>
+<PNBar prev="./recycle-box.html" next="./petec.html" prev_text="回収ボックス" next_text="工場見学"></PNBar>
 <FloatingMenu>
 h1 インタビュー
 h2 プロフィール

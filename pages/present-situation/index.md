@@ -172,7 +172,7 @@
 - [ケータイゴリラ「ケータイゴリラ ゴリラを守れ！携帯電話回収キャンペーン」](http://jsmcwm.or.jp/edit/kurashi/05/080hani.pdf)
 - [別表 専門分野等一覧表](https://www.jsps.go.jp/j-jisedai/data/05bunyahyo.pdf)
 
-<PNBar prev="../" next="../urban-mining/"></PNBar>
+<PNBar prev="../" next="../urban-mining/" prev_text="Home" next_text="都市鉱山の意義"></PNBar>
 <FloatingMenu>
 h1 資源の現状
 h2 金属資源について

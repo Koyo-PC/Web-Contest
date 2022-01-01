@@ -29,7 +29,7 @@
 <a href="https://panasonic.co.jp/eco/petec/">パナソニック エコテクノロジーセンターHP</a>
 </NoIndent>
 
-<PNBar prev="../measure/" next="../solution/"></PNBar>
+<PNBar prev="../measure/" next="../solution/" prev_text="現在の取り組み" next_text="解決策"></PNBar>
 <FloatingMenu>
 h1 アクティビティ
 h2 謝辞

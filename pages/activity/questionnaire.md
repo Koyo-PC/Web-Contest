@@ -97,7 +97,7 @@
 - 回収ボックスを知っていても利用しない人が少なからずいた。<br>
 - 都市鉱山という言葉だけでなく、内容まで知ってもらうことが課題である。
 
-<PNBar prev="../" next="./recycle-box.html"></PNBar>
+<PNBar prev="../" next="./recycle-box.html" prev_text="アクティビティ" next_text="回収ボックス"></PNBar>
 <FloatingMenu>
 h1 アンケート
 h2 アンケート結果&考察
