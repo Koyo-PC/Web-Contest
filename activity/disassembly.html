@@ -276,15 +276,24 @@
       }
 
       .note {
+        --height: 30px;
         position: absolute;
         right: 0;
-        bottom: 0;
+        bottom: calc(-1 * var(--height));
         text-align: right;
         font-size: 14px;
+        line-height: var(--height);
+        height: var(--height);
       }
+
+      .note a {
+        font-size: 14px;
+      }
+
       .note:not(:blank):before {
         content: "(";
       }
+
       .note:not(:blank):after {
         content: ")";
       }

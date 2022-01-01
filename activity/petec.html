@@ -364,15 +364,24 @@
       }
 
       .note {
+        --height: 30px;
         position: absolute;
         right: 0;
-        bottom: 0;
+        bottom: calc(-1 * var(--height));
         text-align: right;
         font-size: 14px;
+        line-height: var(--height);
+        height: var(--height);
       }
+
+      .note a {
+        font-size: 14px;
+      }
+
       .note:not(:blank):before {
         content: "(";
       }
+
       .note:not(:blank):after {
         content: ")";
       }
@@ -957,7 +966,7 @@
 <div class="image_container">
     <figure class="image_box" >  <img class="image" src="イラスト" alt="イラスト"/>
   <div class="note"><a class="href" href=""></a></div>
-  <figcaption class="image_caption"> イラスト </figcaption>
+  <figcaption class="image_caption"> イラスト</figcaption>
 </figure>
 
 

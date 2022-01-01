@@ -473,15 +473,24 @@
       }
 
       .note {
+        --height: 30px;
         position: absolute;
         right: 0;
-        bottom: 0;
+        bottom: calc(-1 * var(--height));
         text-align: right;
         font-size: 14px;
+        line-height: var(--height);
+        height: var(--height);
       }
+
+      .note a {
+        font-size: 14px;
+      }
+
       .note:not(:blank):before {
         content: "(";
       }
+
       .note:not(:blank):after {
         content: ")";
       }
@@ -1775,8 +1784,7 @@
             >
           </li>
           <li>
-            <a
-              href="https://www-cycle.nies.go.jp/magazine/mame/201805.html#:~:text=%E6%97%A5%E6%9C%AC%E3%81%A7%E3%82%82%E4%BC%BC%E3%81%9F%E3%82%88%E3%81%86,%E3%81%A8%E7%95%B0%E3%81%AA%E3%82%8B%E5%A4%A7%E3%81%8D%E3%81%AA%E7%89%B9%E5%BE%B4%E3%81%A7%E3%81%99%E3%80%82"
+            <a href="https://www-cycle.nies.go.jp/magazine/mame/201805.html"
               >資源循環・廃棄物研究センター
               オンラインマガジン環境「循環・廃棄物の豆知識」</a
             >

@@ -529,15 +529,24 @@
       }
 
       .note {
+        --height: 30px;
         position: absolute;
         right: 0;
-        bottom: 0;
+        bottom: calc(-1 * var(--height));
         text-align: right;
         font-size: 14px;
+        line-height: var(--height);
+        height: var(--height);
       }
+
+      .note a {
+        font-size: 14px;
+      }
+
       .note:not(:blank):before {
         content: "(";
       }
+
       .note:not(:blank):after {
         content: ")";
       }
@@ -1077,43 +1086,17 @@
         </div>
 
         <p>
-          &lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
-          メジャーメタルは電線や各種ケーブル、メッキ、などに利用される一方で、レアメタルは、超伝導材料や形状記憶合金、水素吸蔵合金としてIT関連分野や環境保全などハイテク分野に使われており、携帯電話、パソコン、自動車、テレビ、腕時計、ドライヤーなどの身近なものに欠かせないものとなっています。（図１）
-          このことからレアメタルは<span class="force_text"
-            >「産業のビタミン」</span
-          >と呼ばれることがあります。
-        </p>
-        <h1 id="携帯電話については実際に解体しました。実験の様子はこちらから。">
-          携帯電話については実際に解体しました。実験の様子は<a
-            href="../activity/disassembly.html"
-            >こちら</a
-          >から。
-        </h1>
-        <p>
           メジャーメタルは電線や各種ケーブル、メッキ、などに利用される一方で、レアメタルは、超伝導材料や形状記憶合金、水素吸蔵合金としてIT関連分野や環境保全などハイテク分野に使われており、携帯電話、パソコン、自動車、テレビ、腕時計、ドライヤーなどの身近なものに欠かせないものとなっています。（下の表）
           このことからレアメタルは<span class="force_text"
             >「産業のビタミン」</span
           >と呼ばれることがあります。
+        </p>
+        <p>
           携帯電話については実際に解体しました。実験の様子は<a
             href="../activity/disassembly.html"
             >こちら</a
-          >から
+          >から。
         </p>
-        <blockquote>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <blockquote>
-                      <p>61d3341 (スプレッドシート準拠)</p>
-                    </blockquote>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
-        </blockquote>
         <figure class="table_figure">
           <table>
             <tr>
