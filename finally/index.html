@@ -262,6 +262,14 @@
       /*#lang_jp {*/
       /*  width: 100%;*/
       /*}*/
+
+      .prologue {
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 20px;
+        letter-spacing: 0.05em;
+        line-height: 1.97;
+      }
       .force_text {
         color: #000;
         /*font-weight: bold;*/
@@ -418,9 +426,6 @@
         width: 200px;
         display: block;
         background-color: #0004;
-      }
-      .no_indent {
-        text-indent: 0;
       }
       footer {
         position: relative;
@@ -711,8 +716,9 @@
     <main>
       <div id="lang_jp">
         <h1 id="最後に">最後に</h1>
-        <!-- NoIndentは使いにくいので消します -->
-        <p class="no_indent">私たちの思いが届きますように…！</p>
+        <div class="prologue" style="text-align: center">
+          私たちの思いが届きますように…！
+        </div>
 
         <p>
           このサイト名である「右ポケットの中の資源を求めて」。
