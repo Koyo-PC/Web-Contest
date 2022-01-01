@@ -24,7 +24,6 @@
 
 <NoIndent>
 <a href="https://743c8380-22c6-4457-9895-11872f2a708a.filesusr.com/ugd/0af79c_8e5a3e6ece1d4b6a9db69465a1007eb0.pdf">bio by Deloitte「Increased EU Plastics Recycling Targets: Environmental, Economic and Social Impact Assessment Final Report」</a><br>
-<a href="http://susdi.org/wp/data/post-38/">susdi「携帯に含まれる成分％」</a><br>
 <a href="https://www.ciaj.or.jp/news/press_releases/pressreleases_past_issue/pressrelease2020/6058.html">一般社団法人 情報通信ネットワーク産業協会</a><br>
 <a href="https://www.env.go.jp/press/106879.html">環境省「平成30年度における家電リサイクル実績について」</a><br>
 <a href="https://panasonic.co.jp/eco/petec/">パナソニック エコテクノロジーセンターHP</a>

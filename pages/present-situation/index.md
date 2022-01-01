@@ -1,5 +1,4 @@
 [//SCML_TITLE]: # (資源の現状)
-[//SCML_LOG]: # (true)
 
 <div id="lang_jp">
 

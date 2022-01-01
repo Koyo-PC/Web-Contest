@@ -1,54 +1,63 @@
 <figure class="image_box" [[ style ]]>
   <img class="image" src="{{ src }}" alt="{{ alt }}"/>
   <div class="note">{{ note }}<a class="href" href="{{ href }}"></a></div>
-  <figcaption class="image_caption"> {{ caption }} </figcaption>
+  <figcaption class="image_caption"> {{ caption }}</figcaption>
 </figure>
 <style>
-    .image_box {
-        display: inline-block;
-        position: relative;
-        /*width: 100%;*/
-    }
+  .image_box {
+    display: inline-block;
+    position: relative;
+    /*width: 100%;*/
+  }
 
-    .image {
-        display: block;
-        max-width: 100%;
-        max-height: 100%;
-        margin: 0 auto;
-    }
+  .image {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+  }
 
-    .note {
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        text-align: right;
-        font-size: 14px;
-    }
-    .note:not(:blank):before {
-        content: "(";
-    }
-    .note:not(:blank):after {
-        content: ")";
-    }
+  .note {
+    --height: 30px;
+    position: absolute;
+    right: 0;
+    bottom: calc(-1 * var(--height));
+    text-align: right;
+    font-size: 14px;
+    line-height: var(--height);
+    height: var(--height);
+  }
 
-    .href:not([href=""]):before {
-        content: "出典";
-        margin-left: .5em;
-    }
+  .note a {
+    font-size: 14px;
+  }
 
-    .image_caption {
-        display: block;
-        width: 100%;
-        height: 3em;
-        text-align: center;
-        vertical-align: bottom;
-    }
+  .note:not(:blank):before {
+    content: "(";
+  }
+
+  .note:not(:blank):after {
+    content: ")";
+  }
+
+  .href:not([href=""]):before {
+    content: "出典";
+    margin-left: .5em;
+  }
+
+  .image_caption {
+    display: block;
+    width: 100%;
+    height: 3em;
+    text-align: center;
+    vertical-align: bottom;
+  }
 </style>
 <script scml>
     // noinspection BadExpressionStatementJS
     (buildInfo, options) => {
         return {
-            "style" : options["height"] === undefined ? "" : "style=\"height: " + options["height"] + "\"",
+            "style": options["height"] === undefined ? "" : "style=\"height: " + options["height"] + "\"",
         };
     }
 </script>

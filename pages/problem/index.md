@@ -172,7 +172,7 @@ https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d230387.94422895205!2d133.9
 - [三井住友フィナンシャルグループ「「都市鉱山」に眠るレアメタルの資源化に向けて」](https://www.smfg.co.jp/sustainability/report/topics/detail084.html)
 - [NIMS「都市鉱山関係データ」](https://www.nims.go.jp/genso/data/urban_mine.html)
 - [「都市鉱山の蓄積量推定」に関する Q&A](https://www.nims.go.jp/research/elements/rare-metal/urban-mine/0ej0070000002ym4-att/urban-mine_qa.pdf)
-- [petpedia「41 Eye-Opening Recycling Statistics for 2021」](https://petpedia.co/recycling-statistics/)
+- [petpedia「41 Eye-Opening Recycling Statistics」](https://petpedia.co/recycling-statistics/)
 - [イタリア・セベソの化学工場での爆発](http://www.shippai.org/fkd/hf/HC0300002.pdf)
 - [環境用語「セベソ事件」](https://www.eic.or.jp/ecoterm/index.php?act=view&serial=1543)
 - [The New York Times「Toxic Waste Boomerang: Ciao Italy!」](https://www.nytimes.com/1988/09/03/world/toxic-waste-boomerang-ciao-italy.html)

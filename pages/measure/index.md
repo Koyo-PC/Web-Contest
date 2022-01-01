@@ -45,7 +45,7 @@
 現在、認定事業者は、58社あり（2021年8/6時点）、<a href="https://www.env.go.jp/recycle/recycling/raremetals/trader.html">環境省</a>のページですべて公開されています。
 
 <div class="image_container">
-    <Image src="../img/measure/e-waste-mark.png" alt="パナソニック外から写真" height="100px"></Image>
+    <Image src="../img/measure/e-waste-mark.png" alt="パナソニック外から写真" height="200px" href="https://www.env.go.jp/press/16107.html"></Image>
 </div>
 
 ただ、毎年着実に回収量は増えていますが、いまだに目標量の14万トンは達成できていません。
@@ -234,10 +234,10 @@ Appleには、<ForceText>新しい端末を購入するときに使い終わっ�
 - [Five Thirty Eight「The Era Of Easy Recycling May Be Coming To An End」](https://fivethirtyeight.com/features/the-era-of-easy-recycling-may-be-coming-to-an-end/)
 - [経済産業省「海外展開戦略（リサイクル）」](https://www.meti.go.jp/press/2018/06/20180607003/20180607003-2.pdf)
 - [日高スズトクタイランドHP](https://www.re-ver.co.jp/hidakasuzutoku/)
-- [umicore「Full year results 2020」](https://www.umicore.com/en/investors/financial-results/full-year-results-2020/)
+- [umicore「Full Year Results 2020」](https://www.umicore.com/en/investors/financial-results/full-year-results-2020/)
 - [veoria「ANNUAL RESULTS 2020」](https://www.veolia.com/en/newsroom/press-releases/annual-results-2020)
 - [WM「Waste Management Announces Fourth Quarter and Full-Year 2020 Earnings」](https://investors.wm.com/news-releases/news-release-details/waste-management-announces-fourth-quarter-and-full-year-2020)
-- [SIMS LIMITED「Create a world without a waste to preserve our planet」](https://smm-corporate.s3.amazonaws.com/2021/Sims+Annual+Report+2020.pdf)
+- [SIMS LIMITED「Create a world without waste to preserve our planet」](https://smm-corporate.s3.amazonaws.com/2021/Sims+Annual+Report+2020.pdf)
 - [大栄環境グループ「小型家電リサイクル」](https://www.dinsgr.co.jp/businessfield/waste/appliances/)
 - [NEWS RELEASE「引越しやおかたづけなどのついでに、使用済み小型家電を回収できる「クロネコ小型家電リサイクルサービス」の提供を開始」](https://www.dinsgr.co.jp/businessfield/waste/appliances/)
 - [Ｎewsroom「Apple、リサイクルプログラムを全世界で拡大」](https://www.apple.com/jp/newsroom/2019/04/apple-expands-global-recycling-programs/)
