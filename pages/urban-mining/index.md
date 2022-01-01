@@ -138,7 +138,7 @@ note="書籍『資源論』をスキャン" height="40vw"></Image>
 さらに日本に関しては、<ForceText>輸入に頼らなくても大丈夫だということを海外にアピールできる</ForceText>保険のような役割も担うことができます。 これらの利点を考えると、<ForceText>日本はまさに都市鉱山を最も活用すべき国の1つ</ForceText>なのです。
 
 <div class="image_container">
-    <Image src="../assets/highschooltimes/201702_p0406_04.jpg" height="40vw"></Image>
+    <Image src="http://susdi.org/wp/data/wp-content/uploads/sites/8/2021/11/img_618f76e3bd42e.png" height="40vw"></Image>
 </div>
 
 <AtomCharacter atom="Y">
