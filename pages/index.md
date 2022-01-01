@@ -8,7 +8,7 @@
 <div class="main_image_spacer">
 </div>
 <div id="main">
-  <div class="title_text">
+  <div class="prologue">
 私たちが普段使っているスマートフォン。<br>
 それが2050年までに作れなくなっているかもしれません。<br>
 それには金属資源の問題が関係しています。<br>
@@ -145,14 +145,6 @@
   .main_image_spacer{
     height: 550px;
   }
-  .title_text {
-    width: 100%;
-    box-sizing: border-box;
-    font-size: 20px;
-    letter-spacing: 0.05em;
-    line-height: 1.97;
-    margin-bottom: 100px;
-  }
   .main_text {
     width: 100%;
     box-sizing: border-box;
@@ -181,5 +173,8 @@
     .site_map {
       font-size: 40px;
     }
+  }
+  .prologue {
+    margin-bottom: 100px;
   }
 </style>

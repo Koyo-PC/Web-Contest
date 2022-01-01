@@ -1,4 +1,4 @@
-<span class="word"><span class="word_text">{{ content }}</span>
+<span class="word"><span class="word_text" style="white-space: [[text_ws_style]];">{{ content }}</span>
   <span class="word_description_container">
     <span class="word_description">
       <span class="word_description_title">{{ content }}</span>
@@ -163,6 +163,7 @@
         }
         return {
             "description": wordDictionary[options.content],
+            "text_ws_style" : options["break"] === undefined ? "" : options["break"] // ???
         };
     }
 </script>

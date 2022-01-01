@@ -4,9 +4,9 @@
 
 # 最後に
 
-<NoIndent>
+<div class="prologue" style="text-align: center">
 私たちの思いが届きますように…！
-</NoIndent>
+</div>
 
 このサイト名である「右ポケットの中の資源を求めて」。
 へんな名前ですよね。

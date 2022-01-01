@@ -59,7 +59,7 @@
 実に2018年時点で<ForceText>電子廃棄物のリサイクル率は95%</ForceText>に達しています。
 どのようにしてこれほどまでに大きな成功をおさめることができているのでしょうか。
 <SummaryLink>1</SummaryLink>
-まず、スイスでは1998年初頭に「<Word>電気・電子機器の返却・引き取り・処分に関する政令</Word>（legislation on the Return, Take-Back and Disposal of Electrical and Electronic Equipment, ORDEE）」が制定されました。
+まず、スイスでは1998年初頭に「<Word break="normal" >電気・電子機器の返却・引き取り・処分に関する政令</Word>（legislation on the Return, Take-Back and Disposal of Electrical and Electronic Equipment, ORDEE）」が制定されました。
 これにより、スイス国内の小売業者、メーカー、輸入業者は、通常、取り扱っている電化製品を無料で引き取ることが義務付けられています。
 一方、<ForceText>消費者にも使用済みの家電製品を返却する義務</ForceText>があり、他のゴミと一緒に出すことはできません。
 <SummaryLink>0</SummaryLink>
