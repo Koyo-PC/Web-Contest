@@ -152,9 +152,8 @@
 スマートフォン解体の動画です。
 文章読むのがめんどくさい！という方におススメです。
 
-<div class="image_container">
-    <Video>../video/activity/disassembly/WebCom21_1_product_21.11.19.15.45.mp4</Video>
-</div>
+<Video>../video/activity/disassembly/WebCom21_1_product_22.01.01.23.53.mp4</Video>
+<Video>../video/activity/disassembly/WebCom21_2_product_22.01.01.23.53.mp4</Video>
 
 ## 解体を通して感じたこと
 
