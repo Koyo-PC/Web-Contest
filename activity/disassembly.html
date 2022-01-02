@@ -325,6 +325,48 @@
         margin: 0 auto;
         box-shadow: black 0 0 5px;
       }
+      .video_popup {
+        background-color: whitesmoke;
+        border: none;
+        cursor: pointer;
+        /*width: 100%;*/
+        text-align: center;
+        text-decoration: underline;
+        display: inline;
+        font-size: 16px;
+      }
+      [id^="video_fullscreen_"] {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: #ffffff88;
+        z-index: 99999;
+        display: none;
+      }
+      [id^="video_fullscreen_"] > video {
+        margin-top: 25vh;
+      }
+      .video_fullscreen_close {
+        position: absolute;
+        bottom: 10px;
+        left: 0;
+        right: 0;
+
+        color: white;
+        background-color: black;
+        width: 100px;
+        height: 50px;
+        border: none;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        font-size: 16px;
+        margin: 0 auto;
+        padding: 0;
+      }
       #next_link {
         color: black;
         text-decoration: none;
@@ -774,6 +816,47 @@
         </ol>
 
         <h2 id="スマートフォン">スマートフォン</h2>
+        <div class="prologue" style="text-align: center">
+          動画での解説もあります。動画は<button
+            class="video_popup"
+            onclick="openVideoPopup('1p2201012353')"
+          >
+            こちら
+          </button>
+          <div id="video_fullscreen_1p2201012353">
+            <video
+              class="video"
+              src="../video/activity/disassembly/WebCom21_1_product_22.01.01.23.53.mp4"
+              poster="../video/activity/disassembly/WebCom21_1_product_22.01.01.23.53.png"
+              controls
+              preload="none"
+              style="height: 50vh"
+            ></video>
+
+            <button
+              class="video_fullscreen_close"
+              onclick="closeVideoPopup('1p2201012353')"
+            >
+              閉じる
+            </button>
+          </div>
+          <script>
+            function openVideoPopup(v_id) {
+              let fullscreen = document.getElementById(
+                "video_fullscreen_" + v_id
+              )
+              fullscreen.style.display = "block"
+            }
+            function closeVideoPopup(v_id) {
+              let fullscreen = document.getElementById(
+                "video_fullscreen_" + v_id
+              )
+              fullscreen.style.display = "none"
+            }
+          </script>
+          から。
+        </div>
+
         <p>
           今回分解するスマホは003SHといって、株式会社SHARPが2010年に製造したものです。
         </p>
@@ -911,6 +994,47 @@
         </div>
 
         <h2 id="ガラケー">ガラケー</h2>
+        <div class="prologue" style="text-align: center">
+          動画での解説もあります。動画は<button
+            class="video_popup"
+            onclick="openVideoPopup('2p2201012353')"
+          >
+            こちら
+          </button>
+          <div id="video_fullscreen_2p2201012353">
+            <video
+              class="video"
+              src="../video/activity/disassembly/WebCom21_2_product_22.01.01.23.53.mp4"
+              poster="../video/activity/disassembly/WebCom21_2_product_22.01.01.23.53.png"
+              controls
+              preload="none"
+              style="height: 50vh"
+            ></video>
+
+            <button
+              class="video_fullscreen_close"
+              onclick="closeVideoPopup('2p2201012353')"
+            >
+              閉じる
+            </button>
+          </div>
+          <script>
+            function openVideoPopup(v_id) {
+              let fullscreen = document.getElementById(
+                "video_fullscreen_" + v_id
+              )
+              fullscreen.style.display = "block"
+            }
+            function closeVideoPopup(v_id) {
+              let fullscreen = document.getElementById(
+                "video_fullscreen_" + v_id
+              )
+              fullscreen.style.display = "none"
+            }
+          </script>
+          から。
+        </div>
+
         <p>
           ガラケーの分解もスマホの分解と似ています（どちらも作られた年代が随分昔であるというのもありますが）。
           今回分解するガラケーはV603SHといって、株式会社SHARPが2005年に作ったガラケーです。
@@ -1077,15 +1201,17 @@
         <video
           class="video"
           src="../video/activity/disassembly/WebCom21_1_product_22.01.01.23.53.mp4"
+          poster=""
           controls
-          preload="metadata"
+          preload="none"
         ></video>
 
         <video
           class="video"
           src="../video/activity/disassembly/WebCom21_2_product_22.01.01.23.53.mp4"
+          poster=""
           controls
-          preload="metadata"
+          preload="none"
         ></video>
         <h2 id="解体を通して感じたこと">解体を通して感じたこと</h2>
         <p>
