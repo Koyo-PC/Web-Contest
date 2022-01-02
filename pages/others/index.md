@@ -85,7 +85,7 @@ Web系の資格を持っているのに得意な言語はJavaらしい。<br>
 - [ELEMINIST「2021年注目のバーゼル条約　脱プラスチックへ向けた改正内容を解説」](https://eleminist.com/article/688)
 - [Wikisource](https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_3/Chapter_2)
 - [小型家電リサイクル制度の施行状況の評価・検討に関する報告書](https://www.meti.go.jp/shingikai/sankoshin/sangyo_gijutsu/haikibutsu_recycle/kogata_wg/pdf/20200807_01.pdf)
-- [SusDI「金属に含まれる成分％」](http://susdi.org/wp/data/post-38/)
+- [SusDI「携帯に含まれる成分％」](http://susdi.org/wp/data/post-38/)
 - [PRTIMES「スマホのリサイクル回収率は17％。都市鉱山スマホを再資源化へ」](https://prtimes.jp/main/html/rd/p/000000006.000070388.html)
 - [三井住友フィナンシャルグループ「「都市鉱山」に眠るレアメタルの資源化に向けて」](https://www.smfg.co.jp/sustainability/report/topics/detail084.html)
 - [NIMS「都市鉱山関係データ」](https://www.nims.go.jp/genso/data/urban_mine.html)
