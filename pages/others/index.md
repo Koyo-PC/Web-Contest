@@ -137,8 +137,12 @@ Web系の資格を持っているのに得意な言語はJavaらしい。<br>
 
 - Adobe Illustrator
 - Adobe Photoshop
+- DaVinci Resolve
+- WebStorm
+- Visual Studio Code
+- ffmpeg
 - ibisPaint
-- Mediapaint
+- Medibang Paint
 - Vectr
 
 ## 引用利用情報
