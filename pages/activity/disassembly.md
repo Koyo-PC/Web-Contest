@@ -16,6 +16,10 @@
 
 ## スマートフォン
 
+<div class="prologue" style="text-align: center">
+動画での解説もあります。動画は<PopupVideo v_id="1p2201012353" src="../video/activity/disassembly/WebCom21_1_product_22.01.01.23.53.mp4" poster="../video/activity/disassembly/WebCom21_1_product_22.01.01.23.53.png">こちら</PopupVideo>から。
+</div>
+
 今回分解するスマホは003SHといって、株式会社SHARPが2010年に製造したものです。
 
 <div class="image_container">
@@ -76,6 +80,10 @@
 </div>
 
 ## ガラケー
+
+<div class="prologue" style="text-align: center">
+動画での解説もあります。動画は<PopupVideo v_id="2p2201012353" src="../video/activity/disassembly/WebCom21_2_product_22.01.01.23.53.mp4" poster="../video/activity/disassembly/WebCom21_2_product_22.01.01.23.53.png">こちら</PopupVideo>から。
+</div>
 
 ガラケーの分解もスマホの分解と似ています（どちらも作られた年代が随分昔であるというのもありますが）。
 今回分解するガラケーはV603SHといって、株式会社SHARPが2005年に作ったガラケーです。
