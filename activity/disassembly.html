@@ -636,10 +636,11 @@
         /*z-index: 1000;*/
         width: 100%;
         z-index: 10000;
+        --count: 9;
+        --activity_count: 5;
       }
 
       .nav_link > a {
-        --count: 9;
         color: #fbf8f8;
         flex: none;
         font-family: Lato, sans-serif;
@@ -648,12 +649,55 @@
         justify-content: center;
         box-sizing: border-box;
       }
+
       .nav_link > a:not(:last-child) {
         border-right: 1px solid #001b26;
       }
 
       .nav_link :nth-child(0) {
         border-bottom: 5px solid white;
+      }
+
+      #nav_activity {
+        position: relative;
+      }
+
+      #nav_activity:after {
+        content: "";
+        position: absolute;
+        right: 10px;
+        top: calc(50% - 8px);
+        width: 7px;
+        height: 7px;
+        border: 1px solid;
+        border-color: transparent white white transparent;
+        transform: rotate(45deg);
+      }
+
+      #nav_activity_content {
+        position: absolute;
+        top: 100%;
+        left: calc(100% / var(--count) * 5);
+        right: calc(100% / var(--count) * 3);
+        background-color: red;
+        height: calc(40px * var(--activity_count) + 40px);
+        margin: 0;
+        list-style-type: none;
+        padding: 20px;
+      }
+
+      #nav_activity_content a {
+        display: block;
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+        text-decoration: none;
+        color: white;
+        border-top: 1px solid #edc2b7;
+      }
+      #nav_activity_content a:last-child {
+        border-bottom: 1px solid #edc2b7;
       }
 
       @media (orientation: landscape) {
@@ -768,7 +812,7 @@
   </head>
   <body>
     <!--suppress BadExpressionStatementJS -->
-    <nav>
+    <nav id="nav">
       <div class="button">
         <img src="../svg/ham.svg" alt="" id="ham" />
       </div>
@@ -778,19 +822,45 @@
         <a href="../urban-mining/">都市鉱山の意義</a>
         <a href="../problem/">課題</a>
         <a href="../measure/">現在の取り組み</a>
-        <a href="../activity/">アクティビティ</a>
+        <a
+          href="../activity/"
+          id="nav_activity"
+          onmouseover="setActivityOpening(true)"
+          onmouseout="setActivityOpening(false)"
+          >アクティビティ</a
+        >
         <a href="../solution/">解決策</a>
         <a href="../finally/">最後に</a>
         <a href="../others/">その他</a>
       </div>
+      <div
+        id="nav_activity_content"
+        style="display: none"
+        onmouseover="setActivityOpening(true)"
+        onmouseout="setActivityOpening(false)"
+      >
+        <a href="../activity/questionnaire.html">アンケート</a>
+        <a href="../activity/recycle-box.html">回収ボックス</a>
+        <a href="../activity/interview.html">インタビュー</a>
+        <a href="../activity/petec.html">工場見学</a>
+        <a href="../activity/disassembly.html">携帯解体</a>
+      </div>
     </nav>
 
     <script>
+      function setActivityOpening(activityOpening) {
+        if (activityOpening) {
+          document.getElementById("nav_activity_content").style.display =
+            "block"
+        } else {
+          document.getElementById("nav_activity_content").style.display = "none"
+        }
+      }
+
       let open_judge = -1
 
       window.onload = () => {
         document.getElementById("ham").onclick = () => {
-          console.log("A")
           if (open_judge === -1) {
             document.getElementById("navLink").classList.add("open")
           } else {
