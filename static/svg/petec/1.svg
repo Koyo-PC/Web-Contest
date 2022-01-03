@@ -4,6 +4,7 @@
 <desc>Created with Fabric.js 4.6.0</desc>
 <defs>
 </defs>
+<g id="main">
 <g transform="matrix(0.77 0 0 0.42 60.67 182.31)" id="xrwGJ3Pb2J4X5HeOWj2Qn"  >
 <path style="stroke: rgb(0,0,0); stroke-opacity: 0.45; stroke-width: 3; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(0, 0)" d="M -59.69388 0.3838 C -59.69388 -32.796189999999996 -44.97246 -59.693889999999996 -26.81268 -59.693889999999996 L 26.81268 -59.693889999999996 L 26.81268 -59.693889999999996 C 44.97247 -59.693889999999996 59.69388 -32.796189999999996 59.69388 0.3838000000000008 L 59.69388 0.3838000000000008 L 59.69388 0.3838000000000008 C 59.69388 33.13985 45.160560000000004 59.69388 27.232799999999997 59.69388 L -27.232800000000005 59.69388 L -27.232800000000005 59.69388 C -45.160560000000004 59.69388 -59.69388000000001 33.139849999999996 -59.69388000000001 0.3838000000000008 z" stroke-linecap="round" />
 </g>
@@ -84,7 +85,7 @@
 		<text xml:space="preserve" font-family="Open Sans" font-size="33" font-style="normal" font-weight="normal" line-height="1.16" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-75" y="10.37" >銅</tspan></text>
 </g>
 <g transform="matrix(1 0 0 1 201.84 455.96)" style="" id="NU1LkDMzpM2fKRKdrjiFx"  >
-		<text xml:space="preserve" font-family="Open Sans" font-size="20" font-style="normal" font-weight="normal" line-height="1.16" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-100" y="6.28" >磁力選別機</tspan></text>
+	<text xml:space="preserve" font-family="Open Sans" font-size="20" font-style="normal" font-weight="normal" line-height="1.16" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-100" y="6.28" ><a href="#petec_img_2">磁力選別機</a></tspan></text>
 </g>
 <g transform="matrix(1.22 0 0 0.41 417.47 191.46)" id="z-AhTVJSPctUl-n0-vveO"  >
 <path style="stroke: rgb(0,0,0); stroke-opacity: 0.45; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(0, 0)" d="M -59.69388 2.5206 C -59.69388 -31.839509999999997 -50.42286 -59.69388 -38.98647 -59.69388 L 38.98648 -59.69388 L 38.98648 -59.69388 C 50.42287 -59.69388 59.693889999999996 -31.83951 59.693889999999996 2.5206000000000017 L 59.693889999999996 2.5206000000000017 L 59.693889999999996 2.5206000000000017 C 59.693889999999996 34.09653 51.17408999999999 59.69388 40.66439 59.69388 L -40.66438000000001 59.69388 L -40.66438000000001 59.69388 C -51.17408000000001 59.69388 -59.69388000000001 34.09653 -59.69388000000001 2.5206000000000017 z" stroke-linecap="round" />
@@ -144,7 +145,7 @@
 <path style="stroke: rgb(0,0,0); stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(49,168,247); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(0, 0)" d="M -23.26531 -36.73469 L -23.26531 18.367350000000002 L -18.36735 25.102040000000002 L 11.020410000000002 25.714280000000002 L 11.632650000000002 36.73469 L 23.265300000000003 19.59183 L 11.632650000000003 7.346930000000002 L 11.020410000000004 14.693870000000002 L -9.183669999999998 14.693870000000002 L -14.081629999999997 9.795910000000003 L -14.081629999999997 -36.734700000000004 z" stroke-linecap="round" />
 </g>
 <g transform="matrix(1 0 0 1 380.61 455.76)" style="" id="cK-NNmtKjMpboUnEVRwCt"  >
-		<text xml:space="preserve" font-family="Open Sans" font-size="20" font-style="normal" font-weight="normal" line-height="1.16" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-100" y="6.28" >非鉄金属選別機</tspan></text>
+	<text xml:space="preserve" font-family="Open Sans" font-size="20" font-style="normal" font-weight="normal" line-height="1.16" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-100" y="6.28" ><a href="#petec_img_3">非鉄金属選別機</a></tspan></text>
 </g>
 <g transform="matrix(1 0 0 1 506.44 287.15)" id="3dNyd84ooNMs5qwN6yEg-"  >
 <path style="stroke: rgb(0,0,0); stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(49,168,247); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(0, 0)" d="M -20.5102 26.32653 L -20.5102 -10.408159999999999 L -15.61224 -17.14285 L 7.65307 -17.14285 L 8.26531 -26.938769999999998 L 20.51021 -12.857139999999998 L 8.87756 -1.2244899999999976 L 7.6530700000000005 -7.959179999999997 L -7.6530499999999995 -7.959179999999997 L -11.938759999999998 -4.897959999999998 L -11.938759999999998 26.93877 z" stroke-linecap="round" />
@@ -185,7 +186,7 @@
 		<text xml:space="preserve" font-family="Open Sans" font-size="33" font-style="normal" font-weight="normal" line-height="1.16" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-75" y="10.37" >銅</tspan></text>
 </g>
 <g transform="matrix(1 0 0 1 585.93 456.98)" style="" id="q58jGEUbziC6hsSeLSJ_U"  >
-		<text xml:space="preserve" font-family="Open Sans" font-size="20" font-style="normal" font-weight="normal" line-height="1.16" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-100" y="6.28" >振動比重選別機</tspan></text>
+	<text xml:space="preserve" font-family="Open Sans" font-size="20" font-style="normal" font-weight="normal" line-height="1.16" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-100" y="6.28" ><a href="#petec_img_4">振動比重選別機</a></tspan></text>
 </g>
 <g transform="matrix(1 0 0 1 555.58 466.63)" id="Z7moMQEx6cnIbkRa6ApcQ"  >
 <path style="stroke: rgb(0,0,0); stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(0, 0)" d="M -70.79288 0.28317 L 70.79288 -0.28317" stroke-linecap="round" />
@@ -195,5 +196,6 @@
 </g>
 <g transform="matrix(1 0 0 1 152.06 465.78)" id="gGjeu5jcQwx8NFTCzYed6"  >
 <path style="stroke: rgb(0,0,0); stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(0, 0)" d="M -49.55502 0.56634 L 49.555009999999996 -0.56635" stroke-linecap="round" />
+</g>
 </g>
 </svg>
