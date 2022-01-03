@@ -326,14 +326,15 @@
         box-shadow: black 0 0 5px;
       }
       .video_popup {
-        background-color: whitesmoke;
+        /*background-color: whitesmoke;*/
+        background-color: transparent;
         border: none;
         cursor: pointer;
         /*width: 100%;*/
         text-align: center;
         text-decoration: underline;
         display: inline;
-        font-size: 16px;
+        /*font-size: 16px;*/
       }
       [id^="video_fullscreen_"] {
         position: fixed;
@@ -886,7 +887,10 @@
         </ol>
 
         <h2 id="スマートフォン">スマートフォン</h2>
-        <div class="prologue" style="text-align: center">
+        <div
+          class="prologue"
+          style="text-align: center; background-color: #5bde6088"
+        >
           動画での解説もあります。動画は<button
             class="video_popup"
             onclick="openVideoPopup('1p2201012353')"
@@ -898,6 +902,7 @@
               class="video"
               src="../video/activity/disassembly/WebCom21_1_product_22.01.01.23.53.mp4"
               poster="../video/activity/disassembly/WebCom21_1_product_22.01.01.23.53.png"
+              muted
               controls
               preload="none"
               style="height: 50vh"
@@ -931,21 +936,23 @@
           今回分解するスマホは003SHといって、株式会社SHARPが2010年に製造したものです。
         </p>
         <div class="image_container">
-          <figure class="image_box" style="height: 20vw">
+          <figure class="image_box" style="height: '20vw'" transform>
             <img
               class="image"
               src="../img/activity/disassembly/S_1.jpg"
               alt=""
+              style="transform: scale()"
             />
             <div class="note"><a class="href" href=""></a></div>
             <figcaption class="image_caption"></figcaption>
           </figure>
 
-          <figure class="image_box" style="height: 20vw">
+          <figure class="image_box" style="height: '20vw'" transform>
             <img
               class="image"
               src="../img/activity/disassembly/S_2.jpg"
               alt=""
+              style="transform: scale()"
             />
             <div class="note"><a class="href" href=""></a></div>
             <figcaption class="image_caption"></figcaption>
@@ -958,11 +965,12 @@
           まず電源端子のあたりから爪を入れ、裏の板を外します。
         </p>
         <div class="image_container">
-          <figure class="image_box" style="height: 40vw">
+          <figure class="image_box" style="height: '40vw'" transform>
             <img
               class="image"
               src="../img/activity/disassembly/1.00.23.jpg"
               alt=""
+              style="transform: scale()"
             />
             <div class="note"><a class="href" href=""></a></div>
             <figcaption class="image_caption"></figcaption>
@@ -976,11 +984,12 @@
           すると基板が見えます。
         </p>
         <div class="image_container">
-          <figure class="image_box" style="height: 40vw">
+          <figure class="image_box" style="height: '40vw'" transform>
             <img
               class="image"
               src="../img/activity/disassembly/1.05.56.jpg"
               alt=""
+              style="transform: scale()"
             />
             <div class="note"><a class="href" href=""></a></div>
             <figcaption class="image_caption"></figcaption>
@@ -992,11 +1001,12 @@
           基板の縁を止めているプラスチックの小さな爪を潰して外せば、基板を外すことができます。
         </p>
         <div class="image_container">
-          <figure class="image_box" style="height: 40vw">
+          <figure class="image_box" style="height: '40vw'" transform>
             <img
               class="image"
               src="../img/activity/disassembly/1.12.48.jpg"
               alt=""
+              style="transform: scale()"
             />
             <div class="note"><a class="href" href=""></a></div>
             <figcaption class="image_caption"></figcaption>
@@ -1009,21 +1019,23 @@
           基板についている銀色の部品は放熱板なので、下に爪を入れて剥がすことができます。
         </p>
         <div class="image_container">
-          <figure class="image_box" style="height: 20vw">
+          <figure class="image_box" style="height: '20vw'" transform>
             <img
               class="image"
               src="../img/activity/disassembly/1.14.32.jpg"
               alt=""
+              style="transform: scale()"
             />
             <div class="note"><a class="href" href=""></a></div>
             <figcaption class="image_caption"></figcaption>
           </figure>
 
-          <figure class="image_box" style="height: 20vw">
+          <figure class="image_box" style="height: '20vw'" transform>
             <img
               class="image"
               src="../img/activity/disassembly/1.17.06.jpg"
               alt=""
+              style="transform: scale()"
             />
             <div class="note"><a class="href" href=""></a></div>
             <figcaption class="image_caption"></figcaption>
@@ -1040,11 +1052,12 @@
           結果、光を複雑に反射させるようなフィルムを数枚と、液晶の本体が取り出せました。
         </p>
         <div class="image_container">
-          <figure class="image_box" style="height: 40vw">
+          <figure class="image_box" style="height: '40vw'" transform>
             <img
               class="image"
               src="../img/activity/disassembly/2.09.46.jpg"
               alt=""
+              style="transform: scale()"
             />
             <div class="note"><a class="href" href=""></a></div>
             <figcaption class="image_caption"></figcaption>
@@ -1056,15 +1069,23 @@
           最終的に下の写真のような部品に分解することができました。
         </p>
         <div class="image_container">
-          <figure class="image_box" style="height: 40vw">
-            <img class="image" src="../img/activity/disassembly/S.jpg" alt="" />
+          <figure class="image_box" style="height: '40vw'" transform>
+            <img
+              class="image"
+              src="../img/activity/disassembly/S.jpg"
+              alt=""
+              style="transform: scale()"
+            />
             <div class="note"><a class="href" href=""></a></div>
             <figcaption class="image_caption"></figcaption>
           </figure>
         </div>
 
         <h2 id="ガラケー">ガラケー</h2>
-        <div class="prologue" style="text-align: center">
+        <div
+          class="prologue"
+          style="text-align: center; background-color: #5bde6088"
+        >
           動画での解説もあります。動画は<button
             class="video_popup"
             onclick="openVideoPopup('2p2201012353')"
@@ -1076,6 +1097,7 @@
               class="video"
               src="../video/activity/disassembly/WebCom21_2_product_22.01.01.23.53.mp4"
               poster="../video/activity/disassembly/WebCom21_2_product_22.01.01.23.53.png"
+              muted
               controls
               preload="none"
               style="height: 50vh"
@@ -1110,21 +1132,23 @@
           今回分解するガラケーはV603SHといって、株式会社SHARPが2005年に作ったガラケーです。
         </p>
         <div class="image_container">
-          <figure class="image_box" style="height: 30vw">
+          <figure class="image_box" style="height: '30vw'" transform>
             <img
               class="image"
               src="../img/activity/disassembly/G_1.jpg"
               alt=""
+              style="transform: scale()"
             />
             <div class="note"><a class="href" href=""></a></div>
             <figcaption class="image_caption"></figcaption>
           </figure>
 
-          <figure class="image_box" style="height: 30vw">
+          <figure class="image_box" style="height: '30vw'" transform>
             <img
               class="image"
               src="../img/activity/disassembly/G_2.jpg"
               alt=""
+              style="transform: scale()"
             />
             <div class="note"><a class="href" href=""></a></div>
             <figcaption class="image_caption"></figcaption>
@@ -1139,11 +1163,12 @@
           まず電池やSIMカードを外しておきます。
         </p>
         <div class="image_container">
-          <figure class="image_box" style="height: 40vw">
+          <figure class="image_box" style="height: '40vw'" transform>
             <img
               class="image"
               src="../img/activity/disassembly/5.00.08.jpg"
               alt=""
+              style="transform: scale()"
             />
             <div class="note"><a class="href" href=""></a></div>
             <figcaption class="image_caption"></figcaption>
@@ -1157,11 +1182,12 @@
           画面の横にある銀色の部品も外れました。
         </p>
         <div class="image_container">
-          <figure class="image_box" style="height: 40vw">
+          <figure class="image_box" style="height: '40vw'" transform>
             <img
               class="image"
               src="../img/activity/disassembly/5.04.32.jpg"
               alt=""
+              style="transform: scale()"
             />
             <div class="note"><a class="href" href=""></a></div>
             <figcaption class="image_caption"></figcaption>
@@ -1174,11 +1200,12 @@
           ※この時点で上半分は画面が外されているのでただの基板に見えます。
         </p>
         <div class="image_container">
-          <figure class="image_box" style="height: 40vw">
+          <figure class="image_box" style="height: '40vw'" transform>
             <img
               class="image"
               src="../img/activity/disassembly/5.09.04_L.jpg"
               alt=""
+              style="transform: scale()"
             />
             <div class="note"><a class="href" href=""></a></div>
             <figcaption class="image_caption"></figcaption>
@@ -1190,11 +1217,12 @@
           基板の裏には、スマホの時と同じような液晶ユニットがあり、同じようにフィルムや液晶に分解できました。
         </p>
         <div class="image_container">
-          <figure class="image_box" style="height: 40vw">
+          <figure class="image_box" style="height: '40vw'" transform>
             <img
               class="image"
               src="../img/activity/disassembly/5.12.18_L.jpg"
               alt=""
+              style="transform: scale()"
             />
             <div class="note"><a class="href" href=""></a></div>
             <figcaption class="image_caption"></figcaption>
@@ -1206,11 +1234,12 @@
           ネジを外すことで、キーボードの部分が半分に割れます。
         </p>
         <div class="image_container">
-          <figure class="image_box" style="height: 40vw">
+          <figure class="image_box" style="height: '40vw'" transform>
             <img
               class="image"
               src="../img/activity/disassembly/5.09.04_R.jpg"
               alt=""
+              style="transform: scale()"
             />
             <div class="note"><a class="href" href=""></a></div>
             <figcaption class="image_caption"></figcaption>
@@ -1224,11 +1253,12 @@
           これもフレキシブルケーブルを外していくことで、基盤とヒンジを分離できます。
         </p>
         <div class="image_container">
-          <figure class="image_box" style="height: 40vw">
+          <figure class="image_box" style="height: '40vw'" transform>
             <img
               class="image"
               src="../img/activity/disassembly/5.19.23_R.jpg"
               alt=""
+              style="transform: scale()"
             />
             <div class="note"><a class="href" href=""></a></div>
             <figcaption class="image_caption"></figcaption>
@@ -1240,11 +1270,12 @@
           これで金属の塊のようなヒンジを取り外すことができます。
         </p>
         <div class="image_container">
-          <figure class="image_box" style="height: 40vw">
+          <figure class="image_box" style="height: '40vw'" transform>
             <img
               class="image"
               src="../img/activity/disassembly/5.26.13_R.jpg"
               alt=""
+              style="transform: scale()"
             />
             <div class="note"><a class="href" href=""></a></div>
             <figcaption class="image_caption"></figcaption>
@@ -1256,33 +1287,18 @@
           最終的に下の写真のような部品が取り出せました。
         </p>
         <div class="image_container">
-          <figure class="image_box" style="height: 40vw">
-            <img class="image" src="../img/activity/disassembly/G.jpg" alt="" />
+          <figure class="image_box" style="height: '40vw'" transform>
+            <img
+              class="image"
+              src="../img/activity/disassembly/G.jpg"
+              alt=""
+              style="transform: scale()"
+            />
             <div class="note"><a class="href" href=""></a></div>
             <figcaption class="image_caption"></figcaption>
           </figure>
         </div>
 
-        <h2 id="動画">動画</h2>
-        <p>
-          スマートフォン解体の動画です。
-          文章読むのがめんどくさい！という方におススメです。
-        </p>
-        <video
-          class="video"
-          src="../video/activity/disassembly/WebCom21_1_product_22.01.01.23.53.mp4"
-          poster=""
-          controls
-          preload="none"
-        ></video>
-
-        <video
-          class="video"
-          src="../video/activity/disassembly/WebCom21_2_product_22.01.01.23.53.mp4"
-          poster=""
-          controls
-          preload="none"
-        ></video>
         <h2 id="解体を通して感じたこと">解体を通して感じたこと</h2>
         <p>
           普段はガラケーやスマホの解体などまずしないので、それ自体が楽しかったのですが、もちろんいろいろ学ぶことがありました。<br />
@@ -1312,7 +1328,6 @@
             <a class="toc_link_h2" href="#解体の目的"> 解体の目的 </a>
             <a class="toc_link_h2" href="#スマートフォン"> スマートフォン </a>
             <a class="toc_link_h2" href="#ガラケー"> ガラケー </a>
-            <a class="toc_link_h2" href="#動画"> 動画 </a>
             <a class="toc_link_h2" href="#解体を通して感じたこと">
               解体を通して感じたこと
             </a>
