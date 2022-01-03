@@ -156,7 +156,7 @@ Web系の資格を持っているのに得意な言語はJavaらしい。<br>
     [工場見学](../activity/petec.html)
 - [BOOTH](https://booth.pm/ja/items/2548309)
   - 承諾方法<br>
-    概要欄の利用規約
+    [配布ページ](https://booth.pm/ja/items/2548309) 概要欄の利用規約
   - 利用しているページ<br>
     [都市鉱山の意義](../urban-mining/)
 
