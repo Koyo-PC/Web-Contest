@@ -1,5 +1,5 @@
-<figure class="image_box" [[ style ]]>
-  <img class="image" src="{{ src }}" alt="{{ alt }}"/>
+<figure class="image_box" style="height: '{{height}}';" transform>
+  <img class="image" src="{{ src }}" alt="{{ alt }}" style="transform: scale({{scale}})"/>
   <div class="note">{{ note }}<a class="href" href="{{ href }}"></a></div>
   <figcaption class="image_caption"> {{ caption }}</figcaption>
 </figure>
@@ -57,7 +57,7 @@
     // noinspection BadExpressionStatementJS
     (buildInfo, options) => {
         return {
-            "style": options["height"] === undefined ? "" : "style=\"height: " + options["height"] + "\"",
+            "style": "style=\"height: " + options["height"] + "\"; transform",
         };
     }
 </script>

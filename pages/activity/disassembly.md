@@ -16,7 +16,7 @@
 
 ## スマートフォン
 
-<div class="prologue" style="text-align: center">
+<div class="prologue" style="text-align: center; background-color: #5bde6088">
 動画での解説もあります。動画は<PopupVideo v_id="1p2201012353" src="../video/activity/disassembly/WebCom21_1_product_22.01.01.23.53.mp4" poster="../video/activity/disassembly/WebCom21_1_product_22.01.01.23.53.png">こちら</PopupVideo>から。
 </div>
 
@@ -81,7 +81,7 @@
 
 ## ガラケー
 
-<div class="prologue" style="text-align: center">
+<div class="prologue" style="text-align: center; background-color: #5bde6088">
 動画での解説もあります。動画は<PopupVideo v_id="2p2201012353" src="../video/activity/disassembly/WebCom21_2_product_22.01.01.23.53.mp4" poster="../video/activity/disassembly/WebCom21_2_product_22.01.01.23.53.png">こちら</PopupVideo>から。
 </div>
 
@@ -157,14 +157,6 @@
     <Image src="../img/activity/disassembly/G.jpg" height="40vw"></Image>
 </div>
 
-## 動画
-
-スマートフォン解体の動画です。
-文章読むのがめんどくさい！という方におススメです。
-
-<Video>../video/activity/disassembly/WebCom21_1_product_22.01.01.23.53.mp4</Video>
-<Video>../video/activity/disassembly/WebCom21_2_product_22.01.01.23.53.mp4</Video>
-
 ## 解体を通して感じたこと
 
 普段はガラケーやスマホの解体などまずしないので、それ自体が楽しかったのですが、もちろんいろいろ学ぶことがありました。<br>
@@ -178,7 +170,6 @@ h1 携帯解体
 h2 解体の目的
 h2 スマートフォン
 h2 ガラケー
-h2 動画
 h2 解体を通して感じたこと
 </FloatingMenu>
 </div>

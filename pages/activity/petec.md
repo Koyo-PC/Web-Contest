@@ -18,7 +18,7 @@
 PETECは、「トレジャーハンティング（宝探し）」を合言葉にリサイクルを行い、周囲の環境にも配慮して循環型社会の実現を目指しています。
 
 <div class="image_container">
-    <Image src="../svg/petec/top.svg" height="500px"></Image>
+    <Image src="../svg/petec/top.svg" scale="150%"></Image>
 </div>
 
 PETECは、<Word>家電リサイクル法</Word>で指定されている4品目（テレビ、エアコン、冷蔵庫・冷凍庫、洗濯機・衣類乾燥機）を扱っています。

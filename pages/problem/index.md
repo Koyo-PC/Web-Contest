@@ -13,7 +13,7 @@
 実際日本は「2018年までに小型家電回収量を14万トンにする」という目標を掲げましたが、達成できませんでした。
 
 <div class="image_container">
-    <Image src="../assets/meti/20200807_01.png" height="40vw" href="https://www.meti.go.jp/shingikai/sankoshin/sangyo_gijutsu/haikibutsu_recycle/kogata_wg/pdf/20200807_01.pdf"></Image>
+    <Image src="../assets/meti/20200807_01.png" height="40vw" href="https://www.env.go.jp/press/files/jp/114485.pdf" note="環境省より引用"></Image>
 </div>
 
 その理由の一つに<ForceText>知名度の低さ</ForceText>が挙げられます。
