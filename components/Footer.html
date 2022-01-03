@@ -45,115 +45,137 @@
 </script>
 
 <style>
-    footer {
-        position: relative;
-        width: 100%;
-        height: 300px;
-        background-color: #003b54;
-        display: flex;
-        color: #fbf8f8;
-    }
+  footer {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: #003b54;
+    display: flex;
+    color: #fbf8f8;
+  }
 
+  .footer_main {
+    position: relative;
+  }
+
+  .footer_copyright {
+    position: absolute;
+    color: darkgray;
+  }
+
+  .footer_copyright > a {
+    text-decoration: underline;
+    color: #fbf8f8;
+  }
+
+  .footer_license {
+    position: absolute;
+    color: darkgray;
+  }
+
+  .footer_license a {
+    text-decoration: none;
+    color: #fbf8f8;
+  }
+
+  .footer_license a:hover {
+    color: lightgray;
+  }
+
+  .footer_sitemap {
+    position: absolute;
+  }
+
+  .footer_sitemap > a {
+    --category-count: 9;
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    text-decoration: none;
+    color: #fbf8f8;
+  }
+
+  @media (orientation: landscape) {
     .footer_main {
-        position: relative;
+      width: 50%;
+      height: 100%;
+      margin-left: 10%;
     }
 
-    .footer_copyright {
-        position: absolute;
-        color: darkgray;
-    }
-
-    .footer_copyright > a {
-        text-decoration: underline;
-        color: #fbf8f8;
+    .footer_title {
+      margin: 75px 10% 0;
+      font-size: 25px;
     }
 
     .footer_license {
-        position: absolute;
-        color: darkgray;
+      bottom: 12%;
+      left: 10%;
+      font-size: 12px;
     }
-    .footer_license a {
-        text-decoration: none;
-        color: #fbf8f8;
+    .footer_license > a {
+      font-size: 12px;
     }
-    .footer_license a:hover {
-        color: lightgray;
+
+    .footer_copyright {
+      bottom: 30%;
+      left: 10%;
     }
 
     .footer_sitemap {
-        position: absolute;
+      top: 10%;
+      width: 200px;
+      height: 80%;
+      right: 10%;
     }
 
     .footer_sitemap > a {
-        --category-count: 9;
-        display: grid;
-        justify-content: start;
-        align-items: center;
-        text-decoration: none;
-        color: #fbf8f8;
+      width: 100%;
+      height: calc(100% / var(--category-count));
+      font-size: 14px;
+    }
+  }
+
+  @media (orientation: portrait) {
+    .footer_main {
+      width: 55%;
+      height: 100%;
+      margin-left: 5%;
     }
 
-    @media(orientation: landscape) {
-      .footer_main {
-        width: 50%;
-        height: 100%;
-        margin-left: 10%;
-      }
-      .footer_title {
-        margin: 75px 10% 0;
-        font-size: 25px;
-      }
-      .footer_license {
-        bottom: 12%;
-        left: 10%;
-        font-size: 12px;
-      }
-      .footer_copyright {
-        bottom: 30%;
-        left: 10%;
-      }
-      .footer_sitemap {
-        top: 10%;
-        width: 200px;
-        height: 80%;
-        right: 10%;
-      }
-      .footer_sitemap > a {
-        width: 100%;
-        height: calc(100% / var(--category-count));
-        font-size: 14px;
-      }
+    .footer_title {
+      margin: 30px 0 0 3%;
+      font-size: 25px;
     }
-    @media(orientation: portrait) {
-      .footer_main {
-        width: 55%;
-        height: 100%;
-        margin-left: 5%;
-      }
-      .footer_title {
-        margin: 30px 0 0 3%;
-        font-size: 25px;
-      }
-      .footer_copyright {
-        bottom: 35%;
-        left: 3%;
-        font-size: 10px;
-      }
-      .footer_license {
-        bottom: 10%;
-        left: 3%;
-        font-size: 10px;
-      }
-      .footer_sitemap {
-        top: 10%;
-        width: 30%;
-        height: 80%;
-        right: 5%;
-      }
-      .footer_sitemap > a {
-        width: 100%;
-        height: calc(100% / var(--category-count));
-        font-size: 12px;
-      }
+
+    .footer_copyright {
+      bottom: 35%;
+      left: 3%;
+      font-size: 10px;
     }
+    .footer_copyright > a {
+      font-size: 10px;
+    }
+
+    .footer_license {
+      bottom: 10%;
+      left: 3%;
+      font-size: 10px;
+    }
+    .footer_license > a {
+      font-size: 10px;
+    }
+
+    .footer_sitemap {
+      top: 10%;
+      width: 30%;
+      height: 80%;
+      right: 5%;
+    }
+
+    .footer_sitemap > a {
+      width: 100%;
+      height: calc(100% / var(--category-count));
+      font-size: 12px;
+    }
+  }
 </style>
