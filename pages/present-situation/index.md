@@ -234,16 +234,16 @@ Although the amount is down temporarily due to the <Word>oil crisis</Word>, <For
 It increased rapidly especially from 1950 to 1970 and after 2000.
 This is respectively because European countries restored after World War Ⅱ and Japan, Korea and Taiwan were trying to advance into developed countries and because China and India have advanced remarkably.
 In summary, African countries are developing so rapidly that it is estimated that the production of metal will increase more and more rapidly.<SummaryLink>3</SummaryLink>
-It will not be long before we run out of metal resources and we cannot live a life as we know it now.
+It will not be long before you run out of metal resources and you cannot live a life as you know it now.
 In fact, Ichiro Daigo, an associate professor at Research Center for Advanced Science and Technology, The University of Tokyo, [told us](../activity/interview.html#q7) in our interview:
 
 <Quote>
 &#147;Ten years ago, the content of copper in ore was still 1 percent, but today we have run out of such ore and in Japan 0.6 percent is the highest quality. Recently, I&#146;ve heard that people have no choice but to use 0.3 percent ore.  So, everyone is vaguely aware that we will definitely run out of metal resources in the near future.&#148;
 </Quote>
 
-<p><ForceText>The day is approaching us when we run out of metal resources.</ForceText></p>
+<p><ForceText>The day is approaching us when you run out of metal resources.</ForceText></p>
 
-However, we still have not been able to stop the increase.  That is why we may not be able to produce new smartphones by 2050.
+However, you still have not been able to stop the increase.  That is why you may not be able to produce new smartphones by 2050.
 
 ## Uneven Distribution
 
@@ -261,8 +261,8 @@ Take a look at the graph below.
 It shows how much the top three countries occupy reserves of each metal resource.
 Surprisingly, they account for more than 70% of the production of most metals.
 However, this is just part of all metals and most <Word>minor metals</Word> are also occupied by the top three countries.<SummaryLink>3</SummaryLink>
-Japan imports most of all the <Word>metals</Word> we need, so it is influenced greatly by the exporters.
-They are not always available even if we pay for them.
+Japan imports most of all the <Word>metals</Word> you need, so it is influenced greatly by the exporters.
+They are not always available even if you pay for them.
 For example, if China stops exporting their resources due to their policy, the world can no longer develop (of course Japan, either).
 In other words, it is no exaggeration to say that global economy depends on China.
 
@@ -278,7 +278,7 @@ In fact, in September, 2010, exporting <Word>rare earth</Word> to Japan was limi
 <Word>Metal resources</Word> are indispensable for cutting-edge technology such as cars, personal computers and smartphones.
 For that reason, while more and more countries are developing in technological fields now, the ecosystem has been damaged and some villages have been destroyed to get resources that are hard to get and whose demands grew rapidly.
 You often hear the news that in the Middle East, fights over oil broke out and many people fell victim to the war.
-<ForceText><span class="sorry">ここの英語わからん。</span></ForceText>
+In fact, there were <ForceText>wars over metal resources</ForceText>, and many people lost their lives in them.
 Here, we would like to talk about Democratic Republic of Congo, which is famous as one of such battlefields.
 </p>
 
@@ -296,29 +296,29 @@ In short, they <ForceText>exploited and abused people in Congo to get resources 
 
 This story may not be known in Japan.
 It cannot be helped because the scene is too far from Japan.
-However, it is certain that we have benefitted from countries such as Congo.
+However, it is certain that you have benefitted from countries such as Congo.
 This is a story people in Japan must learn.
 
 <NoIndent>
 <small>*This story came to be widely known because Humanitarian assistance activities by United Nations were reported in the media.
-There must be tragedies we do not know in the world.
+There must be tragedies you do not know in the world.
 We sincerely hope there will be no victims like this.
 </small>
 </NoIndent>
 
 It is also true that residents who live in places which are rich in resources are suffering.<SummaryLink>7</SummaryLink>
-Bayan obo, where we can mine a lot of metal resources, is a major deposit in China.
+Bayan obo, where they can mine a lot of metal resources, is a major deposit in China.
 The more metal was mined, the more factories were founded and Baotou, which has Bayan obo, developed.
 In the process, the local people were forced to make a great sacrifice.
 They were <ForceText>robbed of their farmland and had to choose whether they work at Bayan obo or leave it</ForceText>.
 What was worse, the atmosphere and water was terribly polluted and <ForceText>the health of the residents</ForceText> also came to be worried about.
-We must realize that we can have our smartphones and home appliances thanks to such sacrifices.
+You must realize that you can have your smartphones and home appliances thanks to such sacrifices.
 
 
 <Column title="Gorillas killed by phone">
 You may be surprised to hear that our smartphones kill gorillas, but this is true. Actually, <ForceText>producing phones indirectly leads them to extinction</ForceText>. The concrete process is as follows:<SummaryLink>5</SummaryLink>
 <ol>
-<li>We use smartphones.</li>
+<li>You use smartphones.</li>
 <li>They have different minor metals. We take up tantalum as an example here.</li>
 <li>The area around Congo has more tantalum underground than the other areas and it is mined actively.</li>
 <li>
@@ -328,7 +328,7 @@ However, when the miners encounter gorillas, they will shoot them in order to gu
 In this way, <ForceText>the number of gorillas decreases</ForceText>.
 Although resource issues have nothing to do with animal extinction at a glance, actually it is strongly related.
 What can we do for this problem?
-One answer to this question is <ForceText>to decrease the amount of metal resources we mine</ForceText> and in order to realize this, "<ForceText>urban mining</ForceText>", which we introduce in the next page, is a very, very, very important keyword!
+One answer to this question is <ForceText>to decrease the amount of metal resources you mine</ForceText> and in order to realize this, "<ForceText>urban mining</ForceText>", which we introduce in the next page, is a very, very, very important keyword!
 </Column>
 
 ## Summary Chart

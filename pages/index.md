@@ -129,9 +129,9 @@
 <div id="main">
   <div class="prologue">
 You use smartphones in your daily lives.<br>
-However, we may not be able to make them by 2050.<br>
+However, you may not be able to make them by 2050.<br>
 This is because the mineral resources will have been depleted by then.<br>
-If you do not change the present situation, we may run out of materials needed to produce electronic devices such as smartphones and household appliances within thirty years.<br>
+If you do not change the present situation, you may run out of materials needed to produce electronic devices such as smartphones and household appliances within thirty years.<br>
 Some people have started to recycle smartphones and other electronic devices to use their metals again.<br>
 This idea is called "urban mining."<br>
 Certainly it has some problems, but if more and more people begin to recycle electronic equipment, urban mining is one of the surest ways to solve the resource issues.
