@@ -119,6 +119,111 @@
 </FloatingMenu>
 </div>
 <div id="lang_en">
+<div class="main_image">
+
+# In search of resources in your right pocket
+
+</div>
+<div class="main_image_spacer">
+</div>
+<div id="main">
+  <div class="prologue">
+You use smartphones in your daily lives.<br>
+However, we may not be able to make them by 2050.<br>
+This is because the mineral resources will have been depleted by then.<br>
+If you do not change the present situation, we may run out of materials needed to produce electronic devices such as smartphones and household appliances within thirty years.<br>
+Some people have started to recycle smartphones and other electronic devices to use their metals again.<br>
+This idea is called "urban mining."<br>
+Certainly it has some problems, but if more and more people begin to recycle electronic equipment, urban mining is one of the surest ways to solve the resource issues.
+  </div>
+
+## Site Map
+
+<PageDescriptionLink title="Present Situation" path="./present-situation/" content="
+Japan is a world leader in various fields of science and technology.<br>
+This is due to a large amount of minor metal and other metal resources.<br>
+However, it is not an easy task to obtain them.
+"></PageDescriptionLink>
+<PageDescriptionLink title="Significance of Urban Mining" path="./urban-mining/" content="
+Urban mining is a key to resource problems.<br>
+What is it like?
+"></PageDescriptionLink>
+<PageDescriptionLink title="Problem" path="./problem/" content="
+Urban mining makes a lot of profit, but there are still many obstacles.
+"></PageDescriptionLink>
+<PageDescriptionLink title="Measure" path="./measure/" content="
+There are many efforts being made to solve the problem of resources.<br>
+Many people are trying to create a better world.
+"></PageDescriptionLink>
+<PageDescriptionLink title="Activity" path="./activity/" content="
+Here are some of the activities we have done.
+"></PageDescriptionLink>
+<PageDescriptionLink title="Solution" path="./solution/" content="
+It is true that there still remain some problems to be solved although many people are working hard to improve the present situation.<br>
+We would like everyone to know how important and useful urban mining is. Here is our solution.
+"></PageDescriptionLink>
+<PageDescriptionLink title="Finally" path="./finally/" content="
+We hope that our thoughts will be understood by everyone... !
+"></PageDescriptionLink>
+<PageDescriptionLink title="Others" path="./others/" content="
+私たちの活動記録やこのサイトの参考文献を紹介しています。
+"></PageDescriptionLink>
+
+## About Each Function
+
+- ### Menu
+
+The menu is located at the bottom right of the pages.<br>
+In addition to displaying the table of contents of the page, you can use the "English" button to display the page in English.
+
+- ### Balloon Dictionary
+
+Some of the words in this website are in bold, as shown "minor metals" below.<br>
+<Word>Minor metals</Word><br>
+You can see the explanation of a word by placing the cursor over it.<br>
+(For words that appear more than once in the page, only the first one is given a dictionary).
+
+- ### Summary Chart
+
+Summary charts are placed at the end of some pages.<br>
+In addition to providing a visual overview of the content of the page, clicking on an item scrolls you to the place where the content is described.
+
+## Characters
+
+The following are the characters on this website.
+They sometimes give extra information and discuss solutions with each other.
+
+<AtomCharacter atom="Li" imagePath="./img/atom_chara/Li.png">
+  A boy who is curious about everything and talkative. He always looks up at something. His motif is a lithium battery. Atomic number is three.
+</AtomCharacter>
+<AtomCharacter atom="Sc" imagePath="./img/atom_chara/Sc.png">
+  He is like a father to Lithium and brightens up the atmosphere around him. His motif is a light. Atomic number is twenty-one.
+</AtomCharacter>
+<AtomCharacter atom="Y" imagePath="./img/atom_chara/Y.png">
+  A man who knows a lot about metal resources. His motif is a cathode-ray tube television. Atomic number is thirty-nine.
+</AtomCharacter>
+<AtomCharacter atom="Au" imagePath="./img/atom_chara/Au.png">
+  She is a princess and does not know well about the world. She sometimes shows you bold ideas. Her motif is a young lady. Atomic number is seventy-nine.
+</AtomCharacter>
+<AtomCharacter atom="Pt" imagePath="./img/atom_chara/Pt.png">
+  A scientist. His motif is a narcissist. Atomic number is seventy-eight.
+</AtomCharacter>
+<h2 id="recommended-environment" class="site_map">Recommended Environment</h2>
+<div class="main_text">
+  This website has been checked with the latest versions of Chrome and FireFox.<br>
+  You may have problems if you view it with other browsers.
+</div>
+<FloatingMenu>
+  h1 In search of resources in your right pocket
+  h2 Site Map
+  h2 About Each Function
+  h3 Menu
+  h3 Balloon Dictionary
+  h3 Summary Chart
+  h2 Characters
+  h2 Recommended Environment
+</FloatingMenu>
+</div>
 </div>
 
 <style>
