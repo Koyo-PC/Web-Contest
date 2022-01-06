@@ -362,6 +362,27 @@
         display: inline-block;
         position: relative;
         /*width: 100%;*/
+        margin-bottom: 3em;
+      }
+
+      .image {
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+        margin: 0 auto;
+      }
+
+      .image_caption {
+        display: block;
+        width: 100%;
+        text-align: center;
+        vertical-align: bottom;
+        line-height: 1.2em;
+      }
+      .image_box {
+        display: inline-block;
+        position: relative;
+        /*width: 100%;*/
       }
 
       .image {
@@ -647,6 +668,10 @@
         width: 200px;
         display: block;
         background-color: #0004;
+      }
+      .link_anchor {
+        position: relative;
+        top: -120px;
       }
       footer {
         position: relative;
@@ -1157,14 +1182,7 @@
         </p>
         <figure>
           <figcaption style="white-space: nowrap">
-            法定リサイクル率の表<br />
-            出典:
-            <a href="https://panasonic.co.jp/eco/petec/"
-              >https://panasonic.co.jp/eco/petec/</a
-            >,
-            <a href="https://www.env.go.jp/press/106879.html"
-              >https://www.env.go.jp/press/106879.html</a
-            >より作成
+            法定リサイクル率の表
           </figcaption>
           <table>
             <tr>
@@ -1189,6 +1207,14 @@
               <td>95%</td>
             </tr>
           </table>
+          <figcaption style="white-space: nowrap">
+            <a href="https://panasonic.co.jp/eco/petec/"
+              >https://panasonic.co.jp/eco/petec/</a
+            >,
+            <a href="https://www.env.go.jp/press/106879.html"
+              >https://www.env.go.jp/press/106879.html</a
+            >より作成
+          </figcaption>
         </figure>
 
         <h2 id="どのようにリサイクルされるの">どのようにリサイクルされるの?</h2>
@@ -1301,11 +1327,8 @@
             <dl>
               <dt>＜磁力選別機＞</dt>
               <div class="image_container">
-                <figure
-                  class="image_box"
-                  style="width: ; height: "
-                  id="petec_img_2"
-                >
+                <span class="link_anchor" id="petec_img_2"></span>
+                <figure class="image_box" style="width: ; height: " id="">
                   <img
                     class="image"
                     src="../svg/petec/2.svg"
@@ -1333,11 +1356,8 @@
             <dl>
               <dt>＜非鉄金属選別機＞</dt>
               <div class="image_container">
-                <figure
-                  class="image_box"
-                  style="width: ; height: "
-                  id="petec_img_3"
-                >
+                <span class="link_anchor" id="petec_img_3"></span>
+                <figure class="image_box" style="width: ; height: " id="">
                   <img
                     class="image"
                     src="../svg/petec/3.svg"
@@ -1367,11 +1387,8 @@
             <dl>
               <dt>＜比重選別機＞</dt>
               <div class="image_container">
-                <figure
-                  class="image_box"
-                  style="width: ; height: "
-                  id="petec_img_4"
-                >
+                <span class="link_anchor" id="petec_img_4"></span>
+                <figure class="image_box" style="width: ; height: " id="">
                   <img
                     class="image"
                     src="../svg/petec/4.svg"
@@ -1448,11 +1465,8 @@
             <dl>
               <dt>＜風力選別機＞</dt>
               <div class="image_container">
-                <figure
-                  class="image_box"
-                  style="width: ; height: "
-                  id="petec_img_6"
-                >
+                <span class="link_anchor" id="petec_img_6"></span>
+                <figure class="image_box" style="width: ; height: " id="">
                   <img
                     class="image"
                     src="../svg/petec/6.svg"
@@ -1496,11 +1510,8 @@
             <dl>
               <dt>＜高精度樹脂選別システム＞</dt>
               <div class="image_container">
-                <figure
-                  class="image_box"
-                  style="width: ; height: "
-                  id="petec_img_7"
-                >
+                <span class="link_anchor" id="petec_img_7"></span>
+                <figure class="image_box" style="width: ; height: " id="">
                   <img
                     class="image"
                     src="../svg/petec/7.svg"
@@ -1577,8 +1588,13 @@
               alt="塩水抜き取り写真"
               style="transform: scale()"
             />
-            <div class="note"><a class="href" href=""></a></div>
-            <figcaption class="image_caption"></figcaption>
+            <figcaption class="image_caption">
+              よく見ると、真ん中の洗濯機から塩水が流れているのが確認できます。<span
+                style="display: none"
+                ><br /><span class="lang_en">Data Source : </span><a href=""></a
+                ><span class="lang_ja">より引用</span></span
+              >
+            </figcaption>
           </figure>
         </div>
 
@@ -1595,7 +1611,7 @@
           そう思われている方もいるかもしれません。実は、技術の発達や商品のリサイクルのしやすさの向上などから、リサイクル料金は減ってきているのです。
         </p>
         <figure>
-          <figcaption>リサイクル料金の表<br />見学時の説明より作成</figcaption>
+          <figcaption>リサイクル料金の表</figcaption>
           <table>
             <tr>
               <th colspan="2">4品目</th>
@@ -1647,6 +1663,7 @@
               <td>900円</td>
             </tr>
           </table>
+          <figcaption>見学時の説明より作成</figcaption>
         </figure>
 
         <p>
