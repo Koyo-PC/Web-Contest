@@ -1333,13 +1333,25 @@
                 switch (lang) {
                   case "en":
                     document.getElementById("lang_en").style.display = "block"
+                    document
+                      .querySelectorAll(".lang_en")
+                      .forEach((el) => (el.style.display = "block"))
                     document.getElementById("lang_jp").style.display = "none"
+                    document
+                      .querySelectorAll(".lang_jp")
+                      .forEach((el) => (el.style.display = "none"))
                     sessionStorage.setItem("lang", "en")
                     break
                   case "ja":
                   default:
                     document.getElementById("lang_en").style.display = "none"
+                    document
+                      .querySelectorAll(".lang_en")
+                      .forEach((el) => (el.style.display = "none"))
                     document.getElementById("lang_jp").style.display = "block"
+                    document
+                      .querySelectorAll(".lang_jp")
+                      .forEach((el) => (el.style.display = "block"))
                     sessionStorage.setItem("lang", "ja")
                     break
                 }
@@ -1378,7 +1390,416 @@
           </button>
         </div>
       </div>
-      <div id="lang_en"></div>
+      <div id="lang_en">
+        <div class="main_image">
+          <h1 id="in-search-of-resources-in-your-right-pocket">
+            In search of resources in your right pocket
+          </h1>
+        </div>
+        <div class="main_image_spacer"></div>
+        <div id="main">
+          <div class="prologue">
+            You use smartphones in your daily lives.<br />
+            However, we may not be able to make them by 2050.<br />
+            This is because the mineral resources will have been depleted by
+            then.<br />
+            If you do not change the present situation, we may run out of
+            materials needed to produce electronic devices such as smartphones
+            and household appliances within thirty years.<br />
+            Some people have started to recycle smartphones and other electronic
+            devices to use their metals again.<br />
+            This idea is called "urban mining."<br />
+            Certainly it has some problems, but if more and more people begin to
+            recycle electronic equipment, urban mining is one of the surest ways
+            to solve the resource issues.
+          </div>
+
+          <h2 id="site-map">Site Map</h2>
+          <div class="text">
+            <h3 class="text_title">Present Situation</h3>
+            <div class="textContent">
+              Japan is a world leader in various fields of science and
+              technology.<br />
+              This is due to a large amount of minor metal and other metal
+              resources.<br />
+              However, it is not an easy task to obtain them.
+            </div>
+            <a href="./present-situation/">
+              <div class="link_button">
+                詳しく見る
+                <div class="img">
+                  <img src="./svg/arrow.svg" />
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="text">
+            <h3 class="text_title">Significance of Urban Mining</h3>
+            <div class="textContent">
+              Urban mining is a key to resource problems.<br />
+              What is it like?
+            </div>
+            <a href="./urban-mining/">
+              <div class="link_button">
+                詳しく見る
+                <div class="img">
+                  <img src="./svg/arrow.svg" />
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="text">
+            <h3 class="text_title">Problem</h3>
+            <div class="textContent">
+              Urban mining makes a lot of profit, but there are still many
+              obstacles.
+            </div>
+            <a href="./problem/">
+              <div class="link_button">
+                詳しく見る
+                <div class="img">
+                  <img src="./svg/arrow.svg" />
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="text">
+            <h3 class="text_title">Measure</h3>
+            <div class="textContent">
+              There are many efforts being made to solve the problem of
+              resources.<br />
+              Many people are trying to create a better world.
+            </div>
+            <a href="./measure/">
+              <div class="link_button">
+                詳しく見る
+                <div class="img">
+                  <img src="./svg/arrow.svg" />
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="text">
+            <h3 class="text_title">Activity</h3>
+            <div class="textContent">
+              Here are some of the activities we have done.
+            </div>
+            <a href="./activity/">
+              <div class="link_button">
+                詳しく見る
+                <div class="img">
+                  <img src="./svg/arrow.svg" />
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="text">
+            <h3 class="text_title">Solution</h3>
+            <div class="textContent">
+              It is true that there still remain some problems to be solved
+              although many people are working hard to improve the present
+              situation.<br />
+              We would like everyone to know how important and useful urban
+              mining is. Here is our solution.
+            </div>
+            <a href="./solution/">
+              <div class="link_button">
+                詳しく見る
+                <div class="img">
+                  <img src="./svg/arrow.svg" />
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="text">
+            <h3 class="text_title">Finally</h3>
+            <div class="textContent">
+              We hope that our thoughts will be understood by everyone... !
+            </div>
+            <a href="./finally/">
+              <div class="link_button">
+                詳しく見る
+                <div class="img">
+                  <img src="./svg/arrow.svg" />
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="text">
+            <h3 class="text_title">Others</h3>
+            <div class="textContent">
+              私たちの活動記録やこのサイトの参考文献を紹介しています。
+            </div>
+            <a href="./others/">
+              <div class="link_button">
+                詳しく見る
+                <div class="img">
+                  <img src="./svg/arrow.svg" />
+                </div>
+              </div>
+            </a>
+          </div>
+          <h2 id="about-each-function">About Each Function</h2>
+          <ul>
+            <li><h3 id="menu">Menu</h3></li>
+          </ul>
+          <p>
+            The menu is located at the bottom right of the pages.<br />
+            In addition to displaying the table of contents of the page, you can
+            use the &quot;English&quot; button to display the page in English.
+          </p>
+          <ul>
+            <li><h3 id="balloon-dictionary">Balloon Dictionary</h3></li>
+          </ul>
+          <p>
+            Some of the words in this website are in bold, as shown &quot;minor
+            metals&quot; below.<br />
+            <span class="word"
+              ><span class="word_text" style="white-space: ">Minor metals</span>
+              <span class="word_description_container">
+                <span class="word_description">
+                  <span class="word_description_title">Minor metals</span>
+                  <span
+                    class="word_description_text"
+                    style="line-height: 1.5rem"
+                  ></span>
+                </span>
+              </span>
+            </span>
+
+            <!--suppress HtmlUnknownAttribute -->
+            <br />
+            You can see the explanation of a word by placing the cursor over
+            it.<br />
+            (For words that appear more than once in the page, only the first
+            one is given a dictionary).
+          </p>
+          <ul>
+            <li><h3 id="summary-chart">Summary Chart</h3></li>
+          </ul>
+          <p>
+            Summary charts are placed at the end of some pages.<br />
+            In addition to providing a visual overview of the content of the
+            page, clicking on an item scrolls you to the place where the content
+            is described.
+          </p>
+          <h2 id="characters">Characters</h2>
+          <p>
+            The following are the characters on this website. They sometimes
+            give extra information and discuss solutions with each other.
+          </p>
+          <!--suppress ALL -->
+          <div class="atom_chara" style="width: 100%; margin: 50px 0">
+            <div class="atom_chara_icon">
+              <img
+                class="atom_chara_img"
+                src="./img/atom_chara/Li.png"
+                alt="リチウムくんのアイコン"
+              />
+              <div class="atom_chara_name">リチウムくん</div>
+            </div>
+            <div class="atom_chara_content">
+              <span
+                >A boy who is curious about everything and talkative. He always
+                looks up at something. His motif is a lithium battery. Atomic
+                number is three.</span
+              >
+            </div>
+          </div>
+
+          <!--suppress HtmlUnknownAttribute -->
+
+          <!--suppress ALL -->
+          <div class="atom_chara" style="width: 100%; margin: 50px 0">
+            <div class="atom_chara_icon">
+              <img
+                class="atom_chara_img"
+                src="./img/atom_chara/Sc.png"
+                alt="スカンジウムおじさんのアイコン"
+              />
+              <div class="atom_chara_name">スカンジウムおじさん</div>
+            </div>
+            <div class="atom_chara_content">
+              <span
+                >He is like a father to Lithium and brightens up the atmosphere
+                around him. His motif is a light. Atomic number is
+                twenty-one.</span
+              >
+            </div>
+          </div>
+
+          <!--suppress HtmlUnknownAttribute -->
+
+          <!--suppress ALL -->
+          <div class="atom_chara" style="width: 100%; margin: 50px 0">
+            <div class="atom_chara_icon">
+              <img
+                class="atom_chara_img"
+                src="./img/atom_chara/Y.png"
+                alt="イットリウム博士のアイコン"
+              />
+              <div class="atom_chara_name">イットリウム博士</div>
+            </div>
+            <div class="atom_chara_content">
+              <span
+                >A man who knows a lot about metal resources. His motif is a
+                cathode-ray tube television. Atomic number is thirty-nine.</span
+              >
+            </div>
+          </div>
+
+          <!--suppress HtmlUnknownAttribute -->
+
+          <!--suppress ALL -->
+          <div class="atom_chara" style="width: 100%; margin: 50px 0">
+            <div class="atom_chara_icon">
+              <img
+                class="atom_chara_img"
+                src="./img/atom_chara/Au.png"
+                alt="マリー・ゴールドのアイコン"
+              />
+              <div class="atom_chara_name">マリー・ゴールド</div>
+            </div>
+            <div class="atom_chara_content">
+              <span
+                >She is a princess and does not know well about the world. She
+                sometimes shows you bold ideas. Her motif is a young lady.
+                Atomic number is seventy-nine.</span
+              >
+            </div>
+          </div>
+
+          <!--suppress HtmlUnknownAttribute -->
+
+          <!--suppress ALL -->
+          <div class="atom_chara" style="width: 100%; margin: 50px 0">
+            <div class="atom_chara_icon">
+              <img
+                class="atom_chara_img"
+                src="./img/atom_chara/Pt.png"
+                alt="プラチナルシストのアイコン"
+              />
+              <div class="atom_chara_name">プラチナルシスト</div>
+            </div>
+            <div class="atom_chara_content">
+              <span
+                >A scientist. His motif is a narcissist. Atomic number is
+                seventy-eight.</span
+              >
+            </div>
+          </div>
+
+          <!--suppress HtmlUnknownAttribute -->
+
+          <h2 id="recommended-environment" class="site_map">
+            Recommended Environment
+          </h2>
+          <div class="main_text">
+            This website has been checked with the latest versions of Chrome and
+            FireFox.<br />
+            You may have problems if you view it with other browsers.
+          </div>
+          <div id="floating_menu">
+            <!--suppress BadExpressionStatementJS -->
+            <div id="toc">
+              <div id="toc_title">目次</div>
+
+              <a
+                class="toc_link_h1"
+                href="#in-search-of-resources-in-your-right-pocket"
+              >
+                In search of resources in your right pocket
+              </a>
+              <a class="toc_link_h2" href="#site-map"> Site Map </a>
+              <a class="toc_link_h2" href="#about-each-function">
+                About Each Function
+              </a>
+              <a class="toc_link_h3" href="#menu"> Menu </a>
+              <a class="toc_link_h3" href="#balloon-dictionary">
+                Balloon Dictionary
+              </a>
+              <a class="toc_link_h3" href="#summary-chart"> Summary Chart </a>
+              <a class="toc_link_h2" href="#characters"> Characters </a>
+              <a class="toc_link_h2" href="#recommended-environment">
+                Recommended Environment
+              </a>
+            </div>
+
+            <!--suppress BadExpressionStatementJS --><button
+              id="lang_button"
+              onclick="changeLang()"
+            >
+              <span id="lang_text"></span>
+              <script>
+                function setLang(lang) {
+                  switch (lang) {
+                    case "en":
+                      document.getElementById("lang_en").style.display = "block"
+                      document
+                        .querySelectorAll(".lang_en")
+                        .forEach((el) => (el.style.display = "block"))
+                      document.getElementById("lang_jp").style.display = "none"
+                      document
+                        .querySelectorAll(".lang_jp")
+                        .forEach((el) => (el.style.display = "none"))
+                      sessionStorage.setItem("lang", "en")
+                      break
+                    case "ja":
+                    default:
+                      document.getElementById("lang_en").style.display = "none"
+                      document
+                        .querySelectorAll(".lang_en")
+                        .forEach((el) => (el.style.display = "none"))
+                      document.getElementById("lang_jp").style.display = "block"
+                      document
+                        .querySelectorAll(".lang_jp")
+                        .forEach((el) => (el.style.display = "block"))
+                      sessionStorage.setItem("lang", "ja")
+                      break
+                  }
+                  updateButton()
+                }
+
+                function changeLang() {
+                  switch (sessionStorage.getItem("lang")) {
+                    case "en":
+                      setLang("ja")
+                      break
+                    case "ja":
+                    default:
+                      setLang("en")
+                      break
+                  }
+                  updateButton()
+                }
+
+                function updateButton() {
+                  switch (sessionStorage.getItem("lang")) {
+                    case "ja":
+                      document
+                        .querySelectorAll("#lang_text")
+                        .forEach((el) => (el.innerHTML = "English"))
+                      break
+                    case "en":
+                      document
+                        .querySelectorAll("#lang_text")
+                        .forEach((el) => (el.innerHTML = "日本語"))
+                      break
+                  }
+                }
+                window.onload = () => setLang(sessionStorage.getItem("lang"))
+              </script>
+            </button>
+          </div>
+        </div>
+      </div>
     </main>
     <a href="#"><button id="scroll_top"></button></a>
     <!--suppress BadExpressionStatementJS -->

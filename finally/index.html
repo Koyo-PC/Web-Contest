@@ -863,13 +863,25 @@
                 switch (lang) {
                   case "en":
                     document.getElementById("lang_en").style.display = "block"
+                    document
+                      .querySelectorAll(".lang_en")
+                      .forEach((el) => (el.style.display = "block"))
                     document.getElementById("lang_jp").style.display = "none"
+                    document
+                      .querySelectorAll(".lang_jp")
+                      .forEach((el) => (el.style.display = "none"))
                     sessionStorage.setItem("lang", "en")
                     break
                   case "ja":
                   default:
                     document.getElementById("lang_en").style.display = "none"
+                    document
+                      .querySelectorAll(".lang_en")
+                      .forEach((el) => (el.style.display = "none"))
                     document.getElementById("lang_jp").style.display = "block"
+                    document
+                      .querySelectorAll(".lang_jp")
+                      .forEach((el) => (el.style.display = "block"))
                     sessionStorage.setItem("lang", "ja")
                     break
                 }
@@ -941,13 +953,25 @@
                 switch (lang) {
                   case "en":
                     document.getElementById("lang_en").style.display = "block"
+                    document
+                      .querySelectorAll(".lang_en")
+                      .forEach((el) => (el.style.display = "block"))
                     document.getElementById("lang_jp").style.display = "none"
+                    document
+                      .querySelectorAll(".lang_jp")
+                      .forEach((el) => (el.style.display = "none"))
                     sessionStorage.setItem("lang", "en")
                     break
                   case "ja":
                   default:
                     document.getElementById("lang_en").style.display = "none"
+                    document
+                      .querySelectorAll(".lang_en")
+                      .forEach((el) => (el.style.display = "none"))
                     document.getElementById("lang_jp").style.display = "block"
+                    document
+                      .querySelectorAll(".lang_jp")
+                      .forEach((el) => (el.style.display = "block"))
                     sessionStorage.setItem("lang", "ja")
                     break
                 }

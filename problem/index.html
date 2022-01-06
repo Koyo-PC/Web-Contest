@@ -1684,13 +1684,25 @@
                 switch (lang) {
                   case "en":
                     document.getElementById("lang_en").style.display = "block"
+                    document
+                      .querySelectorAll(".lang_en")
+                      .forEach((el) => (el.style.display = "block"))
                     document.getElementById("lang_jp").style.display = "none"
+                    document
+                      .querySelectorAll(".lang_jp")
+                      .forEach((el) => (el.style.display = "none"))
                     sessionStorage.setItem("lang", "en")
                     break
                   case "ja":
                   default:
                     document.getElementById("lang_en").style.display = "none"
+                    document
+                      .querySelectorAll(".lang_en")
+                      .forEach((el) => (el.style.display = "none"))
                     document.getElementById("lang_jp").style.display = "block"
+                    document
+                      .querySelectorAll(".lang_jp")
+                      .forEach((el) => (el.style.display = "block"))
                     sessionStorage.setItem("lang", "ja")
                     break
                 }
@@ -1735,7 +1747,7 @@
           <div id="toc">
             <div id="toc_title">目次</div>
 
-            <a class="toc_link_" href="#undefined"> undefined </a>
+            <a class="toc_link_" href="#"> </a>
           </div>
 
           <!--suppress BadExpressionStatementJS --><button
@@ -1748,13 +1760,25 @@
                 switch (lang) {
                   case "en":
                     document.getElementById("lang_en").style.display = "block"
+                    document
+                      .querySelectorAll(".lang_en")
+                      .forEach((el) => (el.style.display = "block"))
                     document.getElementById("lang_jp").style.display = "none"
+                    document
+                      .querySelectorAll(".lang_jp")
+                      .forEach((el) => (el.style.display = "none"))
                     sessionStorage.setItem("lang", "en")
                     break
                   case "ja":
                   default:
                     document.getElementById("lang_en").style.display = "none"
+                    document
+                      .querySelectorAll(".lang_en")
+                      .forEach((el) => (el.style.display = "none"))
                     document.getElementById("lang_jp").style.display = "block"
+                    document
+                      .querySelectorAll(".lang_jp")
+                      .forEach((el) => (el.style.display = "block"))
                     sessionStorage.setItem("lang", "ja")
                     break
                 }
