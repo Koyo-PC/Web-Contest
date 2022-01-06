@@ -1,6 +1,6 @@
 {
   "name": "web-contest",
   "dependencies": {
-    "@zoi-dayo/scml": "^1.3.0"
+    "@zoi-dayo/scml": "^1.3.1"
   }
 }

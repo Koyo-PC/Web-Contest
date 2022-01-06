@@ -172,7 +172,7 @@
 - [ケータイゴリラ「ケータイゴリラ ゴリラを守れ！携帯電話回収キャンペーン」](http://jsmcwm.or.jp/edit/kurashi/05/080hani.pdf)
 - [別表 専門分野等一覧表](https://www.jsps.go.jp/j-jisedai/data/05bunyahyo.pdf)
 
-<PNBar prev="../" next="../urban-mining/" prev_text="Home" next_text="都市鉱山の意義"></PNBar>
+<PNBar prev="../" next="../urban-mining/" prev_text="Home" next_text="都市鉱山の意義" prev_text="ホーム"></PNBar>
 <FloatingMenu>
 h1 資源の現状
 h2 金属資源について
@@ -185,6 +185,182 @@ h2 参考文献
 
 </div>
 <div id="lang_en">
+
+# Present Situation
+
+<NoIndent>
+Japan is a world leader in various fields of science and technology.<br>
+This is due to a large amount of <Word>minor metal</Word> and other <Word>metal resources</Word>. <br>
+However, it is not an easy task to obtain them.
+</NoIndent>
+
+## About Metal Resources
+
+What kind of idea do you have about metal resources such as gold and silver?
+
+<div class="image_container">
+    <Image src="../svg/description/A8.svg" alt="金・銀へのイメージ"></Image>
+</div>
+
+We think that there are various ideas about them, but that many people are not very familiar with them.
+Actually, we had not thought about them seriously before we began to create this site.
+In fact, our lives today would be more inconvenient without metal.
+<SummaryLink>0</SummaryLink>
+<ForceText>We are surrounded by metal resources!</ForceText>
+Televisions, air conditioners, refrigerators, washing machines, cars, watches, LED lights, smartphones ….
+There is no end to the number of products in which metals are used.
+
+Our lives are supported by metal resources!<SummaryLink>2</SummaryLink>
+
+<Column title="Indispensable metal resources for cutting edge technology — neodymium & niobium">
+Neodymium magnet is famous as the strongest magnet.
+An attempt to put the <Word>nano magnet</Word> on a cell and research it in 3D has started.
+This technology, which is called three‐dimensional growth, will be useful to investigate how well vaccines and medicine work before trying them on human bodies.<br>
+Niobium has the highest <Word>superconducting transition temperature</Word> (-263.95℃, -443.11℉), so it is used to <Word>superconducting magnet</Word> and supports such technology as linear motor cars and magnet field launch of rockets.<br>
+It also plays an important role in the field of chemistry and medicine.
+</Column>
+
+## Increase in Production
+
+How much metal is mined all over the world every year?<br>
+Take a look at the graph below.
+
+<div class="image_container">
+    <Image src="../assets/book/book_p7.png" alt="Changes in production volume" note="Book &#147;資源論&#148;" height="40vw"></Image>
+</div>
+
+It shows the change in the production of major metal in the world.
+Although the amount is down temporarily due to the <Word>oil crisis</Word>, <ForceText>it has been increasing overall.</ForceText>
+It increased rapidly especially from 1950 to 1970 and after 2000.
+This is respectively because European countries restored after World War Ⅱ and Japan, Korea and Taiwan were trying to advance into developed countries and because China and India have advanced remarkably.
+In summary, African countries are developing so rapidly that it is estimated that the production of metal will increase more and more rapidly.<SummaryLink>3</SummaryLink>
+It will not be long before we run out of metal resources and we cannot live a life as we know it now.
+In fact, Ichiro Daigo, an associate professor at Research Center for Advanced Science and Technology, The University of Tokyo, [told us](../activity/interview.html#q7) in our interview:
+
+<Quote>
+&#147;Ten years ago, the content of copper in ore was still 1 percent, but today we have run out of such ore and in Japan 0.6 percent is the highest quality. Recently, I&#146;ve heard that people have no choice but to use 0.3 percent ore.  So, everyone is vaguely aware that we will definitely run out of metal resources in the near future.&#148;
+</Quote>
+
+<p><ForceText>The day is approaching us when we run out of metal resources.</ForceText></p>
+
+However, we still have not been able to stop the increase.  That is why we may not be able to produce new smartphones by 2050.
+
+## Uneven Distribution
+
+Take a look at the graph below.
+
+<div class="image_container">
+    <Image src="../assets/susdi/7d2a8a5d380f463388d1c8d4512bef57.jpg"
+        alt="Uneven distributed metals"
+        note="<InlineImage>../assets/susdi/46e68cc8af75454ff9cc3fd767a83b0e-300x109.png</InlineImage>"
+        href="http://susdi.org/wp/data/post-61/"
+        height="40vw"
+    ></Image>
+</div><SummaryLink>1</SummaryLink>
+
+It shows how much the top three countries occupy reserves of each metal resource.
+Surprisingly, they account for more than 70% of the production of most metals.
+However, this is just part of all metals and most <Word>minor metals</Word> are also occupied by the top three countries.<SummaryLink>3</SummaryLink>
+Japan imports most of all the <Word>metals</Word> we need, so it is influenced greatly by the exporters.
+They are not always available even if we pay for them.
+For example, if China stops exporting their resources due to their policy, the world can no longer develop (of course Japan, either).
+In other words, it is no exaggeration to say that global economy depends on China.
+
+In this way, uneven distribution results in <ForceText>differences in power in the world</ForceText>.<SummaryLink>9</SummaryLink>
+
+<AtomCharacter atom="Y">
+In fact, in September, 2010, exporting <Word>rare earth</Word> to Japan was limited as a countermeasure against 2010 Senkaku boat collision incident.  Japan was damaged heavily by this.
+</AtomCharacter>
+
+## Fights over Metal Resources
+
+<p>
+<Word>Metal resources</Word> are indispensable for cutting-edge technology such as cars, personal computers and smartphones.
+For that reason, while more and more countries are developing in technological fields now, the ecosystem has been damaged and some villages have been destroyed to get resources that are hard to get and whose demands grew rapidly.
+You often hear the news that in the Middle East, fights over oil broke out and many people fell victim to the war.
+<ForceText><span class="sorry">ここの英語わからん。</span></ForceText>
+Here, we would like to talk about Democratic Republic of Congo, which is famous as one of such battlefields.
+</p>
+
+It is located at the center of the African Continent and rich in metal resources, so its revenue source depends on exporting such sources.
+Two major wars occurred there in 1996-1997 and 1998-2003.
+They are the First Congo War and Second Congo War.
+They were triggered by the ethnic conflict in Rwanda, which is next to Congo.
+Many countries around Congo participated in the dispute and the scale got large.
+As a result, more than 5.4 million people were killed.
+Although the war is over, many refugees still have not returned to their home.
+At a glance, this does not have something to do with resources, but actually one reason a lot of countries join it is to <ForceText>get resources</ForceText>.<SummaryLink>6</SummaryLink>
+They cooperated militarily in order to obtain rich resources in Congo.
+In addition, some groups tried to take away such resources by force.
+In short, they <ForceText>exploited and abused people in Congo to get resources there and finally many people lost their lives</ForceText>.
+
+This story may not be known in Japan.
+It cannot be helped because the scene is too far from Japan.
+However, it is certain that we have benefitted from countries such as Congo.
+This is a story people in Japan must learn.
+
+<NoIndent>
+<small>*This story came to be widely known because Humanitarian assistance activities by United Nations were reported in the media.
+There must be tragedies we do not know in the world.
+We sincerely hope there will be no victims like this.
+</small>
+</NoIndent>
+
+It is also true that residents who live in places which are rich in resources are suffering.<SummaryLink>7</SummaryLink>
+Bayan obo, where we can mine a lot of metal resources, is a major deposit in China.
+The more metal was mined, the more factories were founded and Baotou, which has Bayan obo, developed.
+In the process, the local people were forced to make a great sacrifice.
+They were <ForceText>robbed of their farmland and had to choose whether they work at Bayan obo or leave it</ForceText>.
+What was worse, the atmosphere and water was terribly polluted and <ForceText>the health of the residents</ForceText> also came to be worried about.
+We must realize that we can have our smartphones and home appliances thanks to such sacrifices.
+
+
+<Column title="Gorillas killed by phone">
+You may be surprised to hear that our smartphones kill gorillas, but this is true. Actually, <ForceText>producing phones indirectly leads them to extinction</ForceText>. The concrete process is as follows:<SummaryLink>5</SummaryLink>
+<ol>
+<li>We use smartphones.</li>
+<li>They have different minor metals. We take up tantalum as an example here.</li>
+<li>The area around Congo has more tantalum underground than the other areas and it is mined actively.</li>
+<li>
+However, when the miners encounter gorillas, they will shoot them in order to guard themselves. Otherwise, gorillas are involved in disputes we mentioned above or their home jangles are destroyed, and die.
+</li>
+</ol>
+In this way, <ForceText>the number of gorillas decreases</ForceText>.
+Although resource issues have nothing to do with animal extinction at a glance, actually it is strongly related.
+What can we do for this problem?
+One answer to this question is <ForceText>to decrease the amount of metal resources we mine</ForceText> and in order to realize this, "<ForceText>urban mining</ForceText>", which we introduce in the next page, is a very, very, very important keyword!
+</Column>
+
+## Summary Chart
+
+<div class="image_container">
+  <svg viewBox="0, 0, 1000, 750" style="width:80vw; height:60vw; margin: 5vh 0 5vh;">
+    <use xlink:href="../svg/summary_illust/A.svg#main"></use>
+  </svg>
+</div>
+
+You can see everything is connected in some way.
+Let’s think about how we can solve the problems we are facing by tracing back to the root cause.
+
+## References
+
+- 『図解よくわかる「都市鉱山」開発』（原田幸明・醍醐市朗、日刊工業新聞社・2011年8月1日）
+- 『資源論　メタル・石油埋蔵量の成長と枯渇』（西山孝、丸善出版・2016年4月12日）
+- 『レア RARE 希少金属の知っておきたい16話』（キース ベロニース　著・渡辺正　翻訳、化学同人・2016年3月10日）
+- [現代アフリカにおける資源収奪と紛争解決 ―紛争資源を対象とするターゲット制裁は紛争解決をもたらすか―](http://www.pp.u-tokyo.ac.jp/graspp-old/courses/2010/documents/graspp2010-5150010-4.pdf)
+- [HUFFPOST「死者540万人以上－日本のメディアは報じない、コンゴ紛争とハイテク産業の繋がり」](https://www.huffingtonpost.jp/kanta-hara/540_media_b_10214318.html)
+- [ケータイゴリラ「ケータイゴリラ ゴリラを守れ！携帯電話回収キャンペーン」](http://jsmcwm.or.jp/edit/kurashi/05/080hani.pdf)
+- [別表 専門分野等一覧表](https://www.jsps.go.jp/j-jisedai/data/05bunyahyo.pdf)
+
+<PNBar prev="../" next="../urban-mining/" prev_text="Home" next_text="Significance of Urban Mining" prev_text="Home"></PNBar>
 <FloatingMenu>
+h1 Present Situation
+h2 About Metal Resources
+h2 Increase in Production
+h2 Uneven Distribution
+h2 Fights over Metal Resources
+h2 Summary Chart
+h2 References
 </FloatingMenu>
+
 </div>
