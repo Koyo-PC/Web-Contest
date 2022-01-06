@@ -42,8 +42,7 @@ PETECの累計処理台数はなんと1650万台以上！！（10/14当時）一
 工場でのリサイクル率がこれを超えなければ、工場は稼働できません。
 PETECでは、いずれの品目においても法定リサイクル率をクリアしています。
 <figure>
-  <figcaption style="white-space: nowrap;">法定リサイクル率の表<br>
-      出典: <a href="https://panasonic.co.jp/eco/petec/">https://panasonic.co.jp/eco/petec/</a>, <a href="https://www.env.go.jp/press/106879.html">https://www.env.go.jp/press/106879.html</a>より作成
+  <figcaption style="white-space: nowrap;">法定リサイクル率の表
   </figcaption>
   <table>
     <tr>
@@ -68,6 +67,9 @@ PETECでは、いずれの品目においても法定リサイクル率をクリ
       <td>95%</td>
     </tr>
   </table>
+  <figcaption style="white-space: nowrap;">
+      <a href="https://panasonic.co.jp/eco/petec/">https://panasonic.co.jp/eco/petec/</a>, <a href="https://www.env.go.jp/press/106879.html">https://www.env.go.jp/press/106879.html</a>より作成
+  </figcaption>
 </figure>
 
 ## どのようにリサイクルされるの?
@@ -124,7 +126,8 @@ PETECで行われているリサイクルの工程を製品別に紹介しよう
         <dl>
             <dt>＜磁力選別機＞</dt>
             <div class="image_container">
-                <Image src="../svg/petec/2.svg" id="petec_img_2"></Image>
+                <LinkAnchor id="petec_img_2"></LinkAnchor>
+                <Image src="../svg/petec/2.svg"></Image>
             </div>
             <dd>役割：磁石につくものとそうでないものに分ける</dd>
             <dd>手順：
@@ -140,7 +143,8 @@ PETECで行われているリサイクルの工程を製品別に紹介しよう
         <dl>
             <dt>＜非鉄金属選別機＞</dt>
             <div class="image_container">
-                <Image src="../svg/petec/3.svg" id="petec_img_3"></Image>
+                <LinkAnchor id="petec_img_3"></LinkAnchor>
+                <Image src="../svg/petec/3.svg"></Image>
             </div>
             <dd>役割：磁石につかない金属（非鉄金属）と金属以外を分ける</dd>
             <dd>手順：
@@ -158,7 +162,8 @@ PETECで行われているリサイクルの工程を製品別に紹介しよう
         <dl>
             <dt>＜比重選別機＞</dt>
             <div class="image_container">
-                <Image src="../svg/petec/4.svg" id="petec_img_4"></Image>
+                <LinkAnchor id="petec_img_4"></LinkAnchor>
+                <Image src="../svg/petec/4.svg"></Image>
             </div>
             <dd>役割：重いものと軽いものを分ける</dd>
             <dd>手順：
@@ -204,7 +209,8 @@ PETECで行われているリサイクルの工程を製品別に紹介しよう
         <dl>
             <dt>＜風力選別機＞</dt>
             <div class="image_container">
-                <Image src="../svg/petec/6.svg" id="petec_img_6"></Image>
+                <LinkAnchor id="petec_img_6"></LinkAnchor>
+                <Image src="../svg/petec/6.svg"></Image>
             </div>
             <dd>役割：重いものと軽いものを分ける</dd>
             <dd>手順：
@@ -234,7 +240,8 @@ PETECで行われているリサイクルの工程を製品別に紹介しよう
         <dl>
             <dt>＜高精度樹脂選別システム＞</dt>
             <div class="image_container">
-                <Image src="../svg/petec/7.svg" id="petec_img_7"></Image>
+                <LinkAnchor id="petec_img_7"></LinkAnchor>
+                <Image src="../svg/petec/7.svg"></Image>
             </div>
             <dd>役割：プラスチックをABS、PP、PSに分ける</dd>
             <dd>手順：
@@ -260,7 +267,7 @@ PETECで行われているリサイクルの工程を製品別に紹介しよう
 洗濯機が他の製品と異なるところは、塩水を抜き取らなければいけないということです。塩水は洗濯をするときに回転する洗濯槽を安定させるためにバランサー代わりに2Lほど入っているのですが、それを取り除くことで大切なリサイクル資源である鉄がさびてしまうのを防ぐことができるのです。
 また、取り除かれた塩水は他の工場へと送られ、再利用されます。
 <div class="image_container">
-    <Image src="./img/petec_solt_water.jpg" alt="塩水抜き取り写真">よく見ると、真ん中の洗濯機から塩水が流れているのが確認できます。</Image>
+    <CaptionImage src="./img/petec_solt_water.jpg" alt="塩水抜き取り写真" caption="よく見ると、真ん中の洗濯機から塩水が流れているのが確認できます。"></CaptionImage>
 </div>
 
 その後、洗濯機は破砕機へと向かいます。
@@ -274,7 +281,7 @@ PETECで行われているリサイクルの工程を製品別に紹介しよう
 「リサイクルするのにお金を払わなければならないの？」
 そう思われている方もいるかもしれません。実は、技術の発達や商品のリサイクルのしやすさの向上などから、リサイクル料金は減ってきているのです。
 <figure>
-  <figcaption>リサイクル料金の表<br>見学時の説明より作成</figcaption>
+  <figcaption>リサイクル料金の表</figcaption>
   <table>
     <tr>
       <th colspan="2">4品目</th>
@@ -326,6 +333,7 @@ PETECで行われているリサイクルの工程を製品別に紹介しよう
       <td>900円</td>
     </tr>
   </table>
+  <figcaption>見学時の説明より作成</figcaption>
 </figure>
 
 それでもリサイクル料金を決して安いという風に思えない方もいると思います。
