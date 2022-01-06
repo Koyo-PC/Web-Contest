@@ -455,6 +455,27 @@
           font-size: 1.2em;
         }
       }
+      .image_box {
+        display: inline-block;
+        position: relative;
+        /*width: 100%;*/
+        margin-bottom: 3em;
+      }
+
+      .image {
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+        margin: 0 auto;
+      }
+
+      .image_caption {
+        display: block;
+        width: 100%;
+        text-align: center;
+        vertical-align: bottom;
+        line-height: 1.2em;
+      }
       .column {
         background-color: #c4edb755;
         /*border: 3px solid #c4edb7;*/
@@ -1562,13 +1583,14 @@
           id="s_6"
         ></span>
         しかし<span class="force_text"
-          >こうした行為は決して安全なものではありません。
-          廃棄物を破壊することで有害物質が出る上、当人も有害な蒸気や物質に触れます。
-          そうした過酷な環境で手に入れたメジャーメタルを売っても一日当たり数ドルというのが関の山です。<span
-            class="summary_link"
-            id="s_7"
-          ></span>
-          そしてこういった人の多くが将来を担う十代以下の若者</span
+          >こうした行為は決して安全なものではありません。</span
+        >廃棄物を破壊することで有害物質が出る上、当人も有害な蒸気や物質に触れます。
+        そうした過酷な環境で手に入れたメジャーメタルを売っても一日当たり数ドルというのが関の山です。<span
+          class="summary_link"
+          id="s_7"
+        ></span>
+        そしてこういった人の多くが将来を担う<span class="force_text"
+          >十代以下の若者</span
         >なのです。 こうした状況下では途上国の発展は望めません。
         ここで振り返ってみてください。<span
           class="summary_link"
@@ -1734,7 +1756,7 @@
                     document.getElementById("lang_en").style.display = "block"
                     document
                       .querySelectorAll(".lang_en")
-                      .forEach((el) => (el.style.display = "block"))
+                      .forEach((el) => (el.style.display = "initial"))
                     document.getElementById("lang_jp").style.display = "none"
                     document
                       .querySelectorAll(".lang_jp")
@@ -1750,7 +1772,7 @@
                     document.getElementById("lang_jp").style.display = "block"
                     document
                       .querySelectorAll(".lang_jp")
-                      .forEach((el) => (el.style.display = "block"))
+                      .forEach((el) => (el.style.display = "initial"))
                     sessionStorage.setItem("lang", "ja")
                     break
                 }
@@ -1790,12 +1812,616 @@
         </div>
       </div>
       <div id="lang_en">
+        <h1 id="significance-of-urban-mining">Significance of Urban Mining</h1>
+        <p>Urban mining is a key to resource problems. What is it like?</p>
+        <h2 id="minor-metal-and-major-metal">Minor metal and Major metal</h2>
+        <p>
+          Why do so many people crave
+          <span class="word"
+            ><span class="word_text" style="white-space: "
+              >metal resources</span
+            >
+            <span class="word_description_container">
+              <span class="word_description">
+                <span class="word_description_title">metal resources</span>
+                <span
+                  class="word_description_text"
+                  style="line-height: 1.5rem"
+                ></span>
+              </span>
+            </span>
+          </span>
+
+          <!--suppress HtmlUnknownAttribute -->
+          ? That’s because it is indispensable for home appliances and
+          cutting-edge technology. In this chapter, we would like to talk about
+          those metal resources. We have used the word “metal resources&quot; so
+          far, but actually it is largely separated into two kinds. They are
+          <span class="word"
+            ><span class="word_text" style="white-space: ">minor metal</span>
+            <span class="word_description_container">
+              <span class="word_description">
+                <span class="word_description_title">minor metal</span>
+                <span
+                  class="word_description_text"
+                  style="line-height: 1.5rem"
+                ></span>
+              </span>
+            </span>
+          </span>
+
+          <!--suppress HtmlUnknownAttribute -->
+          and
+          <span class="word"
+            ><span class="word_text" style="white-space: ">major metal</span>
+            <span class="word_description_container">
+              <span class="word_description">
+                <span class="word_description_title">major metal</span>
+                <span
+                  class="word_description_text"
+                  style="line-height: 1.5rem"
+                ></span>
+              </span>
+            </span>
+          </span>
+
+          <!--suppress HtmlUnknownAttribute -->
+          . Major metal is metal that is easy to refine and there exists a lot
+          in the earth, although some elements are classified as major metal in
+          spite of their rarity (six kinds such as gold, silver, etc).
+        </p>
+        <p>
+          Have you ever heard of minor metal? Minor metal is elements that meet
+          these standards:
+        </p>
+        <ol>
+          <li>relatively less in the earth’s crust than other elements</li>
+          <li>hard to take out from ore as simple substance</li>
+          <li>unevenly distributed in the world</li>
+        </ol>
+        <p>Minor metal includes 47 elements such as lithium and chromium.</p>
+        <div class="image_container">
+          <div style="position: relative; width: 100%; height: 50vw">
+            <div
+              style="
+                position: absolute;
+                left: -10vw;
+                width: calc(100% + 20vw);
+                height: 100%;
+              "
+            >
+              <figure class="image_box" style="width: ; height: " id="">
+                <img
+                  class="image"
+                  src="../img/urban-mining/periodic_table.png"
+                  alt=""
+                  style="transform: scale()"
+                />
+                <div class="note"><a class="href" href=""></a></div>
+                <figcaption class="image_caption"></figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+
+        <p>
+          Major metal is used for electric wire and cable and plating while
+          minor metal is used for high technology like smartphones,
+          superconducting material, shape memory alloys and metal hydride
+          alloys. Minor metal is essential to our lives and called “vitamins of
+          industry.&quot;
+        </p>
+        <p>
+          We disassembled a feature phone and a smartphone. You can check the
+          experiment <a href="../activity/disassembly.html">here</a>.
+        </p>
+        <figure class="table_figure">
+          <table>
+            <tr>
+              <th></th>
+              <th>Gold</th>
+              <th>Silver</th>
+              <th>Copper</th>
+              <th>Iron</th>
+              <th>Aluminum</th>
+            </tr>
+            <tr>
+              <td>Smartphone</td>
+              <td>0.04</td>
+              <td>0.23</td>
+              <td>10.82</td>
+              <td>1.17</td>
+              <td>0.64</td>
+            </tr>
+            <tr>
+              <td>Laptop PC</td>
+              <td>0.27</td>
+              <td>0.31</td>
+              <td>59.25</td>
+              <td>13.26</td>
+              <td>7.34</td>
+            </tr>
+            <tr>
+              <td>desktop PC</td>
+              <td>0.36</td>
+              <td>0.93</td>
+              <td>344.43</td>
+              <td>22.96</td>
+              <td>82.01</td>
+            </tr>
+          </table>
+          <figcaption style="white-space: nowrap">
+            How much minor metal is included in a smartphone, laptop PC, desktop
+            PC?(g)
+            <a
+              href="https://www.env.go.jp/council/former2013/03haiki/y0324-04/mat02a.pdf"
+              >References</a
+            ><br />
+            数値の算出方法：（年間の含有量）/（年間排出台数）の値を少数第3位で四捨五入
+          </figcaption>
+        </figure>
+
+        <!-- NoIndentは使いにくいので消します -->
+        <p class="no_indent">
+          <small>
+            * Metal resources are sometimes classified into three kinds, minor
+            metals, major metals, and precious metals. In this case, nine
+            elements including gold, silver, etc. are classified as precious
+            metals.
+          </small>
+        </p>
+
+        <h2 id="what-is-urban-mining">What is Urban Mining?</h2>
+        <p>
+          In 1988, Professor Michio Nanjo at the Research Institute of Mineral
+          Dressing and Metallurgy, Tohoku University, advocated the concept of
+          urban mining in order to solve resource problems and this is the theme
+          of this website.<span class="summary_link" id="s_0"></span> Urban mine
+          is defined as follows in Wikipedia: “An urban mine is the stockpile of
+          minor metals in the discarded waste electrical and electronic
+          equipment (WEEE) of a society. Urban mining is the process of
+          recovering these minor metals through mechanical and chemical
+          treatments.” Let’s learn about urban mining together with some
+          data.<span class="summary_link" id="s_3"></span> The graph below shows
+          the amount of
+          <span class="word"
+            ><span class="word_text" style="white-space: "
+              >primary resources</span
+            >
+            <span class="word_description_container">
+              <span class="word_description">
+                <span class="word_description_title">primary resources</span>
+                <span
+                  class="word_description_text"
+                  style="line-height: 1.5rem"
+                ></span>
+              </span>
+            </span>
+          </span>
+
+          <!--suppress HtmlUnknownAttribute -->
+          and
+          <span class="word"
+            ><span class="word_text" style="white-space: "
+              >secondary resources</span
+            >
+            <span class="word_description_container">
+              <span class="word_description">
+                <span class="word_description_title">secondary resources</span>
+                <span
+                  class="word_description_text"
+                  style="line-height: 1.5rem"
+                ></span>
+              </span>
+            </span>
+          </span>
+
+          <!--suppress HtmlUnknownAttribute -->
+          of some metals.
+        </p>
+        <div class="image_container">
+          <figure class="image_box" style="width: ; height: 40vw" id="">
+            <img
+              class="image"
+              src="../assets/jim/151.jpg"
+              alt=""
+              style="transform: scale()"
+            />
+            <div class="note">
+              The Japan Institute of Metals and Materials<a
+                class="href"
+                href="https://www.jim.or.jp/journal/j/pdf3/73/03/151.pdf"
+              ></a>
+            </div>
+            <figcaption class="image_caption">
+              The amount of Primary resource and Secondary resource
+            </figcaption>
+          </figure>
+        </div>
+
+        <p>
+          As you can see in this graph,
+          <span class="force_text"
+            >half of each metal resource is secondary resources, in other words,
+            already mined and on the ground</span
+          >. Therefore, it is very important to recover them, which are included
+          in small home appliances like cellphones.<br />Now, you will probably
+          feel that they are not garbage but
+          <span class="force_text">invaluable resources</span>. The amount of
+          small home appliances that are going to be thrown away is 5.74 million
+          tons and it is estimated to continue to increase.
+        </p>
+        <div class="image_container">
+          <figure class="image_box" style="width: ; height: 40vw" id="">
+            <img
+              class="image"
+              src="../assets/statista/1067081.png"
+              alt=""
+              style="transform: scale()"
+            />
+            <div class="note">
+              Statista<a
+                class="href"
+                href="https://www.statista.com/statistics/1067081/generation-electronic-waste-globally-forecast/"
+              ></a>
+            </div>
+            <figcaption class="image_caption">
+              Projected electronic waste generation worldwide from 2019 to 2030
+            </figcaption>
+          </figure>
+        </div>
+
+        <p>Urban mine means these beneficial metal resources!</p>
+        <h2 id="urban-mining-in-japan">Urban Mining in Japan</h2>
+        <blockquote class="quote">
+          <p>
+            Chipangu is an Island towards the east in the high seas, 1500 miles
+            distant from the Continent; and a very great Island it is. … You
+            must know that he hath a great Palace which is entirely roofed with
+            fine gold, just as our churches are roofed with lead, insomuch that
+            it would scarcely be possible to estimate its value. Moreover, all
+            the pavement of the Palace, and the floors of its chambers, are
+            entirely of gold, in plates like slabs of stone, a good two fingers
+            thick; and the windows also are of gold, so that altogether the
+            richness of this Palace is past all bounds and all belief.<br />
+            — Marco Polo<br /><br />
+            (Data Source:
+            <a
+              href="https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_3/Chapter_2"
+              >Wikisource, The Travels of Marco Polo</a
+            >)
+          </p>
+        </blockquote>
+
+        <p>
+          You cannot possibly believe this, but Japan used to be introduced like
+          this. Although It is not clear whether Japan was so full of gold,
+          Japan had enough gold, silver, copper and so on to export them.
+          Especially for copper, Japan produced it the most in the world from
+          the late 17th century to the early 18th century. Now, how about metal
+          resources in Japan? After the war, people began to trade more freely
+          and a lot of minerals got into the island. As a result, its
+          <span class="word"
+            ><span class="word_text" style="white-space: "
+              >self-sufficiency rate</span
+            >
+            <span class="word_description_container">
+              <span class="word_description">
+                <span class="word_description_title"
+                  >self-sufficiency rate</span
+                >
+                <span
+                  class="word_description_text"
+                  style="line-height: 1.5rem"
+                ></span>
+              </span>
+            </span>
+          </span>
+
+          <!--suppress HtmlUnknownAttribute -->
+          has been getting lower and lower.
+        </p>
+        <div class="image_container">
+          <figure class="image_box" style="width: ; height: 40vw" id="">
+            <img
+              class="image"
+              src="../assets/book/book_p17.png"
+              alt=""
+              style="transform: scale()"
+            />
+            <div class="note">
+              Book &#147;資源論&#148;<a class="href" href=""></a>
+            </div>
+            <figcaption class="image_caption"></figcaption>
+          </figure>
+        </div>
+
+        <p>
+          And now, Hishikari MIne is the only major mine that is working.
+          However,
+          <span class="force_text"
+            >Japan is rich enough in resources to yield to the other
+            countries</span
+          >! It had developed rapidly by importing a lot of metal resources from
+          overseas, exporting half of the products made of the resources. And
+          the other half is <span class="force_text">left on the island</span>.
+          These products make up most of the urban mines in Japan and they are
+          great metal resources of Japan. For example, as you can see in the
+          graph below, Japan has 10 percent of all the gold in the world. As for
+          silver, 23 percent of silver in the world is in Japan.<br />A
+          surprising number is reported not only about major metal but also
+          about minor metal.<br />Japan accounts for 22 percent of Antimony,
+          which is used for refrigerant material in refrigerators, air
+          conditioners and so on.<br />Japan has world-class reserves of other
+          metals. In addition,
+          <span class="force_text"
+            >gaps between countries that come from resource distribution can be
+            closed</span
+          >
+          by using urban mines. Moreover about Japan, it can play an important
+          role as
+          <span class="force_text"
+            >an insurance that says to the other countries Japan has enough
+            metal resources to support themselves without import</span
+          >. Considering these advantages,
+          <span class="force_text">Japan must make use of urban mines</span
+          >.<span class="summary_link" id="s_1"></span>
+        </p>
+        <div class="image_container">
+          <figure class="image_box" style="width: ; height: 40vw" id="">
+            <img
+              class="image"
+              src="../assets/susdi/img_618f76e3bd42e.png"
+              alt=""
+              style="transform: scale()"
+            />
+            <figcaption class="image_caption">
+              How much metal each country has?<br /><span class="lang_en"
+                >Data Source : </span
+              ><a
+                href="https://www.nims.go.jp/research/elements/rare-metal/study/index.html"
+                >National Institute for Materials Science, NIMS</a
+              >
+            </figcaption>
+          </figure>
+        </div>
+
+        <!--suppress ALL -->
+        <div class="atom_chara" style="width: 100%; margin: 50px 0">
+          <div class="atom_chara_icon">
+            <img
+              class="atom_chara_img"
+              src="../img/atom_chara/Y.png"
+              alt="イットリウム博士のアイコン"
+            />
+            <div class="atom_chara_name">イットリウム博士</div>
+          </div>
+          <div class="atom_chara_content">
+            <span
+              >Urban mining also has a good effect on carbon dioxide emissions
+              reduction and is related to SDGs 12th goals, &#147;Responsible
+              Consumption and production&#148;.</span
+            >
+          </div>
+        </div>
+
+        <!--suppress HtmlUnknownAttribute -->
+
+        <h2 id="illegal-urban-mining">Illegal Urban Mining</h2>
+        <span class="summary_link" id="s_5"></span>
+        People in developed countries
+        <span class="force_text"
+          >leave e-waste in garbage disposal plants in developing
+          countries</span
+        >
+        because recycling e-waste costs a lot following the idea of urban
+        mining. Of course, they cannot afford to recycle them, so they throw
+        away nearby rivers and sea garbage that do not turn into ash after
+        burning. <span class="force_text">This causes various issues</span>.
+        First, sulfur oxide and hydrocarbons produced when burning wastes are
+        more likely to cause chronic disability of the respiratory system and
+        sometimes blindness. Also, e-waste thrown away in rivers and oceans and
+        harmful substances such as lead and mercury are washed away by rain and
+        as a result people who drink the polluted water begin to suffer.<br />For
+        instance, children in Guiyu, Swatow, China, which has garbage disposal
+        plants, have higher blood concentration of lead. Probably because of
+        this, the local children tend to be stunted and the pregnant mothers are
+        six times as likely to have a miscarriage. There are more problems
+        affecting local people. E-waste includes a lot of iron, copper and
+        aluminum. These
+        <span class="word"
+          ><span class="word_text" style="white-space: ">major metals</span>
+          <span class="word_description_container">
+            <span class="word_description">
+              <span class="word_description_title">major metals</span>
+              <span
+                class="word_description_text"
+                style="line-height: 1.5rem"
+              ></span>
+            </span>
+          </span>
+        </span>
+
+        <!--suppress HtmlUnknownAttribute -->
+        are not very valuable in developed countries, but they are more valuable
+        in developing countries.<br />So, there are so many people looking for
+        e-waste to make a profit from them in disposal sites.
+        <span class="summary_link" id="s_6"></span> However,
+        <span class="force_text">this is very dangerous</span>. When they
+        destroy e-waste, harmful substances are generated and they are exposed
+        to the hazardous gas and substances. Major metal taken out in such a
+        dangerous situation is paid for up to a few dollars per day.<span
+          class="summary_link"
+          id="s_7"
+        ></span>
+        Moreover, such miners are composed mostly of
+        <span class="force_text">people under 20</span> who should have a bright
+        future. Developing countries cannot advance in this situation. Now, let
+        us look back.<span class="summary_link" id="s_4"></span> The fundamental
+        cause is that
+        <span class="force_text"
+          >developed countries including Japan have refused to manage their
+          waste and forced the work on developing countries</span
+        >! Our future will be brighter if you make better use of urban mines
+        although there are a lot of obstacles hard to get over.
+        <aside class="column">
+          <div class="column_title">Basel Convention</div>
+          <div class="column_content">
+            <p>
+              We mentioned the problems in developing countries caused by
+              imperfect e-waste management. Situations like this happened all
+              over the world and Organization for Economic Co-operation and
+              Development (OECD) and United Nations Environment Program (UNEP)
+              discussed this issue. As a result, Basel Convention was
+              concluded.<span class="summary_link" id="s_8"></span> It was
+              adopted in 1989 and came into effect in 1992. Basel Convention
+              says:
+            </p>
+            <ol>
+              <li>
+                It is banned to export or import harmful substances between
+                contracting countries and non-contracted countries.
+              </li>
+              <li>
+                When a country exports harmful substances, it must give advance
+                notice not only to an importing country but also to a transit
+                country.
+              </li>
+              <li>
+                When harmful substances are carried in a country, an exporter
+                country has to recover the present situation by, for example,
+                reimporting them.
+              </li>
+            </ol>
+            <p>
+              Japan joined the convention in 1992 and now as many as 189 nations
+              have taken part in it. Still, developing countries export e-waste
+              to developed countries, they cannot process the waste properly and
+              finally they release harmful materials in the environment.
+            </p>
+            <!--suppress ALL -->
+            <div class="atom_chara" style="width: 100%; margin: 50px 0">
+              <div class="atom_chara_icon">
+                <img
+                  class="atom_chara_img"
+                  src="../img/atom_chara/Sc.png"
+                  alt="スカンジウムおじさんのアイコン"
+                />
+                <div class="atom_chara_name">スカンジウムおじさん</div>
+              </div>
+              <div class="atom_chara_content">
+                <span
+                  >Recently, Basel Convention attracted attention because it was
+                  revised and not only hazardous substances but also hazardous
+                  plastics are subject to regulation.</span
+                >
+              </div>
+            </div>
+
+            <!--suppress HtmlUnknownAttribute -->
+          </div>
+        </aside>
+
+        <h2 id="summary-chart">Summary Chart</h2>
+        <div class="image_container">
+          <svg
+            viewBox="0, 0, 1500, 600"
+            style="width: 80vw; height: 30vw; margin: 5vh 0 5vh"
+          >
+            <use xlink:href="../svg/summary_illust/B.svg#main"></use>
+          </svg>
+        </div>
+
+        <p>
+          Can you make sure that urban mining is the key to many important
+          problems?
+        </p>
+        <h2 id="references">References</h2>
+        <ul>
+          <li>
+            『図解よくわかる「都市鉱山」開発』（原田幸明・醍醐市朗、日刊工業新聞社・2011年8月1日）
+          </li>
+          <li>
+            『資源論　メタル・石油埋蔵量の成長と枯渇』（西山孝、丸善出版・2016年4月12日）
+          </li>
+          <li>
+            『レア RARE 希少金属の知っておきたい16話』（キース
+            ベロニース　著・渡辺正　翻訳、化学同人・2016年3月10日）
+          </li>
+          <li>
+            『「金属」のキホン
+            (イチバンやさしい理工系)』（田中和明、SBクリエイティブ・2010年10月22日）
+          </li>
+          <li>
+            <a
+              href="https://asahi.gakujo.ne.jp/research/industry_topics/detail/id=253"
+              >あさがくナビ「レアアースとレアメタルの違い」</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.nims.go.jp/research/elements/rare-metal/study/index.html"
+              >NIMS「レアメタルの基礎知識」</a
+            >
+          </li>
+          <li>
+            <a
+              href="http://mric.jogmec.go.jp/public/report/2006-08/chapter2.pdf"
+              >我が国の銅の需給状況の歴史と変遷</a
+            >
+          </li>
+          <li>
+            <a href="https://www.afpbb.com/articles/-/3030185"
+              >AFPBB
+              News「中国「リサイクル産業の都」が払う電子ごみ処理の代償」</a
+            >
+          </li>
+          <li>
+            <a href="https://eleminist.com/article/688"
+              >ELEMINIST「2021年注目のバーゼル条約　脱プラスチックへ向けた改正内容を解説」</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_3/Chapter_2"
+              >Wikisource</a
+            >
+          </li>
+        </ul>
+        <div id="pn_bar">
+          <a href="../present-situation/" id="prev_link">
+            <div id="prev_text">Present Situation</div>
+            <button id="prev_button">Prev</button>
+          </a>
+
+          <a href="../problem/" id="next_link">
+            <div id="next_text">Problem</div>
+            <button id="next_button">Next</button>
+          </a>
+        </div>
+
         <div id="floating_menu">
           <!--suppress BadExpressionStatementJS -->
           <div id="toc">
             <div id="toc_title">目次</div>
 
-            <a class="toc_link_" href="#"> </a>
+            <a class="toc_link_h1" href="#significance-of-urban-mining">
+              Significance of Urban Mining
+            </a>
+            <a class="toc_link_h2" href="#minor-metal-and-major-metal">
+              Minor metal and Major metal
+            </a>
+            <a class="toc_link_h2" href="#what-is-urban-mining">
+              What is Urban Mining?
+            </a>
+            <a class="toc_link_h2" href="#urban-mining-in-japan">
+              Urban Mining in Japan
+            </a>
+            <a class="toc_link_h2" href="#illegal-urban-mining">
+              Illegal Urban Mining
+            </a>
+            <a class="toc_link_h2" href="#summary-chart"> Summary Chart </a>
+            <a class="toc_link_h2" href="#references"> References </a>
           </div>
 
           <!--suppress BadExpressionStatementJS --><button
@@ -1810,7 +2436,7 @@
                     document.getElementById("lang_en").style.display = "block"
                     document
                       .querySelectorAll(".lang_en")
-                      .forEach((el) => (el.style.display = "block"))
+                      .forEach((el) => (el.style.display = "initial"))
                     document.getElementById("lang_jp").style.display = "none"
                     document
                       .querySelectorAll(".lang_jp")
@@ -1826,7 +2452,7 @@
                     document.getElementById("lang_jp").style.display = "block"
                     document
                       .querySelectorAll(".lang_jp")
-                      .forEach((el) => (el.style.display = "block"))
+                      .forEach((el) => (el.style.display = "initial"))
                     sessionStorage.setItem("lang", "ja")
                     break
                 }
