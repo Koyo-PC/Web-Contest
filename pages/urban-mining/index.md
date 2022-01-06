@@ -159,7 +159,7 @@ note="書籍『資源論』をスキャン" height="40vw"></Image>
 例を挙げると、処分場がある中国・汕頭市の貴嶼の子どもたちは鉛の血中濃度が高く、おそらくそのためか発育阻害になりやすく、また現地の流産率も6倍に増えています。 現地の人への影響はそれだけにとどまりません。
 廃電子機器には多くの鉄や銅、アルミニウムが含まれています。 これらの<Word>メジャーメタル</Word>は先進国では価値が高くありませんが、途上国ではそれなりの価値を持ちます。
 そのため、それらを求めて廃品をあさり、利益を得ようとする人が処分場には群がっているのです。<SummaryLink>6</SummaryLink>
-しかし<ForceText>こうした行為は決して安全なものではありません。 <ForceText>廃棄物を破壊することで有害物質が出る上、当人も有害な蒸気や物質に触れます。
+しかし<ForceText>こうした行為は決して安全なものではありません。 </ForceText>廃棄物を破壊することで有害物質が出る上、当人も有害な蒸気や物質に触れます。
 そうした過酷な環境で手に入れたメジャーメタルを売っても一日当たり数ドルというのが関の山です。<SummaryLink>7</SummaryLink>
 そしてこういった人の多くが将来を担う<ForceText>十代以下の若者</ForceText>なのです。 こうした状況下では途上国の発展は望めません。 ここで振り返ってみてください。<SummaryLink>4</SummaryLink>
 このようになったそもそもの原因は私たち日本を含め<ForceText>先進国が国内のゴミの管理をきちんとせず、途上国に任せている</ForceText>ところにあるのです！
@@ -222,6 +222,231 @@ h2 参考文献
 
 </div>
 <div id="lang_en">
+
+# Significance of Urban Mining
+
+Urban mining is a key to resource problems. What is it like?
+
+## Minor metal and Major metal
+
+Why do so many people crave <Word>metal resources</Word>? That’s because it is indispensable for home appliances and cutting-edge technology. In this chapter, we would like to talk about those metal resources.
+We have used the word “metal resources" so far, but actually it is largely separated into two kinds. They are <Word>minor metal</Word> and <Word>major metal</Word>.
+Major metal is metal that is easy to refine and there exists a lot in the earth, although some elements are classified as major metal in spite of their rarity (six kinds such as gold, silver, etc).
+
+Have you ever heard of minor metal?
+Minor metal is elements that meet these standards:
+
+1. relatively less in the earth’s crust than other elements
+2. hard to take out from ore as simple substance
+3. unevenly distributed in the world
+
+Minor metal includes 47 elements such as lithium and chromium.
+
+<div class="image_container">
+<div style="position: relative; width: 100%; height: 50vw;">
+<div style="position: absolute; left: -10vw; width: calc(100% + 20vw); height: 100%;">
+    <Image src="../img/urban-mining/periodic_table.png"></Image>
+</div>
+</div>
+</div>
+
+Major metal is used for electric wire and cable and plating while minor metal is used for high technology like smartphones, superconducting material, shape memory alloys and metal hydride alloys.
+Minor metal is essential to our lives and called “vitamins of industry."
+
+We disassembled a feature phone and a smartphone.  You can check the experiment [here](../activity/disassembly.html).
+
+<figure class="table_figure">
+  <table>
+    <tr>
+      <th></th>
+      <th>Gold</th>
+      <th>Silver</th>
+      <th>Copper</th>
+      <th>Iron</th>
+      <th>Aluminum</th>
+    </tr>
+    <tr>
+      <td>Smartphone</td>
+      <td>0.04</td>
+      <td>0.23</td>
+      <td>10.82</td>
+      <td>1.17</td>
+      <td>0.64</td>
+    </tr>
+    <tr>
+      <td>Laptop PC</td>
+      <td>0.27</td>
+      <td>0.31</td>
+      <td>59.25</td>
+      <td>13.26</td>
+      <td>7.34</td>
+    </tr>
+    <tr>
+      <td>desktop PC</td>
+      <td>0.36</td>
+      <td>0.93</td>
+      <td>344.43</td>
+      <td>22.96</td>
+      <td>82.01</td>
+    </tr>
+  </table>
+    <figcaption style="white-space: nowrap;">
+        How much minor metal is included in a smartphone, laptop PC, desktop PC?(g) <a href="https://www.env.go.jp/council/former2013/03haiki/y0324-04/mat02a.pdf">References</a><br>
+        数値の算出方法：（年間の含有量）/（年間排出台数）の値を少数第3位で四捨五入
+    </figcaption>
+</figure>
+
+<NoIndent>
+<small>
+* Metal resources are sometimes classified into three kinds, minor metals, major metals, and   precious metals. In this case, nine elements including gold, silver, etc. are classified as precious  metals.
+</small>
+</NoIndent>
+
+## What is Urban Mining?
+
+In 1988, Professor Michio Nanjo at the Research Institute of Mineral Dressing and Metallurgy, Tohoku University, advocated the concept of urban mining in order to solve resource problems and this is the theme of this website.<SummaryLink>0</SummaryLink>
+Urban mine is defined as follows in Wikipedia: “An urban mine is the stockpile of minor metals in the discarded waste electrical and electronic equipment (WEEE) of a society. Urban mining is the process of recovering these minor metals through mechanical and chemical treatments.”
+Let’s learn about urban mining together with some data.<SummaryLink>3</SummaryLink>
+The graph below shows the amount of <Word>primary resources</Word> and <Word>secondary resources</Word> of some metals.
+
+
+<div class="image_container">
+    <Image src="../assets/jim/151.jpg" height="40vw" caption="The amount of Primary resource and Secondary resource" note="The Japan Institute of Metals and Materials" href="https://www.jim.or.jp/journal/j/pdf3/73/03/151.pdf"></Image>
+</div>
+
+As you can see in this graph, <ForceText>half of each metal resource is secondary resources, in other words, already mined and on the ground</ForceText>.
+Therefore, it is very important to recover them, which are included in small home appliances like cellphones.  
+Now, you will probably feel that they are not garbage but <ForceText>invaluable resources</ForceText>.
+The amount of small home appliances that are going to be thrown away is 5.74 million tons and it is estimated to continue to increase.
+
+<div class="image_container">
+    <Image src="../assets/statista/1067081.png" caption="Projected electronic waste generation worldwide from 2019 to 2030" height="40vw" note="Statista" href="https://www.statista.com/statistics/1067081/generation-electronic-waste-globally-forecast/"></Image>
+</div>
+
+Urban mine means these beneficial metal resources!
+
+## Urban Mining in Japan
+
+<Quote>
+Chipangu is an Island towards the east in the high seas, 1500 miles distant from the Continent;
+and a very great Island it is. … 
+You must know that he hath a great Palace which is entirely roofed with fine gold, just as our churches are roofed with lead, insomuch that it would scarcely be possible to estimate its value.
+Moreover, all the pavement of the Palace, and the floors of its chambers, are entirely of gold, in plates like slabs of stone, a good two fingers thick;
+and the windows also are of gold, so that altogether the richness of this Palace is past all bounds and all belief.<br>
+— Marco Polo<br><br>
+(Data Source: <a href="https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_3/Chapter_2">Wikisource, The Travels of Marco Polo</a>)
+</Quote>
+
+You cannot possibly believe this, but Japan used to be introduced like this.
+Although It is not clear whether Japan was so full of gold, Japan had enough gold, silver, copper and so on to export them.
+Especially for copper, Japan produced it the most in the world from the late 17th century to the early 18th century.
+Now, how about metal resources in Japan?
+After the war, people began to trade more freely and a lot of minerals got into the island.
+As a result, its <Word>self-sufficiency rate</Word> has been getting lower and lower.
+
+<div class="image_container">
+    <Image src="../assets/book/book_p17.png"
+note="Book &#147;資源論&#148;" height="40vw"></Image>
+</div>
+
+And now, Hishikari MIne is the only major mine that is working.
+However, <ForceText>Japan is rich enough in resources to yield to the other countries</ForceText>!
+It had developed rapidly by importing a lot of metal resources from overseas, exporting half of the products made of the resources.
+And the other half is <ForceText>left on the island</ForceText>.
+These products make up most of the urban mines in Japan and they are great metal resources of Japan.
+For example, as you can see in the graph below, Japan has 10 percent of all the gold in the world.
+As for silver, 23 percent of silver in the world is in Japan.  
+A surprising number is reported not only about major metal but also about minor metal.  
+Japan accounts for 22 percent of Antimony, which is used for refrigerant material in refrigerators, air conditioners and so on.  
+Japan has world-class reserves of other metals. 
+In addition, <ForceText>gaps between countries that come from resource distribution can be closed</ForceText> by using urban mines.
+Moreover about Japan, it can play an important role as <ForceText>an insurance that says to the other countries Japan has enough metal resources to support themselves without import</ForceText>. 
+Considering these advantages, <ForceText>Japan must make use of urban mines</ForceText>.<SummaryLink>1</SummaryLink>
+
+<div class="image_container">
+    <CaptionImage src="../assets/susdi/img_618f76e3bd42e.png" caption="How much metal each country has?" source="National Institute for Materials Science, NIMS" link="https://www.nims.go.jp/research/elements/rare-metal/study/index.html" height="40vw"></CaptionImage>
+</div>
+
+<AtomCharacter atom="Y">
+Urban mining also has a good effect on carbon dioxide emissions reduction and is related to SDGs 12th goals, &#147;Responsible Consumption and production&#148;.
+</AtomCharacter>
+
+## Illegal Urban Mining
+
+<SummaryLink>5</SummaryLink>
+People in developed countries <ForceText>leave e-waste in garbage disposal plants in developing countries</ForceText> because recycling  e-waste costs a lot following the idea of urban mining.
+Of course, they cannot afford to recycle them, so they throw away nearby rivers and sea garbage that do not turn into ash after burning.
+<ForceText>This causes various issues</ForceText>.
+First, sulfur oxide and hydrocarbons produced when burning wastes are more likely to cause chronic disability of the respiratory system and sometimes blindness. 
+Also, e-waste thrown away in rivers and oceans and harmful substances such as lead and mercury are washed away by rain and as a result people who drink the polluted water begin to suffer.  
+For instance, children in Guiyu, Swatow, China, which has garbage disposal plants, have higher blood concentration of lead.
+Probably because of this, the local children tend to be stunted and the pregnant mothers are six times as likely to have a miscarriage.
+There are more problems affecting local people. 
+E-waste includes a lot of iron, copper and aluminum.
+These <Word>major metals</Word> are not very valuable in developed countries, but they are more valuable in developing countries.  
+So, there are so many people looking for e-waste to make a profit from them in disposal sites. <SummaryLink>6</SummaryLink>
+However, <ForceText>this is very dangerous</ForceText>. 
+When they destroy e-waste, harmful substances are generated and they are exposed to the hazardous gas and substances.
+Major metal taken out in such a dangerous situation is paid for up to a few dollars per day.<SummaryLink>7</SummaryLink>
+Moreover, such miners are composed mostly of <ForceText>people under 20</ForceText> who should have a bright future. 
+Developing countries cannot advance in this situation. 
+Now, let us look back.<SummaryLink>4</SummaryLink>
+The fundamental cause is that <ForceText>developed countries including Japan have refused to manage their waste and forced the work on developing countries</ForceText>!
+Our future will be brighter if you make better use of urban mines although there are a lot of obstacles hard to get over.
+
+<Column title="Basel Convention">
+
+We mentioned the problems in developing countries caused by imperfect e-waste management.
+Situations like this happened all over the world and Organization for Economic Co-operation and Development (OECD) and United Nations Environment Program (UNEP) discussed this issue. 
+As a result, Basel Convention was concluded.<SummaryLink>8</SummaryLink>
+It was adopted in 1989 and came into effect in 1992. 
+Basel Convention says:
+
+1. It is banned to export or import harmful substances between contracting countries and non-contracted countries.
+2. When a country exports harmful substances, it must give advance notice not only  to an importing country but also to a transit country.
+3. When harmful substances are carried in a country, an exporter country has to recover the present situation by, for example, reimporting them.
+
+
+Japan joined the convention in 1992 and now as many as 189 nations have taken part in it.
+Still, developing countries export e-waste to developed countries, they cannot process the waste properly and finally they release harmful materials in the environment.
+
+<AtomCharacter atom="Sc">
+Recently, Basel Convention attracted attention because it was revised and not only hazardous substances but also hazardous plastics are subject to regulation.
+</AtomCharacter>
+
+</Column>
+
+## Summary Chart
+
+<div class="image_container">
+  <svg viewBox="0, 0, 1500, 600" style="width:80vw; height:30vw; margin: 5vh 0 5vh;">
+    <use xlink:href="../svg/summary_illust/B.svg#main"></use>
+  </svg>
+</div>
+
+Can you make sure that urban mining is the key to many important problems?
+
+## References
+
+- 『図解よくわかる「都市鉱山」開発』（原田幸明・醍醐市朗、日刊工業新聞社・2011年8月1日）
+- 『資源論　メタル・石油埋蔵量の成長と枯渇』（西山孝、丸善出版・2016年4月12日）
+- 『レア RARE 希少金属の知っておきたい16話』（キース ベロニース　著・渡辺正　翻訳、化学同人・2016年3月10日）
+- 『「金属」のキホン (イチバンやさしい理工系)』（田中和明、SBクリエイティブ・2010年10月22日）
+- [あさがくナビ「レアアースとレアメタルの違い」](https://asahi.gakujo.ne.jp/research/industry_topics/detail/id=253)
+- [NIMS「レアメタルの基礎知識」](https://www.nims.go.jp/research/elements/rare-metal/study/index.html)
+- [我が国の銅の需給状況の歴史と変遷](http://mric.jogmec.go.jp/public/report/2006-08/chapter2.pdf)
+- [AFPBB News「中国「リサイクル産業の都」が払う電子ごみ処理の代償」](https://www.afpbb.com/articles/-/3030185)
+- [ELEMINIST「2021年注目のバーゼル条約　脱プラスチックへ向けた改正内容を解説」](https://eleminist.com/article/688)
+- [Wikisource](https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_3/Chapter_2)
+
+<PNBar prev="../present-situation/" next="../problem/" prev_text="Present Situation" next_text="Problem"></PNBar>
 <FloatingMenu>
+h1 Significance of Urban Mining
+h2 Minor metal and Major metal
+h2 What is Urban Mining?
+h2 Urban Mining in Japan
+h2 Illegal Urban Mining
+h2 Summary Chart
+h2 References
 </FloatingMenu>
 </div>

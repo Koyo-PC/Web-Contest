@@ -1,0 +1,35 @@
+<figure class="image_box" style="width: {{width}}; height: {{height}};" id="{{ id }}">
+  <img class="image" src="{{ src }}" alt="{{ alt }}" style="transform: scale({{scale}})"/>
+  <figcaption class="image_caption">{{ caption }}<br><span class="lang_en">Data Source : </span><a href="{{link}}">{{source}}</a></figcaption>
+</figure>
+<style>
+  .image_box {
+    display: inline-block;
+    position: relative;
+    /*width: 100%;*/
+    margin-bottom: 3em;
+  }
+
+  .image {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+  }
+
+  .image_caption {
+    display: block;
+    width: 100%;
+    text-align: center;
+    vertical-align: bottom;
+    line-height: 1.2em;
+  }
+</style>
+<script scml>
+    // noinspection BadExpressionStatementJS
+    (buildInfo, options) => {
+        return {
+            "style": "style=\"height: " + options["height"] + "\"; transform",
+        };
+    }
+</script>
