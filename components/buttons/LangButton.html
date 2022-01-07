@@ -9,6 +9,8 @@
                   document.querySelectorAll(".lang_en").forEach(el => el.style.display = "initial");
                   document.getElementById("lang_jp").style.display = "none";
                   document.querySelectorAll(".lang_jp").forEach(el => el.style.display = "none");
+                  document.title = "[[title_en]]";
+                  document.documentElement.lang = "en";
                   sessionStorage.setItem('lang', "en");
                   break;
               case "ja":
@@ -17,6 +19,8 @@
                   document.querySelectorAll(".lang_en").forEach(el => el.style.display = "none");
                   document.getElementById("lang_jp").style.display = "block";
                   document.querySelectorAll(".lang_jp").forEach(el => el.style.display = "initial");
+                  document.title = "[[title_ja]]";
+                  document.documentElement.lang = "ja";
                   sessionStorage.setItem('lang', "ja");
                   break;
           }
@@ -49,6 +53,14 @@
       window.onload = () => setLang(sessionStorage.getItem('lang'));
   </script>
 </button>
+<script scml>
+    (buildInfo, option) => {
+        return {
+            "title_en": (buildInfo.fileEnv["TITLE_EN"] ?? buildInfo.fileEnv["TITLE"]) + " | In search of resources in your right pocket",
+            "title_ja": buildInfo.fileEnv["TITLE"] + " | 右ポケットの中の資源を求めて",
+        };
+    }
+</script>
 <style>
   #lang_button {
     background-color: whitesmoke;

@@ -1,4 +1,5 @@
 [//SCML_TITLE]: # (課題)
+[//SCML_TITLE_EN]: # (Problem)
 
 <div id="lang_jp">
 
@@ -43,7 +44,7 @@
 
 「回収率の低さ」問題を無事にクリアして、たくさんの使用済み家電が手に入ったとしましょう。
 さあ早速リサイクルだ！と言いたいところなのですが、実はそのリサイクル自体にも課題があるのです。
-<SummaryLink>?</SummaryLink>使用済み家電をリサイクルして資源にするのに<ForceText>手解体や粉砕、選別などさまざまな工程を踏まなければなりません。</ForceText>
+<SummaryLink>1</SummaryLink>使用済み家電をリサイクルして資源にするのに<ForceText>手解体や粉砕、選別などさまざまな工程を踏まなければなりません。</ForceText>
 特に手解体には基盤を取り出す作業があり、また、リサイクルに運ばれてくる携帯電話の種類はバラバラなので<ForceText>多くの人手を要します。</ForceText>
 手解体の工程に機械を導入するという話もありますが、携帯電話はいろいろな種類がある上、情報保護のため分解しづらく設計されていることが多いのでどうしても人の手が必要なのです。
 また、手解体をせずにそのまま精錬工場に送られる場合もありますが、それだと処理にかかる費用が増えてしまいます。
@@ -193,6 +194,203 @@ h2 参考文献
 
 </div>
 <div id="lang_en">
+
+# Problem
+
+Urban mining makes a lot of profit, but there are still many obstacles.
+
+## Low Collection Rate
+
+If you read [&#147;Present Situation&#148;](../present-situation/) and [&#147;Urban Mining&#148](../urban-mining/);, you should understand how important urban mining is.
+<SummaryLink>0</SummaryLink>However, <ForceText>collecting on the idea of urban mining is not so active</ForceText> in Japan.
+In fact, Japan set a goal to collect 140 thousand tons of small home appliances by 2018, but they could not achieve.
+
+<div class="image_container">
+    <CaptionImage src="../assets/meti/20200807_01.png" height="40vw" link="https://www.env.go.jp/press/files/jp/114485.pdf" source="環境省" caption="How much home appliances were collected in a year?"></CaptionImage>
+</div>
+
+One of the reasons for this is <ForceText>lack of name recognition</ForceText>.
+In [our survey at school](../activity/questionnaire.html), 35.2% of the students answered that they knew "a lot" or "a little" about urban mines.
+We realized that urban mining is still not widely known.
+It is hard to deny that this is due to the lack of promotion by the government and municipalities.
+They need to spread the word urban mining through various media and events.
+Some people do not recycle their old cell phones because they are worried about <ForceText>their personal information being leaked</ForceText> or they want to <ForceText>keep their photos as memories</ForceText>.
+However, they do not have to worry about leaking personal information, as strict measures are taken in the collection process.
+You can also preserve your memories by transferring the data to your current PC or other devices, or by storing them in your cloud.
+For these reasons, you should actively recycle e-waste left in your house.
+
+<AtomCharacter atom="Pt">
+Your memories in your mind will never be lost.
+</AtomCharacter>
+
+Japan, which has imported many metals from overseas, has abundant <Word>metal resources</Word>.
+Antimony, in particular, accounts for about 20% of the world's reserves, and gold for more than 10%, which is too much to ignore as potential resources.
+However, <ForceText>not all of these resources can be recycled</ForceText>.
+Of these resources, those that are managed and stored properly can be recycled, but those that are not, such as those that have been buried in landfills, are difficult to recycle and are not recycled very often.
+And these resources that are difficult to recycle account for most of the resources in Japan.
+In short, in its current state, <ForceText>Japan can only recover a part of the domestic resources</ForceText> however hard it tries.
+How to reduce the amount of resources that are not managed and are difficult to recycle is going to be an issue in the future.
+
+## Cost Problem
+
+Suppose you have successfully overcome the "low collection rate" problem and get a lot of used appliances.
+You would like to say, "Let's recycle!" but actually recycling itself has its own problems.
+<SummaryLink>1</SummaryLink>In order to recycle used home appliances and turn them into resources, <ForceText>various processes such as manual dismantling, crushing, and sorting must be done</ForceText>.
+In particular, manual dismantling involves taking out the base, and also <ForceText>requires a lot of labor</ForceText> because many different types of cell phones are brought for recycling.
+Some people have talked about introducing machines to the manual disassembly process, but since there are many different types of cell phones and they are often designed to be difficult to disassemble to protect information, manual labor is necessary.
+In some cases, the e-waste is sent directly to a refinery without manual dismantling, but this increases the cost of processing.
+In addition, a lot of energy is consumed in crushing and sorting, which makes recycling very expensive.
+On the other hand, used home appliances include many kinds of metals, but <ForceText>each of them is a very small volume</ForceText>.
+As a result, considering the price of metals extracted from used home appliances and the cost of recycling, it is difficult to make a profit from recycling, and the number of companies engaging in urban mining is not increasing rapidly.
+In order to spread the use of urban mines, this "cost problem" has to be solved.
+
+## Risk of Recycling
+
+In the idea of urban mining, <Word>minor metals</Word> and <Word>base metals</Word> included in waste electronic equipment are regarded as resources.
+However, waste electronics are not only made of minor metals and base metals.
+<SummaryLink>3</SummaryLink>In fact, <ForceText>the majority of the components of waste electronics are made up of plastic</ForceText>.
+
+<div class="image_container">
+    <CaptionImage src="../assets/susdi/40dcbe9d88c96297b642179a653642d8.jpg"
+        caption="What is a cell phone made of?"
+        source="SusDI"
+        href="http://susdi.org/wp/data/post-38/"
+        height="40vw"
+    ></CaptionImage>
+</div>
+
+This plastic causes a big problem in recycling.
+The global average recycling rate of plastic is low at 9%, and most of it is disposed of as waste or <Word>thermal recycling</Word>.
+It costs a lot of money to process them as waste, and thermal recycling is not recommended due to concerns about the emission of exhaust gas and carcinogens.
+In other words, <ForceText>recycling produces far more waste than useful metals, and also fails to properly use it</ForceText>.
+<SummaryLink>5</SummaryLink>In addition, <ForceText>recycling may generate hazardous substances</ForceText>.
+This is caused by harmful substances in e-waste (For example, mercury paste, which is harmful to the human body, was used to bond the CPU cooling plates of early PCs).
+These toxic substances are polluting the environment as well as disposal sites in developing countries.
+You need to develop technologies to make toxic substances stable.
+
+<Column title="The Horror of Harmful Substances">
+
+# Overseas
+
+When harmful substances travel across borders, the discussion develops into an international issue.
+In this article, we would like to talk about two famous international problems, <Word>Seveso disaster</Word> and <Word>Coco Incident</Word>.
+Although these two incidents are not directly related to metal recycling, you cannot conclude that the same thing will not happen in metal recycling.
+In fact, the <Word>Basel Convention</Word>, introduced in the section "[Significance of Urban Mining](../urban-mining/)," was concluded mainly because of these two incidents.
+
+## <SummaryLink>6</SummaryLink>Seveso disaster
+
+The Seveso disaster, as the name suggests, was caused by an accident at a pesticide factory in a place called Seveso, Italy.
+In this incident, one of the hazardous substances, tetrachlorodibenzo-p dioxin (TCDD), rained down on a vast area and was left.
+As a result, 1,800 hectares of land were contaminated, 220,000 people suffered from cancer, chronic dermatitis, neurological disorders, and deformed babies, and 80,000 livestock were killed.
+This tremendous damage is not the end of the Seveso disaster.  Later, a Swiss TV program revealed that some of the contaminated soil that was supposed to be sealed and stored in drums had been lost.
+In May of the next year, <ForceText>this contaminated soil was discovered in a small village in northern France called Anguilcourt-le-Sart</ForceText>.
+This incident raised the issue of the movement of hazardous substances across borders, and the Seveso Directive was issued by the EC ( forerunner of the EU), which called for regulations to reduce the pollution of hazardous substances and protect the safety of people.
+
+## <SummaryLink>7</SummaryLink>Coco Incident
+
+Twelve years after this Seveso incident, the Coco incident occurred.
+It was discovered that two companies in Italy were <Word>illegally disposing of hazardous waste</Word>, including polychlorinated biphenyl (PCB), at the Coco Port in Nigeria and developed into a diplomatic issue.
+The issue quickly became the target of protests of environmental groups, dozens of haulers were arrested, and on July 30, 1988, Italy tried to collect the waste on its own, load it on a ship, and move it to Europe.
+However, because of the strong opposition by the residents, they were not accepted in Italy, and other Western countries (France, England, Spain, West Germany, the Netherlands, etc.) refused to allow them to enter the country one after another, and for 33 days they wandered the high seas.
+One of the ships was named Karin B, so this incident is also known as the Karin B incident.
+In May 1988, the Organization of African Unity (OAU) banned all disposal of hazardous substances on the African continent, and stated that "the disposal of nuclear and industrial waste in Africa is a crime against the African people."
+
+<GoogleMap>
+https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8186223.336336996!2d1.2456114507078508!3d47.556733334363244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478696283ee17e55%3A0xc4b4a85a4124c95c!2z44Kk44K_44Oq44KiIOOAkjIwODIyIOODouODs-ODhOOCoeODu-OCqOODu-ODluODquOCouODs-ODhOOCoeecjCDjgrvjg7zjg7Tjgqfjgr4!5e0!3m2!1sja!2sjp!4v1636443227892!5m2!1sja!2sjp
+</GoogleMap>
+<GoogleMap>
+https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6856498.339931489!2d7.280335446482338!3d7.426473210716168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sja!2sjp!4v1637262793815!5m2!1sja!2sjp
+</GoogleMap>
+
+# Japan
+
+## <SummaryLink>8</SummaryLink>Teshima Incident
+
+There are places in Japan that had problems with harmful substances caused by illegal disposal.
+One of them is  Teshima in Kagawa Prefecture.
+The <Word>Teshima Incident</Word>, an incident that took place in Teshima is famous as one of the largest illegal waste disposal problems in Japan, and is one of the main reasons why the <Word>Automobile Recycling Law</Word> was introduced.
+The place where the illegally deposited waste was brought to is called Mizugaura in Teshima.
+Various items, including industrial waste such as waste oil, sludge and <Word>shredder dust</Word>, were illegally brought there for processing.
+This resulted in the daily emission of black smoke generated when burning the waste, which polluted the land and caused health problems for the residents.
+To be specific, the rate of asthma in children is about 10 times as high as the national average.
+The illegal disposal, which began in 1978, ended when the owners of Teshima Kanko were arrested and prosecuted in 1991 by the Himeji Coast Guard in Hyogo Prefecture.
+<br>
+In fact, before this incident in Teshima was found out, Kagawa Prefecture had conducted over 100 spot checks on the processor.
+In other words, the administration was aware of the incident, but was unable to stop it.
+Why haven't they been able to stop illegal dumping by illegal companies for more than 10 years?
+The reason for this lies in <ForceText>the difference in perception of industrial waste</ForceText>.
+Residents regarded the industrial waste as waste, while the processor insisted that it was valuable, because it contained useful metals.
+The <Word>Waste Management and Public Cleansing Law</Word>, which was applied at that time, did not define the border between waste and valuable resources.
+So, it was difficult to determine what the processor meant by valuable resources.
+<br>
+The waste illegally brought to Teshima will not be completely removed until 2019.
+The influence of this incident lasted for <ForceText>over 40 years</ForceText>.
+The incident finally ended after the residents were made to pay a great sacrifice.
+
+<GoogleMap>
+https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d230387.94422895205!2d133.9926142404176!3d34.40397150235785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3553f365af080a75%3A0x8bf88590a33161b1!2z6LGK5bO2!5e0!3m2!1sja!2sjp!4v1637262967813!5m2!1sja!2sjp
+</GoogleMap>
+
+Do you understand the horror of hazardous substances?
+
+<ForceText>They are also generated in metal recycling.</ForceText>
+That is why the proper processing of hazardous substances generated by recycling is a very important issue.
+</Column>
+
+
+## Low Grade
+
+Some of you may be thinking, "What is <Word>dignity</Word> in the first place?"
+The grade means the amount of useful elements contained in ore.
+You can think of it as the same thing as the word "content."
+The higher the grade, the more useful metals can be taken out from the same amount of ore.
+And this grade is the major problem that urban mining faces when it comes to recycling.
+<SummaryLink>2</SummaryLink>This is because <ForceText>the grade is lower than that of natural mines, so it loses in competition with natural mines</ForceText>.
+Some people may think, "Isn't it rather high grade to have all kinds of metals jammed into a phone or computer?"
+The idea is right.
+It is certainly true that <ForceText>the grade of each product is higher than that of a natural mine</ForceText>.
+However, one of the major differences between urban mines and natural mines is that natural mines are gathered in one place, while urban mines have their products scattered around each household.
+<span class="sorry">下とくっついたんかな?</span>
+This is why the grade of each product is high, but <ForceText>the grade of the products as a whole is low</ForceText>.
+Increasing the collection rate is a problem that must be solved, not only in order to increase the amount of waste for recycling, but also in order to be able to compete in the market with natural mines.
+The key to solving this low grade is how to ease the distribution.
+
+## Summary Chart
+
+<div class="image_container">
+  <svg viewBox="0, 0, 1200, 700" style="width:80vw; height:40vw; margin: 5vh 0 5vh;">
+    <use xlink:href="../svg/summary_illust/C.svg#main"></use>
+  </svg>
+</div>
+
+
+Urban mining involves a lot of issues….
+You can understand that it is not easy to make progress.
+
+## References
+
+- 『図解よくわかる「都市鉱山」開発』（原田幸明・醍醐市朗、日刊工業新聞社・2011年8月1日）
+- [PRTIMES「スマホのリサイクル回収率は17％。都市鉱山スマホを再資源化へ」](https://prtimes.jp/main/html/rd/p/000000006.000070388.html)
+- [三井住友フィナンシャルグループ「「都市鉱山」に眠るレアメタルの資源化に向けて」](https://www.smfg.co.jp/sustainability/report/topics/detail084.html)
+- [NIMS「都市鉱山関係データ」](https://www.nims.go.jp/genso/data/urban_mine.html)
+- [「都市鉱山の蓄積量推定」に関する Q&A](https://www.nims.go.jp/research/elements/rare-metal/urban-mine/0ej0070000002ym4-att/urban-mine_qa.pdf)
+- [petpedia「41 Eye-Opening Recycling Statistics」](https://petpedia.co/recycling-statistics/)
+- [イタリア・セベソの化学工場での爆発](http://www.shippai.org/fkd/hf/HC0300002.pdf)
+- [環境用語「セベソ事件」](https://www.eic.or.jp/ecoterm/index.php?act=view&serial=1543)
+- [The New York Times「Toxic Waste Boomerang: Ciao Italy!」](https://www.nytimes.com/1988/09/03/world/toxic-waste-boomerang-ciao-italy.html)
+- [The Washington Post「AFTER DUMPING ON NIGERIA, ITALY TAKES IT ALL BACK」](https://www.washingtonpost.com/archive/politics/1988/09/04/after-dumping-on-nigeria-italy-takes-it-all-back/349505f5-f0ca-4364-9563-3d1f9d48125f/)
+- [ecoo「豊島事件が残した課題」](https://www.re-ver.co.jp/magazine/pdf/ecooVOL25.pdf)
+- [E-VALUE「豊島の不法投棄問題を振り返る」](https://www.env-value.co.jp/columns/press57/)
+
+<PNBar prev="../urban-mining/" next="../measure/" prev_text="Significance of Urban Mining" next_text="Measure"></PNBar>
 <FloatingMenu>
+h1 Problem
+h2 Low Collection Rate
+h2 Cost Problem
+h2 Risk of Recycling
+h2 Low Grade
+h2 Summary Chart
+h2 References
 </FloatingMenu>
+
 </div>
