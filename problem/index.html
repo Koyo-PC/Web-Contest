@@ -358,6 +358,28 @@
         border: calc(var(--size) / 2) solid transparent;
         border-right: calc(var(--size) / 2) solid var(--color);
       }
+      .image_box {
+        display: inline-block;
+        position: relative;
+        /*width: 100%;*/
+        margin-bottom: 3em;
+      }
+
+      .image {
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+        margin: 0 auto;
+      }
+
+      .image_caption {
+        display: block;
+        width: 100%;
+        text-align: center;
+        vertical-align: bottom;
+        line-height: 1.2em;
+        padding-top: 0.5em;
+      }
       .force_text {
         color: #000;
         /*font-weight: bold;*/
@@ -1217,7 +1239,7 @@
         <p>
           「回収率の低さ」問題を無事にクリアして、たくさんの使用済み家電が手に入ったとしましょう。
           さあ早速リサイクルだ！と言いたいところなのですが、実はそのリサイクル自体にも課題があるのです。
-          <span class="summary_link" id="s_?"></span
+          <span class="summary_link" id="s_1"></span
           >使用済み家電をリサイクルして資源にするのに<span class="force_text"
             >手解体や粉砕、選別などさまざまな工程を踏まなければなりません。</span
           >
@@ -1691,6 +1713,9 @@
                     document
                       .querySelectorAll(".lang_jp")
                       .forEach((el) => (el.style.display = "none"))
+                    document.title =
+                      "Problem | In search of resources in your right pocket"
+                    document.documentElement.lang = "en"
                     sessionStorage.setItem("lang", "en")
                     break
                   case "ja":
@@ -1703,6 +1728,8 @@
                     document
                       .querySelectorAll(".lang_jp")
                       .forEach((el) => (el.style.display = "initial"))
+                    document.title = "課題 | 右ポケットの中の資源を求めて"
+                    document.documentElement.lang = "ja"
                     sessionStorage.setItem("lang", "ja")
                     break
                 }
@@ -1742,12 +1769,668 @@
         </div>
       </div>
       <div id="lang_en">
+        <h1 id="problem">Problem</h1>
+        <p>
+          Urban mining makes a lot of profit, but there are still many
+          obstacles.
+        </p>
+        <h2 id="low-collection-rate">Low Collection Rate</h2>
+        <p>
+          If you read
+          <a href="../present-situation/">&#147;Present Situation&#148;</a> and
+          <a href="../urban-mining/">&#147;Urban Mining&amp;#148</a>;, you
+          should understand how important urban mining is.
+          <span class="summary_link" id="s_0"></span>However,
+          <span class="force_text"
+            >collecting on the idea of urban mining is not so active</span
+          >
+          in Japan. In fact, Japan set a goal to collect 140 thousand tons of
+          small home appliances by 2018, but they could not achieve.
+        </p>
+        <div class="image_container">
+          <figure class="image_box" style="width: ; height: 40vw" id="">
+            <img
+              class="image"
+              src="../assets/meti/20200807_01.png"
+              alt=""
+              style="transform: scale()"
+            />
+            <figcaption class="image_caption">
+              How much home appliances were collected in a year?<span
+                style="display: initial"
+                ><br /><span class="lang_en">Data Source : </span
+                ><a href="https://www.env.go.jp/press/files/jp/114485.pdf"
+                  >環境省</a
+                ><span class="lang_jp">より引用</span></span
+              >
+            </figcaption>
+          </figure>
+        </div>
+
+        <p>
+          One of the reasons for this is
+          <span class="force_text">lack of name recognition</span>. In
+          <a href="../activity/questionnaire.html">our survey at school</a>,
+          35.2% of the students answered that they knew &quot;a lot&quot; or
+          &quot;a little&quot; about urban mines. We realized that urban mining
+          is still not widely known. It is hard to deny that this is due to the
+          lack of promotion by the government and municipalities. They need to
+          spread the word urban mining through various media and events. Some
+          people do not recycle their old cell phones because they are worried
+          about
+          <span class="force_text"
+            >their personal information being leaked</span
+          >
+          or they want to
+          <span class="force_text">keep their photos as memories</span>.
+          However, they do not have to worry about leaking personal information,
+          as strict measures are taken in the collection process. You can also
+          preserve your memories by transferring the data to your current PC or
+          other devices, or by storing them in your cloud. For these reasons,
+          you should actively recycle e-waste left in your house.
+        </p>
+        <!--suppress ALL -->
+        <div class="atom_chara" style="width: 100%; margin: 50px 0">
+          <div class="atom_chara_icon">
+            <img
+              class="atom_chara_img"
+              src="../img/atom_chara/Pt.png"
+              alt="プラチナルシストのアイコン"
+            />
+            <div class="atom_chara_name">プラチナルシスト</div>
+          </div>
+          <div class="atom_chara_content">
+            <span>Your memories in your mind will never be lost.</span>
+          </div>
+        </div>
+
+        <!--suppress HtmlUnknownAttribute -->
+
+        <p>
+          Japan, which has imported many metals from overseas, has abundant
+          <span class="word"
+            ><span class="word_text" style="white-space: "
+              >metal resources</span
+            >
+            <span class="word_description_container">
+              <span class="word_description">
+                <span class="word_description_title">metal resources</span>
+                <span
+                  class="word_description_text"
+                  style="line-height: 1.5rem"
+                ></span>
+              </span>
+            </span>
+          </span>
+
+          <!--suppress HtmlUnknownAttribute -->
+          . Antimony, in particular, accounts for about 20% of the world&#39;s
+          reserves, and gold for more than 10%, which is too much to ignore as
+          potential resources. However,
+          <span class="force_text"
+            >not all of these resources can be recycled</span
+          >. Of these resources, those that are managed and stored properly can
+          be recycled, but those that are not, such as those that have been
+          buried in landfills, are difficult to recycle and are not recycled
+          very often. And these resources that are difficult to recycle account
+          for most of the resources in Japan. In short, in its current state,
+          <span class="force_text"
+            >Japan can only recover a part of the domestic resources</span
+          >
+          however hard it tries. How to reduce the amount of resources that are
+          not managed and are difficult to recycle is going to be an issue in
+          the future.
+        </p>
+        <h2 id="cost-problem">Cost Problem</h2>
+        <p>
+          Suppose you have successfully overcome the &quot;low collection
+          rate&quot; problem and get a lot of used appliances. You would like to
+          say, &quot;Let&#39;s recycle!&quot; but actually recycling itself has
+          its own problems. <span class="summary_link" id="s_1"></span>In order
+          to recycle used home appliances and turn them into resources,
+          <span class="force_text"
+            >various processes such as manual dismantling, crushing, and sorting
+            must be done</span
+          >. In particular, manual dismantling involves taking out the base, and
+          also <span class="force_text">requires a lot of labor</span> because
+          many different types of cell phones are brought for recycling. Some
+          people have talked about introducing machines to the manual
+          disassembly process, but since there are many different types of cell
+          phones and they are often designed to be difficult to disassemble to
+          protect information, manual labor is necessary. In some cases, the
+          e-waste is sent directly to a refinery without manual dismantling, but
+          this increases the cost of processing. In addition, a lot of energy is
+          consumed in crushing and sorting, which makes recycling very
+          expensive. On the other hand, used home appliances include many kinds
+          of metals, but
+          <span class="force_text">each of them is a very small volume</span>.
+          As a result, considering the price of metals extracted from used home
+          appliances and the cost of recycling, it is difficult to make a profit
+          from recycling, and the number of companies engaging in urban mining
+          is not increasing rapidly. In order to spread the use of urban mines,
+          this &quot;cost problem&quot; has to be solved.
+        </p>
+        <h2 id="risk-of-recycling">Risk of Recycling</h2>
+        <p>
+          In the idea of urban mining,
+          <span class="word"
+            ><span class="word_text" style="white-space: ">minor metals</span>
+            <span class="word_description_container">
+              <span class="word_description">
+                <span class="word_description_title">minor metals</span>
+                <span
+                  class="word_description_text"
+                  style="line-height: 1.5rem"
+                ></span>
+              </span>
+            </span>
+          </span>
+
+          <!--suppress HtmlUnknownAttribute -->
+          and
+          <span class="word"
+            ><span class="word_text" style="white-space: ">base metals</span>
+            <span class="word_description_container">
+              <span class="word_description">
+                <span class="word_description_title">base metals</span>
+                <span
+                  class="word_description_text"
+                  style="line-height: 1.5rem"
+                ></span>
+              </span>
+            </span>
+          </span>
+
+          <!--suppress HtmlUnknownAttribute -->
+          included in waste electronic equipment are regarded as resources.
+          However, waste electronics are not only made of minor metals and base
+          metals.
+          <span class="summary_link" id="s_3"></span>In fact,
+          <span class="force_text"
+            >the majority of the components of waste electronics are made up of
+            plastic</span
+          >.
+        </p>
+        <div class="image_container">
+          <figure class="image_box" style="width: ; height: 40vw" id="">
+            <img
+              class="image"
+              src="../assets/susdi/40dcbe9d88c96297b642179a653642d8.jpg"
+              alt=""
+              style="transform: scale()"
+            />
+            <figcaption class="image_caption">
+              What is a cell phone made of?<span style="display: initial"
+                ><br /><span class="lang_en">Data Source : </span
+                ><a href=""
+                  ><img
+                    style="height: 1em; vertical-align: middle"
+                    src="../assets/susdi/46e68cc8af75454ff9cc3fd767a83b0e-300x109.png" /></a
+                ><span class="lang_jp">より引用</span></span
+              >
+            </figcaption>
+          </figure>
+        </div>
+
+        <p>
+          This plastic causes a big problem in recycling. The global average
+          recycling rate of plastic is low at 9%, and most of it is disposed of
+          as waste or
+          <span class="word"
+            ><span class="word_text" style="white-space: "
+              >thermal recycling</span
+            >
+            <span class="word_description_container">
+              <span class="word_description">
+                <span class="word_description_title">thermal recycling</span>
+                <span
+                  class="word_description_text"
+                  style="line-height: 1.5rem"
+                ></span>
+              </span>
+            </span>
+          </span>
+
+          <!--suppress HtmlUnknownAttribute -->
+          . It costs a lot of money to process them as waste, and thermal
+          recycling is not recommended due to concerns about the emission of
+          exhaust gas and carcinogens. In other words,
+          <span class="force_text"
+            >recycling produces far more waste than useful metals, and also
+            fails to properly use it</span
+          >. <span class="summary_link" id="s_5"></span>In addition,
+          <span class="force_text"
+            >recycling may generate hazardous substances</span
+          >. This is caused by harmful substances in e-waste (For example,
+          mercury paste, which is harmful to the human body, was used to bond
+          the CPU cooling plates of early PCs). These toxic substances are
+          polluting the environment as well as disposal sites in developing
+          countries. You need to develop technologies to make toxic substances
+          stable.
+        </p>
+        <aside class="column">
+          <div class="column_title">The Horror of Harmful Substances</div>
+          <div class="column_content">
+            <h1 id="overseas">Overseas</h1>
+            <p>
+              When harmful substances travel across borders, the discussion
+              develops into an international issue. In this article, we would
+              like to talk about two famous international problems,
+              <span class="word"
+                ><span class="word_text" style="white-space: "
+                  >Seveso disaster</span
+                >
+                <span class="word_description_container">
+                  <span class="word_description">
+                    <span class="word_description_title">Seveso disaster</span>
+                    <span
+                      class="word_description_text"
+                      style="line-height: 1.5rem"
+                    ></span>
+                  </span>
+                </span>
+              </span>
+
+              <!--suppress HtmlUnknownAttribute -->
+              and
+              <span class="word"
+                ><span class="word_text" style="white-space: "
+                  >Coco Incident</span
+                >
+                <span class="word_description_container">
+                  <span class="word_description">
+                    <span class="word_description_title">Coco Incident</span>
+                    <span
+                      class="word_description_text"
+                      style="line-height: 1.5rem"
+                    ></span>
+                  </span>
+                </span>
+              </span>
+
+              <!--suppress HtmlUnknownAttribute -->
+              . Although these two incidents are not directly related to metal
+              recycling, you cannot conclude that the same thing will not happen
+              in metal recycling. In fact, the
+              <span class="word"
+                ><span class="word_text" style="white-space: "
+                  >Basel Convention</span
+                >
+                <span class="word_description_container">
+                  <span class="word_description">
+                    <span class="word_description_title">Basel Convention</span>
+                    <span
+                      class="word_description_text"
+                      style="line-height: 1.5rem"
+                    ></span>
+                  </span>
+                </span>
+              </span>
+
+              <!--suppress HtmlUnknownAttribute -->
+              , introduced in the section &quot;<a href="../urban-mining/"
+                >Significance of Urban Mining</a
+              >,&quot; was concluded mainly because of these two incidents.
+            </p>
+            <h2 id="6seveso-disaster">
+              <span class="summary_link" id="s_6"></span>Seveso disaster
+            </h2>
+            <p>
+              The Seveso disaster, as the name suggests, was caused by an
+              accident at a pesticide factory in a place called Seveso, Italy.
+              In this incident, one of the hazardous substances,
+              tetrachlorodibenzo-p dioxin (TCDD), rained down on a vast area and
+              was left. As a result, 1,800 hectares of land were contaminated,
+              220,000 people suffered from cancer, chronic dermatitis,
+              neurological disorders, and deformed babies, and 80,000 livestock
+              were killed. This tremendous damage is not the end of the Seveso
+              disaster. Later, a Swiss TV program revealed that some of the
+              contaminated soil that was supposed to be sealed and stored in
+              drums had been lost. In May of the next year,
+              <span class="force_text"
+                >this contaminated soil was discovered in a small village in
+                northern France called Anguilcourt-le-Sart</span
+              >. This incident raised the issue of the movement of hazardous
+              substances across borders, and the Seveso Directive was issued by
+              the EC ( forerunner of the EU), which called for regulations to
+              reduce the pollution of hazardous substances and protect the
+              safety of people.
+            </p>
+            <h2 id="7coco-incident">
+              <span class="summary_link" id="s_7"></span>Coco Incident
+            </h2>
+            <p>
+              Twelve years after this Seveso incident, the Coco incident
+              occurred. It was discovered that two companies in Italy were
+              <span class="word"
+                ><span class="word_text" style="white-space: "
+                  >illegally disposing of hazardous waste</span
+                >
+                <span class="word_description_container">
+                  <span class="word_description">
+                    <span class="word_description_title"
+                      >illegally disposing of hazardous waste</span
+                    >
+                    <span
+                      class="word_description_text"
+                      style="line-height: 1.5rem"
+                    ></span>
+                  </span>
+                </span>
+              </span>
+
+              <!--suppress HtmlUnknownAttribute -->
+              , including polychlorinated biphenyl (PCB), at the Coco Port in
+              Nigeria and developed into a diplomatic issue. The issue quickly
+              became the target of protests of environmental groups, dozens of
+              haulers were arrested, and on July 30, 1988, Italy tried to
+              collect the waste on its own, load it on a ship, and move it to
+              Europe. However, because of the strong opposition by the
+              residents, they were not accepted in Italy, and other Western
+              countries (France, England, Spain, West Germany, the Netherlands,
+              etc.) refused to allow them to enter the country one after
+              another, and for 33 days they wandered the high seas. One of the
+              ships was named Karin B, so this incident is also known as the
+              Karin B incident. In May 1988, the Organization of African Unity
+              (OAU) banned all disposal of hazardous substances on the African
+              continent, and stated that &quot;the disposal of nuclear and
+              industrial waste in Africa is a crime against the African
+              people.&quot;
+            </p>
+            <iframe
+              class="Gmap"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8186223.336336996!2d1.2456114507078508!3d47.556733334363244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478696283ee17e55%3A0xc4b4a85a4124c95c!2z44Kk44K_44Oq44KiIOOAkjIwODIyIOODouODs-ODhOOCoeODu-OCqOODu-ODluODquOCouODs-ODhOOCoeecjCDjgrvjg7zjg7Tjgqfjgr4!5e0!3m2!1sja!2sjp!4v1636443227892!5m2!1sja!2sjp"
+              allowfullscreen
+              loading="lazy"
+            ></iframe>
+
+            <iframe
+              class="Gmap"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6856498.339931489!2d7.280335446482338!3d7.426473210716168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sja!2sjp!4v1637262793815!5m2!1sja!2sjp"
+              allowfullscreen
+              loading="lazy"
+            ></iframe>
+
+            <h1 id="japan">Japan</h1>
+            <h2 id="8teshima-incident">
+              <span class="summary_link" id="s_8"></span>Teshima Incident
+            </h2>
+            <p>
+              There are places in Japan that had problems with harmful
+              substances caused by illegal disposal. One of them is Teshima in
+              Kagawa Prefecture. The
+              <span class="word"
+                ><span class="word_text" style="white-space: "
+                  >Teshima Incident</span
+                >
+                <span class="word_description_container">
+                  <span class="word_description">
+                    <span class="word_description_title">Teshima Incident</span>
+                    <span
+                      class="word_description_text"
+                      style="line-height: 1.5rem"
+                    ></span>
+                  </span>
+                </span>
+              </span>
+
+              <!--suppress HtmlUnknownAttribute -->
+              , an incident that took place in Teshima is famous as one of the
+              largest illegal waste disposal problems in Japan, and is one of
+              the main reasons why the
+              <span class="word"
+                ><span class="word_text" style="white-space: "
+                  >Automobile Recycling Law</span
+                >
+                <span class="word_description_container">
+                  <span class="word_description">
+                    <span class="word_description_title"
+                      >Automobile Recycling Law</span
+                    >
+                    <span
+                      class="word_description_text"
+                      style="line-height: 1.5rem"
+                    ></span>
+                  </span>
+                </span>
+              </span>
+
+              <!--suppress HtmlUnknownAttribute -->
+              was introduced. The place where the illegally deposited waste was
+              brought to is called Mizugaura in Teshima. Various items,
+              including industrial waste such as waste oil, sludge and
+              <span class="word"
+                ><span class="word_text" style="white-space: "
+                  >shredder dust</span
+                >
+                <span class="word_description_container">
+                  <span class="word_description">
+                    <span class="word_description_title">shredder dust</span>
+                    <span
+                      class="word_description_text"
+                      style="line-height: 1.5rem"
+                    ></span>
+                  </span>
+                </span>
+              </span>
+
+              <!--suppress HtmlUnknownAttribute -->
+              , were illegally brought there for processing. This resulted in
+              the daily emission of black smoke generated when burning the
+              waste, which polluted the land and caused health problems for the
+              residents. To be specific, the rate of asthma in children is about
+              10 times as high as the national average. The illegal disposal,
+              which began in 1978, ended when the owners of Teshima Kanko were
+              arrested and prosecuted in 1991 by the Himeji Coast Guard in Hyogo
+              Prefecture.
+              <br />
+              In fact, before this incident in Teshima was found out, Kagawa
+              Prefecture had conducted over 100 spot checks on the processor. In
+              other words, the administration was aware of the incident, but was
+              unable to stop it. Why haven&#39;t they been able to stop illegal
+              dumping by illegal companies for more than 10 years? The reason
+              for this lies in
+              <span class="force_text"
+                >the difference in perception of industrial waste</span
+              >. Residents regarded the industrial waste as waste, while the
+              processor insisted that it was valuable, because it contained
+              useful metals. The
+              <span class="word"
+                ><span class="word_text" style="white-space: "
+                  >Waste Management and Public Cleansing Law</span
+                >
+                <span class="word_description_container">
+                  <span class="word_description">
+                    <span class="word_description_title"
+                      >Waste Management and Public Cleansing Law</span
+                    >
+                    <span
+                      class="word_description_text"
+                      style="line-height: 1.5rem"
+                    ></span>
+                  </span>
+                </span>
+              </span>
+
+              <!--suppress HtmlUnknownAttribute -->
+              , which was applied at that time, did not define the border
+              between waste and valuable resources. So, it was difficult to
+              determine what the processor meant by valuable resources.
+              <br />
+              The waste illegally brought to Teshima will not be completely
+              removed until 2019. The influence of this incident lasted for
+              <span class="force_text">over 40 years</span>. The incident
+              finally ended after the residents were made to pay a great
+              sacrifice.
+            </p>
+            <iframe
+              class="Gmap"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d230387.94422895205!2d133.9926142404176!3d34.40397150235785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3553f365af080a75%3A0x8bf88590a33161b1!2z6LGK5bO2!5e0!3m2!1sja!2sjp!4v1637262967813!5m2!1sja!2sjp"
+              allowfullscreen
+              loading="lazy"
+            ></iframe>
+
+            <p>Do you understand the horror of hazardous substances?</p>
+            <span class="force_text"
+              >They are also generated in metal recycling.</span
+            >
+            That is why the proper processing of hazardous substances generated
+            by recycling is a very important issue.
+          </div>
+        </aside>
+        <h2 id="low-grade">Low Grade</h2>
+        <p>
+          Some of you may be thinking, &quot;What is
+          <span class="word"
+            ><span class="word_text" style="white-space: ">dignity</span>
+            <span class="word_description_container">
+              <span class="word_description">
+                <span class="word_description_title">dignity</span>
+                <span
+                  class="word_description_text"
+                  style="line-height: 1.5rem"
+                ></span>
+              </span>
+            </span>
+          </span>
+
+          <!--suppress HtmlUnknownAttribute -->
+          in the first place?&quot; The grade means the amount of useful
+          elements contained in ore. You can think of it as the same thing as
+          the word &quot;content.&quot; The higher the grade, the more useful
+          metals can be taken out from the same amount of ore. And this grade is
+          the major problem that urban mining faces when it comes to recycling.
+          <span class="summary_link" id="s_2"></span>This is because
+          <span class="force_text"
+            >the grade is lower than that of natural mines, so it loses in
+            competition with natural mines</span
+          >. Some people may think, &quot;Isn&#39;t it rather high grade to have
+          all kinds of metals jammed into a phone or computer?&quot; The idea is
+          right. It is certainly true that
+          <span class="force_text"
+            >the grade of each product is higher than that of a natural
+            mine</span
+          >. However, one of the major differences between urban mines and
+          natural mines is that natural mines are gathered in one place, while
+          urban mines have their products scattered around each household.
+          <span class="sorry">下とくっついたんかな?</span>
+          This is why the grade of each product is high, but
+          <span class="force_text"
+            >the grade of the products as a whole is low</span
+          >. Increasing the collection rate is a problem that must be solved,
+          not only in order to increase the amount of waste for recycling, but
+          also in order to be able to compete in the market with natural mines.
+          The key to solving this low grade is how to ease the distribution.
+        </p>
+        <h2 id="summary-chart">Summary Chart</h2>
+        <div class="image_container">
+          <svg
+            viewBox="0, 0, 1200, 700"
+            style="width: 80vw; height: 40vw; margin: 5vh 0 5vh"
+          >
+            <use xlink:href="../svg/summary_illust/C.svg#main"></use>
+          </svg>
+        </div>
+
+        <p>
+          Urban mining involves a lot of issues…. You can understand that it is
+          not easy to make progress.
+        </p>
+        <h2 id="references">References</h2>
+        <ul>
+          <li>
+            『図解よくわかる「都市鉱山」開発』（原田幸明・醍醐市朗、日刊工業新聞社・2011年8月1日）
+          </li>
+          <li>
+            <a href="https://prtimes.jp/main/html/rd/p/000000006.000070388.html"
+              >PRTIMES「スマホのリサイクル回収率は17％。都市鉱山スマホを再資源化へ」</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.smfg.co.jp/sustainability/report/topics/detail084.html"
+              >三井住友フィナンシャルグループ「「都市鉱山」に眠るレアメタルの資源化に向けて」</a
+            >
+          </li>
+          <li>
+            <a href="https://www.nims.go.jp/genso/data/urban_mine.html"
+              >NIMS「都市鉱山関係データ」</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.nims.go.jp/research/elements/rare-metal/urban-mine/0ej0070000002ym4-att/urban-mine_qa.pdf"
+              >「都市鉱山の蓄積量推定」に関する Q&amp;A</a
+            >
+          </li>
+          <li>
+            <a href="https://petpedia.co/recycling-statistics/"
+              >petpedia「41 Eye-Opening Recycling Statistics」</a
+            >
+          </li>
+          <li>
+            <a href="http://www.shippai.org/fkd/hf/HC0300002.pdf"
+              >イタリア・セベソの化学工場での爆発</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.eic.or.jp/ecoterm/index.php?act=view&amp;serial=1543"
+              >環境用語「セベソ事件」</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.nytimes.com/1988/09/03/world/toxic-waste-boomerang-ciao-italy.html"
+              >The New York Times「Toxic Waste Boomerang: Ciao Italy!」</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.washingtonpost.com/archive/politics/1988/09/04/after-dumping-on-nigeria-italy-takes-it-all-back/349505f5-f0ca-4364-9563-3d1f9d48125f/"
+              >The Washington Post「AFTER DUMPING ON NIGERIA, ITALY TAKES IT ALL
+              BACK」</a
+            >
+          </li>
+          <li>
+            <a href="https://www.re-ver.co.jp/magazine/pdf/ecooVOL25.pdf"
+              >ecoo「豊島事件が残した課題」</a
+            >
+          </li>
+          <li>
+            <a href="https://www.env-value.co.jp/columns/press57/"
+              >E-VALUE「豊島の不法投棄問題を振り返る」</a
+            >
+          </li>
+        </ul>
+        <div id="pn_bar">
+          <a href="../urban-mining/" id="prev_link">
+            <div id="prev_text">Significance of Urban Mining</div>
+            <button id="prev_button">Prev</button>
+          </a>
+
+          <a href="../measure/" id="next_link">
+            <div id="next_text">Measure</div>
+            <button id="next_button">Next</button>
+          </a>
+        </div>
+
         <div id="floating_menu">
           <!--suppress BadExpressionStatementJS -->
           <div id="toc">
             <div id="toc_title">目次</div>
 
-            <a class="toc_link_" href="#"> </a>
+            <a class="toc_link_h1" href="#problem"> Problem </a>
+            <a class="toc_link_h2" href="#low-collection-rate">
+              Low Collection Rate
+            </a>
+            <a class="toc_link_h2" href="#cost-problem"> Cost Problem </a>
+            <a class="toc_link_h2" href="#risk-of-recycling">
+              Risk of Recycling
+            </a>
+            <a class="toc_link_h2" href="#low-grade"> Low Grade </a>
+            <a class="toc_link_h2" href="#summary-chart"> Summary Chart </a>
+            <a class="toc_link_h2" href="#references"> References </a>
           </div>
 
           <!--suppress BadExpressionStatementJS --><button
@@ -1767,6 +2450,9 @@
                     document
                       .querySelectorAll(".lang_jp")
                       .forEach((el) => (el.style.display = "none"))
+                    document.title =
+                      "Problem | In search of resources in your right pocket"
+                    document.documentElement.lang = "en"
                     sessionStorage.setItem("lang", "en")
                     break
                   case "ja":
@@ -1779,6 +2465,8 @@
                     document
                       .querySelectorAll(".lang_jp")
                       .forEach((el) => (el.style.display = "initial"))
+                    document.title = "課題 | 右ポケットの中の資源を求めて"
+                    document.documentElement.lang = "ja"
                     sessionStorage.setItem("lang", "ja")
                     break
                 }
