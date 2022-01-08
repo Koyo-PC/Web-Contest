@@ -204,12 +204,12 @@ In addition to that, many of them mentioned the Tokyo Olympics and Paralympics 2
 - There are a few people who know about recovery boxes, but have not used them.
 - To make people get to know not only urban mining but also its contents is an important issue.
 
-<PNBar prev="../" next="./recycle-box.html" prev_text="アクティビティ" next_text="回収ボックス"></PNBar>
+<PNBar prev="../" next="./recycle-box.html" prev_text="Activity" next_text="Recovery Box"></PNBar>
 <FloatingMenu>
-h1 アンケート
-h2 アンケート結果&考察
-h3 都市鉱山に対するイメージ
-h2 わかったことのまとめ
+h1 Questionnaire
+h2 Survey Results＆Discussion
+h3 Images on urban mining
+h2 Summary
 </FloatingMenu>
 
 </div>

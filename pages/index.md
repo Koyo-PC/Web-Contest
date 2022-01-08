@@ -121,7 +121,7 @@
 <div id="lang_en">
 <div class="main_image">
 
-<h1 class="in_search_of_resources_in_your_right_pocket" style="padding: 0;">In search of resources in your right pocket</h1>
+<h1 id="in-search-of-resources-in-your-right-pocket" style="padding: 0;">In search of resources in your right pocket</h1>
 
 </div>
 <div class="main_image_spacer">

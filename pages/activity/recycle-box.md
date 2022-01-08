@@ -36,6 +36,37 @@ h1 回収ボックス
 </FloatingMenu>
 </div>
 <div id="lang_en">
+
+# Recovery Box
+
+We found out that there was a recovery box near our school, so we used it on July 14, 2020.
+
+<div class="image_container">
+    <Image src="../img/activity/recycle-box/1.jpg"></Image>
+</div>
+
+This picture shows the Kansai Supermarket Kurakuenguchi store, in which  there is a recovery box.
+
+<div class="image_container">
+    <Image src="../img/activity/recycle-box/2.jpg"></Image>
+</div>
+
+There was a recovery box at the entrance of the supermarket.<br>
+We felt that it was well-devised because it was installed in a place where people often pass by.
+
+<div class="image_container">
+    <Image src="../img/activity/recycle-box/3.jpg" height="50vw"></Image>
+</div>
+
+The bright green color of the recovery box made us feel that it was environmentally friendly.<br>
+We put an old cell phone of a member in the recovery box.<br>
+We hope it will be a good resource.
+
+We felt we did something good even though we took out a used cell phone.
+Why don't you try to use a recovery box when you go shopping at your local supermarket?
+
+<PNBar prev="./questionnaire.html" next="./interview.html" prev_text="Questionnaire" next_text="Interview"></PNBar>
 <FloatingMenu>
+h1 Recovery Box
 </FloatingMenu>
 </div>

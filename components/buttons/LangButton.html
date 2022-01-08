@@ -50,7 +50,7 @@
                   break;
           }
       }
-      window.onload = () => setLang(sessionStorage.getItem('lang'));
+      document.addEventListener("DOMContentLoaded",() => setLang(sessionStorage.getItem('lang')));
   </script>
 </button>
 <script scml>
