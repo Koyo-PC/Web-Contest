@@ -1,9 +1,10 @@
 <!DOCTYPE html>
+<!--suppress BadExpressionStatementJS -->
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--  <link rel="shortcut icon" href="svg/logo.svg" type="image/svg+xml">-->
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/svg+xml" />
     <title>アクティビティ | 右ポケットの中の資源を求めて</title>
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;700&dispaly=swap");
@@ -40,7 +41,7 @@
       }
 
       main {
-        padding: 50px 20% 100px;
+        padding: 70px 20% 100px;
       }
 
       h1,
@@ -1025,12 +1026,108 @@
         </div>
       </div>
       <div id="lang_en">
+        <h1 id="activity">Activity</h1>
+        <!-- NoIndentは使いにくいので消します -->
+        <p class="no_indent">Here are some of the activities we have done.</p>
+
+        <div class="image_links">
+          <a href="./questionnaire.html" class="activity_thumbnail_link">
+            <img
+              class="activity_thumbnail_image"
+              src="../img/activity/questionnaire.jpg"
+            />
+            <span style="z-index: 10">Questionnaire</span>
+          </a>
+
+          <a href="./recycle-box.html" class="activity_thumbnail_link">
+            <img
+              class="activity_thumbnail_image"
+              src="../img/activity/recycle-box.jpg"
+            />
+            <span style="z-index: 10">Recovery Box</span>
+          </a>
+
+          <a href="./interview.html" class="activity_thumbnail_link">
+            <img
+              class="activity_thumbnail_image"
+              src="../img/activity/interview.jpg"
+            />
+            <span style="z-index: 10">Interview</span>
+          </a>
+
+          <a href="./petec.html" class="activity_thumbnail_link">
+            <img
+              class="activity_thumbnail_image"
+              src="../img/activity/petec.jpg"
+            />
+            <span style="z-index: 10">Visit to Plant</span>
+          </a>
+
+          <a href="./disassembly.html" class="activity_thumbnail_link">
+            <img
+              class="activity_thumbnail_image"
+              src="../img/activity/disassembly.jpg"
+            />
+            <span style="z-index: 10">Cell Phone Dismantling</span>
+          </a>
+        </div>
+
+        <h2 id="gratitude">Gratitude</h2>
+        <p>
+          We would like to thank Ichiro Daigo, an associate professor at the
+          Research Center for Advanced Science and Technology, The University of
+          Tokyo, for his cooperation in the Zoom interview, and PETEC for
+          treating our visit kindly. We would also like to thank the students of
+          our school for their cooperation in the questionnaire. We express our
+          gratitude to them. Thank you very much.
+        </p>
+        <h2 id="references">References</h2>
+        <ul>
+          <li>
+            <a
+              href="https://743c8380-22c6-4457-9895-11872f2a708a.filesusr.com/ugd/0af79c_8e5a3e6ece1d4b6a9db69465a1007eb0.pdf"
+              >bio by Deloitte「Increased EU Plastics Recycling Targets:
+              Environmental, Economic and Social Impact Assessment Final
+              Report」</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.ciaj.or.jp/news/press_releases/pressreleases_past_issue/pressrelease2020/6058.html"
+              >一般社団法人 情報通信ネットワーク産業協会</a
+            >
+          </li>
+          <li>
+            <a href="https://www.env.go.jp/press/106879.html"
+              >環境省「平成30年度における家電リサイクル実績について」</a
+            >
+          </li>
+          <li>
+            <a href="https://panasonic.co.jp/eco/petec/"
+              >パナソニック エコテクノロジーセンターHP</a
+            >
+          </li>
+        </ul>
+        <div id="pn_bar">
+          <a href="../measure/" id="prev_link">
+            <div id="prev_text">現在の取り組み</div>
+            <button id="prev_button">Prev</button>
+          </a>
+
+          <a href="../solution/" id="next_link">
+            <div id="next_text">解決策</div>
+            <button id="next_button">Next</button>
+          </a>
+        </div>
+
         <div id="floating_menu">
           <!--suppress BadExpressionStatementJS -->
           <div id="toc">
             <div id="toc_title">目次</div>
 
-            <a class="toc_link_" href="#"> </a>
+            <a class="toc_link_h1" href="#activity"> Activity </a>
+            <a class="toc_link_h2" href="#gratitude"> Gratitude </a>
+            <a class="toc_link_h2" href="#references"> References </a>
           </div>
 
           <!--suppress BadExpressionStatementJS --><button
