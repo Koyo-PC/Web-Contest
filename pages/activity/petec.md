@@ -451,6 +451,371 @@ h2 PETECの周りの風景
 
 </div>
 <div id="lang_en">
+
+# Visit to Plant
+
+On October 14, 2021, we visited Panasonic Eco Technology Center (PETEC), which is in Kato City, Hyogo Prefecture.
+<div class="image_container">
+    <Image src="./img/petec_building.jpg" alt="パナソニック外から写真"></Image>
+    <Image src="./img/petec_pc_club.jpg" alt="甲陽PC部写真"></Image>
+</div>
+
+## Role of PETEC
+
+We suspect that you realize how important recycling small home appliances is if you have read our website up to here.
+Actually,recycling large appliances such as televisions and refrigerators is also an essential problem.
+PETEC is one of the companies responsible for it and aims to achieve a sound recycling-oriented society by recycling under the slogan of "treasure hunting," considering the surrounding environment.
+
+<div class="image_container">
+    <Image src="../svg/petec/top.svg" scale="150%"></Image>
+</div>
+
+They recycle four items (televisions, air conditioners, refrigerators / freezers, washing machines / clothes dryers), which are specified by the Home Appliance Recycling Law.
+The area which large home appliances are collected by PETEC from extends to Kinki area.
+
+They process about 900,000 units per year, and work with a target number of units to be processed, which is usually stable, but sometimes increases significantly, each operating day.
+
+<div class="image_container">
+    <Image src="./img/petec_counter.jpg" alt="処理台数のカウンタ" caption="10月14日 午後2時ごろ"></Image>
+</div>
+
+<AtomCharacter atom="Li">
+PETEC has processed more than 16,500,000 units !!(As of October 14)
+How surprising it is to have taken each of them to pieces!
+</AtomCharacter>
+
+In recycling of large home appliances, the statutory recycling rate for each item is set by the Home Appliance Recycling Law.
+If it at a plant is below this level, the plant cannot operate.
+PETEC has met the legal recycling rate for all items.
+<figure>
+  <figcaption style="white-space: nowrap;">the statutory recycling rate
+  </figcaption>
+  <table>
+    <tr>
+      <th></th>
+      <th>テレビ</th>
+      <th>エアコン</th>
+      <th>冷蔵庫・冷凍庫</th>
+      <th>洗濯機・衣類乾燥機</th>
+    </tr>
+    <tr>
+      <td>法定リサイクル率</td>
+      <td>74%</td>
+      <td>80%</td>
+      <td>70%</td>
+      <td>82%</td>
+    </tr>
+    <tr>
+      <td>PETECでのリサイクル率<br>(2020年度)</td>
+      <td>89%</td>
+      <td>95%</td>
+      <td>82%</td>
+      <td>95%</td>
+    </tr>
+  </table>
+  <figcaption style="white-space: nowrap;">
+      <a href="https://panasonic.co.jp/eco/petec/">https://panasonic.co.jp/eco/petec/</a>, <a href="https://www.env.go.jp/press/106879.html">https://www.env.go.jp/press/106879.html</a>より作成
+  </figcaption>
+</figure>
+
+## Recycling Process
+
+We would like to introduce a recycling process carried out at PETEC by product.
+
+### テレビ
+
+Televisions are classified into three types: CRT televisions, plasma televisions, and LCD televisions.
+However, because the amount of CRT Televisions emitted from households is currently small, they are not processed at PETEC.
+Some LCD Televisions use fluorescent tube type backlights.
+Since they contain mercury gas, which is a hazardous substance, the fluorescent tubes in the backlight unit need to be taken out.
+After being taken out, the  collected fluorescent tubes are disposed of by a specialized company.
+<div class="image_container">
+    <CaptionImage src="./img/petec_backlight.jpg" caption="Backlight removal in a dedicated booth" source="HP" href="https://panasonic.co.jp/eco/petec/process/"></CaptionImage>
+</div>
+
+Next, substrates, which contain mainly metal materials, are removed.
+<div class="image_container">
+    <CaptionImage src="./img/petec_conveyor.jpg" caption="removed substrates"></CaptionImage>
+</div>
+
+In order to make the process more efficient, conveyorized dismantling lines are set throughout PETEC (you often see pictures of large-scale production lines in car manufacturing plants, don’t you?).
+The removed metals are sent to smelters to be turned into new resources.
+
+### Air conditioners
+
+Air conditioners are classified into indoor units and outdoor units.
+The process of dismantling indoor units, including removal of exteriors and blower fans, and dismantling of the interior, used to be done by hand, but PETEC uses a device to cut where motors and power come together, which results in taking out screws in them, thus reducing work.
+On the other hand, there is refrigerant CFC in outdoor units.
+It is said to destroy the ozone layer, so it must be removed first.
+This removal is done safely using a tube and then sent to a special treatment plant and detoxified in it.
+Outdoor units sometimes have dust and dead insects in them, so in that case, they are removed before outdoor units are dismantled.
+
+The dismantled parts of indoor and outdoor units are divided into copper wire, chassis, electrical parts, heat exchangers, compressors, etc.
+In particular, the compressor contained in outdoor units is a valuable resource which contains a lot of iron and copper.
+After the copper wire is crushed, the copper is recovered and sent to a smelter.
+Electrical parts, heat exchangers, and compressors are carried to a plant where the resources are recovered in high grade and transformed into new ones.
+
+The chassis is separated into iron, copper, aluminum, and plastic, using a special method.
+We could see demonstrations of it in PETEC!!
+
+
+#### ～The process which the chassis is sorted and collected through.～
+
+<div class="image_container">
+    <svg viewBox="0, 0, 700, 500">
+        <use xlink:href="../svg/petec/1.svg#main"></use>
+    </svg>
+</div>
+
+<ul>
+    <li>
+        <dl>
+            <dt>＜Magnetic sorting machine＞</dt>
+            <div class="image_container">
+                <LinkAnchor id="petec_img_2"></LinkAnchor>
+                <Image src="../svg/petec/2.svg"></Image>
+            </div>
+            <dd>Role: Sort into what is magnetic and what is not.</dd>
+            <dd>Procedure:
+                <ol>
+                    <li>Mixtures are fed in and move along the rotating drum.</li>
+                    <li>Anything other than iron falls at some point because it is not magnetic.</li>
+                    <li>Iron falls where the magnet disappears.</li>
+                </ol>
+            </dd>
+        </dl>
+    </li>
+    <li>
+        <dl>
+            <dt>＜Non-ferrous metal sorting machine＞</dt>
+            <div class="image_container">
+                <LinkAnchor id="petec_img_3"></LinkAnchor>
+                <Image src="../svg/petec/3.svg"></Image>
+            </div>
+            <dd>Role: Separate non-magnetic metals (non-ferrous metals) from non-metals.</dd>
+            <dd>Procedure:
+                <ol>
+                    <li>Mixtures are put in and proceed along the conveyor belt.</li>
+                    <li>A moving magnetic flux field is created by the high-speed rotation of the magnet.</li>
+                    <li>An eddy current is generated in the nonferrous metal passing through the magnet.</li>
+                    <li>The nonferrous metal is flung out by the interaction of the magnetic force and the eddy current.</li>
+                    <li>Plastic, which does not generate eddy currents, falls naturally.</li>
+                </ol>
+            </dd>
+        </dl>
+    </li>
+    <li>
+        <dl>
+            <dt>＜Specific gravity sorting machine＞</dt>
+            <div class="image_container">
+                <LinkAnchor id="petec_img_4"></LinkAnchor>
+                <Image src="../svg/petec/4.svg"></Image>
+            </div>
+            <dd>Role: Separate heavy items from light ones.</dd>
+            <dd>Procedure:
+                <ol>
+                    <li>Mixtures (copper and aluminum) are thrown in.</li>
+                    <li>Because aluminum is light, it is blown up by the wind from below and moves downward.</li>
+                    <li>Copper is not blown up by the wind but moves upward by the vibration of the platform, because it is heavy.</li>
+                </ol>
+            </dd>
+        </dl>
+    </li>
+</ul>
+
+### Refrigerators・Freezers
+
+First, check to see if there is any food left in refrigerators, and if so, remove it.
+Next, the refrigerators are categorized according to whether or not CFCs are contained in refrigerants or insulation, and labeled to indicate this.
+This process makes dismantlement later more efficient.
+
+Plastic (PP, PS) such as vegetable boxes and food shelves are crushed and used as parts of new products after cleaning, removing foreign substances, and shipping inspection at resin processing companies.
+In addition, CFCs, which are harmful substances, are extracted from the compressor removed from refrigerators, and then detoxified by another company.
+The remaining compressor is sent to a metal processing company for recycling.
+
+Refrigerators themselves are classified whether or not they have CFCs in them before crushed.
+If CFCs are contained in them, CFCs are removed during the crushing process and are made harmless by another company like refrigerant CFCs.
+After the CFC gas is extracted, the main body is crushed by a special crusher into a group of mixed metal and plastic fragments, from which the resource is extracted separately.
+
+<div class="image_container">
+    <Image src="./img/petec_nonfron_box.jpg" alt="ノンフロン用破砕機写真" note="ホームページより引用" href="https://panasonic.co.jp/eco/petec/technology/">ノンフロン用破砕機写真</Image>
+</div>
+
+#### ～The process which shattered refrigerators are sorted and collected through～
+
+<div class="image_container">
+    <svg viewBox="0, 0, 1400, 800">
+        <use xlink:href="../svg/petec/5.svg#main"></use>
+    </svg>
+</div>
+<ul>
+    <li>
+        <dl>
+            <dt>＜Wind power sorting machine＞</dt>
+            <div class="image_container">
+                <LinkAnchor id="petec_img_6"></LinkAnchor>
+                <Image src="../svg/petec/6.svg"></Image>
+            </div>
+            <dd>Role: Separate heavy items from light ones.</dd>
+            <dd>Procedure:
+                <ol>
+                    <li>Mixtures are put in.</li>
+                    <li>Urethane, which is light, is blown up by the wind from below and pulled directly into the suction port.</li>
+                    <li>All but the urethane fall down instead of being blown up by the wind.</li>
+                </ol>
+            </dd>
+        </dl>
+    </li>
+    <li>
+        <dl>
+            <dt>＜Magnetic sorting machine＞</dt>
+            <dd>It is the same as that for air conditioners.</dd>
+        </dl>
+    </li>
+    <li>
+        <dl>
+            <dt>＜Non-ferrous metal sorting machine＞</dt>
+            <dd>It is the same as that for air conditioners.</dd>
+        </dl>
+    </li>
+    <li>
+        <dl>
+            <dt>＜High-precision plastic sorting system＞</dt>
+            <div class="image_container">
+                <LinkAnchor id="petec_img_7"></LinkAnchor>
+                <Image src="../svg/petec/7.svg"></Image>
+            </div>
+            <dd>Role: Classify plastics into ABS, PP, and PS.</dd>
+            <dd>Procedure:
+                <ol>
+                    <li>Plastic which is mixed with ABS, PP, and PS pops out of the conveyor.</li>
+                    <li>The air nozzles immediately identifies it and sprays air at appropriate times.</li>
+                </ol>
+            </dd>
+        </dl>
+    </li>
+</ul>
+
+<AtomCharacter atom="Au">
+This system enables people to recycle plastic instead of making it waste or sending it to thermal recycling.
+</AtomCharacter>
+
+As you can see, refrigerators are said to be the most difficult of the four items to recycle due to the many processes that must be followed.
+
+### Washing Machines and Clothes Dryers
+
+Like air conditioners, washing machines with dryers have their compressors and heat exchangers removed, and CFCs are recovered.
+Also, the harnesses, motors, control panels, and power cords are taken out of the washing machine by hand.
+Washing machines are different from other products in that the salt water in them must be drained.
+About 2 liters of salt water is put in the washing tank as a balancer to stabilize the rotating tank during washing, and removing it prevents the iron, an important recyclable resource, from rusting.
+The removed salt water is sent to other plants for recycling.
+<div class="image_container">
+    <CaptionImage src="./img/petec_solt_water.jpg" caption="If you look carefully, you can see the salt water flowing from the washing machine in the middle"></CaptionImage>
+</div>
+
+Then, washing machines are sent to the crushers.
+After being shredded by crushers, they are separated into iron, aluminum, copper, and plastic through magnetic sorting and non-ferrous sorting, and then recovered.
+(Magnetic sorting and non-ferrous sorting here are the same as those introduced in air conditioners and refrigerators.)
+
+## About Recycle Fees
+
+However, in order to have these products recycled, you have to pay a recycling fee.
+This is a role imposed on us, the consumers, by the Home Appliance Recycling Law, and also it is a lubricant that promotes recycling.
+Some people may think that they have no idea why they have to pay money in order to recycle products.
+Actually, recycling fees have been decreasing year by year because of the development of technology and the ease of recycling them.
+<figure>
+  <figcaption>recycling fees</figcaption>
+  <table>
+    <tr>
+      <th colspan="2">4品目</th>
+      <th>区分</th>
+      <th>2001年(税抜)</th>
+      <th>2021年(税抜)</th>
+    </tr>
+    <tr>
+      <td rowspan="4">テレビ</td>
+      <td rowspan="2">ブラウン管式</td>
+      <td>16型以上</td>
+      <td rowspan="2">2700円</td>
+      <td>2200円</td>
+    </tr>
+    <tr>
+      <td>15型以下</td>
+      <td>1200円</td>
+    </tr>
+    <tr>
+      <td rowspan="2">薄型</td>
+      <td>16V型以上</td>
+      <td rowspan="2"><span class="weak">(2009年〜)</span></td>
+      <td>2700円</td>
+    </tr>
+    <tr>
+      <td>15V型以下</td>
+      <td>1700円</td>
+    </tr>
+    <tr>
+      <td colspan="2" rowspan="2">冷蔵庫・冷凍庫</td>
+      <td>171L以上</td>
+      <td rowspan="2">4600円</td>
+      <td>4300円</td>
+    </tr>
+    <tr>
+      <td>170L以下</td>
+      <td>3400円</td>
+    </tr>
+    <tr>
+      <td colspan="2">洗濯機・衣類乾燥機</td>
+      <td></td>
+      <td>2400円</td>
+      <td>2300円</td>
+    </tr>
+    <tr>
+      <td colspan="2">エアコン</td>
+      <td></td>
+      <td>3500円</td>
+      <td>900円</td>
+    </tr>
+  </table>
+  <figcaption>Made by explanations given during the visit</figcaption>
+</figure>
+
+There are still some people who do not think that they are cheap.
+However, if everyone did not recycle their used home appliances claiming that recycling fees are too expensive or if they recycled them illegally, the earth's resources would soon run out, right?
+"Conserve the Earth's resources."
+In order to do so, each of us must be responsible for what you do.
+Paying recycling fees to recycle is much more valuable than recycling fees, isn't it?
+
+## Thoughts over Visit
+
+What impressed us the most during the factory visit was the cleanliness of the office and dismantling lanes, which we felt was very considerate to us visitors.
+In particular, the dismantling lanes were clearly color coded for each product, which made it very easy for us to understand when we were being explained about the dismantling process.
+We were told that this color coding is not only for the consideration of visitors, but also for the safety of the employees.
+When we heard that the factory tour is a way to open the inside of PETEC to the public, and that it leads to trust, we thought it is a reasonable way.
+
+We were also horrified to see so many televisions and air conditioners lined up in the warehouse of the factory and imagine the scene where these products were illegally disposed of without being properly recycled.
+We think we understand how important role PETEC is playing.
+
+## Scenery around PETEC
+
+<div class="image_container">
+    <CaptionImage src="./img/petec_around.jpg"></CaptionImage>
+</div>
+
+The view of the rice fields was very tranquil and peaceful.
+We heard that Kato City, where PETEC is located, is famous for its sake rice, Yamada Nishiki.
+We would like everyone to visit Kato City, a city rich in nature!
+
+<PNBar prev="./interview.html" prev_text="Interview" next="./disassembly.html" next_text="Cell Phone Dismantling"></PNBar>
 <FloatingMenu>
+h1 Visit to Plant
+h2 Role of PETEC
+h2 Recycling Process
+h3 Television
+h3 Air conditioners
+h3 Refrigerators・Freezers
+h3 Washing Machines and Clothes Dryers
+h2 About Recycle Fees
+h2 Thoughts over Visit
+h2 Scenery around PETEC
 </FloatingMenu>
 </div>
