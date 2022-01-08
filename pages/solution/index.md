@@ -259,6 +259,282 @@ h2 参考文献
 
 </div>
 <div id="lang_en">
+
+# Solution
+
+<NoIndent>
+It is true that there still remain some problems to be solved although many people are working hard to improve the present situation.<br>
+We would like everyone to know how important and useful urban mining is.
+Here is our solution.
+</NoIndent>
+
+## Get More E-waste
+
+### make recycling e-waste compulsory
+
+<AtomCharacter atom="Li">
+How about adding the cost needed to recycle small household appliances to their prices, and making it compulsory that consumers recycle what they bought?
+This idea is used in Switzerland.
+</AtomCharacter>
+
+This idea may seem good, but has some problems and bad points.
+An Associate Professor Daigo said in an interview with us,
+
+> Making recycling e-waste compulsory is probably possible, but no companies can make a great profit by recycling it.
+If you want people to do something, you have to give them something back in return for their cooperation.
+So, you have to consider who bears the recycling cost.
+The Japanese government is a good choice, but I think there are some problems with that.
+
+<AtomCharacter atom="Sc">
+It is difficult to find a solution to this problem, but let’s think about it by ourselves.
+</AtomCharacter>
+
+At first, we were thinking about having people compulsorily recycle their old smartphones.
+However, people cannot get anything by recycling, which Daigo said could get people less motivated.
+Consumers have to cover the recycling cost even though they can gain nothing.
+If such a situation continues, it is highly likely that people will come to throw away things illegally.
+There are bound to be some people who think,
+“Really? I have to pay some money to throw away my TV!?
+Come on.
+I’ll dump it in the mountains so that nobody will find it."
+Others may give their household appliances to groups which drive around their towns to get them for free.
+Such groups often collect only valuable parts of things they got, and dump the rest of them in the mountains.
+When household appliances are not properly discarded, resources they have will not be recycled and harmful substances in them such as CFC gas will damage the environment.
+
+<AtomCharacter atom="Au">
+I never thought such a thing would happen.
+In that case, consumers should pay some money not when they throw away things but when they buy them.
+This idea is working well in Switzerland as we saw in ‘Measures.’
+</AtomCharacter>
+
+In Switzerland, it is necessary that consumers recycle various things.
+They can recycle free of charge because they paid some money when they bought things.
+So, it is expected that more people recycle what they have properly, not discard them illegally.
+This system is based on the idea that producers, rather than consumers, should take responsibility for recycling.
+It is called Extended Producer Responsibility(EPR).
+Actually, in Japan, such a system is used in the Act on the Promotion of Effective Utilization of Resources.
+On the other hand, it was not used in the Act on Recycling of Specified Kinds of Home Appliances.
+One reason is that it is difficult for producers to predict how much money will be necessary to recycle the things they sell.
+Another is that it is next to impossible for them to get money from customers who have already bought products from them.
+
+<AtomCharacter atom="Pt">
+Well, if predicting future cost is difficult, producers can use the money consumers paid recently to recycle products that other consumers discarded just now.
+</AtomCharacter>
+
+This method is like the pension system in Japan.
+You raise as much money as you need at the moment.
+Then there should be no bad points as we mentioned.
+However, the system still has a problem which the pension system also does.
+It is that those who cover the recycling cost are not those who the money is used for.
+When you buy a household appliance, you will bear the recycling cost of other people’s appliances, not of yours.
+It is highly likely that recycling a product you buy requires more money now than in the future.
+
+<AtomCharacter atom="Li">
+Some people may angrily think,
+‘I paid 2000 yen to recycle old phones when I bought mine two years ago, but now it requires only 1500 yen to recycle them because technology has advanced.
+Give me back my 500 yen!!’
+</AtomCharacter>
+
+Even so, the system has a very good point.
+Producers have to add recycling costs to the prices of their products, so they will try to cut down the recycling costs in order to lower the final prices.
+Their products will be designed not to cost so much when producers recycle them in the future.
+In other words, more and more products will be easier to recycle.
+This is essential to establishing a recycling-based society, so this can be thought as the best thing about this system.
+There are various ways to make recycling e-waste compulsory, and each of them has both good points and bad points.
+
+<AtomCharacter atom="Sc">
+Considering those bad points, we should not force consumers to recycle e-waste.
+We can just keep asking them to do it.
+</AtomCharacter>
+<AtomCharacter atom="Li">
+We should make recycling compulsory.
+How about making a new law like the Act on Recycling of Specified Kind of Home Appliances so that we can get more e-waste?.
+</AtomCharacter>
+<AtomCharacter atom="Pt">
+I don’t think many people will recycle small things such as smartphones since they take up little space in their house.
+</AtomCharacter>
+<AtomCharacter atom="Au">
+In that case, consumers should pay some money when they buy their phones.
+</AtomCharacter>
+<AtomCharacter atom="Li">
+I don’t want to pay more money than necessary for recycling when I buy products.
+</AtomCharacter>
+
+Our elements are thinking this way.
+What do you think of the problem?
+We think everyone has a different solution.
+We do not know what system will be used in the future, but it is important that each of us consider and have our own opinion on the problem.
+
+### encourage people to recycle
+
+<AtomCharacter atom="Y">
+How about making recycling more appealing?
+</AtomCharacter>
+
+You can give a reward to those who recycled.
+Then you can get more e-waste without having to make recycling compulsory.
+
+<AtomCharacter atom="Pt">
+What can we give to these people?
+</AtomCharacter>
+<AtomCharacter atom="Au">
+Money?
+</AtomCharacter>
+
+If recycling companies give money as a reward, more people may recycle e-waste but many of these companies will not be able to make a profit anymore.
+
+<AtomCharacter atom="Au">
+...That’s true.
+It doesn’t make sense that recycling companies have to give the money.
+Who is responsible for recycling e-waste after all?
+</AtomCharacter>
+<AtomCharacter atom="Li">
+Everyone?
+We all don’t want resources to run out, right?
+</AtomCharacter>
+<AtomCharacter atom="Pt">
+How about imposing a new tax and using the money raised?
+</AtomCharacter>
+<AtomCharacter atom="Li">
+I don’t want to pay more taxes…
+</AtomCharacter>
+
+Many people feel the same way as Lithium, and we do not think it is a very good idea.
+So, we thought about why many people are not willing to recycle in the first place.
+Then we found out that many people feel they can do little for urban mining as seen in the result of our survey.
+We also found that people could not know how the resources in their e-waste would be used after they recycle it.
+We have to admit this.
+When we put a phone in a recycling box, we felt that we did something good for society, but had no idea how the resource would be used.
+So you could not tell whether you really helped companies to produce more products.
+Currently, recycling is a charity.
+It is done with no purpose.
+
+<AtomCharacter atom="Li">
+Many people recycled small household appliances to make medals for the Tokyo Olympics.
+</AtomCharacter>
+<AtomCharacter atom="Au">
+I think that is because they knew the metal in their phones and computers would be used to make them.
+</AtomCharacter>
+<AtomCharacter atom="Li">
+It is really amazing that Olympic medals can be made from our phones.
+</AtomCharacter>
+
+More people will recycle e-waste if people know what will be made from it.
+We came up with the idea of giving back a part of metal resources in e-waste to those who recycled it.
+If people recycle their phones, they will be given a part of minor metals and major metals in them.
+Then many people will feel that their phones are used to make something else.
+However, the idea has many problems: A smartphone has very little metal resources, and personal information of those who recycled phones must be securely stored and managed.
+For all its faults, it is important to let people know how their e-waste is used.
+
+### improve the image of recycling
+
+To see the title above, you may wonder if people do not think of recycling as a good thing.
+In Japan, people regard recycling as a thing that is good for the environment.
+However, many years ago, recycling was done by people with low social status.
+People continued to think that it is only a job dealing with garbage, though it is now considered to be a way to address environmental issues.
+In Europe, people are trying to make a “circular economy."
+I’m sure you know what a “recycling-based society" means.
+In a recycling-based society, you try not to damage the environment, while in a society with a circular economy, you try to not only protect the environment but also develop the economy.
+Recycling is thought of as a kind of economic activity and an important thing for the development of economies.
+People in Japan and in Europe have different ideas on recycling.
+Japanese people tend to think that what is done to deal with environmental problems prevent the economy from developing.
+More e-waste will be recycled in Japan if they appreciate a circular economy and try to make it.
+
+<AtomCharacter atom="Y">
+In order to make a circular economy, you can also design products to be used for a longer time.
+</AtomCharacter>
+
+## Recycle Using Machines
+
+In “Problems," we showed that recycling requires a large sum of money.
+
+This is largely because some people are hired to do jobs which are difficult for machines.
+If you can have machines do these jobs, recycling will cost much less.
+
+<AtomCharacter atom="Sc">
+Speaking of which, Apple, which we mentioned in “Measures," recycles its phones with only machines.
+</AtomCharacter>
+
+We told you that Apple has machines which can recycle up to 200 smartphones in an hour.
+When we were thinking about such a way of recycling, we came up with another idea: make sure that each kind of small household appliances share the same structure.
+If you make a global standard and producers around the world follow it, recycling will be far easier for machines.
+
+<AtomCharacter atom="Au">
+I’m afraid all producers will be forced to make similar items.
+</AtomCharacter>
+
+You can just ask them to gather components which use minor metals in a certain part of their products.
+This idea may be effective but involves many companies around the world, and it should be considered that items which have already been produced must also be recycled.
+
+We thought about using hydrogen to recycle e-waste.
+You can get energy by burning hydrogen with oxygen.
+Since no carbon dioxide is made in the process, hydrogen is said to be an environmentally-friendly fuel, provided it is created with no carbon dioxide discharged.
+However, it was only recently that you started to use hydrogen to get energy, so you cannot be certain whether it is safe to use it for recycling.
+Even so, more people may become more willing to recycle their e-waste if they know it is recycled in a way that does not damage the environment.
+
+## Reduce the Amount of Plastic and Harmful Substances
+
+When you recycle something, you get not only useful things such as metal but also things you do not need including plastic waste and harmful substances.
+What can we do to reduce the amount of such things?
+
+<AtomCharacter atom="Li">
+Companies can make products which have less plastic or dangerous compounds.
+</AtomCharacter>
+
+In fact, various measures have been taken to reduce them.
+For example, in “on the reduction of the impact of certain plastic products on the environment," which the EU published in 2019, producers are required not to sell straws, cotton bud sticks, food and beverage containers made of expanded polystyrene, fishing gears containing plastic, and so on.
+Another example is RoHS, which has restricted the use of ten hazardous materials in electrical and electronic equipment since July 1, 2006.
+Have you ever seen this CE mark?
+This label indicates the item met RoHS requirements.
+
+<div class="image_container">
+    <Image src="../assets/ec/ce-mark/ce-mark.png" note="ECよりダウンロード" href="https://ec.europa.eu/growth/single-market/ce-marking_en" height="10vw"></Image>
+</div>
+
+One problem with RoHS is that it is only applied to companies in the member states of the EU, not producers around the world.
+Some countries make their own laws similar to RoHS, but they vary from one country to another.
+For example, in Japan, producers can sell items which have too large amounts of harmful substances and do not meet the RoHS requirements.
+(although they have to follow the requirements if they are going to sell them in the member countries of the EU).
+So companies may start to sell things in Japan which cannot be sold in European countries.
+It is necessary that all countries share the same requirements.
+We propose that we make rules to be followed by producers around the world which restrict the use of plastic and harmful substances in order to reduce them.
+
+<AtomCharacter atom="Au">
+There are lots of metal resources in Antarctica and under the bottom of the sea.
+However, these areas are not being mined for them because it costs too much and can cause conflicts among some countries to mine the places.
+</AtomCharacter>
+
+## Summary
+
+私たちの提案する解決策は以下の６つです。
+
+1. make recycling compulsory after considering its good points and bad points
+2. give back metal resources to those who recycled
+3. improve the image of recycling
+4. make sure that each kind of small household appliances share the same structure
+5. get energy used to recycle e-waste by burning hydrogen with oxygen
+6. make rules to be followed by producers around the world which restrict the use of plastic and harmful substances.
+
+## References
+
+- [家電リサイクル法における費用回収方式について](https://www.meti.go.jp/shingikai/sankoshin/sangyo_gijutsu/haikibutsu_recycle/denki_wg/pdf/028_07_02.pdf)
+- [資源循環・廃棄物研究センター オンラインマガジン環境「循環・廃棄物の豆知識」](https://www-cycle.nies.go.jp/magazine/mame/201805.html)
+- [TOSHIBA「水素エネルギーについて知っておきたい5つのこと」](https://www.toshiba-clip.com/detail/p=621)
+- [ELEMINIST「有害物質を制限するローズ指令（RoHS指令）とは　遅れが目立つ日本での取り組み」](https://eleminist.com/article/817)
+- [Official Journal of the European Union「DIRECTIVE (EU) 2019/904 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 5 June 2019 on the reduction of the impact of certain plastic products on the environment」](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32019L0904&from=EN#d1e32-17-1)
+- [JETRO「欧州委、使い捨てプラスチック製品の流通禁止を前に指針発表」](https://www.jetro.go.jp/biznews/2021/06/88299a30b5475ed7.html)
+
+<PNBar prev="../activity/" next="../finally/" prev_text="Activity" next_text="Finally"></PNBar>
 <FloatingMenu>
+h1 Solution
+h2 Get More E-waste
+h3 make recycling e-waste compulsory
+h3 encourage people to recycle
+h3 improve the image of recycling
+h2 Recycle Using Machines
+h2 Reduce the Amount of Plastic and Harmful Substances
+h2 Summary
+h2 References
 </FloatingMenu>
+
 </div>
