@@ -70,7 +70,7 @@
         alt="金属生産のシェア上位3か国が占める比率"
         note="<InlineImage>../assets/susdi/46e68cc8af75454ff9cc3fd767a83b0e-300x109.png</InlineImage>より引用"
         href="http://susdi.org/wp/data/post-61/"
-        height="40vw"
+        width="50vw"
     ></Image>
 </div><SummaryLink>1</SummaryLink>
 

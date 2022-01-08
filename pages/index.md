@@ -3,7 +3,7 @@
 
 <div id="lang_jp">
 <div class="main_image">
-  <h1 id="右ポケットの中の資源を求めて">右ポケットの中の資源を求めて</h1>
+  <h1 id="右ポケットの中の資源を求めて" style="padding: 0;">右ポケットの中の資源を求めて</h1>
 </div>
 <div class="main_image_spacer">
 </div>
@@ -121,7 +121,7 @@
 <div id="lang_en">
 <div class="main_image">
 
-# In search of resources in your right pocket
+<h1 class="in_search_of_resources_in_your_right_pocket" style="padding: 0;">In search of resources in your right pocket</h1>
 
 </div>
 <div class="main_image_spacer">
