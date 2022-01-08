@@ -174,6 +174,173 @@ h2 解体を通して感じたこと
 </FloatingMenu>
 </div>
 <div id="lang_en">
+
+# Cell Phone Dismantling
+
+<NoIndent>
+On October 22, 2020, we dismantled one smartphone and one cell phone of a team member.
+</NoIndent>
+
+## Purpose of Dismantling
+
+- Experience the presence of metals in cell phones
+- Confirm a structure of cell phones
+
+## Smartphone
+
+<div class="prologue" style="text-align: center; background-color: #5bde6088">
+動画での解説もあります。動画は<PopupVideo v_id="1p2201012353" src="../video/activity/disassembly/WebCom21_1_product_22.01.01.23.53.mp4" poster="../video/activity/disassembly/WebCom21_1_product_22.01.01.23.53.png">こちら</PopupVideo>から。
+</div>
+
+The smartphone we are going to take apart is called 003SH, which was manufactured by SHARP Corporation in 2010.
+
+<div class="image_container">
+    <Image src="../img/activity/disassembly/S_1.jpg" height="20vw"></Image>
+    <Image src="../img/activity/disassembly/S_2.jpg" height="20vw"></Image>
+</div>
+
+These older devices tend to be easier to dismantle than modern ones as the parts can be more easily removed.
+In the same way, this smartphone had a very easy structure to disassemble.
+First, insert your fingernails from around the power terminal and remove the back plate.
+
+<div class="image_container">
+    <Image src="../img/activity/disassembly/1.00.23.jpg" height="40vw"></Image>
+</div>
+
+You may have opened it before, because it is where you can insert the SIM card or SD card and replace the battery.
+Release the lock, remove the battery, and the SIM card and SD card inside.
+You can see some screws, so use a special screwdriver (pentagonal screwdriver in this case) to remove them.
+Then you can see the circuit board.
+
+<div class="image_container">
+    <Image src="../img/activity/disassembly/1.05.56.jpg" height="40vw"></Image>
+</div>
+
+Because there are several components such as speakers and vibration motors on the back panel, remove them as well.
+You can remove the board by crushing and removing the small plastic projection that holds the edge of the board.
+
+<div class="image_container">
+    <Image src="../img/activity/disassembly/1.12.48.jpg" height="40vw"></Image>
+</div>
+
+The flexible cable that is connected to the display can be removed from the connector of the end and most of it is just attached to the board, so remove it from here.
+The silver parts attached to the board are heat sinks, which can be removed by inserting your fingernail under them.
+
+<div class="image_container">
+    <Image src="../img/activity/disassembly/1.14.32.jpg" height="20vw"></Image>
+    <Image src="../img/activity/disassembly/1.17.06.jpg" height="20vw"></Image>
+</div>
+
+Under the heat sink, there is often an IC chip that generates heat.
+It was difficult to disassemble the board any more, so we decided to finish with the board.
+Next, we dismantled the screen.
+By inserting a flathead screwdriver from the speaker area on the front side of it, you can remove the surface glass.
+After removing the glass, the LCD module can be removed by pushing from the back side.
+It is layered and can be peeled off.
+As a result, we were able to remove several pieces of film that reflect light in complex ways, as well as the main body of the LCD.
+
+<div class="image_container">
+    <Image src="../img/activity/disassembly/2.09.46.jpg" height="40vw"></Image>
+</div>
+
+This is the end of dismantling the smartphone.
+Finally, we were able to dismantle it into parts as shown in the picture below.
+
+<div class="image_container">
+    <Image src="../img/activity/disassembly/S.jpg" height="40vw"></Image>
+</div>
+
+## Feature Phone
+
+<div class="prologue" style="text-align: center; background-color: #5bde6088">
+動画での解説もあります。動画は<PopupVideo v_id="2p2201012353" src="../video/activity/disassembly/WebCom21_2_product_22.01.01.23.53.mp4" poster="../video/activity/disassembly/WebCom21_2_product_22.01.01.23.53.png">こちら</PopupVideo>から。
+</div>
+
+Dismantling a feature phone is similar to that of a smartphone (although both were made a long time ago).
+The phone we are going to take apart is called V603SH, which was made by SHARP Corporation in 2005.
+
+<div class="image_container">
+    <Image src="../img/activity/disassembly/G_1.jpg" height="30vw"></Image>
+    <Image src="../img/activity/disassembly/G_2.jpg" height="30vw"></Image>
+</div>
+
+Unlike smartphones, there are many hidden screws in feature phones.
+They are hidden behind stickers, so in addition to the visible screws, you have to find the stickers where the screws might be hidden and remove them.
+Also, feature phones have hinges as moving parts, and the parts are connected to those hinges by screws, which make it difficult to be taken off.
+Other than that, it is similar to disassembling a smartphone, so we will omit to explain about some parts.
+First, remove the battery and SIM card.
+
+<div class="image_container">
+    <Image src="../img/activity/disassembly/5.00.08.jpg" height="40vw"></Image>
+</div>
+
+Next, we need to remove the hidden screws.
+The black part in the picture below is a sticker, and the screws are inside it.
+When you insert a cutter, it will peel off and reveal the screws, so you can use a screwdriver to remove them.
+The silver parts next to the screen also came off.
+
+<div class="image_container">
+    <Image src="../img/activity/disassembly/5.04.32.jpg" height="40vw"></Image>
+</div>
+
+There was also a screw at the top of the screen, so removing it allowed you to remove the main body of the screen.
+By removing the screws on the base, it can be divided into two halves, the top half and the bottom half.
+*At this point, the top half looks like just a circuit board since the screen has been removed.
+
+<div class="image_container">
+    <Image src="../img/activity/disassembly/5.09.04_L.jpg" height="40vw"></Image>
+</div>
+
+Many flexible cables are also contained in the screen's circuit board, so by removing them one by one, the base can be removed.
+Behind the circuit board, there is the LCD unit, which could be dismantled into film and LCD in the same way as the smartphone.
+
+<div class="image_container">
+    <Image src="../img/activity/disassembly/5.12.18_L.jpg" height="40vw"></Image>
+</div>
+
+Next, we move on to disassemble the bottom half.
+Removing the screws, the keyboard part splits in half.
+
+<div class="image_container">
+    <Image src="../img/activity/disassembly/5.09.04_R.jpg" height="40vw"></Image>
+</div>
+
+There is also a circuit board here, and the rubber film used for the keyboard can be removed from between the base and plastic.
+It sinks in and allows electricity to pass through the circuit board, which is what makes it work as a button.
+Unlike that of a smartphone, the circuit board of a feature phone is assembled in a three-dimensional shape in order to make buttons on the side work.
+This can be separated into the circuit board and the hinge by removing the flexible cable as well.
+
+<div class="image_container">
+    <Image src="../img/activity/disassembly/5.19.23_R.jpg" height="40vw"></Image>
+</div>
+
+There is still a screw hidden here, so remove it and remove plastic.
+Then, the hinge, which looks like a mass of metal, can be removed.
+
+<div class="image_container">
+    <Image src="../img/activity/disassembly/5.26.13_R.jpg" height="40vw"></Image>
+</div>
+
+This is the end of dismantling the feature phone.
+Eventually, we were able to remove the parts as shown in the picture below.
+
+<div class="image_container">
+    <Image src="../img/activity/disassembly/G.jpg" height="40vw"></Image>
+</div>
+
+## Thought over Dismantling
+
+We do not usually dismantle a feature phone or a smartphone, so that itself was a fun thing to do, but of course we learned a lot from it.
+Smartphones that we use in our daily lives look like just a glass plate (in our opinions), so we thought there would be nothing inside but circuit boards, but when we actually did, we were very surprised to see that there were more different types of parts used than we had imagined, such as metal parts and flexible cables, in addition to circuit boards.
+In addition to that, we needed a special pentagonal screwdriver to dismantle phones, and although we were not used to it, it took us more than two hours to finish dismantling it, which made us realize that they were not easy to dismantle.
+We are planning to keep the disassembled waste electronic devices as reference materials until the end of the web contest, and after that, we will take a recovery box to reassemble them.
+
+<PNBar prev="./petec.html" next="../solution/" prev_text="Visit to Plant" next_text="Solution"></PNBar>
 <FloatingMenu>
+h1 Cell Phone Dismantling
+h2 Purpose of Dismantling
+h2 Smartphone
+h2 Feature Phone
+h2 Thought over Dismantling
 </FloatingMenu>
 </div>
