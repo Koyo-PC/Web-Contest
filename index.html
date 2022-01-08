@@ -271,6 +271,11 @@
         letter-spacing: 0.05em;
         line-height: 1.97;
       }
+
+      #lang_jp,
+      #lang_en {
+        display: none;
+      }
       .atom_chara {
         position: relative;
         display: grid;
@@ -1391,7 +1396,9 @@
                     break
                 }
               }
-              window.onload = () => setLang(sessionStorage.getItem("lang"))
+              document.addEventListener("DOMContentLoaded", () =>
+                setLang(sessionStorage.getItem("lang"))
+              )
             </script>
           </button>
         </div>
@@ -1399,7 +1406,7 @@
       <div id="lang_en">
         <div class="main_image">
           <h1
-            class="in_search_of_resources_in_your_right_pocket"
+            id="in-search-of-resources-in-your-right-pocket"
             style="padding: 0"
           >
             In search of resources in your right pocket
@@ -1808,7 +1815,9 @@
                       break
                   }
                 }
-                window.onload = () => setLang(sessionStorage.getItem("lang"))
+                document.addEventListener("DOMContentLoaded", () =>
+                  setLang(sessionStorage.getItem("lang"))
+                )
               </script>
             </button>
           </div>

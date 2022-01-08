@@ -271,6 +271,11 @@
         letter-spacing: 0.05em;
         line-height: 1.97;
       }
+
+      #lang_jp,
+      #lang_en {
+        display: none;
+      }
       .atom_chara {
         position: relative;
         display: grid;
@@ -1888,7 +1893,9 @@ PETECの位置する加東市（人口：39848人 <span class="weak">2021年9月
                     break
                 }
               }
-              window.onload = () => setLang(sessionStorage.getItem("lang"))
+              document.addEventListener("DOMContentLoaded", () =>
+                setLang(sessionStorage.getItem("lang"))
+              )
             </script>
           </button>
         </div>
@@ -1969,7 +1976,9 @@ PETECの位置する加東市（人口：39848人 <span class="weak">2021年9月
                     break
                 }
               }
-              window.onload = () => setLang(sessionStorage.getItem("lang"))
+              document.addEventListener("DOMContentLoaded", () =>
+                setLang(sessionStorage.getItem("lang"))
+              )
             </script>
           </button>
         </div>

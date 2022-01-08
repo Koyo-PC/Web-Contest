@@ -271,6 +271,11 @@
         letter-spacing: 0.05em;
         line-height: 1.97;
       }
+
+      #lang_jp,
+      #lang_en {
+        display: none;
+      }
       .image_box {
         display: inline-block;
         position: relative;
@@ -989,18 +994,96 @@
                     break
                 }
               }
-              window.onload = () => setLang(sessionStorage.getItem("lang"))
+              document.addEventListener("DOMContentLoaded", () =>
+                setLang(sessionStorage.getItem("lang"))
+              )
             </script>
           </button>
         </div>
       </div>
       <div id="lang_en">
+        <h1 id="recovery-box">Recovery Box</h1>
+        <p>
+          We found out that there was a recovery box near our school, so we used
+          it on July 14, 2020.
+        </p>
+        <div class="image_container">
+          <figure class="image_box" style="width: ; height: " id="">
+            <img
+              class="image"
+              src="../img/activity/recycle-box/1.jpg"
+              alt=""
+              style="transform: scale()"
+            />
+            <div class="note"><a class="href" href=""></a></div>
+            <figcaption class="image_caption"></figcaption>
+          </figure>
+        </div>
+
+        <p>
+          This picture shows the Kansai Supermarket Kurakuenguchi store, in
+          which there is a recovery box.
+        </p>
+        <div class="image_container">
+          <figure class="image_box" style="width: ; height: " id="">
+            <img
+              class="image"
+              src="../img/activity/recycle-box/2.jpg"
+              alt=""
+              style="transform: scale()"
+            />
+            <div class="note"><a class="href" href=""></a></div>
+            <figcaption class="image_caption"></figcaption>
+          </figure>
+        </div>
+
+        <p>
+          There was a recovery box at the entrance of the supermarket.<br />
+          We felt that it was well-devised because it was installed in a place
+          where people often pass by.
+        </p>
+        <div class="image_container">
+          <figure class="image_box" style="width: ; height: 50vw" id="">
+            <img
+              class="image"
+              src="../img/activity/recycle-box/3.jpg"
+              alt=""
+              style="transform: scale()"
+            />
+            <div class="note"><a class="href" href=""></a></div>
+            <figcaption class="image_caption"></figcaption>
+          </figure>
+        </div>
+
+        <p>
+          The bright green color of the recovery box made us feel that it was
+          environmentally friendly.<br />
+          We put an old cell phone of a member in the recovery box.<br />
+          We hope it will be a good resource.
+        </p>
+        <p>
+          We felt we did something good even though we took out a used cell
+          phone. Why don&#39;t you try to use a recovery box when you go
+          shopping at your local supermarket?
+        </p>
+        <div id="pn_bar">
+          <a href="./questionnaire.html" id="prev_link">
+            <div id="prev_text">Questionnaire</div>
+            <button id="prev_button">Prev</button>
+          </a>
+
+          <a href="./interview.html" id="next_link">
+            <div id="next_text">Interview</div>
+            <button id="next_button">Next</button>
+          </a>
+        </div>
+
         <div id="floating_menu">
           <!--suppress BadExpressionStatementJS -->
           <div id="toc">
             <div id="toc_title">目次</div>
 
-            <a class="toc_link_" href="#"> </a>
+            <a class="toc_link_h1" href="#recovery-box"> Recovery Box </a>
           </div>
 
           <!--suppress BadExpressionStatementJS --><button
@@ -1071,7 +1154,9 @@
                     break
                 }
               }
-              window.onload = () => setLang(sessionStorage.getItem("lang"))
+              document.addEventListener("DOMContentLoaded", () =>
+                setLang(sessionStorage.getItem("lang"))
+              )
             </script>
           </button>
         </div>

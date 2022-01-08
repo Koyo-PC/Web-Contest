@@ -271,6 +271,11 @@
         letter-spacing: 0.05em;
         line-height: 1.97;
       }
+
+      #lang_jp,
+      #lang_en {
+        display: none;
+      }
       #next_link {
         color: black;
         text-decoration: none;
@@ -1044,7 +1049,9 @@
                     break
                 }
               }
-              window.onload = () => setLang(sessionStorage.getItem("lang"))
+              document.addEventListener("DOMContentLoaded", () =>
+                setLang(sessionStorage.getItem("lang"))
+              )
             </script>
           </button>
         </div>
@@ -1236,12 +1243,12 @@
         </ul>
         <div id="pn_bar">
           <a href="../" id="prev_link">
-            <div id="prev_text">アクティビティ</div>
+            <div id="prev_text">Activity</div>
             <button id="prev_button">Prev</button>
           </a>
 
           <a href="./recycle-box.html" id="next_link">
-            <div id="next_text">回収ボックス</div>
+            <div id="next_text">Recovery Box</div>
             <button id="next_button">Next</button>
           </a>
         </div>
@@ -1251,16 +1258,14 @@
           <div id="toc">
             <div id="toc_title">目次</div>
 
-            <a class="toc_link_h1" href="#アンケート"> アンケート </a>
-            <a class="toc_link_h2" href="#アンケート結果&amp;考察">
-              アンケート結果&amp;考察
+            <a class="toc_link_h1" href="#questionnaire"> Questionnaire </a>
+            <a class="toc_link_h2" href="#survey-results＆discussion">
+              Survey Results＆Discussion
             </a>
-            <a class="toc_link_h3" href="#都市鉱山に対するイメージ">
-              都市鉱山に対するイメージ
+            <a class="toc_link_h3" href="#images-on-urban-mining">
+              Images on urban mining
             </a>
-            <a class="toc_link_h2" href="#わかったことのまとめ">
-              わかったことのまとめ
-            </a>
+            <a class="toc_link_h2" href="#summary"> Summary </a>
           </div>
 
           <!--suppress BadExpressionStatementJS --><button
@@ -1330,7 +1335,9 @@
                     break
                 }
               }
-              window.onload = () => setLang(sessionStorage.getItem("lang"))
+              document.addEventListener("DOMContentLoaded", () =>
+                setLang(sessionStorage.getItem("lang"))
+              )
             </script>
           </button>
         </div>

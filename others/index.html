@@ -271,6 +271,11 @@
         letter-spacing: 0.05em;
         line-height: 1.97;
       }
+
+      #lang_jp,
+      #lang_en {
+        display: none;
+      }
       #lang_button {
         background-color: whitesmoke;
         border: none;
@@ -1348,7 +1353,9 @@
                     break
                 }
               }
-              window.onload = () => setLang(sessionStorage.getItem("lang"))
+              document.addEventListener("DOMContentLoaded", () =>
+                setLang(sessionStorage.getItem("lang"))
+              )
             </script>
           </button>
         </div>
@@ -1429,7 +1436,9 @@
                     break
                 }
               }
-              window.onload = () => setLang(sessionStorage.getItem("lang"))
+              document.addEventListener("DOMContentLoaded", () =>
+                setLang(sessionStorage.getItem("lang"))
+              )
             </script>
           </button>
         </div>
