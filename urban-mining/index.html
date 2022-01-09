@@ -283,11 +283,13 @@
         gap: 40px;
         grid-template-columns: var(--atom_chara_size) 1fr;
       }
+
       @media (orientation: landscape) {
         .atom_chara {
           --atom_chara_size: 150px;
         }
       }
+
       @media (orientation: portrait) {
         .atom_chara {
           --atom_chara_size: 50px;
@@ -319,11 +321,13 @@
         width: var(--atom_chara_size);
         text-align: center;
       }
+
       @media (orientation: landscape) {
         .atom_chara_name {
           font-size: 18px;
         }
       }
+
       @media (orientation: portrait) {
         .atom_chara_name {
           font-size: 15px;
@@ -343,11 +347,13 @@
         flex-grow: 1;
         background-color: var(--color);
       }
+
       @media (orientation: landscape) {
         .atom_chara_content {
           font-size: 18px;
         }
       }
+
       @media (orientation: portrait) {
         .atom_chara_content {
           font-size: 15px;
@@ -768,6 +774,9 @@
         position: absolute;
         color: darkgray;
       }
+      .footer_copyright * {
+        font-size: 12px;
+      }
 
       .footer_copyright > a {
         text-decoration: underline;
@@ -777,6 +786,9 @@
       .footer_license {
         position: absolute;
         color: darkgray;
+      }
+      .footer_license * {
+        font-size: 12px;
       }
 
       .footer_license a {
@@ -814,7 +826,7 @@
         }
 
         .footer_license {
-          bottom: 12%;
+          bottom: 10%;
           left: 10%;
           font-size: 12px;
         }
@@ -837,6 +849,9 @@
         .footer_sitemap > a {
           width: 100%;
           height: calc(100% / var(--category-count));
+        }
+        .footer_sitemap > a,
+        .footer_sitemap > a * {
           font-size: 14px;
         }
       }
@@ -881,6 +896,9 @@
         .footer_sitemap > a {
           width: 100%;
           height: calc(100% / var(--category-count));
+        }
+        .footer_sitemap > a,
+        .footer_sitemap > a * {
           font-size: 12px;
         }
       }
@@ -912,7 +930,7 @@
         border-right: 1px solid #001b26;
       }
 
-      .nav_link :nth-child(3) {
+      .nav_link > :nth-child(3) {
         border-bottom: 5px solid white;
       }
 
@@ -1076,20 +1094,42 @@
       </div>
       <div class="nav_link" id="navLink">
         <a href="../">Home</a>
-        <a href="../present-situation/">資源の現状</a>
-        <a href="../urban-mining/">都市鉱山の意義</a>
-        <a href="../problem/">課題</a>
-        <a href="../measure/">現在の取り組み</a>
+        <a href="../present-situation/"
+          ><span class="lang_jp">資源の現状</span
+          ><span class="lang_en">Present Situation</span></a
+        >
+        <a href="../urban-mining/"
+          ><span class="lang_jp">都市鉱山の意義</span
+          ><span class="lang_en">Significance of Urban Mining</span></a
+        >
+        <a href="../problem/"
+          ><span class="lang_jp">課題</span
+          ><span class="lang_en">Problem</span></a
+        >
+        <a href="../measure/"
+          ><span class="lang_jp">現在の取り組み</span
+          ><span class="lang_en">Measure</span></a
+        >
         <a
           href="../activity/"
           id="nav_activity"
           onmouseover="setActivityOpening(true)"
           onmouseout="setActivityOpening(false)"
-          >アクティビティ</a
+          ><span class="lang_jp">アクティビティ</span
+          ><span class="lang_en">Activity</span></a
         >
-        <a href="../solution/">解決策</a>
-        <a href="../finally/">最後に</a>
-        <a href="../others/">その他</a>
+        <a href="../solution/"
+          ><span class="lang_jp">解決策</span
+          ><span class="lang_en">Solution</span></a
+        >
+        <a href="../finally/"
+          ><span class="lang_jp">最後に</span
+          ><span class="lang_en">Finally</span></a
+        >
+        <a href="../others/"
+          ><span class="lang_jp">その他</span
+          ><span class="lang_en">Others</span></a
+        >
       </div>
       <div
         id="nav_activity_content"
@@ -1097,11 +1137,26 @@
         onmouseover="setActivityOpening(true)"
         onmouseout="setActivityOpening(false)"
       >
-        <a href="../activity/questionnaire.html">アンケート</a>
-        <a href="../activity/recycle-box.html">回収ボックス</a>
-        <a href="../activity/interview.html">インタビュー</a>
-        <a href="../activity/petec.html">工場見学</a>
-        <a href="../activity/disassembly.html">携帯解体</a>
+        <a href="../activity/questionnaire.html"
+          ><span class="lang_jp">アンケート</span
+          ><span class="lang_en">Questionnaire</span></a
+        >
+        <a href="../activity/recycle-box.html"
+          ><span class="lang_jp">回収ボックス</span
+          ><span class="lang_en">Recovery Box</span></a
+        >
+        <a href="../activity/interview.html"
+          ><span class="lang_jp">インタビュー</span
+          ><span class="lang_en">Interview</span></a
+        >
+        <a href="../activity/petec.html"
+          ><span class="lang_jp">工場見学</span
+          ><span class="lang_en">Visit to Plant</span></a
+        >
+        <a href="../activity/disassembly.html"
+          ><span class="lang_jp">携帯解体</span
+          ><span class="lang_en">Cell Phone Dismantling</span></a
+        >
       </div>
     </nav>
 
@@ -1288,12 +1343,11 @@
         <!--suppress ALL -->
         <div class="atom_chara" style="width: 100%; margin: 50px 0">
           <div class="atom_chara_icon">
-            <img
-              class="atom_chara_img"
-              src="../img/atom_chara/Li.png"
-              alt="リチウムくんのアイコン"
-            />
-            <div class="atom_chara_name">リチウムくん</div>
+            <img class="atom_chara_img" src="../img/atom_chara/Li.png" />
+            <div class="atom_chara_name">
+              <span class="lang_jp">リチウムくん</span
+              ><span class="lang_en">Little Lithium</span>
+            </div>
           </div>
           <div class="atom_chara_content">
             <span
@@ -1534,12 +1588,11 @@
         <!--suppress ALL -->
         <div class="atom_chara" style="width: 100%; margin: 50px 0">
           <div class="atom_chara_icon">
-            <img
-              class="atom_chara_img"
-              src="../img/atom_chara/Y.png"
-              alt="イットリウム博士のアイコン"
-            />
-            <div class="atom_chara_name">イットリウム博士</div>
+            <img class="atom_chara_img" src="../img/atom_chara/Y.png" />
+            <div class="atom_chara_name">
+              <span class="lang_jp">イットリウム博士</span
+              ><span class="lang_en">Dr.Y</span>
+            </div>
           </div>
           <div class="atom_chara_content">
             <span
@@ -1648,12 +1701,11 @@
             <!--suppress ALL -->
             <div class="atom_chara" style="width: 100%; margin: 50px 0">
               <div class="atom_chara_icon">
-                <img
-                  class="atom_chara_img"
-                  src="../img/atom_chara/Sc.png"
-                  alt="スカンジウムおじさんのアイコン"
-                />
-                <div class="atom_chara_name">スカンジウムおじさん</div>
+                <img class="atom_chara_img" src="../img/atom_chara/Sc.png" />
+                <div class="atom_chara_name">
+                  <span class="lang_jp">スカンジウムおじさん</span
+                  ><span class="lang_en">Mr.Scandium</span>
+                </div>
               </div>
               <div class="atom_chara_content">
                 <span
@@ -1779,7 +1831,7 @@
                       .querySelectorAll(".lang_jp")
                       .forEach((el) => (el.style.display = "none"))
                     document.title =
-                      "都市鉱山の意義 | In search of resources in your right pocket"
+                      "都市鉱山の意義 | In Search of Resources in Your Right Pocket"
                     document.documentElement.lang = "en"
                     sessionStorage.setItem("lang", "en")
                     break
@@ -2215,12 +2267,11 @@
         <!--suppress ALL -->
         <div class="atom_chara" style="width: 100%; margin: 50px 0">
           <div class="atom_chara_icon">
-            <img
-              class="atom_chara_img"
-              src="../img/atom_chara/Y.png"
-              alt="イットリウム博士のアイコン"
-            />
-            <div class="atom_chara_name">イットリウム博士</div>
+            <img class="atom_chara_img" src="../img/atom_chara/Y.png" />
+            <div class="atom_chara_name">
+              <span class="lang_jp">イットリウム博士</span
+              ><span class="lang_en">Dr.Y</span>
+            </div>
           </div>
           <div class="atom_chara_content">
             <span
@@ -2328,12 +2379,11 @@
             <!--suppress ALL -->
             <div class="atom_chara" style="width: 100%; margin: 50px 0">
               <div class="atom_chara_icon">
-                <img
-                  class="atom_chara_img"
-                  src="../img/atom_chara/Sc.png"
-                  alt="スカンジウムおじさんのアイコン"
-                />
-                <div class="atom_chara_name">スカンジウムおじさん</div>
+                <img class="atom_chara_img" src="../img/atom_chara/Sc.png" />
+                <div class="atom_chara_name">
+                  <span class="lang_jp">スカンジウムおじさん</span
+                  ><span class="lang_en">Mr.Scandium</span>
+                </div>
               </div>
               <div class="atom_chara_content">
                 <span
@@ -2468,7 +2518,7 @@
                       .querySelectorAll(".lang_jp")
                       .forEach((el) => (el.style.display = "none"))
                     document.title =
-                      "都市鉱山の意義 | In search of resources in your right pocket"
+                      "都市鉱山の意義 | In Search of Resources in Your Right Pocket"
                     document.documentElement.lang = "en"
                     sessionStorage.setItem("lang", "en")
                     break
@@ -2530,11 +2580,27 @@
     <!--suppress BadExpressionStatementJS -->
     <footer>
       <div class="footer_main">
-        <div class="footer_title">右ポケットの中の資源を求めて</div>
+        <div class="footer_title">
+          <span class="lang_jp">右ポケットの中の資源を求めて</span>
+          <span class="lang_en"
+            >In Search of Resources in Your Right Pocket</span
+          >
+        </div>
         <div class="footer_copyright">
-          このサイトは
-          <a href="http://webcon.japias.jp/">第24回全国中学高校Webコンテスト</a>
-          に参加しています。
+          <span class="lang_jp"
+            >このサイトは
+            <a href="http://webcon.japias.jp/"
+              >第24回全国中学高校Webコンテスト</a
+            >
+            に参加しています。</span
+          >
+          <span class="lang_en"
+            >このサイトは
+            <a href="http://webcon.japias.jp/"
+              >第24回全国中学高校Webコンテスト</a
+            >
+            に参加しています。</span
+          >
         </div>
         <div class="footer_license">
           <a
@@ -2542,32 +2608,67 @@
             href="http://creativecommons.org/licenses/by-nc-nd/4.0/"
           >
             <img
-              alt="クリエイティブ・コモンズ・ライセンス"
               style="border-width: 0"
               src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png"
             />
           </a>
           <br />
-          この作品は
-          <a
-            rel="license"
-            href="http://creativecommons.org/licenses/by-nc-nd/4.0/"
-          >
-            クリエイティブ・コモンズ 表示 - 非営利 - 改変禁止 4.0 国際ライセンス
-          </a>
-          の下に提供されています。
+          <span class="lang_jp">
+            この作品は
+            <a
+              rel="license"
+              href="http://creativecommons.org/licenses/by-nc-nd/4.0/"
+            >
+              クリエイティブ・コモンズ 表示 - 非営利 - 改変禁止 4.0
+              国際ライセンス
+            </a>
+            の下に提供されています。
+          </span>
+          <span class="lang_en">
+            This work is licensed under a
+            <a
+              rel="license"
+              href="http://creativecommons.org/licenses/by-nc-nd/4.0/"
+            >
+              Creative Commons Attribution 4.0 International License </a
+            >.
+          </span>
         </div>
       </div>
       <div class="footer_sitemap">
         <a href="../">Home</a>
-        <a href="../present-situation/">資源の現状</a>
-        <a href="../urban-mining/">都市鉱山の意義</a>
-        <a href="../problem/">課題</a>
-        <a href="../measure/">現在の取り組み</a>
-        <a href="../activity/">アクティビティ</a>
-        <a href="../solution/">解決策</a>
-        <a href="../finally/">最後に</a>
-        <a href="../others/">その他</a>
+        <a href="../present-situation/"
+          ><span class="lang_jp">資源の現状</span
+          ><span class="lang_en">Present Situation</span></a
+        >
+        <a href="../urban-mining/"
+          ><span class="lang_jp">都市鉱山の意義</span
+          ><span class="lang_en">Significance of Urban Mining</span></a
+        >
+        <a href="../problem/"
+          ><span class="lang_jp">課題</span
+          ><span class="lang_en">Problem</span></a
+        >
+        <a href="../measure/"
+          ><span class="lang_jp">現在の取り組み</span
+          ><span class="lang_en">Measure</span></a
+        >
+        <a href="../activity/"
+          ><span class="lang_jp">アクティビティ</span
+          ><span class="lang_en">Activity</span></a
+        >
+        <a href="../solution/"
+          ><span class="lang_jp">解決策</span
+          ><span class="lang_en">Solution</span></a
+        >
+        <a href="../finally/"
+          ><span class="lang_jp">最後に</span
+          ><span class="lang_en">Finally</span></a
+        >
+        <a href="../others/"
+          ><span class="lang_jp">その他</span
+          ><span class="lang_en">Others</span></a
+        >
       </div>
       <!--  ©︎甲陽学院PC部-->
     </footer>
