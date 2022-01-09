@@ -1303,16 +1303,20 @@
         <script>
           document.addEventListener("click", () => {
             if (window.location.href.indexOf("#") < 0) return
-            const id_sharp = window.location.href.match(/#[^#]*/).toString()
-            // if(id_sharp == null) return;
-            const id = id_sharp.replace("#", "")
-            console.log(id)
-            if (id.indexOf("s_") < 0) return
-            for (let elem of document.getElementsByClassName("summary-link")) {
-              if (elem.id === `${id}_content`)
-                elem.style.border = "2px solid red"
-              else elem.style.border = "none"
-            }
+            setTimeout(() => {
+              const id_sharp = window.location.href.match(/#[^#]*/).toString()
+              // if(id_sharp == null) return;
+              const id = id_sharp.replace("#", "")
+              console.log(id)
+              if (id.indexOf("s_") < 0) return
+              for (let elem of document.getElementsByClassName(
+                "summary-link"
+              )) {
+                if (elem.id === `${id}_content`)
+                  elem.style.border = "2px solid red"
+                else elem.style.border = "none"
+              }
+            }, 100)
           })
         </script>
         しかし日本では<span class="force_text"
@@ -1409,18 +1413,20 @@
           <script>
             document.addEventListener("click", () => {
               if (window.location.href.indexOf("#") < 0) return
-              const id_sharp = window.location.href.match(/#[^#]*/).toString()
-              // if(id_sharp == null) return;
-              const id = id_sharp.replace("#", "")
-              console.log(id)
-              if (id.indexOf("s_") < 0) return
-              for (let elem of document.getElementsByClassName(
-                "summary-link"
-              )) {
-                if (elem.id === `${id}_content`)
-                  elem.style.border = "2px solid red"
-                else elem.style.border = "none"
-              }
+              setTimeout(() => {
+                const id_sharp = window.location.href.match(/#[^#]*/).toString()
+                // if(id_sharp == null) return;
+                const id = id_sharp.replace("#", "")
+                console.log(id)
+                if (id.indexOf("s_") < 0) return
+                for (let elem of document.getElementsByClassName(
+                  "summary-link"
+                )) {
+                  if (elem.id === `${id}_content`)
+                    elem.style.border = "2px solid red"
+                  else elem.style.border = "none"
+                }
+              }, 100)
             })
           </script>
           使用済み家電をリサイクルして資源にするのに<span class="force_text"
@@ -1480,18 +1486,20 @@
           <script>
             document.addEventListener("click", () => {
               if (window.location.href.indexOf("#") < 0) return
-              const id_sharp = window.location.href.match(/#[^#]*/).toString()
-              // if(id_sharp == null) return;
-              const id = id_sharp.replace("#", "")
-              console.log(id)
-              if (id.indexOf("s_") < 0) return
-              for (let elem of document.getElementsByClassName(
-                "summary-link"
-              )) {
-                if (elem.id === `${id}_content`)
-                  elem.style.border = "2px solid red"
-                else elem.style.border = "none"
-              }
+              setTimeout(() => {
+                const id_sharp = window.location.href.match(/#[^#]*/).toString()
+                // if(id_sharp == null) return;
+                const id = id_sharp.replace("#", "")
+                console.log(id)
+                if (id.indexOf("s_") < 0) return
+                for (let elem of document.getElementsByClassName(
+                  "summary-link"
+                )) {
+                  if (elem.id === `${id}_content`)
+                    elem.style.border = "2px solid red"
+                  else elem.style.border = "none"
+                }
+              }, 100)
             })
           </script>
           実は<span class="force_text"
@@ -1548,18 +1556,20 @@
           <script>
             document.addEventListener("click", () => {
               if (window.location.href.indexOf("#") < 0) return
-              const id_sharp = window.location.href.match(/#[^#]*/).toString()
-              // if(id_sharp == null) return;
-              const id = id_sharp.replace("#", "")
-              console.log(id)
-              if (id.indexOf("s_") < 0) return
-              for (let elem of document.getElementsByClassName(
-                "summary-link"
-              )) {
-                if (elem.id === `${id}_content`)
-                  elem.style.border = "2px solid red"
-                else elem.style.border = "none"
-              }
+              setTimeout(() => {
+                const id_sharp = window.location.href.match(/#[^#]*/).toString()
+                // if(id_sharp == null) return;
+                const id = id_sharp.replace("#", "")
+                console.log(id)
+                if (id.indexOf("s_") < 0) return
+                for (let elem of document.getElementsByClassName(
+                  "summary-link"
+                )) {
+                  if (elem.id === `${id}_content`)
+                    elem.style.border = "2px solid red"
+                  else elem.style.border = "none"
+                }
+              }, 100)
             })
           </script>
           また、リサイクルによって<span class="force_text">有害物質が出る</span
@@ -1634,20 +1644,22 @@
               <script>
                 document.addEventListener("click", () => {
                   if (window.location.href.indexOf("#") < 0) return
-                  const id_sharp = window.location.href
-                    .match(/#[^#]*/)
-                    .toString()
-                  // if(id_sharp == null) return;
-                  const id = id_sharp.replace("#", "")
-                  console.log(id)
-                  if (id.indexOf("s_") < 0) return
-                  for (let elem of document.getElementsByClassName(
-                    "summary-link"
-                  )) {
-                    if (elem.id === `${id}_content`)
-                      elem.style.border = "2px solid red"
-                    else elem.style.border = "none"
-                  }
+                  setTimeout(() => {
+                    const id_sharp = window.location.href
+                      .match(/#[^#]*/)
+                      .toString()
+                    // if(id_sharp == null) return;
+                    const id = id_sharp.replace("#", "")
+                    console.log(id)
+                    if (id.indexOf("s_") < 0) return
+                    for (let elem of document.getElementsByClassName(
+                      "summary-link"
+                    )) {
+                      if (elem.id === `${id}_content`)
+                        elem.style.border = "2px solid red"
+                      else elem.style.border = "none"
+                    }
+                  }, 100)
                 })
               </script>
               ～セベソ事件～
@@ -1667,20 +1679,22 @@
               <script>
                 document.addEventListener("click", () => {
                   if (window.location.href.indexOf("#") < 0) return
-                  const id_sharp = window.location.href
-                    .match(/#[^#]*/)
-                    .toString()
-                  // if(id_sharp == null) return;
-                  const id = id_sharp.replace("#", "")
-                  console.log(id)
-                  if (id.indexOf("s_") < 0) return
-                  for (let elem of document.getElementsByClassName(
-                    "summary-link"
-                  )) {
-                    if (elem.id === `${id}_content`)
-                      elem.style.border = "2px solid red"
-                    else elem.style.border = "none"
-                  }
+                  setTimeout(() => {
+                    const id_sharp = window.location.href
+                      .match(/#[^#]*/)
+                      .toString()
+                    // if(id_sharp == null) return;
+                    const id = id_sharp.replace("#", "")
+                    console.log(id)
+                    if (id.indexOf("s_") < 0) return
+                    for (let elem of document.getElementsByClassName(
+                      "summary-link"
+                    )) {
+                      if (elem.id === `${id}_content`)
+                        elem.style.border = "2px solid red"
+                      else elem.style.border = "none"
+                    }
+                  }, 100)
                 })
               </script>
               ～ココ事件～
@@ -1731,20 +1745,22 @@
               <script>
                 document.addEventListener("click", () => {
                   if (window.location.href.indexOf("#") < 0) return
-                  const id_sharp = window.location.href
-                    .match(/#[^#]*/)
-                    .toString()
-                  // if(id_sharp == null) return;
-                  const id = id_sharp.replace("#", "")
-                  console.log(id)
-                  if (id.indexOf("s_") < 0) return
-                  for (let elem of document.getElementsByClassName(
-                    "summary-link"
-                  )) {
-                    if (elem.id === `${id}_content`)
-                      elem.style.border = "2px solid red"
-                    else elem.style.border = "none"
-                  }
+                  setTimeout(() => {
+                    const id_sharp = window.location.href
+                      .match(/#[^#]*/)
+                      .toString()
+                    // if(id_sharp == null) return;
+                    const id = id_sharp.replace("#", "")
+                    console.log(id)
+                    if (id.indexOf("s_") < 0) return
+                    for (let elem of document.getElementsByClassName(
+                      "summary-link"
+                    )) {
+                      if (elem.id === `${id}_content`)
+                        elem.style.border = "2px solid red"
+                      else elem.style.border = "none"
+                    }
+                  }, 100)
                 })
               </script>
               ～豊島事件～
@@ -1885,18 +1901,20 @@
           <script>
             document.addEventListener("click", () => {
               if (window.location.href.indexOf("#") < 0) return
-              const id_sharp = window.location.href.match(/#[^#]*/).toString()
-              // if(id_sharp == null) return;
-              const id = id_sharp.replace("#", "")
-              console.log(id)
-              if (id.indexOf("s_") < 0) return
-              for (let elem of document.getElementsByClassName(
-                "summary-link"
-              )) {
-                if (elem.id === `${id}_content`)
-                  elem.style.border = "2px solid red"
-                else elem.style.border = "none"
-              }
+              setTimeout(() => {
+                const id_sharp = window.location.href.match(/#[^#]*/).toString()
+                // if(id_sharp == null) return;
+                const id = id_sharp.replace("#", "")
+                console.log(id)
+                if (id.indexOf("s_") < 0) return
+                for (let elem of document.getElementsByClassName(
+                  "summary-link"
+                )) {
+                  if (elem.id === `${id}_content`)
+                    elem.style.border = "2px solid red"
+                  else elem.style.border = "none"
+                }
+              }, 100)
             })
           </script>
           それは<span class="force_text"
@@ -2119,18 +2137,20 @@
           <script>
             document.addEventListener("click", () => {
               if (window.location.href.indexOf("#") < 0) return
-              const id_sharp = window.location.href.match(/#[^#]*/).toString()
-              // if(id_sharp == null) return;
-              const id = id_sharp.replace("#", "")
-              console.log(id)
-              if (id.indexOf("s_") < 0) return
-              for (let elem of document.getElementsByClassName(
-                "summary-link"
-              )) {
-                if (elem.id === `${id}_content`)
-                  elem.style.border = "2px solid red"
-                else elem.style.border = "none"
-              }
+              setTimeout(() => {
+                const id_sharp = window.location.href.match(/#[^#]*/).toString()
+                // if(id_sharp == null) return;
+                const id = id_sharp.replace("#", "")
+                console.log(id)
+                if (id.indexOf("s_") < 0) return
+                for (let elem of document.getElementsByClassName(
+                  "summary-link"
+                )) {
+                  if (elem.id === `${id}_content`)
+                    elem.style.border = "2px solid red"
+                  else elem.style.border = "none"
+                }
+              }, 100)
             })
           </script>
           However,
@@ -2242,18 +2262,20 @@
           <script>
             document.addEventListener("click", () => {
               if (window.location.href.indexOf("#") < 0) return
-              const id_sharp = window.location.href.match(/#[^#]*/).toString()
-              // if(id_sharp == null) return;
-              const id = id_sharp.replace("#", "")
-              console.log(id)
-              if (id.indexOf("s_") < 0) return
-              for (let elem of document.getElementsByClassName(
-                "summary-link"
-              )) {
-                if (elem.id === `${id}_content`)
-                  elem.style.border = "2px solid red"
-                else elem.style.border = "none"
-              }
+              setTimeout(() => {
+                const id_sharp = window.location.href.match(/#[^#]*/).toString()
+                // if(id_sharp == null) return;
+                const id = id_sharp.replace("#", "")
+                console.log(id)
+                if (id.indexOf("s_") < 0) return
+                for (let elem of document.getElementsByClassName(
+                  "summary-link"
+                )) {
+                  if (elem.id === `${id}_content`)
+                    elem.style.border = "2px solid red"
+                  else elem.style.border = "none"
+                }
+              }, 100)
             })
           </script>
           In order to recycle used home appliances and turn them into resources,
@@ -2317,18 +2339,20 @@
           <script>
             document.addEventListener("click", () => {
               if (window.location.href.indexOf("#") < 0) return
-              const id_sharp = window.location.href.match(/#[^#]*/).toString()
-              // if(id_sharp == null) return;
-              const id = id_sharp.replace("#", "")
-              console.log(id)
-              if (id.indexOf("s_") < 0) return
-              for (let elem of document.getElementsByClassName(
-                "summary-link"
-              )) {
-                if (elem.id === `${id}_content`)
-                  elem.style.border = "2px solid red"
-                else elem.style.border = "none"
-              }
+              setTimeout(() => {
+                const id_sharp = window.location.href.match(/#[^#]*/).toString()
+                // if(id_sharp == null) return;
+                const id = id_sharp.replace("#", "")
+                console.log(id)
+                if (id.indexOf("s_") < 0) return
+                for (let elem of document.getElementsByClassName(
+                  "summary-link"
+                )) {
+                  if (elem.id === `${id}_content`)
+                    elem.style.border = "2px solid red"
+                  else elem.style.border = "none"
+                }
+              }, 100)
             })
           </script>
           In fact,
@@ -2393,18 +2417,20 @@
           <script>
             document.addEventListener("click", () => {
               if (window.location.href.indexOf("#") < 0) return
-              const id_sharp = window.location.href.match(/#[^#]*/).toString()
-              // if(id_sharp == null) return;
-              const id = id_sharp.replace("#", "")
-              console.log(id)
-              if (id.indexOf("s_") < 0) return
-              for (let elem of document.getElementsByClassName(
-                "summary-link"
-              )) {
-                if (elem.id === `${id}_content`)
-                  elem.style.border = "2px solid red"
-                else elem.style.border = "none"
-              }
+              setTimeout(() => {
+                const id_sharp = window.location.href.match(/#[^#]*/).toString()
+                // if(id_sharp == null) return;
+                const id = id_sharp.replace("#", "")
+                console.log(id)
+                if (id.indexOf("s_") < 0) return
+                for (let elem of document.getElementsByClassName(
+                  "summary-link"
+                )) {
+                  if (elem.id === `${id}_content`)
+                    elem.style.border = "2px solid red"
+                  else elem.style.border = "none"
+                }
+              }, 100)
             })
           </script>
           In addition,
@@ -2511,20 +2537,22 @@
               <script>
                 document.addEventListener("click", () => {
                   if (window.location.href.indexOf("#") < 0) return
-                  const id_sharp = window.location.href
-                    .match(/#[^#]*/)
-                    .toString()
-                  // if(id_sharp == null) return;
-                  const id = id_sharp.replace("#", "")
-                  console.log(id)
-                  if (id.indexOf("s_") < 0) return
-                  for (let elem of document.getElementsByClassName(
-                    "summary-link"
-                  )) {
-                    if (elem.id === `${id}_content`)
-                      elem.style.border = "2px solid red"
-                    else elem.style.border = "none"
-                  }
+                  setTimeout(() => {
+                    const id_sharp = window.location.href
+                      .match(/#[^#]*/)
+                      .toString()
+                    // if(id_sharp == null) return;
+                    const id = id_sharp.replace("#", "")
+                    console.log(id)
+                    if (id.indexOf("s_") < 0) return
+                    for (let elem of document.getElementsByClassName(
+                      "summary-link"
+                    )) {
+                      if (elem.id === `${id}_content`)
+                        elem.style.border = "2px solid red"
+                      else elem.style.border = "none"
+                    }
+                  }, 100)
                 })
               </script>
               Seveso disaster
@@ -2556,20 +2584,22 @@
               <script>
                 document.addEventListener("click", () => {
                   if (window.location.href.indexOf("#") < 0) return
-                  const id_sharp = window.location.href
-                    .match(/#[^#]*/)
-                    .toString()
-                  // if(id_sharp == null) return;
-                  const id = id_sharp.replace("#", "")
-                  console.log(id)
-                  if (id.indexOf("s_") < 0) return
-                  for (let elem of document.getElementsByClassName(
-                    "summary-link"
-                  )) {
-                    if (elem.id === `${id}_content`)
-                      elem.style.border = "2px solid red"
-                    else elem.style.border = "none"
-                  }
+                  setTimeout(() => {
+                    const id_sharp = window.location.href
+                      .match(/#[^#]*/)
+                      .toString()
+                    // if(id_sharp == null) return;
+                    const id = id_sharp.replace("#", "")
+                    console.log(id)
+                    if (id.indexOf("s_") < 0) return
+                    for (let elem of document.getElementsByClassName(
+                      "summary-link"
+                    )) {
+                      if (elem.id === `${id}_content`)
+                        elem.style.border = "2px solid red"
+                      else elem.style.border = "none"
+                    }
+                  }, 100)
                 })
               </script>
               Coco Incident
@@ -2634,20 +2664,22 @@
               <script>
                 document.addEventListener("click", () => {
                   if (window.location.href.indexOf("#") < 0) return
-                  const id_sharp = window.location.href
-                    .match(/#[^#]*/)
-                    .toString()
-                  // if(id_sharp == null) return;
-                  const id = id_sharp.replace("#", "")
-                  console.log(id)
-                  if (id.indexOf("s_") < 0) return
-                  for (let elem of document.getElementsByClassName(
-                    "summary-link"
-                  )) {
-                    if (elem.id === `${id}_content`)
-                      elem.style.border = "2px solid red"
-                    else elem.style.border = "none"
-                  }
+                  setTimeout(() => {
+                    const id_sharp = window.location.href
+                      .match(/#[^#]*/)
+                      .toString()
+                    // if(id_sharp == null) return;
+                    const id = id_sharp.replace("#", "")
+                    console.log(id)
+                    if (id.indexOf("s_") < 0) return
+                    for (let elem of document.getElementsByClassName(
+                      "summary-link"
+                    )) {
+                      if (elem.id === `${id}_content`)
+                        elem.style.border = "2px solid red"
+                      else elem.style.border = "none"
+                    }
+                  }, 100)
                 })
               </script>
               Teshima Incident
@@ -2818,18 +2850,20 @@
           <script>
             document.addEventListener("click", () => {
               if (window.location.href.indexOf("#") < 0) return
-              const id_sharp = window.location.href.match(/#[^#]*/).toString()
-              // if(id_sharp == null) return;
-              const id = id_sharp.replace("#", "")
-              console.log(id)
-              if (id.indexOf("s_") < 0) return
-              for (let elem of document.getElementsByClassName(
-                "summary-link"
-              )) {
-                if (elem.id === `${id}_content`)
-                  elem.style.border = "2px solid red"
-                else elem.style.border = "none"
-              }
+              setTimeout(() => {
+                const id_sharp = window.location.href.match(/#[^#]*/).toString()
+                // if(id_sharp == null) return;
+                const id = id_sharp.replace("#", "")
+                console.log(id)
+                if (id.indexOf("s_") < 0) return
+                for (let elem of document.getElementsByClassName(
+                  "summary-link"
+                )) {
+                  if (elem.id === `${id}_content`)
+                    elem.style.border = "2px solid red"
+                  else elem.style.border = "none"
+                }
+              }, 100)
             })
           </script>
           This is because
