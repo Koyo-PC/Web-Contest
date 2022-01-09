@@ -16,7 +16,7 @@
 みなさんは金や銀などの金属資源にどのようなイメージを持っていますか？
 
 <div class="image_container">
-    <Image src="../svg/description/A8.svg" alt="金・銀へのイメージ"></Image>
+    <CaptionImage src="../svg/description/A8.svg" alt="金・銀へのイメージ"></CaptionImage>
 </div>
 
 上の人たちが考えるように様々なイメージがあると思いますが、金属資源にあまり馴染みがないという方が多いのではないでしょうか。<br>
@@ -43,10 +43,16 @@
 ## 生産量の増加
 
 世界全体で一体どれくらいの金属が掘られているのでしょうか？<br>
-下のグラフは世界の主要な金属の生産量の推移を表すものです。
+下のグラフ（図1.1）は世界の主要な金属の生産量の推移を表すものです。
 
 <div class="image_container">
-    <Image src="../assets/book/book_p7.png" alt="主要な金属の生産量の推移" note="書籍『資源論』をスキャン" height="40vw"></Image>
+    <CaptionImage
+        src="../assets/book/book_p7.png"
+        force_exist="true"
+        caption="図1.1 金属生産量の増加"
+        note_jp="書籍『資源論』をスキャンして作成"
+        width="40vw"
+    ></CaptionImage>
 </div>
 
 このグラフを見ればわかるように<Word>オイルショック</Word>などの影響で一時的に減少に転じることはあるものの、<ForceText>全体的には指数関数的な増加が続いています。</ForceText>
@@ -69,15 +75,15 @@
 
 ## 資源の偏在
 
-下のグラフを見てください。
+下のグラフ（図1.2）を見てください。
 
 <div class="image_container">
-    <Image src="../assets/susdi/7d2a8a5d380f463388d1c8d4512bef57.jpg"
-        alt="金属生産のシェア上位3か国が占める比率"
-        note="<InlineImage>../assets/susdi/46e68cc8af75454ff9cc3fd767a83b0e-300x109.png</InlineImage>より引用"
-        href="http://susdi.org/wp/data/post-61/"
+    <CaptionImage
+        src="../assets/susdi/7d2a8a5d380f463388d1c8d4512bef57.jpg"
+        source="SusDI" link="http://susdi.org/wp/data/post-61/"
+        caption="図1.2 金属生産上位３か国のシェア"
         width="50vw"
-    ></Image>
+    ></CaptionImage>
 </div>
 
 <SummaryLink id="1">

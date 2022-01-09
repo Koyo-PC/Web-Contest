@@ -1,6 +1,7 @@
 <figure class="image_box" style="width: {{width}}; height: {{height}};" id="{{ id }}">
   <img class="image" src="{{ src }}" alt="{{ alt }}" style="transform: scale({{scale}})"/>
-  <figcaption class="image_caption">{{ caption }}<span style="[[source_empty]]"><br><span class="lang_en">[[src_text_en]]</span><a href="{{link}}">[[source]]</a><span class="lang_jp">[[src_text_jp]]</span></span></figcaption>
+  <figcaption class="image_caption">{{ caption }}<span style="[[source_empty]]"><br><span class="lang_en">[[src_text_en]]</span><a
+          href="{{link}}">[[source]]</a><span class="lang_jp">[[src_text_jp]]</span></span></figcaption>
 </figure>
 <style>
   .image_box {
@@ -32,7 +33,11 @@
         return {
             "style": "style=\"height: " + options["height"] + "\"; transform",
             "source": options["source"]?.replace("SusDI", "<img style='height: 1em; vertical-align: middle;' src='../assets/susdi/46e68cc8af75454ff9cc3fd767a83b0e-300x109.png'/>"),
-            "source_empty": options["source"] === "" || options["source"] === undefined ? "display:none;" : "display:initial;",
+            "source_empty":
+                (options["source"] === "" || options["source"] === undefined)
+                && options["force_exist"] !== "true"
+                    ? "display:none;"
+                    : "display:initial;",
             "src_text_jp": options["note_jp"] ?? "より引用",
             "src_text_en": options["note_en"] ?? "Data Source : ",
         };
