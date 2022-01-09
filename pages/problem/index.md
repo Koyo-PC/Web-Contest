@@ -12,11 +12,16 @@
 <a href="../present-situation/">「資源の現状」</a>、<a href="../urban-mining/">「都市鉱山の意義」</a>を読まれた方は都市鉱山の重要性がお分かりになったかと思います。
 <SummaryLink id="0">
 しかし日本では<ForceText>都市鉱山の考え方に基づく小型家電の回収はなかなか進んでいません。</ForceText>
-実際日本は「2018年までに小型家電回収量を14万トンにする」という目標を掲げましたが、達成できませんでした。
+実際日本は「2018年までに小型家電回収量を14万トンにする」という目標を掲げましたが、達成できませんでした。（図3.1）
 </SummaryLink>
 
 <div class="image_container">
-    <Image src="../assets/meti/20200807_01.png" height="40vw" href="https://www.env.go.jp/press/files/jp/114485.pdf" note="環境省より引用"></Image>
+    <CaptionImage
+        src="../assets/meti/20200807_01.png"
+        caption="図3.1 小型家電回収量の推移"
+        source="環境省" link="https://www.env.go.jp/press/files/jp/114485.pdf"
+        height="40vw"
+    ></CaptionImage>
 </div>
 
 その理由の一つに<ForceText>知名度の低さ</ForceText>が挙げられます。
@@ -62,15 +67,15 @@
 都市鉱山は廃電子機器に含まれる<Word>レアメタル</Word>や<Word>ベースメタル</Word>を資源として捉えるものです。
 しかし、廃電子機器はレアメタルやベースメタルだけで出来ているわけではありません。
 <SummaryLink id="3">
-実は<ForceText>廃電子機器の構成成分の大部分がプラスチックで占められているのです。</ForceText>
+実は<ForceText>廃電子機器の構成成分の大部分がプラスチックで占められているのです。（図3.2）</ForceText>
 </SummaryLink>
 <div class="image_container">
-    <Image src="../assets/susdi/40dcbe9d88c96297b642179a653642d8.jpg"
-        alt="携帯の成分構成"
-        note="<InlineImage>../assets/susdi/46e68cc8af75454ff9cc3fd767a83b0e-300x109.png</InlineImage>より引用"
-        href="http://susdi.org/wp/data/post-38/"
+    <CaptionImage
+        src="../assets/susdi/40dcbe9d88c96297b642179a653642d8.jpg"
+        caption="図3.2 携帯電話の構成成分の割合"
+        source="SusDI" link="http://susdi.org/wp/data/post-38/"
         height="40vw"
-    ></Image>
+    ></CaptionImage>
 </div>
 
 このプラスチックがリサイクルにおける大きな問題となっています。
