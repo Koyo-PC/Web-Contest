@@ -1,97 +1,98 @@
-<svg xmlns="http://www.w3.org/2000/svg" id="main" xmlns:xlink="http://www.w3.org/1999/xlink" width="1500" height="600" viewBox="0, 0, 1500, 600">
-	<g transform="translate(-500 -400)">
-		<path d="M1480 469c0-2.76 2.24-5 5-5h310c2.76 0 5 2.24 5 5v110c0 2.76-2.24 5-5 5h-310c-2.76 0-5-2.24-5-5z" stroke="#000" stroke-width="2" fill-opacity="0"/>
-
-		<!-- 都市鉱山 -->
-		<a href="#s_0">
-			<path d="M933.44 618.5c0-2.76 2.24-5 5-5h150c2.76 0 5 2.24 5 5v86c0 2.76-2.24 5-5 5h-150c-2.76 0-5-2.24-5-5z" stroke="#000" stroke-width="2" fill="#e3f7ff"/>
-			<text transform="matrix(1,0,0,1,980,665)">都市鉱山</text>
-		</a>
-
-		<!-- 資源の偏在による格差を解消 -->
-		<a href="#s_1">
-			<path d="M560 618.5c0-2.76 2.24-5 5-5h150c2.76 0 5 2.24 5 5v86c0 2.76-2.24 5-5 5H565c-2.76 0-5-2.24-5-5z" stroke="#000" stroke-width="2" fill="#ffe3e9"/>
-			<text transform="matrix(1,0,0,1,575,655)">資源の偏在による</text>
-			<text transform="matrix(1,0,0,1,600,675)">格差を解消</text>
-		</a>
-
-		<!-- 日本の地位向上 -->
-		<a href="#s_2">
-			<path d="M560 826.44c0-2.76 2.24-5 5-5h150c2.76 0 5 2.24 5 5v86c0 2.76-2.24 5-5 5H565c-2.76 0-5-2.24-5-5z" stroke="#000" stroke-width="2" fill="#ffe3e9"/>
-			<text transform="matrix(1,0,0,1,585,875)">日本の地位向上</text>
-		</a>
-
-		<!-- 廃電子機器にはレアメタル・メジャーメタルが含まれている -->
-		<a href="#s_3">
-			<path d="M933.44 826.44c0-2.76 2.24-5 5-5h150c2.76 0 5 2.24 5 5v86c0 2.76-2.24 5-5 5h-150c-2.76 0-5-2.24-5-5z" stroke="#000" stroke-width="2" fill="#ebffe3"/>
-			<text transform="matrix(1,0,0,1,958,845)">廃電子機器には</text>
-			<text transform="matrix(1,0,0,1,970,865)">レアメタル・</text>
-			<text transform="matrix(1,0,0,1,950,885)">メジャーメタルが</text>
-			<text transform="matrix(1,0,0,1,970,905)">含まれている</text>
-		</a>
-
-		<!-- 先進国のゴミの自己管理促進 -->
-		<a href="#s_4">
-			<path d="M1306.88 618.5c0-2.76 2.24-5 5-5h150c2.76 0 5 2.24 5 5v86c0 2.76-2.24 5-5 5h-150c-2.76 0-5-2.24-5-5z" stroke="#000" stroke-width="2" fill="#fff7e3"/>
-			<text transform="matrix(1,0,0,1,1330,655)">先進国のゴミの</text>
-			<text transform="matrix(1,0,0,1,1340,675)">自己管理促進</text>
-		</a>
-
-		<!-- 途上国での不法投棄問題の解決 -->
-		<a href="#s_5">
-			<path d="M1680.32 618.5c0-2.76 2.24-5 5-5h150c2.76 0 5 2.24 5 5v86c0 2.76-2.24 5-5 5h-150c-2.76 0-5-2.24-5-5z" stroke="#000" stroke-width="2" fill="#fff7e3"/>
-			<text transform="matrix(1,0,0,1,1705,655)">途上国での不法</text>
-			<text transform="matrix(1,0,0,1,1705,675)">投棄問題の解決</text>
-		</a>
-
-		<!-- 住民の健康被害が減る -->
-		<a href="#s_6">
-			<path d="M1680.32 826.44c0-2.76 2.24-5 5-5h150c2.76 0 5 2.24 5 5v86c0 2.76-2.24 5-5 5h-150c-2.76 0-5-2.24-5-5z" stroke="#000" stroke-width="2" fill="#fff7e3"/>
-			<text transform="matrix(1,0,0,1,1705,865)">住民の健康被害</text>
-			<text transform="matrix(1,0,0,1,1740,885)">が減る</text>
-		</a>
-
-		<!-- 途上国のより良い発展 -->
-		<a href="#s_7">
-			<path d="M1306.88 826.44c0-2.76 2.24-5 5-5h150c2.76 0 5 2.24 5 5v86c0 2.76-2.24 5-5 5h-150c-2.76 0-5-2.24-5-5z" stroke="#000" stroke-width="2" fill="#fff7e3"/>
-			<text transform="matrix(1,0,0,1,1355,865)">途上国の</text>
-			<text transform="matrix(1,0,0,1,1340,885)">より良い発展</text>
-		</a>
-
-		<path d="M1760.32 711.5v90.44" stroke="#000" stroke-width="2" fill="none"/>
-		<path d="M1761.32 711.53h-2v-1.03h2"/>
-		<path d="M1760.32 817.2l-4.64-14.26h9.28z" stroke="#000" stroke-width="2"/>
-		<path d="M1760.28 711.5l-.05.5-.08.5-.1.5-.1.5-.15.5-.17.52-.2.53-.22.53-.24.54-.3.56-.33.58-.38.6-.44.62-.48.66-.57.68-.65.73-.76.77-.87.82-1.03.88-1.2.95-1.44 1.04-1.72 1.16-2.1 1.26-2.57 1.42-3.23 1.6-4.15 1.85-5.46 2.14-7.4 2.57-10.55 3.18-16 4.08-27.6 5.8-86.74 14.03-105.47 16.78-27.6 5.8-16 4.08-10.55 3.17-7.4 2.57-5.47 2.15-4.15 1.85-3.24 1.6-2.6 1.42-2.08 1.26-1.5 1" stroke="#000" stroke-width="2" fill="none"/>
-		<path d="M1761.3 711.55l-2-.04.02-1h2"/>
-		<path d="M1388.7 817.77l4.24-14.4 7.65 5.25z" stroke="#000" stroke-width="2"/>
-		<path d="M1468.88 661.5h191.94" stroke="#000" stroke-width="2" fill="none"/>
-		<path d="M1468.9 662.5h-1.02v-2h1.03"/>
-		<path d="M1676.08 661.5l-14.26 4.64v-9.28z" stroke="#000" stroke-width="2"/>
-		<path d="M931.44 663.5h-205M931.44 659.5h-205" stroke="#000" stroke-width="2" fill="none"/>
-		<path d="M932.44 664.5h-1.03v-2h1.04M932.44 660.5h-1.03v-2h1.04"/>
-		<path d="M740.18 651.32l-17.22 10.18 17.22 10.18M1095.44 659.5h205M1095.44 663.5h205" stroke="#000" stroke-width="2" fill="none"/>
-		<path d="M1095.47 660.5h-1.03v-2h1.03M1095.47 664.5h-1.03v-2h1.03"/>
-		<path d="M1286.7 671.68l17.22-10.18-17.22-10.18M640 711.5v90.44" stroke="#000" stroke-width="2" fill="none"/>
-		<path d="M641 711.53h-2v-1.03h2"/>
-		<path d="M640 817.2l-4.64-14.26h9.28z" stroke="#000" stroke-width="2"/>
-
-		<!-- バーゼル条約 -->
-		<a href="#s_8">
-			<path d="M1136 469c0-2.76 2.24-5 5-5h198c2.76 0 5 2.24 5 5v86c0 2.76-2.24 5-5 5h-50 l20 40 l-50 -40 h-118c-2.76 0-5-2.24-5-5z" stroke="#000" stroke-width="2" fill="#fff7e3"/>
-			<text transform="matrix(1,0,0,1,1190,515)">バーゼル条約</text>
-		</a>
-
-		<path d="M1013.44 819.44V729" stroke="#000" stroke-width="2" fill="none"/>
-		<path d="M1014.44 820.44h-2v-1.03h2"/>
-		<path d="M1013.44 713.74l4.64 14.26h-9.28z" stroke="#000" stroke-width="2"/>
-		<path d="M1497 496h44.5M1497.03 496H1496" stroke="#000" stroke-width="2" fill="none"/>
-		<path d="M1556.76 496l-14.26 4.64v-9.28z" stroke="#000" stroke-width="2"/>
-
-		<path d="M1560 469c0-2.76 2.24-5 5-5h230c2.76 0 5 2.24 5 5v50c0 2.76-2.24 5-5 5h-230c-2.76 0-5-2.24-5-5z" stroke="#000" stroke-opacity="0" stroke-width="2" fill="#fff" fill-opacity="0"/>
-		<text transform="matrix(1,0,0,1,1600,502)">因果関係</text>
-
-		<path d="M1560 529c0-2.76 2.24-5 5-5h230c2.76 0 5 2.24 5 5v50c0 2.76-2.24 5-5 5h-230c-2.76 0-5-2.24-5-5z" stroke="#000" stroke-opacity="0" stroke-width="2" fill="#fff" fill-opacity="0"/>
-		<text transform="matrix(1,0,0,1,1600,560)">より利用されると...</text>
-		<path d="M1497 552h57.55M1497 556h57.55M1497.03 552H1496M1497.03 556H1496M1540.82 564.18l17.22-10.18-17.22-10.18" stroke="#000" stroke-width="2" fill="none"/>
-	</g>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="main" xmlns:lucid="lucid" width="1500" height="600" viewBox="225,250,1400,700">
+    <g transform="translate(0 0)" lucid:page-tab-id="VS3Q7ESg0vICf">
+        <path d="M1248 373a5 5 0 0 1 5-5h310a5 5 0 0 1 5 5v110a5 5 0 0 1-5 5h-310a5 5 0 0 1-5-5z" stroke="#000"
+              stroke-width="2" fill-opacity="0"/>
+        <a href="#s_0">
+            <path d="M613.44 586.5a5 5 0 0 1 5-5h230a5 5 0 0 1 5 5v134a5 5 0 0 1-5 5h-230a5 5 0 0 1-5-5z" stroke="#000"
+                  stroke-width="2" fill="#e3f7ff"/>
+            <text style="font-size: 31px;" transform="matrix(1,0,0,1,633.44,581.5) translate(37.77777777777777 78.22222222222223)">都市鉱山</text>
+        </a>
+        <a href="#s_1">
+            <path d="M240 586.5a5 5 0 0 1 5-5h230a5 5 0 0 1 5 5v134a5 5 0 0 1-5 5H245a5 5 0 0 1-5-5z" stroke="#000"
+                  stroke-width="2" fill="#ffe3e9"/>
+            <text style="font-size: 31px;" transform="matrix(1,0,0,1,260,581.5) translate(23 40.888888888888886)">資源の偏在</text>
+            <text style="font-size: 31px;" transform="matrix(1,0,0,1,260,581.5) translate(9.777777777777771 78.22222222222223)">による格差を</text>
+            <text style="font-size: 31px;" transform="matrix(1,0,0,1,260,581.5) translate(68.88888888888889 115.55555555555557)">解消</text>
+        </a>
+        <a href="#s_2">
+            <path d="M240 794.44a5 5 0 0 1 5-5h230a5 5 0 0 1 5 5v134a5 5 0 0 1-5 5H245a5 5 0 0 1-5-5z" stroke="#000"
+                  stroke-width="2" fill="#ffe3e9"/>
+            <text style="font-size: 31px;" transform="matrix(1,0,0,1,260,789.44) translate(54.11111111111111 59.55555555555555)">日本の</text>
+            <text style="font-size: 31px;" transform="matrix(1,0,0,1,260,789.44) translate(37.77777777777777 96.88888888888889)">地位向上</text>
+        </a>
+        <a href="#s_3">
+            <path d="M613.44 794.44a5 5 0 0 1 5-5h230a5 5 0 0 1 5 5v134a5 5 0 0 1-5 5h-230a5 5 0 0 1-5-5z" stroke="#000"
+                  stroke-width="2" fill="#ebffe3"/>
+            <text style="font-size: 26px;" transform="matrix(1,0,0,1,633.44,789.44) translate(7.999999999999972 29.333333333333336)">廃電子機器には</text>
+            <text style="font-size: 26px;" transform="matrix(1,0,0,1,633.44,789.44) translate(23.333333333333314 61.333333333333336)">レアメタル・</text>
+            <text style="font-size: 26px;" transform="matrix(1,0,0,1,633.44,789.44) translate(10.666666666666657 93.33333333333334)">メジャーメタル</text>
+            <text style="font-size: 26px;" transform="matrix(1,0,0,1,633.44,789.44) translate(10.666666666666643 125.33333333333334)">が含まれている</text>
+        </a>
+        <a href="#s_4">
+            <path d="M986.88 586.5a5 5 0 0 1 5-5h230a5 5 0 0 1 5 5v134a5 5 0 0 1-5 5h-230a5 5 0 0 1-5-5z" stroke="#000"
+                  stroke-width="2" fill="#fff7e3"/>
+            <text style="font-size: 31px;" transform="matrix(1,0,0,1,1006.8800000000001,581.5) translate(38.55555555555555 40.888888888888886)">先進国の</text>
+            <text style="font-size: 31px;" transform="matrix(1,0,0,1,1006.8800000000001,581.5) translate(55.666666666666664 78.22222222222223)">ゴミの</text>
+            <text style="font-size: 31px;" transform="matrix(1,0,0,1,1006.8800000000001,581.5) translate(6.666666666666657 115.55555555555557)">自己管理促進</text>
+        </a>
+        <a href="#s_5">
+            <path d="M1360.32 586.5a5 5 0 0 1 5-5h230a5 5 0 0 1 5 5v134a5 5 0 0 1-5 5h-230a5 5 0 0 1-5-5z" stroke="#000"
+                  stroke-width="2" fill="#fff7e3"/>
+            <text style="font-size: 31px;" transform="matrix(1,0,0,1,1380.3200000000002,581.5) translate(23.77777777777777 40.888888888888886)">途上国での</text>
+            <text style="font-size: 31px;" transform="matrix(1,0,0,1,1380.3200000000002,581.5) translate(6.666666666666657 78.22222222222223)">不法投棄問題</text>
+            <text style="font-size: 31px;" transform="matrix(1,0,0,1,1380.3200000000002,581.5) translate(54.11111111111111 115.55555555555557)">の解決</text>
+        </a>
+        <a href="#s_6">
+            <path d="M1360.32 794.44a5 5 0 0 1 5-5h230a5 5 0 0 1 5 5v134a5 5 0 0 1-5 5h-230a5 5 0 0 1-5-5z" stroke="#000"
+                  stroke-width="2" fill="#fff7e3"/>
+            <text style="font-size: 31px;" transform="matrix(1,0,0,1,1380.3200000000002,789.44) translate(7.444444444444443 59.55555555555555)">住民の健康被</text>
+            <text style="font-size: 31px;" transform="matrix(1,0,0,1,1380.3200000000002,789.44) translate(39.33333333333333 96.88888888888889)">害が減る</text>
+        </a>
+        <a href="#s_7">
+            <path d="M986.88 794.44a5 5 0 0 1 5-5h230a5 5 0 0 1 5 5v134a5 5 0 0 1-5 5h-230a5 5 0 0 1-5-5z" stroke="#000"
+                  stroke-width="2" fill="#fff7e3"/>
+            <text style="font-size: 31px;" transform="matrix(1,0,0,1,1006.8800000000001,789.44) translate(38.55555555555555 59.55555555555555)">途上国の</text>
+            <text style="font-size: 31px;" transform="matrix(1,0,0,1,1006.8800000000001,789.44) translate(8.999999999999986 96.88888888888889)">より良い発展</text>
+        </a>
+        <path d="M1480.32 727.47v42.5" stroke="#000" stroke-width="2" fill="none"/>
+        <path d="M1481.32 727.5h-2v-1.03h2"/>
+        <path d="M1480.32 785.23l-4.64-14.26h9.28z" stroke="#000" stroke-width="2"/>
+        <path d="M1480.2 727.46l-.05.15-.06.18-.07.17-.08.18-.08.18-.1.2-.1.2-.14.2-.15.22-.18.22-.2.24-.22.26-.27.27-.3.3-.37.32-.44.34-.53.38-.64.43-.78.47-.97.53-1.23.6-1.6.72-2.12.83-2.9 1-4.15 1.25-6.22 1.58-10.08 2.12-18.3 3.05-42.47 5.2-226.08 21.68-18.3 3.06-10.08 2.12-6.22 1.58-3.24.97"
+              stroke="#000" stroke-width="2" fill="none"/>
+        <path d="M1481.3 727.52l-2-.05.02-1h2"/>
+        <path d="M1109.56 786.66l9.25-11.8 5.2 7.68z" stroke="#000" stroke-width="2"/>
+        <path d="M1228.85 653.5h112" stroke="#000" stroke-width="2" fill="none"/>
+        <path d="M1228.88 654.5h-1.03v-2h1.03"/>
+        <path d="M1356.1 653.5l-14.25 4.64v-9.28z" stroke="#000" stroke-width="2"/>
+        <path d="M611.47 655.5H486.42M611.47 651.5H486.42" stroke="#000" stroke-width="2" fill="none"/>
+        <path d="M612.47 656.5h-1.03v-2h1.03M612.47 652.5h-1.03v-2h1.03"/>
+        <path d="M500.15 643.32l-17.22 10.18 17.22 10.18M855.4 651.5h125.06M855.4 655.5h125.06" stroke="#000"
+              stroke-width="2" fill="none"/>
+        <path d="M855.44 652.5h-1.03v-2h1.04M855.44 656.5h-1.03v-2h1.04"/>
+        <path d="M966.73 663.68l17.22-10.18-17.22-10.18M360 727.47v42.5" stroke="#000" stroke-width="2" fill="none"/>
+        <path d="M361 727.5h-2v-1.03h2"/>
+        <path d="M360 785.23l-4.64-14.26h9.28z" stroke="#000" stroke-width="2"/>
+        <a href="#s_8">
+            <path d="M816 373a5 5 0 0 1 5-5h230a5 5 0 0 1 5 5v134a5 5 0 0 1-5 5 h-20 l10,50 l-50,-50 H821 a5 5 0 0 1-5-5z" stroke="#000"
+                  stroke-width="2" fill="#fff7e3"/>
+            <text style="font-size: 31px;" transform="matrix(1,0,0,1,836,368) translate(8.999999999999986 78.22222222222223)">バーゼル条約</text>
+        </a>
+        <path d="M733.44 787.47v-42.5" stroke="#000" stroke-width="2" fill="none"/>
+        <path d="M734.44 788.47h-2v-1.03h2"/>
+        <path d="M733.44 729.7l4.64 14.27h-9.28z" stroke="#000" stroke-width="2"/>
+        <path d="M1264.68 400h44.53M1264.7 400h-1.02" stroke="#000" stroke-width="2" fill="none"/>
+        <path d="M1324.48 400l-14.27 4.63v-9.27z" stroke="#000" stroke-width="2"/>
+        <path d="M1327.68 373a5 5 0 0 1 5-5h230a5 5 0 0 1 5 5v50a5 5 0 0 1-5 5h-230a5 5 0 0 1-5-5z" stroke="#000"
+              stroke-opacity="0" stroke-width="2" fill="#fff" fill-opacity="0"/>
+        <g>
+            <text style="font-size: 22px;" transform="matrix(1,0,0,1,1347.6799999999998,368) translate(55.55555555555556 34.44444444444444)">因果関係</text>
+        </g>
+        <path d="M1327.68 433a5 5 0 0 1 5-5h230a5 5 0 0 1 5 5v50a5 5 0 0 1-5 5h-230a5 5 0 0 1-5-5z" stroke="#000"
+              stroke-opacity="0" stroke-width="2" fill="#fff" fill-opacity="0"/>
+        <g>
+            <text style="font-size: 22px;" transform="matrix(1,0,0,1,1347.6799999999998,428) translate(6.111111111111114 34.44444444444444)">より利用されると...</text>
+        </g>
+        <path d="M1264.68 456h57.58M1264.68 460h57.58M1264.7 456h-1.02M1264.7 460h-1.02M1308.53 468.18l17.22-10.18-17.22-10.18"
+              stroke="#000" stroke-width="2" fill="none"/>
+    </g>
 </svg>
