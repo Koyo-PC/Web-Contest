@@ -532,6 +532,13 @@
           font-size: 1.2em;
         }
       }
+      .link_anchor {
+        position: relative;
+        top: -120px;
+      }
+      .summary-link {
+        display: block;
+      }
       .column {
         background-color: #c4edb755;
         /*border: 3px solid #c4edb7;*/
@@ -1253,8 +1260,24 @@
           href="../urban-mining/"
           >「都市鉱山の意義」</a
         >を読まれた方は都市鉱山の重要性がお分かりになったかと思います。
-        <span class="summary_link" id="s_0"></span>しかし日本では<span
-          class="force_text"
+        <span class="link_anchor" id="s_"></span
+        ><span class="summary-link" id="s__content">0</span>
+        <script>
+          document.addEventListener("click", () => {
+            if (window.location.href.indexOf("#") < 0) return
+            const id_sharp = window.location.href.match(/#[^#]*/).toString()
+            // if(id_sharp == null) return;
+            const id = id_sharp.replace("#", "")
+            console.log(id)
+            if (id.indexOf("s_") < 0) return
+            for (let elem of document.getElementsByClassName("summary-link")) {
+              if (elem.id === `${id}_content`)
+                elem.style.border = "2px solid red"
+              else elem.style.border = "none"
+            }
+          })
+        </script>
+        しかし日本では<span class="force_text"
           >都市鉱山の考え方に基づく小型家電の回収はなかなか進んでいません。</span
         >
         実際日本は「2018年までに小型家電回収量を14万トンにする」という目標を掲げましたが、達成できませんでした。
@@ -1343,8 +1366,26 @@
         <p>
           「回収率の低さ」問題を無事にクリアして、たくさんの使用済み家電が手に入ったとしましょう。
           さあ早速リサイクルだ！と言いたいところなのですが、実はそのリサイクル自体にも課題があるのです。
-          <span class="summary_link" id="s_1"></span
-          >使用済み家電をリサイクルして資源にするのに<span class="force_text"
+          <span class="link_anchor" id="s_"></span
+          ><span class="summary-link" id="s__content">1</span>
+          <script>
+            document.addEventListener("click", () => {
+              if (window.location.href.indexOf("#") < 0) return
+              const id_sharp = window.location.href.match(/#[^#]*/).toString()
+              // if(id_sharp == null) return;
+              const id = id_sharp.replace("#", "")
+              console.log(id)
+              if (id.indexOf("s_") < 0) return
+              for (let elem of document.getElementsByClassName(
+                "summary-link"
+              )) {
+                if (elem.id === `${id}_content`)
+                  elem.style.border = "2px solid red"
+                else elem.style.border = "none"
+              }
+            })
+          </script>
+          使用済み家電をリサイクルして資源にするのに<span class="force_text"
             >手解体や粉砕、選別などさまざまな工程を踏まなければなりません。</span
           >
           特に手解体には基盤を取り出す作業があり、また、リサイクルに運ばれてくる携帯電話の種類はバラバラなので<span
@@ -1396,8 +1437,26 @@
           <!--suppress HtmlUnknownAttribute -->
           を資源として捉えるものです。
           しかし、廃電子機器はレアメタルやベースメタルだけで出来ているわけではありません。
-          <span class="summary_link" id="s_3"></span>実は<span
-            class="force_text"
+          <span class="link_anchor" id="s_"></span
+          ><span class="summary-link" id="s__content">3</span>
+          <script>
+            document.addEventListener("click", () => {
+              if (window.location.href.indexOf("#") < 0) return
+              const id_sharp = window.location.href.match(/#[^#]*/).toString()
+              // if(id_sharp == null) return;
+              const id = id_sharp.replace("#", "")
+              console.log(id)
+              if (id.indexOf("s_") < 0) return
+              for (let elem of document.getElementsByClassName(
+                "summary-link"
+              )) {
+                if (elem.id === `${id}_content`)
+                  elem.style.border = "2px solid red"
+                else elem.style.border = "none"
+              }
+            })
+          </script>
+          実は<span class="force_text"
             >廃電子機器の構成成分の大部分がプラスチックで占められているのです。</span
           >
         </p>
@@ -1446,9 +1505,26 @@
           廃棄物として処理するにはそれなりのコストがかかる上、サーマルリサイクルに関しても排ガスや発がん性物質などの発生への懸念からあまり推奨されていません。
           つまり、<span class="force_text"
             >リサイクルは有用な金属よりもはるかに多くの廃棄物を排出し、さらにそれを適切に活用できていない</span
-          >のです。
-          <span class="summary_link" id="s_5"></span
-          >また、リサイクルによって<span class="force_text">有害物質が出る</span
+          >のです。 <span class="link_anchor" id="s_"></span
+          ><span class="summary-link" id="s__content">5</span>
+          <script>
+            document.addEventListener("click", () => {
+              if (window.location.href.indexOf("#") < 0) return
+              const id_sharp = window.location.href.match(/#[^#]*/).toString()
+              // if(id_sharp == null) return;
+              const id = id_sharp.replace("#", "")
+              console.log(id)
+              if (id.indexOf("s_") < 0) return
+              for (let elem of document.getElementsByClassName(
+                "summary-link"
+              )) {
+                if (elem.id === `${id}_content`)
+                  elem.style.border = "2px solid red"
+                else elem.style.border = "none"
+              }
+            })
+          </script>
+          また、リサイクルによって<span class="force_text">有害物質が出る</span
           >ことがあります。
           これは廃電子機器の中に有害物質が含まれているものがあることから起こります（例えば初期のパソコンのＣＰＵの冷却板接合には人体に有害な水銀ペーストが使われています）。
           この有害物質が途上国の処分場と同じように環境を汚染しているのです。
@@ -1514,7 +1590,30 @@
 
             <!--suppress HtmlUnknownAttribute -->
             は主にこの2つの事件がきっかけで適用されました。
-            <h2><span class="summary_link" id="s_6"></span>～セベソ事件～</h2>
+            <h2>
+              <span class="link_anchor" id="s_"></span
+              ><span class="summary-link" id="s__content">6</span>
+              <script>
+                document.addEventListener("click", () => {
+                  if (window.location.href.indexOf("#") < 0) return
+                  const id_sharp = window.location.href
+                    .match(/#[^#]*/)
+                    .toString()
+                  // if(id_sharp == null) return;
+                  const id = id_sharp.replace("#", "")
+                  console.log(id)
+                  if (id.indexOf("s_") < 0) return
+                  for (let elem of document.getElementsByClassName(
+                    "summary-link"
+                  )) {
+                    if (elem.id === `${id}_content`)
+                      elem.style.border = "2px solid red"
+                    else elem.style.border = "none"
+                  }
+                })
+              </script>
+              ～セベソ事件～
+            </h2>
             セベソ事件は、名前の通りイタリアのセベソという場所で起きた、農薬工場での事故が原因でした。
             この事件では、有害物質の1つであるテトラクロロジベンゾパラダイオキシン(TCDD)が広大な範囲に降り注ぎ地上に落下したまま放置されました。
             その結果、1800ヘクタールの土地が汚染され、癌、慢性皮膚炎、神経障害、奇形児発生などの被害者は22万人、殺処分された家畜の数は8万頭にも上りました。
@@ -1524,7 +1623,30 @@
               >この汚染土壌が発見された場所は、なんとフランス北部に位置するAnguilcourt-le-Sartという小さな村でした。</span
             >
             この事件によって国境を越えた有害物質の移動が問題として話題に上がるようになり、EC（EUの前身）によって有害物質の汚染を抑え、人々の安全を守るための規制を求めるセベソ指令が発行されました。
-            <h2><span class="summary_link" id="s_7"></span>～ココ事件～</h2>
+            <h2>
+              <span class="link_anchor" id="s_"></span
+              ><span class="summary-link" id="s__content">7</span>
+              <script>
+                document.addEventListener("click", () => {
+                  if (window.location.href.indexOf("#") < 0) return
+                  const id_sharp = window.location.href
+                    .match(/#[^#]*/)
+                    .toString()
+                  // if(id_sharp == null) return;
+                  const id = id_sharp.replace("#", "")
+                  console.log(id)
+                  if (id.indexOf("s_") < 0) return
+                  for (let elem of document.getElementsByClassName(
+                    "summary-link"
+                  )) {
+                    if (elem.id === `${id}_content`)
+                      elem.style.border = "2px solid red"
+                    else elem.style.border = "none"
+                  }
+                })
+              </script>
+              ～ココ事件～
+            </h2>
             このセベソ事件の12年後に起こったのがココ事件です。
             これは、イタリアの企業2社がナイジェリアにあるココ港にポリ塩化ビフェニール(PCB)を含む有害廃棄物を搬入し<span
               class="word"
@@ -1565,7 +1687,30 @@
             ></iframe>
 
             <h1>日本編</h1>
-            <h2><span class="summary_link" id="s_8"></span>～豊島事件～</h2>
+            <h2>
+              <span class="link_anchor" id="s_"></span
+              ><span class="summary-link" id="s__content">8</span>
+              <script>
+                document.addEventListener("click", () => {
+                  if (window.location.href.indexOf("#") < 0) return
+                  const id_sharp = window.location.href
+                    .match(/#[^#]*/)
+                    .toString()
+                  // if(id_sharp == null) return;
+                  const id = id_sharp.replace("#", "")
+                  console.log(id)
+                  if (id.indexOf("s_") < 0) return
+                  for (let elem of document.getElementsByClassName(
+                    "summary-link"
+                  )) {
+                    if (elem.id === `${id}_content`)
+                      elem.style.border = "2px solid red"
+                    else elem.style.border = "none"
+                  }
+                })
+              </script>
+              ～豊島事件～
+            </h2>
             不法投棄が原因の有害物質が問題になった場所は日本にも存在します。
             その一つが香川県の豊島（てしま）です。 豊島で起こった事件「<span
               class="word"
@@ -1697,8 +1842,26 @@
           「濃度」という言葉と同じ意味だと考えてもいいでしょう。
           品位が高いほど、同じ量の鉱石からより多くの有用な金属が取り出せるということです。
           そして、この品位こそが都市鉱山がリサイクルするときに直面する大きな問題なのです。
-          <span class="summary_link" id="s_2"></span>それは<span
-            class="force_text"
+          <span class="link_anchor" id="s_"></span
+          ><span class="summary-link" id="s__content">2</span>
+          <script>
+            document.addEventListener("click", () => {
+              if (window.location.href.indexOf("#") < 0) return
+              const id_sharp = window.location.href.match(/#[^#]*/).toString()
+              // if(id_sharp == null) return;
+              const id = id_sharp.replace("#", "")
+              console.log(id)
+              if (id.indexOf("s_") < 0) return
+              for (let elem of document.getElementsByClassName(
+                "summary-link"
+              )) {
+                if (elem.id === `${id}_content`)
+                  elem.style.border = "2px solid red"
+                else elem.style.border = "none"
+              }
+            })
+          </script>
+          それは<span class="force_text"
             >天然鉱山と比べて品位が低いので天然鉱山との競争で負けてしまう</span
           >ためです。
           「スマホとかパソコンの中にはいろんな金属がぎゅうぎゅう詰めになっていてむしろ品位が高いのでは？」と思う人もいるかも知れません。
@@ -1913,7 +2076,26 @@
           <a href="../present-situation/">&#147;Present Situation&#148;</a> and
           <a href="../urban-mining/">&#147;Urban Mining&amp;#148</a>;, you
           should understand how important urban mining is.
-          <span class="summary_link" id="s_0"></span>However,
+          <span class="link_anchor" id="s_"></span
+          ><span class="summary-link" id="s__content">0</span>
+          <script>
+            document.addEventListener("click", () => {
+              if (window.location.href.indexOf("#") < 0) return
+              const id_sharp = window.location.href.match(/#[^#]*/).toString()
+              // if(id_sharp == null) return;
+              const id = id_sharp.replace("#", "")
+              console.log(id)
+              if (id.indexOf("s_") < 0) return
+              for (let elem of document.getElementsByClassName(
+                "summary-link"
+              )) {
+                if (elem.id === `${id}_content`)
+                  elem.style.border = "2px solid red"
+                else elem.style.border = "none"
+              }
+            })
+          </script>
+          However,
           <span class="force_text"
             >collecting on the idea of urban mining is not so active</span
           >
@@ -2017,8 +2199,26 @@
           Suppose you have successfully overcome the &quot;low collection
           rate&quot; problem and get a lot of used appliances. You would like to
           say, &quot;Let&#39;s recycle!&quot; but actually recycling itself has
-          its own problems. <span class="summary_link" id="s_1"></span>In order
-          to recycle used home appliances and turn them into resources,
+          its own problems. <span class="link_anchor" id="s_"></span
+          ><span class="summary-link" id="s__content">1</span>
+          <script>
+            document.addEventListener("click", () => {
+              if (window.location.href.indexOf("#") < 0) return
+              const id_sharp = window.location.href.match(/#[^#]*/).toString()
+              // if(id_sharp == null) return;
+              const id = id_sharp.replace("#", "")
+              console.log(id)
+              if (id.indexOf("s_") < 0) return
+              for (let elem of document.getElementsByClassName(
+                "summary-link"
+              )) {
+                if (elem.id === `${id}_content`)
+                  elem.style.border = "2px solid red"
+                else elem.style.border = "none"
+              }
+            })
+          </script>
+          In order to recycle used home appliances and turn them into resources,
           <span class="force_text"
             >various processes such as manual dismantling, crushing, and sorting
             must be done</span
@@ -2074,7 +2274,26 @@
           included in waste electronic equipment are regarded as resources.
           However, waste electronics are not only made of minor metals and base
           metals.
-          <span class="summary_link" id="s_3"></span>In fact,
+          <span class="link_anchor" id="s_"></span
+          ><span class="summary-link" id="s__content">3</span>
+          <script>
+            document.addEventListener("click", () => {
+              if (window.location.href.indexOf("#") < 0) return
+              const id_sharp = window.location.href.match(/#[^#]*/).toString()
+              // if(id_sharp == null) return;
+              const id = id_sharp.replace("#", "")
+              console.log(id)
+              if (id.indexOf("s_") < 0) return
+              for (let elem of document.getElementsByClassName(
+                "summary-link"
+              )) {
+                if (elem.id === `${id}_content`)
+                  elem.style.border = "2px solid red"
+                else elem.style.border = "none"
+              }
+            })
+          </script>
+          In fact,
           <span class="force_text"
             >the majority of the components of waste electronics are made up of
             plastic</span
@@ -2131,7 +2350,26 @@
           <span class="force_text"
             >recycling produces far more waste than useful metals, and also
             fails to properly use it</span
-          >. <span class="summary_link" id="s_5"></span>In addition,
+          >. <span class="link_anchor" id="s_"></span
+          ><span class="summary-link" id="s__content">5</span>
+          <script>
+            document.addEventListener("click", () => {
+              if (window.location.href.indexOf("#") < 0) return
+              const id_sharp = window.location.href.match(/#[^#]*/).toString()
+              // if(id_sharp == null) return;
+              const id = id_sharp.replace("#", "")
+              console.log(id)
+              if (id.indexOf("s_") < 0) return
+              for (let elem of document.getElementsByClassName(
+                "summary-link"
+              )) {
+                if (elem.id === `${id}_content`)
+                  elem.style.border = "2px solid red"
+                else elem.style.border = "none"
+              }
+            })
+          </script>
+          In addition,
           <span class="force_text"
             >recycling may generate hazardous substances</span
           >. This is caused by harmful substances in e-waste (For example,
@@ -2230,7 +2468,28 @@
               >,&quot; was concluded mainly because of these two incidents.
             </p>
             <h2 id="6seveso-disaster">
-              <span class="summary_link" id="s_6"></span>Seveso disaster
+              <span class="link_anchor" id="s_"></span
+              ><span class="summary-link" id="s__content">6</span>
+              <script>
+                document.addEventListener("click", () => {
+                  if (window.location.href.indexOf("#") < 0) return
+                  const id_sharp = window.location.href
+                    .match(/#[^#]*/)
+                    .toString()
+                  // if(id_sharp == null) return;
+                  const id = id_sharp.replace("#", "")
+                  console.log(id)
+                  if (id.indexOf("s_") < 0) return
+                  for (let elem of document.getElementsByClassName(
+                    "summary-link"
+                  )) {
+                    if (elem.id === `${id}_content`)
+                      elem.style.border = "2px solid red"
+                    else elem.style.border = "none"
+                  }
+                })
+              </script>
+              Seveso disaster
             </h2>
             <p>
               The Seveso disaster, as the name suggests, was caused by an
@@ -2254,7 +2513,28 @@
               safety of people.
             </p>
             <h2 id="7coco-incident">
-              <span class="summary_link" id="s_7"></span>Coco Incident
+              <span class="link_anchor" id="s_"></span
+              ><span class="summary-link" id="s__content">7</span>
+              <script>
+                document.addEventListener("click", () => {
+                  if (window.location.href.indexOf("#") < 0) return
+                  const id_sharp = window.location.href
+                    .match(/#[^#]*/)
+                    .toString()
+                  // if(id_sharp == null) return;
+                  const id = id_sharp.replace("#", "")
+                  console.log(id)
+                  if (id.indexOf("s_") < 0) return
+                  for (let elem of document.getElementsByClassName(
+                    "summary-link"
+                  )) {
+                    if (elem.id === `${id}_content`)
+                      elem.style.border = "2px solid red"
+                    else elem.style.border = "none"
+                  }
+                })
+              </script>
+              Coco Incident
             </h2>
             <p>
               Twelve years after this Seveso incident, the Coco incident
@@ -2311,7 +2591,28 @@
 
             <h1 id="japan">Japan</h1>
             <h2 id="8teshima-incident">
-              <span class="summary_link" id="s_8"></span>Teshima Incident
+              <span class="link_anchor" id="s_"></span
+              ><span class="summary-link" id="s__content">8</span>
+              <script>
+                document.addEventListener("click", () => {
+                  if (window.location.href.indexOf("#") < 0) return
+                  const id_sharp = window.location.href
+                    .match(/#[^#]*/)
+                    .toString()
+                  // if(id_sharp == null) return;
+                  const id = id_sharp.replace("#", "")
+                  console.log(id)
+                  if (id.indexOf("s_") < 0) return
+                  for (let elem of document.getElementsByClassName(
+                    "summary-link"
+                  )) {
+                    if (elem.id === `${id}_content`)
+                      elem.style.border = "2px solid red"
+                    else elem.style.border = "none"
+                  }
+                })
+              </script>
+              Teshima Incident
             </h2>
             <p>
               There are places in Japan that had problems with harmful
@@ -2474,7 +2775,26 @@
           the word &quot;content.&quot; The higher the grade, the more useful
           metals can be taken out from the same amount of ore. And this grade is
           the major problem that urban mining faces when it comes to recycling.
-          <span class="summary_link" id="s_2"></span>This is because
+          <span class="link_anchor" id="s_"></span
+          ><span class="summary-link" id="s__content">2</span>
+          <script>
+            document.addEventListener("click", () => {
+              if (window.location.href.indexOf("#") < 0) return
+              const id_sharp = window.location.href.match(/#[^#]*/).toString()
+              // if(id_sharp == null) return;
+              const id = id_sharp.replace("#", "")
+              console.log(id)
+              if (id.indexOf("s_") < 0) return
+              for (let elem of document.getElementsByClassName(
+                "summary-link"
+              )) {
+                if (elem.id === `${id}_content`)
+                  elem.style.border = "2px solid red"
+                else elem.style.border = "none"
+              }
+            })
+          </script>
+          This is because
           <span class="force_text"
             >the grade is lower than that of natural mines, so it loses in
             competition with natural mines</span

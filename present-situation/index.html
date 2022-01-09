@@ -547,6 +547,13 @@
 
         z-index: 1;
       }
+      .link_anchor {
+        position: relative;
+        top: -120px;
+      }
+      .summary-link {
+        display: block;
+      }
       .image_box {
         display: inline-block;
         position: relative;
@@ -1270,84 +1277,116 @@
           上の図のように様々なイメージがあると思いますが、金属資源にあまり馴染みがないという方が多いのではないでしょうか。<br />
           私たちもこのサイトを作る前まではあまり考えたことがありませんでした。
           しかし私たちの今の便利な生活は金属抜きでは語ることはありえません。
-          <span class="summary_link" id="s_0"></span>
-          <span class="force_text"
-            >実は、私たちの身の回りはその金属資源であふれているのです！</span
+          <span class="link_anchor" id="s_0"></span
+          ><span class="summary-link" id="s_0_content"
+            ><span class="force_text"
+              >実は、私たちの身の回りはその金属資源であふれているのです！</span
+            >
+            テレビやエアコン、冷蔵庫、洗濯機、車、時計、LED照明、スマートフォン...
+            金属が使われている製品を挙げるときりがありません。</span
           >
-          テレビやエアコン、冷蔵庫、洗濯機、車、時計、LED照明、スマートフォン...
-          金属が使われている製品を挙げるときりがありません。
+          <script>
+            document.addEventListener("click", () => {
+              if (window.location.href.indexOf("#") < 0) return
+              const id_sharp = window.location.href.match(/#[^#]*/).toString()
+              // if(id_sharp == null) return;
+              const id = id_sharp.replace("#", "")
+              console.log(id)
+              if (id.indexOf("s_") < 0) return
+              for (let elem of document.getElementsByClassName(
+                "summary-link"
+              )) {
+                if (elem.id === `${id}_content`)
+                  elem.style.border = "2px solid red"
+                else elem.style.border = "none"
+              }
+            })
+          </script>
         </p>
-        <p>
-          このように、私たちの生活は金属資源によって支えられているのです。<span
-            class="summary_link"
-            id="s_2"
-          ></span>
-        </p>
-        <aside class="column">
-          <div class="column_title">
-            金属資源は最新技術にも欠かせない ～ネオジムとニオブ～
-          </div>
-          <div class="column_content">
-            ネオジムを含むネオジム磁石は最も強力な磁石として有名です。
-            この特徴を利用して、細胞に「<span class="word"
-              ><span class="word_text" style="white-space: ">ナノ磁石</span>
-              <span class="word_description_container">
-                <span class="word_description">
-                  <span class="word_description_title">ナノ磁石</span>
-                  <span
-                    class="word_description_text"
-                    style="line-height: 1.5rem"
-                    ><span class="lang_jp"
-                      >非常に小さな磁石。S極・N極を持たず、磁力線が外に出ないという特徴がある。</span
-                    ><span class="lang_en"></span
-                  ></span>
+        <p>このように、私たちの生活は金属資源によって支えられているのです。</p>
+        <span class="link_anchor" id="s_2"></span
+        ><span class="summary-link" id="s_2_content"
+          ><aside class="column">
+            <div class="column_title">
+              金属資源は最新技術にも欠かせない ～ネオジムとニオブ～
+            </div>
+            <div class="column_content">
+              ネオジムを含むネオジム磁石は最も強力な磁石として有名です。
+              この特徴を利用して、細胞に「<span class="word"
+                ><span class="word_text" style="white-space: ">ナノ磁石</span>
+                <span class="word_description_container">
+                  <span class="word_description">
+                    <span class="word_description_title">ナノ磁石</span>
+                    <span
+                      class="word_description_text"
+                      style="line-height: 1.5rem"
+                      ><span class="lang_jp"
+                        >非常に小さな磁石。S極・N極を持たず、磁力線が外に出ないという特徴がある。</span
+                      ><span class="lang_en"></span
+                    ></span>
+                  </span>
                 </span>
               </span>
-            </span>
 
-            <!--suppress HtmlUnknownAttribute -->
-            」をくっつけて細胞を三次元空間で調べるという試みが始まりました。
-            この三次元培養技術は、ワクチンや医薬の効き目を臨床試験に先立って正しく捉えるのに役立っています。<br />
-            ニオブは単体の金属において<span class="word"
-              ><span class="word_text" style="white-space: "
-                >超伝導転移温度</span
-              >
-              <span class="word_description_container">
-                <span class="word_description">
-                  <span class="word_description_title">超伝導転移温度</span>
-                  <span
-                    class="word_description_text"
-                    style="line-height: 1.5rem"
-                    ><span class="lang_jp"
-                      >物質の電気抵抗がゼロになるという現象が現れるときの温度。</span
-                    ><span class="lang_en"></span
-                  ></span>
+              <!--suppress HtmlUnknownAttribute -->
+              」をくっつけて細胞を三次元空間で調べるという試みが始まりました。
+              この三次元培養技術は、ワクチンや医薬の効き目を臨床試験に先立って正しく捉えるのに役立っています。<br />
+              ニオブは単体の金属において<span class="word"
+                ><span class="word_text" style="white-space: "
+                  >超伝導転移温度</span
+                >
+                <span class="word_description_container">
+                  <span class="word_description">
+                    <span class="word_description_title">超伝導転移温度</span>
+                    <span
+                      class="word_description_text"
+                      style="line-height: 1.5rem"
+                      ><span class="lang_jp"
+                        >物質の電気抵抗がゼロになるという現象が現れるときの温度。</span
+                      ><span class="lang_en"></span
+                    ></span>
+                  </span>
                 </span>
               </span>
-            </span>
 
-            <!--suppress HtmlUnknownAttribute -->
-            が-263.95℃と最も高いため、<span class="word"
-              ><span class="word_text" style="white-space: ">超伝導磁石</span>
-              <span class="word_description_container">
-                <span class="word_description">
-                  <span class="word_description_title">超伝導磁石</span>
-                  <span
-                    class="word_description_text"
-                    style="line-height: 1.5rem"
-                    ><span class="lang_jp"
-                      >超伝導状態の磁石。電気抵抗がないため、大電流を流してもエネルギーロスがなく、とてつもなく強力である。</span
-                    ><span class="lang_en"></span
-                  ></span>
+              <!--suppress HtmlUnknownAttribute -->
+              が-263.95℃と最も高いため、<span class="word"
+                ><span class="word_text" style="white-space: ">超伝導磁石</span>
+                <span class="word_description_container">
+                  <span class="word_description">
+                    <span class="word_description_title">超伝導磁石</span>
+                    <span
+                      class="word_description_text"
+                      style="line-height: 1.5rem"
+                      ><span class="lang_jp"
+                        >超伝導状態の磁石。電気抵抗がないため、大電流を流してもエネルギーロスがなく、とてつもなく強力である。</span
+                      ><span class="lang_en"></span
+                    ></span>
+                  </span>
                 </span>
               </span>
-            </span>
 
-            <!--suppress HtmlUnknownAttribute -->
-            として広く使われ、リニアモーターカーやロケットの磁場打ち上げなどの技術開発を支えています。<br />
-            また、ニオブは化学分野や医療分野にも使われています。
-          </div>
-        </aside>
+              <!--suppress HtmlUnknownAttribute -->
+              として広く使われ、リニアモーターカーやロケットの磁場打ち上げなどの技術開発を支えています。<br />
+              また、ニオブは化学分野や医療分野にも使われています。
+            </div>
+          </aside></span
+        >
+        <script>
+          document.addEventListener("click", () => {
+            if (window.location.href.indexOf("#") < 0) return
+            const id_sharp = window.location.href.match(/#[^#]*/).toString()
+            // if(id_sharp == null) return;
+            const id = id_sharp.replace("#", "")
+            console.log(id)
+            if (id.indexOf("s_") < 0) return
+            for (let elem of document.getElementsByClassName("summary-link")) {
+              if (elem.id === `${id}_content`)
+                elem.style.border = "2px solid red"
+              else elem.style.border = "none"
+            }
+          })
+        </script>
 
         <h2 id="生産量の増加">生産量の増加</h2>
         <p>
@@ -1392,11 +1431,29 @@
           >
           特に1950~1970年と2000年以降で特に増加が激しくなっています。
           この理由はそれぞれ、1950~1970年は戦後復興を進めるヨーロッパと先進国へ移行しつつある日本、韓国、台湾による金属の大量消費、2000年以降は中国とインドの急速な近代化によるものと考えられます。
-          このように見ると、アフリカ諸国の近代化がどんどん進む今、金属生産量がますます増加していくのは予測できます。<span
-            class="summary_link"
-            id="s_3"
-          ></span>
-          となれば、金属資源が枯渇し、今のような生活が送れなくなる日はそう遠くないかもしれません。
+          このように見ると、アフリカ諸国の近代化がどんどん進む今、金属生産量がますます増加していくのは予測できます。
+          <span class="link_anchor" id="s_3"></span
+          ><span class="summary-link" id="s_3_content"
+            >となれば、金属資源が枯渇し、今のような生活が送れなくなる日はそう遠くないかもしれません。</span
+          >
+          <script>
+            document.addEventListener("click", () => {
+              if (window.location.href.indexOf("#") < 0) return
+              const id_sharp = window.location.href.match(/#[^#]*/).toString()
+              // if(id_sharp == null) return;
+              const id = id_sharp.replace("#", "")
+              console.log(id)
+              if (id.indexOf("s_") < 0) return
+              for (let elem of document.getElementsByClassName(
+                "summary-link"
+              )) {
+                if (elem.id === `${id}_content`)
+                  elem.style.border = "2px solid red"
+                else elem.style.border = "none"
+              }
+            })
+          </script>
+
           実際、東京大学先端科学技術研究センター准教授・醍醐市朗先生とのインタビューの中で私たちは<a
             href="../activity/interview.html#q7"
             >このようなお話</a
@@ -1436,10 +1493,10 @@
             <figcaption class="image_caption"></figcaption>
           </figure>
         </div>
-        <span class="summary_link" id="s_1"></span>
 
-        <p>
-          各金属元素について生産量シェア上位３か国が全生産量に占める比率を表したものです。
+        <span class="link_anchor" id="s_1"></span
+        ><span class="summary-link" id="s_1_content"
+          >各金属元素について生産量シェア上位３か国が全生産量に占める比率を表したものです。
           なんとほとんどの元素において上位3か国が生産シェア70%以上を占めていますね。
           しかしこれはほんの一部に過ぎず、<span class="word"
             ><span class="word_text" style="white-space: ">レアメタル</span>
@@ -1457,11 +1514,27 @@
           </span>
 
           <!--suppress HtmlUnknownAttribute -->
-          の大半が全埋蔵量の半分以上を上位3か国によって占められているのです。<span
-            class="summary_link"
-            id="s_8"
-          ></span>
-          必要な<span class="word"
+          の大半が全埋蔵量の半分以上を上位3か国によって占められているのです。</span
+        >
+        <script>
+          document.addEventListener("click", () => {
+            if (window.location.href.indexOf("#") < 0) return
+            const id_sharp = window.location.href.match(/#[^#]*/).toString()
+            // if(id_sharp == null) return;
+            const id = id_sharp.replace("#", "")
+            console.log(id)
+            if (id.indexOf("s_") < 0) return
+            for (let elem of document.getElementsByClassName("summary-link")) {
+              if (elem.id === `${id}_content`)
+                elem.style.border = "2px solid red"
+              else elem.style.border = "none"
+            }
+          })
+        </script>
+
+        <span class="link_anchor" id="s_8"></span
+        ><span class="summary-link" id="s_8_content"
+          >必要な<span class="word"
             ><span class="word_text" style="white-space: ">金属資源</span>
             <span class="word_description_container">
               <span class="word_description">
@@ -1476,19 +1549,49 @@
           </span>
 
           <!--suppress HtmlUnknownAttribute -->
-          のほぼすべてを海外から輸入している日本は、この金属資源の偏在のために1か国に依存する割合が大きいため、その国の都合によって大きな影響を受けるというのが現状です。
-          ただ金を払えば金属資源が得られるという世界ではありません。
-          例えば、もし中国が自国の都合で禁輸政策を実施すれば、日本はおろか世界の経済発展は間違いなくストップしてしまうでしょう。
-          つまり中国が世界の経済状況のカギを握っているといっても過言ではありません。
-        </p>
-        <p>
-          このように資源の偏在は<span class="force_text"
+          のほぼすべてを海外から輸入している日本は、この金属資源の偏在のために1か国に依存する割合が大きいため、その国の都合によって大きな影響を受けるというのが現状です。</span
+        >
+        <script>
+          document.addEventListener("click", () => {
+            if (window.location.href.indexOf("#") < 0) return
+            const id_sharp = window.location.href.match(/#[^#]*/).toString()
+            // if(id_sharp == null) return;
+            const id = id_sharp.replace("#", "")
+            console.log(id)
+            if (id.indexOf("s_") < 0) return
+            for (let elem of document.getElementsByClassName("summary-link")) {
+              if (elem.id === `${id}_content`)
+                elem.style.border = "2px solid red"
+              else elem.style.border = "none"
+            }
+          })
+        </script>
+
+        ただ金を払えば金属資源が得られるという世界ではありません。
+        例えば、もし中国が自国の都合で禁輸政策を実施すれば、日本はおろか世界の経済発展は間違いなくストップしてしまうでしょう。
+        つまり中国が世界の経済状況のカギを握っているといっても過言ではありません。
+        <span class="link_anchor" id="s_9"></span
+        ><span class="summary-link" id="s_9_content"
+          >このように資源の偏在は<span class="force_text"
             >各国の立場における格差</span
-          >を生む要因になりうるのです。<span
-            class="summary_link"
-            id="s_9"
-          ></span>
-        </p>
+          >を生む要因になりうるのです。</span
+        >
+        <script>
+          document.addEventListener("click", () => {
+            if (window.location.href.indexOf("#") < 0) return
+            const id_sharp = window.location.href.match(/#[^#]*/).toString()
+            // if(id_sharp == null) return;
+            const id = id_sharp.replace("#", "")
+            console.log(id)
+            if (id.indexOf("s_") < 0) return
+            for (let elem of document.getElementsByClassName("summary-link")) {
+              if (elem.id === `${id}_content`)
+                elem.style.border = "2px solid red"
+              else elem.style.border = "none"
+            }
+          })
+        </script>
+
         <!--suppress ALL -->
         <div class="atom_chara" style="width: 100%; margin: 50px 0">
           <div class="atom_chara_icon">
@@ -1562,12 +1665,31 @@
           一見資源と関わりがないように思えますが、実はコンゴ紛争に周りの国が介入した目的の１つに<span
             class="force_text"
             >資源の確保</span
-          >がありました。<span class="summary_link" id="s_6"></span>
-          コンゴ民主共和国の豊富な資源を得ようとするがために軍事協力をしたのです。
-          さらに、現地の資源を強制的に奪おうとする集団も現れました。
-          つまり、周辺諸国は<span class="force_text"
-            >資源を確保するためにコンゴ民主共和国の人々を都合よく利用し、それによって非常に多くの人の命が奪われた</span
-          >のです。
+          >がありました。 <span class="link_anchor" id="s_6"></span
+          ><span class="summary-link" id="s_6_content"
+            >コンゴ民主共和国の豊富な資源を得ようとするがために軍事協力をしたのです。
+            さらに、現地の資源を強制的に奪おうとする集団も現れました。
+            つまり、周辺諸国は<span class="force_text"
+              >資源を確保するためにコンゴ民主共和国の人々を都合よく利用し、それによって非常に多くの人の命が奪われた</span
+            >のです。</span
+          >
+          <script>
+            document.addEventListener("click", () => {
+              if (window.location.href.indexOf("#") < 0) return
+              const id_sharp = window.location.href.match(/#[^#]*/).toString()
+              // if(id_sharp == null) return;
+              const id = id_sharp.replace("#", "")
+              console.log(id)
+              if (id.indexOf("s_") < 0) return
+              for (let elem of document.getElementsByClassName(
+                "summary-link"
+              )) {
+                if (elem.id === `${id}_content`)
+                  elem.style.border = "2px solid red"
+                else elem.style.border = "none"
+              }
+            })
+          </script>
         </p>
         <p>
           この話は日本ではあまり知られていないのかもしれません。
@@ -1585,21 +1707,38 @@
         </p>
 
         <p>
-          また、資源が採れる場所に住む人々への対応にも問題があるのは確かです。<span
-            class="summary_link"
-            id="s_7"
-          ></span>
-          中国のバヤンオボー鉱山は豊富な金属資源を含んでおり、中国の主な鉱床となっています。
-          そんなバヤンオボーがある包頭市は採掘が進められるにつれてたくさんの工場が建てられ、町が整備されていきました。
-          そんな中バヤンオボーの現地の人々は多大な犠牲を払わされました。
-          というのは、<span class="force_text"
-            >かつての農地を奪われたうえで、採掘業に雇われるか、バヤンオボーを出ていくかという選択を迫られた</span
-          >のです。
-          また資源開発によって大気が汚染されたり地下水が変色したりして、現地の人々への<span
-            class="force_text"
-            >健康被害</span
-          >も懸念されるようになりました。
-          私たちは、普段使っているスマホや家電がこうした犠牲の上に成り立っているということを自覚しなければなりません。
+          また、資源が採れる場所に住む人々への対応にも問題があるのは確かです。
+          <span class="link_anchor" id="s_7"></span
+          ><span class="summary-link" id="s_7_content"
+            >中国のバヤンオボー鉱山は豊富な金属資源を含んでおり、中国の主な鉱床となっています。
+            そんなバヤンオボーがある包頭市は採掘が進められるにつれてたくさんの工場が建てられ、町が整備されていきました。
+            そんな中バヤンオボーの現地の人々は多大な犠牲を払わされました。
+            というのは、<span class="force_text"
+              >かつての農地を奪われたうえで、採掘業に雇われるか、バヤンオボーを出ていくかという選択を迫られた</span
+            >のです。
+            また資源開発によって大気が汚染されたり地下水が変色したりして、現地の人々への<span
+              class="force_text"
+              >健康被害</span
+            >も懸念されるようになりました。
+            私たちは、普段使っているスマホや家電がこうした犠牲の上に成り立っているということを自覚しなければなりません。</span
+          >
+          <script>
+            document.addEventListener("click", () => {
+              if (window.location.href.indexOf("#") < 0) return
+              const id_sharp = window.location.href.match(/#[^#]*/).toString()
+              // if(id_sharp == null) return;
+              const id = id_sharp.replace("#", "")
+              console.log(id)
+              if (id.indexOf("s_") < 0) return
+              for (let elem of document.getElementsByClassName(
+                "summary-link"
+              )) {
+                if (elem.id === `${id}_content`)
+                  elem.style.border = "2px solid red"
+                else elem.style.border = "none"
+              }
+            })
+          </script>
         </p>
         <aside class="column">
           <div class="column_title">ケータイゴリラ</div>
@@ -1609,22 +1748,40 @@
               >私たちが使っている携帯電話が間接的にゴリラの絶滅につながっているかもしれない</span
             >ということを表す言葉です。
             携帯電話とゴリラが関係しているとは意外ですよね。
-            その具体的な過程を説明をすると、<span
-              class="summary_link"
-              id="s_5"
-            ></span>
-            <ol>
-              <li>私たちが携帯電話を使います。</li>
-              <li>
-                その携帯電話には様々なレアメタルが使われています。ここではそのレアメタルの一例としてタンタルを取り上げてみます。
-              </li>
-              <li>
-                そのタンタルはコンゴ周辺に偏在しており、ここで多く採掘されています。
-              </li>
-              <li>
-                ところが、採掘者たちは採掘途中でゴリラに出会うと自らの身を守るためにそのゴリラたちを殺します。もしくは、前に説明したように現地では資源をめぐる紛争が起こっており、それに巻き込まれたり生息地のジャングルを荒らされたりして死んでしまうゴリラもいます。
-              </li>
-            </ol>
+            その具体的な過程を説明をすると、
+            <span class="link_anchor" id="s_5"></span
+            ><span class="summary-link" id="s_5_content"
+              ><ol>
+                <li>私たちが携帯電話を使います。</li>
+                <li>
+                  その携帯電話には様々なレアメタルが使われています。ここではそのレアメタルの一例としてタンタルを取り上げてみます。
+                </li>
+                <li>
+                  そのタンタルはコンゴ周辺に偏在しており、ここで多く採掘されています。
+                </li>
+                <li>
+                  ところが、採掘者たちは採掘途中でゴリラに出会うと自らの身を守るためにそのゴリラたちを殺します。もしくは、前に説明したように現地では資源をめぐる紛争が起こっており、それに巻き込まれたり生息地のジャングルを荒らされたりして死んでしまうゴリラもいます。
+                </li>
+              </ol></span
+            >
+            <script>
+              document.addEventListener("click", () => {
+                if (window.location.href.indexOf("#") < 0) return
+                const id_sharp = window.location.href.match(/#[^#]*/).toString()
+                // if(id_sharp == null) return;
+                const id = id_sharp.replace("#", "")
+                console.log(id)
+                if (id.indexOf("s_") < 0) return
+                for (let elem of document.getElementsByClassName(
+                  "summary-link"
+                )) {
+                  if (elem.id === `${id}_content`)
+                    elem.style.border = "2px solid red"
+                  else elem.style.border = "none"
+                }
+              })
+            </script>
+
             このようにして<span class="force_text"
               >ゴリラの生息数が減ってしまう</span
             >というわけです。
@@ -1865,105 +2022,141 @@
           are not very familiar with them. Actually, we had not thought about
           them seriously before we began to create this site. In fact, our lives
           today would be more inconvenient without metal.
-          <span class="summary_link" id="s_0_en"></span>
-          <span class="force_text">We are surrounded by metal resources!</span>
-          Televisions, air conditioners, refrigerators, washing machines, cars,
-          watches, LED lights, smartphones …. There is no end to the number of
-          products in which metals are used.
+          <span class="link_anchor" id="s_0_en"></span
+          ><span class="summary-link" id="s_0_en_content"
+            ><span class="force_text"
+              >We are surrounded by metal resources!</span
+            >
+            Televisions, air conditioners, refrigerators, washing machines,
+            cars, watches, LED lights, smartphones …. There is no end to the
+            number of products in which metals are used.</span
+          >
+          <script>
+            document.addEventListener("click", () => {
+              if (window.location.href.indexOf("#") < 0) return
+              const id_sharp = window.location.href.match(/#[^#]*/).toString()
+              // if(id_sharp == null) return;
+              const id = id_sharp.replace("#", "")
+              console.log(id)
+              if (id.indexOf("s_") < 0) return
+              for (let elem of document.getElementsByClassName(
+                "summary-link"
+              )) {
+                if (elem.id === `${id}_content`)
+                  elem.style.border = "2px solid red"
+                else elem.style.border = "none"
+              }
+            })
+          </script>
         </p>
-        <p>
-          Our lives are supported by metal resources!<span
-            class="summary_link"
-            id="s_2_en"
-          ></span>
-        </p>
-        <aside class="column">
-          <div class="column_title">
-            Indispensable metal resources for cutting edge technology —
-            neodymium & niobium
-          </div>
-          <div class="column_content">
-            Neodymium magnet is famous as the strongest magnet. An attempt to
-            put the
-            <span class="word"
-              ><span class="word_text" style="white-space: ">nano magnet</span>
-              <span class="word_description_container">
-                <span class="word_description">
-                  <span class="word_description_title">nano magnet</span>
-                  <span
-                    class="word_description_text"
-                    style="line-height: 1.5rem"
-                    ><span class="lang_jp"></span
-                    ><span class="lang_en"
-                      >A very small magnet with no S or N poles and no external
-                      lines of magnetic force.
-                    </span></span
-                  >
+        <p>Our lives are supported by metal resources!</p>
+        <span class="link_anchor" id="s_2_en"></span
+        ><span class="summary-link" id="s_2_en_content"
+          ><aside class="column">
+            <div class="column_title">
+              Indispensable metal resources for cutting edge technology —
+              neodymium & niobium
+            </div>
+            <div class="column_content">
+              Neodymium magnet is famous as the strongest magnet. An attempt to
+              put the
+              <span class="word"
+                ><span class="word_text" style="white-space: "
+                  >nano magnet</span
+                >
+                <span class="word_description_container">
+                  <span class="word_description">
+                    <span class="word_description_title">nano magnet</span>
+                    <span
+                      class="word_description_text"
+                      style="line-height: 1.5rem"
+                      ><span class="lang_jp"></span
+                      ><span class="lang_en"
+                        >A very small magnet with no S or N poles and no
+                        external lines of magnetic force.
+                      </span></span
+                    >
+                  </span>
                 </span>
               </span>
-            </span>
 
-            <!--suppress HtmlUnknownAttribute -->
-            on a cell and research it in 3D has started. This technology, which
-            is called three‐dimensional growth, will be useful to investigate
-            how well vaccines and medicine work before trying them on human
-            bodies.<br />
-            Niobium has the highest
-            <span class="word"
-              ><span class="word_text" style="white-space: "
-                >superconducting transition temperature</span
-              >
-              <span class="word_description_container">
-                <span class="word_description">
-                  <span class="word_description_title"
-                    >superconducting transition temperature</span
-                  >
-                  <span
-                    class="word_description_text"
-                    style="line-height: 1.5rem"
-                    ><span class="lang_jp"></span
-                    ><span class="lang_en"
-                      >The temperature at which electrical resistance of
-                      substances reaches zero.</span
-                    ></span
-                  >
+              <!--suppress HtmlUnknownAttribute -->
+              on a cell and research it in 3D has started. This technology,
+              which is called three‐dimensional growth, will be useful to
+              investigate how well vaccines and medicine work before trying them
+              on human bodies.<br />
+              Niobium has the highest
+              <span class="word"
+                ><span class="word_text" style="white-space: "
+                  >superconducting transition temperature</span
+                >
+                <span class="word_description_container">
+                  <span class="word_description">
+                    <span class="word_description_title"
+                      >superconducting transition temperature</span
+                    >
+                    <span
+                      class="word_description_text"
+                      style="line-height: 1.5rem"
+                      ><span class="lang_jp"></span
+                      ><span class="lang_en"
+                        >The temperature at which electrical resistance of
+                        substances reaches zero.</span
+                      ></span
+                    >
+                  </span>
                 </span>
               </span>
-            </span>
 
-            <!--suppress HtmlUnknownAttribute -->
-            (-263.95℃, -443.11℉), so it is used to
-            <span class="word"
-              ><span class="word_text" style="white-space: "
-                >superconducting magnet</span
-              >
-              <span class="word_description_container">
-                <span class="word_description">
-                  <span class="word_description_title"
-                    >superconducting magnet</span
-                  >
-                  <span
-                    class="word_description_text"
-                    style="line-height: 1.5rem"
-                    ><span class="lang_jp"></span
-                    ><span class="lang_en"
-                      >A magnet in superconducting state. Because there is no
-                      electrical resistance, there is no energy loss even when a
-                      large current flows, and it is incredibly powerful in
-                      magnetic force.</span
-                    ></span
-                  >
+              <!--suppress HtmlUnknownAttribute -->
+              (-263.95℃, -443.11℉), so it is used to
+              <span class="word"
+                ><span class="word_text" style="white-space: "
+                  >superconducting magnet</span
+                >
+                <span class="word_description_container">
+                  <span class="word_description">
+                    <span class="word_description_title"
+                      >superconducting magnet</span
+                    >
+                    <span
+                      class="word_description_text"
+                      style="line-height: 1.5rem"
+                      ><span class="lang_jp"></span
+                      ><span class="lang_en"
+                        >A magnet in superconducting state. Because there is no
+                        electrical resistance, there is no energy loss even when
+                        a large current flows, and it is incredibly powerful in
+                        magnetic force.</span
+                      ></span
+                    >
+                  </span>
                 </span>
               </span>
-            </span>
 
-            <!--suppress HtmlUnknownAttribute -->
-            and supports such technology as linear motor cars and magnet field
-            launch of rockets.<br />
-            It also plays an important role in the field of chemistry and
-            medicine.
-          </div>
-        </aside>
+              <!--suppress HtmlUnknownAttribute -->
+              and supports such technology as linear motor cars and magnet field
+              launch of rockets.<br />
+              It also plays an important role in the field of chemistry and
+              medicine.
+            </div>
+          </aside></span
+        >
+        <script>
+          document.addEventListener("click", () => {
+            if (window.location.href.indexOf("#") < 0) return
+            const id_sharp = window.location.href.match(/#[^#]*/).toString()
+            // if(id_sharp == null) return;
+            const id = id_sharp.replace("#", "")
+            console.log(id)
+            if (id.indexOf("s_") < 0) return
+            for (let elem of document.getElementsByClassName("summary-link")) {
+              if (elem.id === `${id}_content`)
+                elem.style.border = "2px solid red"
+              else elem.style.border = "none"
+            }
+          })
+        </script>
 
         <h2 id="increase-in-production">Increase in Production</h2>
         <p>
@@ -2008,12 +2201,32 @@
           countries and because China and India have advanced remarkably. In
           summary, African countries are developing so rapidly that it is
           estimated that the production of metal will increase more and more
-          rapidly.<span class="summary_link" id="s_3_en"></span> It will not be
-          long before you run out of metal resources and you cannot live a life
-          as you know it now. In fact, Ichiro Daigo, an associate professor at
-          Research Center for Advanced Science and Technology, The University of
-          Tokyo, <a href="../activity/interview.html#q7">told us</a> in our
-          interview:
+          rapidly.<span class="link_anchor" id="s_3_en"></span
+          ><span class="summary-link" id="s_3_en_content"
+            >It will not be long before you run out of metal resources and you
+            cannot live a life as you know it now. In fact, Ichiro Daigo, an
+            associate professor at Research Center for Advanced Science and
+            Technology, The University of Tokyo,
+            <a href="../activity/interview.html#q7">told us</a> in our
+            interview:</span
+          >
+          <script>
+            document.addEventListener("click", () => {
+              if (window.location.href.indexOf("#") < 0) return
+              const id_sharp = window.location.href.match(/#[^#]*/).toString()
+              // if(id_sharp == null) return;
+              const id = id_sharp.replace("#", "")
+              console.log(id)
+              if (id.indexOf("s_") < 0) return
+              for (let elem of document.getElementsByClassName(
+                "summary-link"
+              )) {
+                if (elem.id === `${id}_content`)
+                  elem.style.border = "2px solid red"
+                else elem.style.border = "none"
+              }
+            })
+          </script>
         </p>
         <blockquote class="quote">
           <p>
@@ -2056,10 +2269,10 @@
             <figcaption class="image_caption"></figcaption>
           </figure>
         </div>
-        <span class="summary_link" id="s_1_en"></span>
 
-        <p>
-          It shows how much the top three countries occupy reserves of each
+        <span class="link_anchor" id="s_1_en"></span
+        ><span class="summary-link" id="s_1_en_content"
+          >It shows how much the top three countries occupy reserves of each
           metal resource. Surprisingly, they account for more than 70% of the
           production of most metals. However, this is just part of all metals
           and most
@@ -2076,35 +2289,87 @@
           </span>
 
           <!--suppress HtmlUnknownAttribute -->
-          are also occupied by the top three countries.<span
-            class="summary_link"
-            id="s_3_en"
-          ></span>
-          Japan imports most of all the
-          <span class="word"
-            ><span class="word_text" style="white-space: ">metals</span>
-            <span class="word_description_container">
-              <span class="word_description">
-                <span class="word_description_title">metals</span>
-                <span class="word_description_text" style="line-height: 1.5rem"
-                  ><span class="lang_jp"></span><span class="lang_en"></span
-                ></span>
-              </span>
+          are also occupied by the top three countries.</span
+        >
+        <script>
+          document.addEventListener("click", () => {
+            if (window.location.href.indexOf("#") < 0) return
+            const id_sharp = window.location.href.match(/#[^#]*/).toString()
+            // if(id_sharp == null) return;
+            const id = id_sharp.replace("#", "")
+            console.log(id)
+            if (id.indexOf("s_") < 0) return
+            for (let elem of document.getElementsByClassName("summary-link")) {
+              if (elem.id === `${id}_content`)
+                elem.style.border = "2px solid red"
+              else elem.style.border = "none"
+            }
+          })
+        </script>
+
+        Japan imports most of all the
+        <span class="word"
+          ><span class="word_text" style="white-space: ">metals</span>
+          <span class="word_description_container">
+            <span class="word_description">
+              <span class="word_description_title">metals</span>
+              <span class="word_description_text" style="line-height: 1.5rem"
+                ><span class="lang_jp"></span><span class="lang_en"></span
+              ></span>
             </span>
           </span>
+        </span>
 
-          <!--suppress HtmlUnknownAttribute -->
-          you need, so it is influenced greatly by the exporters. They are not
-          always available even if you pay for them. For example, if China stops
-          exporting their resources due to their policy, the world can no longer
-          develop (of course Japan, either). In other words, it is no
-          exaggeration to say that global economy depends on China.
-        </p>
-        <p>
-          In this way, uneven distribution results in
+        <!--suppress HtmlUnknownAttribute -->
+        you need, so it is influenced greatly by the exporters. They are not
+        always available even if you pay for them.
+        <span class="link_anchor" id="s_3_en"></span
+        ><span class="summary-link" id="s_3_en_content"
+          >For example, if China stops exporting their resources due to their
+          policy, the world can no longer develop (of course Japan,
+          either).</span
+        >
+        <script>
+          document.addEventListener("click", () => {
+            if (window.location.href.indexOf("#") < 0) return
+            const id_sharp = window.location.href.match(/#[^#]*/).toString()
+            // if(id_sharp == null) return;
+            const id = id_sharp.replace("#", "")
+            console.log(id)
+            if (id.indexOf("s_") < 0) return
+            for (let elem of document.getElementsByClassName("summary-link")) {
+              if (elem.id === `${id}_content`)
+                elem.style.border = "2px solid red"
+              else elem.style.border = "none"
+            }
+          })
+        </script>
+
+        In other words, it is no exaggeration to say that global economy depends
+        on China.
+
+        <span class="link_anchor" id="s_9_en"></span
+        ><span class="summary-link" id="s_9_en_content"
+          >In this way, uneven distribution results in
           <span class="force_text">differences in power in the world</span
-          >.<span class="summary_link" id="s_9_en"></span>
-        </p>
+          >.</span
+        >
+        <script>
+          document.addEventListener("click", () => {
+            if (window.location.href.indexOf("#") < 0) return
+            const id_sharp = window.location.href.match(/#[^#]*/).toString()
+            // if(id_sharp == null) return;
+            const id = id_sharp.replace("#", "")
+            console.log(id)
+            if (id.indexOf("s_") < 0) return
+            for (let elem of document.getElementsByClassName("summary-link")) {
+              if (elem.id === `${id}_content`)
+                elem.style.border = "2px solid red"
+              else elem.style.border = "none"
+            }
+          })
+        </script>
+
         <!--suppress ALL -->
         <div class="atom_chara" style="width: 100%; margin: 50px 0">
           <div class="atom_chara_icon">
@@ -2187,16 +2452,35 @@
           glance, this does not have something to do with resources, but
           actually one reason a lot of countries join it is to
           <span class="force_text">get resources</span>.<span
-            class="summary_link"
+            class="link_anchor"
             id="s_6_en"
-          ></span>
-          They cooperated militarily in order to obtain rich resources in Congo.
-          In addition, some groups tried to take away such resources by force.
-          In short, they
-          <span class="force_text"
-            >exploited and abused people in Congo to get resources there and
-            finally many people lost their lives</span
-          >.
+          ></span
+          ><span class="summary-link" id="s_6_en_content"
+            >They cooperated militarily in order to obtain rich resources in
+            Congo. In addition, some groups tried to take away such resources by
+            force. In short, they
+            <span class="force_text"
+              >exploited and abused people in Congo to get resources there and
+              finally many people lost their lives</span
+            >.</span
+          >
+          <script>
+            document.addEventListener("click", () => {
+              if (window.location.href.indexOf("#") < 0) return
+              const id_sharp = window.location.href.match(/#[^#]*/).toString()
+              // if(id_sharp == null) return;
+              const id = id_sharp.replace("#", "")
+              console.log(id)
+              if (id.indexOf("s_") < 0) return
+              for (let elem of document.getElementsByClassName(
+                "summary-link"
+              )) {
+                if (elem.id === `${id}_content`)
+                  elem.style.border = "2px solid red"
+                else elem.style.border = "none"
+              }
+            })
+          </script>
         </p>
         <p>
           This story may not be known in Japan. It cannot be helped because the
@@ -2216,18 +2500,37 @@
 
         <p>
           It is also true that residents who live in places which are rich in
-          resources are suffering.<span class="summary_link" id="s_7_en"></span>
-          Bayan obo, where they can mine a lot of metal resources, is a major
-          deposit in China. The more metal was mined, the more factories were
-          founded and Baotou, which has Bayan obo, developed. In the process,
-          the local people were forced to make a great sacrifice. They were
-          <span class="force_text"
-            >robbed of their farmland and had to choose whether they work at
-            Bayan obo or leave it</span
-          >. What was worse, the atmosphere and water was terribly polluted and
-          <span class="force_text">the health of the residents</span> also came
-          to be worried about. You must realize that you can have your
-          smartphones and home appliances thanks to such sacrifices.
+          resources are suffering. <span class="link_anchor" id="s_7_en"></span
+          ><span class="summary-link" id="s_7_en_content"
+            >Bayan obo, where they can mine a lot of metal resources, is a major
+            deposit in China. The more metal was mined, the more factories were
+            founded and Baotou, which has Bayan obo, developed. In the process,
+            the local people were forced to make a great sacrifice. They were
+            <span class="force_text"
+              >robbed of their farmland and had to choose whether they work at
+              Bayan obo or leave it</span
+            >. What was worse, the atmosphere and water was terribly polluted
+            and <span class="force_text">the health of the residents</span> also
+            came to be worried about. You must realize that you can have your
+            smartphones and home appliances thanks to such sacrifices.</span
+          >
+          <script>
+            document.addEventListener("click", () => {
+              if (window.location.href.indexOf("#") < 0) return
+              const id_sharp = window.location.href.match(/#[^#]*/).toString()
+              // if(id_sharp == null) return;
+              const id = id_sharp.replace("#", "")
+              console.log(id)
+              if (id.indexOf("s_") < 0) return
+              for (let elem of document.getElementsByClassName(
+                "summary-link"
+              )) {
+                if (elem.id === `${id}_content`)
+                  elem.style.border = "2px solid red"
+                else elem.style.border = "none"
+              }
+            })
+          </script>
         </p>
         <aside class="column">
           <div class="column_title">Gorillas killed by phone</div>
@@ -2236,27 +2539,45 @@
             this is true. Actually,
             <span class="force_text"
               >producing phones indirectly leads them to extinction</span
-            >. The concrete process is as follows:<span
-              class="summary_link"
-              id="s_5_en"
-            ></span>
-            <ol>
-              <li>You use smartphones.</li>
-              <li>
-                They have different minor metals. We take up tantalum as an
-                example here.
-              </li>
-              <li>
-                The area around Congo has more tantalum underground than the
-                other areas and it is mined actively.
-              </li>
-              <li>
-                However, when the miners encounter gorillas, they will shoot
-                them in order to guard themselves. Otherwise, gorillas are
-                involved in disputes we mentioned above or their home jangles
-                are destroyed, and die.
-              </li>
-            </ol>
+            >. The concrete process is as follows:
+            <span class="link_anchor" id="s_5_en"></span
+            ><span class="summary-link" id="s_5_en_content"
+              ><ol>
+                <li>You use smartphones.</li>
+                <li>
+                  They have different minor metals. We take up tantalum as an
+                  example here.
+                </li>
+                <li>
+                  The area around Congo has more tantalum underground than the
+                  other areas and it is mined actively.
+                </li>
+                <li>
+                  However, when the miners encounter gorillas, they will shoot
+                  them in order to guard themselves. Otherwise, gorillas are
+                  involved in disputes we mentioned above or their home jangles
+                  are destroyed, and die.
+                </li>
+              </ol></span
+            >
+            <script>
+              document.addEventListener("click", () => {
+                if (window.location.href.indexOf("#") < 0) return
+                const id_sharp = window.location.href.match(/#[^#]*/).toString()
+                // if(id_sharp == null) return;
+                const id = id_sharp.replace("#", "")
+                console.log(id)
+                if (id.indexOf("s_") < 0) return
+                for (let elem of document.getElementsByClassName(
+                  "summary-link"
+                )) {
+                  if (elem.id === `${id}_content`)
+                    elem.style.border = "2px solid red"
+                  else elem.style.border = "none"
+                }
+              })
+            </script>
+
             In this way,
             <span class="force_text">the number of gorillas decreases</span>.
             Although resource issues have nothing to do with animal extinction

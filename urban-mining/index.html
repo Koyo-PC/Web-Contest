@@ -501,6 +501,13 @@
         line-height: 1.2em;
         padding-top: 0.5em;
       }
+      .link_anchor {
+        position: relative;
+        top: -120px;
+      }
+      .summary-link {
+        display: block;
+      }
       .column {
         background-color: #c4edb755;
         /*border: 3px solid #c4edb7;*/
@@ -1437,9 +1444,28 @@
         <h2 id="都市鉱山とは">都市鉱山とは</h2>
         <p>
           前述のような資源問題に対して南條道夫教授（当時東北大学選鉱製錬研究所教授）が1988年に提唱された考えが都市鉱山と呼ばれるものであり、このサイトのメインテーマです。<span
-            class="summary_link"
-            id="s_0"
-          ></span>
+            class="link_anchor"
+            id="s_"
+          ></span
+          ><span class="summary-link" id="s__content">0</span>
+          <script>
+            document.addEventListener("click", () => {
+              if (window.location.href.indexOf("#") < 0) return
+              const id_sharp = window.location.href.match(/#[^#]*/).toString()
+              // if(id_sharp == null) return;
+              const id = id_sharp.replace("#", "")
+              console.log(id)
+              if (id.indexOf("s_") < 0) return
+              for (let elem of document.getElementsByClassName(
+                "summary-link"
+              )) {
+                if (elem.id === `${id}_content`)
+                  elem.style.border = "2px solid red"
+                else elem.style.border = "none"
+              }
+            })
+          </script>
+
           まず、この都市鉱山の定義は、 ”都市鉱山（としこうざん、英語: urban
           mining,
           e-waste）とは、都市でゴミとして大量に廃棄される家電製品などの中に存在する有用な資源（<span
@@ -1465,9 +1491,28 @@
             >Wikipediaより</a
           >）
           この都市鉱山について、データを交えながら詳しく見ていきましょう。<span
-            class="summary_link"
-            id="s_3"
-          ></span>
+            class="link_anchor"
+            id="s_"
+          ></span
+          ><span class="summary-link" id="s__content">3</span>
+          <script>
+            document.addEventListener("click", () => {
+              if (window.location.href.indexOf("#") < 0) return
+              const id_sharp = window.location.href.match(/#[^#]*/).toString()
+              // if(id_sharp == null) return;
+              const id = id_sharp.replace("#", "")
+              console.log(id)
+              if (id.indexOf("s_") < 0) return
+              for (let elem of document.getElementsByClassName(
+                "summary-link"
+              )) {
+                if (elem.id === `${id}_content`)
+                  elem.style.border = "2px solid red"
+                else elem.style.border = "none"
+              }
+            })
+          </script>
+
           下のグラフは主な金属資源の<span class="word"
             ><span class="word_text" style="white-space: ">一次資源</span>
             <span class="word_description_container">
@@ -1612,11 +1657,49 @@
           クーラーや冷蔵庫の冷媒材料に使われるアンチモンでは、世界全体の埋蔵量のうちの22%は日本が占めている状況です。
           このようなデータを見ると<span class="force_text"
             >日本での都市鉱山の開発が一層効果的</span
-          >であることがわかります。<span class="summary_link" id="s_1"></span>
+          >であることがわかります。<span class="link_anchor" id="s_"></span
+          ><span class="summary-link" id="s__content">1</span>
+          <script>
+            document.addEventListener("click", () => {
+              if (window.location.href.indexOf("#") < 0) return
+              const id_sharp = window.location.href.match(/#[^#]*/).toString()
+              // if(id_sharp == null) return;
+              const id = id_sharp.replace("#", "")
+              console.log(id)
+              if (id.indexOf("s_") < 0) return
+              for (let elem of document.getElementsByClassName(
+                "summary-link"
+              )) {
+                if (elem.id === `${id}_content`)
+                  elem.style.border = "2px solid red"
+                else elem.style.border = "none"
+              }
+            })
+          </script>
+
           また、都市鉱山を活用することで海外からの輸入量が減り、前述のような<span
             class="force_text"
             >資源の偏在から生まれる立場の格差問題の解消</span
-          >にもつながります。<span class="summary_link" id="s_2"></span>
+          >にもつながります。<span class="link_anchor" id="s_"></span
+          ><span class="summary-link" id="s__content">2</span>
+          <script>
+            document.addEventListener("click", () => {
+              if (window.location.href.indexOf("#") < 0) return
+              const id_sharp = window.location.href.match(/#[^#]*/).toString()
+              // if(id_sharp == null) return;
+              const id = id_sharp.replace("#", "")
+              console.log(id)
+              if (id.indexOf("s_") < 0) return
+              for (let elem of document.getElementsByClassName(
+                "summary-link"
+              )) {
+                if (elem.id === `${id}_content`)
+                  elem.style.border = "2px solid red"
+                else elem.style.border = "none"
+              }
+            })
+          </script>
+
           さらに日本に関しては、<span class="force_text"
             >輸入に頼らなくても大丈夫だということを海外にアピールできる</span
           >保険のような役割も担うことができます。 これらの利点を考えると、<span
@@ -1687,7 +1770,24 @@
         <!--suppress HtmlUnknownAttribute -->
 
         <h2 id="違法な都市鉱山">違法な都市鉱山</h2>
-        <span class="summary_link" id="s_5"></span>
+        <span class="link_anchor" id="s_"></span
+        ><span class="summary-link" id="s__content">5</span>
+        <script>
+          document.addEventListener("click", () => {
+            if (window.location.href.indexOf("#") < 0) return
+            const id_sharp = window.location.href.match(/#[^#]*/).toString()
+            // if(id_sharp == null) return;
+            const id = id_sharp.replace("#", "")
+            console.log(id)
+            if (id.indexOf("s_") < 0) return
+            for (let elem of document.getElementsByClassName("summary-link")) {
+              if (elem.id === `${id}_content`)
+                elem.style.border = "2px solid red"
+              else elem.style.border = "none"
+            }
+          })
+        </script>
+
         都市鉱山の考えに則り、使用済みの電子機器などをリサイクルするのはかなりの費用がかかるため、先進国から出た廃電子機器が<span
           class="force_text"
           >途上国の処分場に放置される</span
@@ -1717,23 +1817,71 @@
         <!--suppress HtmlUnknownAttribute -->
         は先進国では価値が高くありませんが、途上国ではそれなりの価値を持ちます。
         そのため、それらを求めて廃品をあさり、利益を得ようとする人が処分場には群がっているのです。<span
-          class="summary_link"
-          id="s_6"
-        ></span>
+          class="link_anchor"
+          id="s_"
+        ></span
+        ><span class="summary-link" id="s__content">6</span>
+        <script>
+          document.addEventListener("click", () => {
+            if (window.location.href.indexOf("#") < 0) return
+            const id_sharp = window.location.href.match(/#[^#]*/).toString()
+            // if(id_sharp == null) return;
+            const id = id_sharp.replace("#", "")
+            console.log(id)
+            if (id.indexOf("s_") < 0) return
+            for (let elem of document.getElementsByClassName("summary-link")) {
+              if (elem.id === `${id}_content`)
+                elem.style.border = "2px solid red"
+              else elem.style.border = "none"
+            }
+          })
+        </script>
+
         しかし<span class="force_text"
           >こうした行為は決して安全なものではありません。</span
         >廃棄物を破壊することで有害物質が出る上、当人も有害な蒸気や物質に触れます。
         そうした過酷な環境で手に入れたメジャーメタルを売っても一日当たり数ドルというのが関の山です。<span
-          class="summary_link"
-          id="s_7"
-        ></span>
+          class="link_anchor"
+          id="s_"
+        ></span
+        ><span class="summary-link" id="s__content">7</span>
+        <script>
+          document.addEventListener("click", () => {
+            if (window.location.href.indexOf("#") < 0) return
+            const id_sharp = window.location.href.match(/#[^#]*/).toString()
+            // if(id_sharp == null) return;
+            const id = id_sharp.replace("#", "")
+            console.log(id)
+            if (id.indexOf("s_") < 0) return
+            for (let elem of document.getElementsByClassName("summary-link")) {
+              if (elem.id === `${id}_content`)
+                elem.style.border = "2px solid red"
+              else elem.style.border = "none"
+            }
+          })
+        </script>
+
         そしてこういった人の多くが将来を担う<span class="force_text"
           >十代以下の若者</span
         >なのです。 こうした状況下では途上国の発展は望めません。
-        ここで振り返ってみてください。<span
-          class="summary_link"
-          id="s_4"
-        ></span>
+        ここで振り返ってみてください。<span class="link_anchor" id="s_"></span
+        ><span class="summary-link" id="s__content">4</span>
+        <script>
+          document.addEventListener("click", () => {
+            if (window.location.href.indexOf("#") < 0) return
+            const id_sharp = window.location.href.match(/#[^#]*/).toString()
+            // if(id_sharp == null) return;
+            const id = id_sharp.replace("#", "")
+            console.log(id)
+            if (id.indexOf("s_") < 0) return
+            for (let elem of document.getElementsByClassName("summary-link")) {
+              if (elem.id === `${id}_content`)
+                elem.style.border = "2px solid red"
+              else elem.style.border = "none"
+            }
+          })
+        </script>
+
         このようになったそもそもの原因は私たち日本を含め<span class="force_text"
           >先進国が国内のゴミの管理をきちんとせず、途上国に任せている</span
         >ところにあるのです！
@@ -1744,9 +1892,30 @@
             <p>
               先ほどは廃電子機器の流出による途上国の問題について紹介しました。
               このような事態は世界中で数多く発生し、これを受けて経済協力開発機構（OECD）および国連環境計画（UNEP）が議論し、スイスのバーゼルで締結されたのがバーゼル条約です。<span
-                class="summary_link"
-                id="s_8"
-              ></span>
+                class="link_anchor"
+                id="s_"
+              ></span
+              ><span class="summary-link" id="s__content">8</span>
+              <script>
+                document.addEventListener("click", () => {
+                  if (window.location.href.indexOf("#") < 0) return
+                  const id_sharp = window.location.href
+                    .match(/#[^#]*/)
+                    .toString()
+                  // if(id_sharp == null) return;
+                  const id = id_sharp.replace("#", "")
+                  console.log(id)
+                  if (id.indexOf("s_") < 0) return
+                  for (let elem of document.getElementsByClassName(
+                    "summary-link"
+                  )) {
+                    if (elem.id === `${id}_content`)
+                      elem.style.border = "2px solid red"
+                    else elem.style.border = "none"
+                  }
+                })
+              </script>
+
               バーゼル条約は1989年に採択され、1992年に発効されました。<br />
               バーゼル条約の内容は以下の3つです。
             </p>
@@ -2133,14 +2302,52 @@
           In 1988, Professor Michio Nanjo at the Research Institute of Mineral
           Dressing and Metallurgy, Tohoku University, advocated the concept of
           urban mining in order to solve resource problems and this is the theme
-          of this website.<span class="summary_link" id="s_0_en"></span> Urban
-          mine is defined as follows in Wikipedia: “An urban mine is the
+          of this website.<span class="link_anchor" id="s_"></span
+          ><span class="summary-link" id="s__content">0_en</span>
+          <script>
+            document.addEventListener("click", () => {
+              if (window.location.href.indexOf("#") < 0) return
+              const id_sharp = window.location.href.match(/#[^#]*/).toString()
+              // if(id_sharp == null) return;
+              const id = id_sharp.replace("#", "")
+              console.log(id)
+              if (id.indexOf("s_") < 0) return
+              for (let elem of document.getElementsByClassName(
+                "summary-link"
+              )) {
+                if (elem.id === `${id}_content`)
+                  elem.style.border = "2px solid red"
+                else elem.style.border = "none"
+              }
+            })
+          </script>
+
+          Urban mine is defined as follows in Wikipedia: “An urban mine is the
           stockpile of minor metals in the discarded waste electrical and
           electronic equipment (WEEE) of a society. Urban mining is the process
           of recovering these minor metals through mechanical and chemical
           treatments.” Let’s learn about urban mining together with some
-          data.<span class="summary_link" id="s_3_en"></span> The graph below
-          shows the amount of
+          data.<span class="link_anchor" id="s_"></span
+          ><span class="summary-link" id="s__content">3_en</span>
+          <script>
+            document.addEventListener("click", () => {
+              if (window.location.href.indexOf("#") < 0) return
+              const id_sharp = window.location.href.match(/#[^#]*/).toString()
+              // if(id_sharp == null) return;
+              const id = id_sharp.replace("#", "")
+              console.log(id)
+              if (id.indexOf("s_") < 0) return
+              for (let elem of document.getElementsByClassName(
+                "summary-link"
+              )) {
+                if (elem.id === `${id}_content`)
+                  elem.style.border = "2px solid red"
+                else elem.style.border = "none"
+              }
+            })
+          </script>
+
+          The graph below shows the amount of
           <span class="word"
             ><span class="word_text" style="white-space: "
               >primary resources</span
@@ -2325,7 +2532,25 @@
             metal resources to support themselves without import</span
           >. Considering these advantages,
           <span class="force_text">Japan must make use of urban mines</span
-          >.<span class="summary_link" id="s_1_en"></span>
+          >.<span class="link_anchor" id="s_"></span
+          ><span class="summary-link" id="s__content">1_en</span>
+          <script>
+            document.addEventListener("click", () => {
+              if (window.location.href.indexOf("#") < 0) return
+              const id_sharp = window.location.href.match(/#[^#]*/).toString()
+              // if(id_sharp == null) return;
+              const id = id_sharp.replace("#", "")
+              console.log(id)
+              if (id.indexOf("s_") < 0) return
+              for (let elem of document.getElementsByClassName(
+                "summary-link"
+              )) {
+                if (elem.id === `${id}_content`)
+                  elem.style.border = "2px solid red"
+                else elem.style.border = "none"
+              }
+            })
+          </script>
         </p>
         <div class="image_container">
           <figure class="image_box" style="width: ; height: 40vw" id="">
@@ -2368,7 +2593,24 @@
         <!--suppress HtmlUnknownAttribute -->
 
         <h2 id="illegal-urban-mining">Illegal Urban Mining</h2>
-        <span class="summary_link" id="s_5_en"></span>
+        <span class="link_anchor" id="s_"></span
+        ><span class="summary-link" id="s__content">5_en</span>
+        <script>
+          document.addEventListener("click", () => {
+            if (window.location.href.indexOf("#") < 0) return
+            const id_sharp = window.location.href.match(/#[^#]*/).toString()
+            // if(id_sharp == null) return;
+            const id = id_sharp.replace("#", "")
+            console.log(id)
+            if (id.indexOf("s_") < 0) return
+            for (let elem of document.getElementsByClassName("summary-link")) {
+              if (elem.id === `${id}_content`)
+                elem.style.border = "2px solid red"
+              else elem.style.border = "none"
+            }
+          })
+        </script>
+
         People in developed countries
         <span class="force_text"
           >leave e-waste in garbage disposal plants in developing
@@ -2405,19 +2647,70 @@
         are not very valuable in developed countries, but they are more valuable
         in developing countries.<br />So, there are so many people looking for
         e-waste to make a profit from them in disposal sites.
-        <span class="summary_link" id="s_6_en"></span> However,
-        <span class="force_text">this is very dangerous</span>. When they
-        destroy e-waste, harmful substances are generated and they are exposed
-        to the hazardous gas and substances. Major metal taken out in such a
-        dangerous situation is paid for up to a few dollars per day.<span
-          class="summary_link"
-          id="s_7_en"
-        ></span>
+        <span class="link_anchor" id="s_"></span
+        ><span class="summary-link" id="s__content">6_en</span>
+        <script>
+          document.addEventListener("click", () => {
+            if (window.location.href.indexOf("#") < 0) return
+            const id_sharp = window.location.href.match(/#[^#]*/).toString()
+            // if(id_sharp == null) return;
+            const id = id_sharp.replace("#", "")
+            console.log(id)
+            if (id.indexOf("s_") < 0) return
+            for (let elem of document.getElementsByClassName("summary-link")) {
+              if (elem.id === `${id}_content`)
+                elem.style.border = "2px solid red"
+              else elem.style.border = "none"
+            }
+          })
+        </script>
+
+        However, <span class="force_text">this is very dangerous</span>. When
+        they destroy e-waste, harmful substances are generated and they are
+        exposed to the hazardous gas and substances. Major metal taken out in
+        such a dangerous situation is paid for up to a few dollars per day.<span
+          class="link_anchor"
+          id="s_"
+        ></span
+        ><span class="summary-link" id="s__content">7_en</span>
+        <script>
+          document.addEventListener("click", () => {
+            if (window.location.href.indexOf("#") < 0) return
+            const id_sharp = window.location.href.match(/#[^#]*/).toString()
+            // if(id_sharp == null) return;
+            const id = id_sharp.replace("#", "")
+            console.log(id)
+            if (id.indexOf("s_") < 0) return
+            for (let elem of document.getElementsByClassName("summary-link")) {
+              if (elem.id === `${id}_content`)
+                elem.style.border = "2px solid red"
+              else elem.style.border = "none"
+            }
+          })
+        </script>
+
         Moreover, such miners are composed mostly of
         <span class="force_text">people under 20</span> who should have a bright
         future. Developing countries cannot advance in this situation. Now, let
-        us look back.<span class="summary_link" id="s_4_en"></span> The
-        fundamental cause is that
+        us look back.<span class="link_anchor" id="s_"></span
+        ><span class="summary-link" id="s__content">4_en</span>
+        <script>
+          document.addEventListener("click", () => {
+            if (window.location.href.indexOf("#") < 0) return
+            const id_sharp = window.location.href.match(/#[^#]*/).toString()
+            // if(id_sharp == null) return;
+            const id = id_sharp.replace("#", "")
+            console.log(id)
+            if (id.indexOf("s_") < 0) return
+            for (let elem of document.getElementsByClassName("summary-link")) {
+              if (elem.id === `${id}_content`)
+                elem.style.border = "2px solid red"
+              else elem.style.border = "none"
+            }
+          })
+        </script>
+
+        The fundamental cause is that
         <span class="force_text"
           >developed countries including Japan have refused to manage their
           waste and forced the work on developing countries</span
@@ -2432,9 +2725,30 @@
               over the world and Organization for Economic Co-operation and
               Development (OECD) and United Nations Environment Program (UNEP)
               discussed this issue. As a result, Basel Convention was
-              concluded.<span class="summary_link" id="s_8_en"></span> It was
-              adopted in 1989 and came into effect in 1992. Basel Convention
-              says:
+              concluded.<span class="link_anchor" id="s_"></span
+              ><span class="summary-link" id="s__content">8_en</span>
+              <script>
+                document.addEventListener("click", () => {
+                  if (window.location.href.indexOf("#") < 0) return
+                  const id_sharp = window.location.href
+                    .match(/#[^#]*/)
+                    .toString()
+                  // if(id_sharp == null) return;
+                  const id = id_sharp.replace("#", "")
+                  console.log(id)
+                  if (id.indexOf("s_") < 0) return
+                  for (let elem of document.getElementsByClassName(
+                    "summary-link"
+                  )) {
+                    if (elem.id === `${id}_content`)
+                      elem.style.border = "2px solid red"
+                    else elem.style.border = "none"
+                  }
+                })
+              </script>
+
+              It was adopted in 1989 and came into effect in 1992. Basel
+              Convention says:
             </p>
             <ol>
               <li>

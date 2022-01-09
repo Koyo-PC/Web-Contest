@@ -767,6 +767,13 @@
         display: block;
         background-color: #8884;
       }
+      .link_anchor {
+        position: relative;
+        top: -120px;
+      }
+      .summary-link {
+        display: block;
+      }
       footer {
         position: relative;
         width: 100%;
@@ -1308,9 +1315,28 @@
 
         <p>
           回収ボックスは全国の公共施設やスーパー、家電量販店、学校などに設置されています。<span
-            class="summary_link"
-            id="s_2"
-          ></span>
+            class="link_anchor"
+            id="s_"
+          ></span
+          ><span class="summary-link" id="s__content">2</span>
+          <script>
+            document.addEventListener("click", () => {
+              if (window.location.href.indexOf("#") < 0) return
+              const id_sharp = window.location.href.match(/#[^#]*/).toString()
+              // if(id_sharp == null) return;
+              const id = id_sharp.replace("#", "")
+              console.log(id)
+              if (id.indexOf("s_") < 0) return
+              for (let elem of document.getElementsByClassName(
+                "summary-link"
+              )) {
+                if (elem.id === `${id}_content`)
+                  elem.style.border = "2px solid red"
+                else elem.style.border = "none"
+              }
+            })
+          </script>
+
           回収ボックスにあまりなじみがないという方も多いかもしれませんが、一度「近くの回収ボックス」と検索してみてください。
           きっとその数の多さに驚きますよ。
           （※回収ボックスを利用される方は、自治体ごとに対象品目が異なることがありますのでご注意ください）
@@ -1362,16 +1388,54 @@
         <h3 id="スイス">スイス</h3>
         <p>
           金属リサイクルでリードしているのはスイスです。<span
-            class="summary_link"
-            id="s_4"
-          ></span>
+            class="link_anchor"
+            id="s_"
+          ></span
+          ><span class="summary-link" id="s__content">4</span>
+          <script>
+            document.addEventListener("click", () => {
+              if (window.location.href.indexOf("#") < 0) return
+              const id_sharp = window.location.href.match(/#[^#]*/).toString()
+              // if(id_sharp == null) return;
+              const id = id_sharp.replace("#", "")
+              console.log(id)
+              if (id.indexOf("s_") < 0) return
+              for (let elem of document.getElementsByClassName(
+                "summary-link"
+              )) {
+                if (elem.id === `${id}_content`)
+                  elem.style.border = "2px solid red"
+                else elem.style.border = "none"
+              }
+            })
+          </script>
+
           スイスは現在の日本と同じく天然資源に乏しい国です。
           しかし、スイスは国内の電子廃棄物を再利用することによって、これを補っています。
           実に2018年時点で<span class="force_text"
             >電子廃棄物のリサイクル率は95%</span
           >に達しています。
           どのようにしてこれほどまでに大きな成功をおさめることができているのでしょうか。
-          <span class="summary_link" id="s_1"></span>
+          <span class="link_anchor" id="s_"></span
+          ><span class="summary-link" id="s__content">1</span>
+          <script>
+            document.addEventListener("click", () => {
+              if (window.location.href.indexOf("#") < 0) return
+              const id_sharp = window.location.href.match(/#[^#]*/).toString()
+              // if(id_sharp == null) return;
+              const id = id_sharp.replace("#", "")
+              console.log(id)
+              if (id.indexOf("s_") < 0) return
+              for (let elem of document.getElementsByClassName(
+                "summary-link"
+              )) {
+                if (elem.id === `${id}_content`)
+                  elem.style.border = "2px solid red"
+                else elem.style.border = "none"
+              }
+            })
+          </script>
+
           まず、スイスでは1998年初頭に「<span class="word"
             ><span class="word_text" style="white-space: normal"
               >電気・電子機器の返却・引き取り・処分に関する政令</span
@@ -1397,7 +1461,26 @@
           一方、<span class="force_text"
             >消費者にも使用済みの家電製品を返却する義務</span
           >があり、他のゴミと一緒に出すことはできません。
-          <span class="summary_link" id="s_0"></span>
+          <span class="link_anchor" id="s_"></span
+          ><span class="summary-link" id="s__content">0</span>
+          <script>
+            document.addEventListener("click", () => {
+              if (window.location.href.indexOf("#") < 0) return
+              const id_sharp = window.location.href.match(/#[^#]*/).toString()
+              // if(id_sharp == null) return;
+              const id = id_sharp.replace("#", "")
+              console.log(id)
+              if (id.indexOf("s_") < 0) return
+              for (let elem of document.getElementsByClassName(
+                "summary-link"
+              )) {
+                if (elem.id === `${id}_content`)
+                  elem.style.border = "2px solid red"
+                else elem.style.border = "none"
+              }
+            })
+          </script>
+
           スイスの会社が無料で廃電子機器を回収できるのは、<span
             class="force_text"
             >消費者が購入する際にその製品の種類に応じてすでに前払いの廃棄料金が含まれている</span
@@ -1426,7 +1509,26 @@
 
           <!--suppress HtmlUnknownAttribute -->
           と呼ばれます。
-          <span class="summary_link" id="s_3"></span>
+          <span class="link_anchor" id="s_"></span
+          ><span class="summary-link" id="s__content">3</span>
+          <script>
+            document.addEventListener("click", () => {
+              if (window.location.href.indexOf("#") < 0) return
+              const id_sharp = window.location.href.match(/#[^#]*/).toString()
+              // if(id_sharp == null) return;
+              const id = id_sharp.replace("#", "")
+              console.log(id)
+              if (id.indexOf("s_") < 0) return
+              for (let elem of document.getElementsByClassName(
+                "summary-link"
+              )) {
+                if (elem.id === `${id}_content`)
+                  elem.style.border = "2px solid red"
+                else elem.style.border = "none"
+              }
+            })
+          </script>
+
           しかし、ここに持ち込まれたものが<span class="force_text"
             >すべてリサイクルされるわけではありません。</span
           >
@@ -1458,8 +1560,26 @@
         <p>
           不法投棄を減らすために<span class="force_text"
             >廃棄物の量自体を減らす</span
-          >というのも1つの方法です。
-          <span class="summary_link" id="s_7"></span>
+          >というのも1つの方法です。 <span class="link_anchor" id="s_"></span
+          ><span class="summary-link" id="s__content">7</span>
+          <script>
+            document.addEventListener("click", () => {
+              if (window.location.href.indexOf("#") < 0) return
+              const id_sharp = window.location.href.match(/#[^#]*/).toString()
+              // if(id_sharp == null) return;
+              const id = id_sharp.replace("#", "")
+              console.log(id)
+              if (id.indexOf("s_") < 0) return
+              for (let elem of document.getElementsByClassName(
+                "summary-link"
+              )) {
+                if (elem.id === `${id}_content`)
+                  elem.style.border = "2px solid red"
+                else elem.style.border = "none"
+              }
+            })
+          </script>
+
           新型コロナウイルス感染が拡大している現在、ヨーロッパ、特にフランスである動きが注目されるようになりました。
           それは<span class="force_text"
             >「修理業者がオンラインで修理をサポートする」</span
@@ -1547,9 +1667,28 @@
 
           <!--suppress HtmlUnknownAttribute -->
           」というリサイクル方式が浸透しています。<span
-            class="summary_link"
-            id="s_6"
-          ></span>
+            class="link_anchor"
+            id="s_"
+          ></span
+          ><span class="summary-link" id="s__content">6</span>
+          <script>
+            document.addEventListener("click", () => {
+              if (window.location.href.indexOf("#") < 0) return
+              const id_sharp = window.location.href.match(/#[^#]*/).toString()
+              // if(id_sharp == null) return;
+              const id = id_sharp.replace("#", "")
+              console.log(id)
+              if (id.indexOf("s_") < 0) return
+              for (let elem of document.getElementsByClassName(
+                "summary-link"
+              )) {
+                if (elem.id === `${id}_content`)
+                  elem.style.border = "2px solid red"
+                else elem.style.border = "none"
+              }
+            })
+          </script>
+
           この「シングルストリーム」とは資源ゴミをまとめて回収し、後から自治体の選別施設で磁石や光学センサーなどを利用して回収した資源ゴミを選別するという方法です。
           この方法では<span class="force_text"
             >国民はゴミを分別する必要はありません。</span
@@ -1578,9 +1717,28 @@
         <h2 id="企業の取り組み">企業の取り組み</h2>
         <p>
           都市鉱山の利用は国だけでなく、大きな力をあげて取り組む企業も多くあります。<span
-            class="summary_link"
-            id="s_5"
-          ></span>
+            class="link_anchor"
+            id="s_"
+          ></span
+          ><span class="summary-link" id="s__content">5</span>
+          <script>
+            document.addEventListener("click", () => {
+              if (window.location.href.indexOf("#") < 0) return
+              const id_sharp = window.location.href.match(/#[^#]*/).toString()
+              // if(id_sharp == null) return;
+              const id = id_sharp.replace("#", "")
+              console.log(id)
+              if (id.indexOf("s_") < 0) return
+              for (let elem of document.getElementsByClassName(
+                "summary-link"
+              )) {
+                if (elem.id === `${id}_content`)
+                  elem.style.border = "2px solid red"
+                else elem.style.border = "none"
+              }
+            })
+          </script>
+
           日本国内でいうと、世界の国々の取り組みで紹介した「<span class="word"
             ><span class="word_text" style="white-space: ">認定事業者</span>
             <span class="word_description_container">
@@ -1600,7 +1758,26 @@
           これら認定事業者は日本国内の小型家電の回収量のうち約30%を回収しています。（残りは主に市町村からの回収によって賄われています。）
           また、金属リサイクルをすると環境にとって有害な物質が出てきてしまいます。
           この処理を適切に行ってくれているのも認定事業者です。
-          <span class="summary_link" id="s_8"></span>
+          <span class="link_anchor" id="s_"></span
+          ><span class="summary-link" id="s__content">8</span>
+          <script>
+            document.addEventListener("click", () => {
+              if (window.location.href.indexOf("#") < 0) return
+              const id_sharp = window.location.href.match(/#[^#]*/).toString()
+              // if(id_sharp == null) return;
+              const id = id_sharp.replace("#", "")
+              console.log(id)
+              if (id.indexOf("s_") < 0) return
+              for (let elem of document.getElementsByClassName(
+                "summary-link"
+              )) {
+                if (elem.id === `${id}_content`)
+                  elem.style.border = "2px solid red"
+                else elem.style.border = "none"
+              }
+            })
+          </script>
+
           さらに、リサイクルについて考える企業に対し、さまざまな提案をする環境コンサルティングを行う認定事業者もあります。
           認定事業者の1つであるリバーホールディングス株式会社はタイで金属リサイクル事業を展開する日髙洋行エンタープライズと合弁することで海外にも進出しています。
           このように<span class="force_text"
@@ -1685,9 +1862,28 @@
 
         <p>
           また、他の事業を行いながらリサイクルにも力を入れている企業もあります。<span
-            class="summary_link"
-            id="s_9"
-          ></span>
+            class="link_anchor"
+            id="s_"
+          ></span
+          ><span class="summary-link" id="s__content">9</span>
+          <script>
+            document.addEventListener("click", () => {
+              if (window.location.href.indexOf("#") < 0) return
+              const id_sharp = window.location.href.match(/#[^#]*/).toString()
+              // if(id_sharp == null) return;
+              const id = id_sharp.replace("#", "")
+              console.log(id)
+              if (id.indexOf("s_") < 0) return
+              for (let elem of document.getElementsByClassName(
+                "summary-link"
+              )) {
+                if (elem.id === `${id}_content`)
+                  elem.style.border = "2px solid red"
+                else elem.style.border = "none"
+              }
+            })
+          </script>
+
           日本国内ではヤマトホールディングス傘下のヤマトホームコンビニエンス株式会社が認定事業者であるリバーホールディングス株式会社と大栄環境株式会社と連携し、クロネコ小型家電リサイクルサービスを提供しています。
           これはヤマトホームコンビニエンス株式会社が他のサービスで家に訪問したときに一緒に不要な小型家電製品を収集し、最寄りの拠点まで運搬、集約拠点での商品確認、資源化施設への引渡しまでを行うというものです。
           このようにリサイクルに直接的には関係のない企業でも都市鉱山活用に役立っている企業は多くあります。
@@ -1746,9 +1942,28 @@
         <h2 id="みんなのメダルプロジェクト">みんなのメダルプロジェクト</h2>
         <p>
           皆さんは東京2020オリンピック・パラリンピックの白熱した試合の数々をご覧になりましたか？<span
-            class="summary_link"
-            id="s_10"
-          ></span>
+            class="link_anchor"
+            id="s_"
+          ></span
+          ><span class="summary-link" id="s__content">10</span>
+          <script>
+            document.addEventListener("click", () => {
+              if (window.location.href.indexOf("#") < 0) return
+              const id_sharp = window.location.href.match(/#[^#]*/).toString()
+              // if(id_sharp == null) return;
+              const id = id_sharp.replace("#", "")
+              console.log(id)
+              if (id.indexOf("s_") < 0) return
+              for (let elem of document.getElementsByClassName(
+                "summary-link"
+              )) {
+                if (elem.id === `${id}_content`)
+                  elem.style.border = "2px solid red"
+                else elem.style.border = "none"
+              }
+            })
+          </script>
+
           コロナ禍で迎えたオリンピック・パラリンピックで頑張る選手たちの姿に感激されたという方も多いのではないでしょうか。
           実は、そんな<span class="force_text"
             >東京2020オリンピック・パラリンピックも都市鉱山と深く関係していた</span
@@ -2192,9 +2407,28 @@
         <p>
           Recycling boxes can be found at supermarkets, stores that sell home
           appliances, schools, and so on.<span
-            class="summary_link"
-            id="s_2"
-          ></span>
+            class="link_anchor"
+            id="s_"
+          ></span
+          ><span class="summary-link" id="s__content">2</span>
+          <script>
+            document.addEventListener("click", () => {
+              if (window.location.href.indexOf("#") < 0) return
+              const id_sharp = window.location.href.match(/#[^#]*/).toString()
+              // if(id_sharp == null) return;
+              const id = id_sharp.replace("#", "")
+              console.log(id)
+              if (id.indexOf("s_") < 0) return
+              for (let elem of document.getElementsByClassName(
+                "summary-link"
+              )) {
+                if (elem.id === `${id}_content`)
+                  elem.style.border = "2px solid red"
+                else elem.style.border = "none"
+              }
+            })
+          </script>
+
           If you do not know much about collection boxes, try searching to
           search the Internet for a recycling box near you. You will be amazed
           by the number of them(*Keep in mind that local governments may collect
@@ -2257,15 +2491,52 @@
         <h3 id="switzerland">Switzerland</h3>
         <p>
           Switzerland is a country where many things are recycled.<span
-            class="summary_link"
-            id="s_4"
-          ></span>
+            class="link_anchor"
+            id="s_"
+          ></span
+          ><span class="summary-link" id="s__content">4</span>
+          <script>
+            document.addEventListener("click", () => {
+              if (window.location.href.indexOf("#") < 0) return
+              const id_sharp = window.location.href.match(/#[^#]*/).toString()
+              // if(id_sharp == null) return;
+              const id = id_sharp.replace("#", "")
+              console.log(id)
+              if (id.indexOf("s_") < 0) return
+              for (let elem of document.getElementsByClassName(
+                "summary-link"
+              )) {
+                if (elem.id === `${id}_content`)
+                  elem.style.border = "2px solid red"
+                else elem.style.border = "none"
+              }
+            })
+          </script>
+
           Like Japan, Switzerland is a country that is poor in natural
           resources. However, Switzerland makes up for this by reusing the
           metals in recycled e-waste. In fact,
           <span class="force_text">95 percent of e-waste was recycled</span> in
-          2018. How did they succeed?
-          <span class="summary_link" id="s_1"></span>
+          2018. How did they succeed? <span class="link_anchor" id="s_"></span
+          ><span class="summary-link" id="s__content">1</span>
+          <script>
+            document.addEventListener("click", () => {
+              if (window.location.href.indexOf("#") < 0) return
+              const id_sharp = window.location.href.match(/#[^#]*/).toString()
+              // if(id_sharp == null) return;
+              const id = id_sharp.replace("#", "")
+              console.log(id)
+              if (id.indexOf("s_") < 0) return
+              for (let elem of document.getElementsByClassName(
+                "summary-link"
+              )) {
+                if (elem.id === `${id}_content`)
+                  elem.style.border = "2px solid red"
+                else elem.style.border = "none"
+              }
+            })
+          </script>
+
           Switzerland made a law called
           <span class="word"
             ><span class="word_text" style="white-space: normal"
@@ -2293,7 +2564,26 @@
             >consumers must return used electrical appliances</span
           >
           and must not throw them away with other waste.
-          <span class="summary_link" id="s_0"></span>
+          <span class="link_anchor" id="s_"></span
+          ><span class="summary-link" id="s__content">0</span>
+          <script>
+            document.addEventListener("click", () => {
+              if (window.location.href.indexOf("#") < 0) return
+              const id_sharp = window.location.href.match(/#[^#]*/).toString()
+              // if(id_sharp == null) return;
+              const id = id_sharp.replace("#", "")
+              console.log(id)
+              if (id.indexOf("s_") < 0) return
+              for (let elem of document.getElementsByClassName(
+                "summary-link"
+              )) {
+                if (elem.id === `${id}_content`)
+                  elem.style.border = "2px solid red"
+                else elem.style.border = "none"
+              }
+            })
+          </script>
+
           The reason why Swiss companies are able to collect e-waste for free is
           that
           <span class="force_text"
@@ -2323,7 +2613,26 @@
 
           <!--suppress HtmlUnknownAttribute -->
           &#148;.
-          <span class="summary_link" id="s_3"></span>
+          <span class="link_anchor" id="s_"></span
+          ><span class="summary-link" id="s__content">3</span>
+          <script>
+            document.addEventListener("click", () => {
+              if (window.location.href.indexOf("#") < 0) return
+              const id_sharp = window.location.href.match(/#[^#]*/).toString()
+              // if(id_sharp == null) return;
+              const id = id_sharp.replace("#", "")
+              console.log(id)
+              if (id.indexOf("s_") < 0) return
+              for (let elem of document.getElementsByClassName(
+                "summary-link"
+              )) {
+                if (elem.id === `${id}_content`)
+                  elem.style.border = "2px solid red"
+                else elem.style.border = "none"
+              }
+            })
+          </script>
+
           However,
           <span class="force_text"
             >not everything that is brought in here is recycled</span
@@ -2441,7 +2750,26 @@
 
           <!--suppress HtmlUnknownAttribute -->
           &quot; is popular.
-          <span class="summary_link" id="s_6"></span>
+          <span class="link_anchor" id="s_"></span
+          ><span class="summary-link" id="s__content">6</span>
+          <script>
+            document.addEventListener("click", () => {
+              if (window.location.href.indexOf("#") < 0) return
+              const id_sharp = window.location.href.match(/#[^#]*/).toString()
+              // if(id_sharp == null) return;
+              const id = id_sharp.replace("#", "")
+              console.log(id)
+              if (id.indexOf("s_") < 0) return
+              for (let elem of document.getElementsByClassName(
+                "summary-link"
+              )) {
+                if (elem.id === `${id}_content`)
+                  elem.style.border = "2px solid red"
+                else elem.style.border = "none"
+              }
+            })
+          </script>
+
           In this method, recyclable waste is collected in bulk, and later it is
           separated using magnets and sensors. With this method,
           <span class="force_text"
@@ -2477,7 +2805,26 @@
         <h2 id="work-by-companies">Work by Companies</h2>
         <p>
           There are many companies that are involved in recycling.
-          <span class="summary_link" id="s_5"></span>
+          <span class="link_anchor" id="s_"></span
+          ><span class="summary-link" id="s__content">5</span>
+          <script>
+            document.addEventListener("click", () => {
+              if (window.location.href.indexOf("#") < 0) return
+              const id_sharp = window.location.href.match(/#[^#]*/).toString()
+              // if(id_sharp == null) return;
+              const id = id_sharp.replace("#", "")
+              console.log(id)
+              if (id.indexOf("s_") < 0) return
+              for (let elem of document.getElementsByClassName(
+                "summary-link"
+              )) {
+                if (elem.id === `${id}_content`)
+                  elem.style.border = "2px solid red"
+                else elem.style.border = "none"
+              }
+            })
+          </script>
+
           In Japan, the
           <span class="word"
             ><span class="word_text" style="white-space: "
@@ -2504,7 +2851,26 @@
           governments.) When you recycle, substances that can damage the
           environment are released, and these companies properly dispose of the
           substances.
-          <span class="summary_link" id="s_8"></span>
+          <span class="link_anchor" id="s_"></span
+          ><span class="summary-link" id="s__content">8</span>
+          <script>
+            document.addEventListener("click", () => {
+              if (window.location.href.indexOf("#") < 0) return
+              const id_sharp = window.location.href.match(/#[^#]*/).toString()
+              // if(id_sharp == null) return;
+              const id = id_sharp.replace("#", "")
+              console.log(id)
+              if (id.indexOf("s_") < 0) return
+              for (let elem of document.getElementsByClassName(
+                "summary-link"
+              )) {
+                if (elem.id === `${id}_content`)
+                  elem.style.border = "2px solid red"
+                else elem.style.border = "none"
+              }
+            })
+          </script>
+
           There are certified companies that offer various suggestions to
           companies that are thinking of recycling by themselves. One of these
           companies, Rever Holdings Corporation, is expanding its business
@@ -2604,8 +2970,26 @@
 
         <p>
           There are also companies that focus on recycling while doing other
-          businesses.
-          <span class="summary_link" id="s_9"></span>
+          businesses. <span class="link_anchor" id="s_"></span
+          ><span class="summary-link" id="s__content">9</span>
+          <script>
+            document.addEventListener("click", () => {
+              if (window.location.href.indexOf("#") < 0) return
+              const id_sharp = window.location.href.match(/#[^#]*/).toString()
+              // if(id_sharp == null) return;
+              const id = id_sharp.replace("#", "")
+              console.log(id)
+              if (id.indexOf("s_") < 0) return
+              for (let elem of document.getElementsByClassName(
+                "summary-link"
+              )) {
+                if (elem.id === `${id}_content`)
+                  elem.style.border = "2px solid red"
+                else elem.style.border = "none"
+              }
+            })
+          </script>
+
           In Japan, Yamato Home Convenience Co., Ltd. offers Kuroneko Small Home
           Appliance Recycling Service in cooperation with Rever Holdings Co. and
           Daiei Kankyo Co.,Ltd. They collect small household appliances when
@@ -2678,7 +3062,26 @@
         <h2 id="tokyo-2020-medals-project">Tokyo 2020 Medals Project</h2>
         <p>
           Did you enjoy the exciting Tokyo Olympic Games?
-          <span class="summary_link" id="s_10"></span>
+          <span class="link_anchor" id="s_"></span
+          ><span class="summary-link" id="s__content">10</span>
+          <script>
+            document.addEventListener("click", () => {
+              if (window.location.href.indexOf("#") < 0) return
+              const id_sharp = window.location.href.match(/#[^#]*/).toString()
+              // if(id_sharp == null) return;
+              const id = id_sharp.replace("#", "")
+              console.log(id)
+              if (id.indexOf("s_") < 0) return
+              for (let elem of document.getElementsByClassName(
+                "summary-link"
+              )) {
+                if (elem.id === `${id}_content`)
+                  elem.style.border = "2px solid red"
+                else elem.style.border = "none"
+              }
+            })
+          </script>
+
           Many people must have been moved to see athletes trying hard in the
           games that were held during the pandemic. Actually,
           <span class="force_text"
