@@ -304,9 +304,9 @@ We disassembled a feature phone and a smartphone.  You can check the experiment 
 
 ## What is Urban Mining?
 
-In 1988, Professor Michio Nanjo at the Research Institute of Mineral Dressing and Metallurgy, Tohoku University, advocated the concept of urban mining in order to solve resource problems and this is the theme of this website.<SummaryLink>0</SummaryLink>
+In 1988, Professor Michio Nanjo at the Research Institute of Mineral Dressing and Metallurgy, Tohoku University, advocated the concept of urban mining in order to solve resource problems and this is the theme of this website.<SummaryLink>0_en</SummaryLink>
 Urban mine is defined as follows in Wikipedia: “An urban mine is the stockpile of minor metals in the discarded waste electrical and electronic equipment (WEEE) of a society. Urban mining is the process of recovering these minor metals through mechanical and chemical treatments.”
-Let’s learn about urban mining together with some data.<SummaryLink>3</SummaryLink>
+Let’s learn about urban mining together with some data.<SummaryLink>3_en</SummaryLink>
 The graph below shows the amount of <Word>primary resources</Word> and <Word>secondary resources</Word> of some metals.
 
 
@@ -361,7 +361,7 @@ Japan accounts for 22 percent of Antimony, which is used for refrigerant materia
 Japan has world-class reserves of other metals. 
 In addition, <ForceText>gaps between countries that come from resource distribution can be closed</ForceText> by using urban mines.
 Moreover about Japan, it can play an important role as <ForceText>an insurance that says to the other countries Japan has enough metal resources to support themselves without import</ForceText>. 
-Considering these advantages, <ForceText>Japan must make use of urban mines</ForceText>.<SummaryLink>1</SummaryLink>
+Considering these advantages, <ForceText>Japan must make use of urban mines</ForceText>.<SummaryLink>1_en</SummaryLink>
 
 <div class="image_container">
     <CaptionImage src="../assets/susdi/img_618f76e3bd42e.png" caption="How much metal each country has?" source="National Institute for Materials Science, NIMS" link="https://www.nims.go.jp/research/elements/rare-metal/study/index.html" height="40vw"></CaptionImage>
@@ -373,7 +373,7 @@ Urban mining also has a good effect on carbon dioxide emissions reduction and is
 
 ## Illegal Urban Mining
 
-<SummaryLink>5</SummaryLink>
+<SummaryLink>5_en</SummaryLink>
 People in developed countries <ForceText>leave e-waste in garbage disposal plants in developing countries</ForceText> because recycling  e-waste costs a lot following the idea of urban mining.
 Of course, they cannot afford to recycle them, so they throw away nearby rivers and sea garbage that do not turn into ash after burning.
 <ForceText>This causes various issues</ForceText>.
@@ -384,13 +384,13 @@ Probably because of this, the local children tend to be stunted and the pregnant
 There are more problems affecting local people. 
 E-waste includes a lot of iron, copper and aluminum.
 These <Word>major metals</Word> are not very valuable in developed countries, but they are more valuable in developing countries.  
-So, there are so many people looking for e-waste to make a profit from them in disposal sites. <SummaryLink>6</SummaryLink>
+So, there are so many people looking for e-waste to make a profit from them in disposal sites. <SummaryLink>6_en</SummaryLink>
 However, <ForceText>this is very dangerous</ForceText>. 
 When they destroy e-waste, harmful substances are generated and they are exposed to the hazardous gas and substances.
-Major metal taken out in such a dangerous situation is paid for up to a few dollars per day.<SummaryLink>7</SummaryLink>
+Major metal taken out in such a dangerous situation is paid for up to a few dollars per day.<SummaryLink>7_en</SummaryLink>
 Moreover, such miners are composed mostly of <ForceText>people under 20</ForceText> who should have a bright future. 
 Developing countries cannot advance in this situation. 
-Now, let us look back.<SummaryLink>4</SummaryLink>
+Now, let us look back.<SummaryLink>4_en</SummaryLink>
 The fundamental cause is that <ForceText>developed countries including Japan have refused to manage their waste and forced the work on developing countries</ForceText>!
 Our future will be brighter if you make better use of urban mines although there are a lot of obstacles hard to get over.
 
@@ -398,7 +398,7 @@ Our future will be brighter if you make better use of urban mines although there
 
 We mentioned the problems in developing countries caused by imperfect e-waste management.
 Situations like this happened all over the world and Organization for Economic Co-operation and Development (OECD) and United Nations Environment Program (UNEP) discussed this issue. 
-As a result, Basel Convention was concluded.<SummaryLink>8</SummaryLink>
+As a result, Basel Convention was concluded.<SummaryLink>8_en</SummaryLink>
 It was adopted in 1989 and came into effect in 1992. 
 Basel Convention says:
 
