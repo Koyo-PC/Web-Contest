@@ -152,7 +152,7 @@ note="書籍『資源論』をスキャン" height="40vw"></Image>
 </SummaryLink>
 
 <div class="image_container">
-    <CaptionImage src="../assets/susdi/img_618f76e3bd42e.png" height="40vw" source="SusDI" link="http://susdi.org/wp/data/post-194/"></CaptionImage>
+    <CaptionImage src="../img/urban-mining/metal_graph.svg" width="60vw" source="SusDI" link="http://susdi.org/wp/data/post-194/" note_jp="を参考に作成"></CaptionImage>
 </div>
 
 <AtomCharacter atom="Y">
