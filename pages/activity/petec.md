@@ -1,4 +1,5 @@
 [//SCML_TITLE]: # (工場見学)
+[//SCML_TITLE_EN]: # (Visit to Plant)
 
 <div id="lang_jp">
 

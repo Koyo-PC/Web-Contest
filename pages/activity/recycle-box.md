@@ -1,4 +1,5 @@
 [//SCML_TITLE]: # (回収ボックス)
+[//SCML_TITLE_EN]: # (Recovery Box)
 
 <div id="lang_jp">
 

@@ -1,4 +1,5 @@
 [//SCML_TITLE]: # (解決策)
+[//SCML_TITLE]: # (Solution)
 
 <div id="lang_jp">
 

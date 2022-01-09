@@ -1,4 +1,5 @@
 [//SCML_TITLE]: # (最後に)
+[//SCML_TITLE]: # (Finally)
 
 <div id="lang_jp">
 

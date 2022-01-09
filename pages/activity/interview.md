@@ -1,4 +1,5 @@
 [//SCML_TITLE]: # (インタビュー)
+[//SCML_TITLE_EN]: # (Interview)
 
 <div id="lang_jp">
 

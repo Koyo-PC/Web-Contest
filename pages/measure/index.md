@@ -1,4 +1,5 @@
 [//SCML_TITLE]: # (現在の取り組み)
+[//SCML_TITLE]: # (Measure)
 
 <div id="lang_jp">
 

@@ -1,4 +1,5 @@
 [//SCML_TITLE]: # (アンケート)
+[//SCML_TITLE_EN]: # (Questionnaire)
 
 <div id="lang_jp">
 

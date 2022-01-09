@@ -1,4 +1,5 @@
 [//SCML_TITLE]: # (携帯解体)
+[//SCML_TITLE_EN]: # (Cell Phone Dismantling)
 
 <div id="lang_jp">
 

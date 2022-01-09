@@ -1,4 +1,5 @@
 [//SCML_TITLE]: # (アクティビティ)
+[//SCML_TITLE_EN]: # (Activity)
 
 <div id="lang_jp">
 

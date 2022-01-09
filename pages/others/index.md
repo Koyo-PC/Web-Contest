@@ -1,4 +1,5 @@
 [//SCML_TITLE]: # (その他)
+[//SCML_TITLE]: # (Others)
 
 <div id="lang_jp">
 

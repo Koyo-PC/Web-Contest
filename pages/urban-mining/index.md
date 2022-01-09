@@ -1,4 +1,5 @@
 [//SCML_TITLE]: # (都市鉱山の意義)
+[//SCML_TITLE_EN]: # (Significance of Urban Mining)
 
 <div id="lang_jp">
 

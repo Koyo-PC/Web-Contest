@@ -1,4 +1,5 @@
 [//SCML_TITLE]: # (資源の現状)
+[//SCML_TITLE_EN]: # (Present Situation)
 
 <div id="lang_jp">
 
