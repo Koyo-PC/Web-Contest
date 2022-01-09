@@ -457,8 +457,8 @@ h2 PETECの周りの風景
 
 On October 14, 2021, we visited Panasonic Eco Technology Center (PETEC), which is in Kato City, Hyogo Prefecture.
 <div class="image_container">
-    <Image src="./img/petec_building.jpg" alt="パナソニック外から写真"></Image>
-    <Image src="./img/petec_pc_club.jpg" alt="甲陽PC部写真"></Image>
+    <Image src="./img/petec_building.jpg"></Image>
+    <Image src="./img/petec_pc_club.jpg"></Image>
 </div>
 
 ## Role of PETEC
@@ -477,7 +477,7 @@ The area which large home appliances are collected by PETEC from extends to Kink
 They process about 900,000 units per year, and work with a target number of units to be processed, which is usually stable, but sometimes increases significantly, each operating day.
 
 <div class="image_container">
-    <Image src="./img/petec_counter.jpg" alt="処理台数のカウンタ" caption="10月14日 午後2時ごろ"></Image>
+    <Image src="./img/petec_counter.jpg" caption="10月14日 午後2時ごろ"></Image>
 </div>
 
 <AtomCharacter atom="Li">
@@ -494,20 +494,20 @@ PETEC has met the legal recycling rate for all items.
   <table>
     <tr>
       <th></th>
-      <th>テレビ</th>
+      <th>television</th>
       <th>エアコン</th>
-      <th>冷蔵庫・冷凍庫</th>
-      <th>洗濯機・衣類乾燥機</th>
+      <th>refrigerrator, freezer</th>
+      <th>washing machine, laundry drier</th>
     </tr>
     <tr>
-      <td>法定リサイクル率</td>
+      <td>the statutory recycling rate</td>
       <td>74%</td>
       <td>80%</td>
       <td>70%</td>
       <td>82%</td>
     </tr>
     <tr>
-      <td>PETECでのリサイクル率<br>(2020年度)</td>
+      <td>the recycling rate at PETEC<br>(2020年度)</td>
       <td>89%</td>
       <td>95%</td>
       <td>82%</td>
@@ -734,8 +734,8 @@ Actually, recycling fees have been decreasing year by year because of the develo
       <th>2021年(税抜)</th>
     </tr>
     <tr>
-      <td rowspan="4">テレビ</td>
-      <td rowspan="2">ブラウン管式</td>
+      <td rowspan="4">television</td>
+      <td rowspan="2">CRT</td>
       <td>16型以上</td>
       <td rowspan="2">2700円</td>
       <td>2200円</td>
@@ -745,7 +745,7 @@ Actually, recycling fees have been decreasing year by year because of the develo
       <td>1200円</td>
     </tr>
     <tr>
-      <td rowspan="2">薄型</td>
+      <td rowspan="2">flat-screen</td>
       <td>16V型以上</td>
       <td rowspan="2"><span class="weak">(2009年〜)</span></td>
       <td>2700円</td>
@@ -755,7 +755,7 @@ Actually, recycling fees have been decreasing year by year because of the develo
       <td>1700円</td>
     </tr>
     <tr>
-      <td colspan="2" rowspan="2">冷蔵庫・冷凍庫</td>
+      <td colspan="2" rowspan="2">refrigerrator, freezer</td>
       <td>171L以上</td>
       <td rowspan="2">4600円</td>
       <td>4300円</td>
@@ -765,13 +765,13 @@ Actually, recycling fees have been decreasing year by year because of the develo
       <td>3400円</td>
     </tr>
     <tr>
-      <td colspan="2">洗濯機・衣類乾燥機</td>
+      <td colspan="2">washing machine, laundry drier</td>
       <td></td>
       <td>2400円</td>
       <td>2300円</td>
     </tr>
     <tr>
-      <td colspan="2">エアコン</td>
+      <td colspan="2">air conditioner</td>
       <td></td>
       <td>3500円</td>
       <td>900円</td>

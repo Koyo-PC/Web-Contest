@@ -264,7 +264,7 @@ Minor metal includes 47 elements such as lithium and chromium.
 <div class="image_container">
 <div style="position: relative; width: 100%; height: 50vw;">
 <div style="position: absolute; left: -10vw; width: calc(100% + 20vw); height: 100%;">
-    <Image src="../img/urban-mining/periodic_table.png"></Image>
+    <Image src="../img/urban-mining/periodic_table_en.png"></Image>
 </div>
 </div>
 </div>

@@ -433,11 +433,11 @@ Therefore, recycling companies tend to be larger than those in Japan.
 
 Company | Earnings | Company | Earnings
 -- | -- | -- | --
-リバー | 249億1000万円 | umicore(ベルギー) | 32億ユーロ(4136億6000万)
-DOWA | 588億300万円 | veolia(フランス) | 260億ユーロ(3兆3612億)
-大栄 | 784億9100万円 | waste management(US) | 1521億8000万ドル(1兆6677億)
-イボキン | 201億3000万円 | Sims Metal Management(Aus) | 4908.5 million ドル(3964億)
-| | | | ※（）の単位は円
+REVER | 249億1000万円 | umicore(ベルギー) | €32億(4136億6000万)
+DOWA | 588億300万円 | veolia(フランス) | €260億(3兆3612億)
+Daiei | 784億9100万円 | waste management(US) | $1521億8000万(1兆6677億)
+IBOKIN | 201億3000万円 | Sims Metal Management(Aus) | $4908.5 million(3964億)
+| | | | ※ the unit in () is yen
 <figcaption>Sales of Companies in Japan and Overseas</figcaption>
 
 
