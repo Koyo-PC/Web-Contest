@@ -166,7 +166,7 @@ We would like everyone to know how important and useful urban mining is. Here is
 We hope that our thoughts will be understood by everyone... !
 "></PageDescriptionLink>
 <PageDescriptionLink title="Others" path="./others/" content="
-私たちの活動記録やこのサイトの参考文献を紹介しています。
+We publish our activity reports and references of this site.
 "></PageDescriptionLink>
 
 ## About Each Function

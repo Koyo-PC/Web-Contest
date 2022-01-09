@@ -1,119 +1,135 @@
 <!--suppress ALL -->
 <div class="atom_chara" style="width: 100%; margin: 50px 0;">
-    <div class="atom_chara_icon">
-        <img class="atom_chara_img" src="[[ src ]]" alt="[[ name ]]のアイコン" />
-        <div class="atom_chara_name">[[ name ]]</div>
-    </div>
-    <div class="atom_chara_content">
-        <span>{{ content }}</span>
-    </div>
+  <div class="atom_chara_icon">
+    <img class="atom_chara_img" src="[[ src ]]"/>
+    <div class="atom_chara_name"><span class="lang_jp">[[ name_jp ]]</span><span class="lang_en">[[ name_en ]]</span></div>
+  </div>
+  <div class="atom_chara_content">
+    <span>{{ content }}</span>
+  </div>
 </div>
 <style>
+  .atom_chara {
+    position: relative;
+    display: grid;
+    align-items: center;
+    gap: 40px;
+    grid-template-columns: var(--atom_chara_size) 1fr;
+  }
+
+  @media (orientation: landscape) {
     .atom_chara {
-        position: relative;
-        display: grid;
-        align-items: center;
-        gap: 40px;
-        grid-template-columns: var(--atom_chara_size) 1fr;
+      --atom_chara_size: 150px;
     }
-    @media(orientation: landscape) {
-        .atom_chara {
-            --atom_chara_size: 150px;
-        }
-    }
-    @media(orientation: portrait) {
-        .atom_chara {
-            --atom_chara_size: 50px;
-        }
-    }
+  }
 
-    .atom_chara * {
-        box-sizing: border-box;
+  @media (orientation: portrait) {
+    .atom_chara {
+      --atom_chara_size: 50px;
     }
+  }
 
-    .atom_chara_icon {
-        position: relative;
-        margin: 0 20px;
-        width: var(--atom_chara_size);
-        height: calc(var(--atom_chara_size) + 50px);
-    }
+  .atom_chara * {
+    box-sizing: border-box;
+  }
 
-    .atom_chara_img {
-        width: var(--atom_chara_size);
-        height: var(--atom_chara_size);
-        border-radius: calc(var(--atom_chara_size) / 2);
-        object-fit: cover;
-    }
+  .atom_chara_icon {
+    position: relative;
+    margin: 0 20px;
+    width: var(--atom_chara_size);
+    height: calc(var(--atom_chara_size) + 50px);
+  }
 
+  .atom_chara_img {
+    width: var(--atom_chara_size);
+    height: var(--atom_chara_size);
+    border-radius: calc(var(--atom_chara_size) / 2);
+    object-fit: cover;
+  }
+
+  .atom_chara_name {
+    display: grid;
+    place-items: center;
+    height: 50px;
+    width: var(--atom_chara_size);
+    text-align: center;
+  }
+
+  @media (orientation: landscape) {
     .atom_chara_name {
-        display: grid;
-        place-items: center;
-        height: 50px;
-        width: var(--atom_chara_size);
-        text-align: center;
+      font-size: 18px;
     }
-    @media(orientation: landscape) {
-        .atom_chara_name {
-            font-size: 18px;
-        }
-    }
-    @media(orientation: portrait) {
-        .atom_chara_name {
-            font-size: 15px;
-        }
-    }
+  }
 
+  @media (orientation: portrait) {
+    .atom_chara_name {
+      font-size: 15px;
+    }
+  }
+
+  .atom_chara_content {
+    --color: #e6f0f5;
+    position: relative;
+    display: grid;
+    align-items: center;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    min-height: calc(30px + 20px * 2);
+    padding: 20px;
+    border-radius: 20px;
+    flex-grow: 1;
+    background-color: var(--color);
+  }
+
+  @media (orientation: landscape) {
     .atom_chara_content {
-        --color: #e6f0f5;
-        position: relative;
-        display: grid;
-        align-items: center;
-        margin-left: 20px;
-        margin-bottom: 50px;
-        min-height: calc(30px + 20px * 2);
-        padding: 20px;
-        border-radius: 20px;
-        flex-grow: 1;
-        background-color: var(--color);
+      font-size: 18px;
     }
-    @media(orientation: landscape) {
-        .atom_chara_content {
-            font-size: 18px;
-        }
-    }
-    @media(orientation: portrait) {
-        .atom_chara_content {
-            font-size: 15px;
-        }
-    }
+  }
 
-    .atom_chara_content:before {
-        --size: 30px;
-        content: "";
-        position: absolute;
-        top: 50%;
-        left: calc(-1 * var(--size));
-        margin-top: calc(-1 * var(--size) / 2);
-        border: calc(var(--size) / 2) solid transparent;
-        border-right: calc(var(--size) / 2) solid var(--color);
+  @media (orientation: portrait) {
+    .atom_chara_content {
+      font-size: 15px;
     }
+  }
+
+  .atom_chara_content:before {
+    --size: 30px;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: calc(-1 * var(--size));
+    margin-top: calc(-1 * var(--size) / 2);
+    border: calc(var(--size) / 2) solid transparent;
+    border-right: calc(var(--size) / 2) solid var(--color);
+  }
 </style>
 <!--suppress HtmlUnknownAttribute -->
 <script scml>
     // noinspection BadExpressionStatementJS
     (buildInfo, options) => {
         let imagePath = "../img/atom_chara/" + options["atom"] + ".png";
-        if(options["imagePath"] !== undefined) imagePath = options["imagePath"];
+        if (options["imagePath"] !== undefined) imagePath = options["imagePath"];
         const nameDictionary = {
-            "Li": "リチウムくん",
-            "Sc": "スカンジウムおじさん",
-            "Y": "イットリウム博士",
-            "Pt": "プラチナルシスト",
-            "Au": "マリー・ゴールド",
+            "jp": {
+                "Li": "リチウムくん",
+                "Sc": "スカンジウムおじさん",
+                "Y": "イットリウム博士",
+                "Pt": "プラチナルシスト",
+                "Au": "マリー・ゴールド",
+            },
+            "en": {
+                "Li": "Little Lithium",
+                "Sc": "Mr.Scandium",
+                "Y": "Dr.Y",
+                "Pt": "Platinarcissist",
+                "Au": "Mary Gold",
+            },
         }
         return {
-            "src" : imagePath,
-            "name" : nameDictionary[options["atom"]],
+            "src": imagePath,
+            "name_jp": nameDictionary["jp"][options["atom"]],
+            "name_en": nameDictionary["en"][options["atom"]],
         };
     }
 </script>
