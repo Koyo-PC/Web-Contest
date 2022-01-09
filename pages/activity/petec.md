@@ -19,7 +19,7 @@
 PETECは、「トレジャーハンティング（宝探し）」を合言葉にリサイクルを行い、周囲の環境にも配慮して循環型社会の実現を目指しています。
 
 <div class="image_container">
-    <Image src="../svg/petec/top.svg" scale="150%"></Image>
+    <CaptionImage src="../svg/petec/top.svg" scale="150%"></CaptionImage>
 </div>
 
 PETECは、<Word>家電リサイクル法</Word>で指定されている4品目（テレビ、エアコン、冷蔵庫・冷凍庫、洗濯機・衣類乾燥機）を扱っています。
@@ -468,7 +468,7 @@ Actually,recycling large appliances such as televisions and refrigerators is als
 PETEC is one of the companies responsible for it and aims to achieve a sound recycling-oriented society by recycling under the slogan of "treasure hunting," considering the surrounding environment.
 
 <div class="image_container">
-    <Image src="../svg/petec/top_en.svg" scale="150%"></Image>
+    <CaptionImage src="../svg/petec/top_en.svg" scale="150%"></CaptionImage>
 </div>
 
 They recycle four items (televisions, air conditioners, refrigerators / freezers, washing machines / clothes dryers), which are specified by the Home Appliance Recycling Law.
