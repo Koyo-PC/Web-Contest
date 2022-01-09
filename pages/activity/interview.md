@@ -180,14 +180,14 @@ His research focuses on the material flow and stock, and he is a leading expert 
 
 <dl class="Q_A">
 <dt id="q1">
-It is said that even though cell phones contain precious metals and minor metals, the total weight of the phone, including copper, is only about 10% of the total weight, and most of the rest is waste such as plastic.
+It is said that even though cell phones contain <Word>precious metals</Word> and <Word>minor metals</Word>, the total weight of the phone, including copper, is only about 10% of the total weight, and most of the rest is waste such as plastic.
 Is it possible to recycle such plastic as resources in the recycling of small home appliances?
 </dt>
 
 <dd>
 I think it is difficult.
 One of the major reasons for this is that the cost of plastic alone is not worth the cost of recycling plastic.
-The metals contained in cell phones can be recovered by putting them in a copper refining process, while the plastics require human labor to separate them.
+The metals contained in cell phones can be recovered by <Word>refining</Word> copper in them, while the plastics require human labor to separate them.
 However, the value of the plastic extracted in this way is not high.
 Therefore, in copper refining, plastics are steamed and carbonized.
 From the above, it is not that plastics cannot be recycled, but they are not being recycled for economic reasons.
@@ -207,18 +207,18 @@ I do not know if this simple calculation gives the right value, but we think we 
 
 <dt id="q2">
 Why is the recycling rate of large products (cars, refrigerators, televisions, etc.) so high in Japan, while that of small products (cell phones, etc.) is so low?
-We suspect that the difference in the number of years the “Act on Recycling of Specified Kinds of Home Appliances" and "Act on Promotion of Recycling of Small Waste Electrical and Electronic Equipment" have been in effect and the strength of their enforcement is related.
+We suspect that the difference in the number of years &#147;<Word>the Act on Recycling of Specified Kinds of Home Appliances</Word>&#148; and &#147;<Word>the Act on Promotion of Recycling of Small Waste Electrical and Electronic Equipment</Word>&#148; have been in effect and the strength of their enforcement is related.
 </dt>
 <dd>
 I think that is one of the reasons.
-For large home appliances and automobiles, there is the "Act on Recycling of Specified Kinds of Home Appliances" and the "Act on Recycling, etc, of End-of-Life Vehicles", and they must be disposed of in compliance with these laws.
+For large home appliances and automobiles, there is &#147;<Word>the Act on Recycling of Specified Kinds of Home Appliances</Word>&#148; and the "Act on Recycling, etc, of End-of-Life Vehicles", and they must be disposed of in compliance with these laws.
 In particular, "Act on Recycling of Specified Kinds of Home Appliances" has a longer history than "Act on Promotion of Recycling of Small Waste Electrical and Electronic Equipment," and it forces us to recycle.
 On the other hand, recycling is not compulsory under the "Act on Promotion of Recycling of Small Waste Electrical and Electronic Equipment."
 This difference results from the difference between the two streams in promoting metal recycling.
 One is to enforce recycling and promote intensive collection through a single route, and the other is to increase the flexibility of recycling and make it efficient.
 One of the reasons why Act on Recycling of Specified Kinds of Home Appliances came into effect was that illegal disposal had been prominent in the past.
 In order to curb such illegal dumping and processing and to promote proper processing, compulsory measures have been applied to large products.
-On the contrary, for small products such as cell phones, the flexibility of recycling is prioritized and a wide range of recycling is being carried out, including the "Everyone's Medal Project".
+On the contrary, for small products such as cell phones, the flexibility of recycling is prioritized and a wide range of recycling is being carried out, including the &#147;<Word>Tokyo 2020 Medals Project</Word>&#148;.
 Therefore, it can be said that the difference between the number of years the recycling law has been in effect and its enforcement is related to the recycling rate.
 There are still other reasons for cell phones.
 One of them is that many people keep their cell phones to use as alarm clocks or storage equipment.
@@ -270,14 +270,14 @@ The word "urban mines" was first used in the 1980s, but it only started to be ac
 Also, when you hear the words "urban mines" and "recycling," you may think that you are doing something beautiful and good, but in fact, it is only a part of waste disposal.
 It is different now, but in the past, waste management was done by lower class people.
 In this point of view, it can be said that waste management was an activity in a hidden part of society.
-Today, with the evolution of recycling, waste processing and recycling are becoming more and more connected, but I feel there is still a lot of work to be done in the process of returning metals from products to primary resources and secondary resources.
+Today, with the evolution of recycling, waste processing and recycling are becoming more and more connected, but I feel there is still a lot of work to be done in the process of returning metals from products to <Word>primary resources</Word> and <Word>secondary resources</Word>.
 In addition, since global warming is caused by the generation of CO2 by energy consumption, it can be stopped by consciously switching to energy conservation, but in the case of resource starvation, it cannot be consciously prevented.
 For example, when you buy a computer, if you want a computer that uses less gold or silver to save resources, you cannot choose such one.
 For this reason, I think that resource depletion and urban mines are less familiar to us than global warming.
 </dd>
 
 <dt id="q7">
-Some people think that resources will not run out in the end because the resource life will continue to increase forever.
+Some people think that resources will not run out in the end because the <Word>service life</Word> will continue to increase forever.
 What do you think about this idea?
 </dt>
 <dd>
