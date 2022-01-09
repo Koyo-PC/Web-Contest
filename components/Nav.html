@@ -19,7 +19,7 @@
     <a href="[[root_path]]activity/recycle-box.html"><span class="lang_jp">回収ボックス</span><span class="lang_en">Recovery Box</span></a>
     <a href="[[root_path]]activity/interview.html"><span class="lang_jp">インタビュー</span><span class="lang_en">Interview</span></a>
     <a href="[[root_path]]activity/petec.html"><span class="lang_jp">工場見学</span><span class="lang_en">Visit to Plant</span></a>
-    <a href="[[root_path]]activity/disassembly.html"><span class="lang_jp">携帯解体</span><span class="lang_en">Cell Phone Dismantling</span></a>
+    <a href="[[root_path]]activity/disassembly.html"><span class="lang_jp">携帯解体</span><span class="lang_en">Dismantling</span></a>
   </div>
 </nav>
 
@@ -79,11 +79,16 @@
   .nav_link > a {
     color: #fbf8f8;
     flex: none;
-    font-family: Lato, sans-serif;
+    font-family: Lato, 'Noto Sans JP', sans-serif;
     font-weight: 400;
     text-decoration: none;
     justify-content: center;
     box-sizing: border-box;
+  }
+  .nav_link > a > span {
+    color: #fbf8f8;
+    font-family: Lato, 'Noto Sans JP', sans-serif;
+    font-weight: 400;
   }
 
   .nav_link > a:not(:last-child) {
@@ -133,6 +138,13 @@
     color: white;
     border-top: 1px solid white;
   }
+
+  #nav_activity_content a > span {
+    font-family: Lato, 'Noto Sans JP', sans-serif;
+    line-height: 40px;
+    font-size: 16px;
+    color: white;
+  }
   #nav_activity_content a:last-child {
     border-bottom: 1px solid white;
   }
@@ -149,6 +161,9 @@
       height: 100%;
       display: grid;
       align-items: center;
+      font-size: min(1.1vw, 17px);
+    }
+    .nav_link > a > span {
       font-size: min(1.1vw, 17px);
     }
 
@@ -215,6 +230,10 @@
       box-sizing: border-box;
       padding: 0 0 0 60px;
       border-top: 1px solid white;
+    }
+    .nav_link > a > span {
+      font-size: 18px;
+      line-height: 60px;
     }
   }
 </style>
