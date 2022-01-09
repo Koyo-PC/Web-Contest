@@ -40,8 +40,16 @@
         scroll-behavior: smooth;
       }
 
-      main {
-        padding: 70px 20% 100px;
+      @media (orientation: landscape) {
+        main {
+          padding: 70px 20% 100px;
+        }
+      }
+
+      @media (orientation: portrait) {
+        main {
+          padding: 70px 10% 100px;
+        }
       }
 
       h1,
@@ -790,7 +798,7 @@
         <img src="../svg/ham.svg" alt="" id="ham" />
       </div>
       <div class="nav_link" id="navLink">
-        <a href="../">Home</a>
+        <a href="../">ホーム</a>
         <a href="../present-situation/"
           ><span class="lang_jp">資源の現状</span
           ><span class="lang_en">Present Situation</span></a
