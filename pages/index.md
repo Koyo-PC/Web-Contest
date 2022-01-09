@@ -1,4 +1,4 @@
-[//SCML_TITLE]: # (Home)
+[//SCML_TITLE]: # (ホーム)
 [//SCML_ROOT_PATH]: # (./)
 
 <div id="lang_jp">
