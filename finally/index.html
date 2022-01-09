@@ -382,15 +382,18 @@
         background-color: whitesmoke;
         border: none;
         color: black;
-        padding: 15px 32px;
+        padding: 5px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 16px;
-        margin: 4px 2px;
+        margin: 0;
         cursor: pointer;
         position: relative;
         width: 100%;
+        font-size: 12px;
+      }
+      #lang_text {
+        font-size: 12px;
       }
       #toc {
         padding: 10px;
@@ -402,6 +405,8 @@
       #toc_title {
         width: 100%;
         text-align: center;
+      }
+      #toc_title span {
         font-size: 0.8rem;
       }
       [class^="toc_link_"] {
@@ -431,7 +436,7 @@
         z-index: 100;
         width: 200px;
         display: block;
-        background-color: #0004;
+        background-color: #8884;
       }
       footer {
         position: relative;
@@ -601,11 +606,16 @@
       .nav_link > a {
         color: #fbf8f8;
         flex: none;
-        font-family: Lato, sans-serif;
+        font-family: Lato, "Noto Sans JP", sans-serif;
         font-weight: 400;
         text-decoration: none;
         justify-content: center;
         box-sizing: border-box;
+      }
+      .nav_link > a > span {
+        color: #fbf8f8;
+        font-family: Lato, "Noto Sans JP", sans-serif;
+        font-weight: 400;
       }
 
       .nav_link > a:not(:last-child) {
@@ -654,6 +664,13 @@
         color: white;
         border-top: 1px solid white;
       }
+
+      #nav_activity_content a > span {
+        font-family: Lato, "Noto Sans JP", sans-serif;
+        line-height: 40px;
+        font-size: 16px;
+        color: white;
+      }
       #nav_activity_content a:last-child {
         border-bottom: 1px solid white;
       }
@@ -670,6 +687,9 @@
           height: 100%;
           display: grid;
           align-items: center;
+          font-size: min(1.1vw, 17px);
+        }
+        .nav_link > a > span {
           font-size: min(1.1vw, 17px);
         }
 
@@ -735,6 +755,10 @@
           box-sizing: border-box;
           padding: 0 0 0 60px;
           border-top: 1px solid white;
+        }
+        .nav_link > a > span {
+          font-size: 18px;
+          line-height: 60px;
         }
       }
       #scroll_top {
@@ -837,7 +861,7 @@
         >
         <a href="../activity/disassembly.html"
           ><span class="lang_jp">携帯解体</span
-          ><span class="lang_en">Cell Phone Dismantling</span></a
+          ><span class="lang_en">Dismantling</span></a
         >
       </div>
     </nav>
@@ -909,7 +933,10 @@
         <div id="floating_menu">
           <!--suppress BadExpressionStatementJS -->
           <div id="toc">
-            <div id="toc_title">目次</div>
+            <div id="toc_title">
+              <span class="lang_jp">目次</span
+              ><span class="lang_en">Contents</span>
+            </div>
 
             <a class="toc_link_h1" href="#最後に"> 最後に </a>
           </div>
@@ -972,12 +999,12 @@
                   case "ja":
                     document
                       .querySelectorAll("#lang_text")
-                      .forEach((el) => (el.innerHTML = "English"))
+                      .forEach((el) => (el.innerHTML = "English Page"))
                     break
                   case "en":
                     document
                       .querySelectorAll("#lang_text")
-                      .forEach((el) => (el.innerHTML = "日本語"))
+                      .forEach((el) => (el.innerHTML = "日本語ページへ"))
                     break
                 }
               }
@@ -1032,7 +1059,10 @@
         <div id="floating_menu">
           <!--suppress BadExpressionStatementJS -->
           <div id="toc">
-            <div id="toc_title">目次</div>
+            <div id="toc_title">
+              <span class="lang_jp">目次</span
+              ><span class="lang_en">Contents</span>
+            </div>
 
             <a class="toc_link_h1" href="#finally"> Finally </a>
           </div>
@@ -1095,12 +1125,12 @@
                   case "ja":
                     document
                       .querySelectorAll("#lang_text")
-                      .forEach((el) => (el.innerHTML = "English"))
+                      .forEach((el) => (el.innerHTML = "English Page"))
                     break
                   case "en":
                     document
                       .querySelectorAll("#lang_text")
-                      .forEach((el) => (el.innerHTML = "日本語"))
+                      .forEach((el) => (el.innerHTML = "日本語ページへ"))
                     break
                 }
               }
