@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="../img/favicon.png" type="image/svg+xml" />
-    <title>現在の取り組み | 右ポケットの中の資源を求めて</title>
+    <title>Measure | 右ポケットの中の資源を求めて</title>
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;700&dispaly=swap");
       @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&dispaly=swap");
@@ -966,7 +966,7 @@
         border-right: 1px solid #001b26;
       }
 
-      .nav_link > :nth-child(5) {
+      .nav_link > :nth-child(0) {
         border-bottom: 5px solid white;
       }
 
@@ -1143,7 +1143,10 @@
         <img src="../svg/ham.svg" alt="" id="ham" />
       </div>
       <div class="nav_link" id="navLink">
-        <a href="../">ホーム</a>
+        <a href="../"
+          ><span class="lang_jp">ホーム</span
+          ><span class="lang_en">Home</span></a
+        >
         <a href="../present-situation/"
           ><span class="lang_jp">資源の現状</span
           ><span class="lang_en">Present Situation</span></a
@@ -2265,7 +2268,7 @@
                       .querySelectorAll(".lang_jp")
                       .forEach((el) => (el.style.display = "none"))
                     document.title =
-                      "現在の取り組み | In Search of Resources in Your Right Pocket"
+                      "Measure | In Search of Resources in Your Right Pocket"
                     document.documentElement.lang = "en"
                     sessionStorage.setItem("lang", "en")
                     break
@@ -2279,8 +2282,7 @@
                     document
                       .querySelectorAll(".lang_jp")
                       .forEach((el) => (el.style.display = "initial"))
-                    document.title =
-                      "現在の取り組み | 右ポケットの中の資源を求めて"
+                    document.title = "Measure | 右ポケットの中の資源を求めて"
                     document.documentElement.lang = "ja"
                     sessionStorage.setItem("lang", "ja")
                     break
@@ -3387,7 +3389,7 @@
                       .querySelectorAll(".lang_jp")
                       .forEach((el) => (el.style.display = "none"))
                     document.title =
-                      "現在の取り組み | In Search of Resources in Your Right Pocket"
+                      "Measure | In Search of Resources in Your Right Pocket"
                     document.documentElement.lang = "en"
                     sessionStorage.setItem("lang", "en")
                     break
@@ -3401,8 +3403,7 @@
                     document
                       .querySelectorAll(".lang_jp")
                       .forEach((el) => (el.style.display = "initial"))
-                    document.title =
-                      "現在の取り組み | 右ポケットの中の資源を求めて"
+                    document.title = "Measure | 右ポケットの中の資源を求めて"
                     document.documentElement.lang = "ja"
                     sessionStorage.setItem("lang", "ja")
                     break

@@ -798,7 +798,10 @@
         <img src="../svg/ham.svg" alt="" id="ham" />
       </div>
       <div class="nav_link" id="navLink">
-        <a href="../">ホーム</a>
+        <a href="../"
+          ><span class="lang_jp">ホーム</span
+          ><span class="lang_en">Home</span></a
+        >
         <a href="../present-situation/"
           ><span class="lang_jp">資源の現状</span
           ><span class="lang_en">Present Situation</span></a
@@ -1090,7 +1093,7 @@
                       .querySelectorAll(".lang_jp")
                       .forEach((el) => (el.style.display = "none"))
                     document.title =
-                      "アンケート | In Search of Resources in Your Right Pocket"
+                      "Questionnaire | In Search of Resources in Your Right Pocket"
                     document.documentElement.lang = "en"
                     sessionStorage.setItem("lang", "en")
                     break
@@ -1379,7 +1382,7 @@
                       .querySelectorAll(".lang_jp")
                       .forEach((el) => (el.style.display = "none"))
                     document.title =
-                      "アンケート | In Search of Resources in Your Right Pocket"
+                      "Questionnaire | In Search of Resources in Your Right Pocket"
                     document.documentElement.lang = "en"
                     sessionStorage.setItem("lang", "en")
                     break
