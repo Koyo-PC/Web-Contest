@@ -2,168 +2,233 @@
   <span class="word_description_container">
     <span class="word_description">
       <span class="word_description_title">{{ content }}</span>
-      <span class="word_description_text" style="line-height: 1.5rem;">[[ description ]]</span>
+      <span class="word_description_text" style="line-height: 1.5rem;"><span class="lang_jp">[[ description_jp ]]</span><span class="lang_en">[[ description_en ]]</span></span>
     </span>
   </span>
 </span>
 <style>
-    .word_text {
-        position: relative;
-        color: #000;
-        font-weight: bold;
-        white-space: nowrap;
-        z-index: 1;
-        font-family: 'Lato', 'Noto Sans JP', sans-serif;
+  .word_text {
+    position: relative;
+    color: #000;
+    font-weight: bold;
+    white-space: nowrap;
+    z-index: 1;
+    font-family: 'Lato', 'Noto Sans JP', sans-serif;
+  }
+
+  .word_description_container {
+    position: absolute;
+    display: block;
+    height: 0;
+    opacity: 0;
+    filter: drop-shadow(8px 8px 20px #999);
+
+    transition-duration: .25s;
+    transition-property: height, opacity;
+
+    overflow: hidden;
+    z-index: 50;
+  }
+
+  .word:hover .word_description_container, .word_description_container:hover {
+    opacity: 100%;
+
+    height: auto;
+    overflow: hidden;
+
+  }
+
+  .word_description {
+    box-sizing: border-box;
+    display: block;
+    margin-top: 10px;
+    /*background-color: #eee;*/
+    background-color: ghostwhite;
+    height: calc(100% - 10px);
+    width: 100%;
+    text-align: left;
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+  .word_description_title {
+    display: block;
+    font-weight: 700;
+    text-indent: 0;
+  }
+
+  .word_description_text {
+    display: block;
+    text-indent: 0;
+  }
+
+  @media (orientation: landscape) {
+    .word {
+      position: relative;
     }
 
     .word_description_container {
-        position: absolute;
-        display: block;
-        height: 0;
-        opacity: 0;
-        filter: drop-shadow(8px 8px 20px #999);
-
-        transition-duration: .25s;
-        transition-property: height, opacity;
-
-        overflow: hidden;
-        z-index: 50;
+      left: 0;
+      width: 300px;
+      top: calc(100%);
     }
-    .word:hover .word_description_container, .word_description_container:hover {
-        opacity: 100%;
 
-        height: auto;
-        overflow: hidden;
-
+    .word_description_container:before {
+      box-sizing: border-box;
+      content: "";
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      top: -10px;
+      left: 10px;
+      border: solid 10px transparent;
+      border-bottom: solid 10px ghostwhite;
     }
 
     .word_description {
-        box-sizing: border-box;
-        display: block;
-        margin-top: 10px;
-        /*background-color: #eee;*/
-        background-color: ghostwhite;
-        height: calc(100% - 10px);
-        width: 100%;
-        text-align: left;
-        padding: 20px;
-        border-radius: 5px;
-    }
-    .word_description_title {
-        display: block;
-        font-weight: 700;
-        text-indent: 0;
-    }
-    .word_description_text {
-      display: block;
-      text-indent: 0;
+      margin-top: 10px;
     }
 
-    @media(orientation: landscape) {
-        .word {
-            position: relative;
-        }
-        .word_description_container {
-            left: 0;
-            width: 300px;
-            top: calc(100%);
-        }
-        .word_description_container:before {
-            box-sizing: border-box;
-            content: "";
-            position: absolute;
-            width: 20px;
-            height: 20px;
-            top: -10px;
-            left: 10px;
-            border: solid 10px transparent;
-            border-bottom: solid 10px ghostwhite;
-        }
-        .word_description {
-            margin-top: 10px;
-        }
-        .word_description_title {
-            font-size: 1.2em;
-        }
-        .word_description_text {
-            font-size: 15px;
-            line-height: 5px;
-        }
+    .word_description_title {
+      font-size: 1.2em;
     }
-    @media(orientation: portrait) {
-        .word {
-            position: relative;
-        }
-        .word_description_container {
-            width: 70vw;
-        }
-        .word_description {
-            margin-top: 0;
-        }
-        .word_description_title {
-            font-size: 1.2em;
-        }
+
+    .word_description_text {
+      font-size: 15px;
+      line-height: 5px;
     }
+  }
+
+  @media (orientation: portrait) {
+    .word {
+      position: relative;
+    }
+
+    .word_description_container {
+      width: 70vw;
+    }
+
+    .word_description {
+      margin-top: 0;
+    }
+
+    .word_description_title {
+      font-size: 1.2em;
+    }
+  }
 </style>
 <!--suppress HtmlUnknownAttribute -->
 <script scml>
     // noinspection BadExpressionStatementJS
     (buildInfo, options) => {
         const wordDictionary = {
-            "レアメタル": "1.地殻中の存在量が比較的少ない元素　<br> 2.単体として取り出すことが技術的に困難な元素<br>3.資源の産出国が偏在している<br>を満たす元素のことを言い、現代の産業に欠かせない”産業のビタミン”と呼ばれる。別名マイナーメタル。",
-            "金属資源": "鉱物資源の一種。さらにレアメタル、メジャーメタルに分けられる。",
-            "ナノ磁石": "非常に小さな磁石。S極・N極を持たず、磁力線が外に出ないという特徴がある。",
-            "レアアース": "レアメタルの一種。最新技術に欠かせない元素であり、全部で17種類存在する。",
-            "超伝導転移温度": "物質の電気抵抗がゼロになるという現象が現れるときの温度。",
-            "超伝導磁石": "超伝導状態の磁石。電気抵抗がないため、大電流を流してもエネルギーロスがなく、とてつもなく強力である。",
-            "オイルショック": "1970年代に2度発生した、原油の供給逼迫および原油価格の高騰に伴い、世界経済全体がきたした大きな混乱の総称である。 石油危機または石油ショックとも称される。",
-            "埋蔵量": "採掘して経済的に成立する量。",
-            "マイナーメタル": "1.地殻中の存在量が比較的少ない元素<br>2.単体として取り出すことが技術的に困難な元素<br>3.資源の産出国が偏在している<br>を満たす元素のことを言い、現代の産業に欠かせない”産業のビタミン”と呼ばれる。別名レアメタル。",
-            "メジャーメタル": "鉄、銅、亜鉛、アルミニウムなどの精錬が容易で大量に存在する金属のこと。別名ベースメタル。",
-            "貴金属": "金 (Au)、銀 (Ag)、白金 (Pt)、パラジウム (Pd)、ロジウム (Rh)、イリジウム (Ir)、ルテニウム (Ru)、オスミウム (Os) 、レニウム(Re)を総称して言う。",
-            "一次資源": "まだ地中から掘り出されていない地下資源。",
-            "二次資源": "地中から既に掘り出された地上資源。",
-            "自給率": "国や地域など一定の範囲内で消費される材料などの物品や、製品の材料や素材となる物品をその範囲内で自ら生産や産出し供給して、それらの全需要量を満たしているかを示す割合。",
-            "SDGs": "持続可能な開発目標(Sustainable Development Goals)の略。2030年までに持続可能な社会を目指す17のゴールと169のターゲットが定められた国際目標。",
-            "バーゼル条約": "正式名称は、「有害廃棄物の国境を越える移動及びその処分の規制に関するバーゼル条約」。その名の通り国境を越える有害廃棄物の移動を規制する条約。セベソ事件やココ事件などの事件を受けて締結された。",
-            "サーマルリサイクル": "廃プラスチックを燃焼させることで発生した燃料をエネルギーとして回収する方法。ただしマテリアルリサイクルには含まれない。",
-            "セベソ事件": "イタリア・セベソで起こったで起こった農薬工場の爆発事故。これにより多くの有害物質が放出されその後その一部が北フランスに運ばれていたことが問題になった。",
-            "ココ事件": "イタリアの有害物質がナイジェリアのココ港に不法投棄されていた事件。イタリアは自主回収したがその船を受け入れてくれる港が見つからず、1ヶ月以上の間海を彷徨い続けた。別名カリンB号事件。",
-            "豊島事件": "香川県の豊島で起きた産業廃棄物不法投棄事件。1978年から事件は始まり、完全に撤去が完了したのは2019年。",
-            "自動車リサイクル法": "車を対象とした法律。購入時にリサイクル代金を支払いリサイクル券を発行する前払い制度が取られている。2002年7月12日に公布され、2005年1月1日から施行されている。",
-            "不法投棄": "家電などを適正に処置をせずに山の中に捨てること。ゴミの中に含まれる有害物質はしばしば環境に大きな害を与える。",
-            "シュレッダーダスト": "工業用シュレッダーで廃家電や廃自動車を破砕し、金属などを回収した後に、産廃として捨てられるプラスチック・ガラス・ゴムなど破片の混合物。",
-            "廃棄物処理法": "正式名称は「廃棄物の処理及び清掃に関する法律」。廃棄物の排出の抑制、廃棄物の適正処理により生活環境の保全・公衆衛生の向上を目的としている。1970年12月25日に公布され、1971年9月24日に施行された。",
-            "品位": "鉱石中に含まれる鉱物・金属の含有率を示す値。",
-            "小型家電リサイクル法": "日本で小型家電を対象として施工されているリサイクルに関する法律。家電リサイクル法などとは違い、法律に強制力はない。2021年8月10日に公布され、2013年4月1日から施工されている。",
-            "回収ボックス": "使用済み小型家電を集めるため、スーパーや学校などに設置されているボックス。誰でも無料で利用することができる。",
-            "認定事業者": "国が認定した、確実なリサイクルを行う業者。",
-            "ベースメタル": "鉄、銅、亜鉛、アルミニウムなどの精錬が容易で大量に存在する金属のこと。別名メジャーメタル",
-            "電気・電子機器の返却・引き取り・処分に関する政令": "スイスにおいて実施されているリサイクルに関する法律。家庭や職場での家電製品等の返却義務や製造業者の受け入れ義務などが定められている。",
-            "ヤード": "中国においてリサイクルするものがまず運ばれてくる場所のこと。このうちの多くが再利用（リユース）のために持ち出され、実際にリサイクルされる量はもとより減る。",
-            "リユース": "元ある部品などを再利用すること。リサイクルと違って出てきた廃棄物をできるだけそのまま利用する。",
-            "修理のしやすさ指数": "その製品がどれほど修理がしやすいかを10段階で表す指標。フランスでは表示が義務付けられている。",
-            "シングルストリーム": "資源ごみを回収してから選別作業を行うリサイクル方式。消費者はゴミを分別して出す必要はなく、コストも低いというメリットがある。アメリカ合衆国などで広く浸透している。",
-            "Fairphone": "オランダの企業及びその企業が販売するスマートフォンの名前である。消費者が簡単に自分で修理できるような構造になっており、また、児童労働などを介さないクリーンなルートで原材料の調達は行われている。",
-            "みんなのメダルプロジェクト": "東京2020オリンピック・パラリンピックにおける金・銀・銅メダルを都市鉱山から作るというプロジェクト。このプロジェクトによって約5000個のメダルが都市鉱山から作られた。",
-            "アフターメダルプロジェクト": "みんなのメダルプロジェクトが平成31年3月31日に終了した後に引き継がれたプロジェクト。都市鉱山の利用を広く呼びかけ、回収の促進をしている。",
-            "家電リサイクル法": "エアコン、テレビ(ブラウン管、液晶・プラズマ)、冷蔵庫・冷凍庫、洗濯機・衣類乾燥機の家電4品目を対象とした法律。後払い制度がとられている。これらの家電の回収により、リサイクルの促進だけでなく、廃棄物の減量も目指している。",
-            "精錬": "粗金属から不純物を取り除いて純度を上げること。",
-            "耐用年数": "資源が枯渇するまでの年数。埋蔵量を生産量で割った値。",
-            "法定リサイクル率": "国によって定められているリサイクル率。工場でのリサイクル率がこれを下回ってしまうと稼働できなくなってしまう。エアコンでは80%、テレビでは55%というように品目ごとに決まっている。",
-            "バックライト": "背面から液晶を照明するもの。",
-            "筐体": "何らかの機能を有する機械や電気機器などを中に収めた箱のこと。",
-            "ハーネス": "洗濯機、冷蔵庫等の家電や自動車等の内部配線に使用されるもので、電源供給や信号通信を目的に複数の電線を束状にし配線し易い長さ形状にしたもの。",
-            "フレキシブルケーブル": "柔軟性があり大きく変形させることが可能な配線。「フレキ」と略されることが多いがこれは住友電気工業の商標登録である。",
-            "ヒンジ": "蝶番のこと。メンバーの語彙力ではこれ以上説明できない。",
-            "資源有効利用促進法": "車やパソコンを対象としたリサイクルの法律。前払い制度を採用している。",
-            "循環型経済": "リサイクルの目的を、環境に負担を与えないことだけでなく、経済の発展の起爆剤にすることにもするという考え方で表した社会のこと。",
-            "循環型社会": "廃棄物を出さないように循環させ、環境への負担を最低限にする考え方に基づいた社会。"
-
+            "jp": {
+                "レアメタル": "1.地殻中の存在量が比較的少ない元素　<br> 2.単体として取り出すことが技術的に困難な元素<br>3.資源の産出国が偏在している<br>を満たす元素のことを言い、現代の産業に欠かせない”産業のビタミン”と呼ばれる。別名マイナーメタル。",
+                "金属資源": "鉱物資源の一種。さらにレアメタル、メジャーメタルに分けられる。",
+                "ナノ磁石": "非常に小さな磁石。S極・N極を持たず、磁力線が外に出ないという特徴がある。",
+                "レアアース": "レアメタルの一種。最新技術に欠かせない元素であり、全部で17種類存在する。",
+                "超伝導転移温度": "物質の電気抵抗がゼロになるという現象が現れるときの温度。",
+                "超伝導磁石": "超伝導状態の磁石。電気抵抗がないため、大電流を流してもエネルギーロスがなく、とてつもなく強力である。",
+                "オイルショック": "1970年代に2度発生した、原油の供給逼迫および原油価格の高騰に伴い、世界経済全体がきたした大きな混乱の総称である。 石油危機または石油ショックとも称される。",
+                "埋蔵量": "採掘して経済的に成立する量。",
+                "マイナーメタル": "1.地殻中の存在量が比較的少ない元素<br>2.単体として取り出すことが技術的に困難な元素<br>3.資源の産出国が偏在している<br>を満たす元素のことを言い、現代の産業に欠かせない”産業のビタミン”と呼ばれる。別名レアメタル。",
+                "メジャーメタル": "鉄、銅、亜鉛、アルミニウムなどの精錬が容易で大量に存在する金属のこと。別名ベースメタル。",
+                "貴金属": "金 (Au)、銀 (Ag)、白金 (Pt)、パラジウム (Pd)、ロジウム (Rh)、イリジウム (Ir)、ルテニウム (Ru)、オスミウム (Os) 、レニウム(Re)を総称して言う。",
+                "一次資源": "まだ地中から掘り出されていない地下資源。",
+                "二次資源": "地中から既に掘り出された地上資源。",
+                "自給率": "国や地域など一定の範囲内で消費される材料などの物品や、製品の材料や素材となる物品をその範囲内で自ら生産や産出し供給して、それらの全需要量を満たしているかを示す割合。",
+                "SDGs": "持続可能な開発目標(Sustainable Development Goals)の略。2030年までに持続可能な社会を目指す17のゴールと169のターゲットが定められた国際目標。",
+                "バーゼル条約": "正式名称は、「有害廃棄物の国境を越える移動及びその処分の規制に関するバーゼル条約」。その名の通り国境を越える有害廃棄物の移動を規制する条約。セベソ事件やココ事件などの事件を受けて締結された。",
+                "サーマルリサイクル": "廃プラスチックを燃焼させることで発生した燃料をエネルギーとして回収する方法。ただしマテリアルリサイクルには含まれない。",
+                "セベソ事件": "イタリア・セベソで起こったで起こった農薬工場の爆発事故。これにより多くの有害物質が放出されその後その一部が北フランスに運ばれていたことが問題になった。",
+                "ココ事件": "イタリアの有害物質がナイジェリアのココ港に不法投棄されていた事件。イタリアは自主回収したがその船を受け入れてくれる港が見つからず、1ヶ月以上の間海を彷徨い続けた。別名カリンB号事件。",
+                "豊島事件": "香川県の豊島で起きた産業廃棄物不法投棄事件。1978年から事件は始まり、完全に撤去が完了したのは2019年。",
+                "自動車リサイクル法": "車を対象とした法律。購入時にリサイクル代金を支払いリサイクル券を発行する前払い制度が取られている。2002年7月12日に公布され、2005年1月1日から施行されている。",
+                "不法投棄": "家電などを適正に処置をせずに山の中に捨てること。ゴミの中に含まれる有害物質はしばしば環境に大きな害を与える。",
+                "シュレッダーダスト": "工業用シュレッダーで廃家電や廃自動車を破砕し、金属などを回収した後に、産廃として捨てられるプラスチック・ガラス・ゴムなど破片の混合物。",
+                "廃棄物処理法": "正式名称は「廃棄物の処理及び清掃に関する法律」。廃棄物の排出の抑制、廃棄物の適正処理により生活環境の保全・公衆衛生の向上を目的としている。1970年12月25日に公布され、1971年9月24日に施行された。",
+                "品位": "鉱石中に含まれる鉱物・金属の含有率を示す値。",
+                "小型家電リサイクル法": "日本で小型家電を対象として施工されているリサイクルに関する法律。家電リサイクル法などとは違い、法律に強制力はない。2021年8月10日に公布され、2013年4月1日から施工されている。",
+                "回収ボックス": "使用済み小型家電を集めるため、スーパーや学校などに設置されているボックス。誰でも無料で利用することができる。",
+                "認定事業者": "国が認定した、確実なリサイクルを行う業者。",
+                "ベースメタル": "鉄、銅、亜鉛、アルミニウムなどの精錬が容易で大量に存在する金属のこと。別名メジャーメタル",
+                "電気・電子機器の返却・引き取り・処分に関する政令": "スイスにおいて実施されているリサイクルに関する法律。家庭や職場での家電製品等の返却義務や製造業者の受け入れ義務などが定められている。",
+                "ヤード": "中国においてリサイクルするものがまず運ばれてくる場所のこと。このうちの多くが再利用（リユース）のために持ち出され、実際にリサイクルされる量はもとより減る。",
+                "リユース": "元ある部品などを再利用すること。リサイクルと違って出てきた廃棄物をできるだけそのまま利用する。",
+                "修理のしやすさ指数": "その製品がどれほど修理がしやすいかを10段階で表す指標。フランスでは表示が義務付けられている。",
+                "シングルストリーム": "資源ごみを回収してから選別作業を行うリサイクル方式。消費者はゴミを分別して出す必要はなく、コストも低いというメリットがある。アメリカ合衆国などで広く浸透している。",
+                "Fairphone": "オランダの企業及びその企業が販売するスマートフォンの名前である。消費者が簡単に自分で修理できるような構造になっており、また、児童労働などを介さないクリーンなルートで原材料の調達は行われている。",
+                "みんなのメダルプロジェクト": "東京2020オリンピック・パラリンピックにおける金・銀・銅メダルを都市鉱山から作るというプロジェクト。このプロジェクトによって約5000個のメダルが都市鉱山から作られた。",
+                "アフターメダルプロジェクト": "みんなのメダルプロジェクトが平成31年3月31日に終了した後に引き継がれたプロジェクト。都市鉱山の利用を広く呼びかけ、回収の促進をしている。",
+                "家電リサイクル法": "エアコン、テレビ(ブラウン管、液晶・プラズマ)、冷蔵庫・冷凍庫、洗濯機・衣類乾燥機の家電4品目を対象とした法律。後払い制度がとられている。これらの家電の回収により、リサイクルの促進だけでなく、廃棄物の減量も目指している。",
+                "精錬": "粗金属から不純物を取り除いて純度を上げること。",
+                "耐用年数": "資源が枯渇するまでの年数。埋蔵量を生産量で割った値。",
+                "法定リサイクル率": "国によって定められているリサイクル率。工場でのリサイクル率がこれを下回ってしまうと稼働できなくなってしまう。エアコンでは80%、テレビでは55%というように品目ごとに決まっている。",
+                "バックライト": "背面から液晶を照明するもの。",
+                "筐体": "何らかの機能を有する機械や電気機器などを中に収めた箱のこと。",
+                "ハーネス": "洗濯機、冷蔵庫等の家電や自動車等の内部配線に使用されるもので、電源供給や信号通信を目的に複数の電線を束状にし配線し易い長さ形状にしたもの。",
+                "フレキシブルケーブル": "柔軟性があり大きく変形させることが可能な配線。「フレキ」と略されることが多いがこれは住友電気工業の商標登録である。",
+                "ヒンジ": "蝶番のこと。メンバーの語彙力ではこれ以上説明できない。",
+                "資源有効利用促進法": "車やパソコンを対象としたリサイクルの法律。前払い制度を採用している。",
+                "循環型経済": "リサイクルの目的を、環境に負担を与えないことだけでなく、経済の発展の起爆剤にすることにもするという考え方で表した社会のこと。",
+                "循環型社会": "廃棄物を出さないように循環させ、環境への負担を最低限にする考え方に基づいた社会。",
+            },
+            "en": {
+                "minor metal": "Elements that satisfy the following conditions:<br>1. relatively low abundance in the earth's crust, <br>2. technically difficult to extract as a single element, and <br>3. unevenly distributed in resource-producing countries.",
+                "metal resource": "A kind of mineral resource. It is further classified into minor metals and major metals.",
+                "nano magnet": "A very small magnet with no S or N poles and no external lines of magnetic force.\n",
+                "rare earth": "A kind of minor metal. It is an indispensable element for cutting edge technology, and there are 17 types.",
+                "superconducting transition temperature": "The temperature at which electrical resistance of substances reaches zero.",
+                "superconducting magnet": "A magnet in superconducting state. Because there is no electrical resistance, there is no energy loss even when a large current flows, and it is incredibly powerful in magnetic force.",
+                "oil shock": "A general term for the two major disruptions that occurred in the 1970s in the global economy as a result of the lack of oils and high oil prices. In other words, oil crisis or oil shock.",
+                "reserve": "The amount which can be mined in an economically feasible way.",
+                "マイナーメタル": "1.地殻中の存在量が比較的少ない元素<br>2.単体として取り出すことが技術的に困難な元素<br>3.資源の産出国が偏在している<br>を満たす元素のことを言い、現代の産業に欠かせない”産業のビタミン”と呼ばれる。別名レアメタル。",
+                "major metal": "A metal which is easily refined and exists a lot, such as iron, copper, zinc, and aluminum. Also known as base metal.",
+                "precious metal": "Gold (Au), silver (Ag), platinum (Pt), palladium (Pd), rhodium (Rh), iridium (Ir), ruthenium (Ru), osmium (Os), and rhenium (Re).",
+                "primary resource": "Resources that have not yet been dug out of the ground.",
+                "secondary resource": "Resources that have already been dug out of the ground.",
+                "self-sufficiency rate": "The percentage of goods, such as materials, consumed in a certain area, or goods used as materials for products that are produced or supplied in that area, indicating how much of the total demand for those goods is met.",
+                "SDGs": "Sustainable Development Goals, an international goal with 17 goals and 169 targets aiming to achieve a sustainable society by 2030.",
+                "Basel Convention": "Basel Convention on the Control of Transboundary Movements of Hazardous Wastes and their Disposal. As the name suggests, the convention regulates the movement of hazardous wastes across national borders. It was concluded in response to incidents such as the Seveso and Coco incidents.",
+                "thermal recycling": "A method of recovering the fuel generated by burning waste plastic as energy. However, it is not included in material recycling.",
+                "Seveso disaster": "An explosion at a pesticide factory in Seveso, Italy. A large number of toxic substances were released, some of which were later transported to Northern France.",
+                "Coco Incident": "An incident in which toxic substances generated in Italy were illegally disposed of in the port of Koko, Nigeria. Italy recovered the material, but could not find a port that would accept to put the ship, so it wandered the sea for over a month. Also known as the Karin B incident.",
+                "Teshima Incident": "The illegal dumping of industrial waste in Teshima, Kagawa Prefecture, which began in 1978, and the complete removal of industrial waste was not completed until 2019.",
+                "Act on Recycling, etc. of End-of-Life Vehicles": "The law on cars and a prepayment system is adopted in which if you purchase a car, you have to pay the recycling fee and get a recycling ticket. It was promulgated on July 12, 2002, and enforced on January 1, 2005.",
+                "illegal disposal": "Throwing away home appliances and other items in the mountains instead of taking proper measures. Toxic substances in them often do great harm to the environment.",
+                "shredder dust": "A mixture of plastic, glass, rubber, and other debris that is disposed of as industrial waste after industrial shredders have crushed waste home appliances and automobiles and recovered metals and other materials.",
+                "The Waste Management and Public Cleansing Law": "Waste Management and Public Cleansing Law. It aims to conserve the living environment and improve public health by reducing waste emissions and properly disposing of waste. It was promulgated on December 25, 1970, and came into effect on September 24, 1971.",
+                "grade": "A measure of the content of a mineral or metal in ore.",
+                "the Act on Promotion of Recycling of Small Waste Electrical and Electronic Equipment": "A law on recycling of small home appliances in Japan. Unlike the Home Appliance Recycling Law and other laws, it is not that you have to follow it. It was promulgated on August 10, 2021 and became effective on April 1, 2013.",
+                "recycling box": "Boxes set up at supermarkets, schools, etc. to collect used small appliances. Anyone can use them free of charge.",
+                "certified companies": "A company which is approved by the government to recycle properly.",
+                "base metal": "A metal which is easily refined and exists a lot, such as iron, copper, zinc, and aluminum. Also known as major metal.",
+                "Return, Take-Back and Disposal of Electrical and Electronic Equipment(ORDEE)": "A recycling law, which is enforced in Switzerland and stipulates the obligation to return home appliances at home and at work, and of manufacturers to accept them.",
+                "yard": "The place where items to be recycled are first brought in in China. Many of these items are taken out for reuse, which reduces the actual amount of materials that are recycled.",
+                "reuse": "Reusing original parts and other materials. Unlike recycling, it uses as much as possible.",
+                "Indice de réparabilité": "A ten-level index which indicates how easy a product is to repair. In France, it is required to be labeled.",
+                "single stream": "A recycling method in which recyclable rubbish is recovered and then sorted. Consumers do not have to sort out their garbage, and the cost of it is low. It is widely adopted in the United States and other countries.",
+                "Fairphone": "The name of a Dutch company and the smart phones it sells. It is designed to be easily repaired by consumers themselves, and the raw materials are obtained in a proper way without child labor.",
+                "Tokyo 2020 Medals Project": "A project to make gold, silver and bronze medals for the Tokyo 2020 Olympic and Paralympic Games from urban mines. Approximately 5,000 medals have been made from urban mines through this project.",
+                "After Medals Project": "This project was taken over the Minna no Medals Project, which came to an end on March 31, 2019. The project calls for the widespread use of urban mining and promotes its recovery.",
+                "Act on Recycling of Specified Kinds of Home Appliances": "The law covering four home appliances: air conditioners, televisions (CRT, LCD, and plasma), refrigerators/freezers, and washing machines/clothes dryers. A deferred payment system has been adopted. By collecting these home appliances, it aims not only to promote recycling but also to reduce the amount of waste.",
+                "refining": "To remove impurities from crude metals in order to increase their purity.",
+                "service life": "The number of years until a resource runs out. The value calculated by dividing the amount of reserves by that of production.",
+                "statutory recycling rate": "The recycling rate set by the government. If that at a plant is lower than it, it will not be able to operate anymore. It is specified for each item, such as 80% for air conditioners and 55% for televisions.",
+                "backlight": "Lights that illuminate the LCD from the backside.",
+                "case": "A box which contains a machine or electrical equipment with some function inside.",
+                "harness": "Used in the internal wiring of home appliances such as washing machines and refrigerators, as well as of automobiles, etc. Multiple wires are bundled for power supply and signal communication, and made into a lengthy form that is easy to wire.",
+                "flexible cable": "A wire that is flexible and can be widely deformed. It is often called \" flexible\", but this is a registered trademark of Sumitomo Electric Industries.",
+                "ヒンジ": "蝶番のこと。メンバーの語彙力ではこれ以上説明できない。",
+                "the Act on the Promotion of Effective Utilization of Resources": "A recycling law on cars and computers. It uses a prepaid system.",
+                "circular economy": "A society in which the purpose of recycling is not only to avoid burdening the environment, but also to serve as a trigger for economic development.",
+                "circular society": "A society based on an idea of recycling so as not to produce waste and put a burden on the environment too much.",
+            }
         }
         return {
-            "description": wordDictionary[options.content],
-            "text_ws_style" : options["break"] === undefined ? "" : options["break"] // ???
+            "description_jp": wordDictionary["jp"][options.content],
+            "description_en": wordDictionary["en"][options.content],
+            "text_ws_style": options["break"] === undefined ? "" : options["break"] // ???
         };
     }
 </script>
