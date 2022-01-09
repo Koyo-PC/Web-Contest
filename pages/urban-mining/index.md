@@ -96,10 +96,14 @@
 
 ## 都市鉱山とは
 
-前述のような資源問題に対して南條道夫教授（当時東北大学選鉱製錬研究所教授）が1988年に提唱された考えが都市鉱山と呼ばれるものであり、このサイトのメインテーマです。<SummaryLink>0</SummaryLink>
+前述のような資源問題に対して南條道夫教授（当時東北大学選鉱製錬研究所教授）が1988年に提唱された考えが都市鉱山と呼ばれるものであり、このサイトのメインテーマです。
+<SummaryLink id="0">
 まず、この都市鉱山の定義は、 ”都市鉱山（としこうざん、英語: urban mining, e-waste）とは、都市でゴミとして大量に廃棄される家電製品などの中に存在する有用な資源（<Word>レアメタル</Word>など）を鉱山に見立てたものである。” とされています。（<a href="https://ja.wikipedia.org/wiki/%E9%83%BD%E5%B8%82%E9%89%B1%E5%B1%B1" style="text-decoration: none;">Wikipediaより</a>）
-この都市鉱山について、データを交えながら詳しく見ていきましょう。<SummaryLink>3</SummaryLink>
+この都市鉱山について、データを交えながら詳しく見ていきましょう。
+</SummaryLink>
+<SummaryLink id="3">
 下のグラフは主な金属資源の<Word>一次資源</Word>と<Word>二次資源</Word>の量を示したものです。
+</SummaryLink>
 
 <div class="image_container">
     <Image src="../assets/jim/151.jpg" height="40vw" note="日本金属学会より引用" href="https://www.jim.or.jp/journal/j/pdf3/73/03/151.pdf"></Image>
@@ -138,9 +142,14 @@ note="書籍『資源論』をスキャン" height="40vw"></Image>
 銀についても、世界の11%が日本に眠っています。
 メジャーメタルだけでなくレアメタルの国内埋蔵量も驚くべき数字です。
 クーラーや冷蔵庫の冷媒材料に使われるアンチモンでは、世界全体の埋蔵量のうちの22%は日本が占めている状況です。
-このようなデータを見ると<ForceText>日本での都市鉱山の開発が一層効果的</ForceText>であることがわかります。<SummaryLink>1</SummaryLink>
-また、都市鉱山を活用することで海外からの輸入量が減り、前述のような<ForceText>資源の偏在から生まれる立場の格差問題の解消</ForceText>にもつながります。<SummaryLink>2</SummaryLink>
-さらに日本に関しては、<ForceText>輸入に頼らなくても大丈夫だということを海外にアピールできる</ForceText>保険のような役割も担うことができます。 これらの利点を考えると、<ForceText>日本はまさに都市鉱山を最も活用すべき国の1つ</ForceText>なのです。
+このようなデータを見ると<ForceText>日本での都市鉱山の開発が一層効果的</ForceText>であることがわかります。
+<SummaryLink id="1">
+また、都市鉱山を活用することで海外からの輸入量が減り、前述のような<ForceText>資源の偏在から生まれる立場の格差問題の解消</ForceText>にもつながります。
+</SummaryLink>
+<SummaryLink id="2">
+さらに日本に関しては、<ForceText>輸入に頼らなくても大丈夫だということを海外にアピールできる</ForceText>保険のような役割も担うことができます。
+これらの利点を考えると、<ForceText>日本はまさに都市鉱山を最も活用すべき国の1つ</ForceText>なのです。
+</SummaryLink>
 
 <div class="image_container">
     <CaptionImage src="../assets/susdi/img_618f76e3bd42e.png" height="40vw" source="SusDI" link="http://susdi.org/wp/data/post-194/"></CaptionImage>
@@ -152,24 +161,33 @@ note="書籍『資源論』をスキャン" height="40vw"></Image>
 
 ## 違法な都市鉱山 
 
-<SummaryLink>5</SummaryLink>
+<SummaryLink id="5">
 都市鉱山の考えに則り、使用済みの電子機器などをリサイクルするのはかなりの費用がかかるため、先進国から出た廃電子機器が<ForceText>途上国の処分場に放置される</ForceText>ということが起こるようになりました。
 当然途上国にはそれらをリサイクルするほどの余裕がありませんから、燃やして灰にならなかったものは近くの川や海に捨てられます。 この事態は<ForceText>さまざまな問題を生み出している</ForceText>のです。
 まず、廃棄物を燃やした時に大気中に出る硫黄酸化物や炭化水素類は、呼吸器系の慢性障害を生む可能性が高いほか、ときには失明につながることがあります。
 また、残骸が川や海に捨てられたり、雨水によって鉛や水銀などが流されたりすることで土壌や水源が汚染され、その水を飲み水として利用した人に健康被害が及ぶようになりました。
 例を挙げると、処分場がある中国・汕頭市の貴嶼の子どもたちは鉛の血中濃度が高く、おそらくそのためか発育阻害になりやすく、また現地の流産率も6倍に増えています。 現地の人への影響はそれだけにとどまりません。
 廃電子機器には多くの鉄や銅、アルミニウムが含まれています。 これらの<Word>メジャーメタル</Word>は先進国では価値が高くありませんが、途上国ではそれなりの価値を持ちます。
-そのため、それらを求めて廃品をあさり、利益を得ようとする人が処分場には群がっているのです。<SummaryLink>6</SummaryLink>
+そのため、それらを求めて廃品をあさり、利益を得ようとする人が処分場には群がっているのです。
+</SummaryLink>
+<SummaryLink id="6">
 しかし<ForceText>こうした行為は決して安全なものではありません。 </ForceText>廃棄物を破壊することで有害物質が出る上、当人も有害な蒸気や物質に触れます。
-そうした過酷な環境で手に入れたメジャーメタルを売っても一日当たり数ドルというのが関の山です。<SummaryLink>7</SummaryLink>
-そしてこういった人の多くが将来を担う<ForceText>十代以下の若者</ForceText>なのです。 こうした状況下では途上国の発展は望めません。 ここで振り返ってみてください。<SummaryLink>4</SummaryLink>
+そうした過酷な環境で手に入れたメジャーメタルを売っても一日当たり数ドルというのが関の山です。
+</SummaryLink>
+<SummaryLink id="7">
+そしてこういった人の多くが将来を担う<ForceText>十代以下の若者</ForceText>なのです。 こうした状況下では途上国の発展は望めません。 ここで振り返ってみてください。
+</SummaryLink>
+<SummaryLink id="4">
 このようになったそもそもの原因は私たち日本を含め<ForceText>先進国が国内のゴミの管理をきちんとせず、途上国に任せている</ForceText>ところにあるのです！
 その背景にはコスト問題等さまざまな課題がありますが、その壁を乗り越えた上で都市鉱山がより活用されるようになると、未来はより明るくなるでしょう。
+</SummaryLink>
 
 <Column title="バーゼル条約">
 
 先ほどは廃電子機器の流出による途上国の問題について紹介しました。
-このような事態は世界中で数多く発生し、これを受けて経済協力開発機構（OECD）および国連環境計画（UNEP）が議論し、スイスのバーゼルで締結されたのがバーゼル条約です。<SummaryLink>8</SummaryLink>
+このような事態は世界中で数多く発生し、これを受けて経済協力開発機構（OECD）および国連環境計画（UNEP）が議論し、スイスのバーゼルで締結されたのがバーゼル条約です。
+
+<SummaryLink id="8">
 バーゼル条約は1989年に採択され、1992年に発効されました。<br>
 バーゼル条約の内容は以下の3つです。
 <ol>
@@ -177,9 +195,9 @@ note="書籍『資源論』をスキャン" height="40vw"></Image>
 <li>有害廃棄物の輸出が許されるケースでは、有害廃棄物の輸入国だけでなく経由国に対し、事前通告などの措置を義務付ける</li>
 <li>有害廃棄物が不法に持ち込まれた場合は、輸出側によって有害廃棄物を再輸入するなど、現状を回復する</li>
 </ol>
-
 日本も1992年に参加しており、現在189の国が参加しています。
 しかし、いまだに「先進国が発展途上国に電子廃棄物を輸出し、発展途上国がその処理が適切にできず有害物質を垂れ流している...」ということがなくならないのが現状です。
+</SummaryLink>
 
 <AtomCharacter atom="Sc">
 最近では、バーゼル条約が改正され、有害廃棄物だけでなく汚れたプラスチックごみも対象になったことで注目されていますね。
@@ -305,11 +323,14 @@ We disassembled a feature phone and a smartphone.  You can check the experiment 
 
 ## What is Urban Mining?
 
-In 1988, Professor Michio Nanjo at the Research Institute of Mineral Dressing and Metallurgy, Tohoku University, advocated the concept of urban mining in order to solve resource problems and this is the theme of this website.<SummaryLink>0_en</SummaryLink>
+In 1988, Professor Michio Nanjo at the Research Institute of Mineral Dressing and Metallurgy, Tohoku University, advocated the concept of urban mining in order to solve resource problems and this is the theme of this website.
+<SummaryLink id="0_en">
 Urban mine is defined as follows in Wikipedia: “An urban mine is the stockpile of minor metals in the discarded waste electrical and electronic equipment (WEEE) of a society. Urban mining is the process of recovering these minor metals through mechanical and chemical treatments.”
-Let’s learn about urban mining together with some data.<SummaryLink>3_en</SummaryLink>
+Let’s learn about urban mining together with some data.
+</SummaryLink>
+<SummaryLink id="3_en">
 The graph below shows the amount of <Word>primary resources</Word> and <Word>secondary resources</Word> of some metals.
-
+</SummaryLink>
 
 <div class="image_container">
     <Image src="../assets/jim/151.jpg" height="40vw" caption="The amount of Primary resource and Secondary resource" note="The Japan Institute of Metals and Materials" href="https://www.jim.or.jp/journal/j/pdf3/73/03/151.pdf"></Image>
@@ -361,8 +382,10 @@ A surprising number is reported not only about major metal but also about minor 
 Japan accounts for 22 percent of Antimony, which is used for refrigerant material in refrigerators, air conditioners and so on.  
 Japan has world-class reserves of other metals. 
 In addition, <ForceText>gaps between countries that come from resource distribution can be closed</ForceText> by using urban mines.
+<SummaryLink id="1_en">
 Moreover about Japan, it can play an important role as <ForceText>an insurance that says to the other countries Japan has enough metal resources to support themselves without import</ForceText>. 
-Considering these advantages, <ForceText>Japan must make use of urban mines</ForceText>.<SummaryLink>1_en</SummaryLink>
+Considering these advantages, <ForceText>Japan must make use of urban mines</ForceText>.
+</SummaryLink>
 
 <div class="image_container">
     <CaptionImage src="../assets/susdi/img_618f76e3bd42e.png" caption="How much metal each country has?" source="National Institute for Materials Science, NIMS" link="https://www.nims.go.jp/research/elements/rare-metal/study/index.html" height="40vw"></CaptionImage>
@@ -374,7 +397,7 @@ Urban mining also has a good effect on carbon dioxide emissions reduction and is
 
 ## Illegal Urban Mining
 
-<SummaryLink>5_en</SummaryLink>
+<SummaryLink id="5_en">
 People in developed countries <ForceText>leave e-waste in garbage disposal plants in developing countries</ForceText> because recycling  e-waste costs a lot following the idea of urban mining.
 Of course, they cannot afford to recycle them, so they throw away nearby rivers and sea garbage that do not turn into ash after burning.
 <ForceText>This causes various issues</ForceText>.
@@ -385,31 +408,38 @@ Probably because of this, the local children tend to be stunted and the pregnant
 There are more problems affecting local people. 
 E-waste includes a lot of iron, copper and aluminum.
 These <Word>major metals</Word> are not very valuable in developed countries, but they are more valuable in developing countries.  
-So, there are so many people looking for e-waste to make a profit from them in disposal sites. <SummaryLink>6_en</SummaryLink>
+So, there are so many people looking for e-waste to make a profit from them in disposal sites. 
+</SummaryLink>
+<SummaryLink id="6_en">
 However, <ForceText>this is very dangerous</ForceText>. 
 When they destroy e-waste, harmful substances are generated and they are exposed to the hazardous gas and substances.
-Major metal taken out in such a dangerous situation is paid for up to a few dollars per day.<SummaryLink>7_en</SummaryLink>
+Major metal taken out in such a dangerous situation is paid for up to a few dollars per day.
+</SummaryLink>
+<SummaryLink id="7_en">
 Moreover, such miners are composed mostly of <ForceText>people under 20</ForceText> who should have a bright future. 
 Developing countries cannot advance in this situation. 
-Now, let us look back.<SummaryLink>4_en</SummaryLink>
+Now, let us look back.
+</SummaryLink>
+<SummaryLink id="4_en">
 The fundamental cause is that <ForceText>developed countries including Japan have refused to manage their waste and forced the work on developing countries</ForceText>!
 Our future will be brighter if you make better use of urban mines although there are a lot of obstacles hard to get over.
+</SummaryLink>
 
 <Column title="Basel Convention">
-
 We mentioned the problems in developing countries caused by imperfect e-waste management.
 Situations like this happened all over the world and Organization for Economic Co-operation and Development (OECD) and United Nations Environment Program (UNEP) discussed this issue. 
-As a result, Basel Convention was concluded.<SummaryLink>8_en</SummaryLink>
+As a result, Basel Convention was concluded.
+<SummaryLink id="8_en">
 It was adopted in 1989 and came into effect in 1992. 
 Basel Convention says:
-
-1. It is banned to export or import harmful substances between contracting countries and non-contracted countries.
-2. When a country exports harmful substances, it must give advance notice not only  to an importing country but also to a transit country.
-3. When harmful substances are carried in a country, an exporter country has to recover the present situation by, for example, reimporting them.
-
-
+<ol>
+<li>It is banned to export or import harmful substances between contracting countries and non-contracted countries.</li>
+<li>When a country exports harmful substances, it must give advance notice not only  to an importing country but also to a transit country.</li>
+<li>When harmful substances are carried in a country, an exporter country has to recover the present situation by, for example, reimporting them.</li>
+</ol>
 Japan joined the convention in 1992 and now as many as 189 nations have taken part in it.
 Still, developing countries export e-waste to developed countries, they cannot process the waste properly and finally they release harmful materials in the environment.
+</SummaryLink>
 
 <AtomCharacter atom="Sc">
 Recently, Basel Convention attracted attention because it was revised and not only hazardous substances but also hazardous plastics are subject to regulation.
