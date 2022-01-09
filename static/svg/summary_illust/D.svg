@@ -61,77 +61,78 @@
             </g>
         </g>
         <a href="#s_5">
-        <rect x="383.5" y="579.5" width="464" height="138" stroke="#000000" stroke-width="1.33333" stroke-miterlimit="8"
-              fill="#FFFFFF"/>
-        <text font-family="Yu Gothic,Yu Gothic_MSFontService,sans-serif" font-weight="400" font-size="24"
-              transform="translate(518.605 656)">リサイクルの促進
-        </text>
+            <rect x="383.5" y="579.5" width="464" height="138" stroke="#000000" stroke-width="1.33333"
+                  stroke-miterlimit="8"
+                  fill="#FFFFFF"/>
+            <text font-weight="400" font-size="24"
+                  transform="translate(518.605 656)">リサイクルの促進
+            </text>
         </a>
         <a href="#s_0">
-        <path d="M67.5001 155C67.5001 121.035 120.778 93.5001 186.5 93.5001 252.222 93.5001 305.5 121.035 305.5 155 305.5 188.966 252.222 216.5 186.5 216.5 120.778 216.5 67.5001 188.966 67.5001 155Z"
-              stroke="#000000" stroke-width="1.33333" stroke-miterlimit="8" fill="#FFFFFF" fill-rule="evenodd"/>
-        <text font-family="Yu Gothic,Yu Gothic_MSFontService,sans-serif" font-weight="400" font-size="24"
-              transform="translate(114.055 148)">前払い制度の
-            <tspan font-size="24" x="48" y="29">導入</tspan>
-        </text>
+            <path d="M67.5001 155C67.5001 121.035 120.778 93.5001 186.5 93.5001 252.222 93.5001 305.5 121.035 305.5 155 305.5 188.966 252.222 216.5 186.5 216.5 120.778 216.5 67.5001 188.966 67.5001 155Z"
+                  stroke="#000000" stroke-width="1.33333" stroke-miterlimit="8" fill="#FFFFFF" fill-rule="evenodd"/>
+            <text font-weight="400" font-size="24"
+                  transform="translate(114.055 148)">前払い制度の
+                <tspan font-size="24" x="48" y="29">導入</tspan>
+            </text>
         </a>
         <a href="#s_1">
-        <path d="M263.5 241C263.5 207.035 317.002 179.5 383 179.5 448.998 179.5 502.5 207.035 502.5 241 502.5 274.966 448.998 302.5 383 302.5 317.002 302.5 263.5 274.966 263.5 241Z"
-              stroke="#000000" stroke-width="1.33333" stroke-miterlimit="8" fill="#FFFFFF" fill-rule="evenodd"/>
-        <text font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400" font-size="24"
-              transform="translate(300 248)">ORDEEの制定
-        </text>
+            <path d="M263.5 241C263.5 207.035 317.002 179.5 383 179.5 448.998 179.5 502.5 207.035 502.5 241 502.5 274.966 448.998 302.5 383 302.5 317.002 302.5 263.5 274.966 263.5 241Z"
+                  stroke="#000000" stroke-width="1.33333" stroke-miterlimit="8" fill="#FFFFFF" fill-rule="evenodd"/>
+            <text font-weight="400" font-size="24"
+                  transform="translate(300 248)">ORDEEの制定
+            </text>
         </a>
         <a href="#s_6">
-        <path d="M64.5001 329.5C64.5001 295.811 118.002 268.5 184 268.5 249.998 268.5 303.5 295.811 303.5 329.5 303.5 363.189 249.998 390.5 184 390.5 118.002 390.5 64.5001 363.189 64.5001 329.5Z"
-              stroke="#000000" stroke-width="1.33333" stroke-miterlimit="8" fill="#FFFFFF" fill-rule="evenodd"/>
-        <text font-family="Yu Gothic,Yu Gothic_MSFontService,sans-serif" font-weight="400" font-size="24"
-              transform="translate(135.486 308)">シングル
-            <tspan font-size="24" x="-12" y="29">ストリーム</tspan>
-            <tspan font-size="24" x="24" y="58">方式</tspan>
-        </text>
+            <path d="M64.5001 329.5C64.5001 295.811 118.002 268.5 184 268.5 249.998 268.5 303.5 295.811 303.5 329.5 303.5 363.189 249.998 390.5 184 390.5 118.002 390.5 64.5001 363.189 64.5001 329.5Z"
+                  stroke="#000000" stroke-width="1.33333" stroke-miterlimit="8" fill="#FFFFFF" fill-rule="evenodd"/>
+            <text font-weight="400" font-size="24"
+                  transform="translate(135.486 308)">シングル
+                <tspan font-size="24" x="-12" y="29">ストリーム</tspan>
+                <tspan font-size="24" x="24" y="58">方式</tspan>
+            </text>
         </a>
         <a href="#s_2">
-        <path d="M263.5 421C263.5 387.035 317.002 359.5 383 359.5 448.998 359.5 502.5 387.035 502.5 421 502.5 454.966 448.998 482.5 383 482.5 317.002 482.5 263.5 454.966 263.5 421Z"
-              stroke="#000000" stroke-width="1.33333" stroke-miterlimit="8" fill="#FFFFFF" fill-rule="evenodd"/>
-        <text font-family="Yu Gothic,Yu Gothic_MSFontService,sans-serif" font-weight="400" font-size="24"
-              transform="translate(310.532 414)">回収ボックス
-            <tspan font-size="24" x="36" y="29">の設置</tspan>
-        </text>
+            <path d="M263.5 421C263.5 387.035 317.002 359.5 383 359.5 448.998 359.5 502.5 387.035 502.5 421 502.5 454.966 448.998 482.5 383 482.5 317.002 482.5 263.5 454.966 263.5 421Z"
+                  stroke="#000000" stroke-width="1.33333" stroke-miterlimit="8" fill="#FFFFFF" fill-rule="evenodd"/>
+            <text font-weight="400" font-size="24"
+                  transform="translate(310.532 414)">回収ボックス
+                <tspan font-size="24" x="36" y="29">の設置</tspan>
+            </text>
         </a>
         <a href="#s_9">
-        <path d="M709.5 421C709.5 387.035 762.778 359.5 828.5 359.5 894.222 359.5 947.5 387.035 947.5 421 947.5 454.966 894.222 482.5 828.5 482.5 762.778 482.5 709.5 454.966 709.5 421Z"
-              stroke="#000000" stroke-width="1.33333" stroke-miterlimit="8" fill="#FFFFFF" fill-rule="evenodd"/>
-        <text font-family="Yu Gothic,Yu Gothic_MSFontService,sans-serif" font-weight="400" font-size="24"
-              transform="translate(768.257 400)">配達による
-            <tspan font-size="24" x="0" y="29">リサイクル</tspan>
-            <tspan font-size="24" x="12" y="58">サービス</tspan>
-        </text>
+            <path d="M709.5 421C709.5 387.035 762.778 359.5 828.5 359.5 894.222 359.5 947.5 387.035 947.5 421 947.5 454.966 894.222 482.5 828.5 482.5 762.778 482.5 709.5 454.966 709.5 421Z"
+                  stroke="#000000" stroke-width="1.33333" stroke-miterlimit="8" fill="#FFFFFF" fill-rule="evenodd"/>
+            <text font-weight="400" font-size="24"
+                  transform="translate(768.257 400)">配達による
+                <tspan font-size="24" x="0" y="29">リサイクル</tspan>
+                <tspan font-size="24" x="12" y="58">サービス</tspan>
+            </text>
         </a>
         <a href="#s_10">
-        <path d="M485.5 332.5C485.5 298.811 538.778 271.5 604.5 271.5 670.222 271.5 723.5 298.811 723.5 332.5 723.5 366.189 670.222 393.5 604.5 393.5 538.778 393.5 485.5 366.189 485.5 332.5Z"
-              stroke="#000000" stroke-width="1.33333" stroke-miterlimit="8" fill="#FFFFFF" fill-rule="evenodd"/>
-        <text font-family="Yu Gothic,Yu Gothic_MSFontService,sans-serif" font-weight="400" font-size="24"
-              transform="translate(556.403 311)">みんなの
-            <tspan font-size="24" x="12" y="29">メダル</tspan>
-            <tspan font-size="24" x="-24" y="58">プロジェクト</tspan>
-        </text>
+            <path d="M485.5 332.5C485.5 298.811 538.778 271.5 604.5 271.5 670.222 271.5 723.5 298.811 723.5 332.5 723.5 366.189 670.222 393.5 604.5 393.5 538.778 393.5 485.5 366.189 485.5 332.5Z"
+                  stroke="#000000" stroke-width="1.33333" stroke-miterlimit="8" fill="#FFFFFF" fill-rule="evenodd"/>
+            <text font-weight="400" font-size="24"
+                  transform="translate(556.403 311)">みんなの
+                <tspan font-size="24" x="12" y="29">メダル</tspan>
+                <tspan font-size="24" x="-24" y="58">プロジェクト</tspan>
+            </text>
         </a>
         <a href="#s_8">
-        <path d="M910.5 330C910.5 296.035 964.002 268.5 1030 268.5 1096 268.5 1149.5 296.035 1149.5 330 1149.5 363.966 1096 391.5 1030 391.5 964.002 391.5 910.5 363.966 910.5 330Z"
-              stroke="#000000" stroke-width="1.33333" stroke-miterlimit="8" fill="#FFFFFF" fill-rule="evenodd"/>
-        <text font-family="Yu Gothic,Yu Gothic_MSFontService,sans-serif" font-weight="400" font-size="24"
-              transform="translate(981.505 323)">スケール
-            <tspan font-size="24" x="0" y="29">メリット</tspan>
-        </text>
+            <path d="M910.5 330C910.5 296.035 964.002 268.5 1030 268.5 1096 268.5 1149.5 296.035 1149.5 330 1149.5 363.966 1096 391.5 1030 391.5 964.002 391.5 910.5 363.966 910.5 330Z"
+                  stroke="#000000" stroke-width="1.33333" stroke-miterlimit="8" fill="#FFFFFF" fill-rule="evenodd"/>
+            <text font-weight="400" font-size="24"
+                  transform="translate(981.505 323)">スケール
+                <tspan font-size="24" x="0" y="29">メリット</tspan>
+            </text>
         </a>
         <a href="#s_4">
-        <path d="M485.5 160C485.5 126.035 538.778 98.5001 604.5 98.5001 670.222 98.5001 723.5 126.035 723.5 160 723.5 193.966 670.222 221.5 604.5 221.5 538.778 221.5 485.5 193.966 485.5 160Z"
-              stroke="#000000" stroke-width="1.33333" stroke-miterlimit="8" fill="#FFFFFF" fill-rule="evenodd"/>
-        <text font-family="Yu Gothic,Yu Gothic_MSFontService,sans-serif" font-weight="400" font-size="24"
-              transform="translate(532.403 153)">電子廃棄物の
-            <tspan font-size="24" x="48" y="29">削減</tspan>
-        </text>
+            <path d="M485.5 160C485.5 126.035 538.778 98.5001 604.5 98.5001 670.222 98.5001 723.5 126.035 723.5 160 723.5 193.966 670.222 221.5 604.5 221.5 538.778 221.5 485.5 193.966 485.5 160Z"
+                  stroke="#000000" stroke-width="1.33333" stroke-miterlimit="8" fill="#FFFFFF" fill-rule="evenodd"/>
+            <text font-weight="400" font-size="24"
+                  transform="translate(532.403 153)">電子廃棄物の
+                <tspan font-size="24" x="48" y="29">削減</tspan>
+            </text>
         </a>
         <g clip-path="url(#clip4)">
             <g clip-path="url(#clip5)">
@@ -143,18 +144,18 @@
             </g>
         </g>
         <a href="#s_3">
-        <path d="M795.5 86.0004C795.5 79.6489 800.649 74.5001 807 74.5001L1107 74.5001C1113.35 74.5001 1118.5 79.6489 1118.5 86.0004L1118.5 132C1118.5 138.351 1113.35 143.5 1107 143.5L807 143.5C800.649 143.5 795.5 138.351 795.5 132Z"
-              stroke="#000000" stroke-width="1.33333" stroke-miterlimit="8" fill="#FFFFFF" fill-rule="evenodd"/>
-        <text font-family="Yu Gothic,Yu Gothic_MSFontService,sans-serif" font-weight="400" font-size="24"
-              transform="translate(872.477 116)">リユースの推進
-        </text>
+            <path d="M795.5 86.0004C795.5 79.6489 800.649 74.5001 807 74.5001L1107 74.5001C1113.35 74.5001 1118.5 79.6489 1118.5 86.0004L1118.5 132C1118.5 138.351 1113.35 143.5 1107 143.5L807 143.5C800.649 143.5 795.5 138.351 795.5 132Z"
+                  stroke="#000000" stroke-width="1.33333" stroke-miterlimit="8" fill="#FFFFFF" fill-rule="evenodd"/>
+            <text font-weight="400" font-size="24"
+                  transform="translate(872.477 116)">リユースの推進
+            </text>
         </a>
         <a href="#s_7">
-        <path d="M795.5 184C795.5 177.649 800.649 172.5 807 172.5L1107 172.5C1113.35 172.5 1118.5 177.649 1118.5 184L1118.5 230C1118.5 236.351 1113.35 241.5 1107 241.5L807 241.5C800.649 241.5 795.5 236.351 795.5 230Z"
-              stroke="#000000" stroke-width="1.33333" stroke-miterlimit="8" fill="#FFFFFF" fill-rule="evenodd"/>
-        <text font-family="Yu Gothic,Yu Gothic_MSFontService,sans-serif" font-weight="400" font-size="24"
-              transform="translate(824.477 214)">オンライン修理サービス
-        </text>
+            <path d="M795.5 184C795.5 177.649 800.649 172.5 807 172.5L1107 172.5C1113.35 172.5 1118.5 177.649 1118.5 184L1118.5 230C1118.5 236.351 1113.35 241.5 1107 241.5L807 241.5C800.649 241.5 795.5 236.351 795.5 230Z"
+                  stroke="#000000" stroke-width="1.33333" stroke-miterlimit="8" fill="#FFFFFF" fill-rule="evenodd"/>
+            <text font-weight="400" font-size="24"
+                  transform="translate(824.477 214)">オンライン修理サービス
+            </text>
         </a>
         <g clip-path="url(#clip7)">
             <g clip-path="url(#clip8)">

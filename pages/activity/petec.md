@@ -43,7 +43,7 @@ PETECの累計処理台数はなんと1650万台以上！！（10/14当時）一
 工場でのリサイクル率がこれを超えなければ、工場は稼働できません。
 PETECでは、いずれの品目においても法定リサイクル率をクリアしています。
 <figure>
-  <figcaption style="white-space: nowrap;">法定リサイクル率の表
+  <figcaption style="white-space: nowrap;">各家電の法定リサイクル率
   </figcaption>
   <table>
     <tr>
@@ -282,7 +282,7 @@ PETECで行われているリサイクルの工程を製品別に紹介しよう
 「リサイクルするのにお金を払わなければならないの？」
 そう思われている方もいるかもしれません。実は、技術の発達や商品のリサイクルのしやすさの向上などから、リサイクル料金は減ってきているのです。
 <figure>
-  <figcaption>リサイクル料金の表</figcaption>
+  <figcaption>リサイクル料金の変化</figcaption>
   <table>
     <tr>
       <th colspan="2">4品目</th>

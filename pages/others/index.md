@@ -19,6 +19,10 @@
 
 10月27日～10月30日：都市鉱山についての校内アンケートを実施しました。
 
+12月17日：第2次審査を通過し、セミファイナリストになりました。
+
+2020年1月10日：コーチにサイトプロフィールをチェックしてもらい、提出する作品も一緒に提出しました。
+
 ## 制作者紹介
 
 ### Z.K.
@@ -139,12 +143,15 @@ Web系の資格を持っているのに得意な言語はJavaらしい。<br>
 - Adobe Illustrator
 - Adobe Photoshop
 - DaVinci Resolve
-- WebStorm
-- Visual Studio Code
-- ffmpeg
+- FFmpeg
+- Googleスライド
+- Googleフォーム
 - ibisPaint
-- Medibang Paint
+- Lucidchart
+- MediBang Paint
 - Vectr
+- Visual Studio Code
+- WebStorm
 
 ## 引用利用情報
 
@@ -175,6 +182,16 @@ Web系の資格を持っているのに得意な言語はJavaらしい。<br>
     アンケート実施時に匿名で引用することを報告
   - 利用しているページ<br>
     [アンケート](../activity/questionnaire.html)
+- CEマーク
+  - 承諾方法<br>
+    [CE marking](https://ec.europa.eu/growth/single-market/ce-marking_en)
+  - 利用しているページ<br>
+    [解決策](../activity/solution.html)
+- 認定事業者マーク
+  - 承諾方法<br>
+    [環境省 著作権・リンクについて](https://www.env.go.jp/mail.html)
+  - 利用しているページ<br>
+    [現在の取り組み](../activity/measure.html)
 
 ### 写真
 
@@ -193,6 +210,14 @@ Web系の資格を持っているのに得意な言語はJavaらしい。<br>
     [工場見学](../activity/petec.html)
     [携帯解体](../activity/disassembly.html)
 
+### 動画
+
+- [DOVA-SYNDROME](https://panasonic.co.jp/eco/petec/download/)
+  - 承諾方法<br>
+    [利用規約](https://dova-s.jp/_contents/agreement/)
+  - 利用しているページ<br>
+    [携帯解体](../activity/disassembly.html)
+
 <FloatingMenu>
 h1 その他
 h2 活動記録
@@ -203,6 +228,7 @@ h2 引用利用情報
 h3 イラスト
 h3 テキスト
 h3 写真
+h3 動画
 </FloatingMenu>
 
 </div>

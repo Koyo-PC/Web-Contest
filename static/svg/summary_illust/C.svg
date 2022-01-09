@@ -245,41 +245,42 @@
         <path d="M91 350.5C91 236.453 315.977 144 593.5 144 871.023 144 1096 236.453 1096 350.5 1096 464.547 871.023 557 593.5 557 315.977 557 91 464.547 91 350.5Z"
               fill="url(#fill1)" fill-rule="evenodd"/>
         <a href="#s_0">
-        <rect x="443.5" y="273.5" width="301" height="139" stroke="#000000" stroke-width="1.33333" stroke-miterlimit="8"
-              fill="#FFFFFF"/>
-        <text font-family="Yu Gothic,Yu Gothic_MSFontService,sans-serif" font-weight="400" font-size="24"
-              transform="translate(509.615 350)">都市鉱山の課題
-        </text>
+            <rect x="443.5" y="273.5" width="301" height="139" stroke="#000000" stroke-width="1.33333"
+                  stroke-miterlimit="8"
+                  fill="#FFFFFF"/>
+            <text font-weight="400" font-size="24"
+                  transform="translate(509.615 350)">都市鉱山の課題
+            </text>
         </a>
         <a href="#s_4">
-        <path d="M368.5 149.5C368.5 122.99 433.195 101.5 513 101.5 592.805 101.5 657.5 122.99 657.5 149.5 657.5 176.01 592.805 197.5 513 197.5 433.195 197.5 368.5 176.01 368.5 149.5Z"
-              stroke="#4472C4" stroke-width="1.33333" stroke-miterlimit="8" fill="#FFFFFF" fill-rule="evenodd"/>
-        <text font-family="Yu Gothic,Yu Gothic_MSFontService,sans-serif" font-weight="400" font-size="24"
-              transform="translate(452.733 157)">コスト問題
-        </text>
+            <path d="M368.5 149.5C368.5 122.99 433.195 101.5 513 101.5 592.805 101.5 657.5 122.99 657.5 149.5 657.5 176.01 592.805 197.5 513 197.5 433.195 197.5 368.5 176.01 368.5 149.5Z"
+                  stroke="#4472C4" stroke-width="1.33333" stroke-miterlimit="8" fill="#FFFFFF" fill-rule="evenodd"/>
+            <text font-weight="400" font-size="24"
+                  transform="translate(452.733 157)">コスト問題
+            </text>
         </a>
         <a href="#s_1">
-        <path d="M199.5 500.5C199.5 473.99 264.195 452.5 344 452.5 423.805 452.5 488.5 473.99 488.5 500.5 488.5 527.01 423.805 548.5 344 548.5 264.195 548.5 199.5 527.01 199.5 500.5Z"
-              stroke="#4472C4" stroke-width="1.33333" stroke-miterlimit="8" fill="#FFFFFF" fill-rule="evenodd"/>
-        <text font-family="Yu Gothic,Yu Gothic_MSFontService,sans-serif" font-weight="400" font-size="24"
-              transform="translate(271.467 508)">回収率の低さ
-        </text>
+            <path d="M199.5 500.5C199.5 473.99 264.195 452.5 344 452.5 423.805 452.5 488.5 473.99 488.5 500.5 488.5 527.01 423.805 548.5 344 548.5 264.195 548.5 199.5 527.01 199.5 500.5Z"
+                  stroke="#4472C4" stroke-width="1.33333" stroke-miterlimit="8" fill="#FFFFFF" fill-rule="evenodd"/>
+            <text font-weight="400" font-size="24"
+                  transform="translate(271.467 508)">回収率の低さ
+            </text>
         </a>
         <a href="#s_2">
-        <path d="M79.5001 340.5C79.5001 313.99 144.195 292.5 224 292.5 303.805 292.5 368.5 313.99 368.5 340.5 368.5 367.01 303.805 388.5 224 388.5 144.195 388.5 79.5001 367.01 79.5001 340.5Z"
-              stroke="#4472C4" stroke-width="1.33333" stroke-miterlimit="8" fill="#FFFFFF" fill-rule="evenodd"/>
-        <text font-family="Yu Gothic,Yu Gothic_MSFontService,sans-serif" font-weight="400" font-size="24"
-              transform="translate(139.245 333)">品位の低さ（含
-            <tspan font-size="24" x="36" y="29">有濃度）</tspan>
-        </text>
+            <path d="M79.5001 340.5C79.5001 313.99 144.195 292.5 224 292.5 303.805 292.5 368.5 313.99 368.5 340.5 368.5 367.01 303.805 388.5 224 388.5 144.195 388.5 79.5001 367.01 79.5001 340.5Z"
+                  stroke="#4472C4" stroke-width="1.33333" stroke-miterlimit="8" fill="#FFFFFF" fill-rule="evenodd"/>
+            <text font-weight="400" font-size="24"
+                  transform="translate(139.245 333)">品位の低さ（含
+                <tspan font-size="24" x="36" y="29">有濃度）</tspan>
+            </text>
         </a>
         <a href="#s_3">
-        <path d="M761.5 178.5C761.5 151.99 826.195 130.5 906 130.5 985.805 130.5 1050.5 151.99 1050.5 178.5 1050.5 205.01 985.805 226.5 906 226.5 826.195 226.5 761.5 205.01 761.5 178.5Z"
-              stroke="#4472C4" stroke-width="1.33333" stroke-miterlimit="8" fill="#FFFFFF" fill-rule="evenodd"/>
-        <text font-family="Yu Gothic,Yu Gothic_MSFontService,sans-serif" font-weight="400" font-size="24"
-              transform="translate(857.288 171)">廃棄物の
-            <tspan font-size="24" x="24" y="29">発生</tspan>
-        </text>
+            <path d="M761.5 178.5C761.5 151.99 826.195 130.5 906 130.5 985.805 130.5 1050.5 151.99 1050.5 178.5 1050.5 205.01 985.805 226.5 906 226.5 826.195 226.5 761.5 205.01 761.5 178.5Z"
+                  stroke="#4472C4" stroke-width="1.33333" stroke-miterlimit="8" fill="#FFFFFF" fill-rule="evenodd"/>
+            <text font-weight="400" font-size="24"
+                  transform="translate(857.288 171)">廃棄物の
+                <tspan font-size="24" x="24" y="29">発生</tspan>
+            </text>
         </a>
         <g clip-path="url(#clip2)">
             <g clip-path="url(#clip3)">
@@ -290,13 +291,14 @@
             </g>
         </g>
         <a href="#s_6">
-        <rect x="935.5" y="384.5" width="277" height="97" stroke="#4472C4" stroke-width="1.33333" stroke-miterlimit="8"
-              fill="#FFFFFF"/>
-        <text font-family="Yu Gothic,Yu Gothic_MSFontService,sans-serif" font-weight="400" font-size="24"
-              transform="translate(944.228 411)">セベソ事件
-            <tspan font-size="24" x="0" y="29">ココ事件</tspan>
-            <tspan font-size="24" x="0" y="58">豊島事件</tspan>
-        </text>
+            <rect x="935.5" y="384.5" width="277" height="97" stroke="#4472C4" stroke-width="1.33333"
+                  stroke-miterlimit="8"
+                  fill="#FFFFFF"/>
+            <text font-weight="400" font-size="24"
+                  transform="translate(944.228 411)">セベソ事件
+                <tspan font-size="24" x="0" y="29">ココ事件</tspan>
+                <tspan font-size="24" x="0" y="58">豊島事件</tspan>
+            </text>
         </a>
         <g clip-path="url(#clip5)">
             <g clip-path="url(#clip6)">
@@ -314,12 +316,12 @@
             </g>
         </g>
         <a href="#s_5">
-        <path d="M809.5 335.5C809.5 308.99 874.419 287.5 954.5 287.5 1034.58 287.5 1099.5 308.99 1099.5 335.5 1099.5 362.01 1034.58 383.5 954.5 383.5 874.419 383.5 809.5 362.01 809.5 335.5Z"
-              stroke="#4472C4" stroke-width="1.33333" stroke-miterlimit="8" fill="#FFFFFF" fill-rule="evenodd"/>
-        <text font-family="Yu Gothic,Yu Gothic_MSFontService,sans-serif" font-weight="400" font-size="24"
-              transform="translate(893.851 328)">有害物質の
-            <tspan font-size="24" x="36" y="29">発生</tspan>
-        </text>
+            <path d="M809.5 335.5C809.5 308.99 874.419 287.5 954.5 287.5 1034.58 287.5 1099.5 308.99 1099.5 335.5 1099.5 362.01 1034.58 383.5 954.5 383.5 874.419 383.5 809.5 362.01 809.5 335.5Z"
+                  stroke="#4472C4" stroke-width="1.33333" stroke-miterlimit="8" fill="#FFFFFF" fill-rule="evenodd"/>
+            <text font-weight="400" font-size="24"
+                  transform="translate(893.851 328)">有害物質の
+                <tspan font-size="24" x="36" y="29">発生</tspan>
+            </text>
         </a>
         <g clip-path="url(#clip8)">
             <g clip-path="url(#clip9)">
