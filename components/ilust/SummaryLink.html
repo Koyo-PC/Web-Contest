@@ -2,8 +2,8 @@
 <span class="summary-link" id="s_{{ id }}_content">{{content}}</span>
 <script>
     document.addEventListener("click", () => {
-        if (window.location.href.indexOf("#") < 0) return;
         setTimeout(() => {
+            if (window.location.href.indexOf("#") < 0) return;
             const id_sharp = window.location.href.match(/#[^#]*/).toString();
             // if(id_sharp == null) return;
             const id = id_sharp.replace("#", "");
