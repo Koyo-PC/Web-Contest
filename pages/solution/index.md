@@ -290,31 +290,31 @@ The Japanese government is a good choice, but I think there are some problems wi
 It is difficult to find a solution to this problem, but let’s think about it by ourselves.
 </AtomCharacter>
 
-At first, we were thinking about having people compulsorily recycle their old smartphones.
+At first, we were thinking about <ForceText>having people compulsorily recycle their old smartphones</ForceText>.
 However, people cannot get anything by recycling, which Daigo said could get people less motivated.
 Consumers have to cover the recycling cost even though they can gain nothing.
-If such a situation continues, it is highly likely that people will come to throw away things illegally.
+If such a situation continues, it is highly likely that <ForceText>people will come to throw away things illegally</ForceText>.
 There are bound to be some people who think,
 “Really? I have to pay some money to throw away my TV!?
 Come on.
 I’ll dump it in the mountains so that nobody will find it."
 Others may give their household appliances to groups which drive around their towns to get them for free.
 Such groups often collect only valuable parts of things they got, and dump the rest of them in the mountains.
-When household appliances are not properly discarded, resources they have will not be recycled and harmful substances in them such as CFC gas will damage the environment.
+When household appliances are not properly discarded, resources they have will not be recycled and <ForceText>harmful substances in them such as CFC gas will damage the environment.</ForceText>
 
 <AtomCharacter atom="Au">
 I never thought such a thing would happen.
 In that case, consumers should pay some money not when they throw away things but when they buy them.
-This idea is working well in Switzerland as we saw in ‘Measures.’
+This idea is working well in Switzerland as we saw in ‘<a href="../measure/#switzerland">Measures.</a>’
 </AtomCharacter>
 
 In Switzerland, it is necessary that consumers recycle various things.
 They can recycle free of charge because they paid some money when they bought things.
 So, it is expected that more people recycle what they have properly, not discard them illegally.
-This system is based on the idea that producers, rather than consumers, should take responsibility for recycling.
+This system is based on the idea that <ForceText>producers, rather than consumers, should take responsibility for recycling</ForceText>.
 It is called Extended Producer Responsibility(EPR).
-Actually, in Japan, such a system is used in the Act on the Promotion of Effective Utilization of Resources.
-On the other hand, it was not used in the Act on Recycling of Specified Kinds of Home Appliances.
+Actually, in Japan, such a system is used in <Word>the Act on the Promotion of Effective Utilization of Resources</Word>.
+On the other hand, it was not used in <Word>the Act on Recycling of Specified Kinds of Home Appliances</Word>.
 One reason is that it is difficult for producers to predict how much money will be necessary to recycle the things they sell.
 Another is that it is next to impossible for them to get money from customers who have already bought products from them.
 
@@ -323,10 +323,10 @@ Well, if predicting future cost is difficult, producers can use the money consum
 </AtomCharacter>
 
 This method is like the pension system in Japan.
-You raise as much money as you need at the moment.
+<ForceText>You raise as much money as you need at the moment</ForceText>.
 Then there should be no bad points as we mentioned.
 However, the system still has a problem which the pension system also does.
-It is that those who cover the recycling cost are not those who the money is used for.
+It is that <ForceText>those who cover the recycling cost are not those who the money is used for</ForceText>.
 When you buy a household appliance, you will bear the recycling cost of other people’s appliances, not of yours.
 It is highly likely that recycling a product you buy requires more money now than in the future.
 
@@ -339,9 +339,9 @@ Give me back my 500 yen!!’
 Even so, the system has a very good point.
 Producers have to add recycling costs to the prices of their products, so they will try to cut down the recycling costs in order to lower the final prices.
 Their products will be designed not to cost so much when producers recycle them in the future.
-In other words, more and more products will be easier to recycle.
-This is essential to establishing a recycling-based society, so this can be thought as the best thing about this system.
-There are various ways to make recycling e-waste compulsory, and each of them has both good points and bad points.
+In other words, <ForceText>more and more products will be easier to recycle</ForceText>.
+This is essential to establishing a <Word>circular economy</Word>, so this can be thought as the best thing about this system.
+There are various ways to make recycling e-waste compulsory, and <ForceText>each of them has both good points and bad points</ForceText>.
 
 <AtomCharacter atom="Sc">
 Considering those bad points, we should not force consumers to recycle e-waste.
@@ -364,7 +364,7 @@ I don’t want to pay more money than necessary for recycling when I buy product
 Our elements are thinking this way.
 What do you think of the problem?
 We think everyone has a different solution.
-We do not know what system will be used in the future, but it is important that each of us consider and have our own opinion on the problem.
+We do not know what system will be used in the future, but it is important that <ForceText>each of us consider and have our own opinion on the problem</ForceText>.
 
 ### encourage people to recycle
 
@@ -401,17 +401,17 @@ I don’t want to pay more taxes…
 </AtomCharacter>
 
 Many people feel the same way as Lithium, and we do not think it is a very good idea.
-So, we thought about why many people are not willing to recycle in the first place.
-Then we found out that many people feel they can do little for urban mining as seen in the result of our survey.
-We also found that people could not know how the resources in their e-waste would be used after they recycle it.
+So, we thought about <ForceText>why many people are not willing to recycle</ForceText> in the first place.
+Then we found out that <ForceText>many people feel they can do little for urban mining</ForceText> as seen in <a href="../activity/questionnaire.html">the result of our survey</a>.
+We also found that <ForceText>people could not know how the resources in their e-waste would be used after they recycle it</ForceText>.
 We have to admit this.
-When we put a phone in a recycling box, we felt that we did something good for society, but had no idea how the resource would be used.
-So you could not tell whether you really helped companies to produce more products.
+When we put a phone in a <Word>recycling box</Word>, we felt that we did something good for society, but had no idea how the resource would be used.
+So <ForceText>you could not tell whether you really helped companies to produce more products</ForceText>.
 Currently, recycling is a charity.
 It is done with no purpose.
 
 <AtomCharacter atom="Li">
-Many people recycled small household appliances to make medals for the Tokyo Olympics.
+Many people recycled small household appliances for the <Word>Tokyo 2020 Medals Project</Word>.
 </AtomCharacter>
 <AtomCharacter atom="Au">
 I think that is because they knew the metal in their phones and computers would be used to make them.
@@ -421,22 +421,22 @@ It is really amazing that Olympic medals can be made from our phones.
 </AtomCharacter>
 
 More people will recycle e-waste if people know what will be made from it.
-We came up with the idea of giving back a part of metal resources in e-waste to those who recycled it.
-If people recycle their phones, they will be given a part of minor metals and major metals in them.
+We came up with the idea of giving back a part of <Word>metal resources</Word> in e-waste to those who recycled it.
+If people recycle their phones, they will be given a part of <Word>minor metals</Word> and <Word>major metals</Word> in them.
 Then many people will feel that their phones are used to make something else.
 However, the idea has many problems: A smartphone has very little metal resources, and personal information of those who recycled phones must be securely stored and managed.
-For all its faults, it is important to let people know how their e-waste is used.
+For all its faults, it is important to <ForceText>let people know how their e-waste is used</ForceText>.
 
 ### improve the image of recycling
 
 To see the title above, you may wonder if people do not think of recycling as a good thing.
-In Japan, people regard recycling as a thing that is good for the environment.
+In Japan, <ForceText>people regard recycling as a thing that is good for the environment</ForceText>.
 However, many years ago, recycling was done by people with low social status.
 People continued to think that it is only a job dealing with garbage, though it is now considered to be a way to address environmental issues.
-In Europe, people are trying to make a “circular economy."
-I’m sure you know what a “recycling-based society" means.
-In a recycling-based society, you try not to damage the environment, while in a society with a circular economy, you try to not only protect the environment but also develop the economy.
-Recycling is thought of as a kind of economic activity and an important thing for the development of economies.
+In Europe, <ForceText>people are trying to make a “<Word>circular economy</Word>."</ForceText>
+I’m sure you know what a “circular economy" means.
+In a circular economy, you try not to damage the environment, while in a society with a circular economy, you try to not only protect the environment but also develop the economy.
+<ForceText>Recycling is thought of as a kind of economic activity and an important thing for the development of economies</ForceText>.
 People in Japan and in Europe have different ideas on recycling.
 Japanese people tend to think that what is done to deal with environmental problems prevent the economy from developing.
 More e-waste will be recycled in Japan if they appreciate a circular economy and try to make it.
@@ -447,31 +447,31 @@ In order to make a circular economy, you can also design products to be used for
 
 ## Recycle Using Machines
 
-In “Problems," we showed that recycling requires a large sum of money.
+In “[Problems](../problem/)," we showed that recycling requires a large sum of money.
 
 This is largely because some people are hired to do jobs which are difficult for machines.
-If you can have machines do these jobs, recycling will cost much less.
+If <ForceText>you can have machines do these jobs</ForceText>, recycling will cost much less.
 
 <AtomCharacter atom="Sc">
-Speaking of which, Apple, which we mentioned in “Measures," recycles its phones with only machines.
+Speaking of which, Apple, which we mentioned in “<a href="../measure/#企業の取り組み">Measures</a>," recycles its phones with only machines.
 </AtomCharacter>
 
 We told you that Apple has machines which can recycle up to 200 smartphones in an hour.
-When we were thinking about such a way of recycling, we came up with another idea: make sure that each kind of small household appliances share the same structure.
+When we were thinking about such a way of recycling, we came up with another idea: <ForceText>make sure that each kind of small household appliances share the same structure</ForceText>.
 If you make a global standard and producers around the world follow it, recycling will be far easier for machines.
 
 <AtomCharacter atom="Au">
 I’m afraid all producers will be forced to make similar items.
 </AtomCharacter>
 
-You can just ask them to gather components which use minor metals in a certain part of their products.
+<ForceText>You can just ask them to gather components which use minor metals in a certain part of their products</ForceText>.
 This idea may be effective but involves many companies around the world, and it should be considered that items which have already been produced must also be recycled.
 
 We thought about using hydrogen to recycle e-waste.
 You can get energy by burning hydrogen with oxygen.
 Since no carbon dioxide is made in the process, hydrogen is said to be an environmentally-friendly fuel, provided it is created with no carbon dioxide discharged.
 However, it was only recently that you started to use hydrogen to get energy, so you cannot be certain whether it is safe to use it for recycling.
-Even so, more people may become more willing to recycle their e-waste if they know it is recycled in a way that does not damage the environment.
+Even so, more people may become more willing to recycle their e-waste if they know <ForceText>it is recycled in a way that does not damage the environment</ForceText>.
 
 ## Reduce the Amount of Plastic and Harmful Substances
 
@@ -484,7 +484,7 @@ Companies can make products which have less plastic or dangerous compounds.
 
 In fact, various measures have been taken to reduce them.
 For example, in “on the reduction of the impact of certain plastic products on the environment," which the EU published in 2019, producers are required not to sell straws, cotton bud sticks, food and beverage containers made of expanded polystyrene, fishing gears containing plastic, and so on.
-Another example is RoHS, which has restricted the use of ten hazardous materials in electrical and electronic equipment since July 1, 2006.
+Another example is <ForceText>RoHS, which has restricted the use of ten hazardous materials in electrical and electronic equipment</ForceText> since July 1, 2006.
 Have you ever seen this CE mark?
 This label indicates the item met RoHS requirements.
 
@@ -493,12 +493,12 @@ This label indicates the item met RoHS requirements.
 </div>
 
 One problem with RoHS is that it is only applied to companies in the member states of the EU, not producers around the world.
-Some countries make their own laws similar to RoHS, but they vary from one country to another.
+Some countries make their own laws similar to RoHS, but <ForceText>they vary from one country to another</ForceText>.
 For example, in Japan, producers can sell items which have too large amounts of harmful substances and do not meet the RoHS requirements.
 (although they have to follow the requirements if they are going to sell them in the member countries of the EU).
 So companies may start to sell things in Japan which cannot be sold in European countries.
 It is necessary that all countries share the same requirements.
-We propose that we make rules to be followed by producers around the world which restrict the use of plastic and harmful substances in order to reduce them.
+We propose that <ForceText>we make rules to be followed by producers around the world which restrict the use of plastic and harmful substances</ForceText> in order to reduce them.
 
 <AtomCharacter atom="Au">
 There are lots of metal resources in Antarctica and under the bottom of the sea.
