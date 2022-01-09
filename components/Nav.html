@@ -1,28 +1,42 @@
 <!--suppress BadExpressionStatementJS -->
-<nav>
+<nav id="nav">
   <div class="button">
-    <img src="../svg/ham.svg" alt="" id="ham">
+    <img src="[[root_path]]svg/ham.svg" alt="" id="ham">
   </div>
   <div class="nav_link" id="navLink">
-    <a href="../">Home</a>
-    <a href="../present-situation/">資源の現状</a>
-    <a href="../urban-mining/">都市鉱山の意義</a>
-    <a href="../problem/">課題</a>
-    <a href="../measure/">現在の取り組み</a>
-    <a href="../activity/">アクティビティ</a>
-    <a href="../solution/">解決策</a>
-    <a href="../finally/">最後に</a>
-    <a href="../others/">その他</a>
+    <a href="[[root_path]]">Home</a>
+    <a href="[[root_path]]present-situation/"><span class="lang_jp">資源の現状</span><span class="lang_en">Present Situation</span></a>
+    <a href="[[root_path]]urban-mining/"><span class="lang_jp">都市鉱山の意義</span><span class="lang_en">Significance of Urban Mining</span></a>
+    <a href="[[root_path]]problem/"><span class="lang_jp">課題</span><span class="lang_en">Problem</span></a>
+    <a href="[[root_path]]measure/"><span class="lang_jp">現在の取り組み</span><span class="lang_en">Measure</span></a>
+    <a href="[[root_path]]activity/" id="nav_activity" onmouseover="setActivityOpening(true)" onmouseout="setActivityOpening(false)"><span class="lang_jp">アクティビティ</span><span class="lang_en">Activity</span></a>
+    <a href="[[root_path]]solution/"><span class="lang_jp">解決策</span><span class="lang_en">Solution</span></a>
+    <a href="[[root_path]]finally/"><span class="lang_jp">最後に</span><span class="lang_en">Finally</span></a>
+    <a href="[[root_path]]others/"><span class="lang_jp">その他</span><span class="lang_en">Others</span></a>
+  </div>
+  <div id="nav_activity_content" style="display: none" onmouseover="setActivityOpening(true)" onmouseout="setActivityOpening(false)">
+    <a href="[[root_path]]activity/questionnaire.html"><span class="lang_jp">アンケート</span><span class="lang_en">Questionnaire</span></a>
+    <a href="[[root_path]]activity/recycle-box.html"><span class="lang_jp">回収ボックス</span><span class="lang_en">Recovery Box</span></a>
+    <a href="[[root_path]]activity/interview.html"><span class="lang_jp">インタビュー</span><span class="lang_en">Interview</span></a>
+    <a href="[[root_path]]activity/petec.html"><span class="lang_jp">工場見学</span><span class="lang_en">Visit to Plant</span></a>
+    <a href="[[root_path]]activity/disassembly.html"><span class="lang_jp">携帯解体</span><span class="lang_en">Cell Phone Dismantling</span></a>
   </div>
 </nav>
 
 
 <script>
+    function setActivityOpening(activityOpening) {
+        if(activityOpening) {
+            document.getElementById("nav_activity_content").style.display = "block";
+        }else {
+            document.getElementById("nav_activity_content").style.display = "none";
+        }
+    }
+
     let open_judge = -1;
 
     window.onload = () => {
         document.getElementById('ham').onclick = () => {
-            console.log('A');
             if (open_judge === -1) {
                 document.getElementById('navLink').classList.add('open');
             } else {
@@ -36,78 +50,21 @@
 <script scml>
     (buildInfo, options) => {
         const titles = [
-            "","資源の現状", "都市鉱山の意義", "課題", "現在の取り組み", "アクティビティ", "解決策", "最後に", "その他"
+            "Home", "資源の現状", "都市鉱山の意義", "課題", "現在の取り組み", "アクティビティ", "解決策", "最後に", "その他"
         ];
+        const index = titles.indexOf(buildInfo.fileEnv["TITLE"] ?? "") + 1;
+        const root_path = buildInfo.fileEnv["ROOT_PATH"] ?? "../";
         return {
-            "index": titles.indexOf(buildInfo.fileEnv["TITLE"] ?? "") + 1
+            "index": index,
+            "root_path": root_path
         };
     }
 </script>
 
 <style>
-<<<<<<< Updated upstream
   nav {
-=======
-nav {
-	align-items: center;
-	background-color: #003b54;
-  	height: 70px;
-  	display: flex;
-  	width: 100%;
-}
-.nav_link > a {
-	--count: 9;
-	color: #fbf8f8;
-  	flex: none;
-  	font-family: Lato, sans-serif;
-  	font-weight: 400;
-  	text-decoration: none;
-  	justify-content: center;
-}
-@media(orientation: landscape) {
-	.nav_link {
-		width: 100%;
-		height: 100%;
-		display: flex;
-	}
-	.nav_link > a {
-		height: 100%;
-		display: grid;
-		align-items: center;
-		font-size: min(1.2vw, 17px);
-	}
-	.button > img {
-		display: none;
-	}
-	.nav_link > a {
-		text-align: center;
-		line-height: 1.4;
-		width: calc(100% / var(--count));
-		max-width: calc(100% / var(--count));
-  		/*margin: 0 20px 0;*/
-	}
-}
-@media(orientation: portrait) {
-	.button > img {
-		position: absolute;
-		display: block;
-		height: 20px;
-		left: 40px;
-		top: 25px;
-		z-index: 1000;
-	}
-	.button {
-		top: 0;
-		width: 100%;
-		height: 70px;
-		z-index: 1000;
-		background-color: #003b54;
-  		position: fixed;
-	}
-	.nav_link {
->>>>>>> Stashed changes
-		position: fixed;
-		top: 0;
+    position: fixed;
+    top: 0;
     align-items: center;
     background-color: #003b54;
     height: 70px;
@@ -115,10 +72,11 @@ nav {
     /*z-index: 1000;*/
     width: 100%;
     z-index: 10000;
+    --count: 9;
+    --activity_count: 5;
   }
 
   .nav_link > a {
-    --count: 9;
     color: #fbf8f8;
     flex: none;
     font-family: Lato, sans-serif;
@@ -128,8 +86,55 @@ nav {
     box-sizing: border-box;
   }
 
-  .nav_link :nth-child([[index]]) {
+  .nav_link > a:not(:last-child) {
+    border-right: 1px solid #001b26;
+  }
+
+  .nav_link > :nth-child([[index]]) {
     border-bottom: 5px solid white;
+  }
+
+
+  #nav_activity {
+    position: relative;
+  }
+
+  #nav_activity:after {
+    content: "";
+    position: absolute;
+    right: 10px;
+    top: calc(50% - 8px);
+    width: 7px;
+    height: 7px;
+    border: 1px solid;
+    border-color: transparent white white transparent;
+    transform: rotate(45deg);
+  }
+
+  #nav_activity_content {
+    position: absolute;
+    top: 100%;
+    left: calc(100% / var(--count) * 5);
+    right: calc(100% / var(--count) * 3);
+    background-color: #003b54;
+    height: calc(40px * var(--activity_count) + 40px);
+    margin: 0;
+    list-style-type: none;
+    padding:20px;
+  }
+
+  #nav_activity_content a {
+    display: block;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    border-top: 1px solid white;
+  }
+  #nav_activity_content a:last-child {
+    border-bottom: 1px solid white;
   }
 
   @media (orientation: landscape) {
@@ -144,7 +149,7 @@ nav {
       height: 100%;
       display: grid;
       align-items: center;
-      font-size: min(1.2vw, 17px);
+      font-size: min(1.1vw, 17px);
     }
 
     .button > img {
@@ -154,9 +159,9 @@ nav {
     .nav_link > a {
       text-align: center;
       line-height: 1.4;
-      width: calc(100% / var(--count) - 40px);
-      max-width: calc(100% / var(--count) - 40px);
-      margin: 0 20px 0;
+      width: calc(100% / var(--count));
+      max-width: calc(100% / var(--count));
+      padding: 0 20px 0;
     }
   }
 
@@ -213,20 +218,3 @@ nav {
     }
   }
 </style>
-<<<<<<< Updated upstream
-=======
-<script>
-	let open_judge = -1;
-
-	window.onload = () => {
-		document.getElementById('ham').onclick = () => {
-			if (open_judge === -1) {
-				document.getElementById('navLink').classList.add('open');
-			} else {
-				document.getElementById('navLink').classList.remove('open');
-			}
-			open_judge*=-1;
-		};
-	}
-</script>
->>>>>>> Stashed changes
