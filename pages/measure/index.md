@@ -37,13 +37,15 @@
     <Image src="../svg/description/D30.svg"></Image>
 </div>
 
-回収ボックスは全国の公共施設やスーパー、家電量販店、学校などに設置されています。<SummaryLink>2</SummaryLink>
+回収ボックスは全国の公共施設やスーパー、家電量販店、学校などに設置されています。
+<SummaryLink id="2">
 回収ボックスにあまりなじみがないという方も多いかもしれませんが、一度「近くの回収ボックス」と検索してみてください。
 きっとその数の多さに驚きますよ。
 （※回収ボックスを利用される方は、自治体ごとに対象品目が異なることがありますのでご注意ください）
 上のイラスト～回収ボックスからリサイクルまでの流れ～のように、市町村で回収された小型家電はリサイクル事業者で分解・粉砕・選別が行われた後に、金属精錬事業者で金属の取り出しが行われ、これが新たな資源としてメーカーに運ばれます。
 このリサイクル事業者の中には国に認められている<Word>認定事業者</Word>として下のようなマークを付けているものもあります。
 現在、認定事業者は、58社あり（2021年8/6時点）、<a href="https://www.env.go.jp/recycle/recycling/raremetals/trader.html">環境省</a>のページですべて公開されています。
+</SummaryLink>
 
 <div class="image_container">
     <CaptionImage src="../img/measure/e-waste-mark.png" height="200px" source="環境省" link="https://www.env.go.jp/press/16107.html"></CaptionImage>
@@ -55,26 +57,29 @@
 
 ### スイス
 
-金属リサイクルでリードしているのはスイスです。<SummaryLink>4</SummaryLink>
+金属リサイクルでリードしているのはスイスです。<SummaryLink id="4">
 スイスは現在の日本と同じく天然資源に乏しい国です。
 しかし、スイスは国内の電子廃棄物を再利用することによって、これを補っています。
 実に2018年時点で<ForceText>電子廃棄物のリサイクル率は95%</ForceText>に達しています。
 どのようにしてこれほどまでに大きな成功をおさめることができているのでしょうか。
-<SummaryLink>1</SummaryLink>
+</SummaryLink>
+<SummaryLink id="1">
 まず、スイスでは1998年初頭に「<Word break="normal" >電気・電子機器の返却・引き取り・処分に関する政令</Word>（legislation on the Return, Take-Back and Disposal of Electrical and Electronic Equipment, ORDEE）」が制定されました。
 これにより、スイス国内の小売業者、メーカー、輸入業者は、通常、取り扱っている電化製品を無料で引き取ることが義務付けられています。
 一方、<ForceText>消費者にも使用済みの家電製品を返却する義務</ForceText>があり、他のゴミと一緒に出すことはできません。
-<SummaryLink>0</SummaryLink>
+</SummaryLink>
+<SummaryLink id="0">
 スイスの会社が無料で廃電子機器を回収できるのは、<ForceText>消費者が購入する際にその製品の種類に応じてすでに前払いの廃棄料金が含まれている</ForceText>からです。
 消費者側からすれば「せっかく買うときに廃棄代払ってるんだから無料で回収してもらうか」という気になるわけです。
 他にも多くの要因がありますが、このようにしてスイスは強力な電子廃棄物管理システムを確立しているのです。
+</SummaryLink>
 
 ### 中国
 中国は電子廃棄物排出量世界一位の消費大国です。
 2019年には中国のみで1000万トン以上消費しており、今後も増加していくと予測されています。
 そんな中国の都市鉱山利用を見てみましょう。
 中国で、廃電子機器が初めに持ち込まれる場所は<Word>ヤード</Word>と呼ばれます。
-<SummaryLink>3</SummaryLink>
+<SummaryLink id="3">
 しかし、ここに持ち込まれたものが<ForceText>すべてリサイクルされるわけではありません。</ForceText>
 そのうちの多くはリサイクルではなく<Word>リユース</Word>されるのです。
 中国では製品のどの部分においてもその部分を必要とする人がたいていいます。
@@ -82,10 +87,11 @@
 これは、「利用する人が積極的に資源を見つけよう」という考えによるものです。
 「できるだけ資源を無駄にしたくない。リサイクルすれば誰かが使うでしょ」という考えで誰が利用するかがあやふやなままリサイクルをしている日本とは違った考え方です。
 日本でもこのような考え方から学ぶことは多いかもしれません。
+</SummaryLink>
 
 ### フランス
 不法投棄を減らすために<ForceText>廃棄物の量自体を減らす</ForceText>というのも1つの方法です。
-<SummaryLink>7</SummaryLink>
+<SummaryLink id="7">
 新型コロナウイルス感染が拡大している現在、ヨーロッパ、特にフランスである動きが注目されるようになりました。
 それは<ForceText>「修理業者がオンラインで修理をサポートする」</ForceText>というものです。
 普段使っている製品が故障したときみなさんはどうしますか？
@@ -98,6 +104,7 @@
 そのため、企業は消費者が自分で修理できるような製品を作らなければならないことになっています。
 実際フランスでは、「<Word>修理のしやすさ指数</Word>」の表示が企業に義務づけられ、修理マニュアルを作成する企業も増えました。
 気に入ったものを長く大切に使える、それが当たり前になる社会をフランスをはじめ世界各国が目指して動き出しています。
+</SummaryLink>
 
 ### オーストラリア
 国土が広大なオーストラリアは天然資源が豊富で、<Word>自給率</Word>も昔から高い数値を維持してきています。
@@ -110,7 +117,7 @@
 このように天然資源が豊富な国でも資源問題が意識されるようになったのです。
 
 ### アメリカ
-アメリカでは「<Word>シングルストリーム</Word>」というリサイクル方式が浸透しています。<SummaryLink>6</SummaryLink>
+アメリカでは「<Word>シングルストリーム</Word>」というリサイクル方式が浸透しています。<SummaryLink id="6">
 この「シングルストリーム」とは資源ゴミをまとめて回収し、後から自治体の選別施設で磁石や光学センサーなどを利用して回収した資源ゴミを選別するという方法です。
 この方法では<ForceText>国民はゴミを分別する必要はありません。</ForceText>
 ゴミを分別してから回収するのが一般的な日本とは大きく異なっていますね。
@@ -123,6 +130,7 @@
 「シングルストリーム」では、集められた資源ゴミの中には汚染されすぎていてリサイクルできないというものが多いため、リサイクルの効率が悪いと言われています。
 その上、近年中国が廃棄物の輸入規制を行ったためアメリカの埋立地行きのゴミがさらに増えることになりました。
 そのためアメリカは現在資源ゴミの最先端の選別機械の開発を進めています。
+</SummaryLink>
 
 一方、「<a href="../present-situation/">資源の現状</a>」で述べたように廃電子機器リサイクルがうまくいっていない国も多くあるのが現状です。
 そのため、リサイクルシステムが軌道に乗っている都市鉱山開発先進国が、そのような都市鉱山開発後進国を支援することも世界規模での都市鉱山開発につながります。
@@ -131,12 +139,13 @@
 ## 企業の取り組み
 
 
-都市鉱山の利用は国だけでなく、大きな力をあげて取り組む企業も多くあります。<SummaryLink>5</SummaryLink>
+都市鉱山の利用は国だけでなく、大きな力をあげて取り組む企業も多くあります。<SummaryLink id="5">
 日本国内でいうと、世界の国々の取り組みで紹介した「<Word>認定事業者</Word>」は私たちの電子機器を正しい方法で資源へと変えており、そのような企業の代表です。
 これら認定事業者は日本国内の小型家電の回収量のうち約30%を回収しています。（残りは主に市町村からの回収によって賄われています。）
 また、金属リサイクルをすると環境にとって有害な物質が出てきてしまいます。
 この処理を適切に行ってくれているのも認定事業者です。
-<SummaryLink>8</SummaryLink>
+</SummaryLink>
+<SummaryLink id="8">
 さらに、リサイクルについて考える企業に対し、さまざまな提案をする環境コンサルティングを行う認定事業者もあります。
 認定事業者の1つであるリバーホールディングス株式会社はタイで金属リサイクル事業を展開する日髙洋行エンタープライズと合弁することで海外にも進出しています。
 このように<ForceText>日本の認定事業者は海外でも活躍しています。</ForceText>
@@ -144,6 +153,7 @@
 アメリカのWaste Mangementやベルギーのumicore、フランスのVeoliaなどが有名です。
 海外のリサイクル企業が日本と大きく違うのは、<ForceText>回収から中間処理、最終処理まですべてを1つの企業だけで行う</ForceText>ことが多いということです。
 したがって日本に比べて規模が大きくなる傾向があります。
+</SummaryLink>
 
 企業名 | 売上 | 企業名 | 売上
 -- | -- | -- | --
@@ -164,7 +174,7 @@ DOWA | 588億300万円 | veolia(フランス) | 260億ユーロ(3兆3612億)
 認定事業者を装って資源回収を呼び掛ける違法業者という人たちもいます。そういう人たちに廃電子機器を出さないよう気をつけましょう。
 </AtomCharacter>
 
-また、他の事業を行いながらリサイクルにも力を入れている企業もあります。<SummaryLink>9</SummaryLink>
+また、他の事業を行いながらリサイクルにも力を入れている企業もあります。<SummaryLink id="9">
 日本国内ではヤマトホールディングス傘下のヤマトホームコンビニエンス株式会社が認定事業者であるリバーホールディングス株式会社と大栄環境株式会社と連携し、クロネコ小型家電リサイクルサービスを提供しています。
 これはヤマトホームコンビニエンス株式会社が他のサービスで家に訪問したときに一緒に不要な小型家電製品を収集し、最寄りの拠点まで運搬、集約拠点での商品確認、資源化施設への引渡しまでを行うというものです。
 このようにリサイクルに直接的には関係のない企業でも都市鉱山活用に役立っている企業は多くあります。
@@ -174,6 +184,7 @@ Appleには、<ForceText>新しい端末を購入するときに使い終わっ�
 これならば企業側は自社製品を続けて消費者に買ってもらえる可能性が高まり、消費者側は進んで都市鉱山の利用に参加できそうですね。
 ここに持ち込まれた製品は1時間に200台ものスマホを解体できる機械によって分解され新しい製品の材料となります。
 このように金属リサイクルに関係のない企業も積極的にリサイクルに取り組むこと自体がもちろん都市鉱山の利用につながるでしょうし、そのような状況が当たり前になっていくにつれて私たち一般人の意識も良い方向へ変わっていき、さらに金属リサイクルは加速していくことでしょう。
+</SummaryLink>
 
 <Column title="悲劇と戦う企業Fairphone">
 「<a href="../present-situation/">資源の現状</a>」で電子機器の中の資源をめぐって多くの人々が悲惨な目にあっていることを紹介しました。
@@ -190,7 +201,8 @@ Appleには、<ForceText>新しい端末を購入するときに使い終わっ�
 
 ## みんなのメダルプロジェクト
 
-皆さんは東京2020オリンピック・パラリンピックの白熱した試合の数々をご覧になりましたか？<SummaryLink>10</SummaryLink>
+皆さんは東京2020オリンピック・パラリンピックの白熱した試合の数々をご覧になりましたか？
+<SummaryLink id="10">
 コロナ禍で迎えたオリンピック・パラリンピックで頑張る選手たちの姿に感激されたという方も多いのではないでしょうか。
 実は、そんな<ForceText>東京2020オリンピック・パラリンピックも都市鉱山と深く関係していた</ForceText>のです！
 それがこの「<Word>みんなのメダルプロジェクト</Word>」です。
@@ -200,6 +212,7 @@ Appleには、<ForceText>新しい端末を購入するときに使い終わっ�
 その結果、<ForceText>使用済み家電からおおよそ金32kg, 銀3500kg, 銅2200kgが確保され、東京2020オリンピック・パラリンピックに必要な約5000個のメダル全てが完成しました。</ForceText>
 こうしてかつての廃電子機器は表彰台で選手の胸に輝くこととなったのです！
 この「みんなのメダルプロジェクト」は「<Word>アフターメダルプロジェクト</Word>」に引き継がれ、現在も実施されています。
+</SummaryLink>
 
 <AtomCharacter atom="Li">
 東京2020オリンピック・パラリンピックの聖火リレートーチの素材の一部は、古くなった仮説住宅のアルミ廃材がリサイクルされたものなんだよ。みんな知ってた？
@@ -297,12 +310,14 @@ You can recycle your devices by putting them in recycling boxes.
     <CaptionImage src="../svg/description/D30_en.svg" caption="Process from recycling box to recycling"></CaptionImage>
 </div>
 
-Recycling boxes can be found at supermarkets, stores that sell home appliances, schools, and so on.<SummaryLink>2</SummaryLink>
+Recycling boxes can be found at supermarkets, stores that sell home appliances, schools, and so on.
+<SummaryLink id="2_en">
 If you do not know much about collection boxes, try searching to search the Internet for a recycling box near you.
 You will be amazed by the number of them(*Keep in mind that local governments may collect different kinds of items for recycling).
 As you can see from the illustration above, collected small home appliances are disassembled, crushed, and separated into different resources by recycling companies, and then the metals are extracted by metal refiners, which are then transported to manufacturers as new resources.
 Some of these recycling companies are <Word>certified by the government</Word> and carry the mark shown below.
 Currently, there are 58 certified companies (as of 8/6/2021), all of which are listed on the [Ministry of the Environment's website](https://www.env.go.jp/recycle/recycling/raremetals/trader.html).
+</SummaryLink>
 
 <div class="image_container">
     <CaptionImage src="../img/measure/e-waste-mark.png" height="200px" source="環境省" link="https://www.env.go.jp/press/16107.html"></CaptionImage>
@@ -314,20 +329,22 @@ Japan has a better system for recycling in the right way compared to other count
 
 ### Switzerland
 
-Switzerland is a country where many things are recycled.<SummaryLink>4</SummaryLink>
+Switzerland is a country where many things are recycled.<SummaryLink id="4_en">
 Like Japan, Switzerland is a country that is poor in natural resources.
 However, Switzerland makes up for this by reusing the metals in recycled e-waste.
 In fact, <ForceText>95 percent of e-waste was recycled</ForceText> in 2018.
 How did they succeed?
-<SummaryLink>1</SummaryLink>
+</SummaryLink>
+<SummaryLink id="1_en">
 Switzerland made a law called <Word break="normal">Return, Take-Back and Disposal of Electrical and Electronic Equipment</Word>(ORDEE), in early 1998.
 This means that retailers, manufacturers and importers in Switzerland must take back the electrical equipment they have sold, free of charge.
 Also, <ForceText>consumers must return used electrical appliances</ForceText> and must not throw them away with other waste.
-<SummaryLink>0</SummaryLink>
+</SummaryLink>
+<SummaryLink id="0_en">
 The reason why Swiss companies are able to collect e-waste for free is that <ForceText>consumers have already paid the disposal fees when they bought the products</ForceText>.
 Consumers are more willing to recycle because of that.
 There are many other factors, but this is how Switzerland has established its e-waste recycling system.
-
+</SummaryLink>
 
 ### China
 
@@ -335,7 +352,7 @@ China gets more e-waste than any other country every year.
 In 2019, China alone generated more than 10 million tons of e-waste, and the number is expected to increase.
 Let's take a look at the use of urban mining in China.
 In China, the first place where old electronic devices are brought in is called a &#147;<Word>Yard</Word>&#148;.
-<SummaryLink>3</SummaryLink>
+<SummaryLink id="3_en">
 However, <ForceText>not everything that is brought in here is recycled</ForceText>.
 Many of them are <Word>reused</Word> instead of recycled.
 In China, there is usually someone who needs discarded devices.
@@ -344,6 +361,7 @@ Many Chinese people think that they should find their resources by themselves.
 On the other hand, Japanese people think differently.
 They do not want to waste resources as much as possible and recycle thinking that someone else will use them.
 Japan could learn a lot from their way of thinking.
+</SummaryLink>
 
 ### France
 
@@ -375,7 +393,7 @@ In this way, even countries which are rich in natural resources have to address 
 ### America
 
 In the U.S., a recycling method called "<Word>single stream</Word>" is popular.
-<SummaryLink>6</SummaryLink>
+<SummaryLink id="6_en">
 In this method, recyclable waste is collected in bulk, and later it is separated using magnets and sensors.
 With this method, <ForceText>people do not have to classify their garbage into different types and throw them away</ForceText>.
 This is completely different from Japan, where consumers usually do it.
@@ -388,6 +406,7 @@ On the other hand, the disadvantage is that <ForceText>the amount of garbage dum
 In "single-stream," recycling is not as efficient as it could be because much of the e-waste collected is too contaminated to be recycled.
 In addition China has been importing less and less waste in recent years, so more and more garbage is buried in the US.
 The U.S. is currently trying to make advanced machines to classify e-waste into some types.
+</SummaryLink>
 
 As mentioned in the "[Present Situation](../present-situation)" section, there are many countries that are not recycling much waste.
 Therefore, it is important for countries that have good recycling systems to help such countries in order to increase the amount of e-waste that is recycled.
@@ -396,12 +415,13 @@ In fact, Switzerland is working with countries such as Ghana, which has been use
 ## Work by Companies
 
 There are many companies that are involved in recycling.
-<SummaryLink>5</SummaryLink>
+<SummaryLink id="5_en">
 In Japan, the <Word>certified companies</Word> we mentioned earlier turn our electronic devices into resources in the right way.
 These companies collect about 30% of all small household appliances collected in Japan.
 (The rest is mainly collected by local governments.)
 When you recycle, substances that can damage the environment are released, and these companies properly dispose of the substances.
-<SummaryLink>8</SummaryLink>
+</SummaryLink>
+<SummaryLink id="8_en">
 There are certified companies that offer various suggestions to companies that are thinking of recycling by themselves.
 One of these companies, Rever Holdings Corporation, is expanding its business overseas by working with Hidaka Yoko Enterprise, which operates a metal recycling business in Thailand.
 In this way, <ForceText>Japanese certified companies are also active overseas</ForceText>.
@@ -409,7 +429,7 @@ Of course, there are many companies overseas that are focusing on recycling meta
 Waste Management in the U.S., Umicore in Belgium, and Veolia in France are some of the most famous companies.
 The major difference between overseas recycling companies and those in Japan is that <ForceText>the collection, intermediate processing, and final processing of e-waste is often done by a single company</ForceText>.
 Therefore, recycling companies tend to be larger than those in Japan.
-
+</SummaryLink>
 
 Company | Earnings | Company | Earnings
 -- | -- | -- | --
@@ -433,7 +453,7 @@ Be careful not to give your electronic devices to these groups.
 </AtomCharacter>
 
 There are also companies that focus on recycling while doing other businesses.
-<SummaryLink>9</SummaryLink>
+<SummaryLink id="9_en">
 In Japan, Yamato Home Convenience Co., Ltd. offers Kuroneko Small Home Appliance Recycling Service in cooperation with Rever Holdings Co. and Daiei Kankyo Co.,Ltd.
 They collect small household appliances when they visit your house for other services, transport them to the nearest base, and give them to recycling companies.
 In this way, there are many companies that are not originally involved in recycling, but are helping to recycle more e-waste.
@@ -444,6 +464,7 @@ Apple not only sells electronic devices, but also collects and recycles them.
 This way, consumers are more likely to continue to buy Apple's products and recycle e-waste.
 The recycled devices will be disassembled by a machine that can process as many as 200 phones per hour.
 The more companies start to recycle e-waste, the more of it will be recycled and the more seriously you will come to think about metal recycling.
+</SummaryLink>
 
 <Column title="Fairphone">
 [リンクどこやー](../present-situation/)We showed that many people are harmed and killed in order to get resources needed to make electrical equipment.
@@ -462,7 +483,7 @@ Unfortunately, Fairphone is not sold at stores in Japan, but we hope that someda
 ## Tokyo 2020 Medals Project
 
 Did you enjoy the exciting Tokyo Olympic Games?
-<SummaryLink>10</SummaryLink>
+<SummaryLink id="10_en">
 Many people must have been moved to see athletes trying hard in the games that were held during the pandemic.
 Actually, <ForceText>the Tokyo Olympics were deeply related to urban mining!</ForceText>
 There was a project called “<Word>Tokyo 2020 Medals Project.</Word>"
@@ -472,6 +493,7 @@ Many events were held to complete the project, and urban mining has become more 
 Eventually, <ForceText>32 kilograms of gold, 3500 kilograms of silver, 2200 kilograms of copper were collected from household appliances and they succeeded in making about 5000 medals needed for the Olympic and Paralympic Games</ForceText>.
 Thus our e-waste became a lifetime treasure for many athletes.
 This project changed its name to “<Word>After Medal Project</Word>" and is calling on people to recycle their e-waste.
+</SummaryLink>
 
 <AtomCharacter atom="Li">
 The torches used in the Tokyo Olympic torch relay were partly made of aluminum used in old temporary housing.
