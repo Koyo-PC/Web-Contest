@@ -278,7 +278,7 @@ We found out that there are different ways to recycle, and many unique measures 
 The following are the six countries we are going to introduce!
 
 <div class="image_container">
-    <Image src="../svg/description/D19.svg" height="20vw"></Image>
+    <Image src="../svg/description/D19_en.svg" height="20vw"></Image>
 </div>
 
 ### Japan
@@ -293,7 +293,7 @@ You may be thinking like this.
 You can recycle your devices by putting them in recycling boxes.
 
 <div class="image_container">
-    <CaptionImage src="../svg/description/D30.svg" caption="Process from recycling box to recycling"></CaptionImage>
+    <CaptionImage src="../svg/description/D30_en.svg" caption="Process from recycling box to recycling"></CaptionImage>
 </div>
 
 Recycling boxes can be found at supermarkets, stores that sell home appliances, schools, and so on.<SummaryLink>2</SummaryLink>
@@ -311,7 +311,7 @@ Although the amount of e-waste collected each year has been steadily increasing,
 Only 15 percent of all electronic equipment was recycled in 2017.
 Japan has a better system for recycling in the right way compared to other countries, so you should be able to recycle more household appliances by taking advantage of it.
 
-### スイス
+### Switzerland
 
 Switzerland is a country where many things are recycled.<SummaryLink>4</SummaryLink>
 Like Japan, Switzerland is a country that is poor in natural resources.

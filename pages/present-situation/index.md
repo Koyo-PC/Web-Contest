@@ -199,7 +199,7 @@ However, it is not an easy task to obtain them.
 What kind of idea do you have about metal resources such as gold and silver?
 
 <div class="image_container">
-    <Image src="../svg/description/A8.svg" alt="金・銀へのイメージ"></Image>
+    <Image src="../svg/description/A8_en.svg"></Image>
 </div>
 
 We think that there are various ideas about them, but that many people are not very familiar with them.
