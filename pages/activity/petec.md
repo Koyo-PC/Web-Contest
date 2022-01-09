@@ -467,7 +467,7 @@ Actually,recycling large appliances such as televisions and refrigerators is als
 PETEC is one of the companies responsible for it and aims to achieve a sound recycling-oriented society by recycling under the slogan of "treasure hunting," considering the surrounding environment.
 
 <div class="image_container">
-    <Image src="../svg/petec/top.svg" scale="150%"></Image>
+    <Image src="../svg/petec/top_en.svg" scale="150%"></Image>
 </div>
 
 They recycle four items (televisions, air conditioners, refrigerators / freezers, washing machines / clothes dryers), which are specified by the Home Appliance Recycling Law.
@@ -522,7 +522,7 @@ PETEC has met the legal recycling rate for all items.
 
 We would like to introduce a recycling process carried out at PETEC by product.
 
-### テレビ
+### Television
 
 Televisions are classified into three types: CRT televisions, plasma televisions, and LCD televisions.
 However, because the amount of CRT Televisions emitted from households is currently small, they are not processed at PETEC.
@@ -563,7 +563,7 @@ We could see demonstrations of it in PETEC!!
 
 <div class="image_container">
     <svg viewBox="0, 0, 700, 500">
-        <use xlink:href="../svg/petec/1.svg#main"></use>
+        <use xlink:href="../svg/petec/1_en.svg#main"></use>
     </svg>
 </div>
 
@@ -572,8 +572,8 @@ We could see demonstrations of it in PETEC!!
         <dl>
             <dt>＜Magnetic sorting machine＞</dt>
             <div class="image_container">
-                <LinkAnchor id="petec_img_2"></LinkAnchor>
-                <Image src="../svg/petec/2.svg"></Image>
+                <LinkAnchor id="petec_img_2_en"></LinkAnchor>
+                <Image src="../svg/petec/2_en.svg"></Image>
             </div>
             <dd>Role: Sort into what is magnetic and what is not.</dd>
             <dd>Procedure:
@@ -589,8 +589,8 @@ We could see demonstrations of it in PETEC!!
         <dl>
             <dt>＜Non-ferrous metal sorting machine＞</dt>
             <div class="image_container">
-                <LinkAnchor id="petec_img_3"></LinkAnchor>
-                <Image src="../svg/petec/3.svg"></Image>
+                <LinkAnchor id="petec_img_3_en"></LinkAnchor>
+                <Image src="../svg/petec/3_en.svg"></Image>
             </div>
             <dd>Role: Separate non-magnetic metals (non-ferrous metals) from non-metals.</dd>
             <dd>Procedure:
@@ -608,8 +608,8 @@ We could see demonstrations of it in PETEC!!
         <dl>
             <dt>＜Specific gravity sorting machine＞</dt>
             <div class="image_container">
-                <LinkAnchor id="petec_img_4"></LinkAnchor>
-                <Image src="../svg/petec/4.svg"></Image>
+                <LinkAnchor id="petec_img_4_en"></LinkAnchor>
+                <Image src="../svg/petec/4_en.svg"></Image>
             </div>
             <dd>Role: Separate heavy items from light ones.</dd>
             <dd>Procedure:
@@ -645,7 +645,7 @@ After the CFC gas is extracted, the main body is crushed by a special crusher in
 
 <div class="image_container">
     <svg viewBox="0, 0, 1400, 800">
-        <use xlink:href="../svg/petec/5.svg#main"></use>
+        <use xlink:href="../svg/petec/5_en.svg#main"></use>
     </svg>
 </div>
 <ul>
@@ -653,8 +653,8 @@ After the CFC gas is extracted, the main body is crushed by a special crusher in
         <dl>
             <dt>＜Wind power sorting machine＞</dt>
             <div class="image_container">
-                <LinkAnchor id="petec_img_6"></LinkAnchor>
-                <Image src="../svg/petec/6.svg"></Image>
+                <LinkAnchor id="petec_img_6_en"></LinkAnchor>
+                <Image src="../svg/petec/6_en.svg"></Image>
             </div>
             <dd>Role: Separate heavy items from light ones.</dd>
             <dd>Procedure:
@@ -682,8 +682,8 @@ After the CFC gas is extracted, the main body is crushed by a special crusher in
         <dl>
             <dt>＜High-precision plastic sorting system＞</dt>
             <div class="image_container">
-                <LinkAnchor id="petec_img_7"></LinkAnchor>
-                <Image src="../svg/petec/7.svg"></Image>
+                <LinkAnchor id="petec_img_7_en"></LinkAnchor>
+                <Image src="../svg/petec/7_en.svg"></Image>
             </div>
             <dd>Role: Classify plastics into ABS, PP, and PS.</dd>
             <dd>Procedure:
