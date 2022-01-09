@@ -23,6 +23,16 @@
         }
       }
 
+      a {
+        color: darkblue;
+      }
+
+      a[href^="http"]:after {
+        content: "(外部リンク)";
+        font-size: small;
+        margin-left: 2px;
+      }
+
       @media (orientation: portrait) {
         * {
           font-size: 16px;
@@ -1238,8 +1248,12 @@
               alt=""
               style="transform: scale(150%)"
             />
-            <div class="note"><a class="href" href=""></a></div>
-            <figcaption class="image_caption"></figcaption>
+            <figcaption class="image_caption">
+              <span style="display: none"
+                ><br /><span class="lang_en">Data Source : </span><a href=""></a
+                ><span class="lang_jp">より引用</span></span
+              >
+            </figcaption>
           </figure>
         </div>
 
@@ -1327,7 +1341,7 @@
         </p>
         <figure>
           <figcaption style="white-space: nowrap">
-            法定リサイクル率の表
+            各家電の法定リサイクル率
           </figcaption>
           <table>
             <tr>
@@ -1760,7 +1774,7 @@
           そう思われている方もいるかもしれません。実は、技術の発達や商品のリサイクルのしやすさの向上などから、リサイクル料金は減ってきているのです。
         </p>
         <figure>
-          <figcaption>リサイクル料金の表</figcaption>
+          <figcaption>リサイクル料金の変化</figcaption>
           <table>
             <tr>
               <th colspan="2">4品目</th>
@@ -2093,8 +2107,12 @@ PETECの位置する加東市（人口：39848人 <span class="weak">2021年9月
               alt=""
               style="transform: scale(150%)"
             />
-            <div class="note"><a class="href" href=""></a></div>
-            <figcaption class="image_caption"></figcaption>
+            <figcaption class="image_caption">
+              <span style="display: none"
+                ><br /><span class="lang_en">Data Source : </span><a href=""></a
+                ><span class="lang_jp">より引用</span></span
+              >
+            </figcaption>
           </figure>
         </div>
 

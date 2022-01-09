@@ -23,6 +23,16 @@
         }
       }
 
+      a {
+        color: darkblue;
+      }
+
+      a[href^="http"]:after {
+        content: "(外部リンク)";
+        font-size: small;
+        margin-left: 2px;
+      }
+
       @media (orientation: portrait) {
         * {
           font-size: 16px;
