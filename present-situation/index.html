@@ -497,6 +497,28 @@
         border: calc(var(--size) / 2) solid transparent;
         border-right: calc(var(--size) / 2) solid var(--color);
       }
+      .image_box {
+        display: inline-block;
+        position: relative;
+        /*width: 100%;*/
+        margin-bottom: 3em;
+      }
+
+      .image {
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+        margin: 0 auto;
+      }
+
+      .image_caption {
+        display: block;
+        width: 100%;
+        text-align: center;
+        vertical-align: bottom;
+        line-height: 1.2em;
+        padding-top: 0.5em;
+      }
       .column {
         background-color: #c4edb755;
         /*border: 3px solid #c4edb7;*/
@@ -1316,8 +1338,12 @@
               alt="金・銀へのイメージ"
               style="transform: scale()"
             />
-            <div class="note"><a class="href" href=""></a></div>
-            <figcaption class="image_caption"></figcaption>
+            <figcaption class="image_caption">
+              <span style="display: none"
+                ><br /><span class="lang_en">Data Source : </span><a href=""></a
+                ><span class="lang_jp">より引用</span></span
+              >
+            </figcaption>
           </figure>
         </div>
 
@@ -1443,20 +1469,24 @@
         <h2 id="生産量の増加">生産量の増加</h2>
         <p>
           世界全体で一体どれくらいの金属が掘られているのでしょうか？<br />
-          下のグラフは世界の主要な金属の生産量の推移を表すものです。
+          下のグラフ（図1.1）は世界の主要な金属の生産量の推移を表すものです。
         </p>
         <div class="image_container">
-          <figure class="image_box" style="width: ; height: 40vw" id="">
+          <figure class="image_box" style="width: 40vw; height: " id="">
             <img
               class="image"
               src="../assets/book/book_p7.png"
-              alt="主要な金属の生産量の推移"
+              alt=""
               style="transform: scale()"
             />
-            <div class="note">
-              書籍『資源論』をスキャン<a class="href" href=""></a>
-            </div>
-            <figcaption class="image_caption"></figcaption>
+            <figcaption class="image_caption">
+              図1.1 金属生産量の増加<span style="display: initial"
+                ><br /><span class="lang_en">Data Source : </span><a href=""></a
+                ><span class="lang_jp"
+                  >書籍『資源論』をスキャンして作成</span
+                ></span
+              >
+            </figcaption>
           </figure>
         </div>
 
@@ -1525,25 +1555,25 @@
           そのため、このままでは2050年までにスマートフォンが作れなくなってしまうという事態が起こりうるのです。
         </p>
         <h2 id="資源の偏在">資源の偏在</h2>
-        <p>下のグラフを見てください。</p>
+        <p>下のグラフ（図1.2）を見てください。</p>
         <div class="image_container">
           <figure class="image_box" style="width: 50vw; height: " id="">
             <img
               class="image"
               src="../assets/susdi/7d2a8a5d380f463388d1c8d4512bef57.jpg"
-              alt="金属生産のシェア上位3か国が占める比率"
+              alt=""
               style="transform: scale()"
             />
-            <div class="note">
-              <img
-                class="inline_image"
-                src="../assets/susdi/46e68cc8af75454ff9cc3fd767a83b0e-300x109.png"
-              />より引用<a
-                class="href"
-                href="http://susdi.org/wp/data/post-61/"
-              ></a>
-            </div>
-            <figcaption class="image_caption"></figcaption>
+            <figcaption class="image_caption">
+              図1.2 金属生産上位３か国のシェア<span style="display: initial"
+                ><br /><span class="lang_en">Data Source : </span
+                ><a href="http://susdi.org/wp/data/post-61/"
+                  ><img
+                    style="height: 1em; vertical-align: middle"
+                    src="../assets/susdi/46e68cc8af75454ff9cc3fd767a83b0e-300x109.png" /></a
+                ><span class="lang_jp">より引用</span></span
+              >
+            </figcaption>
           </figure>
         </div>
 
