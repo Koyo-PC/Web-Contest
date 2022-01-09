@@ -21,7 +21,7 @@
 
 ## 制作者紹介
 
-### K.Z.
+### Z.K.
 
 <NoIndent>
 「右ポケ」チームのリーダー。<br>
@@ -30,7 +30,7 @@
 文章構成、英訳担当
 </NoIndent>
 
-### H.K.
+### K.H.
 
 <NoIndent>
 通学で毎日電車に乗ることで、あんなに乗り物酔いで苦手だった電車をようやく克服！<br>
@@ -38,7 +38,7 @@
 文章構成、イラスト、英訳担当
 </NoIndent>
 
-### M.T.
+### T.M
 
 <NoIndent>
 ホームページの見た目をなんとかするのを手伝った。<br>
@@ -46,7 +46,7 @@
 ページ制作、スマホ対応担当<br>
 </NoIndent>
 
-### I.D.
+### D.I
 
 <NoIndent>
 JavaScriptやC++をよく書いているらしい。<br>
@@ -55,12 +55,12 @@ JavaScriptやC++をよく書いているらしい。<br>
 文章校正、ページ制作、イラスト、英訳担当
 </NoIndent>
 
-### K.H.
+### H.K
 
 <NoIndent>
 いつもパソコンを触っている<s>オタク</s>パソコンに詳しい人。<br>
 Web系の資格を持っているのに得意な言語はJavaらしい。<br>
-このページを作るためにNode.jsでアプリを一つ作ったとか。<br>
+このページを作るためにNode.jsでアプリを一つ作ったとか。<small>(<a href="https://github.com/ZOI-dayo/SCML">ソースコード</a>)</small><br>
 文章構成、ページ制作、イラスト、英訳担当
 </NoIndent>
 
@@ -265,7 +265,7 @@ Part: Proofreading articles, programming, creating illustrations and translating
 <NoIndent>
 He is a <s>geek</s> person who always uses computers and is familiar with them.
 He's a certified web developer, but his favorite language seems to be Java.
-He built an application in Node.js to make this site.
+He built an application in Node.js to make this site. <small>(<a href="https://github.com/ZOI-dayo/SCML">Source Code</a>)</small><br>
 Part: Writing articles, programming and creating illustrations
 </NoIndent>
 
