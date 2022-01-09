@@ -205,12 +205,12 @@ What kind of idea do you have about metal resources such as gold and silver?
 We think that there are various ideas about them, but that many people are not very familiar with them.
 Actually, we had not thought about them seriously before we began to create this site.
 In fact, our lives today would be more inconvenient without metal.
-<SummaryLink>0</SummaryLink>
+<SummaryLink>0_en</SummaryLink>
 <ForceText>We are surrounded by metal resources!</ForceText>
 Televisions, air conditioners, refrigerators, washing machines, cars, watches, LED lights, smartphones ….
 There is no end to the number of products in which metals are used.
 
-Our lives are supported by metal resources!<SummaryLink>2</SummaryLink>
+Our lives are supported by metal resources!<SummaryLink>2_en</SummaryLink>
 
 <Column title="Indispensable metal resources for cutting edge technology — neodymium & niobium">
 Neodymium magnet is famous as the strongest magnet.
@@ -233,7 +233,7 @@ It shows the change in the production of major metal in the world.
 Although the amount is down temporarily due to the <Word>oil crisis</Word>, <ForceText>it has been increasing overall.</ForceText>
 It increased rapidly especially from 1950 to 1970 and after 2000.
 This is respectively because European countries restored after World War Ⅱ and Japan, Korea and Taiwan were trying to advance into developed countries and because China and India have advanced remarkably.
-In summary, African countries are developing so rapidly that it is estimated that the production of metal will increase more and more rapidly.<SummaryLink>3</SummaryLink>
+In summary, African countries are developing so rapidly that it is estimated that the production of metal will increase more and more rapidly.<SummaryLink>3_en</SummaryLink>
 It will not be long before you run out of metal resources and you cannot live a life as you know it now.
 In fact, Ichiro Daigo, an associate professor at Research Center for Advanced Science and Technology, The University of Tokyo, [told us](../activity/interview.html#q7) in our interview:
 
@@ -256,17 +256,17 @@ Take a look at the graph below.
         href="http://susdi.org/wp/data/post-61/"
         height="40vw"
     ></Image>
-</div><SummaryLink>1</SummaryLink>
+</div><SummaryLink>1_en</SummaryLink>
 
 It shows how much the top three countries occupy reserves of each metal resource.
 Surprisingly, they account for more than 70% of the production of most metals.
-However, this is just part of all metals and most <Word>minor metals</Word> are also occupied by the top three countries.<SummaryLink>3</SummaryLink>
+However, this is just part of all metals and most <Word>minor metals</Word> are also occupied by the top three countries.<SummaryLink>3_en</SummaryLink>
 Japan imports most of all the <Word>metals</Word> you need, so it is influenced greatly by the exporters.
 They are not always available even if you pay for them.
 For example, if China stops exporting their resources due to their policy, the world can no longer develop (of course Japan, either).
 In other words, it is no exaggeration to say that global economy depends on China.
 
-In this way, uneven distribution results in <ForceText>differences in power in the world</ForceText>.<SummaryLink>9</SummaryLink>
+In this way, uneven distribution results in <ForceText>differences in power in the world</ForceText>.<SummaryLink>9_en</SummaryLink>
 
 <AtomCharacter atom="Y">
 In fact, in September, 2010, exporting <Word>rare earth</Word> to Japan was limited as a countermeasure against 2010 Senkaku boat collision incident.  Japan was damaged heavily by this.
@@ -289,7 +289,7 @@ They were triggered by the ethnic conflict in Rwanda, which is next to Congo.
 Many countries around Congo participated in the dispute and the scale got large.
 As a result, more than 5.4 million people were killed.
 Although the war is over, many refugees still have not returned to their home.
-At a glance, this does not have something to do with resources, but actually one reason a lot of countries join it is to <ForceText>get resources</ForceText>.<SummaryLink>6</SummaryLink>
+At a glance, this does not have something to do with resources, but actually one reason a lot of countries join it is to <ForceText>get resources</ForceText>.<SummaryLink>6_en</SummaryLink>
 They cooperated militarily in order to obtain rich resources in Congo.
 In addition, some groups tried to take away such resources by force.
 In short, they <ForceText>exploited and abused people in Congo to get resources there and finally many people lost their lives</ForceText>.
@@ -306,7 +306,7 @@ We sincerely hope there will be no victims like this.
 </small>
 </NoIndent>
 
-It is also true that residents who live in places which are rich in resources are suffering.<SummaryLink>7</SummaryLink>
+It is also true that residents who live in places which are rich in resources are suffering.<SummaryLink>7_en</SummaryLink>
 Bayan obo, where they can mine a lot of metal resources, is a major deposit in China.
 The more metal was mined, the more factories were founded and Baotou, which has Bayan obo, developed.
 In the process, the local people were forced to make a great sacrifice.
@@ -316,7 +316,7 @@ You must realize that you can have your smartphones and home appliances thanks t
 
 
 <Column title="Gorillas killed by phone">
-You may be surprised to hear that our smartphones kill gorillas, but this is true. Actually, <ForceText>producing phones indirectly leads them to extinction</ForceText>. The concrete process is as follows:<SummaryLink>5</SummaryLink>
+You may be surprised to hear that our smartphones kill gorillas, but this is true. Actually, <ForceText>producing phones indirectly leads them to extinction</ForceText>. The concrete process is as follows:<SummaryLink>5_en</SummaryLink>
 <ol>
 <li>You use smartphones.</li>
 <li>They have different minor metals. We take up tantalum as an example here.</li>
