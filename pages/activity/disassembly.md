@@ -76,7 +76,7 @@
 最終的に下の写真のような部品に分解することができました。
 
 <div class="image_container">
-    <Image src="../img/activity/disassembly/S.jpg" height="40vw"></Image>
+    <Image src="../img/activity/disassembly/S.png" height="40vw"></Image>
 </div>
 
 ## ガラケー
@@ -154,7 +154,7 @@
 最終的に下の写真のような部品が取り出せました。
 
 <div class="image_container">
-    <Image src="../img/activity/disassembly/G.jpg" height="40vw"></Image>
+    <Image src="../img/activity/disassembly/G.png" height="40vw"></Image>
 </div>
 
 ## 解体を通して感じたこと
@@ -247,7 +247,7 @@ This is the end of dismantling the smartphone.
 Finally, we were able to dismantle it into parts as shown in the picture below.
 
 <div class="image_container">
-    <Image src="../img/activity/disassembly/S.jpg" height="40vw"></Image>
+    <Image src="../img/activity/disassembly/S.png" height="40vw"></Image>
 </div>
 
 ## Feature Phone
@@ -325,7 +325,7 @@ This is the end of dismantling the feature phone.
 Eventually, we were able to remove the parts as shown in the picture below.
 
 <div class="image_container">
-    <Image src="../img/activity/disassembly/G.jpg" height="40vw"></Image>
+    <Image src="../img/activity/disassembly/G.png" height="40vw"></Image>
 </div>
 
 ## Thought over Dismantling
