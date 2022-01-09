@@ -1,85 +1,355 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:lucid="lucid" id="main" width="1200" height="700" viewBox="250, 250, 1350, 850">
-    <g transform="translate(0 0)" lucid:page-tab-id="vtQroJR_ifnU">
-        <path d="M1248 293a5 5 0 0 1 5-5h310a5 5 0 0 1 5 5v110a5 5 0 0 1-5 5h-310a5 5 0 0 1-5-5z" stroke="#000"
-              stroke-width="2" fill-opacity="0"/>
+<svg width="1280" height="720" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     overflow="hidden">
+    <defs>
+        <clipPath id="clip0">
+            <rect x="0" y="0" width="1280" height="720"/>
+        </clipPath>
+        <radialGradient cx="4.78631e+06" cy="1.96691e+06" r="5.1747e+06" fx="4.78631e+06" fy="1.96691e+06"
+                        gradientUnits="userSpaceOnUse" spreadMethod="pad" id="fill1"
+                        gradientTransform="matrix(0.000104987 0 0 0.000104987 91 144)">
+            <stop offset="0" stop-color="#8ACC5D"/>
+            <stop offset="0.00621118" stop-color="#8BCC5E"/>
+            <stop offset="0.0124224" stop-color="#8CCD60"/>
+            <stop offset="0.0186335" stop-color="#8ECD62"/>
+            <stop offset="0.0248447" stop-color="#8FCE64"/>
+            <stop offset="0.0310559" stop-color="#90CE66"/>
+            <stop offset="0.0372671" stop-color="#92CF68"/>
+            <stop offset="0.0434783" stop-color="#93D069"/>
+            <stop offset="0.0496894" stop-color="#94D06B"/>
+            <stop offset="0.0559006" stop-color="#95D16D"/>
+            <stop offset="0.0621118" stop-color="#97D16F"/>
+            <stop offset="0.068323" stop-color="#98D271"/>
+            <stop offset="0.0745342" stop-color="#99D272"/>
+            <stop offset="0.0807453" stop-color="#9BD374"/>
+            <stop offset="0.0869565" stop-color="#9CD376"/>
+            <stop offset="0.0931677" stop-color="#9DD478"/>
+            <stop offset="0.0993789" stop-color="#9ED579"/>
+            <stop offset="0.10559" stop-color="#A0D57B"/>
+            <stop offset="0.111801" stop-color="#A1D67D"/>
+            <stop offset="0.118012" stop-color="#A2D67E"/>
+            <stop offset="0.124224" stop-color="#A3D780"/>
+            <stop offset="0.130435" stop-color="#A4D782"/>
+            <stop offset="0.136646" stop-color="#A6D884"/>
+            <stop offset="0.142857" stop-color="#A7D885"/>
+            <stop offset="0.149068" stop-color="#A8D987"/>
+            <stop offset="0.15528" stop-color="#A9D988"/>
+            <stop offset="0.161491" stop-color="#AADA8A"/>
+            <stop offset="0.167702" stop-color="#ACDA8C"/>
+            <stop offset="0.173913" stop-color="#ADDB8D"/>
+            <stop offset="0.180124" stop-color="#AEDB8F"/>
+            <stop offset="0.186335" stop-color="#AFDC90"/>
+            <stop offset="0.192547" stop-color="#B0DC92"/>
+            <stop offset="0.198758" stop-color="#B1DD94"/>
+            <stop offset="0.204969" stop-color="#B2DD95"/>
+            <stop offset="0.21118" stop-color="#B4DE97"/>
+            <stop offset="0.217391" stop-color="#B5DE98"/>
+            <stop offset="0.223602" stop-color="#B6DF9A"/>
+            <stop offset="0.229814" stop-color="#B7DF9B"/>
+            <stop offset="0.236025" stop-color="#B8E09D"/>
+            <stop offset="0.242236" stop-color="#B9E09E"/>
+            <stop offset="0.248447" stop-color="#BAE1A0"/>
+            <stop offset="0.254658" stop-color="#BBE1A1"/>
+            <stop offset="0.26087" stop-color="#BCE2A3"/>
+            <stop offset="0.267081" stop-color="#BDE2A4"/>
+            <stop offset="0.273292" stop-color="#BEE2A5"/>
+            <stop offset="0.279503" stop-color="#BFE3A7"/>
+            <stop offset="0.285714" stop-color="#C0E3A8"/>
+            <stop offset="0.291925" stop-color="#C1E4AA"/>
+            <stop offset="0.298137" stop-color="#C2E4AB"/>
+            <stop offset="0.304348" stop-color="#C3E5AC"/>
+            <stop offset="0.310559" stop-color="#C4E5AE"/>
+            <stop offset="0.31677" stop-color="#C5E6AF"/>
+            <stop offset="0.322981" stop-color="#C6E6B1"/>
+            <stop offset="0.329193" stop-color="#C7E6B2"/>
+            <stop offset="0.335404" stop-color="#C8E7B3"/>
+            <stop offset="0.341615" stop-color="#C9E7B5"/>
+            <stop offset="0.347826" stop-color="#CAE8B6"/>
+            <stop offset="0.354037" stop-color="#CBE8B7"/>
+            <stop offset="0.360248" stop-color="#CCE8B8"/>
+            <stop offset="0.36646" stop-color="#CDE9BA"/>
+            <stop offset="0.372671" stop-color="#CEE9BB"/>
+            <stop offset="0.378882" stop-color="#CFEABC"/>
+            <stop offset="0.385093" stop-color="#CFEABD"/>
+            <stop offset="0.391304" stop-color="#D0EABF"/>
+            <stop offset="0.397516" stop-color="#D1EBC0"/>
+            <stop offset="0.403727" stop-color="#D2EBC1"/>
+            <stop offset="0.409938" stop-color="#D3ECC2"/>
+            <stop offset="0.416149" stop-color="#D4ECC3"/>
+            <stop offset="0.42236" stop-color="#D5ECC5"/>
+            <stop offset="0.428571" stop-color="#D6EDC6"/>
+            <stop offset="0.434783" stop-color="#D6EDC7"/>
+            <stop offset="0.440994" stop-color="#D7EDC8"/>
+            <stop offset="0.447205" stop-color="#D8EEC9"/>
+            <stop offset="0.453416" stop-color="#D9EECA"/>
+            <stop offset="0.459627" stop-color="#DAEECB"/>
+            <stop offset="0.465839" stop-color="#DAEFCD"/>
+            <stop offset="0.47205" stop-color="#DBEFCE"/>
+            <stop offset="0.478261" stop-color="#DCEFCF"/>
+            <stop offset="0.484472" stop-color="#DDF0D0"/>
+            <stop offset="0.490683" stop-color="#DDF0D1"/>
+            <stop offset="0.496894" stop-color="#DEF0D2"/>
+            <stop offset="0.503106" stop-color="#DFF1D3"/>
+            <stop offset="0.509317" stop-color="#E0F1D4"/>
+            <stop offset="0.515528" stop-color="#E0F1D5"/>
+            <stop offset="0.521739" stop-color="#E1F2D6"/>
+            <stop offset="0.52795" stop-color="#E2F2D7"/>
+            <stop offset="0.534162" stop-color="#E3F2D8"/>
+            <stop offset="0.540373" stop-color="#E3F3D9"/>
+            <stop offset="0.546584" stop-color="#E4F3DA"/>
+            <stop offset="0.552795" stop-color="#E5F3DB"/>
+            <stop offset="0.559006" stop-color="#E5F4DC"/>
+            <stop offset="0.565217" stop-color="#E6F4DD"/>
+            <stop offset="0.571429" stop-color="#E7F4DD"/>
+            <stop offset="0.57764" stop-color="#E7F4DE"/>
+            <stop offset="0.583851" stop-color="#E8F5DF"/>
+            <stop offset="0.590062" stop-color="#E9F5E0"/>
+            <stop offset="0.596273" stop-color="#E9F5E1"/>
+            <stop offset="0.602484" stop-color="#EAF5E2"/>
+            <stop offset="0.608696" stop-color="#EAF6E3"/>
+            <stop offset="0.614907" stop-color="#EBF6E3"/>
+            <stop offset="0.621118" stop-color="#ECF6E4"/>
+            <stop offset="0.627329" stop-color="#ECF6E5"/>
+            <stop offset="0.63354" stop-color="#EDF7E6"/>
+            <stop offset="0.639752" stop-color="#EDF7E7"/>
+            <stop offset="0.645963" stop-color="#EEF7E7"/>
+            <stop offset="0.652174" stop-color="#EEF7E8"/>
+            <stop offset="0.658385" stop-color="#EFF8E9"/>
+            <stop offset="0.664596" stop-color="#EFF8EA"/>
+            <stop offset="0.670807" stop-color="#F0F8EA"/>
+            <stop offset="0.677019" stop-color="#F0F8EB"/>
+            <stop offset="0.68323" stop-color="#F1F9EC"/>
+            <stop offset="0.689441" stop-color="#F1F9EC"/>
+            <stop offset="0.695652" stop-color="#F2F9ED"/>
+            <stop offset="0.701863" stop-color="#F2F9EE"/>
+            <stop offset="0.708075" stop-color="#F3F9EE"/>
+            <stop offset="0.714286" stop-color="#F3FAEF"/>
+            <stop offset="0.720497" stop-color="#F4FAF0"/>
+            <stop offset="0.726708" stop-color="#F4FAF0"/>
+            <stop offset="0.732919" stop-color="#F5FAF1"/>
+            <stop offset="0.73913" stop-color="#F5FAF1"/>
+            <stop offset="0.745342" stop-color="#F5FBF2"/>
+            <stop offset="0.751553" stop-color="#F6FBF3"/>
+            <stop offset="0.757764" stop-color="#F6FBF3"/>
+            <stop offset="0.763975" stop-color="#F7FBF4"/>
+            <stop offset="0.770186" stop-color="#F7FBF4"/>
+            <stop offset="0.776398" stop-color="#F7FBF5"/>
+            <stop offset="0.782609" stop-color="#F8FCF5"/>
+            <stop offset="0.78882" stop-color="#F8FCF6"/>
+            <stop offset="0.795031" stop-color="#F9FCF6"/>
+            <stop offset="0.801242" stop-color="#F9FCF7"/>
+            <stop offset="0.807453" stop-color="#F9FCF7"/>
+            <stop offset="0.813665" stop-color="#F9FCF8"/>
+            <stop offset="0.819876" stop-color="#FAFCF8"/>
+            <stop offset="0.826087" stop-color="#FAFDF8"/>
+            <stop offset="0.832298" stop-color="#FAFDF9"/>
+            <stop offset="0.838509" stop-color="#FBFDF9"/>
+            <stop offset="0.84472" stop-color="#FBFDFA"/>
+            <stop offset="0.850932" stop-color="#FBFDFA"/>
+            <stop offset="0.857143" stop-color="#FBFDFA"/>
+            <stop offset="0.863354" stop-color="#FCFDFB"/>
+            <stop offset="0.869565" stop-color="#FCFDFB"/>
+            <stop offset="0.875776" stop-color="#FCFDFB"/>
+            <stop offset="0.881988" stop-color="#FCFEFC"/>
+            <stop offset="0.888199" stop-color="#FDFEFC"/>
+            <stop offset="0.89441" stop-color="#FDFEFC"/>
+            <stop offset="0.900621" stop-color="#FDFEFC"/>
+            <stop offset="0.906832" stop-color="#FDFEFD"/>
+            <stop offset="0.913043" stop-color="#FDFEFD"/>
+            <stop offset="0.919255" stop-color="#FDFEFD"/>
+            <stop offset="0.925466" stop-color="#FEFEFD"/>
+            <stop offset="0.931677" stop-color="#FEFEFD"/>
+            <stop offset="0.937888" stop-color="#FEFEFE"/>
+            <stop offset="0.944099" stop-color="#FEFEFE"/>
+            <stop offset="0.950311" stop-color="#FEFEFE"/>
+            <stop offset="0.956522" stop-color="#FEFEFE"/>
+            <stop offset="0.962733" stop-color="#FEFEFE"/>
+            <stop offset="0.968944" stop-color="#FEFEFE"/>
+            <stop offset="0.975155" stop-color="#FEFEFE"/>
+            <stop offset="0.981366" stop-color="#FEFEFE"/>
+            <stop offset="0.987578" stop-color="#FEFEFE"/>
+            <stop offset="0.993789" stop-color="#FEFEFE"/>
+            <stop offset="1" stop-color="#FFFFFF"/>
+        </radialGradient>
+        <clipPath id="clip2">
+            <path d="M254.49 378.598 285.626 446.436 217.788 477.572 186.652 409.733Z" fill-rule="evenodd"
+                  clip-rule="evenodd"/>
+        </clipPath>
+        <clipPath id="clip3">
+            <path d="M254.49 378.598 285.626 446.436 217.788 477.572 186.652 409.733Z" fill-rule="evenodd"
+                  clip-rule="evenodd"/>
+        </clipPath>
+        <clipPath id="clip4">
+            <path d="M254.49 378.598 285.626 446.436 217.788 477.572 186.652 409.733Z" fill-rule="evenodd"
+                  clip-rule="evenodd"/>
+        </clipPath>
+        <clipPath id="clip5">
+            <rect x="1095" y="385" width="96" height="96"/>
+        </clipPath>
+        <clipPath id="clip6">
+            <rect x="1095" y="385" width="96" height="96"/>
+        </clipPath>
+        <clipPath id="clip7">
+            <rect x="1095" y="385" width="96" height="96"/>
+        </clipPath>
+        <clipPath id="clip8">
+            <rect x="662" y="103" width="96" height="96"/>
+        </clipPath>
+        <clipPath id="clip9">
+            <rect x="662" y="103" width="96" height="96"/>
+        </clipPath>
+        <clipPath id="clip10">
+            <rect x="662" y="103" width="96" height="96"/>
+        </clipPath>
+        <clipPath id="clip11">
+            <path d="M928.279 301.586 867.768 261.389 907.965 200.878 968.476 241.075Z" fill-rule="evenodd"
+                  clip-rule="evenodd"/>
+        </clipPath>
+        <clipPath id="clip12">
+            <path d="M928.279 301.586 867.768 261.389 907.965 200.878 968.476 241.075Z" fill-rule="evenodd"
+                  clip-rule="evenodd"/>
+        </clipPath>
+        <clipPath id="clip13">
+            <path d="M928.279 301.586 867.768 261.389 907.965 200.878 968.476 241.075Z" fill-rule="evenodd"
+                  clip-rule="evenodd"/>
+        </clipPath>
+        <clipPath id="clip14">
+            <rect x="0" y="0" width="1.143e+06" height="1.143e+06"/>
+        </clipPath>
+        <image width="128" height="128"
+               xlink:href="data:image/png;base64,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"
+               preserveAspectRatio="none" id="img15"></image>
+        <clipPath id="clip16">
+            <rect x="-0.25" y="0" width="1.143e+06" height="1.143e+06"/>
+        </clipPath>
+        <clipPath id="clip17">
+            <rect x="0" y="0" width="885825" height="885825"/>
+        </clipPath>
+        <image width="128" height="128"
+               xlink:href="data:image/png;base64,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"
+               preserveAspectRatio="none" id="img18"></image>
+        <clipPath id="clip19">
+            <rect x="0" y="0" width="885825" height="885825"/>
+        </clipPath>
+        <clipPath id="clip20">
+            <rect x="0" y="0" width="781050" height="790575"/>
+        </clipPath>
+        <image width="128" height="128"
+               xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAL6UExURQAAAAAAAP///4CAgFVVVUBAQDMzM2ZmZlVVVUlJSUBAQFVVVU1NTUZGRkBAQFVVVU5OTklJSURERFVVVVBQUEtLS0dHR1VVVVFRUU1NTUlJSUZGRlFRUU5OTk5OTkxMTElJSUZGRk9PT01NTUpKSk1NTUtLS0lJSU5OTkxMTEpKSkhISE5OTk1NTUtLS09PT01NTUpKSkhISE5OTkxMTEpKSklJSU5OTktLS05OTk1NTUxMTEpKSklJSU1NTUhISExMTElJSUtLS0lJSU1NTUhISExMTEtLS0lJSU1NTUxMTEtLS0pKSk5OTktLS0pKSk1NTUxMTEtLS0pKSk1NTUxMTEpKSkxMTEtLS0pKSkpKSklJSUxMTEpKSkxMTEtLS0pKSk1NTUlJSUtLS0pKSklJSUtLS01NTUlJSUxMTElJSUtLS0pKSkxMTEtLS0tLS01NTUtLS01NTUtLS0pKSkxMTEtLS0tLS0pKSklJSUxMTEtLS0pKSk1NTUpKSkxMTEtLS0tLS0pKSktLS0tLS0pKSkxMTExMTEtLS0tLS0pKSkxMTEtLS0tLS01NTUxMTEpKSktLS0pKSklJSUpKSkxMTExMTEtLS0pKSkxMTEtLS0tLS0pKSktLS0lJSUtLS0pKSktLS0tLS0pKSktLS0lJSUpKSktLS0tLS0xMTEtLS0pKSktLS0tLS0tLS0xMTEtLS0tLS0lJSUtLS0tLS0xMTEtLS0lJSUpKSktLS0pKSktLS0xMTElJSUpKSkpKSktLS0tLS0tLS0lJSUxMTEtLS0pKSkpKSktLS0tLS0tLS0pKSkxMTEtLS0pKSkpKSktLS0pKSktLS0tLS0tLS0pKSkpKSktLS0tLS0pKSkpKSktLS0tLS0tLS0pKSktLS0pKSktLS0tLS0tLS0pKSkxMTEpKSktLS0pKSkpKSktLS0tLS0pKSktLS0pKSktLS0pKSkpKSktLS0tLS0tLS0pKSkpKSktLS0tLS0pKSkpKSktLS0tLS0tLS9eorQcAAAD9dFJOUwABAQIDBAUFBgcICQoLDAwNDg8PEBESEhMUFRYWFxobHB0dHh8hIiMkJSYnJygpKistLi4vMDEx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"
+               preserveAspectRatio="none" id="img21"></image>
+        <clipPath id="clip22">
+            <rect x="0" y="0" width="781050" height="781050"/>
+        </clipPath>
+    </defs>
+    <g clip-path="url(#clip0)">
+        <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+        <path d="M91 350.5C91 236.453 315.977 144 593.5 144 871.023 144 1096 236.453 1096 350.5 1096 464.547 871.023 557 593.5 557 315.977 557 91 464.547 91 350.5Z"
+              fill="url(#fill1)" fill-rule="evenodd"/>
         <a href="#s_0">
-        <path d="M663 501.06a5 5 0 0 1 5-5h230a5 5 0 0 1 5 5v134a5 5 0 0 1-5 5H668a5 5 0 0 1-5-5z" stroke="#000"
-              stroke-width="2" fill="#e3f7ff"/>
-            <text style="font-size: 31px;" transform="matrix(1,0,0,1,683,496.05999999999995) translate(23 59.55555555555555)">都市鉱山の</text>
-            <text style="font-size: 31px;" transform="matrix(1,0,0,1,683,496.05999999999995) translate(68.88888888888889 96.88888888888889)">課題</text>
-        </a>
-        <a href="#s_1">
-        <path d="M288 501.06a5 5 0 0 1 5-5h230a5 5 0 0 1 5 5v134a5 5 0 0 1-5 5H293a5 5 0 0 1-5-5z" stroke="#000"
-              stroke-width="2" fill="#ffe3e9"/>
-            <text style="font-size: 31px;" transform="matrix(1,0,0,1,308,496.05999999999995) translate(8.222222222222229 78.22222222222223)">回収率の低さ</text>
-        </a>
-        <a href="#s_2">
-        <path d="M663 709.12a5 5 0 0 1 5-5h230a5 5 0 0 1 5 5v134a5 5 0 0 1-5 5H668a5 5 0 0 1-5-5z" stroke="#000"
-              stroke-width="2" fill="#f4e3ff"/>
-            <text style="font-size: 31px;" transform="matrix(1,0,0,1,683,704.1199999999999) translate(23.77777777777777 78.22222222222223)">品位の低さ</text>
-        </a>
-        <a href="#s_3">
-        <path d="M1038 501.06a5 5 0 0 1 5-5h230a5 5 0 0 1 5 5v134a5 5 0 0 1-5 5h-230a5 5 0 0 1-5-5z" stroke="#000"
-              stroke-width="2" fill="#fff7e3"/>s
-            <text style="font-size: 31px;" transform="matrix(1,0,0,1,1058,496.05999999999995) translate(7.444444444444443 78.22222222222223)">廃棄物の発生</text>
+        <rect x="443.5" y="273.5" width="301" height="139" stroke="#000000" stroke-width="1.33333" stroke-miterlimit="8"
+              fill="#FFFFFF"/>
+        <text font-family="Yu Gothic,Yu Gothic_MSFontService,sans-serif" font-weight="400" font-size="24"
+              transform="translate(509.615 350)">都市鉱山の課題
+        </text>
         </a>
         <a href="#s_4">
-        <path d="M663 293a5 5 0 0 1 5-5h230a5 5 0 0 1 5 5v134a5 5 0 0 1-5 5H668a5 5 0 0 1-5-5z" stroke="#000"
-              stroke-width="2" fill="#ebffe3"/>
-            <text style="font-size: 31px;" transform="matrix(1,0,0,1,683,288) translate(24.555555555555543 78.22222222222223)">コスト問題</text>
+        <path d="M368.5 149.5C368.5 122.99 433.195 101.5 513 101.5 592.805 101.5 657.5 122.99 657.5 149.5 657.5 176.01 592.805 197.5 513 197.5 433.195 197.5 368.5 176.01 368.5 149.5Z"
+              stroke="#4472C4" stroke-width="1.33333" stroke-miterlimit="8" fill="#FFFFFF" fill-rule="evenodd"/>
+        <text font-family="Yu Gothic,Yu Gothic_MSFontService,sans-serif" font-weight="400" font-size="24"
+              transform="translate(452.733 157)">コスト問題
+        </text>
         </a>
-        <path d="M408.02 642.03l.1 4.8.34 5.46.54 5.15.73 4.9.9 4.66 1.03 4.48 1.2 4.28 1.34 4.13 1.5 4 1.62 3.86 1.77 3.77 1.92 3.7 2.08 3.6 2.24 3.53 2.43 3.5 2.6 3.43 2.83 3.4 3.05 3.4 3.3 3.35 3.57 3.36 3.88 3.36 4.24 3.35 4.63 3.38 5.08 3.37 5.6 3.4 6.22 3.4 6.9 3.43 7.74 3.44 8.73 3.45 9.88 3.44 11.3 3.4 13.04 3.35 15.16 3.2 17.85 3.02 21.3 2.68 25.86 2.15 32.17 1.32h.86"
-              stroke="#000" stroke-width="2" fill="none"/>
-        <path d="M409.02 642.04l-2 .04-.02-1.05h2"/>
-        <path d="M658.8 776.1l-14.32 4.48.1-9.27z" stroke="#000" stroke-width="2"/>
-        <path d="M1157.98 494.1l-.1-4.8-.34-5.47-.54-5.16-.73-4.9-.9-4.66-1.03-4.46-1.2-4.28-1.34-4.13-1.5-4-1.62-3.87-1.77-3.77-1.92-3.7-2.08-3.6-2.24-3.54-2.43-3.5-2.6-3.43-2.83-3.4-3.05-3.4-3.3-3.36-3.57-3.36-3.88-3.34-4.24-3.35-4.63-3.36-5.08-3.37-5.6-3.4-6.22-3.4-6.9-3.43-7.74-3.44-8.73-3.45-9.88-3.44-11.3-3.4-13.04-3.33-15.16-3.2-17.85-3.02-21.3-2.68-25.86-2.15-32.17-1.32h-.86"
-              stroke="#000" stroke-width="2" fill="none"/>
-        <path d="M1159 495.1h-2l-.02-1.02 2-.04"/>
-        <path d="M907.2 360.03l14.32-4.5-.1 9.28z" stroke="#000" stroke-width="2"/>
-        <path d="M783 642.03v60.12" stroke="#000" stroke-width="2" fill="none"/>
-        <path d="M784 642.06h-2v-1.03h2M784 703.15h-2v-1.02h2"/>
-        <path d="M661.03 568.06H529.97" stroke="#000" stroke-width="2" fill="none"/>
-        <path d="M662.03 569.06H661v-2h1.03M530 569.06h-1.03v-2H530"/>
-        <path d="M783 494.1v-60.13" stroke="#000" stroke-width="2" fill="none"/>
-        <path d="M784 495.1h-2v-1.04h2M784 434h-2v-1.03h2"/>
-        <path d="M904.97 568.06h131.06" stroke="#000" stroke-width="2" fill="none"/>
-        <path d="M905 569.06h-1.03v-2H905M1037.03 569.06H1036v-2h1.03"/>
-        <a href="#s_5">
-            <path d="M1038 709.12a5 5 0 0 1 5-5h230a5 5 0 0 1 5 5v134a5 5 0 0 1-5 5h-230a5 5 0 0 1-5-5z" stroke="#000"
-                  stroke-width="2" fill="#fff7e3"/>
-            <text style="font-size: 31px;" transform="matrix(1,0,0,1,1058,704.1199999999999) translate(23 59.55555555555555)">有害物質の</text>
-            <text style="font-size: 31px;" transform="matrix(1,0,0,1,1058,704.1199999999999) translate(68.88888888888889 96.88888888888889)">発生</text>
+        <a href="#s_1">
+        <path d="M199.5 500.5C199.5 473.99 264.195 452.5 344 452.5 423.805 452.5 488.5 473.99 488.5 500.5 488.5 527.01 423.805 548.5 344 548.5 264.195 548.5 199.5 527.01 199.5 500.5Z"
+              stroke="#4472C4" stroke-width="1.33333" stroke-miterlimit="8" fill="#FFFFFF" fill-rule="evenodd"/>
+        <text font-family="Yu Gothic,Yu Gothic_MSFontService,sans-serif" font-weight="400" font-size="24"
+              transform="translate(271.467 508)">回収率の低さ
+        </text>
         </a>
-        <path d="M1158 702.15v-60.12" stroke="#000" stroke-width="2" fill="none"/>
-        <path d="M1159 703.15h-2v-1.03h2M1159 642.05h-2v-1.02h2"/>
+        <a href="#s_2">
+        <path d="M79.5001 340.5C79.5001 313.99 144.195 292.5 224 292.5 303.805 292.5 368.5 313.99 368.5 340.5 368.5 367.01 303.805 388.5 224 388.5 144.195 388.5 79.5001 367.01 79.5001 340.5Z"
+              stroke="#4472C4" stroke-width="1.33333" stroke-miterlimit="8" fill="#FFFFFF" fill-rule="evenodd"/>
+        <text font-family="Yu Gothic,Yu Gothic_MSFontService,sans-serif" font-weight="400" font-size="24"
+              transform="translate(139.245 333)">品位の低さ（含
+            <tspan font-size="24" x="36" y="29">有濃度）</tspan>
+        </text>
+        </a>
+        <a href="#s_3">
+        <path d="M761.5 178.5C761.5 151.99 826.195 130.5 906 130.5 985.805 130.5 1050.5 151.99 1050.5 178.5 1050.5 205.01 985.805 226.5 906 226.5 826.195 226.5 761.5 205.01 761.5 178.5Z"
+              stroke="#4472C4" stroke-width="1.33333" stroke-miterlimit="8" fill="#FFFFFF" fill-rule="evenodd"/>
+        <text font-family="Yu Gothic,Yu Gothic_MSFontService,sans-serif" font-weight="400" font-size="24"
+              transform="translate(857.288 171)">廃棄物の
+            <tspan font-size="24" x="24" y="29">発生</tspan>
+        </text>
+        </a>
+        <g clip-path="url(#clip2)">
+            <g clip-path="url(#clip3)">
+                <g clip-path="url(#clip4)">
+                    <path d="M213.655 403.328 237.902 456.158 241.297 447.003C241.787 445.811 243.15 445.243 244.342 445.733 245.474 446.199 246.053 447.461 245.668 448.624L240.316 463.057C239.867 464.264 238.527 464.879 237.32 464.433L222.886 459.08C221.679 458.632 221.064 457.291 221.511 456.084 221.959 454.877 223.3 454.262 224.507 454.709L233.662 458.104 209.415 405.274C208.878 404.104 209.391 402.719 210.562 402.181 211.733 401.644 213.117 402.158 213.655 403.328Z"/>
+                    <path d="M262.863 450.895 238.616 398.066 247.771 401.461C248.962 401.951 250.325 401.383 250.816 400.192 251.306 399 250.738 397.637 249.546 397.147 249.496 397.126 249.444 397.107 249.392 397.09L234.958 391.737C233.751 391.29 232.41 391.906 231.962 393.112L226.61 407.546C226.163 408.753 226.778 410.094 227.985 410.542 229.192 410.989 230.533 410.374 230.981 409.167L234.376 400.012 258.623 452.841C259.16 454.012 260.545 454.526 261.716 453.988 262.887 453.451 263.4 452.066 262.863 450.895Z"/>
+                </g>
+            </g>
+        </g>
         <a href="#s_6">
-            <path d="M1344 501.06a5 5 0 0 1 5-5h230a5 5 0 0 1 5 5v134a5 5 0 0 1-5 5h-230a5 5 0 0 1 -5-5 v-10 l-50,100 l50,-150 z" stroke="#000"
-                  stroke-width="2" fill="#fff7e3"/>
-            <text style="font-size: 31px;" transform="matrix(1,0,0,1,1364,496.05999999999995) translate(24.555555555555543 78.22222222222223)">セベソ事件</text>
+        <rect x="935.5" y="384.5" width="277" height="97" stroke="#4472C4" stroke-width="1.33333" stroke-miterlimit="8"
+              fill="#FFFFFF"/>
+        <text font-family="Yu Gothic,Yu Gothic_MSFontService,sans-serif" font-weight="400" font-size="24"
+              transform="translate(944.228 411)">セベソ事件
+            <tspan font-size="24" x="0" y="29">ココ事件</tspan>
+            <tspan font-size="24" x="0" y="58">豊島事件</tspan>
+        </text>
         </a>
-        <a href="#s_7">
-            <path d="M1344 709.12a5 5 0 0 1 5-5h230a5 5 0 0 1 5 5v134a5 5 0 0 1-5 5h-230a5 5 0 0 1-5-5 v-47 l-50,-20 l50,-20 z" stroke="#000"
-                  stroke-width="2" fill="#fff7e3"/>
-            <text style="font-size: 31px;" transform="matrix(1,0,0,1,1364,704.1199999999999) translate(39.33333333333333 78.22222222222223)">ココ事件</text>
-        </a>
-        <a href="#s_8">
-            <path d="M1344 917a5 5 0 0 1 5-5h230a5 5 0 0 1 5 5v134a5 5 0 0 1-5 5h-230a5 5 0 0 1 -5-5 v-74 l-50,-150 l50,100 z" stroke="#000"
-                  stroke-width="2" fill="#fff7e3"/>
-            <text style="font-size: 31px;" transform="matrix(1,0,0,1,1364,912) translate(37.77777777777777 78.22222222222223)">豊島事件</text>
-        </a>
-        <path d="M1265 320h62.03M1265.03 320H1264" stroke="#000" stroke-width="2" fill="none"/>
-        <path d="M1328.03 321H1327v-2h1.03"/>
-        <g>
-            <path d="M1328 293a5 5 0 0 1 5-5h230a5 5 0 0 1 5 5v50a5 5 0 0 1-5 5h-230a5 5 0 0 1-5-5z" stroke="#000"
-                  stroke-opacity="0" stroke-width="2" fill="#fff" fill-opacity="0"/>
-            <text style="font-size: 18px;" transform="matrix(1,0,0,1,1348,288) translate(64 33.6)">事実関係</text>
+        <g clip-path="url(#clip5)">
+            <g clip-path="url(#clip6)">
+                <g clip-path="url(#clip7)">
+                    <path d="M1171 459C1171 460.1 1170.1 461 1169 461 1167.9 461 1167 460.1 1167 459L1167 411 1171 411 1171 459ZM1117 461C1115.9 461 1115 460.1 1115 459L1115 405 1161 405 1161 459C1161 459.7 1161.1 460.4 1161.3 461L1117 461ZM1167 405 1167 399 1109 399 1109 459C1109 463.4 1112.6 467 1117 467L1169 467C1173.4 467 1177 463.4 1177 459L1177 405 1167 405Z"/>
+                    <path d="M1119 411 1157 411 1157 415 1119 415Z"/>
+                    <path d="M1140 419 1157 419 1157 423 1140 423Z"/>
+                    <path d="M1140 427 1157 427 1157 431 1140 431Z"/>
+                    <path d="M1119 419 1136 419 1136 431 1119 431Z"/>
+                    <path d="M1119 435 1157 435 1157 439 1119 439Z"/>
+                    <path d="M1140 443 1157 443 1157 455 1140 455Z"/>
+                    <path d="M1119 443 1136 443 1136 447 1119 447Z"/>
+                    <path d="M1119 451 1136 451 1136 455 1119 455Z"/>
+                </g>
+            </g>
         </g>
-        <g>
-            <path d="M1328 353a5 5 0 0 1 5-5h230a5 5 0 0 1 5 5v50a5 5 0 0 1-5 5h-230a5 5 0 0 1-5-5z" stroke="#000"
-                  stroke-opacity="0" stroke-width="2" fill="#fff" fill-opacity="0"/>
-            <text style="font-size: 18px;" transform="matrix(1,0,0,1,1348,348) translate(64 33.6)">因果関係</text>
+        <a href="#s_5">
+        <path d="M809.5 335.5C809.5 308.99 874.419 287.5 954.5 287.5 1034.58 287.5 1099.5 308.99 1099.5 335.5 1099.5 362.01 1034.58 383.5 954.5 383.5 874.419 383.5 809.5 362.01 809.5 335.5Z"
+              stroke="#4472C4" stroke-width="1.33333" stroke-miterlimit="8" fill="#FFFFFF" fill-rule="evenodd"/>
+        <text font-family="Yu Gothic,Yu Gothic_MSFontService,sans-serif" font-weight="400" font-size="24"
+              transform="translate(893.851 328)">有害物質の
+            <tspan font-size="24" x="36" y="29">発生</tspan>
+        </text>
+        </a>
+        <g clip-path="url(#clip8)">
+            <g clip-path="url(#clip9)">
+                <g clip-path="url(#clip10)">
+                    <path d="M670 146 698.6 122 698.6 136C742.5 136.4 750 181 750 181 750 181 733.7 157.3 698.6 157L698.6 170 670 146Z"/>
+                </g>
+            </g>
         </g>
-        <path d="M1265 378h44.53M1265.03 378H1264" stroke="#000" stroke-width="2" fill="none"/>
-        <path d="M1324.8 378l-14.27 4.64v-9.28z" stroke="#000" stroke-width="2"/>
+        <g clip-path="url(#clip11)">
+            <g clip-path="url(#clip12)">
+                <g clip-path="url(#clip13)">
+                    <path d="M908.471 227.469 912.749 248.653 898.845 245.24C898.138 245.056 897.414 245.48 897.23 246.187 897.127 246.582 897.211 247.003 897.46 247.327L922.629 279.581C922.719 279.697 922.828 279.796 922.95 279.877L922.95 279.877C923.564 280.266 924.378 280.084 924.767 279.47 924.839 279.356 924.894 279.232 924.928 279.101L935.672 239.597C935.85 238.888 935.42 238.168 934.711 237.99 934.323 237.892 933.912 237.975 933.592 238.215L922.083 246.76 917.813 225.59Z"/>
+                </g>
+            </g>
+        </g>
+        <g clip-path="url(#clip14)" transform="matrix(0.000104987 0 0 0.000104987 265 44)">
+            <g clip-path="url(#clip16)">
+                <use width="100%" height="100%" xlink:href="#img15"
+                     transform="matrix(8929.69 0 0 8929.69 -0.25 0)"></use>
+            </g>
+        </g>
+        <g clip-path="url(#clip17)" transform="matrix(0.000104987 0 0 0.000104987 1045 273)">
+            <g clip-path="url(#clip19)">
+                <use width="100%" height="100%" xlink:href="#img18" transform="scale(6920.51 6920.51)"></use>
+            </g>
+        </g>
+        <g clip-path="url(#clip20)" transform="matrix(0.000104987 0 0 0.000104987 38 345)">
+            <g clip-path="url(#clip22)" transform="matrix(1 0 0 1.0122 -0.03125 -0.25)">
+                <use width="100%" height="100%" xlink:href="#img21" transform="scale(6101.95 6101.95)"></use>
+            </g>
+        </g>
     </g>
 </svg>

@@ -1,121 +1,179 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="main" xmlns:lucid="lucid" width="1300" height="600" viewBox="100,390,1400,600">
-    <g transform="translate(0 0)" lucid:page-tab-id="henNOGDDcFUnn">
-        <path d="M105 437a5 5 0 0 1 5-5h310a5 5 0 0 1 5 5v50a5 5 0 0 1-5 5H110a5 5 0 0 1-5-5z" stroke="#000"
-              stroke-width="2" fill-opacity="0"/>
+<svg width="1280" height="720" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     overflow="hidden">
+    <defs>
+        <clipPath id="clip0">
+            <rect x="0" y="0" width="1280" height="720"/>
+        </clipPath>
+        <clipPath id="clip1">
+            <rect x="131" y="134" width="946" height="512"/>
+        </clipPath>
+        <clipPath id="clip2">
+            <rect x="131" y="134" width="946" height="512"/>
+        </clipPath>
+        <clipPath id="clip3">
+            <rect x="131" y="134" width="946" height="512"/>
+        </clipPath>
+        <clipPath id="clip4">
+            <rect x="727" y="620" width="96" height="96"/>
+        </clipPath>
+        <clipPath id="clip5">
+            <rect x="727" y="620" width="96" height="96"/>
+        </clipPath>
+        <clipPath id="clip6">
+            <rect x="727" y="620" width="96" height="96"/>
+        </clipPath>
+        <clipPath id="clip7">
+            <rect x="714" y="117" width="96" height="96"/>
+        </clipPath>
+        <clipPath id="clip8">
+            <rect x="714" y="117" width="96" height="96"/>
+        </clipPath>
+        <clipPath id="clip9">
+            <rect x="714" y="117" width="96" height="96"/>
+        </clipPath>
+        <clipPath id="clip10">
+            <rect x="0" y="0" width="752475" height="742950"/>
+        </clipPath>
+        <image width="128" height="128"
+               xlink:href="data:image/png;base64,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"
+               preserveAspectRatio="none" id="img11"></image>
+        <clipPath id="clip12">
+            <rect x="0" y="0" width="742950" height="742950"/>
+        </clipPath>
+        <clipPath id="clip13">
+            <rect x="0" y="0" width="752475" height="742950"/>
+        </clipPath>
+        <image width="128" height="128"
+               xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALQUExURQAAAAAAAP///4CAgFVVVUBAQDMzM2ZmZlVVVUlJSUBAQGBgYFVVVU1NTUZGRlVVVU5OTklJSURERFBQUEtLS0dHR1FRUU1NTUlJSVVVVVFRUU5OTkpKSkdHR1JSUk5OTkxMTElJSU9PT01NTUpKSkhISFBQUE1NTUtLS0lJSU5OTkxMTEpKSk1NTUlJSU9PT01NTUtLS0pKSkhISE5OTkxMTEpKSklJSU1NTUtLS0pKSk5OTkhISE1NTUpKSklJSU1NTUxMTEtLS0lJSU5OTkxMTEtLS0xMTEtLS0lJSUpKSk1NTUxMTEtLS0pKSkxMTEtLS01NTUxMTEtLS01NTUpKSk1NTUxMTEpKSkpKSk1NTUxMTEpKSk1NTUxMTEtLS0pKSk1NTUpKSkxMTEtLS0pKSkxMTE1NTUxMTEtLS0pKSkpKSkxMTEtLS0pKSkxMTExMTEpKSkxMTEtLS01NTUpKSkxMTEtLS0tLS0pKSkxMTEtLS0pKSkxMTEtLS0xMTExMTEtLS0pKSkpKSklJSUxMTEtLS0xMTEtLS0tLS0tLS0lJSUtLS0pKSkxMTEpKSktLS0lJSUxMTExMTEtLS0lJSUpKSktLS0tLS0tLS0xMTEtLS0lJSUxMTEpKSktLS0lJSUpKSkxMTEtLS0tLS0pKSkxMTEtLS0lJSUpKSkxMTEtLS0lJSUpKSktLS0tLS0pKSktLS0tLS0tLS0pKSktLS0tLS0lJSUpKSkxMTEtLS0pKSkpKSkpKSktLS0pKSktLS0tLS0tLS0pKSkxMTEpKSkpKSktLS0pKSktLS0tLS0pKSkpKSktLS0pKSklJSUtLS0tLS0pKSkpKSkxMTEtLS0pKSktLS0lJSUtLS0pKSkpKSkpKSktLS0tLS0pKSktLS0tLS0pKSkpKSktLS0tLS0tLS0pKSkpKSktLS0tLS0pKSkpKSktLS0tLS0tLS/5bNb4AAADvdFJOUwABAQIDBAUFBgcICAkKCwwNDg8QERITFBUVFhcYGRkaGxwdHh8gICEiIyQlJigqKissLS4uLzAxMjM0NDU1Nzg4OTo7O0BBQ0RGSElKS0xNTk9RUlNWVldZWlpeYGBhYmRk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"
+               preserveAspectRatio="none" id="img14"></image>
+        <clipPath id="clip15">
+            <rect x="0" y="0" width="742950" height="742950"/>
+        </clipPath>
+    </defs>
+    <g clip-path="url(#clip0)">
+        <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+        <g clip-path="url(#clip1)">
+            <g clip-path="url(#clip2)">
+                <g clip-path="url(#clip3)">
+                    <path d="M437.333 74.6667 74.6667 74.6667 234.667 234.667 234.667 394.667 234.667 437.333 277.333 394.667 277.333 234.667Z"
+                          fill="#7F6000" fill-opacity="0.14902" transform="matrix(1.84766 0 0 1 131 134)"/>
+                </g>
+            </g>
+        </g>
         <a href="#s_5">
-            <path d="M855 618.5a5 5 0 0 1 5-5h230a5 5 0 0 1 5 5v134a5 5 0 0 1-5 5H860a5 5 0 0 1-5-5z" stroke="#000"
-                  stroke-width="2" fill="#e3f7ff"/>
-
-            <text style="font-size: 31px;" transform="matrix(1,0,0,1,875,613.5) translate(11.333333333333343 59.55555555555555)">リサイクルの</text>
-            <text style="font-size: 31px;" transform="matrix(1,0,0,1,875,613.5) translate(68.88888888888889 96.88888888888889)">促進</text>
-        </a>
-        <a href="#s_9">
-        <path d="M855 826.44a5 5 0 0 1 5-5h230a5 5 0 0 1 5 5v134a5 5 0 0 1-5 5H860a5 5 0 0 1-5-5z" stroke="#000"
-              stroke-width="2" fill="#f4e3ff"/>
-            <text style="font-size: 31px;" transform="matrix(1,0,0,1,875,821.44) translate(24.555555555555543 40.888888888888886)">配達による</text>
-            <text style="font-size: 31px;" transform="matrix(1,0,0,1,875,821.44) translate(26.111111111111114 78.22222222222223)">リサイクル</text>
-            <text style="font-size: 31px;" transform="matrix(1,0,0,1,875,821.44) translate(40.11111111111111 115.55555555555557)">サービス</text>
-        </a>
-        <a href="#s_6">
-        <path d="M1230 618.5a5 5 0 0 1 5-5h230a5 5 0 0 1 5 5v134a5 5 0 0 1-5 5h-230a5 5 0 0 1-5-5z" stroke="#000"
-              stroke-width="2" fill="#fff7e3"/>
-            <text style="font-size: 31px;" transform="matrix(1,0,0,1,1250,613.5) translate(40.888888888888886 40.888888888888886)">シングル</text>
-            <text style="font-size: 31px;" transform="matrix(1,0,0,1,1250,613.5) translate(9.777777777777771 78.22222222222223)">ストリーム方</text>
-            <text style="font-size: 31px;" transform="matrix(1,0,0,1,1250,613.5) translate(84.44444444444444 115.55555555555557)">式</text>
-        </a>
-        <a href="#s_8">
-        <path d="M480 826.44a5 5 0 0 1 5-5h230a5 5 0 0 1 5 5v134a5 5 0 0 1-5 5H485a5 5 0 0 1-5-5z" stroke="#000"
-              stroke-width="2" fill="#e3e5ff"/>
-            <text style="font-size: 31px;" transform="matrix(1,0,0,1,500,821.44) translate(40.11111111111111 59.55555555555555)">スケール</text>
-            <text style="font-size: 31px;" transform="matrix(1,0,0,1,500,821.44) translate(40.888888888888886 96.88888888888889)">メリット</text>
+        <rect x="383.5" y="579.5" width="464" height="138" stroke="#000000" stroke-width="1.33333" stroke-miterlimit="8"
+              fill="#FFFFFF"/>
+        <text font-family="Yu Gothic,Yu Gothic_MSFontService,sans-serif" font-weight="400" font-size="24"
+              transform="translate(518.605 656)">リサイクルの促進
+        </text>
         </a>
         <a href="#s_0">
-        <path d="M480 410.56a5 5 0 0 1 5-5h230a5 5 0 0 1 5 5v134a5 5 0 0 1-5 5H485a5 5 0 0 1-5-5z" stroke="#000"
-              stroke-width="2" fill="#ffd4fa"/>
-            <text style="font-size: 31px;" transform="matrix(1,0,0,1,500,405.55999999999995) translate(8.222222222222229 59.55555555555555)">前払い制度の</text>
-            <text style="font-size: 31px;" transform="matrix(1,0,0,1,500,405.55999999999995) translate(68.88888888888889 96.88888888888889)">導入</text>
+        <path d="M67.5001 155C67.5001 121.035 120.778 93.5001 186.5 93.5001 252.222 93.5001 305.5 121.035 305.5 155 305.5 188.966 252.222 216.5 186.5 216.5 120.778 216.5 67.5001 188.966 67.5001 155Z"
+              stroke="#000000" stroke-width="1.33333" stroke-miterlimit="8" fill="#FFFFFF" fill-rule="evenodd"/>
+        <text font-family="Yu Gothic,Yu Gothic_MSFontService,sans-serif" font-weight="400" font-size="24"
+              transform="translate(114.055 148)">前払い制度の
+            <tspan font-size="24" x="48" y="29">導入</tspan>
+        </text>
         </a>
         <a href="#s_1">
-        <path d="M855 410.56a5 5 0 0 1 5-5h230a5 5 0 0 1 5 5v134a5 5 0 0 1-5 5H860a5 5 0 0 1-5-5z" stroke="#000"
-              stroke-width="2" fill="#ebffe3"/>
-            <text style="font-size: 31px;" transform="matrix(1,0,0,1,875,405.55999999999995) translate(2.4320987654321016 78.22222222222223)">ORDEEの制定</text>
+        <path d="M263.5 241C263.5 207.035 317.002 179.5 383 179.5 448.998 179.5 502.5 207.035 502.5 241 502.5 274.966 448.998 302.5 383 302.5 317.002 302.5 263.5 274.966 263.5 241Z"
+              stroke="#000000" stroke-width="1.33333" stroke-miterlimit="8" fill="#FFFFFF" fill-rule="evenodd"/>
+        <text font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400" font-size="24"
+              transform="translate(300 248)">ORDEEの制定
+        </text>
+        </a>
+        <a href="#s_6">
+        <path d="M64.5001 329.5C64.5001 295.811 118.002 268.5 184 268.5 249.998 268.5 303.5 295.811 303.5 329.5 303.5 363.189 249.998 390.5 184 390.5 118.002 390.5 64.5001 363.189 64.5001 329.5Z"
+              stroke="#000000" stroke-width="1.33333" stroke-miterlimit="8" fill="#FFFFFF" fill-rule="evenodd"/>
+        <text font-family="Yu Gothic,Yu Gothic_MSFontService,sans-serif" font-weight="400" font-size="24"
+              transform="translate(135.486 308)">シングル
+            <tspan font-size="24" x="-12" y="29">ストリーム</tspan>
+            <tspan font-size="24" x="24" y="58">方式</tspan>
+        </text>
         </a>
         <a href="#s_2">
-        <path d="M1230 410.56a5 5 0 0 1 5-5h230a5 5 0 0 1 5 5v134a5 5 0 0 1-5 5h-230a5 5 0 0 1-5-5z" stroke="#000"
-              stroke-width="2" fill="#e3e5ff"/>
-            <text style="font-size: 31px;" transform="matrix(1,0,0,1,1250,405.55999999999995) translate(9.777777777777771 59.55555555555555)">回収ボックス</text>
-            <text style="font-size: 31px;" transform="matrix(1,0,0,1,1250,405.55999999999995) translate(54.11111111111111 96.88888888888889)">の設置</text>
+        <path d="M263.5 421C263.5 387.035 317.002 359.5 383 359.5 448.998 359.5 502.5 387.035 502.5 421 502.5 454.966 448.998 482.5 383 482.5 317.002 482.5 263.5 454.966 263.5 421Z"
+              stroke="#000000" stroke-width="1.33333" stroke-miterlimit="8" fill="#FFFFFF" fill-rule="evenodd"/>
+        <text font-family="Yu Gothic,Yu Gothic_MSFontService,sans-serif" font-weight="400" font-size="24"
+              transform="translate(310.532 414)">回収ボックス
+            <tspan font-size="24" x="36" y="29">の設置</tspan>
+        </text>
+        </a>
+        <a href="#s_9">
+        <path d="M709.5 421C709.5 387.035 762.778 359.5 828.5 359.5 894.222 359.5 947.5 387.035 947.5 421 947.5 454.966 894.222 482.5 828.5 482.5 762.778 482.5 709.5 454.966 709.5 421Z"
+              stroke="#000000" stroke-width="1.33333" stroke-miterlimit="8" fill="#FFFFFF" fill-rule="evenodd"/>
+        <text font-family="Yu Gothic,Yu Gothic_MSFontService,sans-serif" font-weight="400" font-size="24"
+              transform="translate(768.257 400)">配達による
+            <tspan font-size="24" x="0" y="29">リサイクル</tspan>
+            <tspan font-size="24" x="12" y="58">サービス</tspan>
+        </text>
         </a>
         <a href="#s_10">
-            <path d="M1230 826.44a5 5 0 0 1 5-5h230a5 5 0 0 1 5 5v134a5 5 0 0 1-5 5h-230a5 5 0 0 1-5-5z" stroke="#000"
-                  stroke-width="2" fill="#ffd4fa"/>
-            <text style="font-size: 31px;" transform="matrix(1,0,0,1,1250,821.44) translate(40.888888888888886 40.888888888888886)">みんなの</text>
-            <text style="font-size: 31px;" transform="matrix(1,0,0,1,1250,821.44) translate(55.666666666666664 78.22222222222223)">メダル</text>
-            <text style="font-size: 31px;" transform="matrix(1,0,0,1,1250,821.44) translate(11.333333333333343 115.55555555555557)">プロジェクト</text>
+        <path d="M485.5 332.5C485.5 298.811 538.778 271.5 604.5 271.5 670.222 271.5 723.5 298.811 723.5 332.5 723.5 366.189 670.222 393.5 604.5 393.5 538.778 393.5 485.5 366.189 485.5 332.5Z"
+              stroke="#000000" stroke-width="1.33333" stroke-miterlimit="8" fill="#FFFFFF" fill-rule="evenodd"/>
+        <text font-family="Yu Gothic,Yu Gothic_MSFontService,sans-serif" font-weight="400" font-size="24"
+              transform="translate(556.403 311)">みんなの
+            <tspan font-size="24" x="12" y="29">メダル</tspan>
+            <tspan font-size="24" x="-24" y="58">プロジェクト</tspan>
+        </text>
+        </a>
+        <a href="#s_8">
+        <path d="M910.5 330C910.5 296.035 964.002 268.5 1030 268.5 1096 268.5 1149.5 296.035 1149.5 330 1149.5 363.966 1096 391.5 1030 391.5 964.002 391.5 910.5 363.966 910.5 330Z"
+              stroke="#000000" stroke-width="1.33333" stroke-miterlimit="8" fill="#FFFFFF" fill-rule="evenodd"/>
+        <text font-family="Yu Gothic,Yu Gothic_MSFontService,sans-serif" font-weight="400" font-size="24"
+              transform="translate(981.505 323)">スケール
+            <tspan font-size="24" x="0" y="29">メリット</tspan>
+        </text>
         </a>
         <a href="#s_4">
-            <path d="M480 618.5a5 5 0 0 1 5-5h230a5 5 0 0 1 5 5v134a5 5 0 0 1-5 5H485a5 5 0 0 1-5-5z" stroke="#000"
-                  stroke-width="2" fill="#ffe3e9"/>
-            <text style="font-size: 31px;" transform="matrix(1,0,0,1,500,613.5) translate(7.444444444444429 59.55555555555555)">電子廃棄物の</text>
-            <text style="font-size: 31px;" transform="matrix(1,0,0,1,500,613.5) translate(68.88888888888889 96.88888888888889)">削減</text>
+        <path d="M485.5 160C485.5 126.035 538.778 98.5001 604.5 98.5001 670.222 98.5001 723.5 126.035 723.5 160 723.5 193.966 670.222 221.5 604.5 221.5 538.778 221.5 485.5 193.966 485.5 160Z"
+              stroke="#000000" stroke-width="1.33333" stroke-miterlimit="8" fill="#FFFFFF" fill-rule="evenodd"/>
+        <text font-family="Yu Gothic,Yu Gothic_MSFontService,sans-serif" font-weight="400" font-size="24"
+              transform="translate(532.403 153)">電子廃棄物の
+            <tspan font-size="24" x="48" y="29">削減</tspan>
+        </text>
         </a>
+        <g clip-path="url(#clip4)">
+            <g clip-path="url(#clip5)">
+                <g clip-path="url(#clip6)">
+                    <path d="M742.17 690.43C742.924 691.884 744.368 692.853 746 693L764 693 764 701 746 701C741.44 700.917 737.269 698.414 735.05 694.43 732.924 690.584 733.109 685.877 735.53 682.21L745.93 664.21 739.07 660.21 755.81 655.73 760.29 672.47 753 668.28 742.56 686.38C741.669 687.545 741.518 689.116 742.17 690.43Z"/>
+                    <path d="M756.32 649.14 764.69 633.51C766.886 629.56 771.061 627.122 775.58 627.15 779.974 627.24 783.956 629.759 785.92 633.69L796.32 651.69 803.18 647.69 798.7 664.48 782 660 789.28 655.79 778.79 637.68C778.22 636.328 776.935 635.414 775.47 635.32 773.928 635.396 772.532 636.257 771.77 637.6L763.39 653.23Z"/>
+                    <path d="M814.59 695.23C812.404 698.899 808.409 701.104 804.14 701L783 701 783 709 770.71 696.5 783 684.34 783 693 803.87 693C805.37 693.1 806.799 692.351 807.57 691.06 808.317 689.694 808.271 688.032 807.45 686.71L798.3 671.11 805.37 667 814.53 682.59C815.046 683.498 815.453 684.465 815.74 685.47L815.91 686.13C816.666 689.22 816.193 692.482 814.59 695.23Z"/>
+                </g>
+            </g>
+        </g>
         <a href="#s_3">
-            <path d="M105 618.5a5 5 0 0 1 5-5h230a5 5 0 0 1 5 5v134a5 5 0 0 1-5 5H110a5 5 0 0 1-5-5z" stroke="#000"
-                  stroke-width="2" fill="#ffe3e9"/>
-            <text style="font-size: 31px;" transform="matrix(1,0,0,1,125,613.5) translate(25.33333333333333 59.55555555555555)">リユースの</text>
-            <text style="font-size: 31px;" transform="matrix(1,0,0,1,125,613.5) translate(68.88888888888889 96.88888888888889)">促進</text>
+        <path d="M795.5 86.0004C795.5 79.6489 800.649 74.5001 807 74.5001L1107 74.5001C1113.35 74.5001 1118.5 79.6489 1118.5 86.0004L1118.5 132C1118.5 138.351 1113.35 143.5 1107 143.5L807 143.5C800.649 143.5 795.5 138.351 795.5 132Z"
+              stroke="#000000" stroke-width="1.33333" stroke-miterlimit="8" fill="#FFFFFF" fill-rule="evenodd"/>
+        <text font-family="Yu Gothic,Yu Gothic_MSFontService,sans-serif" font-weight="400" font-size="24"
+              transform="translate(872.477 116)">リユースの推進
+        </text>
         </a>
         <a href="#s_7">
-            <path d="M105 826.44a5 5 0 0 1 5-5h230a5 5 0 0 1 5 5v134a5 5 0 0 1-5 5H110a5 5 0 0 1-5-5z" stroke="#000"
-                  stroke-width="2" fill="#ffe3e9"/>
-            <text style="font-size: 31px;" transform="matrix(1,0,0,1,125,821.44) translate(11.333333333333343 59.55555555555555)">オンラインの</text>
-            <text style="font-size: 31px;" transform="matrix(1,0,0,1,125,821.44) translate(9 96.88888888888889)">修理サービス</text>
+        <path d="M795.5 184C795.5 177.649 800.649 172.5 807 172.5L1107 172.5C1113.35 172.5 1118.5 177.649 1118.5 184L1118.5 230C1118.5 236.351 1113.35 241.5 1107 241.5L807 241.5C800.649 241.5 795.5 236.351 795.5 230Z"
+              stroke="#000000" stroke-width="1.33333" stroke-miterlimit="8" fill="#FFFFFF" fill-rule="evenodd"/>
+        <text font-family="Yu Gothic,Yu Gothic_MSFontService,sans-serif" font-weight="400" font-size="24"
+              transform="translate(824.477 214)">オンライン修理サービス
+        </text>
         </a>
-        <path d="M975 551.53v42.5" stroke="#000" stroke-width="2" fill="none"/>
-        <path d="M976 551.56h-2v-1.03h2"/>
-        <path d="M975 609.3l-4.64-14.27h9.28z" stroke="#000" stroke-width="2"/>
-        <path d="M1231.24 550.45l-3.67 5.73-4.1 5.87-4.05 5.27-3.98 4.77-3.95 4.35-3.96 4-3.95 3.67-4 3.4-4.02 3.17-4.1 2.94-4.2 2.76-4.32 2.6-4.47 2.43-4.67 2.28-4.87 2.15-5.15 2-5.46 1.9-5.86 1.73-6.35 1.6-6.95 1.44-7.7 1.26-8.66 1.05-8.4.67"
-              stroke="#000" stroke-width="2" fill="none"/>
-        <path d="M1231.47 549.42l.8.5.4.15-.6.94-1.68-1.07.6-.93"/>
-        <path d="M1099.17 618l14.1-5.1.3 9.26z" stroke="#000" stroke-width="2"/>
-        <path d="M721.02 548.1l19.32 11.32 14.73 7.8 13.1 6.24 51.65 22.57 14.72 7.8 4.22 2.47" stroke="#000"
-              stroke-width="2" fill="none"/>
-        <path d="M721.55 547.26l-1 1.73-.98-.58.3-.33.48-.8.24-.6"/>
-        <path d="M851.94 614l-14.66-3.2 4.7-8z" stroke="#000" stroke-width="2"/>
-        <path d="M718.76 820.55l3.67-5.73 4.1-5.87 4.05-5.27 3.98-4.77 3.95-4.35 3.96-4 3.95-3.67 4-3.4 4.02-3.17 4.1-2.94 4.2-2.76 4.32-2.6 4.47-2.43 4.67-2.28 4.87-2.15 5.15-2 5.46-1.9 5.86-1.73 6.35-1.6 6.95-1.44 7.7-1.26 8.66-1.05 8.4-.67"
-              stroke="#000" stroke-width="2" fill="none"/>
-        <path d="M719.6 821.07l-.6.93-.47-.42-.8-.5-.4-.15.6-.94"/>
-        <path d="M850.83 753l-14.1 5.1-.3-9.26z" stroke="#000" stroke-width="2"/>
-        <path d="M721.97 685.5h113.56" stroke="#000" stroke-width="2" fill="none"/>
-        <path d="M722 686.5h-1.03v-2H722"/>
-        <path d="M850.8 685.5l-14.27 4.64v-9.28z" stroke="#000" stroke-width="2"/>
-        <path d="M975 819.47v-42.5" stroke="#000" stroke-width="2" fill="none"/>
-        <path d="M976 820.47h-2v-1.03h2"/>
-        <path d="M975 761.7l4.64 14.27h-9.28z" stroke="#000" stroke-width="2"/>
-        <path d="M1229 822.85l-7.42-4.75-9.1-6.4-11.7-9-35.6-28.8-6.3-4.42-5.23-3.36-4.67-2.73-4.34-2.3-4.13-1.97-4.02-1.72-3.98-1.5-3.98-1.3-4.03-1.15-4.14-.98-4.27-.84-1.67-.25"
-              stroke="#000" stroke-width="2" fill="none"/>
-        <path d="M1230.43 822.58l-.3.33-.48.8-.24.6-.96-.62 1.08-1.68"/>
-        <path d="M1099.23 750.22l14.57-3.54-.7 9.25z" stroke="#000" stroke-width="2"/>
-        <path d="M1228.03 685.5h-113.56" stroke="#000" stroke-width="2" fill="none"/>
-        <path d="M1229.03 686.5H1228v-2h1.03"/>
-        <path d="M1099.2 685.5l14.27-4.64v9.28z" stroke="#000" stroke-width="2"/>
-        <path d="M346.97 685.5h113.56" stroke="#000" stroke-width="2" fill="none"/>
-        <path d="M347 686.5h-1.03v-2H347"/>
-        <path d="M475.8 685.5l-14.27 4.64v-9.28z" stroke="#000" stroke-width="2"/>
-        <path d="M225 819.47v-42.5" stroke="#000" stroke-width="2" fill="none"/>
-        <path d="M226 820.47h-2v-1.03h2"/>
-        <path d="M225 761.7l4.64 14.27h-9.28z" stroke="#000" stroke-width="2"/>
-        <path d="M461.67 691.03l-1.07.74-1.37 1.04-1.43 1.2-1.5 1.34-1.55 1.53-1.65 1.76-1.76 2.04-1.88 2.38-2.04 2.8-2.22 3.35-2.45 4.06-2.76 5.03-3.2 6.4-3.78 8.55-4.86 12.3-7.63 22.13-23.7 73.26-4.84 12.3-3.8 8.55-3.18 6.4-2.76 5.04-2.46 4.06-2.22 3.35-2.03 2.8-1.9 2.38-1.74 2.03-1.65 1.77-1.56 1.53-1.5 1.34-1.43 1.18-1.37 1.05-1.33.92-1.3.82-1.25.73-1.24.64-1.2.58-1.2.5-1.2.44-1.18.4-1.2.32-1.18.28-1.2.22-1.2.18-1.22.13-1.25.07h-.28"
-              stroke="#000" stroke-width="2" fill="none"/>
-        <path d="M475.95 686.48l-12.2 8.75-2.8-8.83z" stroke="#000" stroke-width="2"/>
-        <path d="M347 902h-1.03v-2H347"/>
-        <path d="M185 437a5 5 0 0 1 5-5h230a5 5 0 0 1 5 5v50a5 5 0 0 1-5 5H190a5 5 0 0 1-5-5z" stroke="#000"
-              stroke-opacity="0" stroke-width="2" fill="#fff" fill-opacity="0"/>
-        <g>
-            <text style="font-size: 24px;" transform="matrix(1,0,0,1,205,432) translate(51.11111111111111 34.888888888888886)">因果関係</text>
+        <g clip-path="url(#clip7)">
+            <g clip-path="url(#clip8)">
+                <g clip-path="url(#clip9)">
+                    <path d="M759.22 189.81C746.676 187.744 737.484 176.883 737.52 164.17 737.539 162.595 737.7 161.026 738 159.48L738.08 159.48 739.91 162.65C740.462 163.608 741.687 163.937 742.645 163.385 743.603 162.833 743.932 161.608 743.38 160.65L739.13 153.3C738.865 152.842 738.43 152.508 737.92 152.37 737.407 152.232 736.86 152.304 736.4 152.57L729 156.84C728.021 157.352 727.643 158.561 728.155 159.539 728.667 160.518 729.875 160.896 730.854 160.384 730.904 160.358 730.953 160.33 731 160.3L734.06 158.53C733.704 160.389 733.523 162.277 733.52 164.17 733.475 178.826 744.062 191.352 758.52 193.75L758.86 193.75C759.965 193.838 760.932 193.015 761.02 191.91 761.108 190.805 760.285 189.838 759.18 189.75Z"/>
+                    <path d="M793.52 164.17C793.524 160.597 792.891 157.051 791.65 153.7 791.263 152.665 790.11 152.138 789.075 152.525 788.039 152.912 787.513 154.064 787.9 155.1 792.907 168.558 786.057 183.527 772.599 188.535 772.503 188.57 772.406 188.605 772.31 188.64L772.31 188.64 774.13 185.46C774.682 184.499 774.351 183.272 773.39 182.72 772.429 182.168 771.202 182.499 770.65 183.46L766.45 190.83C765.901 191.788 766.232 193.01 767.19 193.56 767.19 193.56 767.19 193.56 767.19 193.56L774.56 197.77C775.521 198.322 776.748 197.991 777.3 197.03 777.852 196.069 777.521 194.842 776.56 194.29L773.44 192.52C785.506 188.334 793.576 176.941 793.52 164.17Z"/>
+                    <path d="M776.52 144.14C775.415 144.14 774.52 145.035 774.52 146.14 774.52 147.245 775.415 148.14 776.52 148.14L784.74 148.14C784.817 148.145 784.893 148.145 784.97 148.14 785.355 148.14 785.731 148.025 786.05 147.81L786.19 147.72 786.25 147.67 786.25 147.67 786.38 147.57C786.771 147.197 786.995 146.681 787 146.14L787 137.66C787 136.555 786.105 135.66 785 135.66 783.895 135.66 783 136.555 783 137.66L783 141.31 783 141.31C770.389 130.564 751.454 132.076 740.708 144.687 740.662 144.741 740.616 144.795 740.57 144.85 739.858 145.695 739.965 146.958 740.81 147.67 741.655 148.382 742.918 148.275 743.63 147.43 752.814 136.491 769.102 135.009 780.11 144.11Z"/>
+                </g>
+            </g>
         </g>
-        <path d="M122 462h44.53M122.03 462H121" stroke="#000" stroke-width="2" fill="none"/>
-        <path d="M181.8 462l-14.27 4.64v-9.28z" stroke="#000" stroke-width="2"/>
-
+        <g clip-path="url(#clip10)" transform="matrix(0.000104987 0 0 0.000104987 692 291)">
+            <g clip-path="url(#clip12)" transform="matrix(1.01282 0 0 1 -0.5 0)">
+                <use width="100%" height="100%" xlink:href="#img11" transform="scale(5804.3 5804.3)"></use>
+            </g>
+        </g>
+        <g clip-path="url(#clip13)" transform="matrix(0.000104987 0 0 0.000104987 910 401)">
+            <g clip-path="url(#clip15)" transform="matrix(1.01282 0 0 1 -1 -0.25)">
+                <use width="100%" height="100%" xlink:href="#img14" transform="scale(5804.3 5804.3)"></use>
+            </g>
+        </g>
     </g>
 </svg>
