@@ -28,22 +28,28 @@
 <li>資源の産出国が偏在している元素</li>
 </ol>
 
-の３つを満たす元素のことを指し、リチウムやクロムなど47種類の元素で構成されています。
+の３つを満たす元素のことを指し、リチウムやクロムなど47種類の元素で構成されています。（図2.1）
 
 <div class="image_container">
 <div style="position: relative; width: 100%; height: 50vw;">
 <div style="position: absolute; left: -10vw; width: calc(100% + 20vw); height: 100%;">
-    <Image src="../img/urban-mining/periodic_table.png"></Image>
+    <CaptionImage
+        src="../img/urban-mining/periodic_table.png"
+        caption="表2.1 周期表の中のレアメタルとレアアース"
+    ></CaptionImage>
 </div>
 </div>
 </div>
 
-メジャーメタルは電線や各種ケーブル、メッキ、などに利用される一方で、レアメタルは、超伝導材料や形状記憶合金、水素吸蔵合金としてIT関連分野や環境保全などハイテク分野に使われており、携帯電話、パソコン、自動車、テレビ、腕時計、ドライヤーなどの身近なものに欠かせないものとなっています。（下の表）
+メジャーメタルは電線や各種ケーブル、メッキ、などに利用される一方で、レアメタルは、超伝導材料や形状記憶合金、水素吸蔵合金としてIT関連分野や環境保全などハイテク分野に使われており、携帯電話、パソコン、自動車、テレビ、腕時計、ドライヤーなどの身近なものに欠かせないものとなっています。（表2.2）
 このことからレアメタルは<ForceText>「産業のビタミン」</ForceText>と呼ばれることがあります。
 
 携帯電話については実際に解体しました。実験の様子は<a href="../activity/disassembly.html">こちら</a>から。
 
 <figure class="table_figure">
+  <figcaption style="white-space: nowrap;">
+    表2.2 1台あたりのレアメタル含有量
+  </figcaption>
   <table>
     <tr>
       <th></th>
@@ -79,7 +85,7 @@
     </tr>
   </table>
     <figcaption style="white-space: nowrap;">
-        1台あたりのレアメタル含有量を示したものです。※単位はg <a href="https://www.env.go.jp/council/former2013/03haiki/y0324-04/mat02a.pdf">出典</a><br>
+        ※単位はg <a href="https://www.env.go.jp/council/former2013/03haiki/y0324-04/mat02a.pdf">出典</a><br>
         数値の算出方法：（年間の含有量）/（年間排出台数）の値を少数第3位で四捨五入
     </figcaption>
 </figure>
@@ -102,19 +108,29 @@
 この都市鉱山について、データを交えながら詳しく見ていきましょう。
 </SummaryLink>
 <SummaryLink id="3">
-下のグラフは主な金属資源の<Word>一次資源</Word>と<Word>二次資源</Word>の量を示したものです。
+下のグラフ（図2.1）は主な金属資源の<Word>一次資源</Word>と<Word>二次資源</Word>の量を示したものです。
 </SummaryLink>
 
 <div class="image_container">
-    <Image src="../assets/jim/151.jpg" height="40vw" note="日本金属学会より引用" href="https://www.jim.or.jp/journal/j/pdf3/73/03/151.pdf"></Image>
+    <CaptionImage
+        src="../assets/jim/151.jpg"
+        caption="図2.1 一次資源と二次資源の割合"
+        source="日本金属学会より引用" link="https://www.jim.or.jp/journal/j/pdf3/73/03/151.pdf"
+        height="40vw"
+    ></CaptionImage>
 </div>
 
 これを見れば全体の資源のうち<ForceText>半分以上がすでに掘り出された二次資源
-である</ForceText>ことがわかります。 したがって、資源確保が重要な今、携帯電話のような小型家電などに含まれている二次資源を回収するのがカギとなっています。
-ここまで読むと、そのような小型家電がただのゴミではなく<ForceText>有益な資源</ForceText>に思えてきたのではないでしょうか。 2021年に新たにゴミとなる小型家電の量は5740万トン（下の表）にも上り、それは今後も増えていくと予想されています。
+である</ForceText>ことがわかります。したがって、資源確保が重要な今、携帯電話のような小型家電などに含まれている二次資源を回収するのがカギとなっています。
+ここまで読むと、そのような小型家電がただのゴミではなく<ForceText>有益な資源</ForceText>に思えてきたのではないでしょうか。 2021年に新たにゴミとなる小型家電の量は5740万トンにも上り、それは今後も増えていくと予想されています。（図2.2）
 
 <div class="image_container">
-    <CaptionImage src="../assets/statista/1067081.png" height="40vw" source="Statista" link="https://www.statista.com/statistics/1067081/generation-electronic-waste-globally-forecast/"></CaptionImage>
+    <CaptionImage
+        src="../assets/statista/1067081.png"
+        caption="図2.2 2019年から2030年までの世界全体での予想電子廃棄物排出量"
+        source="Statista" link="https://www.statista.com/statistics/1067081/generation-electronic-waste-globally-forecast/"
+        width="40vw"
+    ></CaptionImage>
 </div>
 
 この大量の有益な資源を鉱山に見立てたのが都市鉱山なのです！
@@ -128,17 +144,20 @@
 
 今の私たちからすると信じがたいような話ですが、日本はかつてこのように言われていました。 それほど日本に金があったかどうか真偽のほどは定かではありませんが、昔から日本は金銀銅等を海外に輸出できるほど金属資源に恵まれていました。
 特に銅に関しては17世紀後半から18世紀前半までは、日本が世界一位の生産国でした。 それでは現在の日本の金属資源の状況はどのようなものなのでしょうか？
-戦後に対外貿易の自由度が増し、海外から鉱物がたくさん日本に入ってきたため海外への依存度が高まり、<Word>自給率</Word>が急激に下がってしまいました。
+戦後に対外貿易の自由度が増し、海外から鉱物がたくさん日本に入ってきたため海外への依存度が高まり、<Word>自給率</Word>が急激に下がってしまいました。（図2.3）
 
 <div class="image_container">
-    <Image src="../assets/book/book_p17.png"
-note="書籍『資源論』をスキャン" height="40vw"></Image>
+    <CaptionImage src="../assets/book/book_p17.png"
+        caption="図2.3 日本の各金属の自給率の推移"
+        note_jp="書籍『資源論』をスキャン"
+        width="40vw"
+    ></CaptionImage>
 </div>
 
 そして今、日本での現在稼働中の主な鉱山は鹿児島県にある菱刈（ひしかり）鉱山のみになってしまいました。 しかし、実は<ForceText>日本は世界に引けを取らない資源大国</ForceText>なのです！
 日本は戦後多くの金属資源を海外から輸入し、その金属資源から製造した製品のうち約半分を世界中に輸出するという形で、急激な経済発展を遂げました。 そして、残りの輸出しなかった分の金属資源は<ForceText>製品として国内に残っています。</ForceText>
 これが日本での都市鉱山の主な材料となり、それが日本の資源における潜在的なアドバンテージとなっているのです。
-例えば、金の埋蔵量を見てみると下のグラフの通り、実に日本だけで世界全体の10%を占めます。
+例えば、金の埋蔵量を見てみると下のグラフ（図2.4）の通り、実に日本だけで世界全体の10%を占めます。
 銀についても、世界の11%が日本に眠っています。
 メジャーメタルだけでなくレアメタルの国内埋蔵量も驚くべき数字です。
 クーラーや冷蔵庫の冷媒材料に使われるアンチモンでは、世界全体の埋蔵量のうちの22%は日本が占めている状況です。
@@ -152,7 +171,12 @@ note="書籍『資源論』をスキャン" height="40vw"></Image>
 </SummaryLink>
 
 <div class="image_container">
-    <CaptionImage src="../img/urban-mining/metal_graph.svg" width="60vw" source="SusDI" link="http://susdi.org/wp/data/post-194/" note_jp="を参考に作成"></CaptionImage>
+    <CaptionImage
+        src="../img/urban-mining/metal_graph.svg"
+        caption="図2.4 各金属において日本が世界の埋蔵量に占める割合"
+        source="SusDI" link="http://susdi.org/wp/data/post-194/"
+        width="60vw"
+        note_jp="を参考に作成"></CaptionImage>
 </div>
 
 <AtomCharacter atom="Y">
