@@ -121,7 +121,7 @@
 <div id="lang_en">
 <div class="main_image">
 
-<h1 id="in-search-of-resources-in-your-right-pocket" style="padding: 0;">In search of resources in your right pocket</h1>
+<h1 id="in-search-of-resources-in-your-right-pocket" style="padding: 0;">In Search of Resources in Your Right Pocket</h1>
 
 </div>
 <div class="main_image_spacer">
@@ -155,9 +155,16 @@ Urban mining makes a lot of profit, but there are still many obstacles.
 There are many efforts being made to solve the problem of resources.<br>
 Many people are trying to create a better world.
 "></PageDescriptionLink>
-<PageDescriptionLink title="Activity" path="./activity/" content="
-Here are some of the activities we have done.
-"></PageDescriptionLink>
+<PageDescriptionLink title="Activity" path="./activity/">
+Here are some of the activities we have done.<br>
+<ul>
+<li><a href="./activity/questionnaire.html">Questionnaire</a></li>
+<li><a href="./activity/recycle-box.html">Recovery Box</a></li>
+<li><a href="./activity/interview.html">Interview</a></li>
+<li><a href="./activity/petec.html">Visit to Plant</a></li>
+<li><a href="./activity/disassembly.html">Cell Phone Dismantling</a></li>
+</ul>
+</PageDescriptionLink>
 <PageDescriptionLink title="Solution" path="./solution/" content="
 It is true that there still remain some problems to be solved although many people are working hard to improve the present situation.<br>
 We would like everyone to know how important and useful urban mining is. Here is our solution.

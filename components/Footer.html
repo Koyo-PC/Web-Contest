@@ -2,35 +2,44 @@
 <footer>
   <div class="footer_main">
     <div class="footer_title">
-      右ポケットの中の資源を求めて
+      <span class="lang_jp">右ポケットの中の資源を求めて</span>
+      <span class="lang_en">In Search of Resources in Your Right Pocket</span>
     </div>
     <div class="footer_copyright">
-      このサイトは <a href="http://webcon.japias.jp/">第24回全国中学高校Webコンテスト</a> に参加しています。
+      <span class="lang_jp">このサイトは <a href="http://webcon.japias.jp/">第24回全国中学高校Webコンテスト</a> に参加しています。</span>
+      <span class="lang_en">このサイトは <a href="http://webcon.japias.jp/">第24回全国中学高校Webコンテスト</a> に参加しています。</span>
     </div>
     <div class="footer_license">
       <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
-        <img alt="クリエイティブ・コモンズ・ライセンス"
-             style="border-width:0"
+        <img style="border-width:0"
              src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png"/>
       </a>
       <br/>
-      この作品は
-      <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
-        クリエイティブ・コモンズ 表示 - 非営利 - 改変禁止 4.0 国際ライセンス
-      </a>
-      の下に提供されています。
+      <span class="lang_jp">
+        この作品は
+        <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+          クリエイティブ・コモンズ 表示 - 非営利 - 改変禁止 4.0 国際ライセンス
+        </a>
+        の下に提供されています。
+      </span>
+      <span class="lang_en">
+        This work is licensed under a
+        <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+        Creative Commons Attribution 4.0 International License
+        </a>.
+      </span>
     </div>
   </div>
   <div class="footer_sitemap">
     <a href="[[root_path]]">Home</a>
-    <a href="[[root_path]]present-situation/">資源の現状</a>
-    <a href="[[root_path]]urban-mining/">都市鉱山の意義</a>
-    <a href="[[root_path]]problem/">課題</a>
-    <a href="[[root_path]]measure/">現在の取り組み</a>
-    <a href="[[root_path]]activity/">アクティビティ</a>
-    <a href="[[root_path]]solution/">解決策</a>
-    <a href="[[root_path]]finally/">最後に</a>
-    <a href="[[root_path]]others/">その他</a>
+    <a href="[[root_path]]present-situation/"><span class="lang_jp">資源の現状</span><span class="lang_en">Present Situation</span></a>
+    <a href="[[root_path]]urban-mining/"><span class="lang_jp">都市鉱山の意義</span><span class="lang_en">Significance of Urban Mining</span></a>
+    <a href="[[root_path]]problem/"><span class="lang_jp">課題</span><span class="lang_en">Problem</span></a>
+    <a href="[[root_path]]measure/"><span class="lang_jp">現在の取り組み</span><span class="lang_en">Measure</span></a>
+    <a href="[[root_path]]activity/"><span class="lang_jp">アクティビティ</span><span class="lang_en">Activity</span></a>
+    <a href="[[root_path]]solution/"><span class="lang_jp">解決策</span><span class="lang_en">Solution</span></a>
+    <a href="[[root_path]]finally/"><span class="lang_jp">最後に</span><span class="lang_en">Finally</span></a>
+    <a href="[[root_path]]others/"><span class="lang_jp">その他</span><span class="lang_en">Others</span></a>
   </div>
   <!--  ©︎甲陽学院PC部-->
 </footer>
@@ -62,6 +71,9 @@
     position: absolute;
     color: darkgray;
   }
+  .footer_copyright * {
+    font-size: 12px;
+  }
 
   .footer_copyright > a {
     text-decoration: underline;
@@ -71,6 +83,9 @@
   .footer_license {
     position: absolute;
     color: darkgray;
+  }
+  .footer_license * {
+    font-size: 12px;
   }
 
   .footer_license a {
@@ -108,7 +123,7 @@
     }
 
     .footer_license {
-      bottom: 12%;
+      bottom: 10%;
       left: 10%;
       font-size: 12px;
     }
@@ -131,6 +146,8 @@
     .footer_sitemap > a {
       width: 100%;
       height: calc(100% / var(--category-count));
+    }
+    .footer_sitemap > a, .footer_sitemap > a * {
       font-size: 14px;
     }
   }
@@ -175,6 +192,8 @@
     .footer_sitemap > a {
       width: 100%;
       height: calc(100% / var(--category-count));
+    }
+    .footer_sitemap > a, .footer_sitemap > a * {
       font-size: 12px;
     }
   }
