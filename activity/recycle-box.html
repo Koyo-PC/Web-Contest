@@ -473,6 +473,16 @@
       .toc_link_h4 {
         margin-left: 30px;
       }
+      @media (orientation: landscape) {
+        #floating_menu {
+          background-color: #8884;
+        }
+      }
+      @media (orientation: portrait) {
+        #floating_menu {
+          background-color: #8888;
+        }
+      }
       #floating_menu {
         position: fixed;
         bottom: 0;
@@ -480,7 +490,6 @@
         z-index: 100;
         width: 200px;
         display: block;
-        background-color: #8884;
       }
       footer {
         position: relative;

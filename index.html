@@ -567,6 +567,16 @@
       .toc_link_h4 {
         margin-left: 30px;
       }
+      @media (orientation: landscape) {
+        #floating_menu {
+          background-color: #8884;
+        }
+      }
+      @media (orientation: portrait) {
+        #floating_menu {
+          background-color: #8888;
+        }
+      }
       #floating_menu {
         position: fixed;
         bottom: 0;
@@ -574,7 +584,6 @@
         z-index: 100;
         width: 200px;
         display: block;
-        background-color: #8884;
       }
       .text {
         width: 90%;
@@ -877,7 +886,7 @@
         border-right: 1px solid #001b26;
       }
 
-      .nav_link > :nth-child(0) {
+      .nav_link > :nth-child(1) {
         border-bottom: 5px solid white;
       }
 
@@ -1269,7 +1278,7 @@
               </div>
             </a>
           </div>
-          <h2 id="ページの見方">ページの見方</h2>
+          <h2 id="各機能について">各機能について</h2>
           <ul>
             <li><h3 id="メニュー">メニュー</h3></li>
           </ul>
