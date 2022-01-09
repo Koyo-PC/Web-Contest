@@ -1,114 +1,121 @@
-<svg xmlns="http://www.w3.org/2000/svg" id="main" xmlns:xlink="http://www.w3.org/1999/xlink" width="1300" height="600" viewBox="0, 0, 1300, 600">
-	<g transform="translate(-100 -400)">
-		<path d="M105 428.56c0-2.76 2.24-5 5-5h310c2.76 0 5 2.24 5 5v50c0 2.76-2.24 5-5 5H110c-2.76 0-5-2.24-5-5z" stroke="#000" stroke-width="2" fill-opacity="0"/>
-		<text transform="matrix(1,0,0,1,260,460)" font-size="20">因果関係</text>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="main" xmlns:lucid="lucid" width="1300" height="600" viewBox="100,390,1400,600">
+    <g transform="translate(0 0)" lucid:page-tab-id="henNOGDDcFUnn">
+        <path d="M105 437a5 5 0 0 1 5-5h310a5 5 0 0 1 5 5v50a5 5 0 0 1-5 5H110a5 5 0 0 1-5-5z" stroke="#000"
+              stroke-width="2" fill-opacity="0"/>
+        <a href="#s_5">
+            <path d="M855 618.5a5 5 0 0 1 5-5h230a5 5 0 0 1 5 5v134a5 5 0 0 1-5 5H860a5 5 0 0 1-5-5z" stroke="#000"
+                  stroke-width="2" fill="#e3f7ff"/>
 
-		<!-- リサイクルの促進 -->
-		<a href="#s_5">
-			<path d="M855 618.5c0-2.76 2.24-5 5-5h150c2.76 0 5 2.24 5 5v86c0 2.76-2.24 5-5 5H860c-2.76 0-5-2.24-5-5z" stroke="#000" stroke-width="2" fill="#e3f7ff"/>
-			<text x="-5" y="55" transform="matrix(1,0,0,1,875,613.5)">リサイクルの促進</text>
-		</a>
+            <text style="font-size: 31px;" transform="matrix(1,0,0,1,875,613.5) translate(11.333333333333343 59.55555555555555)">リサイクルの</text>
+            <text style="font-size: 31px;" transform="matrix(1,0,0,1,875,613.5) translate(68.88888888888889 96.88888888888889)">促進</text>
+        </a>
+        <a href="#s_9">
+        <path d="M855 826.44a5 5 0 0 1 5-5h230a5 5 0 0 1 5 5v134a5 5 0 0 1-5 5H860a5 5 0 0 1-5-5z" stroke="#000"
+              stroke-width="2" fill="#f4e3ff"/>
+            <text style="font-size: 31px;" transform="matrix(1,0,0,1,875,821.44) translate(24.555555555555543 40.888888888888886)">配達による</text>
+            <text style="font-size: 31px;" transform="matrix(1,0,0,1,875,821.44) translate(26.111111111111114 78.22222222222223)">リサイクル</text>
+            <text style="font-size: 31px;" transform="matrix(1,0,0,1,875,821.44) translate(40.11111111111111 115.55555555555557)">サービス</text>
+        </a>
+        <a href="#s_6">
+        <path d="M1230 618.5a5 5 0 0 1 5-5h230a5 5 0 0 1 5 5v134a5 5 0 0 1-5 5h-230a5 5 0 0 1-5-5z" stroke="#000"
+              stroke-width="2" fill="#fff7e3"/>
+            <text style="font-size: 31px;" transform="matrix(1,0,0,1,1250,613.5) translate(40.888888888888886 40.888888888888886)">シングル</text>
+            <text style="font-size: 31px;" transform="matrix(1,0,0,1,1250,613.5) translate(9.777777777777771 78.22222222222223)">ストリーム方</text>
+            <text style="font-size: 31px;" transform="matrix(1,0,0,1,1250,613.5) translate(84.44444444444444 115.55555555555557)">式</text>
+        </a>
+        <a href="#s_8">
+        <path d="M480 826.44a5 5 0 0 1 5-5h230a5 5 0 0 1 5 5v134a5 5 0 0 1-5 5H485a5 5 0 0 1-5-5z" stroke="#000"
+              stroke-width="2" fill="#e3e5ff"/>
+            <text style="font-size: 31px;" transform="matrix(1,0,0,1,500,821.44) translate(40.11111111111111 59.55555555555555)">スケール</text>
+            <text style="font-size: 31px;" transform="matrix(1,0,0,1,500,821.44) translate(40.888888888888886 96.88888888888889)">メリット</text>
+        </a>
+        <a href="#s_0">
+        <path d="M480 410.56a5 5 0 0 1 5-5h230a5 5 0 0 1 5 5v134a5 5 0 0 1-5 5H485a5 5 0 0 1-5-5z" stroke="#000"
+              stroke-width="2" fill="#ffd4fa"/>
+            <text style="font-size: 31px;" transform="matrix(1,0,0,1,500,405.55999999999995) translate(8.222222222222229 59.55555555555555)">前払い制度の</text>
+            <text style="font-size: 31px;" transform="matrix(1,0,0,1,500,405.55999999999995) translate(68.88888888888889 96.88888888888889)">導入</text>
+        </a>
+        <a href="#s_1">
+        <path d="M855 410.56a5 5 0 0 1 5-5h230a5 5 0 0 1 5 5v134a5 5 0 0 1-5 5H860a5 5 0 0 1-5-5z" stroke="#000"
+              stroke-width="2" fill="#ebffe3"/>
+            <text style="font-size: 31px;" transform="matrix(1,0,0,1,875,405.55999999999995) translate(2.4320987654321016 78.22222222222223)">ORDEEの制定</text>
+        </a>
+        <a href="#s_2">
+        <path d="M1230 410.56a5 5 0 0 1 5-5h230a5 5 0 0 1 5 5v134a5 5 0 0 1-5 5h-230a5 5 0 0 1-5-5z" stroke="#000"
+              stroke-width="2" fill="#e3e5ff"/>
+            <text style="font-size: 31px;" transform="matrix(1,0,0,1,1250,405.55999999999995) translate(9.777777777777771 59.55555555555555)">回収ボックス</text>
+            <text style="font-size: 31px;" transform="matrix(1,0,0,1,1250,405.55999999999995) translate(54.11111111111111 96.88888888888889)">の設置</text>
+        </a>
+        <a href="#s_10">
+            <path d="M1230 826.44a5 5 0 0 1 5-5h230a5 5 0 0 1 5 5v134a5 5 0 0 1-5 5h-230a5 5 0 0 1-5-5z" stroke="#000"
+                  stroke-width="2" fill="#ffd4fa"/>
+            <text style="font-size: 31px;" transform="matrix(1,0,0,1,1250,821.44) translate(40.888888888888886 40.888888888888886)">みんなの</text>
+            <text style="font-size: 31px;" transform="matrix(1,0,0,1,1250,821.44) translate(55.666666666666664 78.22222222222223)">メダル</text>
+            <text style="font-size: 31px;" transform="matrix(1,0,0,1,1250,821.44) translate(11.333333333333343 115.55555555555557)">プロジェクト</text>
+        </a>
+        <a href="#s_4">
+            <path d="M480 618.5a5 5 0 0 1 5-5h230a5 5 0 0 1 5 5v134a5 5 0 0 1-5 5H485a5 5 0 0 1-5-5z" stroke="#000"
+                  stroke-width="2" fill="#ffe3e9"/>
+            <text style="font-size: 31px;" transform="matrix(1,0,0,1,500,613.5) translate(7.444444444444429 59.55555555555555)">電子廃棄物の</text>
+            <text style="font-size: 31px;" transform="matrix(1,0,0,1,500,613.5) translate(68.88888888888889 96.88888888888889)">削減</text>
+        </a>
+        <a href="#s_3">
+            <path d="M105 618.5a5 5 0 0 1 5-5h230a5 5 0 0 1 5 5v134a5 5 0 0 1-5 5H110a5 5 0 0 1-5-5z" stroke="#000"
+                  stroke-width="2" fill="#ffe3e9"/>
+            <text style="font-size: 31px;" transform="matrix(1,0,0,1,125,613.5) translate(25.33333333333333 59.55555555555555)">リユースの</text>
+            <text style="font-size: 31px;" transform="matrix(1,0,0,1,125,613.5) translate(68.88888888888889 96.88888888888889)">促進</text>
+        </a>
+        <a href="#s_7">
+            <path d="M105 826.44a5 5 0 0 1 5-5h230a5 5 0 0 1 5 5v134a5 5 0 0 1-5 5H110a5 5 0 0 1-5-5z" stroke="#000"
+                  stroke-width="2" fill="#ffe3e9"/>
+            <text style="font-size: 31px;" transform="matrix(1,0,0,1,125,821.44) translate(11.333333333333343 59.55555555555555)">オンラインの</text>
+            <text style="font-size: 31px;" transform="matrix(1,0,0,1,125,821.44) translate(9 96.88888888888889)">修理サービス</text>
+        </a>
+        <path d="M975 551.53v42.5" stroke="#000" stroke-width="2" fill="none"/>
+        <path d="M976 551.56h-2v-1.03h2"/>
+        <path d="M975 609.3l-4.64-14.27h9.28z" stroke="#000" stroke-width="2"/>
+        <path d="M1231.24 550.45l-3.67 5.73-4.1 5.87-4.05 5.27-3.98 4.77-3.95 4.35-3.96 4-3.95 3.67-4 3.4-4.02 3.17-4.1 2.94-4.2 2.76-4.32 2.6-4.47 2.43-4.67 2.28-4.87 2.15-5.15 2-5.46 1.9-5.86 1.73-6.35 1.6-6.95 1.44-7.7 1.26-8.66 1.05-8.4.67"
+              stroke="#000" stroke-width="2" fill="none"/>
+        <path d="M1231.47 549.42l.8.5.4.15-.6.94-1.68-1.07.6-.93"/>
+        <path d="M1099.17 618l14.1-5.1.3 9.26z" stroke="#000" stroke-width="2"/>
+        <path d="M721.02 548.1l19.32 11.32 14.73 7.8 13.1 6.24 51.65 22.57 14.72 7.8 4.22 2.47" stroke="#000"
+              stroke-width="2" fill="none"/>
+        <path d="M721.55 547.26l-1 1.73-.98-.58.3-.33.48-.8.24-.6"/>
+        <path d="M851.94 614l-14.66-3.2 4.7-8z" stroke="#000" stroke-width="2"/>
+        <path d="M718.76 820.55l3.67-5.73 4.1-5.87 4.05-5.27 3.98-4.77 3.95-4.35 3.96-4 3.95-3.67 4-3.4 4.02-3.17 4.1-2.94 4.2-2.76 4.32-2.6 4.47-2.43 4.67-2.28 4.87-2.15 5.15-2 5.46-1.9 5.86-1.73 6.35-1.6 6.95-1.44 7.7-1.26 8.66-1.05 8.4-.67"
+              stroke="#000" stroke-width="2" fill="none"/>
+        <path d="M719.6 821.07l-.6.93-.47-.42-.8-.5-.4-.15.6-.94"/>
+        <path d="M850.83 753l-14.1 5.1-.3-9.26z" stroke="#000" stroke-width="2"/>
+        <path d="M721.97 685.5h113.56" stroke="#000" stroke-width="2" fill="none"/>
+        <path d="M722 686.5h-1.03v-2H722"/>
+        <path d="M850.8 685.5l-14.27 4.64v-9.28z" stroke="#000" stroke-width="2"/>
+        <path d="M975 819.47v-42.5" stroke="#000" stroke-width="2" fill="none"/>
+        <path d="M976 820.47h-2v-1.03h2"/>
+        <path d="M975 761.7l4.64 14.27h-9.28z" stroke="#000" stroke-width="2"/>
+        <path d="M1229 822.85l-7.42-4.75-9.1-6.4-11.7-9-35.6-28.8-6.3-4.42-5.23-3.36-4.67-2.73-4.34-2.3-4.13-1.97-4.02-1.72-3.98-1.5-3.98-1.3-4.03-1.15-4.14-.98-4.27-.84-1.67-.25"
+              stroke="#000" stroke-width="2" fill="none"/>
+        <path d="M1230.43 822.58l-.3.33-.48.8-.24.6-.96-.62 1.08-1.68"/>
+        <path d="M1099.23 750.22l14.57-3.54-.7 9.25z" stroke="#000" stroke-width="2"/>
+        <path d="M1228.03 685.5h-113.56" stroke="#000" stroke-width="2" fill="none"/>
+        <path d="M1229.03 686.5H1228v-2h1.03"/>
+        <path d="M1099.2 685.5l14.27-4.64v9.28z" stroke="#000" stroke-width="2"/>
+        <path d="M346.97 685.5h113.56" stroke="#000" stroke-width="2" fill="none"/>
+        <path d="M347 686.5h-1.03v-2H347"/>
+        <path d="M475.8 685.5l-14.27 4.64v-9.28z" stroke="#000" stroke-width="2"/>
+        <path d="M225 819.47v-42.5" stroke="#000" stroke-width="2" fill="none"/>
+        <path d="M226 820.47h-2v-1.03h2"/>
+        <path d="M225 761.7l4.64 14.27h-9.28z" stroke="#000" stroke-width="2"/>
+        <path d="M461.67 691.03l-1.07.74-1.37 1.04-1.43 1.2-1.5 1.34-1.55 1.53-1.65 1.76-1.76 2.04-1.88 2.38-2.04 2.8-2.22 3.35-2.45 4.06-2.76 5.03-3.2 6.4-3.78 8.55-4.86 12.3-7.63 22.13-23.7 73.26-4.84 12.3-3.8 8.55-3.18 6.4-2.76 5.04-2.46 4.06-2.22 3.35-2.03 2.8-1.9 2.38-1.74 2.03-1.65 1.77-1.56 1.53-1.5 1.34-1.43 1.18-1.37 1.05-1.33.92-1.3.82-1.25.73-1.24.64-1.2.58-1.2.5-1.2.44-1.18.4-1.2.32-1.18.28-1.2.22-1.2.18-1.22.13-1.25.07h-.28"
+              stroke="#000" stroke-width="2" fill="none"/>
+        <path d="M475.95 686.48l-12.2 8.75-2.8-8.83z" stroke="#000" stroke-width="2"/>
+        <path d="M347 902h-1.03v-2H347"/>
+        <path d="M185 437a5 5 0 0 1 5-5h230a5 5 0 0 1 5 5v50a5 5 0 0 1-5 5H190a5 5 0 0 1-5-5z" stroke="#000"
+              stroke-opacity="0" stroke-width="2" fill="#fff" fill-opacity="0"/>
+        <g>
+            <text style="font-size: 24px;" transform="matrix(1,0,0,1,205,432) translate(51.11111111111111 34.888888888888886)">因果関係</text>
+        </g>
+        <path d="M122 462h44.53M122.03 462H121" stroke="#000" stroke-width="2" fill="none"/>
+        <path d="M181.8 462l-14.27 4.64v-9.28z" stroke="#000" stroke-width="2"/>
 
-		<!-- 配達によるリサイクルサービス -->
-		<a href="#s_9">
-			<path d="M855 826.44c0-2.76 2.24-5 5-5h150c2.76 0 5 2.24 5 5v86c0 2.76-2.24 5-5 5H860c-2.76 0-5-2.24-5-5z" stroke="#000" stroke-width="2" fill="#f4e3ff"/>
-			<text transform="matrix(1,0,0,1,895,865)">配達による</text>
-			<text transform="matrix(1,0,0,1,865,885)">リサイクルサービス</text>
-		</a>
-
-		<!-- シングルストリーム方式 -->
-		<a href="#s_6">
-			<path d="M1230 618.5c0-2.76 2.24-5 5-5h150c2.76 0 5 2.24 5 5v86c0 2.76-2.24 5-5 5h-150c-2.76 0-5-2.24-5-5z" stroke="#000" stroke-width="2" fill="#fff7e3"/>
-			<text transform="matrix(1,0,0,1,1275,660)">シングル</text>
-			<text transform="matrix(1,0,0,1,1255,680)">ストリーム方式</text>
-		</a>
-
-		<!-- スケールメリット -->
-		<a href="#s_8">
-			<path d="M480 826.44c0-2.76 2.24-5 5-5h150c2.76 0 5 2.24 5 5v86c0 2.76-2.24 5-5 5H485c-2.76 0-5-2.24-5-5z" stroke="#000" stroke-width="2" fill="#e3e5ff"/>
-			<text transform="matrix(1,0,0,1,497,875)">スケールメリット</text>
-		</a>
-
-		<!-- 前払い制度の導入 -->
-		<a href="#s_0">
-			<path d="M480 410.56c0-2.76 2.24-5 5-5h150c2.76 0 5 2.24 5 5v86c0 2.76-2.24 5-5 5H485c-2.76 0-5-2.24-5-5z" stroke="#000" stroke-width="2" fill="#ffd4fa"/>
-			<text transform="matrix(1,0,0,1,500,460)">前払い制度の導入</text>
-		</a>
-
-		<!-- ORDEEの制定 -->
-		<a href="#s_1">
-			<path d="M855 410.56c0-2.76 2.24-5 5-5h150c2.76 0 5 2.24 5 5v86c0 2.76-2.24 5-5 5H860c-2.76 0-5-2.24-5-5z" stroke="#000" stroke-width="2" fill="#ebffe3"/>
-			<text transform="matrix(1,0,0,1,885,460)">ORDEEの制定</text>
-		</a>
-
-		<!-- 回収ボックスの設置 -->
-		<a href="#s_2">
-			<path d="M1230 410.56c0-2.76 2.24-5 5-5h150c2.76 0 5 2.24 5 5v86c0 2.76-2.24 5-5 5h-150c-2.76 0-5-2.24-5-5z" stroke="#000" stroke-width="2" fill="#e3e5ff"/>
-			<text transform="matrix(1,0,0,1,1240,460)">回収ボックスの設置</text>
-		</a>
-
-		<!-- みんなのメダルプロジェクト -->
-		<a href="#s_10">
-			<path d="M1230 826.44c0-2.76 2.24-5 5-5h150c2.76 0 5 2.24 5 5v86c0 2.76-2.24 5-5 5h-150c-2.76 0-5-2.24-5-5z" stroke="#000" stroke-width="2" fill="#ffd4fa"/>
-			<text transform="matrix(1,0,0,1,1255,865)">みんなのメダル</text>
-			<text transform="matrix(1,0,0,1,1265,885)">プロジェクト</text>
-		</a>
-
-		<!-- 電子廃棄物の削減 -->
-		<a href="#s_4">
-			<path d="M480 618.5c0-2.76 2.24-5 5-5h150c2.76 0 5 2.24 5 5v86c0 2.76-2.24 5-5 5H485c-2.76 0-5-2.24-5-5z" stroke="#000" stroke-width="2" fill="#ffe3e9"/>
-			<text transform="matrix(1,0,0,1,510,660)">電子廃棄物の</text>
-			<text transform="matrix(1,0,0,1,540,680)">削減</text>
-		</a>
-
-		<!-- リユースの促進 -->
-		<a href="#s_3">
-			<path d="M105 618.5c0-2.76 2.24-5 5-5h150c2.76 0 5 2.24 5 5v86c0 2.76-2.24 5-5 5H110c-2.76 0-5-2.24-5-5z" stroke="#000" stroke-width="2" fill="#ffe3e9"/>
-			<text transform="matrix(1,0,0,1,130,665)">リユースの促進</text>
-		</a>
-
-		<!-- オンラインの修理サービス -->
-		<a href="#s_7">
-			<path d="M105 826.44c0-2.76 2.24-5 5-5h150c2.76 0 5 2.24 5 5v86c0 2.76-2.24 5-5 5H110c-2.76 0-5-2.24-5-5z" stroke="#000" stroke-width="2" fill="#ffe3e9"/>
-			<text transform="matrix(1,0,0,1,135,865)">オンラインの</text>
-			<text transform="matrix(1,0,0,1,135,885)">修理サービス</text>
-		</a>
-
-		<path d="M935 503.56V594" stroke="#000" stroke-width="2" fill="none"/>
-		<path d="M936 503.6h-2v-1.04h2"/>
-		<path d="M935 609.26L930.36 595h9.28z" stroke="#000" stroke-width="2"/>
-		<path d="M1231.1 502.4l-2 5.7-2.43 6.13-2.54 5.68-2.64 5.3-2.74 4.98-2.85 4.68-2.94 4.44-3.07 4.2-3.2 4.04-3.36 3.86-3.5 3.73-3.7 3.6-3.88 3.5-4.13 3.4-4.4 3.34-4.74 3.28-5.12 3.23-5.57 3.2-6.12 3.2-6.83 3.2-7.7 3.22-8.9 3.3-10.55 3.4-13.06 3.6-17.57 4.1-30.38 5.65-33.23 5.27" stroke="#000" stroke-width="2" fill="none"/>
-		<path d="M1231.43 501.45l.95.3-.35 1-1.88-.66.56-1.64"/>
-		<path d="M1018.9 616.02l13.35-6.82 1.46 9.16z" stroke="#000" stroke-width="2"/>
-		<path d="M640.5 500.93l6.43 8.46 6.8 8.2 6.6 7.33 6.54 6.65 6.5 6.1 6.56 5.63 6.68 5.3 6.9 5 7.22 4.78 7.7 4.64 8.36 4.58 9.36 4.63 10.92 4.84 13.66 5.37 20.18 6.96 66.47 20.28" stroke="#000" stroke-width="2" fill="none"/>
-		<path d="M641.3 500.34l-1.6 1.2-.62-.82.8-.6.38-1.15"/>
-		<path d="M851.97 614.13l-15 .27 2.7-8.87z" stroke="#000" stroke-width="2"/>
-		<path d="M638.9 820.6l2-5.7 2.43-6.13 2.54-5.68 2.64-5.3 2.74-4.98 2.85-4.68 2.94-4.44 3.07-4.2 3.2-4.04 3.36-3.86 3.5-3.73 3.7-3.6 3.88-3.5 4.13-3.4 4.4-3.34 4.74-3.28 5.12-3.23 5.57-3.2 6.12-3.2 6.83-3.2 7.7-3.22 8.9-3.3 10.55-3.4 13.06-3.6 17.57-4.1 30.38-5.65 33.23-5.27" stroke="#000" stroke-width="2" fill="none"/>
-		<path d="M639.85 820.9l-.56 1.64-.73-1-.95-.3.35-1"/>
-		<path d="M851.1 706.98l-13.35 6.82-1.46-9.16z" stroke="#000" stroke-width="2"/>
-		<path d="M642 661.5h193.5" stroke="#000" stroke-width="2" fill="none"/>
-		<path d="M642.03 662.5H641v-2h1.03"/>
-		<path d="M850.76 661.5l-14.26 4.64v-9.28z" stroke="#000" stroke-width="2"/>
-		<path d="M935 819.44V729" stroke="#000" stroke-width="2" fill="none"/>
-		<path d="M936 820.44h-2v-1.03h2"/>
-		<path d="M935 713.74l4.64 14.26h-9.28z" stroke="#000" stroke-width="2"/>
-		<path d="M1229.5 822.07l-12.66-16.68-11.4-13.76-10.14-11.26-9.3-9.5-8.72-8.15-8.28-7.13-7.97-6.3-7.77-5.64-7.65-5.07-7.6-4.6-7.62-4.18-7.7-3.8-7.84-3.5-8.05-3.17-8.35-2.9-8.7-2.6-9.14-2.34-9.7-2.04-10.43-1.75-11.3-1.4-12.36-1.02-2.3-.1" stroke="#000" stroke-width="2" fill="none"/>
-		<path d="M1230.92 822.28l-.8.6-.38 1.15-1.04-1.37 1.6-1.2"/>
-		<path d="M1019.23 704.75l14.4-4.22-.27 9.26z" stroke="#000" stroke-width="2"/>
-		<path d="M1228 661.5h-193.5" stroke="#000" stroke-width="2" fill="none"/>
-		<path d="M1229 662.5h-1.03v-2h1.03"/>
-		<path d="M1019.24 661.5l14.26-4.64v9.28z" stroke="#000" stroke-width="2"/>
-		<path d="M267 661.5h193.5" stroke="#000" stroke-width="2" fill="none"/>
-		<path d="M267.03 662.5H266v-2h1.03"/>
-		<path d="M475.76 661.5l-14.26 4.64v-9.28z" stroke="#000" stroke-width="2"/>
-		<path d="M185 819.44V729" stroke="#000" stroke-width="2" fill="none"/>
-		<path d="M186 820.44h-2v-1.03h2"/>
-		<path d="M185 713.74l4.64 14.26h-9.28z" stroke="#000" stroke-width="2"/>
-		<path d="M460.68 663.77l-2.7.76-2.78.9-2.76 1.03-2.75 1.16-2.77 1.3-2.77 1.44-2.8 1.63-2.86 1.8-2.92 2.02-3 2.28-3.1 2.56-3.22 2.9-3.4 3.33-3.58 3.82-3.86 4.48-4.2 5.3-4.7 6.48-5.42 8.18-6.7 11.07-9.9 18.13-33.9 65.4-6.7 11.08-5.42 8.18-4.7 6.47-4.2 5.3-3.86 4.48-3.6 3.83-3.38 3.33-3.23 2.9-3.1 2.57-2.98 2.28-2.92 2.02-2.85 1.8-2.8 1.64-2.78 1.45-2.76 1.28-2.74 1.16-2.76 1.03-2.77.9-2.8.78-2.85.67-2.9.55-2.98.44-3.06.33-3.16.2-2.28.05" stroke="#000" stroke-width="2" fill="none"/>
-		<path d="M475.8 661.9l-13.6 6.36-1.14-9.2z" stroke="#000" stroke-width="2"/>
-		<path d="M267.03 875.5H266v-2h1.03"/>
-		<path d="M122 453.56h44.5M122.03 453.56H121" stroke="#000" stroke-width="2" fill="none"/>
-		<path d="M181.76 453.56l-14.26 4.64v-9.28z" stroke="#000" stroke-width="2"/>
-
-	</g>
+    </g>
 </svg>
