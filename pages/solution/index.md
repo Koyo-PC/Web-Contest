@@ -507,7 +507,7 @@ However, these areas are not being mined for them because it costs too much and 
 
 ## Summary
 
-私たちの提案する解決策は以下の６つです。
+We suggest six solutions below.
 
 1. make recycling compulsory after considering its good points and bad points
 2. give back metal resources to those who recycled
