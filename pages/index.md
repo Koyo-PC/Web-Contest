@@ -1,4 +1,5 @@
 [//SCML_TITLE]: # (ホーム)
+[//SCML_TITLE_EN]: # (Home)
 [//SCML_ROOT_PATH]: # (./)
 
 <div id="lang_jp">
@@ -93,24 +94,12 @@
   Chrome, FireFoxの最新版にて動作確認を行っています。<br>
   その他のブラウザでは正常に表示されない場合があります。
 </div>
-<!--  <h2 class="site_map">サイトマップ</h2>-->
-<!--  <ul class="site_map_list">-->
-<!--    <li>ホーム</li>-->
-<!--    <li>資源の現状</li>-->
-<!--    <li>都市鉱山の意義</li>-->
-<!--    <li>課題</li>-->
-<!--    <li>現在の取り組み</li>-->
-<!--    <li>アクティビティ</li>-->
-<!--    <li>解決策</li>-->
-<!--    <li>最後に</li>-->
-<!--    <li>その他</li>-->
-<!--  </ul>-->
 </div>
 <ScrollTop></ScrollTop>
 <FloatingMenu>
   h1 右ポケットの中の資源を求めて
   h2 サイトマップ
-  h2 ページの見方
+  h2 各機能について
   h3 メニュー
   h3 吹き出し辞書
   h3 まとめ図解

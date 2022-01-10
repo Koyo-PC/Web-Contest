@@ -48,7 +48,7 @@
 
 <figure class="table_figure">
   <figcaption style="white-space: nowrap;">
-    表2.2 1台あたりのレアメタル含有量
+    表2.2 1台あたりのレアメタル含有量 (※単位はg)
   </figcaption>
   <table>
     <tr>
@@ -85,7 +85,7 @@
     </tr>
   </table>
     <figcaption style="white-space: nowrap;">
-        ※単位はg <a href="https://www.env.go.jp/council/former2013/03haiki/y0324-04/mat02a.pdf">出典</a><br>
+        <a href="https://www.env.go.jp/council/former2013/03haiki/y0324-04/mat02a.pdf">資料２　有用金属含有量の分析結果（途中報告）</a>を参考に作成<br>
         数値の算出方法：（年間の含有量）/（年間排出台数）の値を少数第3位で四捨五入
     </figcaption>
 </figure>
@@ -115,7 +115,7 @@
     <CaptionImage
         src="../assets/jim/151.jpg"
         caption="図2.1 一次資源と二次資源の割合"
-        source="日本金属学会より引用" link="https://www.jim.or.jp/journal/j/pdf3/73/03/151.pdf"
+        source="日本金属学会" link="https://www.jim.or.jp/journal/j/pdf3/73/03/151.pdf"
         height="40vw"
     ></CaptionImage>
 </div>
@@ -150,6 +150,7 @@
     <CaptionImage src="../assets/book/book_p17.png"
         caption="図2.3 日本の各金属の自給率の推移"
         note_jp="書籍『資源論』をスキャン"
+        force_exist="true"
         width="40vw"
     ></CaptionImage>
 </div>

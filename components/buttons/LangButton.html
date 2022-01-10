@@ -11,7 +11,7 @@
                   document.querySelectorAll(".lang_jp").forEach(el => el.style.display = "none");
                   document.title = "[[title_en]]";
                   document.documentElement.lang = "en";
-                  sessionStorage.setItem('lang', "en");
+                  localStorage.setItem('lang', "en");
                   break;
               case "ja":
               default:
@@ -21,14 +21,14 @@
                   document.querySelectorAll(".lang_jp").forEach(el => el.style.display = "initial");
                   document.title = "[[title_ja]]";
                   document.documentElement.lang = "ja";
-                  sessionStorage.setItem('lang', "ja");
+                  localStorage.setItem('lang', "ja");
                   break;
           }
           updateButton();
       }
 
       function changeLang() {
-          switch (sessionStorage.getItem('lang')) {
+          switch (localStorage.getItem('lang')) {
               case "en":
                   setLang('ja');
                   break;
@@ -41,7 +41,7 @@
       }
 
       function updateButton() {
-          switch (sessionStorage.getItem('lang')) {
+          switch (localStorage.getItem('lang')) {
               case "ja":
                   document.querySelectorAll("#lang_text").forEach(el => el.innerHTML = "English Page");
                   break;
@@ -50,7 +50,7 @@
                   break;
           }
       }
-      document.addEventListener("DOMContentLoaded",() => setLang(sessionStorage.getItem('lang')));
+      document.addEventListener("DOMContentLoaded",() => setLang(localStorage.getItem('lang')));
   </script>
 </button>
 <script scml>
