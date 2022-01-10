@@ -161,6 +161,7 @@ Web系の資格を持っているのに得意な言語はJavaらしい。<br>
   - 承諾方法<br>
     [利用規約](https://www.ac-illust.com/main/terms.php)
   - 利用しているページ<br>
+    [ホーム](../)
     [工場見学](../activity/petec.html)
 - [BOOTH](https://booth.pm/ja/items/2548309)
   - 承諾方法<br>
@@ -393,6 +394,7 @@ Part: Writing articles, programming and creating illustrations
   - License method:<br>
     [利用規約](https://www.ac-illust.com/main/terms.php)
   - The page it is used:<br>
+    [Home](../)
     [Visit to Plant](../activity/petec.html)
 - [BOOTH](https://booth.pm/ja/items/2548309)
   - License method:<br>
