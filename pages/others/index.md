@@ -194,12 +194,12 @@ Web系の資格を持っているのに得意な言語はJavaらしい。<br>
   - 承諾方法<br>
     [CE marking](https://ec.europa.eu/growth/single-market/ce-marking_en)
   - 利用しているページ<br>
-    [解決策](../activity/solution.html)
+    [解決策](../solution/)
 - 認定事業者マーク
   - 承諾方法<br>
     [環境省 著作権・リンクについて](https://www.env.go.jp/mail.html)
   - 利用しているページ<br>
-    [現在の取り組み](../activity/measure.html)
+    [現在の取り組み](../measure/)
 
 ### 写真
 
