@@ -596,54 +596,6 @@
 
         z-index: 1;
       }
-      .image_box {
-        display: inline-block;
-        position: relative;
-        /*width: 100%;*/
-      }
-
-      .image {
-        display: block;
-        max-width: 100%;
-        max-height: 100%;
-        margin: 0 auto;
-      }
-
-      .note {
-        --height: 30px;
-        position: absolute;
-        right: 0;
-        bottom: calc(-1 * var(--height));
-        text-align: right;
-        font-size: 14px;
-        line-height: var(--height);
-        height: var(--height);
-      }
-
-      .note a {
-        font-size: 14px;
-      }
-
-      .note:not(:blank):before {
-        content: "(";
-      }
-
-      .note:not(:blank):after {
-        content: ")";
-      }
-
-      .href:not([href=""]):before {
-        content: "出典";
-        margin-left: 0.5em;
-      }
-
-      .image_caption {
-        display: block;
-        width: 100%;
-        height: 3em;
-        text-align: center;
-        vertical-align: bottom;
-      }
       .quote {
         font-size: 1.5em;
         font-style: italic;
@@ -2276,7 +2228,10 @@
           <li>hard to take out from ore as simple substance</li>
           <li>unevenly distributed in the world</li>
         </ol>
-        <p>Minor metal includes 47 elements such as lithium and chromium.</p>
+        <p>
+          Minor metal includes 47 elements such as lithium and chromium.(table
+          2.1)
+        </p>
         <div class="image_container">
           <div style="position: relative; width: 100%; height: 50vw">
             <div
@@ -2290,12 +2245,17 @@
               <figure class="image_box" style="width: ; height: " id="">
                 <img
                   class="image"
-                  src="../img/urban-mining/periodic_table_en.png"
+                  src="../img/urban-mining/periodic_table.png"
                   alt=""
                   style="transform: scale()"
                 />
-                <div class="note"><a class="href" href=""></a></div>
-                <figcaption class="image_caption"></figcaption>
+                <figcaption class="image_caption">
+                  table 2.1 Minor metal and rare earth in periodic table<span
+                    style="display: none"
+                    ><br /><span class="lang_en">Data Source : </span
+                    ><a href=""></a><span class="lang_jp">より引用</span></span
+                  >
+                </figcaption>
               </figure>
             </div>
           </div>
@@ -2313,6 +2273,10 @@
           experiment <a href="../activity/disassembly.html">here</a>.
         </p>
         <figure class="table_figure">
+          <figcaption style="white-space: nowrap">
+            table 2.2 How much minor metal is included in a smartphone, laptop
+            PC, desktop PC? (g)
+          </figcaption>
           <table>
             <tr>
               <th></th>
@@ -2348,8 +2312,6 @@
             </tr>
           </table>
           <figcaption style="white-space: nowrap">
-            How much minor metal is included in a smartphone, laptop PC, desktop
-            PC?(g)
             <a
               href="https://www.env.go.jp/council/former2013/03haiki/y0324-04/mat02a.pdf"
               >References</a
@@ -2403,7 +2365,7 @@
 
           <span class="link_anchor" id="s_3_en"></span
           ><span class="summary-link" id="s_3_en_content"
-            >The graph below shows the amount of
+            >The graph below(Fig. 2.1) shows the amount of
             <span class="word"
               ><span class="word_text" style="white-space: "
                 >primary resources</span
@@ -2478,14 +2440,13 @@
               alt=""
               style="transform: scale()"
             />
-            <div class="note">
-              The Japan Institute of Metals and Materials<a
-                class="href"
-                href="https://www.jim.or.jp/journal/j/pdf3/73/03/151.pdf"
-              ></a>
-            </div>
             <figcaption class="image_caption">
-              The amount of Primary resource and Secondary resource
+              Fig. 2.1 一次資源と二次資源の割合<span style="display: initial"
+                ><br /><span class="lang_en">Data Source : </span
+                ><a href="https://www.jim.or.jp/journal/j/pdf3/73/03/151.pdf"
+                  >日本金属学会</a
+                ><span class="lang_jp">より引用</span></span
+              >
             </figcaption>
           </figure>
         </div>
@@ -2500,24 +2461,25 @@
           feel that they are not garbage but
           <span class="force_text">invaluable resources</span>. The amount of
           small home appliances that are going to be thrown away is 5.74 million
-          tons and it is estimated to continue to increase.
+          tons and it is estimated to continue to increase. (Fig. 2.2)
         </p>
         <div class="image_container">
-          <figure class="image_box" style="width: ; height: 40vw" id="">
+          <figure class="image_box" style="width: 40vw; height: " id="">
             <img
               class="image"
               src="../assets/statista/1067081.png"
               alt=""
               style="transform: scale()"
             />
-            <div class="note">
-              Statista<a
-                class="href"
-                href="https://www.statista.com/statistics/1067081/generation-electronic-waste-globally-forecast/"
-              ></a>
-            </div>
             <figcaption class="image_caption">
-              Projected electronic waste generation worldwide from 2019 to 2030
+              Fig. 2.2 Projected electronic waste generation worldwide from 2019
+              to 2030<span style="display: initial"
+                ><br /><span class="lang_en">Data Source : </span
+                ><a
+                  href="https://www.statista.com/statistics/1067081/generation-electronic-waste-globally-forecast/"
+                  >Statista</a
+                ><span class="lang_jp">より引用</span></span
+              >
             </figcaption>
           </figure>
         </div>
@@ -2575,20 +2537,23 @@
           </span>
 
           <!--suppress HtmlUnknownAttribute -->
-          has been getting lower and lower.
+          has been getting lower and lower. (Fig. 2.3)
         </p>
         <div class="image_container">
-          <figure class="image_box" style="width: ; height: 40vw" id="">
+          <figure class="image_box" style="width: 40vw; height: " id="">
             <img
               class="image"
               src="../assets/book/book_p17.png"
               alt=""
               style="transform: scale()"
             />
-            <div class="note">
-              Book &#147;資源論&#148;<a class="href" href=""></a>
-            </div>
-            <figcaption class="image_caption"></figcaption>
+            <figcaption class="image_caption">
+              Fig. 2.3 Japan's self-sufficiency rate of metals<span
+                style="display: initial"
+                ><br /><span class="lang_en">Data Source : </span><a href=""></a
+                ><span class="lang_jp">Book &#147;資源論&#148;</span></span
+              >
+            </figcaption>
           </figure>
         </div>
 
@@ -2644,19 +2609,21 @@
           </script>
         </p>
         <div class="image_container">
-          <figure class="image_box" style="width: ; height: 40vw" id="">
+          <figure class="image_box" style="width: 60vw; height: " id="">
             <img
               class="image"
-              src="../assets/susdi/img_618f76e3bd42e.png"
+              src="../img/urban-mining/metal_graph.svg"
               alt=""
               style="transform: scale()"
             />
             <figcaption class="image_caption">
-              How much metal each country has?<span style="display: initial"
-                ><br /><span class="lang_en">Data Source : </span
-                ><a
-                  href="https://www.nims.go.jp/research/elements/rare-metal/study/index.html"
-                  >National Institute for Materials Science, NIMS</a
+              Fig. 2.4 How much metal each country has?<span
+                style="display: initial"
+                ><br /><span class="lang_en">を参考に作成</span
+                ><a href="http://susdi.org/wp/data/post-194/"
+                  ><img
+                    style="height: 1em; vertical-align: middle"
+                    src="../assets/susdi/46e68cc8af75454ff9cc3fd767a83b0e-300x109.png" /></a
                 ><span class="lang_jp">より引用</span></span
               >
             </figcaption>
