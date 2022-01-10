@@ -298,9 +298,9 @@ The following are the six countries we are going to introduce!
 
 ### Japan
 
-Japan's main law on small home appliance recycling is the <Word break="normal">Act on Promotion of Recycling of Small Waste Electrical and Electronic Equipment</Word>, which came into effect on April 1, 2013.
+Japan's main law on small home appliance recycling is the <Word break="normal">the Act on Promotion of Recycling of Small Waste Electrical and Electronic Equipment</Word>, which came into effect on April 1, 2013.
 Local governments set their own recycling items, methods, and fees, and collect e-waste.
-They collect it using <Word>recycling boxes</Word>.
+They collect it using <Word>recycling box</Word>.
 &#147;Where should I put in my old electronic devices?&#148;
 &#147;They won't be recycled if I throw them away with other garbage, right?&#148;
 You may be thinking like this.
@@ -316,7 +316,7 @@ Recycling boxes can be found at supermarkets, stores that sell home appliances, 
 If you do not know much about collection boxes, try searching to search the Internet for a recycling box near you.
 You will be amazed by the number of them(*Keep in mind that local governments may collect different kinds of items for recycling).
 As you can see from the illustration above, collected small home appliances are disassembled, crushed, and separated into different resources by recycling companies, and then the metals are extracted by metal refiners, which are then transported to manufacturers as new resources.
-Some of these recycling companies are <Word>certified by the government</Word> and carry the mark shown below.
+Some of these recycling companies are <Word>certified companies</Word> and carry the mark shown below.
 Currently, there are 58 certified companies (as of 8/6/2021), all of which are listed on the [Ministry of the Environment's website](https://www.env.go.jp/recycle/recycling/raremetals/trader.html).
 </SummaryLink>
 
@@ -444,7 +444,7 @@ IBOKIN | 201億3000万円 | Sims Metal Management(Aus) | $4908.5 million(3964億
 
 
 In the table above (table 4.1), you can see that foreign companies are larger than Japanese companies.
-<FOrceText>These companies can take advantage of this to recycle more efficiently.</ForceText>
+<ForceText>These companies can take advantage of this to recycle more efficiently.</ForceText>
 They are able to process a large amount of e-waste at once, which makes recycling more efficient than if they process it little by little.
 Also, when e-waste is recycled by many companies, recycling is not done smoothly because each company tries to make a profit. However, this is not the case when the entire process is done by one company.
 Recycling is done more efficiently because “overall profit" is pursued rather than "individual profit".
@@ -488,13 +488,13 @@ Did you enjoy the exciting Tokyo Olympic Games?
 <SummaryLink id="10_en">
 Many people must have been moved to see athletes trying hard in the games that were held during the pandemic.
 Actually, <ForceText>the Tokyo Olympics were deeply related to urban mining!</ForceText>
-There was a project called “<Word>Tokyo 2020 Medals Project.</Word>"
+There was a project called “<Word>Tokyo 2020 Medals Project</Word>."
 The project was aimed at encouraging people to recycle their small household appliances and making medals for the Tokyo Olympic and Paralympic Games using the gold, silver, and copper in them.
 You can say for sure that it is urban mining.
 Many events were held to complete the project, and urban mining has become more familiar to people.
 Eventually, <ForceText>32 kilograms of gold, 3500 kilograms of silver, 2200 kilograms of copper were collected from household appliances and they succeeded in making about 5000 medals needed for the Olympic and Paralympic Games</ForceText>.
 Thus our e-waste became a lifetime treasure for many athletes.
-This project changed its name to “<Word>After Medal Project</Word>" and is calling on people to recycle their e-waste.
+This project changed its name to “<Word>After Medals Project</Word>" and is calling on people to recycle their e-waste.
 </SummaryLink>
 
 <AtomCharacter atom="Li">
