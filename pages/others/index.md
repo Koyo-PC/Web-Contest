@@ -167,13 +167,23 @@ Web系の資格を持っているのに得意な言語はJavaらしい。<br>
     [配布ページ](https://booth.pm/ja/items/2548309) 概要欄の利用規約
   - 利用しているページ<br>
     [都市鉱山の意義](../urban-mining/)
-- ICOOON MONO
+- [ICOOON MONO](https://icooon-mono.com/)
   - 承諾方法<br>
     [License](https://icooon-mono.com/license/)
-  - 利用しているページ
+  - 利用しているページ<br>
     [資源の現状](../present-situation/)
     [都市鉱山の意義](../urban-mining/)
     [課題](../problem/)
+    [現在の取り組み](../measure/)
+- CEマーク
+  - 承諾方法<br>
+    [CE marking](https://ec.europa.eu/growth/single-market/ce-marking_en)
+  - 利用しているページ<br>
+    [解決策](../solution/)
+- 認定事業者マーク
+  - 承諾方法<br>
+    [環境省 著作権・リンクについて](https://www.env.go.jp/mail.html)
+  - 利用しているページ<br>
     [現在の取り組み](../measure/)
 
 そのほかのイラストはメンバーによる描画。
@@ -190,16 +200,6 @@ Web系の資格を持っているのに得意な言語はJavaらしい。<br>
     アンケート実施時に匿名で引用することを報告
   - 利用しているページ<br>
     [アンケート](../activity/questionnaire.html)
-- CEマーク
-  - 承諾方法<br>
-    [CE marking](https://ec.europa.eu/growth/single-market/ce-marking_en)
-  - 利用しているページ<br>
-    [解決策](../solution/)
-- 認定事業者マーク
-  - 承諾方法<br>
-    [環境省 著作権・リンクについて](https://www.env.go.jp/mail.html)
-  - 利用しているページ<br>
-    [現在の取り組み](../measure/)
 
 ### 写真
 
@@ -399,6 +399,24 @@ Part: Writing articles, programming and creating illustrations
     [配布ページ](https://booth.pm/ja/items/2548309) 概要欄の利用規約
   - The page it is used:<br>
     [Significance of Urban Mining](../urban-mining/)
+- [ICOOON MONO](https://icooon-mono.com/)
+  - License method:<br>
+    [License](https://icooon-mono.com/license/)
+  - The page it is used:<br>
+    [Present Situation](../present-situation/)
+    [Significance of Urban Mining](../urban-mining/)
+    [Problem](../problem/)
+    [Measure](../measure/)
+- CE Marking
+  - License method:<br>
+    [CE marking](https://ec.europa.eu/growth/single-market/ce-marking_en)
+  - The page it is used:<br>
+    [Solution](../solution/)
+- Certified companies mark
+  - License method:<br>
+    [環境省 著作権・リンクについて](https://www.env.go.jp/mail.html)
+  - The page it is used:<br>
+    [Measure](../measure/)
 
 The other illustrations were created by team members.
 
@@ -410,7 +428,7 @@ The other illustrations were created by team members.
   - The page it is used:<br>
     [Significance of Urban Mining](../urban-mining/)
 - A questionnaire on Google Form
-  - License method<br>
+  - License method:<br>
     We told the respondents that we would use their answers anonymously.
   - The page it is used:<br>
     [Questionnaire](../activity/questionnaire.html)
@@ -418,7 +436,7 @@ The other illustrations were created by team members.
 ### Picture
 
 - [パナソニックエコテクノロジーセンター](https://panasonic.co.jp/eco/petec/download/)
-  - License method<br>
+  - License method:<br>
     We obtained permission from PETEC during the visit.
   - The page it is used:<br>
     [Home](../)
@@ -430,6 +448,14 @@ The other illustrations were created by team members.
     [Recovery Box](../activity/recycle-box.html)
     [Interview](../activity/interview.html)
     [Visit to Plant](../activity/petec.html)
+    [Cell Phone Dismantling](../activity/disassembly.html)
+
+### Video
+
+- [DOVA-SYNDROME](https://panasonic.co.jp/eco/petec/download/)
+  - License method:<br>
+    [利用規約](https://dova-s.jp/_contents/agreement/)
+  - The page it is used:<br>
     [Cell Phone Dismantling](../activity/disassembly.html)
 
 <FloatingMenu>
