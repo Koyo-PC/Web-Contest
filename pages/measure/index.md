@@ -433,6 +433,7 @@ Therefore, recycling companies tend to be larger than those in Japan.
 </SummaryLink>
 
 <figcaption>table 4.1 Sales of Companies in Japan and Overseas</figcaption>
+
 Company | Earnings | Company | Earnings
 -- | -- | -- | --
 REVER | 249億1000万円 | umicore(ベルギー) | €32億(4136億6000万)
