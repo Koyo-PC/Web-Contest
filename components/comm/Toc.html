@@ -19,6 +19,7 @@
                 "type": type//,
                 // "hash": hash.substr(0, 5)
             };
+            if(title == "インタビュー") console.log(type)
         });
         let toc_html = "";
         // for (const hash in tocs) {
@@ -27,7 +28,7 @@
             const toc_data = tocs[title];
             // toc_html += `<a class="toc_link_${toc_data['type']}" href="#${toc_data['hash']}">${toc_data['title']}</a>`;
             toc_html += `
-<a class="toc_link_${toc_data['type']}" href="#${toc_data['title']?.replace(/\s/g,"-").replace(/\./g, '').replace(/\?/g, "").toLowerCase()}">
+<a class="toc_link_${toc_data['type']}" href="#${toc_data['title']?.replace(/\s/g,"-").replace(/\./g, '').replace(/\?/g, "").replace(/&amp;/g, "").toLowerCase()}">
   ${toc_data['title']}
 </a>`;
         }

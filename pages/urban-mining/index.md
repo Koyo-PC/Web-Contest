@@ -144,7 +144,7 @@
 <Quote>
 ジパングは大陸から1500マイル離れた東方の島でとても素晴らしい。（中略）その島を治める者の宮殿は、我々の教会が鉛でふかれているのと同じように、その屋根は純金でふかれており、その価値はほとんど推測できない。さらに、宮殿の道、部屋の床は指2本文の厚みの純金の板でできている。そしてその窓も金でできており、総じてこの宮殿の豪華さは全ての限界と信用を超えている。<br>
 — マルコポーロ『東方見聞録』<br><br>
-(<a href="https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_3/Chapter_2">Wikisource, The Travels of Marco Polo</a>より引用)
+(<a href="https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_3/Chapter_2">Wikisource, The Travels of Marco Polo</a>より引用、メンバーが和訳)
 </Quote>
 
 今の私たちからすると信じがたいような話ですが、日本はかつてこのように言われていました。 それほど日本に金があったかどうか真偽のほどは定かではありませんが、昔から日本は金銀銅等を海外に輸出できるほど金属資源に恵まれていました。

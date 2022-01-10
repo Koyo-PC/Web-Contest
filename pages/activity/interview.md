@@ -149,7 +149,6 @@
 
 <PNBar prev="./recycle-box.html" next="./petec.html" prev_text="回収ボックス" next_text="工場見学"></PNBar>
 <FloatingMenu>
-h1 インタビュー
 h2 プロフィール
 h2 インタビュー
 h2 わかったことのまとめ
@@ -302,7 +301,6 @@ Thank you for sharing your valuable story.
 
 <PNBar prev="./recycle-box.html" next="./petec.html" prev_text="Recovery Box" next_text="Visit to Plant"></PNBar>
 <FloatingMenu>
-h1 Interview
 h2 Profile
 h2 Interview
 h2 What We Learned
