@@ -403,7 +403,7 @@ The area which large home appliances are collected by PETEC from extends to Kink
 They process about 900,000 units per year, and work with a target number of units to be processed, which is usually stable, but sometimes increases significantly, each operating day.
 
 <div class="image_container">
-    <Image src="./img/petec_counter.jpg" caption="10月14日 午後2時ごろ"></Image>
+    <Image src="./img/petec_counter.jpg" caption="October 14, around 2:00 p.m."></Image>
 </div>
 
 <AtomCharacter atom="Li">
