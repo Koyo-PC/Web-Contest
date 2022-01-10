@@ -504,8 +504,8 @@ Did you know that?
 ## Summary Chart
 
 <div class="image_container">
-  <svg viewBox="0, 0, 1300, 600" style="width:80vw; height: calc(80vw * 6 / 13); margin: 5vh 0 5vh;">
-    <use xlink:href="../svg/summary_illust/D.svg#main"></use>
+  <svg viewBox="0, 0, 1280, 720" style="width:80vw; margin: 5vh 0 5vh;">
+    <use xlink:href="../svg/summary_illust/D_en.svg#main"></use>
   </svg>
 </div>
 

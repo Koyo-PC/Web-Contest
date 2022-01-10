@@ -508,8 +508,8 @@ Recently, Basel Convention attracted attention because it was revised and not on
 ## Summary Chart
 
 <div class="image_container">
-  <svg viewBox="0, 0, 1500, 600" style="width:80vw; height:30vw; margin: 5vh 0 5vh;">
-    <use xlink:href="../svg/summary_illust/B.svg#main"></use>
+  <svg viewBox="0, 0, 1280, 720" style="width:80vw; margin: 5vh 0 5vh;">
+    <use xlink:href="../svg/summary_illust/B_en.svg#main"></use>
   </svg>
 </div>
 

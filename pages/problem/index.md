@@ -395,8 +395,8 @@ The key to solving this low grade is how to ease the distribution.
 ## Summary Chart
 
 <div class="image_container">
-  <svg viewBox="0, 0, 1200, 700" style="width:80vw; height:40vw; margin: 5vh 0 5vh;">
-    <use xlink:href="../svg/summary_illust/C.svg#main"></use>
+  <svg viewBox="0, 0, 1280, 720" style="width:80vw; margin: 5vh 0 5vh;">
+    <use xlink:href="../svg/summary_illust/C_en.svg#main"></use>
   </svg>
 </div>
 
