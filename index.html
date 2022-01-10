@@ -1493,18 +1493,6 @@
             Chrome, FireFoxの最新版にて動作確認を行っています。<br />
             その他のブラウザでは正常に表示されない場合があります。
           </div>
-          <!--  <h2 class="site_map">サイトマップ</h2>-->
-          <!--  <ul class="site_map_list">-->
-          <!--    <li>ホーム</li>-->
-          <!--    <li>資源の現状</li>-->
-          <!--    <li>都市鉱山の意義</li>-->
-          <!--    <li>課題</li>-->
-          <!--    <li>現在の取り組み</li>-->
-          <!--    <li>アクティビティ</li>-->
-          <!--    <li>解決策</li>-->
-          <!--    <li>最後に</li>-->
-          <!--    <li>その他</li>-->
-          <!--  </ul>-->
         </div>
         <a href="#"><button id="scroll_top"></button></a>
         <div id="floating_menu">
@@ -1519,7 +1507,7 @@
               右ポケットの中の資源を求めて
             </a>
             <a class="toc_link_h2" href="#サイトマップ"> サイトマップ </a>
-            <a class="toc_link_h2" href="#ページの見方"> ページの見方 </a>
+            <a class="toc_link_h2" href="#各機能について"> 各機能について </a>
             <a class="toc_link_h3" href="#メニュー"> メニュー </a>
             <a class="toc_link_h3" href="#吹き出し辞書"> 吹き出し辞書 </a>
             <a class="toc_link_h3" href="#まとめ図解"> まとめ図解 </a>
@@ -1547,9 +1535,9 @@
                       .querySelectorAll(".lang_jp")
                       .forEach((el) => (el.style.display = "none"))
                     document.title =
-                      "ホーム | In Search of Resources in Your Right Pocket"
+                      "Home | In Search of Resources in Your Right Pocket"
                     document.documentElement.lang = "en"
-                    sessionStorage.setItem("lang", "en")
+                    localStorage.setItem("lang", "en")
                     break
                   case "ja":
                   default:
@@ -1563,14 +1551,14 @@
                       .forEach((el) => (el.style.display = "initial"))
                     document.title = "ホーム | 右ポケットの中の資源を求めて"
                     document.documentElement.lang = "ja"
-                    sessionStorage.setItem("lang", "ja")
+                    localStorage.setItem("lang", "ja")
                     break
                 }
                 updateButton()
               }
 
               function changeLang() {
-                switch (sessionStorage.getItem("lang")) {
+                switch (localStorage.getItem("lang")) {
                   case "en":
                     setLang("ja")
                     break
@@ -1583,7 +1571,7 @@
               }
 
               function updateButton() {
-                switch (sessionStorage.getItem("lang")) {
+                switch (localStorage.getItem("lang")) {
                   case "ja":
                     document
                       .querySelectorAll("#lang_text")
@@ -1597,7 +1585,7 @@
                 }
               }
               document.addEventListener("DOMContentLoaded", () =>
-                setLang(sessionStorage.getItem("lang"))
+                setLang(localStorage.getItem("lang"))
               )
             </script>
           </button>
@@ -2013,9 +2001,9 @@
                         .querySelectorAll(".lang_jp")
                         .forEach((el) => (el.style.display = "none"))
                       document.title =
-                        "ホーム | In Search of Resources in Your Right Pocket"
+                        "Home | In Search of Resources in Your Right Pocket"
                       document.documentElement.lang = "en"
-                      sessionStorage.setItem("lang", "en")
+                      localStorage.setItem("lang", "en")
                       break
                     case "ja":
                     default:
@@ -2029,14 +2017,14 @@
                         .forEach((el) => (el.style.display = "initial"))
                       document.title = "ホーム | 右ポケットの中の資源を求めて"
                       document.documentElement.lang = "ja"
-                      sessionStorage.setItem("lang", "ja")
+                      localStorage.setItem("lang", "ja")
                       break
                   }
                   updateButton()
                 }
 
                 function changeLang() {
-                  switch (sessionStorage.getItem("lang")) {
+                  switch (localStorage.getItem("lang")) {
                     case "en":
                       setLang("ja")
                       break
@@ -2049,7 +2037,7 @@
                 }
 
                 function updateButton() {
-                  switch (sessionStorage.getItem("lang")) {
+                  switch (localStorage.getItem("lang")) {
                     case "ja":
                       document
                         .querySelectorAll("#lang_text")
@@ -2063,7 +2051,7 @@
                   }
                 }
                 document.addEventListener("DOMContentLoaded", () =>
-                  setLang(sessionStorage.getItem("lang"))
+                  setLang(localStorage.getItem("lang"))
                 )
               </script>
             </button>

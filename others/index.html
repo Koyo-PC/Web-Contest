@@ -861,7 +861,7 @@
         </p>
         <p>12月17日：第2次審査を通過し、セミファイナリストになりました。</p>
         <p>
-          2020年1月10日：コーチにサイトプロフィールをチェックしてもらい、提出する作品も一緒に提出しました。
+          2021年1月10日：コーチにサイトプロフィールをチェックしてもらい、提出する作品も一緒に提出しました。
         </p>
         <h2 id="制作者紹介">制作者紹介</h2>
         <h3 id="zk">Z.K.</h3>
@@ -903,11 +903,11 @@
         <p class="no_indent">
           いつもパソコンを触っている<s>オタク</s>パソコンに詳しい人。<br />
           Web系の資格を持っているのに得意な言語はJavaらしい。<br />
-          このページを作るためにNode.jsでアプリを一つ作ったとか。<small
-            >(<a href="https://github.com/ZOI-dayo/SCML">ソースコード</a
-            >)</small
-          ><br />
-          文章構成、ページ制作、イラスト、英訳担当
+          このページを作るためにNode.jsで<a
+            href="https://github.com/ZOI-dayo/SCML"
+            >アプリ</a
+          >を一つ作ったとか。<br />
+          文章構成、ページ制作、イラスト担当
         </p>
 
         <h2 id="参考文献">参考文献</h2>
@@ -1338,6 +1338,22 @@
               </li>
             </ul>
           </li>
+          <li>
+            ICOOON MONO
+            <ul>
+              <li>
+                承諾方法<br />
+                <a href="https://icooon-mono.com/license/">License</a>
+              </li>
+              <li>
+                利用しているページ
+                <a href="../present-situation/">資源の現状</a>
+                <a href="../urban-mining/">都市鉱山の意義</a>
+                <a href="../problem/">課題</a>
+                <a href="../measure/">現在の取り組み</a>
+              </li>
+            </ul>
+          </li>
         </ul>
         <p>そのほかのイラストはメンバーによる描画。</p>
         <h3 id="テキスト">テキスト</h3>
@@ -1496,7 +1512,7 @@
                     document.title =
                       "Others | In Search of Resources in Your Right Pocket"
                     document.documentElement.lang = "en"
-                    sessionStorage.setItem("lang", "en")
+                    localStorage.setItem("lang", "en")
                     break
                   case "ja":
                   default:
@@ -1510,14 +1526,14 @@
                       .forEach((el) => (el.style.display = "initial"))
                     document.title = "その他 | 右ポケットの中の資源を求めて"
                     document.documentElement.lang = "ja"
-                    sessionStorage.setItem("lang", "ja")
+                    localStorage.setItem("lang", "ja")
                     break
                 }
                 updateButton()
               }
 
               function changeLang() {
-                switch (sessionStorage.getItem("lang")) {
+                switch (localStorage.getItem("lang")) {
                   case "en":
                     setLang("ja")
                     break
@@ -1530,7 +1546,7 @@
               }
 
               function updateButton() {
-                switch (sessionStorage.getItem("lang")) {
+                switch (localStorage.getItem("lang")) {
                   case "ja":
                     document
                       .querySelectorAll("#lang_text")
@@ -1544,7 +1560,7 @@
                 }
               }
               document.addEventListener("DOMContentLoaded", () =>
-                setLang(sessionStorage.getItem("lang"))
+                setLang(localStorage.getItem("lang"))
               )
             </script>
           </button>
@@ -2168,7 +2184,7 @@
                     document.title =
                       "Others | In Search of Resources in Your Right Pocket"
                     document.documentElement.lang = "en"
-                    sessionStorage.setItem("lang", "en")
+                    localStorage.setItem("lang", "en")
                     break
                   case "ja":
                   default:
@@ -2182,14 +2198,14 @@
                       .forEach((el) => (el.style.display = "initial"))
                     document.title = "その他 | 右ポケットの中の資源を求めて"
                     document.documentElement.lang = "ja"
-                    sessionStorage.setItem("lang", "ja")
+                    localStorage.setItem("lang", "ja")
                     break
                 }
                 updateButton()
               }
 
               function changeLang() {
-                switch (sessionStorage.getItem("lang")) {
+                switch (localStorage.getItem("lang")) {
                   case "en":
                     setLang("ja")
                     break
@@ -2202,7 +2218,7 @@
               }
 
               function updateButton() {
-                switch (sessionStorage.getItem("lang")) {
+                switch (localStorage.getItem("lang")) {
                   case "ja":
                     document
                       .querySelectorAll("#lang_text")
@@ -2216,7 +2232,7 @@
                 }
               }
               document.addEventListener("DOMContentLoaded", () =>
-                setLang(sessionStorage.getItem("lang"))
+                setLang(localStorage.getItem("lang"))
               )
             </script>
           </button>

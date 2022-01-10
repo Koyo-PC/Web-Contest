@@ -1537,7 +1537,7 @@
                     document.title =
                       "Interview | In Search of Resources in Your Right Pocket"
                     document.documentElement.lang = "en"
-                    sessionStorage.setItem("lang", "en")
+                    localStorage.setItem("lang", "en")
                     break
                   case "ja":
                   default:
@@ -1552,14 +1552,14 @@
                     document.title =
                       "インタビュー | 右ポケットの中の資源を求めて"
                     document.documentElement.lang = "ja"
-                    sessionStorage.setItem("lang", "ja")
+                    localStorage.setItem("lang", "ja")
                     break
                 }
                 updateButton()
               }
 
               function changeLang() {
-                switch (sessionStorage.getItem("lang")) {
+                switch (localStorage.getItem("lang")) {
                   case "en":
                     setLang("ja")
                     break
@@ -1572,7 +1572,7 @@
               }
 
               function updateButton() {
-                switch (sessionStorage.getItem("lang")) {
+                switch (localStorage.getItem("lang")) {
                   case "ja":
                     document
                       .querySelectorAll("#lang_text")
@@ -1586,7 +1586,7 @@
                 }
               }
               document.addEventListener("DOMContentLoaded", () =>
-                setLang(sessionStorage.getItem("lang"))
+                setLang(localStorage.getItem("lang"))
               )
             </script>
           </button>
@@ -2109,7 +2109,7 @@
                     document.title =
                       "Interview | In Search of Resources in Your Right Pocket"
                     document.documentElement.lang = "en"
-                    sessionStorage.setItem("lang", "en")
+                    localStorage.setItem("lang", "en")
                     break
                   case "ja":
                   default:
@@ -2124,14 +2124,14 @@
                     document.title =
                       "インタビュー | 右ポケットの中の資源を求めて"
                     document.documentElement.lang = "ja"
-                    sessionStorage.setItem("lang", "ja")
+                    localStorage.setItem("lang", "ja")
                     break
                 }
                 updateButton()
               }
 
               function changeLang() {
-                switch (sessionStorage.getItem("lang")) {
+                switch (localStorage.getItem("lang")) {
                   case "en":
                     setLang("ja")
                     break
@@ -2144,7 +2144,7 @@
               }
 
               function updateButton() {
-                switch (sessionStorage.getItem("lang")) {
+                switch (localStorage.getItem("lang")) {
                   case "ja":
                     document
                       .querySelectorAll("#lang_text")
@@ -2158,7 +2158,7 @@
                 }
               }
               document.addEventListener("DOMContentLoaded", () =>
-                setLang(sessionStorage.getItem("lang"))
+                setLang(localStorage.getItem("lang"))
               )
             </script>
           </button>
