@@ -611,6 +611,22 @@
         width: 90%;
         margin-bottom: 100px;
         /*padding: 0 10vw 50px;*/
+        display: flex;
+      }
+
+      .page_description_icon {
+        height: 200px;
+        aspect-ratio: 1;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+
+      .page_description_content {
+        position: relative;
+        width: calc(100% - 200px);
+        height: 200px;
+        padding: 10px;
       }
 
       .text_title {
@@ -619,11 +635,12 @@
         font-weight: 400;
         /*height: 40px;*/
         /*line-height: 1.4;*/
+        padding-top: 0;
       }
 
       .textContent {
         color: #003b54;
-        font-size: 20px;
+        font-size: 16px;
         line-height: 1.4;
         padding: 0px 0px 0px 40px;
       }
@@ -636,12 +653,14 @@
       }
 
       .link_button {
-        position: relative;
+        position: absolute;
+        right: 0;
+        bottom: 0;
         display: grid;
         align-items: center;
         justify-items: center;
-        width: 200px;
-        height: 50px;
+        width: 150px;
+        height: 40px;
         border: 2px solid #003b54;
         border-radius: 0;
         background-color: #fff;
@@ -650,15 +669,19 @@
         transition-duration: 0.2s;
       }
 
+      .link_button * {
+        font-size: 16px;
+      }
+
       .link_button:hover {
         background-color: #ccc;
       }
 
       .link_button > .img {
         position: absolute;
-        top: 0;
-        right: 20px;
-        height: 100%;
+        top: 10%;
+        right: 10px;
+        height: 80%;
         display: grid;
         align-items: center;
         justify-items: end;
@@ -667,7 +690,7 @@
       .link_button > .img > img {
         display: block;
         /*height: 50%;*/
-        width: 40%;
+        width: 30%;
         aspect-ratio: 1;
       }
       .main_image {
@@ -1177,134 +1200,158 @@
 
           <h2 id="サイトマップ">サイトマップ</h2>
           <div class="text">
-            <h3 class="text_title">資源の現状</h3>
-            <div class="textContent">
-              様々な科学技術分野で世界を牽引している日本。<br />
-              これは大量のレアメタルなどの金属資源によって支えられています。<br />
-              しかし、それらを手に入れることは決して容易なことではありません。
-            </div>
-            <a href="./present-situation/">
-              <div class="link_button">
-                <span class="lang_jp">詳しく見る</span>
-                <span class="lang_en">Read more</span>
-                <div class="img">
-                  <img src="./svg/arrow.svg" />
-                </div>
+            <img class="page_description_icon" src="./svg/icon/A.svg" />
+            <div class="page_description_content">
+              <h3 class="text_title">資源の現状</h3>
+              <div class="textContent">
+                様々な科学技術分野で世界を牽引している日本。<br />
+                これは大量のレアメタルなどの金属資源によって支えられています。<br />
+                しかし、それらを手に入れることは決して容易なことではありません。
               </div>
-            </a>
+              <a href="./present-situation/">
+                <div class="link_button">
+                  <span class="lang_jp">詳しく見る</span>
+                  <span class="lang_en">Read more</span>
+                  <div class="img">
+                    <img src="./svg/arrow.svg" />
+                  </div>
+                </div>
+              </a>
+            </div>
           </div>
 
           <div class="text">
-            <h3 class="text_title">都市鉱山の意義</h3>
-            <div class="textContent">
-              資源問題解決の1つの手がかりとなる都市鉱山。<br />
-              それは一体どのようなものなのでしょうか。
-            </div>
-            <a href="./urban-mining/">
-              <div class="link_button">
-                <span class="lang_jp">詳しく見る</span>
-                <span class="lang_en">Read more</span>
-                <div class="img">
-                  <img src="./svg/arrow.svg" />
-                </div>
+            <img class="page_description_icon" src="./svg/icon/B.svg" />
+            <div class="page_description_content">
+              <h3 class="text_title">都市鉱山の意義</h3>
+              <div class="textContent">
+                資源問題解決の1つの手がかりとなる都市鉱山。<br />
+                それは一体どのようなものなのでしょうか。
               </div>
-            </a>
+              <a href="./urban-mining/">
+                <div class="link_button">
+                  <span class="lang_jp">詳しく見る</span>
+                  <span class="lang_en">Read more</span>
+                  <div class="img">
+                    <img src="./svg/arrow.svg" />
+                  </div>
+                </div>
+              </a>
+            </div>
           </div>
 
           <div class="text">
-            <h3 class="text_title">課題</h3>
-            <div class="textContent">
-              都市鉱山にはメリットがたくさんある一方で、多くの課題を抱えています。
-            </div>
-            <a href="./problem/">
-              <div class="link_button">
-                <span class="lang_jp">詳しく見る</span>
-                <span class="lang_en">Read more</span>
-                <div class="img">
-                  <img src="./svg/arrow.svg" />
-                </div>
+            <img class="page_description_icon" src="./svg/icon/C.svg" />
+            <div class="page_description_content">
+              <h3 class="text_title">課題</h3>
+              <div class="textContent">
+                都市鉱山にはメリットがたくさんある一方で、多くの課題を抱えています。
               </div>
-            </a>
+              <a href="./problem/">
+                <div class="link_button">
+                  <span class="lang_jp">詳しく見る</span>
+                  <span class="lang_en">Read more</span>
+                  <div class="img">
+                    <img src="./svg/arrow.svg" />
+                  </div>
+                </div>
+              </a>
+            </div>
           </div>
 
           <div class="text">
-            <h3 class="text_title">現在の取り組み</h3>
-            <div class="textContent">
-              現在都市鉱山をもっと広めよう、活用しようとする人々が様々な取り組みを行っています。<br />
-              世界は資源問題解決に向けて歩み出しているのです。
-            </div>
-            <a href="./measure/">
-              <div class="link_button">
-                <span class="lang_jp">詳しく見る</span>
-                <span class="lang_en">Read more</span>
-                <div class="img">
-                  <img src="./svg/arrow.svg" />
-                </div>
+            <img class="page_description_icon" src="./svg/icon/D.svg" />
+            <div class="page_description_content">
+              <h3 class="text_title">現在の取り組み</h3>
+              <div class="textContent">
+                現在都市鉱山をもっと広めよう、活用しようとする人々が様々な取り組みを行っています。<br />
+                世界は資源問題解決に向けて歩み出しているのです。
               </div>
-            </a>
+              <a href="./measure/">
+                <div class="link_button">
+                  <span class="lang_jp">詳しく見る</span>
+                  <span class="lang_en">Read more</span>
+                  <div class="img">
+                    <img src="./svg/arrow.svg" />
+                  </div>
+                </div>
+              </a>
+            </div>
           </div>
 
           <div class="text">
-            <h3 class="text_title">アクティビティ</h3>
-            <div class="textContent">
-              私たちの行った活動について紹介します。
-            </div>
-            <a href="./activity/">
-              <div class="link_button">
-                <span class="lang_jp">詳しく見る</span>
-                <span class="lang_en">Read more</span>
-                <div class="img">
-                  <img src="./svg/arrow.svg" />
-                </div>
+            <img class="page_description_icon" src="./svg/icon/E.svg" />
+            <div class="page_description_content">
+              <h3 class="text_title">アクティビティ</h3>
+              <div class="textContent">
+                私たちの行った活動について紹介します。
               </div>
-            </a>
+              <a href="./activity/">
+                <div class="link_button">
+                  <span class="lang_jp">詳しく見る</span>
+                  <span class="lang_en">Read more</span>
+                  <div class="img">
+                    <img src="./svg/arrow.svg" />
+                  </div>
+                </div>
+              </a>
+            </div>
           </div>
 
           <div class="text">
-            <h3 class="text_title">解決策</h3>
-            <div class="textContent">
-              都市鉱山について様々な取り組みが行われていますが、まだまだたくさん問題が残っているのは事実です。<br />
-              都市鉱山をもっと広めよう、活用しようという意識を全員が共有できることを願って、私たちの考える解決策をこのページに書いてみました。
-            </div>
-            <a href="./solution/">
-              <div class="link_button">
-                <span class="lang_jp">詳しく見る</span>
-                <span class="lang_en">Read more</span>
-                <div class="img">
-                  <img src="./svg/arrow.svg" />
-                </div>
+            <img class="page_description_icon" src="./svg/icon/F.svg" />
+            <div class="page_description_content">
+              <h3 class="text_title">解決策</h3>
+              <div class="textContent">
+                都市鉱山について様々な取り組みが行われていますが、まだまだたくさん問題が残っているのは事実です。<br />
+                都市鉱山をもっと広めよう、活用しようという意識を全員が共有できることを願って、私たちの考える解決策をこのページに書いてみました。
               </div>
-            </a>
+              <a href="./solution/">
+                <div class="link_button">
+                  <span class="lang_jp">詳しく見る</span>
+                  <span class="lang_en">Read more</span>
+                  <div class="img">
+                    <img src="./svg/arrow.svg" />
+                  </div>
+                </div>
+              </a>
+            </div>
           </div>
 
           <div class="text">
-            <h3 class="text_title">最後に</h3>
-            <div class="textContent">私たちの思いが届きますように…！</div>
-            <a href="./finally/">
-              <div class="link_button">
-                <span class="lang_jp">詳しく見る</span>
-                <span class="lang_en">Read more</span>
-                <div class="img">
-                  <img src="./svg/arrow.svg" />
+            <img class="page_description_icon" src="./svg/icon/G.svg" />
+            <div class="page_description_content">
+              <h3 class="text_title">最後に</h3>
+              <div class="textContent">私たちの思いが届きますように…！</div>
+              <a href="./finally/">
+                <div class="link_button">
+                  <span class="lang_jp">詳しく見る</span>
+                  <span class="lang_en">Read more</span>
+                  <div class="img">
+                    <img src="./svg/arrow.svg" />
+                  </div>
                 </div>
-              </div>
-            </a>
+              </a>
+            </div>
           </div>
 
           <div class="text">
-            <h3 class="text_title">その他</h3>
-            <div class="textContent">
-              私たちの活動記録やこのサイトの参考文献を紹介しています。
-            </div>
-            <a href="./others/">
-              <div class="link_button">
-                <span class="lang_jp">詳しく見る</span>
-                <span class="lang_en">Read more</span>
-                <div class="img">
-                  <img src="./svg/arrow.svg" />
-                </div>
+            <img class="page_description_icon" src="./svg/icon/H.svg" />
+            <div class="page_description_content">
+              <h3 class="text_title">その他</h3>
+              <div class="textContent">
+                私たちの活動記録やこのサイトの参考文献を紹介しています。
               </div>
-            </a>
+              <a href="./others/">
+                <div class="link_button">
+                  <span class="lang_jp">詳しく見る</span>
+                  <span class="lang_en">Read more</span>
+                  <div class="img">
+                    <img src="./svg/arrow.svg" />
+                  </div>
+                </div>
+              </a>
+            </div>
           </div>
           <h2 id="各機能について">各機能について</h2>
           <ul>
@@ -1585,156 +1632,182 @@
 
           <h2 id="site-map">Site Map</h2>
           <div class="text">
-            <h3 class="text_title">Present Situation</h3>
-            <div class="textContent">
-              Japan is a world leader in various fields of science and
-              technology.<br />
-              This is due to a large amount of minor metal and other metal
-              resources.<br />
-              However, it is not an easy task to obtain them.
-            </div>
-            <a href="./present-situation/">
-              <div class="link_button">
-                <span class="lang_jp">詳しく見る</span>
-                <span class="lang_en">Read more</span>
-                <div class="img">
-                  <img src="./svg/arrow.svg" />
-                </div>
+            <img class="page_description_icon" src="" />
+            <div class="page_description_content">
+              <h3 class="text_title">Present Situation</h3>
+              <div class="textContent">
+                Japan is a world leader in various fields of science and
+                technology.<br />
+                This is due to a large amount of minor metal and other metal
+                resources.<br />
+                However, it is not an easy task to obtain them.
               </div>
-            </a>
+              <a href="./present-situation/">
+                <div class="link_button">
+                  <span class="lang_jp">詳しく見る</span>
+                  <span class="lang_en">Read more</span>
+                  <div class="img">
+                    <img src="./svg/arrow.svg" />
+                  </div>
+                </div>
+              </a>
+            </div>
           </div>
 
           <div class="text">
-            <h3 class="text_title">Significance of Urban Mining</h3>
-            <div class="textContent">
-              Urban mining is a key to resource problems.<br />
-              What is it like?
-            </div>
-            <a href="./urban-mining/">
-              <div class="link_button">
-                <span class="lang_jp">詳しく見る</span>
-                <span class="lang_en">Read more</span>
-                <div class="img">
-                  <img src="./svg/arrow.svg" />
-                </div>
+            <img class="page_description_icon" src="" />
+            <div class="page_description_content">
+              <h3 class="text_title">Significance of Urban Mining</h3>
+              <div class="textContent">
+                Urban mining is a key to resource problems.<br />
+                What is it like?
               </div>
-            </a>
+              <a href="./urban-mining/">
+                <div class="link_button">
+                  <span class="lang_jp">詳しく見る</span>
+                  <span class="lang_en">Read more</span>
+                  <div class="img">
+                    <img src="./svg/arrow.svg" />
+                  </div>
+                </div>
+              </a>
+            </div>
           </div>
 
           <div class="text">
-            <h3 class="text_title">Problem</h3>
-            <div class="textContent">
-              Urban mining makes a lot of profit, but there are still many
-              obstacles.
-            </div>
-            <a href="./problem/">
-              <div class="link_button">
-                <span class="lang_jp">詳しく見る</span>
-                <span class="lang_en">Read more</span>
-                <div class="img">
-                  <img src="./svg/arrow.svg" />
-                </div>
+            <img class="page_description_icon" src="" />
+            <div class="page_description_content">
+              <h3 class="text_title">Problem</h3>
+              <div class="textContent">
+                Urban mining makes a lot of profit, but there are still many
+                obstacles.
               </div>
-            </a>
+              <a href="./problem/">
+                <div class="link_button">
+                  <span class="lang_jp">詳しく見る</span>
+                  <span class="lang_en">Read more</span>
+                  <div class="img">
+                    <img src="./svg/arrow.svg" />
+                  </div>
+                </div>
+              </a>
+            </div>
           </div>
 
           <div class="text">
-            <h3 class="text_title">Measure</h3>
-            <div class="textContent">
-              There are many efforts being made to solve the problem of
-              resources.<br />
-              Many people are trying to create a better world.
-            </div>
-            <a href="./measure/">
-              <div class="link_button">
-                <span class="lang_jp">詳しく見る</span>
-                <span class="lang_en">Read more</span>
-                <div class="img">
-                  <img src="./svg/arrow.svg" />
-                </div>
+            <img class="page_description_icon" src="" />
+            <div class="page_description_content">
+              <h3 class="text_title">Measure</h3>
+              <div class="textContent">
+                There are many efforts being made to solve the problem of
+                resources.<br />
+                Many people are trying to create a better world.
               </div>
-            </a>
+              <a href="./measure/">
+                <div class="link_button">
+                  <span class="lang_jp">詳しく見る</span>
+                  <span class="lang_en">Read more</span>
+                  <div class="img">
+                    <img src="./svg/arrow.svg" />
+                  </div>
+                </div>
+              </a>
+            </div>
           </div>
 
           <div class="text">
-            <h3 class="text_title">Activity</h3>
-            <div class="textContent">
-              Here are some of the activities we have done.<br />
-              <ul>
-                <li>
-                  <a href="./activity/questionnaire.html">Questionnaire</a>
-                </li>
-                <li><a href="./activity/recycle-box.html">Recovery Box</a></li>
-                <li><a href="./activity/interview.html">Interview</a></li>
-                <li><a href="./activity/petec.html">Visit to Plant</a></li>
-                <li>
-                  <a href="./activity/disassembly.html"
-                    >Cell Phone Dismantling</a
-                  >
-                </li>
-              </ul>
-            </div>
-            <a href="./activity/">
-              <div class="link_button">
-                <span class="lang_jp">詳しく見る</span>
-                <span class="lang_en">Read more</span>
-                <div class="img">
-                  <img src="./svg/arrow.svg" />
-                </div>
+            <img class="page_description_icon" src="" />
+            <div class="page_description_content">
+              <h3 class="text_title">Activity</h3>
+              <div class="textContent">
+                Here are some of the activities we have done.<br />
+                <ul>
+                  <li>
+                    <a href="./activity/questionnaire.html">Questionnaire</a>
+                  </li>
+                  <li>
+                    <a href="./activity/recycle-box.html">Recovery Box</a>
+                  </li>
+                  <li><a href="./activity/interview.html">Interview</a></li>
+                  <li><a href="./activity/petec.html">Visit to Plant</a></li>
+                  <li>
+                    <a href="./activity/disassembly.html"
+                      >Cell Phone Dismantling</a
+                    >
+                  </li>
+                </ul>
               </div>
-            </a>
+              <a href="./activity/">
+                <div class="link_button">
+                  <span class="lang_jp">詳しく見る</span>
+                  <span class="lang_en">Read more</span>
+                  <div class="img">
+                    <img src="./svg/arrow.svg" />
+                  </div>
+                </div>
+              </a>
+            </div>
           </div>
 
           <div class="text">
-            <h3 class="text_title">Solution</h3>
-            <div class="textContent">
-              It is true that there still remain some problems to be solved
-              although many people are working hard to improve the present
-              situation.<br />
-              We would like everyone to know how important and useful urban
-              mining is. Here is our solution.
-            </div>
-            <a href="./solution/">
-              <div class="link_button">
-                <span class="lang_jp">詳しく見る</span>
-                <span class="lang_en">Read more</span>
-                <div class="img">
-                  <img src="./svg/arrow.svg" />
-                </div>
+            <img class="page_description_icon" src="" />
+            <div class="page_description_content">
+              <h3 class="text_title">Solution</h3>
+              <div class="textContent">
+                It is true that there still remain some problems to be solved
+                although many people are working hard to improve the present
+                situation.<br />
+                We would like everyone to know how important and useful urban
+                mining is. Here is our solution.
               </div>
-            </a>
+              <a href="./solution/">
+                <div class="link_button">
+                  <span class="lang_jp">詳しく見る</span>
+                  <span class="lang_en">Read more</span>
+                  <div class="img">
+                    <img src="./svg/arrow.svg" />
+                  </div>
+                </div>
+              </a>
+            </div>
           </div>
 
           <div class="text">
-            <h3 class="text_title">Finally</h3>
-            <div class="textContent">
-              We hope that our thoughts will be understood by everyone... !
-            </div>
-            <a href="./finally/">
-              <div class="link_button">
-                <span class="lang_jp">詳しく見る</span>
-                <span class="lang_en">Read more</span>
-                <div class="img">
-                  <img src="./svg/arrow.svg" />
-                </div>
+            <img class="page_description_icon" src="" />
+            <div class="page_description_content">
+              <h3 class="text_title">Finally</h3>
+              <div class="textContent">
+                We hope that our thoughts will be understood by everyone... !
               </div>
-            </a>
+              <a href="./finally/">
+                <div class="link_button">
+                  <span class="lang_jp">詳しく見る</span>
+                  <span class="lang_en">Read more</span>
+                  <div class="img">
+                    <img src="./svg/arrow.svg" />
+                  </div>
+                </div>
+              </a>
+            </div>
           </div>
 
           <div class="text">
-            <h3 class="text_title">Others</h3>
-            <div class="textContent">
-              We publish our activity reports and references of this site.
-            </div>
-            <a href="./others/">
-              <div class="link_button">
-                <span class="lang_jp">詳しく見る</span>
-                <span class="lang_en">Read more</span>
-                <div class="img">
-                  <img src="./svg/arrow.svg" />
-                </div>
+            <img class="page_description_icon" src="" />
+            <div class="page_description_content">
+              <h3 class="text_title">Others</h3>
+              <div class="textContent">
+                We publish our activity reports and references of this site.
               </div>
-            </a>
+              <a href="./others/">
+                <div class="link_button">
+                  <span class="lang_jp">詳しく見る</span>
+                  <span class="lang_en">Read more</span>
+                  <div class="img">
+                    <img src="./svg/arrow.svg" />
+                  </div>
+                </div>
+              </a>
+            </div>
           </div>
 
           <h2 id="about-each-function">About Each Function</h2>
