@@ -443,10 +443,10 @@ Considering these advantages, <ForceText>Japan must make use of urban mines</For
 <div class="image_container">
     <CaptionImage
         src="../img/urban-mining/metal_graph.svg"
-        caption="Fig. 2.4 How much metal each country has?"
+        caption="Fig. 2.4 Reserve in Japan / Reserve in the world"
         source="SusDI" link="http://susdi.org/wp/data/post-194/"
         width="60vw"
-        note_en="を参考に作成"></CaptionImage>
+        note_en=""></CaptionImage>
 </div>
 
 <AtomCharacter atom="Y">
