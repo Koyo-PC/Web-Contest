@@ -279,7 +279,7 @@ Urban mining is a key to resource problems. What is it like?
 ## Minor metal and Major metal
 
 Why do so many people crave <Word>metal resources</Word>? That’s because it is indispensable for home appliances and cutting-edge technology. In this chapter, we would like to talk about those metal resources.
-We have used the word “metal resources" so far, but actually it is largely separated into two kinds. They are <Word>minor metal</Word> and <Word>major metal</Word>.
+We have used the word “metal resources" so far, but actually it is largely separated into two kinds. They are <Word>minor metals</Word> and <Word>major metals</Word>.
 Major metal is metal that is easy to refine and there exists a lot in the earth, although some elements are classified as major metal in spite of their rarity (six kinds such as gold, silver, etc).
 
 Have you ever heard of minor metal?
@@ -303,7 +303,7 @@ Minor metal includes 47 elements such as lithium and chromium.(table 2.1)
 </div>
 
 Major metal is used for electric wire and cable and plating while minor metal is used for high technology like smartphones, superconducting material, shape memory alloys and metal hydride alloys.
-Minor metal is essential to our lives and called “vitamins of industry."
+Minor metal is essential to our lives and called “<ForceText>vitamins of industry</ForceText>."
 
 We disassembled a feature phone and a smartphone.  You can check the experiment [here](../activity/disassembly.html).
 
@@ -347,13 +347,13 @@ We disassembled a feature phone and a smartphone.  You can check the experiment 
   </table>
     <figcaption style="white-space: nowrap;">
         <a href="https://www.env.go.jp/council/former2013/03haiki/y0324-04/mat02a.pdf">References</a><br>
-        数値の算出方法：（年間の含有量）/（年間排出台数）の値を少数第3位で四捨五入
+        Reference 2: Analysis results of useful metal content ( halfway report)
     </figcaption>
 </figure>
 
 <NoIndent>
 <small>
-* Metal resources are sometimes classified into three kinds, minor metals, major metals, and   precious metals. In this case, nine elements including gold, silver, etc. are classified as precious  metals.
+* Metal resources are sometimes classified into three kinds, minor metals, major metals, and <Word>precious metals</Word>. In this case, nine elements including gold, silver, etc. are classified as precious  metals.
 </small>
 </NoIndent>
 
@@ -361,7 +361,7 @@ We disassembled a feature phone and a smartphone.  You can check the experiment 
 
 In 1988, Professor Michio Nanjo at the Research Institute of Mineral Dressing and Metallurgy, Tohoku University, advocated the concept of urban mining in order to solve resource problems and this is the theme of this website.
 <SummaryLink id="0_en">
-Urban mine is defined as follows in Wikipedia: “An urban mine is the stockpile of minor metals in the discarded waste electrical and electronic equipment (WEEE) of a society. Urban mining is the process of recovering these minor metals through mechanical and chemical treatments.”
+Urban mine is defined as follows in <a href="https://ja.wikipedia.org/wiki/%E9%83%BD%E5%B8%82%E9%89%B1%E5%B1%B1" style="text-decoration: none;">Wikipedia</a>: “An urban mine is the stockpile of <Word>minor metals</Word> in the discarded waste electrical and electronic equipment (WEEE) of a society. Urban mining is the process of recovering these minor metals through mechanical and chemical treatments.”
 Let’s learn about urban mining together with some data.
 </SummaryLink>
 <SummaryLink id="3_en">
