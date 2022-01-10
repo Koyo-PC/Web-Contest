@@ -10,7 +10,7 @@
 ## 回収率の低さ
 
 <a href="../present-situation/">「資源の現状」</a>、<a href="../urban-mining/">「都市鉱山の意義」</a>を読まれた方は都市鉱山の重要性がお分かりになったかと思います。
-<SummaryLink id="0">
+<SummaryLink id="1">
 しかし日本では<ForceText>都市鉱山の考え方に基づく小型家電の回収はなかなか進んでいません。</ForceText>
 実際日本は「2018年までに小型家電回収量を14万トンにする」という目標を掲げましたが、達成できませんでした。（図3.1）
 </SummaryLink>
@@ -51,7 +51,7 @@
 
 「回収率の低さ」問題を無事にクリアして、たくさんの使用済み家電が手に入ったとしましょう。
 さあ早速リサイクルだ！と言いたいところなのですが、実はそのリサイクル自体にも課題があるのです。
-<SummaryLink id="1">
+<SummaryLink id="4">
 使用済み家電をリサイクルして資源にするのに<ForceText>手解体や粉砕、選別などさまざまな工程を踏まなければなりません。</ForceText>
 </SummaryLink>
 特に手解体には基盤を取り出す作業があり、また、リサイクルに運ばれてくる携帯電話の種類はバラバラなので<ForceText>多くの人手を要します。</ForceText>
@@ -221,7 +221,7 @@ Urban mining makes a lot of profit, but there are still many obstacles.
 ## Low Collection Rate
 
 If you read [&#147;Present Situation&#148;](../present-situation/) and [&#147;Urban Mining&#148](../urban-mining/);, you should understand how important urban mining is.
-<SummaryLink id="0_en">
+<SummaryLink id="1_en">
 However, <ForceText>collecting on the idea of urban mining is not so active</ForceText> in Japan.
 In fact, Japan set a goal to collect 140 thousand tons of small home appliances by 2018, but they could not achieve. (Fig. 3.1)
 </SummaryLink>
@@ -261,7 +261,7 @@ How to reduce the amount of resources that are not managed and are difficult to 
 
 Suppose you have successfully overcome the "low collection rate" problem and get a lot of used appliances.
 You would like to say, "Let's recycle!" but actually recycling itself has its own problems.
-<SummaryLink id="1_en">
+<SummaryLink id="4_en">
 In order to recycle used home appliances and turn them into resources, <ForceText>various processes such as manual dismantling, crushing, and sorting must be done</ForceText>.
 In particular, manual dismantling involves taking out the base, and also <ForceText>requires a lot of labor</ForceText> because many different types of cell phones are brought for recycling.
 Some people have talked about introducing machines to the manual disassembly process, but since there are many different types of cell phones and they are often designed to be difficult to disassemble to protect information, manual labor is necessary.

@@ -290,16 +290,21 @@
                 </g>
             </g>
         </g>
-        <a href="#s_6">
             <rect x="935.5" y="384.5" width="277" height="97" stroke="#4472C4" stroke-width="1.33333"
                   stroke-miterlimit="8"
                   fill="#FFFFFF"/>
             <text font-weight="400" font-size="24"
-                  transform="translate(944.228 411)">セベソ事件
+                  transform="translate(944.228 411)">
+                <a href="#s_6">
+                <tspan font-size="24" x="0" y="0">セベソ事件</tspan>
+                </a>
+                <a href="#s_7">
                 <tspan font-size="24" x="0" y="29">ココ事件</tspan>
+                </a>
+                <a href="#s_8">
                 <tspan font-size="24" x="0" y="58">豊島事件</tspan>
+                </a>
             </text>
-        </a>
         <g clip-path="url(#clip5)">
             <g clip-path="url(#clip6)">
                 <g clip-path="url(#clip7)">
