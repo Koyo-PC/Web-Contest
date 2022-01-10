@@ -418,7 +418,7 @@ As a result, its <Word>self-sufficiency rate</Word> has been getting lower and l
 <div class="image_container">
     <CaptionImage src="../assets/book/book_p17.png"
         caption="Fig. 2.3 Japan's self-sufficiency rate of metals"
-        note_jp="Book &#147;資源論&#148;"
+        note_en="Book 資源論"
         force_exist="true"
         width="40vw"
     ></CaptionImage>
@@ -446,7 +446,7 @@ Considering these advantages, <ForceText>Japan must make use of urban mines</For
         caption="Fig. 2.4 Reserve in Japan / Reserve in the world"
         source="SusDI" link="http://susdi.org/wp/data/post-194/"
         width="60vw"
-        note_en=""></CaptionImage>
+        note_en="created while referencing to"></CaptionImage>
 </div>
 
 <AtomCharacter atom="Y">
