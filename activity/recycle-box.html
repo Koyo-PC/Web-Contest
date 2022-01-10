@@ -27,8 +27,16 @@
         color: darkblue;
       }
 
-      a[href^="http"]:after {
+      #lang_jp a[href^="http"]:after,
+      .lang_jp a[href^="http"]:after {
         content: "(外部リンク)";
+        font-size: small;
+        margin-left: 2px;
+      }
+
+      #lang_en a[href^="http"]:after,
+      .lang_en a[href^="http"]:after {
+        content: "(External link)";
         font-size: small;
         margin-left: 2px;
       }
