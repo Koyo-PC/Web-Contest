@@ -317,7 +317,7 @@ If you do not know much about collection boxes, try searching to search the Inte
 You will be amazed by the number of them(*Keep in mind that local governments may collect different kinds of items for recycling).
 As you can see from the illustration above, collected small home appliances are disassembled, crushed, and separated into different resources by recycling companies, and then the metals are extracted by metal refiners, which are then transported to manufacturers as new resources.
 Some of these recycling companies are <Word>certified companies</Word> and carry the mark shown below.
-Currently, there are 58 certified companies (as of 8/6/2021), all of which are listed on the [Ministry of the Environment's website](https://www.env.go.jp/recycle/recycling/raremetals/trader.html).
+Currently, there are 58 certified companies (August 6, 2021), all of which are listed on the [Ministry of the Environment's website](https://www.env.go.jp/recycle/recycling/raremetals/trader.html).
 </SummaryLink>
 
 <div class="image_container">
