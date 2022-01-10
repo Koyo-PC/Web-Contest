@@ -223,11 +223,16 @@ Urban mining makes a lot of profit, but there are still many obstacles.
 If you read [&#147;Present Situation&#148;](../present-situation/) and [&#147;Urban Mining&#148](../urban-mining/);, you should understand how important urban mining is.
 <SummaryLink id="0_en">
 However, <ForceText>collecting on the idea of urban mining is not so active</ForceText> in Japan.
-In fact, Japan set a goal to collect 140 thousand tons of small home appliances by 2018, but they could not achieve.
+In fact, Japan set a goal to collect 140 thousand tons of small home appliances by 2018, but they could not achieve. (Fig. 3.1)
 </SummaryLink>
 
 <div class="image_container">
-    <CaptionImage src="../assets/meti/20200807_01.png" height="40vw" link="https://www.env.go.jp/press/files/jp/114485.pdf" source="環境省" caption="How much home appliances were collected in a year?"></CaptionImage>
+    <CaptionImage
+        src="../assets/meti/20200807_01.png"
+        caption="Fig. 3.1 How much home appliances were collected in a year?"
+        source="環境省" link="https://www.env.go.jp/press/files/jp/114485.pdf"
+        height="40vw"
+    ></CaptionImage>
 </div>
 
 One of the reasons for this is <ForceText>lack of name recognition</ForceText>.
@@ -272,12 +277,12 @@ In order to spread the use of urban mines, this "cost problem" has to be solved.
 In the idea of urban mining, <Word>minor metals</Word> and <Word>base metals</Word> included in waste electronic equipment are regarded as resources.
 However, waste electronics are not only made of minor metals and base metals.
 <SummaryLink id="3_en">
-In fact, <ForceText>the majority of the components of waste electronics are made up of plastic</ForceText>.
+In fact, <ForceText>the majority of the components of waste electronics are made up of plastic</ForceText>. (Fig. 3.2)
 </SummaryLink>
 
 <div class="image_container">
     <CaptionImage src="../assets/susdi/40dcbe9d88c96297b642179a653642d8.jpg"
-        caption="What is a cell phone made of?"
+        caption="Fig. 3.2 What is a cell phone made of?"
         source="SusDI"
         href="http://susdi.org/wp/data/post-38/"
         height="40vw"
@@ -300,7 +305,7 @@ You need to develop technologies to make toxic substances stable.
 # Overseas
 
 When harmful substances travel across borders, the discussion develops into an international issue.
-In this article, we would like to talk about two famous international problems, <Word>Seveso disaster</Word> and <Word>Coco Incident</Word>.
+In this article, we would like to talk about two famous international problems, <Word>Seveso disaster</Word> and <Word>Koko Incident</Word>.
 Although these two incidents are not directly related to metal recycling, you cannot conclude that the same thing will not happen in metal recycling.
 In fact, the <Word>Basel Convention</Word>, introduced in the section "[Significance of Urban Mining](../urban-mining/)," was concluded mainly because of these two incidents.
 
@@ -315,9 +320,9 @@ This incident raised the issue of the movement of hazardous substances across bo
 </SummaryLink>
 
 <SummaryLink id="7_en">
-<h2>Coco Incident</h2>
-Twelve years after this Seveso incident, the Coco incident occurred.
-It was discovered that two companies in Italy were <Word>illegally disposing of hazardous waste</Word>, including polychlorinated biphenyl (PCB), at the Coco Port in Nigeria and developed into a diplomatic issue.
+<h2>Koko Incident</h2>
+Twelve years after this Seveso incident, the Koko incident occurred.
+It was discovered that two companies in Italy were <Word>illegally disposing of hazardous waste</Word>, including polychlorinated biphenyl (PCB), at the Koko Port in Nigeria and developed into a diplomatic issue.
 The issue quickly became the target of protests of environmental groups, dozens of haulers were arrested, and on July 30, 1988, Italy tried to collect the waste on its own, load it on a ship, and move it to Europe.
 However, because of the strong opposition by the residents, they were not accepted in Italy, and other Western countries (France, England, Spain, West Germany, the Netherlands, etc.) refused to allow them to enter the country one after another, and for 33 days they wandered the high seas.
 One of the ships was named Karin B, so this incident is also known as the Karin B incident.

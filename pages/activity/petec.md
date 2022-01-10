@@ -413,10 +413,9 @@ How surprising it is to have taken each of them to pieces!
 
 In recycling of large home appliances, the statutory recycling rate for each item is set by the Home Appliance Recycling Law.
 If it at a plant is below this level, the plant cannot operate.
-PETEC has met the legal recycling rate for all items.
+PETEC has met the legal recycling rate for all items. (table 5.1)
 <figure>
-  <figcaption style="white-space: nowrap;">the statutory recycling rate
-  </figcaption>
+  <figcaption style="white-space: nowrap;">table 5.1 the statutory recycling rate</figcaption>
   <table>
     <tr>
       <th></th>
@@ -649,9 +648,9 @@ After being shredded by crushers, they are separated into iron, aluminum, copper
 However, in order to have these products recycled, you have to pay a recycling fee.
 This is a role imposed on us, the consumers, by the Home Appliance Recycling Law, and also it is a lubricant that promotes recycling.
 Some people may think that they have no idea why they have to pay money in order to recycle products.
-Actually, recycling fees have been decreasing year by year because of the development of technology and the ease of recycling them.
+Actually, recycling fees have been decreasing year by year because of the development of technology and the ease of recycling them. (table 5.2)
 <figure>
-  <figcaption>recycling fees</figcaption>
+  <figcaption>table 5.2 recycling fees</figcaption>
   <table>
     <tr>
       <th colspan="2">4品目</th>

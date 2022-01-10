@@ -432,6 +432,7 @@ The major difference between overseas recycling companies and those in Japan is 
 Therefore, recycling companies tend to be larger than those in Japan.
 </SummaryLink>
 
+<figcaption>table 4.1 Sales of Companies in Japan and Overseas</figcaption>
 Company | Earnings | Company | Earnings
 -- | -- | -- | --
 REVER | 249億1000万円 | umicore(ベルギー) | €32億(4136億6000万)
@@ -439,10 +440,9 @@ DOWA | 588億300万円 | veolia(フランス) | €260億(3兆3612億)
 Daiei | 784億9100万円 | waste management(US) | $1521億8000万(1兆6677億)
 IBOKIN | 201億3000万円 | Sims Metal Management(Aus) | $4908.5 million(3964億)
 | | | | ※ the unit in () is yen
-<figcaption>Sales of Companies in Japan and Overseas</figcaption>
 
 
-In the table on the right, you can see that foreign companies are larger than Japanese companies.
+In the table above (table 4.1), you can see that foreign companies are larger than Japanese companies.
 <FOrceText>These companies can take advantage of this to recycle more efficiently.</ForceText>
 They are able to process a large amount of e-waste at once, which makes recycling more efficient than if they process it little by little.
 Also, when e-waste is recycled by many companies, recycling is not done smoothly because each company tries to make a profit. However, this is not the case when the entire process is done by one company.

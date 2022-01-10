@@ -284,12 +284,15 @@ Minor metal is elements that meet these standards:
 2. hard to take out from ore as simple substance
 3. unevenly distributed in the world
 
-Minor metal includes 47 elements such as lithium and chromium.
+Minor metal includes 47 elements such as lithium and chromium.(table 2.1)
 
 <div class="image_container">
 <div style="position: relative; width: 100%; height: 50vw;">
 <div style="position: absolute; left: -10vw; width: calc(100% + 20vw); height: 100%;">
-    <Image src="../img/urban-mining/periodic_table_en.png"></Image>
+    <CaptionImage
+        src="../img/urban-mining/periodic_table.png"
+        caption="table 2.1 Minor metal and rare earth in periodic table"
+    ></CaptionImage>
 </div>
 </div>
 </div>
@@ -300,6 +303,9 @@ Minor metal is essential to our lives and called “vitamins of industry."
 We disassembled a feature phone and a smartphone.  You can check the experiment [here](../activity/disassembly.html).
 
 <figure class="table_figure">
+  <figcaption style="white-space: nowrap;">
+    table 2.2 How much minor metal is included in a smartphone, laptop PC, desktop PC? (g)
+  </figcaption>
   <table>
     <tr>
       <th></th>
@@ -335,7 +341,7 @@ We disassembled a feature phone and a smartphone.  You can check the experiment 
     </tr>
   </table>
     <figcaption style="white-space: nowrap;">
-        How much minor metal is included in a smartphone, laptop PC, desktop PC?(g) <a href="https://www.env.go.jp/council/former2013/03haiki/y0324-04/mat02a.pdf">References</a><br>
+        <a href="https://www.env.go.jp/council/former2013/03haiki/y0324-04/mat02a.pdf">References</a><br>
         数値の算出方法：（年間の含有量）/（年間排出台数）の値を少数第3位で四捨五入
     </figcaption>
 </figure>
@@ -354,20 +360,30 @@ Urban mine is defined as follows in Wikipedia: “An urban mine is the stockpile
 Let’s learn about urban mining together with some data.
 </SummaryLink>
 <SummaryLink id="3_en">
-The graph below shows the amount of <Word>primary resources</Word> and <Word>secondary resources</Word> of some metals.
+The graph below(Fig. 2.1) shows the amount of <Word>primary resources</Word> and <Word>secondary resources</Word> of some metals.
 </SummaryLink>
 
 <div class="image_container">
-    <Image src="../assets/jim/151.jpg" height="40vw" caption="The amount of Primary resource and Secondary resource" note="The Japan Institute of Metals and Materials" href="https://www.jim.or.jp/journal/j/pdf3/73/03/151.pdf"></Image>
+    <CaptionImage
+        src="../assets/jim/151.jpg"
+        caption="Fig. 2.1 一次資源と二次資源の割合"
+        source="日本金属学会" link="https://www.jim.or.jp/journal/j/pdf3/73/03/151.pdf"
+        height="40vw"
+    ></CaptionImage>
 </div>
 
 As you can see in this graph, <ForceText>half of each metal resource is secondary resources, in other words, already mined and on the ground</ForceText>.
 Therefore, it is very important to recover them, which are included in small home appliances like cellphones.  
 Now, you will probably feel that they are not garbage but <ForceText>invaluable resources</ForceText>.
-The amount of small home appliances that are going to be thrown away is 5.74 million tons and it is estimated to continue to increase.
+The amount of small home appliances that are going to be thrown away is 5.74 million tons and it is estimated to continue to increase. (Fig. 2.2)
 
 <div class="image_container">
-    <Image src="../assets/statista/1067081.png" caption="Projected electronic waste generation worldwide from 2019 to 2030" height="40vw" note="Statista" href="https://www.statista.com/statistics/1067081/generation-electronic-waste-globally-forecast/"></Image>
+    <CaptionImage
+        src="../assets/statista/1067081.png"
+        caption="Fig. 2.2 Projected electronic waste generation worldwide from 2019 to 2030"
+        source="Statista" link="https://www.statista.com/statistics/1067081/generation-electronic-waste-globally-forecast/"
+        width="40vw"
+    ></CaptionImage>
 </div>
 
 Urban mine means these beneficial metal resources!
@@ -389,11 +405,15 @@ Although It is not clear whether Japan was so full of gold, Japan had enough gol
 Especially for copper, Japan produced it the most in the world from the late 17th century to the early 18th century.
 Now, how about metal resources in Japan?
 After the war, people began to trade more freely and a lot of minerals got into the island.
-As a result, its <Word>self-sufficiency rate</Word> has been getting lower and lower.
+As a result, its <Word>self-sufficiency rate</Word> has been getting lower and lower. (Fig. 2.3)
 
 <div class="image_container">
-    <Image src="../assets/book/book_p17.png"
-note="Book &#147;資源論&#148;" height="40vw"></Image>
+    <CaptionImage src="../assets/book/book_p17.png"
+        caption="Fig. 2.3 Japan's self-sufficiency rate of metals"
+        note_jp="Book &#147;資源論&#148;"
+        force_exist="true"
+        width="40vw"
+    ></CaptionImage>
 </div>
 
 And now, Hishikari MIne is the only major mine that is working.
@@ -413,7 +433,12 @@ Considering these advantages, <ForceText>Japan must make use of urban mines</For
 </SummaryLink>
 
 <div class="image_container">
-    <CaptionImage src="../assets/susdi/img_618f76e3bd42e.png" caption="How much metal each country has?" source="National Institute for Materials Science, NIMS" link="https://www.nims.go.jp/research/elements/rare-metal/study/index.html" height="40vw"></CaptionImage>
+    <CaptionImage
+        src="../img/urban-mining/metal_graph.svg"
+        caption="Fig. 2.4 How much metal each country has?"
+        source="SusDI" link="http://susdi.org/wp/data/post-194/"
+        width="60vw"
+        note_en="を参考に作成"></CaptionImage>
 </div>
 
 <AtomCharacter atom="Y">

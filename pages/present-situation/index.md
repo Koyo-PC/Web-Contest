@@ -246,10 +246,16 @@ It also plays an important role in the field of chemistry and medicine.
 ## Increase in Production
 
 How much metal is mined all over the world every year?<br>
-Take a look at the graph below.
+Take a look at the graph below.(Fig. 1.1)
 
 <div class="image_container">
-    <Image src="../assets/book/book_p7.png" alt="Changes in production volume" note="Book &#147;資源論&#148;" height="40vw"></Image>
+    <CaptionImage
+        src="../assets/book/book_p7.png"
+        force_exist="true"
+        caption="Fig. 1.1 Increase in production"
+        note_jp="書籍『資源論』をスキャンして作成"
+        width="40vw"
+    ></CaptionImage>
 </div>
 
 It shows the change in the production of major metal in the world.
@@ -271,15 +277,15 @@ However, you still have not been able to stop the increase.  That is why you may
 
 ## Uneven Distribution
 
-Take a look at the graph below.
+Take a look at the graph below.(Fig. 1.2)
 
 <div class="image_container">
-    <Image src="../assets/susdi/7d2a8a5d380f463388d1c8d4512bef57.jpg"
-        alt="Uneven distributed metals"
-        note="<InlineImage>../assets/susdi/46e68cc8af75454ff9cc3fd767a83b0e-300x109.png</InlineImage>"
-        href="http://susdi.org/wp/data/post-61/"
-        height="40vw"
-    ></Image>
+    <CaptionImage
+        src="../assets/susdi/7d2a8a5d380f463388d1c8d4512bef57.jpg"
+        source="SusDI" link="http://susdi.org/wp/data/post-61/"
+        caption="Fig. 1.2 How much do the top three countries occupy reserves of each metal?"
+        width="50vw"
+    ></CaptionImage>
 </div>
 
 <SummaryLink id="1_en">
