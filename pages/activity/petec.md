@@ -397,7 +397,7 @@ PETEC is one of the companies responsible for it and aims to achieve a sound rec
     <CaptionImage src="../svg/petec/top_en.svg" scale="150%"></CaptionImage>
 </div>
 
-They recycle four items (televisions, air conditioners, refrigerators / freezers, washing machines / clothes dryers), which are specified by the Home Appliance Recycling Law.
+They recycle four items (televisions, air conditioners, refrigerators / freezers, washing machines / clothes dryers), which are specified by <Word>the Act on Recycling of Specified Kinds of Home Appliances</Word>.
 The area which large home appliances are collected by PETEC from extends to Kinki area.
 
 They process about 900,000 units per year, and work with a target number of units to be processed, which is usually stable, but sometimes increases significantly, each operating day.
@@ -411,7 +411,7 @@ PETEC has processed more than 16,500,000 units !!(As of October 14)
 How surprising it is to have taken each of them to pieces!
 </AtomCharacter>
 
-In recycling of large home appliances, the statutory recycling rate for each item is set by the Home Appliance Recycling Law.
+In recycling of large home appliances, <Word>the statutory recycling rate</Word> for each item is set by the Home Appliance Recycling Law.
 If it at a plant is below this level, the plant cannot operate.
 PETEC has met the legal recycling rate for all items. (table 5.1)
 <figure>
@@ -420,9 +420,9 @@ PETEC has met the legal recycling rate for all items. (table 5.1)
     <tr>
       <th></th>
       <th>television</th>
-      <th>エアコン</th>
+      <th>air conditioner</th>
       <th>refrigerrator, freezer</th>
-      <th>washing machine, laundry drier</th>
+      <th>washing machine, <br>laundry drier</th>
     </tr>
     <tr>
       <td>the statutory recycling rate</td>
@@ -452,7 +452,7 @@ We would like to introduce a recycling process carried out at PETEC by product.
 
 Televisions are classified into three types: CRT televisions, plasma televisions, and LCD televisions.
 However, because the amount of CRT Televisions emitted from households is currently small, they are not processed at PETEC.
-Some LCD Televisions use fluorescent tube type backlights.
+Some LCD Televisions use fluorescent tube type <Word>backlights</Word>.
 Since they contain mercury gas, which is a hazardous substance, the fluorescent tubes in the backlight unit need to be taken out.
 After being taken out, the  collected fluorescent tubes are disposed of by a specialized company.
 <div class="image_container">
@@ -476,7 +476,7 @@ It is said to destroy the ozone layer, so it must be removed first.
 This removal is done safely using a tube and then sent to a special treatment plant and detoxified in it.
 Outdoor units sometimes have dust and dead insects in them, so in that case, they are removed before outdoor units are dismantled.
 
-The dismantled parts of indoor and outdoor units are divided into copper wire, chassis, electrical parts, heat exchangers, compressors, etc.
+The dismantled parts of indoor and outdoor units are divided into copper wire, <Word>chassis</Word>, electrical parts, heat exchangers, compressors, etc.
 In particular, the compressor contained in outdoor units is a valuable resource which contains a lot of iron and copper.
 After the copper wire is crushed, the copper is recovered and sent to a smelter.
 Electrical parts, heat exchangers, and compressors are carried to a plant where the resources are recovered in high grade and transformed into new ones.
@@ -631,7 +631,7 @@ As you can see, refrigerators are said to be the most difficult of the four item
 ### Washing Machines and Clothes Dryers
 
 Like air conditioners, washing machines with dryers have their compressors and heat exchangers removed, and CFCs are recovered.
-Also, the harnesses, motors, control panels, and power cords are taken out of the washing machine by hand.
+Also, the <Word>harnesses</Word>, motors, control panels, and power cords are taken out of the washing machine by hand.
 Washing machines are different from other products in that the salt water in them must be drained.
 About 2 liters of salt water is put in the washing tank as a balancer to stabilize the rotating tank during washing, and removing it prevents the iron, an important recyclable resource, from rusting.
 The removed salt water is sent to other plants for recycling.
