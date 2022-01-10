@@ -347,7 +347,8 @@ We disassembled a feature phone and a smartphone.  You can check the experiment 
   </table>
     <figcaption style="white-space: nowrap;">
         <a href="https://www.env.go.jp/council/former2013/03haiki/y0324-04/mat02a.pdf">References</a><br>
-        Reference 2: Analysis results of useful metal content ( halfway report)
+        Reference 2: Analysis results of useful metal content ( halfway report)<br>
+        (the amount of metal in home appliances thrown away in a year)<br>/ (the number of home appliances thrown away in a year), rounded to the nearest third.
     </figcaption>
 </figure>
 
@@ -361,7 +362,9 @@ We disassembled a feature phone and a smartphone.  You can check the experiment 
 
 In 1988, Professor Michio Nanjo at the Research Institute of Mineral Dressing and Metallurgy, Tohoku University, advocated the concept of urban mining in order to solve resource problems and this is the theme of this website.
 <SummaryLink id="0_en">
-Urban mine is defined as follows in <a href="https://ja.wikipedia.org/wiki/%E9%83%BD%E5%B8%82%E9%89%B1%E5%B1%B1" style="text-decoration: none;">Wikipedia</a>: “An urban mine is the stockpile of <Word>minor metals</Word> in the discarded waste electrical and electronic equipment (WEEE) of a society. Urban mining is the process of recovering these minor metals through mechanical and chemical treatments.”
+Urban mine is defined as follows in <a href="https://ja.wikipedia.org/wiki/%E9%83%BD%E5%B8%82%E9%89%B1%E5%B1%B1" style="text-decoration: none;">Wikipedia</a>: “An urban mine is the stockpile of <Word>minor metals</Word> in the discarded waste electrical and electronic equipment (WEEE) of a society. Urban mining is the process of recovering these mi
+nor met
+als through mechanical and chemical treatments.”
 Let’s learn about urban mining together with some data.
 </SummaryLink>
 <SummaryLink id="3_en">
@@ -371,7 +374,7 @@ The graph below(Fig. 2.1) shows the amount of <Word>primary resources</Word> and
 <div class="image_container">
     <CaptionImage
         src="../assets/jim/151.jpg"
-        caption="Fig. 2.1 一次資源と二次資源の割合"
+        caption="Fig. 2.1 Proportion of primary resources and secondary resources"
         source="日本金属学会" link="https://www.jim.or.jp/journal/j/pdf3/73/03/151.pdf"
         height="40vw"
     ></CaptionImage>
@@ -447,7 +450,7 @@ Considering these advantages, <ForceText>Japan must make use of urban mines</For
 </div>
 
 <AtomCharacter atom="Y">
-Urban mining also has a good effect on carbon dioxide emissions reduction and is related to SDGs 12th goals, &#147;Responsible Consumption and production&#148;.
+Urban mining also has a good effect on carbon dioxide emissions reduction and is related to <Word>SDGs</Word> 12th goals, &#147;Responsible Consumption and production&#148;.
 </AtomCharacter>
 
 ## Illegal Urban Mining
