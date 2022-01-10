@@ -111,13 +111,17 @@
 下のグラフ（図2.1）は主な金属資源の<Word>一次資源</Word>と<Word>二次資源</Word>の量を示したものです。
 </SummaryLink>
 
-<div class="image_container">
+<div class="image_container" style="position: relative">
     <CaptionImage
         src="../assets/jim/151.jpg"
         caption="図2.1 一次資源と二次資源の割合"
         source="日本金属学会" link="https://www.jim.or.jp/journal/j/pdf3/73/03/151.pdf"
         height="40vw"
     ></CaptionImage>
+    <div style="position: absolute; width: auto;height: auto; top: 20px; bottom: 60px; left: 40px; right: 40px;">
+        <span style="position: absolute; font-size: 1.5vw; top:33%;left:14%;">一次資源</span>
+        <span style="position: absolute; font-size: 1.5vw; top:18%;left:15%;">二次資源</span>
+    </div>
 </div>
 
 これを見れば全体の資源のうち<ForceText>半分以上がすでに掘り出された二次資源
@@ -185,7 +189,7 @@
 都市鉱山はCO<sub>2</sub>削減にも効果があり、<Word>SDGs</Word>ゴール12『つくる責任 つかう責任』にも大きく関連しているのじゃ。
 </AtomCharacter>
 
-## 違法な都市鉱山 
+## 違法な都市鉱山
 
 <SummaryLink id="5">
 都市鉱山の考えに則り、使用済みの電子機器などをリサイクルするのはかなりの費用がかかるため、先進国から出た廃電子機器が<ForceText>途上国の処分場に放置される</ForceText>ということが起こるようになりました。
