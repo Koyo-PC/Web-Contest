@@ -304,7 +304,6 @@ They collect it using <Word>recycling box</Word>.
 &#147;Where should I put in my old electronic devices?&#148;
 &#147;They won't be recycled if I throw them away with other garbage, right?&#148;
 You may be thinking like this.
-<div class="sorry">どこいったー?</div>
 You can recycle your devices by putting them in recycling boxes.
 
 <div class="image_container">
@@ -381,7 +380,6 @@ France and other countries around the world are working hard to enable people to
 ### Australia
 
 Australia is a large country with abundant natural resources, and it has not imported many metal resources.
-<span class="sorry">自給率の話ない?</span>
 As a result, <ForceText>the recycling rate is not very high</ForceText>, and a great deal of e-waste is buried or exported to other countries.
 In 2009, Australia announced a national waste policy to call on all governments, companies, and industries to reduce the amount of e-waste.
 However, the goals set in the policy have <ForceText>become unrealistic</ForceText> recently, because both its population and the amount of waste is rapidly increasing.

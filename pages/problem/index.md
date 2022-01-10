@@ -386,7 +386,6 @@ Some people may think, "Isn't it rather high grade to have all kinds of metals j
 The idea is right.
 It is certainly true that <ForceText>the grade of each product is higher than that of a natural mine</ForceText>.
 However, one of the major differences between urban mines and natural mines is that natural mines are gathered in one place, while urban mines have their products scattered around each household.
-<span class="sorry">下とくっついたんかな?</span>
 This is why the grade of each product is high, but <ForceText>the grade of the products as a whole is low</ForceText>.
 Increasing the collection rate is a problem that must be solved, not only in order to increase the amount of waste for recycling, but also in order to be able to compete in the market with natural mines.
 The key to solving this low grade is how to ease the distribution.
