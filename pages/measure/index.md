@@ -356,8 +356,7 @@ In China, the first place where old electronic devices are brought in is called 
 <SummaryLink id="3_en">
 However, <ForceText>not everything that is brought in here is recycled</ForceText>.
 Many of them are <Word>reused</Word> instead of recycled.
-In China, there is usually someone who needs discarded devices.
-This means that only a small part of e-waste needs to be recycled, which is more efficient<ForceText>内容が無い?</ForceText>.
+In China, there is usually someone who needs discarded devices. These people can freely take the devices before they are recycled. This means that only a small part of e-waste needs to be recycled.
 Many Chinese people think that they should find their resources by themselves.
 On the other hand, Japanese people think differently.
 They do not want to waste resources as much as possible and recycle thinking that someone else will use them.
