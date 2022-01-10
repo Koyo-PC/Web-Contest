@@ -20,33 +20,33 @@
 
 ## サイトマップ
 
-<PageDescriptionLink title="資源の現状" path="./present-situation/" content="
+<PageDescriptionLink title="資源の現状" path="./present-situation/" icon="./svg/icon/A.svg" content="
   様々な科学技術分野で世界を牽引している日本。<br>
   これは大量のレアメタルなどの金属資源によって支えられています。<br>
   しかし、それらを手に入れることは決して容易なことではありません。
 "></PageDescriptionLink>
-<PageDescriptionLink title="都市鉱山の意義" path="./urban-mining/" content="
+<PageDescriptionLink title="都市鉱山の意義" path="./urban-mining/" icon="./svg/icon/B.svg" content="
   資源問題解決の1つの手がかりとなる都市鉱山。<br>
   それは一体どのようなものなのでしょうか。
 "></PageDescriptionLink>
-<PageDescriptionLink title="課題" path="./problem/" content="
+<PageDescriptionLink title="課題" path="./problem/" icon="./svg/icon/C.svg" content="
   都市鉱山にはメリットがたくさんある一方で、多くの課題を抱えています。
 "></PageDescriptionLink>
-<PageDescriptionLink title="現在の取り組み" path="./measure/" content="
+<PageDescriptionLink title="現在の取り組み" path="./measure/" icon="./svg/icon/D.svg" content="
   現在都市鉱山をもっと広めよう、活用しようとする人々が様々な取り組みを行っています。<br>
   世界は資源問題解決に向けて歩み出しているのです。
 "></PageDescriptionLink>
-<PageDescriptionLink title="アクティビティ" path="./activity/" content="
+<PageDescriptionLink title="アクティビティ" path="./activity/" icon="./svg/icon/E.svg" content="
   私たちの行った活動について紹介します。
 "></PageDescriptionLink>
-<PageDescriptionLink title="解決策" path="./solution/" content="
+<PageDescriptionLink title="解決策" path="./solution/" icon="./svg/icon/F.svg" content="
   都市鉱山について様々な取り組みが行われていますが、まだまだたくさん問題が残っているのは事実です。<br>
   都市鉱山をもっと広めよう、活用しようという意識を全員が共有できることを願って、私たちの考える解決策をこのページに書いてみました。
 "></PageDescriptionLink>
-<PageDescriptionLink title="最後に" path="./finally/" content="
+<PageDescriptionLink title="最後に" path="./finally/" icon="./svg/icon/G.svg" content="
   私たちの思いが届きますように…！
 "></PageDescriptionLink>
-<PageDescriptionLink title="その他" path="./others/" content="
+<PageDescriptionLink title="その他" path="./others/" icon="./svg/icon/H.svg" content="
   私たちの活動記録やこのサイトの参考文献を紹介しています。
 "></PageDescriptionLink>
 

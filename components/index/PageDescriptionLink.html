@@ -1,80 +1,106 @@
 <div class="text">
-  <h3 class="text_title">{{ title }}</h3>
-  <div class="textContent">
-    {{ content }}
-  </div>
-  <a href="{{ path }}">
-    <div class="link_button">
-      <span class="lang_jp">詳しく見る</span>
-      <span class="lang_en">Read more</span>
-      <div class="img">
-        <img src="./svg/arrow.svg"/>
-      </div>
+  <img class="page_description_icon" src="{{icon}}">
+  <div class="page_description_content">
+    <h3 class="text_title">{{ title }}</h3>
+    <div class="textContent">
+      {{ content }}
     </div>
-  </a>
+    <a href="{{ path }}">
+      <div class="link_button">
+        <span class="lang_jp">詳しく見る</span>
+        <span class="lang_en">Read more</span>
+        <div class="img">
+          <img src="./svg/arrow.svg"/>
+        </div>
+      </div>
+    </a>
+  </div>
 </div>
 <style>
-    .text {
-        width: 90%;
-        margin-bottom: 100px;
-        /*padding: 0 10vw 50px;*/
-    }
+  .text {
+    width: 90%;
+    margin-bottom: 100px;
+    /*padding: 0 10vw 50px;*/
+    display: flex;
+  }
 
-    .text_title {
-        color: #457834;
-        font-size: 32px;
-        font-weight: 400;
-        /*height: 40px;*/
-        /*line-height: 1.4;*/
-    }
+  .page_description_icon {
+    height: 200px;
+    aspect-ratio: 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 
-    .textContent {
-        color: #003b54;
-        font-size: 20px;
-        line-height: 1.4;
-        padding: 0px 0px 0px 40px;
-    }
+  .page_description_content {
+    position: relative;
+    width: calc(100% - 200px);
+    height: 200px;
+    padding: 10px;
+  }
 
-    .text > a {
-        text-decoration: none;
-        color: #003b54;
-        display: inline-block;
-        margin: 30px 0 0 40px;
-    }
+  .text_title {
+    color: #457834;
+    font-size: 32px;
+    font-weight: 400;
+    /*height: 40px;*/
+    /*line-height: 1.4;*/
+    padding-top: 0;
+  }
 
-    .link_button {
-        position: relative;
-        display: grid;
-        align-items: center;
-        justify-items: center;
-        width: 200px;
-        height: 50px;
-        border: 2px solid #003b54;
-        border-radius: 0;
-        background-color: #fff;
-        color: #003b54;
-        margin: 0;
-        transition-duration: 0.2s;
-    }
+  .textContent {
+    color: #003b54;
+    font-size: 16px;
+    line-height: 1.4;
+    padding: 0px 0px 0px 40px;
+  }
 
-    .link_button:hover {
-        background-color: #ccc;
-    }
+  .text > a {
+    text-decoration: none;
+    color: #003b54;
+    display: inline-block;
+    margin: 30px 0 0 40px;
+  }
 
-    .link_button > .img {
-        position: absolute;
-        top: 0;
-        right: 20px;
-        height: 100%;
-        display: grid;
-        align-items: center;
-        justify-items: end;
-    }
+  .link_button {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    width: 150px;
+    height: 40px;
+    border: 2px solid #003b54;
+    border-radius: 0;
+    background-color: #fff;
+    color: #003b54;
+    margin: 0;
+    transition-duration: 0.2s;
+  }
 
-    .link_button > .img > img {
-        display: block;
-        /*height: 50%;*/
-        width: 40%;
-        aspect-ratio: 1;
-    }
+  .link_button * {
+    font-size: 16px;
+  }
+
+  .link_button:hover {
+    background-color: #ccc;
+  }
+
+  .link_button > .img {
+    position: absolute;
+    top: 10%;
+    right: 10px;
+    height: 80%;
+    display: grid;
+    align-items: center;
+    justify-items: end;
+  }
+
+  .link_button > .img > img {
+    display: block;
+    /*height: 50%;*/
+    width: 30%;
+    aspect-ratio: 1;
+  }
 </style>
