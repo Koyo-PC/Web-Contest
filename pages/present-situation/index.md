@@ -378,8 +378,8 @@ One answer to this question is <ForceText>to decrease the amount of metal resour
   </svg>
 </div>
 
-You can see everything is connected in some way.
-Let’s think about how we can solve the problems we are facing by tracing back to the root cause.
+In this way, you can understand that the difficult situations of metal resources are causing major international issues these days.
+Using this summary chart, let's think about how we can solve the current problems.
 
 ## References
 
