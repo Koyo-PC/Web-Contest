@@ -284,7 +284,7 @@ In fact, <ForceText>the majority of the components of waste electronics are made
     <CaptionImage src="../assets/susdi/40dcbe9d88c96297b642179a653642d8.jpg"
         caption="Fig. 3.2 What is a cell phone made of?"
         source="SusDI"
-        href="http://susdi.org/wp/data/post-38/"
+        link="http://susdi.org/wp/data/post-38/"
         height="40vw"
     ></CaptionImage>
 </div>
