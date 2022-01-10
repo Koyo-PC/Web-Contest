@@ -195,7 +195,7 @@ PETECで行われているリサイクルの工程を製品別に紹介しよう
 <!-- 樹形図 -->
 
 <div class="image_container">
-    <Image src="./img/petec_nonfron_box.jpg" alt="ノンフロン用破砕機写真" note="ホームページより引用" href="https://panasonic.co.jp/eco/petec/technology/">ノンフロン用破砕機写真</Image>
+    <CaptionImage src="./img/petec_nonfron_box.jpg" source="ホームページ" link="https://panasonic.co.jp/eco/petec/technology/" caption="破砕される冷蔵庫"></CaptionImage>
 </div>
 
 #### ～粉々の冷蔵庫が選別回収される工程～
@@ -564,7 +564,7 @@ If CFCs are contained in them, CFCs are removed during the crushing process and 
 After the CFC gas is extracted, the main body is crushed by a special crusher into a group of mixed metal and plastic fragments, from which the resource is extracted separately.
 
 <div class="image_container">
-    <Image src="./img/petec_nonfron_box.jpg" alt="ノンフロン用破砕機写真" note="ホームページより引用" href="https://panasonic.co.jp/eco/petec/technology/">ノンフロン用破砕機写真</Image>
+    <CaptionImage src="./img/petec_nonfron_box.jpg" source="HP" link="https://panasonic.co.jp/eco/petec/technology/" caption="a refrigerator to be crushed"></CaptionImage>
 </div>
 
 #### ～The process which shattered refrigerators are sorted and collected through～

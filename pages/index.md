@@ -145,14 +145,7 @@ There are many efforts being made to solve the problem of resources.<br>
 Many people are trying to create a better world.
 "></PageDescriptionLink>
 <PageDescriptionLink title="Activity" path="./activity/" icon="./svg/icon/E.svg">
-Here are some of the activities we have done.<br>
-<ul>
-<li><a href="./activity/questionnaire.html">Questionnaire</a></li>
-<li><a href="./activity/recycle-box.html">Recovery Box</a></li>
-<li><a href="./activity/interview.html">Interview</a></li>
-<li><a href="./activity/petec.html">Visit to Plant</a></li>
-<li><a href="./activity/disassembly.html">Cell Phone Dismantling</a></li>
-</ul>
+Here are some of the activities we have done.
 </PageDescriptionLink>
 <PageDescriptionLink title="Solution" path="./solution/" icon="./svg/icon/F.svg" content="
 It is true that there still remain some problems to be solved although many people are working hard to improve the present situation.<br>
