@@ -128,23 +128,23 @@ Certainly it has some problems, but if more and more people begin to recycle ele
 
 ## Site Map
 
-<PageDescriptionLink title="Present Situation" path="./present-situation/" content="
+<PageDescriptionLink title="Present Situation" path="./present-situation/" icon="./svg/icon/A.svg" content="
 Japan is a world leader in various fields of science and technology.<br>
 This is due to a large amount of minor metal and other metal resources.<br>
 However, it is not an easy task to obtain them.
 "></PageDescriptionLink>
-<PageDescriptionLink title="Significance of Urban Mining" path="./urban-mining/" content="
+<PageDescriptionLink title="Significance of Urban Mining" path="./urban-mining/" icon="./svg/icon/B.svg" content="
 Urban mining is a key to resource problems.<br>
 What is it like?
 "></PageDescriptionLink>
-<PageDescriptionLink title="Problem" path="./problem/" content="
+<PageDescriptionLink title="Problem" path="./problem/" icon="./svg/icon/C.svg" content="
 Urban mining makes a lot of profit, but there are still many obstacles.
 "></PageDescriptionLink>
-<PageDescriptionLink title="Measure" path="./measure/" content="
+<PageDescriptionLink title="Measure" path="./measure/" icon="./svg/icon/D.svg" content="
 There are many efforts being made to solve the problem of resources.<br>
 Many people are trying to create a better world.
 "></PageDescriptionLink>
-<PageDescriptionLink title="Activity" path="./activity/">
+<PageDescriptionLink title="Activity" path="./activity/" icon="./svg/icon/E.svg">
 Here are some of the activities we have done.<br>
 <ul>
 <li><a href="./activity/questionnaire.html">Questionnaire</a></li>
@@ -154,14 +154,14 @@ Here are some of the activities we have done.<br>
 <li><a href="./activity/disassembly.html">Cell Phone Dismantling</a></li>
 </ul>
 </PageDescriptionLink>
-<PageDescriptionLink title="Solution" path="./solution/" content="
+<PageDescriptionLink title="Solution" path="./solution/" icon="./svg/icon/F.svg" content="
 It is true that there still remain some problems to be solved although many people are working hard to improve the present situation.<br>
 We would like everyone to know how important and useful urban mining is. Here is our solution.
 "></PageDescriptionLink>
-<PageDescriptionLink title="Finally" path="./finally/" content="
+<PageDescriptionLink title="Finally" path="./finally/" icon="./svg/icon/G.svg" content="
 We hope that our thoughts will be understood by everyone... !
 "></PageDescriptionLink>
-<PageDescriptionLink title="Others" path="./others/" content="
+<PageDescriptionLink title="Others" path="./others/" icon="./svg/icon/H.svg" content="
 We publish our activity reports and references of this site.
 "></PageDescriptionLink>
 
