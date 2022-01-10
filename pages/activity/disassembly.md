@@ -179,7 +179,7 @@ h2 解体を通して感じたこと
 # Cell Phone Dismantling
 
 <NoIndent>
-On October 22, 2020, we dismantled one smartphone and one cell phone of a team member.
+On October 22, 2021, we dismantled one smartphone and one cell phone of a team member.
 </NoIndent>
 
 ## Purpose of Dismantling

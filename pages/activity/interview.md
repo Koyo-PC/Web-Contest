@@ -160,7 +160,7 @@ h2 わかったことのまとめ
 # Interview
 
 <NoIndent>
-On September 12, 2020, we had a Zoom interview with Ichiro Daigo, associate professor at the Research Center for Advanced Science and Technology, University of Tokyo.
+On September 12, 2021, we had a Zoom interview with Ichiro Daigo, associate professor at the Research Center for Advanced Science and Technology, University of Tokyo.
 </NoIndent>
 
 <div class="image_container">

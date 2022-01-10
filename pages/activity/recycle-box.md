@@ -40,7 +40,7 @@ h1 回収ボックス
 
 # Recovery Box
 
-We found out that there was a recovery box near our school, so we used it on July 14, 2020.
+We found out that there was a recovery box near our school, so we used it on July 14, 2021.
 
 <div class="image_container">
     <Image src="../img/activity/recycle-box/1.jpg"></Image>
