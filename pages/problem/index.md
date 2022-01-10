@@ -176,7 +176,7 @@ https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d230387.94422895205!2d133.9
 ## まとめ図解
 
 <div class="image_container">
-  <svg viewBox="0, 0, 1200, 700" style="width:80vw; height:40vw; margin: 5vh 0 5vh;">
+  <svg viewBox="0, 0, 1280, 720" style="width:80vw; margin: 5vh 0 5vh;">
     <use xlink:href="../svg/summary_illust/C.svg#main"></use>
   </svg>
 </div>

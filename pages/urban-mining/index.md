@@ -232,7 +232,7 @@
 ## まとめ図解
 
 <div class="image_container">
-  <svg viewBox="0, 0, 1500, 600" style="width:80vw; height:30vw; margin: 5vh 0 5vh;">
+  <svg viewBox="0, 0, 1280, 720" style="width:80vw; margin: 5vh 0 5vh;">
     <use xlink:href="../svg/summary_illust/B.svg#main"></use>
   </svg>
 </div>
