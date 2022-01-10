@@ -42,7 +42,7 @@ The name of this website, "In Search of Resources in Your Right Pocket."
 It sounds like a strange name, doesn't it?
 Actually, "in Your Right Pocket" refers to your smartphone.
 We named it after the guess that many people always keep their smartphones in their right pocket.
-We have described many things on this site, but the most important thing we want to say is that you have to be more concerned about solving resource issues.
+We have described many things on this site, but <ForceText>the most important thing we want to say is that you have to be more concerned about solving resource issues</ForceText>.
 Certainly, it may be difficult to feel as familiar with resource problems as you do with global warming.
 Even a small act for them will be helpful enough to solve them.
 Even a small act for them, such as taking a recovery box after shopping, introducing this website to your friends, and having a lot of people know about them will be helpful enough to solve them.

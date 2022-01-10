@@ -211,7 +211,7 @@ Appleはスマホの解体を機械で行っていることからヒントを得
 RoHSの基準を満たしていることを示すこのCEマーキングに見覚えがある人は多いのではないでしょうか。
 
 <div class="image_container">
-    <Image src="../assets/ec/ce-mark/ce-mark.png" note="ECよりダウンロード" href="https://ec.europa.eu/growth/single-market/ce-marking_en" height="10vw"></Image>
+    <Image src="../assets/ec/ce-mark/ce-mark.png" note="CEよりダウンロード" href="https://ec.europa.eu/growth/single-market/ce-marking_en" height="10vw"></Image>
 </div>
 
 しかしこれらはEUによるものであり、全世界で適用されているわけではありません。
@@ -489,7 +489,7 @@ Have you ever seen this CE mark?
 This label indicates the item met RoHS requirements.
 
 <div class="image_container">
-    <Image src="../assets/ec/ce-mark/ce-mark.png" note="ECよりダウンロード" href="https://ec.europa.eu/growth/single-market/ce-marking_en" height="10vw"></Image>
+    <Image src="../assets/ec/ce-mark/ce-mark.png" note="download from C.E." href="https://ec.europa.eu/growth/single-market/ce-marking_en" height="10vw"></Image>
 </div>
 
 One problem with RoHS is that it is only applied to companies in the member states of the EU, not producers around the world.
