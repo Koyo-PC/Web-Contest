@@ -346,9 +346,8 @@ We disassembled a feature phone and a smartphone.  You can check the experiment 
     </tr>
   </table>
     <figcaption style="white-space: nowrap;">
-        <a href="https://www.env.go.jp/council/former2013/03haiki/y0324-04/mat02a.pdf">References</a><br>
-        <a href="">Reference 2: Analysis results of useful metal content (halfway report)</a><br>
-        (the amount of metal in home appliances thrown away in a year)<br>/ (the number of home appliances thrown away in a year), rounded to the nearest third.
+        <a href="https://www.env.go.jp/council/former2013/03haiki/y0324-04/mat02a.pdf">Reference: Analysis results of useful metal content (halfway report)</a><br>
+        (the amount of metal in home appliances thrown away in a year) / <br>(the number of home appliances thrown away in a year), rounded to the nearest third.
     </figcaption>
 </figure>
 
