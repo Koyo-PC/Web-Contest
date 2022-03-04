@@ -39,7 +39,7 @@
 なぜなら、家電4品目をゴミに出すときに「え、ゴミ出すのにお金いるん？！まじかよ、もう誰にもバレへんように山の中に捨てちゃおーっと。」となる人が出るからです。
 もしくは、自ら山の中に捨てに行かなかったとしても、無料で回収するという謳い文句で車を走らせている違法業者に渡してしまうというケースもあります。
 このような違法業者は適切なリサイクルを行わず、利益になるような部分だけを回収した廃家電から取り出しあと、残りの部分は山の中などに不法投棄します。
-不法投棄された家電は、リサイクルに回すことができないだけでなく、中に含まれている<ForceText>フロンなどの有害物質が適切の処理されず環境の破壊につながります。</ForceText>
+不法投棄された家電は、リサイクルに回すことができないだけでなく、中に含まれている<ForceText>フロンなどの有害物質が適切に処理されず環境の破壊につながります。</ForceText>
 
 <AtomCharacter atom="Au">
 そんなデメリットがあったのね。ならそもそも消費者は捨てるときに料金を払わずに、買うときに払うようにすればいい話じゃないの？「<a href="../measure/#スイス">現在の取り組み</a>」で見たみたいにスイスはそれでうまくいってたわ。
@@ -313,7 +313,7 @@ They can recycle free of charge because they paid some money when they bought th
 So, it is expected that more people recycle what they have properly, not discard them illegally.
 This system is based on the idea that <ForceText>producers, rather than consumers, should take responsibility for recycling</ForceText>.
 It is called Extended Producer Responsibility(EPR).
-Actually, in Japan, such a system is used in <Word>the Act on the Promotion of Effective Utilization of Resources</Word>.
+Actually, in Japan, such a system is used in <Word break="normal">the Act on the Promotion of Effective Utilization of Resources</Word>.
 On the other hand, it was not used in <Word>the Act on Recycling of Specified Kinds of Home Appliances</Word>.
 One reason is that it is difficult for producers to predict how much money will be necessary to recycle the things they sell.
 Another is that it is next to impossible for them to get money from customers who have already bought products from them.

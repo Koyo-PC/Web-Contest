@@ -440,7 +440,7 @@ PETEC has met the legal recycling rate for all items. (table 5.1)
     </tr>
   </table>
   <figcaption style="white-space: nowrap;">
-      <a href="https://panasonic.co.jp/eco/petec/">https://panasonic.co.jp/eco/petec/</a>, <a href="https://www.env.go.jp/press/106879.html">https://www.env.go.jp/press/106879.html</a>より作成
+      Made by <a href="https://panasonic.co.jp/eco/petec/">https://panasonic.co.jp/eco/petec/</a>, <a href="https://www.env.go.jp/press/106879.html">https://www.env.go.jp/press/106879.html</a>
   </figcaption>
 </figure>
 
@@ -456,7 +456,7 @@ Some LCD Televisions use fluorescent tube type <Word>backlights</Word>.
 Since they contain mercury gas, which is a hazardous substance, the fluorescent tubes in the backlight unit need to be taken out.
 After being taken out, the  collected fluorescent tubes are disposed of by a specialized company.
 <div class="image_container">
-    <CaptionImage src="./img/petec_backlight.jpg" caption="Backlight removal in a dedicated booth" source="HP" href="https://panasonic.co.jp/eco/petec/process/"></CaptionImage>
+    <CaptionImage src="./img/petec_backlight.jpg" caption="Backlight removal in a dedicated booth" source="HP" src="https://panasonic.co.jp/eco/petec/process/"></CaptionImage>
 </div>
 
 Next, substrates, which contain mainly metal materials, are removed.

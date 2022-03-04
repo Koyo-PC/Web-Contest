@@ -254,6 +254,7 @@ Take a look at the graph below.(Fig. 1.1)
         force_exist="true"
         caption="Fig. 1.1 Increase in production"
         note_jp="書籍『資源論』をスキャンして作成"
+        note_en="Book 資源論"
         width="40vw"
     ></CaptionImage>
 </div>

@@ -206,7 +206,7 @@ I do not know if this simple calculation gives the right value, but we think we 
 
 <dt id="q2">
 Why is the recycling rate of large products (cars, refrigerators, televisions, etc.) so high in Japan, while that of small products (cell phones, etc.) is so low?
-We suspect that the difference in the number of years &#147;<Word>the Act on Recycling of Specified Kinds of Home Appliances</Word>&#148; and &#147;<Word>the Act on Promotion of Recycling of Small Waste Electrical and Electronic Equipment</Word>&#148; have been in effect and the strength of their enforcement is related.
+We suspect that the difference in the number of years &#147;<Word break="normal">the Act on Recycling of Specified Kinds of Home Appliances</Word>&#148; and &#147;<Word break="normal">the Act on Promotion of Recycling of Small Waste Electrical and Electronic Equipment</Word>&#148; have been in effect and the strength of their enforcement is related.
 </dt>
 <dd>
 I think that is one of the reasons.

@@ -142,7 +142,7 @@
 ## 日本における都市鉱山
 
 <Quote>
-ジパングは大陸から1500マイル離れた東方の島でとても素晴らしい。（中略）その島を治める者の宮殿は、我々の教会が鉛でふかれているのと同じように、その屋根は純金でふかれており、その価値はほとんど推測できない。さらに、宮殿の道、部屋の床は指2本文の厚みの純金の板でできている。そしてその窓も金でできており、総じてこの宮殿の豪華さは全ての限界と信用を超えている。<br>
+ジパングは大陸から1500マイル離れた東方の島でとても素晴らしい。（中略）その島を治める者の宮殿は、我々の教会が鉛でふかれているのと同じように、その屋根は純金でふかれており、その価値はほとんど推測できない。さらに、宮殿の道、部屋の床は指2本分の厚みの純金の板でできている。そしてその窓も金でできており、総じてこの宮殿の豪華さは全ての限界と信用を超えている。<br>
 — マルコポーロ『東方見聞録』<br><br>
 (<a href="https://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_3/Chapter_2">Wikisource, The Travels of Marco Polo</a>より引用、メンバーが和訳)
 </Quote>
@@ -347,7 +347,7 @@ We disassembled a feature phone and a smartphone.  You can check the experiment 
   </table>
     <figcaption style="white-space: nowrap;">
         <a href="https://www.env.go.jp/council/former2013/03haiki/y0324-04/mat02a.pdf">References</a><br>
-        Reference 2: Analysis results of useful metal content ( halfway report)<br>
+        <a href="">Reference 2: Analysis results of useful metal content (halfway report)</a><br>
         (the amount of metal in home appliances thrown away in a year)<br>/ (the number of home appliances thrown away in a year), rounded to the nearest third.
     </figcaption>
 </figure>

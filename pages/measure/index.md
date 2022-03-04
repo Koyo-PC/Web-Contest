@@ -466,7 +466,7 @@ The more companies start to recycle e-waste, the more of it will be recycled and
 </SummaryLink>
 
 <Column title="Fairphone">
-[リンクどこやー](../present-situation/)We showed that many people are harmed and killed in order to get resources needed to make electrical equipment.
+We <a href="../present-situation/">showed</a> that many people are harmed and killed in order to get resources needed to make electrical equipment.
 What can we do to prevent such conflicts from happening?
 One solution is <ForceText>urban mining, that is, to use recycled metal resources</ForceText>.
 It is also effective not to buy resources being sold as a result of conflicts, because the money can be used by armed groups.

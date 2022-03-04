@@ -19,9 +19,11 @@
 
 10月27日～10月30日：都市鉱山についての校内アンケートを実施しました。
 
-12月17日：第2次審査を通過し、セミファイナリストになりました。
+12月17日：セミファイナリストに選ばれました。
 
-2021年1月10日：コーチにサイトプロフィールをチェックしてもらい、提出する作品も一緒に提出しました。
+2022年1月31日：ファイナリストに選ばれました。
+
+2月22日：金賞に選ばれました。
 
 ## 制作者紹介
 
@@ -221,7 +223,7 @@ Web系の資格を持っているのに得意な言語はJavaらしい。<br>
 
 ### 動画
 
-- [DOVA-SYNDROME](https://panasonic.co.jp/eco/petec/download/)
+- [DOVA-SYNDROME](https://dova-s.jp/)
   - 承諾方法<br>
     [利用規約](https://dova-s.jp/_contents/agreement/)
   - 利用しているページ<br>
@@ -258,6 +260,12 @@ October 14: We visited Panasonic Eco Technology Center (PETEC), a large home app
 October 22: We dismantled one member's used cell phones (a smart phone・a feature phone).
 
 October 27- 30: We conducted a questionnaire on urban mining in our school.
+
+December 17: We became semi-finalist.
+
+January 10, 2022: We became finalist.
+
+February 22: We got the gold prize.
 
 ## Members
 
@@ -398,7 +406,7 @@ Part: Writing articles, programming and creating illustrations
     [Visit to Plant](../activity/petec.html)
 - [BOOTH](https://booth.pm/ja/items/2548309)
   - License method:<br>
-    [配布ページ](https://booth.pm/ja/items/2548309) 概要欄の利用規約
+    [配布ページ](https://booth.pm/ja/items/2548309)
   - The page it is used:<br>
     [Significance of Urban Mining](../urban-mining/)
 - [ICOOON MONO](https://icooon-mono.com/)
@@ -454,7 +462,7 @@ The other illustrations were created by team members.
 
 ### Video
 
-- [DOVA-SYNDROME](https://panasonic.co.jp/eco/petec/download/)
+- [DOVA-SYNDROME](https://dova-s.jp/)
   - License method:<br>
     [利用規約](https://dova-s.jp/_contents/agreement/)
   - The page it is used:<br>

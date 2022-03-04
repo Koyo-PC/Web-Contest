@@ -100,9 +100,6 @@
   h1 右ポケットの中の資源を求めて
   h2 サイトマップ
   h2 各機能について
-  h3 メニュー
-  h3 吹き出し辞書
-  h3 まとめ図解
   h2 キャラクター紹介
   h2 推奨環境
 </FloatingMenu>
@@ -206,9 +203,6 @@ They sometimes give extra information and discuss solutions with each other.
   h1 In search of resources in your right pocket
   h2 Site Map
   h2 About Each Function
-  h3 Menu
-  h3 Balloon Dictionary
-  h3 Summary Chart
   h2 Characters
   h2 Recommended Environment
 </FloatingMenu>
