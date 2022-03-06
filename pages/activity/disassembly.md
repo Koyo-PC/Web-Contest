@@ -190,7 +190,7 @@ On October 22, 2021, we dismantled one smartphone and one cell phone of a team m
 ## Smartphone
 
 <div class="prologue" style="text-align: center; background-color: #5bde6088">
-You can watch the dismantling on <PopupVideo v_id="1p2201012353" src="../video/activity/disassembly/WebCom21_1_product_22.01.01.23.53.mp4" poster="../video/activity/disassembly/WebCom21_1_product_22.01.01.23.53.png">this movie</PopupVideo>
+You can watch the dismantling on <PopupVideo v_id="1p2201012353_en" src="../video/activity/disassembly/WebCom21_1_product_22.01.01.23.53.mp4" poster="../video/activity/disassembly/WebCom21_1_product_22.01.01.23.53.png">this movie</PopupVideo>
 </div>
 
 The smartphone we are going to take apart is called 003SH, which was manufactured by SHARP Corporation in 2010.
@@ -254,7 +254,7 @@ Finally, we were able to dismantle it into parts as shown in the picture below.
 ## Feature Phone
 
 <div class="prologue" style="text-align: center; background-color: #5bde6088">
-You can watch the dismantling on <PopupVideo v_id="2p2201012353" src="../video/activity/disassembly/WebCom21_2_product_22.01.01.23.53.mp4" poster="../video/activity/disassembly/WebCom21_2_product_22.01.01.23.53.png">this movie</PopupVideo>
+You can watch the dismantling on <PopupVideo v_id="2p2201012353_en" src="../video/activity/disassembly/WebCom21_2_product_22.01.01.23.53.mp4" poster="../video/activity/disassembly/WebCom21_2_product_22.01.01.23.53.png">this movie</PopupVideo>
 </div>
 
 Dismantling a feature phone is similar to that of a smartphone (although both were made a long time ago).

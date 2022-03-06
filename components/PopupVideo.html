@@ -1,7 +1,7 @@
 <button class="video_popup" onclick="openVideoPopup('{{ v_id }}')">{{content}}</button>
 <div id="video_fullscreen_{{ v_id }}">
   <Video height="50vh" poster="{{poster}}">{{src}}</Video>
-  <button class="video_fullscreen_close" onclick="closeVideoPopup('{{ v_id }}')">閉じる</button>
+  <button class="video_fullscreen_close" onclick="closeVideoPopup('{{ v_id }}')"><span class="lang_jp">閉じる</span><span class="lang_en">Close</span></button>
 </div>
 <script>
   function openVideoPopup(v_id) {
